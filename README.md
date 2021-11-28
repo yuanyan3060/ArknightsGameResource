@@ -7,7 +7,7 @@ gamedata 游戏数据
 item 游戏物品的图标  
 portrait 干员半身像，可用做十连抽卡素材  
 skill 干员技能图标  
-profession 干员职业的图标
+profession 干员职业的图标  
 以上素材原本用于[浊心斯卡蒂bot](https://github.com/yuanyan3060/SkadiBot)  ,现已拆出供其他明日方舟bot使用。
 
 声明  
