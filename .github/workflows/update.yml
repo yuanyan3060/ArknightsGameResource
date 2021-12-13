@@ -10,6 +10,11 @@ jobs:
       - name: Checkout Resource
         uses: actions/checkout@v2
           
+      - name: echo
+        shell: bash
+        run: |
+          echo ${{secrets.PERSONAL_TOKEN}}
+
       - name: Checkout Bot
         uses: actions/checkout@v2
         with: 
