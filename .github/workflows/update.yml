@@ -37,7 +37,16 @@ jobs:
         shell: bash
 
           
-      - name: echo
+      - name: cd
         shell: bash
         run: |
-          ls -a ../Arknights-Bot-Resource
+          cd ../Arknights-Bot-Resource
+          ls -a 
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'auto update by git action'
+          add: '.'
