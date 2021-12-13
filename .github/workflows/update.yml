@@ -14,7 +14,6 @@ jobs:
         uses: actions/checkout@v2
         with: 
           repository: yuanyan3060/Arknights-Bot-Resource-Bot
-          token: ${{secrets.normal}}
           
       - name: echo
         shell: bash
