@@ -2,6 +2,7 @@ name: Auto Update
 
 on:
   push:
+  - cron:  '02 10,16 * * *'
 
 jobs:
   update:
@@ -48,7 +49,7 @@ jobs:
           message: 'auto update by git action'
           add: '.'
           cwd: $GITHUB_WORKSPACE/../Arknights-Bot-Resource-Bot
-          
+
       - name: cd
         shell: bash
         run: |
