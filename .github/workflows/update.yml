@@ -17,6 +17,12 @@ jobs:
       - name: Checkout Resource
         uses: actions/checkout@v2
 
+      - name: cd
+        shell: bash
+        run: |
+          cd ..
+          ls -a 
+
       - name: Checkout Bot
         uses: actions/checkout@v2
         with: 
