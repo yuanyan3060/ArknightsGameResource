@@ -36,6 +36,7 @@ jobs:
 
       - name: Update
         run: |
+          cd ./Arknights-Bot-Resource-Bot
           venv/bin/python main.py $GITHUB_WORKSPACE
         shell: bash
 
@@ -43,7 +44,6 @@ jobs:
       - name: cd
         shell: bash
         run: |
-          cd $GITHUB_WORKSPACE
           ls -a 
 
       - name: Commit changes
