@@ -7,21 +7,37 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+
+      - name: SetUp Python
+        uses: actions/setup-python@v2
+          with:
+            python-version: 3.8.3
+            architecture: x64
+
       - name: Checkout Resource
         uses: actions/checkout@v2
-          
-      - name: echo
-        shell: bash
-        run: |
-          echo ${{secrets.PERSONAL_TOKEN}}
 
       - name: Checkout Bot
         uses: actions/checkout@v2
         with: 
           repository: yuanyan3060/Arknights-Bot-Resource-Bot
           token: ${{secrets.PERSONAL_TOKEN}}
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m venv venv
+          venv\Scripts\python3 -m pip install --upgrade pip wheel setuptools
+          venv\Scripts\python3 -m pip install -r requirements.txt
+        shell: bash
+
+      - name: Update
+        run: |
+          venv\Scripts\python3 main.py ../Arknights-Bot-Resource
+        shell: bash
+
           
       - name: echo
         shell: bash
         run: |
-          ls -a
+          ls -a ../Arknights-Bot-Resource
