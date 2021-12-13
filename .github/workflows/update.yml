@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v2
         with: 
           repository: yuanyan3060/Arknights-Bot-Resource-Bot
-          path: ${{GITHUB_WORKSPACE}}/../yuanyan3060/Arknights-Bot-Resource-Bot
+          path: $GITHUB_WORKSPACE/../yuanyan3060/Arknights-Bot-Resource-Bot
           token: ${{secrets.PERSONAL_TOKEN}}
 
       - name: Install dependencies
