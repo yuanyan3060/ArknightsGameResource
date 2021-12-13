@@ -45,6 +45,7 @@ jobs:
         shell: bash
         run: |
           ls -a 
+          rm -rf ./Arknights-Bot-Resource-Bot
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
@@ -53,4 +54,3 @@ jobs:
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
           message: 'auto update by git action'
           add: '.'
-          remove: 'Arknights-Bot-Resource-Bot'
