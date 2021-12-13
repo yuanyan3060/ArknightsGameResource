@@ -1,0 +1,22 @@
+name: Auto Update
+
+on:
+  push:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Resource
+        uses: actions/checkout@v2
+          
+      - name: Checkout Bot
+        uses: actions/checkout@v2
+        with: 
+          repository: yuanyan3060/Arknights-Bot-Resource-Bot
+          token: ${{secrets.GitHub_PAT}}
+          
+      - name: echo
+        shell: bash
+        run: |
+          ls -a
