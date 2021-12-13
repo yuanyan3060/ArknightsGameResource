@@ -2,7 +2,7 @@ name: Auto Update
 
 on:
   push:
-  - cron:  '02 10,16 * * *'
+  cron:  '02 10,16 * * *'
 
 jobs:
   update:
