@@ -40,6 +40,14 @@ jobs:
           venv/bin/python main.py $GITHUB_WORKSPACE
         shell: bash
 
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'auto update by git action'
+          add: '.'
+          cwd: $GITHUB_WORKSPACE/../Arknights-Bot-Resource-Bot
           
       - name: cd
         shell: bash
