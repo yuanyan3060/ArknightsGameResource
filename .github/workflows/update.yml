@@ -3,7 +3,7 @@ name: Auto Update
 on:
   push:
   schedule:
-    - cron:  '0 10,16 * * *'
+    - cron:  '0 2,8 * * *'
 
 jobs:
   update:
