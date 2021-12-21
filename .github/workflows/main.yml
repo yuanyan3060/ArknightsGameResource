@@ -27,14 +27,14 @@ jobs:
           path: $GITHUB_WORKSPACE/../Arknights-Bot-Resource-Bot
           token: ${{secrets.PERSONAL_TOKEN}}
 
-      - name: Install dependencies
-        run: |
-          cd ./Arknights-Bot-Resource-Bot
-          python3 -m pip install --upgrade pip
-          python3 -m venv venv
-          venv/bin/python -m pip install --upgrade pip wheel setuptools
-          venv/bin/python -m pip install -r requirements.txt
-        shell: bash
+      #- name: Install dependencies
+      #  run: |
+      #    cd ./Arknights-Bot-Resource-Bot
+      #    python3 -m pip install --upgrade pip
+      #    python3 -m venv venv
+      #    venv/bin/python -m pip install --upgrade pip wheel setuptools
+      #    venv/bin/python -m pip install -r requirements.txt
+      #  shell: bash
 
       - name: Update
         run: |
