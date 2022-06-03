@@ -60,6 +60,7 @@ jobs:
         run: |
           ls -a 
           rm -rf ./Arknights-Bot-Resource-Bot
+          python ./levels_gen.py
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
