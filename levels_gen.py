@@ -7,9 +7,9 @@ def read_json(path:Union[str, Path])->Union[Dict, List]:
 
 maps = read_json("map.json")
 levels :List[Dict[str, str]] = []
-stage_table = read_json("gamedata\\excel\\stage_table.json")
-roguelike_topic_table = read_json("gamedata\\excel\\roguelike_topic_table.json")
-handbook_info_table = read_json("gamedata\\excel\\handbook_info_table.json")
+stage_table = read_json("gamedata/excel/stage_table.json")
+roguelike_topic_table = read_json("gamedata/excel/roguelike_topic_table.json")
+handbook_info_table = read_json("gamedata/excel/handbook_info_table.json")
 
 for stageId, data in stage_table["stages"].items():
     if data["levelId"] is None:
