@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v2
         with: 
           repository: yuanyan3060/Arknights-Bot-Resource-Bot
-          path: $GITHUB_WORKSPACE/../../Arknights-Bot-Resource-Bot
+          path: $GITHUB_WORKSPACE/../Arknights-Bot-Resource-Bot
           token: ${{secrets.PERSONAL_TOKEN}}
 
       #- name: Install dependencies
@@ -38,7 +38,7 @@ jobs:
 
       - name: Update
         run: |
-          cd ../Arknights-Bot-Resource-Bot
+          cd ./Arknights-Bot-Resource-Bot
           python3 -m pip install --upgrade pip
           python3 -m venv venv
           venv/bin/python -m pip install --upgrade pip wheel setuptools
@@ -59,7 +59,7 @@ jobs:
         shell: bash
         run: |
           ls -a 
-          rm -rf ../Arknights-Bot-Resource-Bot
+          rm -rf ./Arknights-Bot-Resource-Bot
           python ./levels_gen.py
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
