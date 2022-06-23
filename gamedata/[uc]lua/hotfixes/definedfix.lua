@@ -3,14 +3,13 @@ local list =
 {
   
   "HotFixes/ShopHotfixer",
-  "HotFixes/DynamicMusicCompInfoHotfixer",
-  "HotFixes/ItemRepoHotfixer",
-  "HotFixes/InParamsHotfixer",
-  "HotFixes/UIHotfixer",
-  "HotFixes/NameCardHotfixer",
-  "HotFixes/StagePreviewStateHotfixer",
-  "HotFixes/DeepSeaRPBattlePreviewStateHotfixer",
-  "HotFixes/DeepSeaRolePlayPageHotfixer",
+  "HotFixes/ScatteredProjectileHitBehaviourHotfixer",
+  "HotFixes/ClimbTowerLayerViewValueChangedHotfixer",
+  "HotFixes/RoguelikeMonthSquadViewModelHotfixer",
+  "HotFixes/UIItemDescFloatStageDropDetailHotfixer",
+  "HotFixes/UniEquipSingleEquipViewHotfixer",
+  "HotFixes/LegionUILibraryCardItemHotfixer",
+  "HotFixes/RoguelikeCharEquipHotfixer",
 };
 
 return list;
