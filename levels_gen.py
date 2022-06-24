@@ -91,6 +91,12 @@ for level in levels:
                     }
                 )
             tiles.append(tmp)
+        if level_path in maps:
+            view = maps[level_path]
+        elif (level_path:=level_path.replace("main/level_tough", "main/level_main")) in maps:
+            view = maps[level_path]
+        else:
+            continue
         result.append({
             "name":name,
             "code": code,
@@ -99,7 +105,7 @@ for level in levels:
             "width": width,
             "height": height,
             "tiles": tiles,
-            "view": maps[level_path]
+            "view": view
         })
     except:
         pass
