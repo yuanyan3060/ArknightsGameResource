@@ -1,4 +1,7 @@
 # Arknights-Bot-Resource
+
+<img alt="size" src="https://img.shields.io/github/repo-size/yuanyan3060/Arknights-Bot-Resource?color=%23ffeb3b">
+
 明日方舟bot常用素材  
 --
 version 明日方舟游戏素材的版本，可据此判断是否需要更新素材  
