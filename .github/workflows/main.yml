@@ -1,0 +1,70 @@
+name: Auto Update
+
+on:
+  push:
+  schedule:
+    - cron:  '0 0/1 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: SetUp Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9.4
+          architecture: x64
+
+      - name: Checkout Resource
+        uses: actions/checkout@v2
+
+
+      - name: Checkout Bot
+        uses: actions/checkout@v2
+        with: 
+          repository: yuanyan3060/Arknights-Bot-Resource-Bot
+          path: $GITHUB_WORKSPACE/../Arknights-Bot-Resource-Bot
+          token: ${{secrets.PERSONAL_TOKEN}}
+
+      #- name: Install dependencies
+      #  run: |
+      #    cd ./Arknights-Bot-Resource-Bot
+      #    python3 -m pip install --upgrade pip
+      #    python3 -m venv venv
+      #    venv/bin/python -m pip install --upgrade pip wheel setuptools
+      #    venv/bin/python -m pip install -r requirements.txt
+      #  shell: bash
+
+      - name: Update
+        run: |
+          cd ./Arknights-Bot-Resource-Bot
+          python3 -m pip install --upgrade pip
+          python3 -m venv venv
+          venv/bin/python -m pip install --upgrade pip wheel setuptools
+          venv/bin/python -m pip install -r requirements.txt
+          venv/bin/python run.py $GITHUB_WORKSPACE
+        shell: bash
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'auto update by git action'
+          add: '.'
+          cwd: $GITHUB_WORKSPACE/../Arknights-Bot-Resource-Bot
+
+      - name: cd
+        shell: bash
+        run: |
+          ls -a 
+          rm -rf ./Arknights-Bot-Resource-Bot
+          python ./levels_gen.py
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: yuanyan3060
+          author_email: 1846865993@qq.com
+          message: 'auto update'
+          add: '.'
