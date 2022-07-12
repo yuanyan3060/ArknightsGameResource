@@ -55,12 +55,12 @@ jobs:
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
           message: 'auto update by git action'
           add: '.'
-          cwd: $GITHUB_WORKSPACE/../Arknights-Bot-Resource-Bot
+          cwd: $GITHUB_WORKSPACE/Arknights-Bot-Resource-Bot
 
       - name: cd
         shell: bash
         run: |
-          ls -a ./Arknights-Bot-Resource-Bot
+          ls -a ./Arknights-Bot-Resource-Bot/tmp
           rm -rf ./Arknights-Bot-Resource-Bot
           python ./levels_gen.py
       - name: Commit changes
