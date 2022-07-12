@@ -62,13 +62,13 @@ jobs:
         shell: bash
         run: |
           ls -a ./Arknights-Bot-Resource-Bot/tmp
-          ls -a ./Arknights-Bot-Resource-Bot/tmp/all
+          ls -a ./Arknights-Bot-Resource-Bot/tmp/frame/skin
           rm -rf ./Arknights-Bot-Resource-Bot
           python ./levels_gen.py
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v7
-        with:
-          author_name: yuanyan3060
-          author_email: 1846865993@qq.com
-          message: 'auto update'
-          add: '.'
+      #- name: Commit changes
+      #  uses: EndBug/add-and-commit@v7
+      #  with:
+      #    author_name: yuanyan3060
+      #    author_email: 1846865993@qq.com
+      #    message: 'auto update'
+      #    add: '.'
