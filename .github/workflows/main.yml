@@ -11,13 +11,10 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup FFmpeg
-        uses: FedericoCarboni/setup-ffmpeg@v1.1.0
-        
       - name: SetUp Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.9.4
+          python-version: 3.10
           architecture: x64
 
       - name: Checkout Resource
