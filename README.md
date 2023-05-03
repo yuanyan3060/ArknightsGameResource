@@ -1,5 +1,4 @@
-# Arknights-Bot-Resource
-明日方舟bot常用素材  
+明日方舟常用素材(已支持新版gamedata)  
 --
 version 明日方舟游戏素材的版本，可据此判断是否需要更新素材  
 avatar 干员的头像  
