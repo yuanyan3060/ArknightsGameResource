@@ -61,7 +61,7 @@ jobs:
         shell: bash
         run: |
           rm -rf ./Arknights-Bot-Resource-Bot
-          venv/bin/python levels_gen.py
+          python ./levels_gen.py
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
