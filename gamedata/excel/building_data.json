@@ -13,7 +13,7 @@
   "creditCeiling": 50,
   "manufactUnlockTips": "制造站已经可以制造{0}",
   "shopUnlockTips": "销售站已经可以销售{0}",
-  "manufactStationBuff": 0.10000000149011612,
+  "manufactStationBuff": 0.1,
   "comfortManpowerRecoverFactor": 25,
   "manpowerDisplayFactor": 360000,
   "shopOutputRatio": {},
@@ -2577,16 +2577,48 @@
     }
   },
   "controlData": {
-    "basicCostBuff": -5
+    "basicCostBuff": -5,
+    "phases": []
   },
   "manufactData": {
-    "basicSpeedBuff": 0.009999999776482582
+    "basicSpeedBuff": 0.01,
+    "phases": [
+      {
+        "speed": 1.0,
+        "outputCapacity": 24
+      },
+      {
+        "speed": 1.0,
+        "outputCapacity": 36
+      },
+      {
+        "speed": 1.0,
+        "outputCapacity": 54
+      }
+    ]
   },
   "shopData": {
     "phases": []
   },
   "hireData": {
-    "basicSpeedBuff": 0.05000000074505806
+    "basicSpeedBuff": 0.05,
+    "phases": [
+      {
+        "economizeRate": 0.1,
+        "resSpeed": 100,
+        "refreshTimes": 3
+      },
+      {
+        "economizeRate": 0.2,
+        "resSpeed": 100,
+        "refreshTimes": 3
+      },
+      {
+        "economizeRate": 0.3,
+        "resSpeed": 100,
+        "refreshTimes": 3
+      }
+    ]
   },
   "dormData": {
     "phases": [
@@ -2613,10 +2645,44 @@
     ]
   },
   "meetingData": {
-    "basicSpeedBuff": 0.05000000074505806
+    "basicSpeedBuff": 0.05,
+    "phases": [
+      {
+        "friendSlotInc": 10,
+        "maxVisitorNum": 10,
+        "gatheringSpeed": 100
+      },
+      {
+        "friendSlotInc": 20,
+        "maxVisitorNum": 10,
+        "gatheringSpeed": 100
+      },
+      {
+        "friendSlotInc": 35,
+        "maxVisitorNum": 10,
+        "gatheringSpeed": 100
+      }
+    ]
   },
   "tradingData": {
-    "basicSpeedBuff": 0.009999999776482582
+    "basicSpeedBuff": 0.01,
+    "phases": [
+      {
+        "orderSpeed": 1.0,
+        "orderLimit": 6,
+        "orderRarity": 1
+      },
+      {
+        "orderSpeed": 1.0,
+        "orderLimit": 8,
+        "orderRarity": 2
+      },
+      {
+        "orderSpeed": 1.0,
+        "orderLimit": 10,
+        "orderRarity": 3
+      }
+    ]
   },
   "workshopData": {
     "phases": [
@@ -2632,10 +2698,22 @@
     ]
   },
   "trainingData": {
-    "basicSpeedBuff": 0.05000000074505806
+    "basicSpeedBuff": 0.05,
+    "phases": [
+      {
+        "specSkillLvlLimit": 1
+      },
+      {
+        "specSkillLvlLimit": 2
+      },
+      {
+        "specSkillLvlLimit": 3
+      }
+    ]
   },
   "powerData": {
-    "basicSpeedBuff": 0.05000000074505806
+    "basicSpeedBuff": 0.05,
+    "phases": []
   },
   "chars": {
     "char_285_medic2": {
@@ -76346,7 +76424,7 @@
       "apCost": 360000,
       "formulaType": "F_BUILDING",
       "buffType": "W_BUILDING",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -76380,7 +76458,7 @@
       "apCost": 720000,
       "formulaType": "F_BUILDING",
       "buffType": "W_BUILDING",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -76414,7 +76492,7 @@
       "apCost": 1440000,
       "formulaType": "F_BUILDING",
       "buffType": "W_BUILDING",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -76448,7 +76526,7 @@
       "apCost": 720000,
       "formulaType": "F_BUILDING",
       "buffType": "W_BUILDING",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -76487,7 +76565,7 @@
       "apCost": 1440000,
       "formulaType": "F_BUILDING",
       "buffType": "W_BUILDING",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -76526,7 +76604,7 @@
       "apCost": 360000,
       "formulaType": "F_BUILDING",
       "buffType": "W_BUILDING",
-      "extraOutcomeRate": 0.05000000074505806,
+      "extraOutcomeRate": 0.05,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -76565,7 +76643,7 @@
       "apCost": 720000,
       "formulaType": "F_BUILDING",
       "buffType": "W_BUILDING",
-      "extraOutcomeRate": 0.05000000074505806,
+      "extraOutcomeRate": 0.05,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -76599,7 +76677,7 @@
       "apCost": 1440000,
       "formulaType": "F_BUILDING",
       "buffType": "W_BUILDING",
-      "extraOutcomeRate": 0.05000000074505806,
+      "extraOutcomeRate": 0.05,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -76633,7 +76711,7 @@
       "apCost": 360000,
       "formulaType": "F_BUILDING",
       "buffType": "W_BUILDING",
-      "extraOutcomeRate": 0.05000000074505806,
+      "extraOutcomeRate": 0.05,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -76672,7 +76750,7 @@
       "apCost": 720000,
       "formulaType": "F_BUILDING",
       "buffType": "W_BUILDING",
-      "extraOutcomeRate": 0.05000000074505806,
+      "extraOutcomeRate": 0.05,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -76706,7 +76784,7 @@
       "apCost": 1440000,
       "formulaType": "F_BUILDING",
       "buffType": "W_BUILDING",
-      "extraOutcomeRate": 0.05000000074505806,
+      "extraOutcomeRate": 0.05,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -76740,7 +76818,7 @@
       "apCost": 2880000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 84,
@@ -76864,7 +76942,7 @@
       "apCost": 2880000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 84,
@@ -76988,7 +77066,7 @@
       "apCost": 2880000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 84,
@@ -77107,7 +77185,7 @@
       "apCost": 2880000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 84,
@@ -77221,7 +77299,7 @@
       "apCost": 2880000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 84,
@@ -77340,7 +77418,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -77464,7 +77542,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -77588,7 +77666,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -77712,7 +77790,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -77836,7 +77914,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -77960,7 +78038,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -78084,7 +78162,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -78203,7 +78281,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -78322,7 +78400,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -78441,7 +78519,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -78560,7 +78638,7 @@
       "apCost": 360000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -78619,7 +78697,7 @@
       "apCost": 720000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -78678,7 +78756,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -78797,7 +78875,7 @@
       "apCost": 360000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -78856,7 +78934,7 @@
       "apCost": 720000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -78915,7 +78993,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -79034,7 +79112,7 @@
       "apCost": 360000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -79093,7 +79171,7 @@
       "apCost": 720000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -79152,7 +79230,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -79271,7 +79349,7 @@
       "apCost": 360000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -79330,7 +79408,7 @@
       "apCost": 720000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -79389,7 +79467,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -79508,7 +79586,7 @@
       "apCost": 360000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -79567,7 +79645,7 @@
       "apCost": 720000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -79626,7 +79704,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -79745,7 +79823,7 @@
       "apCost": 360000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -79804,7 +79882,7 @@
       "apCost": 720000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 15,
@@ -79863,7 +79941,7 @@
       "apCost": 1440000,
       "formulaType": "F_EVOLVE",
       "buffType": "W_EVOLVE",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 60,
@@ -79972,7 +80050,7 @@
       "apCost": 360000,
       "formulaType": "F_SKILL",
       "buffType": "W_SKILL",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80011,7 +80089,7 @@
       "apCost": 720000,
       "formulaType": "F_SKILL",
       "buffType": "W_SKILL",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80050,7 +80128,7 @@
       "apCost": 360000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80119,7 +80197,7 @@
       "apCost": 360000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80188,7 +80266,7 @@
       "apCost": 360000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80257,7 +80335,7 @@
       "apCost": 360000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80326,7 +80404,7 @@
       "apCost": 360000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80395,7 +80473,7 @@
       "apCost": 360000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80464,7 +80542,7 @@
       "apCost": 360000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80533,7 +80611,7 @@
       "apCost": 360000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80602,7 +80680,7 @@
       "apCost": 720000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80671,7 +80749,7 @@
       "apCost": 720000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80740,7 +80818,7 @@
       "apCost": 720000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80809,7 +80887,7 @@
       "apCost": 720000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80878,7 +80956,7 @@
       "apCost": 720000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -80947,7 +81025,7 @@
       "apCost": 720000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -81016,7 +81094,7 @@
       "apCost": 720000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
@@ -81085,7 +81163,7 @@
       "apCost": 720000,
       "formulaType": "F_ASC",
       "buffType": "W_ASC",
-      "extraOutcomeRate": 0.10000000149011612,
+      "extraOutcomeRate": 0.1,
       "extraOutcomeGroup": [
         {
           "weight": 100,
