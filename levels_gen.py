@@ -2,16 +2,15 @@ import json
 from typing import Union, List, Dict
 from pathlib import Path
 def read_json(path:Union[str, Path])->Union[Dict, List]:
-    with open(pathlib.Path(__file__).parent/path, "r", encoding="UTF-8") as fp:
+    with open(Path(__file__).parent/path, "r", encoding="UTF-8") as fp:
         return json.loads(fp.read())
-try:
-    maps = read_json("map.json")
-    levels :List[Dict[str, str]] = []
-    stage_table = read_json("gamedata/excel/stage_table.json")
-    roguelike_topic_table = read_json("gamedata/excel/roguelike_topic_table.json")
-    handbook_info_table = read_json("gamedata/excel/handbook_info_table.json")
-except:
-    exit(0)
+
+maps = read_json("map.json")
+levels :List[Dict[str, str]] = []
+stage_table = read_json("gamedata/excel/stage_table.json")
+roguelike_topic_table = read_json("gamedata/excel/roguelike_topic_table.json")
+handbook_info_table = read_json("gamedata/excel/handbook_info_table.json")
+    
 for stageId, data in stage_table["stages"].items():
     if data["levelId"] is None:
         continue
