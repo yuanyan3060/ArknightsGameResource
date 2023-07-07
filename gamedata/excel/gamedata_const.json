@@ -937,6 +937,12 @@
     "ro2.virtue": "<color=#0098dc>{0}</color>",
     "ro2.mutation": "<color=#9266b2>{0}</color>",
     "ro2.desc": "<color=#6d6d6d>{0}</color>",
+    "ro3.lose": "<color=#FF6E6E>{0}</color>",
+    "ro3.get": "<color=#9ed9fd>{0}</color>",
+    "ro3.redt": "<color=#ff4532>{0}</color>",
+    "ro3.greent": "<color=#4ffaa5>{0}</color>",
+    "ro3.bluet": "<color=#0085ff>{0}</color>",
+    "ro3.bosst": "<color=#ffffff>{0}</color>",
     "rc.title": "<color=#FFFFFF>{0}</color>",
     "rc.subtitle": "<color=#FFC90E>{0}</color>",
     "rc.em": "<color=#FF7F27>{0}</color>",
@@ -1068,7 +1074,7 @@
   "monthlySubWarningTime": 345600,
   "UnlimitSkinOutOfTime": 1209600,
   "replicateShopStartTime": 1597132800,
-  "TSO": 1608192000,
+  "operatorRecordsStartTime": 1608192000,
   "isDynIllustEnabled": true,
   "isDynIllustStartEnabled": true,
   "isClassicQCShopEnabled": true,
@@ -1114,7 +1120,7 @@
     "ba.fragile": {
       "termId": "ba.fragile",
       "termName": "脆弱",
-      "description": "受到的所有伤害提升相应比例（同名效果取最高）"
+      "description": "受到的物理、法术、真实伤害提升相应比例（同名效果取最高）"
     },
     "ba.shield": {
       "termId": "ba.shield",
@@ -1421,6 +1427,11 @@
       "termName": "莱茵生命",
       "description": "包含以下干员\n赫默，伊芙利特，塞雷娅，白面鸮，梅尔，麦哲伦，多萝西，星源，缪尔赛思"
     },
+    "cc.g.sm": {
+      "termId": "cc.g.sm",
+      "termName": "萨米",
+      "description": "包含以下干员\n远山，柏喙，雪绒，提丰，寒檀"
+    },
     "cc.c.abyssal2_1": {
       "termId": "cc.c.abyssal2_1",
       "termName": "特殊加成",
@@ -1533,8 +1544,8 @@
     }
   },
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
-  "dataVersion": "39.7.0",
-  "resPrefVersion": "39d0d0",
+  "dataVersion": "40.0.0",
+  "resPrefVersion": "40d0d0",
   "announceWebBusType": "ak_announcement",
   "subProfessionDamageTypePairs": {
     "notchar1": 0,
@@ -1597,6 +1608,7 @@
     "agent": 1,
     "shotprotector": 1,
     "chainhealer": 3,
-    "crusher": 1
+    "crusher": 1,
+    "ritualist": 2
   }
 }

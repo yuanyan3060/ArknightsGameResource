@@ -624,6 +624,19 @@
       "lockedText": null,
       "canPreview": false
     },
+    "act15mini_zone1": {
+      "zoneID": "act15mini_zone1",
+      "zoneIndex": 0,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "冻原狩猎",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
     "act26side_zone1": {
       "zoneID": "act26side_zone1",
       "zoneIndex": 0,
@@ -2961,6 +2974,10 @@
     }
   },
   "zoneValidInfo": {
+    "act15mini_zone1": {
+      "startTs": 1688616000,
+      "endTs": 1689191999
+    },
     "act26side_zone1": {
       "startTs": 1686196800,
       "endTs": 1687377599
@@ -3478,11 +3495,11 @@
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
-      "buttonStyle": "NONE",
+      "buttonStyle": 0,
       "spoilAlert": false,
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ]
     },
     "main_1": {
@@ -3496,11 +3513,11 @@
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
-      "buttonStyle": "NONE",
+      "buttonStyle": 0,
       "spoilAlert": false,
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ]
     },
     "main_2": {
@@ -3514,11 +3531,11 @@
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
-      "buttonStyle": "NONE",
+      "buttonStyle": 0,
       "spoilAlert": false,
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ]
     },
     "main_3": {
@@ -3532,11 +3549,11 @@
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
-      "buttonStyle": "NONE",
+      "buttonStyle": 0,
       "spoilAlert": false,
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ]
     },
     "main_4": {
@@ -3550,11 +3567,11 @@
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
-      "buttonStyle": "NONE",
+      "buttonStyle": 0,
       "spoilAlert": false,
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ]
     },
     "main_5": {
@@ -3568,11 +3585,11 @@
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
-      "buttonStyle": "NONE",
+      "buttonStyle": 0,
       "spoilAlert": false,
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ]
     },
     "main_6": {
@@ -3586,11 +3603,11 @@
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
-      "buttonStyle": "NONE",
+      "buttonStyle": 0,
       "spoilAlert": false,
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ]
     },
     "main_7": {
@@ -3604,11 +3621,11 @@
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
-      "buttonStyle": "NONE",
+      "buttonStyle": 0,
       "spoilAlert": false,
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ]
     },
     "main_8": {
@@ -3622,11 +3639,11 @@
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
-      "buttonStyle": "NONE",
+      "buttonStyle": 0,
       "spoilAlert": false,
       "zoneOpenTime": -1,
       "diffGroup": [
-        2
+        "NORMAL"
       ]
     },
     "main_9": {
@@ -3640,12 +3657,12 @@
       "recapId": "obt/main/level_main_9_chapter_recap",
       "recapPreStageId": "st_08-06",
       "buttonName": "前情提要",
-      "buttonStyle": "RECAP",
+      "buttonStyle": 1,
       "spoilAlert": true,
       "zoneOpenTime": -1,
       "diffGroup": [
-        1,
-        2
+        "EASY",
+        "NORMAL"
       ]
     },
     "main_10": {
@@ -3659,13 +3676,13 @@
       "recapId": "obt/main/main_10_zone_enter",
       "recapPreStageId": "st_09-04",
       "buttonName": "观看序曲",
-      "buttonStyle": "REPLAY",
+      "buttonStyle": 2,
       "spoilAlert": false,
       "zoneOpenTime": 1649908800,
       "diffGroup": [
-        1,
-        2,
-        4
+        "EASY",
+        "NORMAL",
+        "TOUGH"
       ]
     },
     "main_11": {
@@ -3679,13 +3696,13 @@
       "recapId": "obt/main/main_11_zone_enter",
       "recapPreStageId": "st_10-04",
       "buttonName": "观看序曲",
-      "buttonStyle": "REPLAY",
+      "buttonStyle": 2,
       "spoilAlert": false,
       "zoneOpenTime": 1665475200,
       "diffGroup": [
-        1,
-        2,
-        4
+        "EASY",
+        "NORMAL",
+        "TOUGH"
       ]
     },
     "main_12": {
@@ -3699,13 +3716,13 @@
       "recapId": "obt/main/main_12_zone_enter",
       "recapPreStageId": "st_11-03",
       "buttonName": "观看序曲",
-      "buttonStyle": "REPLAY",
+      "buttonStyle": 2,
       "spoilAlert": false,
       "zoneOpenTime": 1680753600,
       "diffGroup": [
-        1,
-        2,
-        4
+        "EASY",
+        "NORMAL",
+        "TOUGH"
       ]
     }
   },
@@ -4533,7 +4550,7 @@
               "picRes": "pic_1_main_11_note_5",
               "textPath": "",
               "textDesc": "",
-              "recordReward": null
+              "recordReward": []
             },
             {
               "bindStageId": "main_11-17",
@@ -4582,7 +4599,7 @@
               "picRes": "pic_3_main_11_note_5",
               "textPath": null,
               "textDesc": "火光中的王宫一角。\n无人知晓维多利亚将走向何方。",
-              "recordReward": null
+              "recordReward": []
             }
           ]
         },
