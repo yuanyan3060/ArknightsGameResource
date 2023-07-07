@@ -5,7 +5,7 @@
         "char_002_amiya",
         "char_1001_amiya2"
       ],
-      "default": "char_002_amiya"
+      "defaultPatch": "char_002_amiya"
     }
   },
   "patchChars": {
@@ -16,6 +16,7 @@
       "canUseActivityPotentialItem": false,
       "potentialItemId": "p_char_002_amiya",
       "activityPotentialItemId": null,
+      "classicPotentialItemId": null,
       "nationId": "rhodes",
       "groupId": null,
       "teamId": null,
@@ -98,7 +99,7 @@
               }
             }
           ],
-          "evolveCost": null
+          "evolveCost": []
         },
         {
           "characterPrefabKey": "char_1001_amiya2",
@@ -262,7 +263,7 @@
           "skillId": "skchr_amiya2_1",
           "overridePrefabKey": null,
           "overrideTokenKey": null,
-          "levelUpCostCond": [
+          "specializeLevelUpData": [
             {
               "unlockCond": {
                 "phase": 2,
@@ -336,7 +337,7 @@
               ]
             }
           ],
-          "unlockCond": {
+          "initialUnlockCond": {
             "phase": 0,
             "level": 1
           }
@@ -345,7 +346,7 @@
           "skillId": "skchr_amiya2_2",
           "overridePrefabKey": null,
           "overrideTokenKey": null,
-          "levelUpCostCond": [
+          "specializeLevelUpData": [
             {
               "unlockCond": {
                 "phase": 2,
@@ -419,7 +420,7 @@
               ]
             }
           ],
-          "unlockCond": {
+          "initialUnlockCond": {
             "phase": 1,
             "level": 1
           }
@@ -441,11 +442,13 @@
               "blackboard": [
                 {
                   "key": "atk",
-                  "value": 0.04
+                  "value": 0.04,
+                  "valueStr": null
                 },
                 {
                   "key": "def",
-                  "value": 0.04
+                  "value": 0.04,
+                  "valueStr": null
                 }
               ]
             },
@@ -462,11 +465,13 @@
               "blackboard": [
                 {
                   "key": "atk",
-                  "value": 0.07
+                  "value": 0.07,
+                  "valueStr": null
                 },
                 {
                   "key": "def",
-                  "value": 0.07
+                  "value": 0.07,
+                  "valueStr": null
                 }
               ]
             }
@@ -479,11 +484,11 @@
           "description": "生命上限+200",
           "buff": {
             "attributes": {
-              "abnormalFlags": null,
-              "abnormalImmunes": null,
-              "abnormalAntis": null,
-              "abnormalCombos": null,
-              "abnormalComboImmunes": null,
+              "abnormalFlags": [],
+              "abnormalImmunes": [],
+              "abnormalAntis": [],
+              "abnormalCombos": [],
+              "abnormalComboImmunes": [],
               "attributeModifiers": [
                 {
                   "attributeType": 0,
@@ -495,18 +500,18 @@
               ]
             }
           },
-          "equivalentCost": null
+          "equivalentCost": []
         },
         {
           "type": 0,
           "description": "部署费用-1",
           "buff": {
             "attributes": {
-              "abnormalFlags": null,
-              "abnormalImmunes": null,
-              "abnormalAntis": null,
-              "abnormalCombos": null,
-              "abnormalComboImmunes": null,
+              "abnormalFlags": [],
+              "abnormalImmunes": [],
+              "abnormalAntis": [],
+              "abnormalCombos": [],
+              "abnormalComboImmunes": [],
               "attributeModifiers": [
                 {
                   "attributeType": 4,
@@ -518,18 +523,18 @@
               ]
             }
           },
-          "equivalentCost": null
+          "equivalentCost": []
         },
         {
           "type": 0,
           "description": "攻击力+28",
           "buff": {
             "attributes": {
-              "abnormalFlags": null,
-              "abnormalImmunes": null,
-              "abnormalAntis": null,
-              "abnormalCombos": null,
-              "abnormalComboImmunes": null,
+              "abnormalFlags": [],
+              "abnormalImmunes": [],
+              "abnormalAntis": [],
+              "abnormalCombos": [],
+              "abnormalComboImmunes": [],
               "attributeModifiers": [
                 {
                   "attributeType": 1,
@@ -541,18 +546,18 @@
               ]
             }
           },
-          "equivalentCost": null
+          "equivalentCost": []
         },
         {
           "type": 0,
           "description": "部署费用-1",
           "buff": {
             "attributes": {
-              "abnormalFlags": null,
-              "abnormalImmunes": null,
-              "abnormalAntis": null,
-              "abnormalCombos": null,
-              "abnormalComboImmunes": null,
+              "abnormalFlags": [],
+              "abnormalImmunes": [],
+              "abnormalAntis": [],
+              "abnormalCombos": [],
+              "abnormalComboImmunes": [],
               "attributeModifiers": [
                 {
                   "attributeType": 4,
@@ -564,18 +569,18 @@
               ]
             }
           },
-          "equivalentCost": null
+          "equivalentCost": []
         },
         {
           "type": 0,
           "description": "防御力+22",
           "buff": {
             "attributes": {
-              "abnormalFlags": null,
-              "abnormalImmunes": null,
-              "abnormalAntis": null,
-              "abnormalCombos": null,
-              "abnormalComboImmunes": null,
+              "abnormalFlags": [],
+              "abnormalImmunes": [],
+              "abnormalAntis": [],
+              "abnormalCombos": [],
+              "abnormalComboImmunes": [],
               "attributeModifiers": [
                 {
                   "attributeType": 2,
@@ -587,7 +592,7 @@
               ]
             }
           },
-          "equivalentCost": null
+          "equivalentCost": []
         }
       ],
       "favorKeyFrames": [
