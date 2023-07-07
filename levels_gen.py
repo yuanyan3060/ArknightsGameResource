@@ -69,8 +69,14 @@ for level in levels:
     path = Path("gamedata/levels", f"{level_path}.json")
     try:
         level_data = read_json(path)
-        width = level_data["mapData"]["width"]
-        height = level_data["mapData"]["height"]
+        mapData = level_data["mapData"]
+        if "width" in mapData and "height" in mapData:
+            width = mapData["width"]
+            height = mapData["height"]
+        else:
+            width = len(mapData["map"][0])
+            height = len(mapData["map"])
+
         tiles = []
         routes = level_data["routes"]
         StartTiles = set()
@@ -81,10 +87,10 @@ for level in levels:
                 StartTiles.add((height-startPosition[0]-1, startPosition[1]))
                 endPosition = (route["endPosition"]["row"], route["endPosition"]["col"])
                 EndTiles.add((height-endPosition[0]-1, endPosition[1]))
-        for row_index, row in enumerate(level_data["mapData"]["map"]):
+        for row_index, row in enumerate(mapData["map"]):
             tmp = []
             for i, index in enumerate(row):
-                tile_data = level_data["mapData"]["tiles"][index]
+                tile_data = mapData["tiles"][index]
                 isStart = isEnd = False
                 if (row_index, i) in StartTiles:
                     isStart = True
@@ -116,7 +122,8 @@ for level in levels:
             "tiles": tiles,
             "view": view
         })
-    except:
+    except Exception as e:
+        print(e)
         pass
 
 with open("levels.json", "w", encoding="UTF-8") as fp:
