@@ -49737,7 +49737,7 @@
   ],
   "replicateMissions": {},
   "activity": {
-    "defaultActivityData": {
+    "DEFAULT": {
       "1stact": {
         "zoneList": [
           {
@@ -49762,7 +49762,7 @@
         "shopList": []
       }
     },
-    "defaultCheckinData": {
+    "CHECKIN_ONLY": {
       "act33sign": {
         "checkInList": {
           "0": {
@@ -56002,7 +56002,7 @@
         "extraCheckinList": []
       }
     },
-    "allPlayerCheckinData": {
+    "CHECKIN_ALL_PLAYER": {
       "act1checkin": {
         "checkInList": {
           "0": {
@@ -56242,7 +56242,7 @@
         }
       }
     },
-    "versusCheckInData": {
+    "CHECKIN_VS": {
       "act1signvs": {
         "checkInDict": {
           "1": {
@@ -56505,7 +56505,7 @@
         "ruleText": "06月21日~06月25日限时开放全服助威活动。5天比拼结束后，参与过活动的博士可以在次日签到时获得家具奖励“端午粽子椅”。家具款式将根据博士的口味倾向决定（甜咸自由派的博士将获得比拼获胜方的家具奖励）"
       }
     },
-    "typeAct3d0Data": {
+    "TYPE_ACT3D0": {
       "act11d7": {
         "campBasicInfo": {
           "camp_AliveUntilSunset": {
@@ -65612,7 +65612,7 @@
         "favorUpList": {}
       }
     },
-    "typeAct4d0Data": {
+    "TYPE_ACT4D0": {
       "act7d5": {
         "mileStoneItemList": [
           {
@@ -66897,7 +66897,7 @@
         ]
       }
     },
-    "typeAct5d0Data": {
+    "TYPE_ACT5D0": {
       "act14d7": {
         "mileStoneInfo": [
           {
@@ -67975,8 +67975,8 @@
         "spReward": "mileStone_26"
       }
     },
-    "typeAct5d1Data": {},
-    "defaultCollectionData": {
+    "TYPE_ACT5D1": {},
+    "COLLECTION": {
       "act9d4": {
         "collections": [
           {
@@ -69056,7 +69056,7 @@
         }
       }
     },
-    "typeAct9d0Data": {
+    "TYPE_ACT9D0": {
       "act26side": {
         "tokenItemId": "act26side_token_fragmenta",
         "zoneDescList": {
@@ -71330,7 +71330,7 @@
         "miscHub": {}
       }
     },
-    "typeAct12SideData": {
+    "TYPE_ACT12SIDE": {
       "act12sre": {
         "constData": {
           "recycleRewardThreshold": 1000,
@@ -73292,7 +73292,7 @@
         }
       }
     },
-    "typeAct13SideData": {
+    "TYPE_ACT13SIDE": {
       "act13sre": {
         "constData": {
           "prestigeDescList": [
@@ -78364,7 +78364,7 @@
         }
       }
     },
-    "typeAct17sideData": {
+    "TYPE_ACT17SIDE": {
       "act17sre": {
         "placeDataMap": {
           "p1_1": {
@@ -100942,7 +100942,7 @@
         }
       }
     },
-    "typeAct20SideData": {
+    "TYPE_ACT20SIDE": {
       "act20side": {
         "zoneAdditionDataMap": {
           "act20side_zone1": "尚未解锁",
@@ -101459,7 +101459,7 @@
         }
       }
     },
-    "typeAct21SideData": {
+    "TYPE_ACT21SIDE": {
       "act21side": {
         "zoneAdditionDataMap": {
           "act21side_zone1": {
@@ -101486,7 +101486,7 @@
         }
       }
     },
-    "defaultLoginData": {
+    "LOGIN_ONLY": {
       "act15login": {
         "description": "<color value=#898989>该物品过期时间</color>\n<color value=#cfd340>2023/05/15 03:59</color>",
         "itemList": [
@@ -101668,7 +101668,7 @@
         "apSupplyOutOfDateDict": {}
       }
     },
-    "switchCheckinData": {
+    "SWITCH_ONLY": {
       "act1switch": {
         "constData": {
           "activityTime": "活动时间：6月29日16:00-7月13日03:59",
@@ -101717,7 +101717,7 @@
         }
       }
     },
-    "defaultMiniStoryData": {
+    "MINISTORY": {
       "act15mini": {
         "tokenItemId": "act15mini_token_figurine",
         "zoneDescList": {
@@ -102109,8 +102109,8 @@
         ]
       }
     },
-    "defaultRoguelikeData": {},
-    "defaultMultiplayData": {
+    "ROGUELIKE": {},
+    "MULTIPLAY": {
       "act17d1": {
         "stages": {
           "act17d1_01_a": {
@@ -102372,7 +102372,7 @@
         ]
       }
     },
-    "defaultInterlockData": {
+    "INTERLOCK": {
       "act1lock": {
         "stageAdditionInfoMap": {
           "act1lock_a-01": {
@@ -102463,9 +102463,9 @@
         "specialAssistData": {
           "charId": "char_485_pallas",
           "potentialRank": 0,
-          "m_skillIndex": 0,
-          "m_skinId": "",
-          "m_skills": [
+          "skillIndex": 0,
+          "skinId": "",
+          "skills": [
             {
               "skillId": "skchr_pallas_1",
               "specializeLevel": 0
@@ -102479,8 +102479,8 @@
               "specializeLevel": 0
             }
           ],
-          "m_selectEquip": null,
-          "m_equips": {},
+          "currentEquip": null,
+          "equip": {},
           "mainSkillLvl": 7,
           "evolvePhase": 2,
           "level": 30,
@@ -103117,7 +103117,7 @@
         }
       }
     },
-    "defaultBossRushData": {
+    "BOSS_RUSH": {
       "act2bossrush": {
         "zoneAdditionDataMap": {
           "act2bossrush_zone1": {
@@ -108753,7 +108753,7 @@
         }
       }
     },
-    "floatParadeData": {
+    "FLOAT_PARADE": {
       "act1float": {
         "constData": {
           "cityName": "纽莱堡市",
@@ -109317,7 +109317,7 @@
         }
       }
     },
-    "typeSandboxData": {
+    "SANDBOX": {
       "act1sandbox": {
         "milestoneDataList": [
           {
@@ -110284,7 +110284,7 @@
         "milestoneTokenId": "act1sandbox_milestone_point"
       }
     },
-    "mainlineBuffData": {
+    "MAIN_BUFF": {
       "act1mainbuff": {
         "missionGroupList": {
           "act1mainbuff_group_1": {
@@ -110375,7 +110375,7 @@
         }
       }
     },
-    "typeAct24SideData": {
+    "TYPE_ACT24SIDE": {
       "act24side": {
         "toolDataList": {
           "tool_trap": {
@@ -112381,7 +112381,7 @@
         }
       }
     },
-    "typeAct25SideData": {
+    "TYPE_ACT25SIDE": {
       "act25side": {
         "tokenItemId": "act25side_token_fdrchips",
         "constData": {
@@ -114470,7 +114470,7 @@
         ]
       }
     },
-    "typeAct38d1Data": {
+    "TYPE_ACT38D1": {
       "act38d1": {
         "scoreLevelToAppraiseDataMap": {
           "-1": 0,

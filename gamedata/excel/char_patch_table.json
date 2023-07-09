@@ -5,7 +5,7 @@
         "char_002_amiya",
         "char_1001_amiya2"
       ],
-      "defaultPatch": "char_002_amiya"
+      "default": "char_002_amiya"
     }
   },
   "patchChars": {
@@ -263,7 +263,7 @@
           "skillId": "skchr_amiya2_1",
           "overridePrefabKey": null,
           "overrideTokenKey": null,
-          "specializeLevelUpData": [
+          "levelUpCostCond": [
             {
               "unlockCond": {
                 "phase": 2,
@@ -337,7 +337,7 @@
               ]
             }
           ],
-          "initialUnlockCond": {
+          "unlockCond": {
             "phase": 0,
             "level": 1
           }
@@ -346,7 +346,7 @@
           "skillId": "skchr_amiya2_2",
           "overridePrefabKey": null,
           "overrideTokenKey": null,
-          "specializeLevelUpData": [
+          "levelUpCostCond": [
             {
               "unlockCond": {
                 "phase": 2,
@@ -420,7 +420,7 @@
               ]
             }
           ],
-          "initialUnlockCond": {
+          "unlockCond": {
             "phase": 1,
             "level": 1
           }
