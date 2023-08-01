@@ -2,7 +2,7 @@
   "basicInfo": {
     "act27side": {
       "id": "act27side",
-      "type": "ENUM",
+      "type": "TYPE_ACT27SIDE",
       "displayType": "NONE",
       "name": "火山旅梦",
       "startTime": 1690862400,
@@ -119619,6 +119619,917 @@
           1685217600,
           1685476800
         ]
+      }
+    },
+    "TYPE_ACT27SIDE": {
+      "act27side": {
+        "goodDataMap": {
+          "drunk_1": {
+            "id": "drunk_1",
+            "name": "海盐黑加仑",
+            "typeDesc": "饮品",
+            "iconId": "drunk_1",
+            "launchIconId": "listed_drunk_1",
+            "purchasePrice": [
+              20,
+              28,
+              38
+            ],
+            "sellingPriceList": [
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55
+            ],
+            "sellShopList": [
+              "shop_1",
+              "shop_3",
+              "myshop_1"
+            ],
+            "isPermanent": false
+          },
+          "drunk_2": {
+            "id": "drunk_2",
+            "name": "汐斯塔冰茶",
+            "typeDesc": "饮品",
+            "iconId": "drunk_2",
+            "launchIconId": "listed_drunk_2",
+            "purchasePrice": [
+              30,
+              42,
+              57
+            ],
+            "sellingPriceList": [
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105
+            ],
+            "sellShopList": [
+              "shop_1",
+              "shop_3",
+              "myshop_1"
+            ],
+            "isPermanent": false
+          },
+          "drunk_3": {
+            "id": "drunk_3",
+            "name": "火山咖啡",
+            "typeDesc": "饮品",
+            "iconId": "drunk_3",
+            "launchIconId": "listed_drunk_3",
+            "purchasePrice": [
+              40,
+              56,
+              76
+            ],
+            "sellingPriceList": [
+              195,
+              196,
+              197,
+              198,
+              199,
+              200,
+              201,
+              202,
+              203,
+              204,
+              205
+            ],
+            "sellShopList": [
+              "shop_1",
+              "shop_3",
+              "myshop_1"
+            ],
+            "isPermanent": false
+          },
+          "drunk_4": {
+            "id": "drunk_4",
+            "name": "棉花落日",
+            "typeDesc": "饮品",
+            "iconId": "drunk_4",
+            "launchIconId": "listed_drunk_4",
+            "purchasePrice": [
+              50,
+              70,
+              95
+            ],
+            "sellingPriceList": [
+              245,
+              246,
+              247,
+              248,
+              249,
+              250,
+              251,
+              252,
+              253,
+              254,
+              255
+            ],
+            "sellShopList": [
+              "shop_1",
+              "shop_3",
+              "myshop_1"
+            ],
+            "isPermanent": false
+          },
+          "food_1": {
+            "id": "food_1",
+            "name": "岩浆流甘草糖",
+            "typeDesc": "餐点",
+            "iconId": "food_1",
+            "launchIconId": "listed_food_1",
+            "purchasePrice": [
+              10,
+              20,
+              32
+            ],
+            "sellingPriceList": [
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45
+            ],
+            "sellShopList": [
+              "shop_2",
+              "shop_3",
+              "myshop_1"
+            ],
+            "isPermanent": false
+          },
+          "food_2": {
+            "id": "food_2",
+            "name": "吃不完酸橙派",
+            "typeDesc": "餐点",
+            "iconId": "food_2",
+            "launchIconId": "listed_food_2",
+            "purchasePrice": [
+              15,
+              30,
+              48
+            ],
+            "sellingPriceList": [
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85
+            ],
+            "sellShopList": [
+              "shop_2",
+              "shop_3",
+              "myshop_1"
+            ],
+            "isPermanent": false
+          },
+          "food_3": {
+            "id": "food_3",
+            "name": "奶霜华夫饼塔",
+            "typeDesc": "餐点",
+            "iconId": "food_3",
+            "launchIconId": "listed_food_3",
+            "purchasePrice": [
+              20,
+              40,
+              64
+            ],
+            "sellingPriceList": [
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165
+            ],
+            "sellShopList": [
+              "shop_2",
+              "shop_3",
+              "myshop_1"
+            ],
+            "isPermanent": false
+          },
+          "food_4": {
+            "id": "food_4",
+            "name": "软绵绵酥饼乐园",
+            "typeDesc": "餐点",
+            "iconId": "food_4",
+            "launchIconId": "listed_food_4",
+            "purchasePrice": [
+              25,
+              50,
+              80
+            ],
+            "sellingPriceList": [
+              195,
+              196,
+              197,
+              198,
+              199,
+              200,
+              201,
+              202,
+              203,
+              204,
+              205
+            ],
+            "sellShopList": [
+              "shop_2",
+              "shop_3",
+              "myshop_1"
+            ],
+            "isPermanent": false
+          },
+          "souvenir_1": {
+            "id": "souvenir_1",
+            "name": "新汐斯塔立体拼图",
+            "typeDesc": "纪念品",
+            "iconId": "souvenir_1",
+            "launchIconId": "listed_souvenir_1",
+            "purchasePrice": [
+              50,
+              100,
+              200
+            ],
+            "sellingPriceList": [
+              950,
+              960,
+              970,
+              980,
+              990,
+              1000,
+              1010,
+              1020,
+              1030,
+              1040,
+              1050
+            ],
+            "sellShopList": [
+              "shop_3",
+              "myshop_1"
+            ],
+            "isPermanent": true
+          }
+        },
+        "mileStoneList": [
+          {
+            "mileStoneId": "mileStone_1",
+            "mileStoneLvl": 1,
+            "needPointCnt": 103000,
+            "rewardItem": {
+              "id": "4001",
+              "count": 20000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_2",
+            "mileStoneLvl": 2,
+            "needPointCnt": 106000,
+            "rewardItem": {
+              "id": "31044",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_3",
+            "mileStoneLvl": 3,
+            "needPointCnt": 109000,
+            "rewardItem": {
+              "id": "30135",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_4",
+            "mileStoneLvl": 4,
+            "needPointCnt": 112000,
+            "rewardItem": {
+              "id": "30043",
+              "count": 4,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_5",
+            "mileStoneLvl": 5,
+            "needPointCnt": 116000,
+            "rewardItem": {
+              "id": "furni_coastCottage_stool_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_6",
+            "mileStoneLvl": 6,
+            "needPointCnt": 120000,
+            "rewardItem": {
+              "id": "2003",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_7",
+            "mileStoneLvl": 7,
+            "needPointCnt": 125000,
+            "rewardItem": {
+              "id": "30014",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_8",
+            "mileStoneLvl": 8,
+            "needPointCnt": 130000,
+            "rewardItem": {
+              "id": "3302",
+              "count": 20,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_9",
+            "mileStoneLvl": 9,
+            "needPointCnt": 135000,
+            "rewardItem": {
+              "id": "31043",
+              "count": 4,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_10",
+            "mileStoneLvl": 10,
+            "needPointCnt": 140000,
+            "rewardItem": {
+              "id": "mod_update_token_1",
+              "count": 10,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_11",
+            "mileStoneLvl": 11,
+            "needPointCnt": 148000,
+            "rewardItem": {
+              "id": "4001",
+              "count": 20000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12",
+            "mileStoneLvl": 12,
+            "needPointCnt": 156000,
+            "rewardItem": {
+              "id": "31024",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_13",
+            "mileStoneLvl": 13,
+            "needPointCnt": 164000,
+            "rewardItem": {
+              "id": "30125",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_14",
+            "mileStoneLvl": 14,
+            "needPointCnt": 172000,
+            "rewardItem": {
+              "id": "30043",
+              "count": 4,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_15",
+            "mileStoneLvl": 15,
+            "needPointCnt": 182000,
+            "rewardItem": {
+              "id": "furni_coastCottage_outsidetable_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_16",
+            "mileStoneLvl": 16,
+            "needPointCnt": 192000,
+            "rewardItem": {
+              "id": "2003",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_17",
+            "mileStoneLvl": 17,
+            "needPointCnt": 202000,
+            "rewardItem": {
+              "id": "30044",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_18",
+            "mileStoneLvl": 18,
+            "needPointCnt": 212000,
+            "rewardItem": {
+              "id": "3303",
+              "count": 10,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_19",
+            "mileStoneLvl": 19,
+            "needPointCnt": 222000,
+            "rewardItem": {
+              "id": "31023",
+              "count": 4,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_20",
+            "mileStoneLvl": 20,
+            "needPointCnt": 232000,
+            "rewardItem": {
+              "id": "mod_update_token_1",
+              "count": 10,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_21",
+            "mileStoneLvl": 21,
+            "needPointCnt": 242000,
+            "rewardItem": {
+              "id": "4001",
+              "count": 20000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_22",
+            "mileStoneLvl": 22,
+            "needPointCnt": 252000,
+            "rewardItem": {
+              "id": "30014",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_23",
+            "mileStoneLvl": 23,
+            "needPointCnt": 262000,
+            "rewardItem": {
+              "id": "30145",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_24",
+            "mileStoneLvl": 24,
+            "needPointCnt": 276000,
+            "rewardItem": {
+              "id": "30013",
+              "count": 4,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_25",
+            "mileStoneLvl": 25,
+            "needPointCnt": 290000,
+            "rewardItem": {
+              "id": "furni_coastCottage_armchair_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_26",
+            "mileStoneLvl": 26,
+            "needPointCnt": 304000,
+            "rewardItem": {
+              "id": "2003",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_27",
+            "mileStoneLvl": 27,
+            "needPointCnt": 318000,
+            "rewardItem": {
+              "id": "31024",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_28",
+            "mileStoneLvl": 28,
+            "needPointCnt": 332000,
+            "rewardItem": {
+              "id": "3302",
+              "count": 20,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_29",
+            "mileStoneLvl": 29,
+            "needPointCnt": 346000,
+            "rewardItem": {
+              "id": "31023",
+              "count": 4,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_30",
+            "mileStoneLvl": 30,
+            "needPointCnt": 360000,
+            "rewardItem": {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_31",
+            "mileStoneLvl": 31,
+            "needPointCnt": 374000,
+            "rewardItem": {
+              "id": "4001",
+              "count": 20000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_32",
+            "mileStoneLvl": 32,
+            "needPointCnt": 388000,
+            "rewardItem": {
+              "id": "30043",
+              "count": 4,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_33",
+            "mileStoneLvl": 33,
+            "needPointCnt": 402000,
+            "rewardItem": {
+              "id": "3303",
+              "count": 10,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_34",
+            "mileStoneLvl": 34,
+            "needPointCnt": 416000,
+            "rewardItem": {
+              "id": "31043",
+              "count": 4,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_35",
+            "mileStoneLvl": 35,
+            "needPointCnt": 430000,
+            "rewardItem": {
+              "id": "furni_coastCottage_surfboard_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_36",
+            "mileStoneLvl": 36,
+            "needPointCnt": 448000,
+            "rewardItem": {
+              "id": "2003",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_37",
+            "mileStoneLvl": 37,
+            "needPointCnt": 466000,
+            "rewardItem": {
+              "id": "31044",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_38",
+            "mileStoneLvl": 38,
+            "needPointCnt": 484000,
+            "rewardItem": {
+              "id": "30013",
+              "count": 4,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_39",
+            "mileStoneLvl": 39,
+            "needPointCnt": 502000,
+            "rewardItem": {
+              "id": "31043",
+              "count": 4,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_40",
+            "mileStoneLvl": 40,
+            "needPointCnt": 520000,
+            "rewardItem": {
+              "id": "mod_update_token_1",
+              "count": 10,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_41",
+            "mileStoneLvl": 41,
+            "needPointCnt": 540000,
+            "rewardItem": {
+              "id": "4001",
+              "count": 20000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_42",
+            "mileStoneLvl": 42,
+            "needPointCnt": 560000,
+            "rewardItem": {
+              "id": "30044",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_43",
+            "mileStoneLvl": 43,
+            "needPointCnt": 580000,
+            "rewardItem": {
+              "id": "2003",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_44",
+            "mileStoneLvl": 44,
+            "needPointCnt": 600000,
+            "rewardItem": {
+              "id": "31023",
+              "count": 4,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_45",
+            "mileStoneLvl": 45,
+            "needPointCnt": 620000,
+            "rewardItem": {
+              "id": "30115",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          }
+        ],
+        "goodLaunchDataList": [
+          {
+            "groupId": "act27side_group1",
+            "startTime": 1690862400,
+            "stageId": null,
+            "code": null,
+            "drinkId": "drunk_1",
+            "foodId": "food_1",
+            "souvenirId": "souvenir_1"
+          },
+          {
+            "groupId": "act27side_group2",
+            "startTime": 1691092800,
+            "stageId": "act27side_05",
+            "code": "SL-5",
+            "drinkId": "drunk_2",
+            "foodId": "food_2",
+            "souvenirId": "souvenir_1"
+          },
+          {
+            "groupId": "act27side_group3",
+            "startTime": 1691524800,
+            "stageId": "act27side_ex01",
+            "code": "SL-EX-1",
+            "drinkId": "drunk_3",
+            "foodId": "food_3",
+            "souvenirId": "souvenir_1"
+          },
+          {
+            "groupId": "act27side_group4",
+            "startTime": 1691784000,
+            "stageId": "act27side_ex05",
+            "code": "SL-EX-5",
+            "drinkId": "drunk_4",
+            "foodId": "food_4",
+            "souvenirId": "souvenir_1"
+          }
+        ],
+        "shopDataMap": {
+          "myshop_1": {
+            "shopId": "myshop_1",
+            "sortId": 1,
+            "name": "雪雉的小店",
+            "iconId": "myshop_1"
+          },
+          "shop_1": {
+            "shopId": "shop_1",
+            "sortId": 2,
+            "name": "冲击疗法酒吧",
+            "iconId": "shop_1"
+          },
+          "shop_2": {
+            "shopId": "shop_2",
+            "sortId": 3,
+            "name": "卷积云甜点屋",
+            "iconId": "shop_2"
+          },
+          "shop_3": {
+            "shopId": "shop_3",
+            "sortId": 4,
+            "name": "九点半温泉旅店",
+            "iconId": "shop_3"
+          }
+        },
+        "inquireDataList": [
+          {
+            "mileStonePt": 100000,
+            "inquireCount": 4
+          },
+          {
+            "mileStonePt": 302000,
+            "inquireCount": 5
+          },
+          {
+            "mileStonePt": 502000,
+            "inquireCount": 6
+          }
+        ],
+        "dynEntrySwitchData": [
+          {
+            "entryId": "act27side_entry_01",
+            "startHour": 0,
+            "signalId": "act27side.night"
+          },
+          {
+            "entryId": "act27side_entry_02",
+            "startHour": 6,
+            "signalId": "act27side.day"
+          },
+          {
+            "entryId": "act27side_entry_01",
+            "startHour": 18,
+            "signalId": "act27side.night"
+          }
+        ],
+        "zoneAdditionDataMap": {
+          "act27side_zone1": {
+            "zoneId": "act27side_zone1",
+            "unlockText": "尚未解锁",
+            "displayTime": "2023-08-01 12:00:00"
+          },
+          "act27side_zone2": {
+            "zoneId": "act27side_zone2",
+            "unlockText": "完成「温泉假日」后解锁",
+            "displayTime": "2023-08-01 12:00:00"
+          },
+          "act27side_zone3": {
+            "zoneId": "act27side_zone3",
+            "unlockText": "完成「温泉假日」后解锁",
+            "displayTime": "2023-08-01 12:00:00"
+          }
+        },
+        "constData": {
+          "stageId": "act27side_st01",
+          "stageCode": "SL-ST-1",
+          "purchasePriceName": [
+            "保守",
+            "稳健",
+            "激进"
+          ],
+          "furniRewardList": [
+            {
+              "furniId": "furni_coastCottage_stool_01",
+              "pointNum": 116000
+            },
+            {
+              "furniId": "furni_coastCottage_outsidetable_01",
+              "pointNum": 182000
+            },
+            {
+              "furniId": "furni_coastCottage_surfboard_01",
+              "pointNum": 430000
+            },
+            {
+              "furniId": "furni_coastCottage_armchair_01",
+              "pointNum": 290000
+            }
+          ],
+          "prizeText": "达到",
+          "playerShopId": "myshop_1",
+          "milestonePointName": "汐斯塔消费券",
+          "inquirePanelTitle": "打探对手",
+          "inquirePanelDesc": "<color=#afc094>进货</color>与<color=#afc094>售卖</color>阶段皆可使用“打探”来提早了解对手的竞争策略，每日“打探”的总次数有限，当日未使用的次数<color=#afc094>不可累计至下一天</color>；\n-第一次营业时，总共可获取6次的“打探”次数；\n\n随着每个自然日<color=#afc094>04:00</color>店铺营业机会的刷新，“打探”次数也将<color=#afc094>补充至上限</color>；随着营业额的不断提升，每日“打探”次数的<color=#afc094>上限也将得到提升</color>。",
+          "gain123": [
+            1.0,
+            0.8,
+            0.5
+          ],
+          "gain113": [
+            0.8,
+            0.8,
+            0.5
+          ],
+          "gain122": [
+            1.0,
+            0.8,
+            0.8
+          ],
+          "gain111": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "gain11None": [
+            0.8,
+            0.8,
+            0.0
+          ],
+          "gain12None": [
+            1.0,
+            0.5,
+            0.0
+          ],
+          "campaignEnemyCnt": 200
+        }
       }
     }
   },
