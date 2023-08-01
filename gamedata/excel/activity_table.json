@@ -1,5 +1,69 @@
 {
   "basicInfo": {
+    "act27side": {
+      "id": "act27side",
+      "type": "ENUM",
+      "displayType": "NONE",
+      "name": "火山旅梦",
+      "startTime": 1690862400,
+      "endTime": 1692647999,
+      "rewardEndTime": 1693252799,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act27side",
+      "medalGroupId": "medalGroupActivity27side",
+      "ungroupedMedalIds": [],
+      "isReplicate": false,
+      "needFixedSync": false
+    },
+    "act16login": {
+      "id": "act16login",
+      "type": "LOGIN_ONLY",
+      "displayType": "NONE",
+      "name": "登录领取奖励",
+      "startTime": 1690862400,
+      "endTime": 1692043199,
+      "rewardEndTime": 1692043199,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": [],
+      "isReplicate": false,
+      "needFixedSync": false
+    },
+    "act34sign": {
+      "id": "act34sign",
+      "type": "CHECKIN_ONLY",
+      "displayType": "NONE",
+      "name": "限时累计签到",
+      "startTime": 1690862400,
+      "endTime": 1692043199,
+      "rewardEndTime": 1692043199,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": [],
+      "isReplicate": false,
+      "needFixedSync": false
+    },
+    "act6pray": {
+      "id": "act6pray",
+      "type": "PRAY_ONLY",
+      "displayType": "NONE",
+      "name": "龙门幸运墙登录活动",
+      "startTime": 1690862400,
+      "endTime": 1692043199,
+      "rewardEndTime": 1692043199,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": [],
+      "isReplicate": false,
+      "needFixedSync": false
+    },
     "act19sre": {
       "id": "act19sre",
       "type": "TYPE_ACT9D0",
@@ -2307,6 +2371,27 @@
     }
   },
   "homeActConfig": {
+    "act16login": {
+      "actId": "act16login",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "ff3e6c",
+      "actTopBarText": "氤氲奇境登录活动"
+    },
+    "act34sign": {
+      "actId": "act34sign",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "0098dc",
+      "actTopBarText": "氤氲奇境签到活动"
+    },
+    "act6pray": {
+      "actId": "act6pray",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "df462d",
+      "actTopBarText": "汐斯塔涂鸦墙"
+    },
     "act1signvs": {
       "actId": "act1signvs",
       "isPopupAfterCheckin": false,
@@ -2813,6 +2898,9 @@
     }
   },
   "zoneToActivity": {
+    "act27side_zone1": "act27side",
+    "act27side_zone2": "act27side",
+    "act27side_zone3": "act27side",
     "act19sre_zone1": "act19sre",
     "act19sre_zone2": "act19sre",
     "act15mini_zone1": "act15mini",
@@ -2944,6 +3032,933 @@
     "A001_zone2": "1stact"
   },
   "missionData": [
+    {
+      "id": "27sideActivity_1",
+      "sortId": 1,
+      "description": "通关SL-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_2",
+      "sortId": 2,
+      "description": "通关SL-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_3",
+      "sortId": 3,
+      "description": "通关SL-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 50
+        },
+        {
+          "type": "FURN",
+          "id": "furni_coastCottage_bartable_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_4",
+      "sortId": 4,
+      "description": "通关SL-4，且至少击败4个“大个子”",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act27side_04",
+        "enemy_1349_rckshp",
+        "killed",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_coastCottage_ballpool_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_5",
+      "sortId": 5,
+      "description": "通关SL-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 80
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4106_bryota",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_6",
+      "sortId": 6,
+      "description": "以3星评价完成SL-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_05",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_7",
+      "sortId": 7,
+      "description": "通关SL-6，且至少打破2个水汽汽水瓶",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act27side_06",
+        "trap_123_stmbot",
+        "be_killed",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_coastCottage_sunshade_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_8",
+      "sortId": 8,
+      "description": "以3星评价完成SL-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_coastCottage_shortcutoff_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_9",
+      "sortId": 9,
+      "description": "通关SL-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_coastCottage_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_10",
+      "sortId": 10,
+      "description": "以3星评价完成SL-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_coastCottage_post_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_11",
+      "sortId": 11,
+      "description": "通关SL-8，并击败多利，“羊之主”",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act27side_08",
+        "enemy_1545_shpkg",
+        "killed",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_coastCottage_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_12",
+      "sortId": 12,
+      "description": "以3星评价完成SL-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_13",
+      "sortId": 13,
+      "description": "通关SL-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_14",
+      "sortId": 14,
+      "description": "通关SL-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_15",
+      "sortId": 15,
+      "description": "通关SL-EX-3，且至少打破2个水汽汽水瓶",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act27side_ex03",
+        "trap_123_stmbot",
+        "be_killed",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_16",
+      "sortId": 16,
+      "description": "通关SL-EX-4，且至少击败12个温泉“泥石流浪汉”",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act27side_ex04",
+        "enemy_1346_ynshp_2",
+        "killed",
+        "12"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_17",
+      "sortId": 17,
+      "description": "通关SL-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_18",
+      "sortId": 18,
+      "description": "通关SL-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_19",
+      "sortId": 19,
+      "description": "通关SL-EX-7，且至少击败8个风情街“超新星术师”",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act27side_ex07",
+        "enemy_1350_mgcshp_2",
+        "killed",
+        "8"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_20",
+      "sortId": 20,
+      "description": "通关SL-EX-8，且至少打破5个水汽汽水瓶",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "2",
+        "act27side_ex08",
+        "trap_123_stmbot",
+        "be_killed",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_21",
+      "sortId": 21,
+      "description": "通关SL-EX-8突袭模式",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_ex08#f#",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_dropS034_Image_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_22",
+      "sortId": 22,
+      "description": "以3星评价完成SL-S-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_s01",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_23",
+      "sortId": 23,
+      "description": "以3星评价完成SL-S-2，且至少打破5个水汽汽水瓶",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "3",
+        "act27side_s02",
+        "trap_123_stmbot",
+        "be_killed",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_24",
+      "sortId": 24,
+      "description": "以3星评价完成SL-S-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_s03",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_25",
+      "sortId": 25,
+      "description": "以3星评价完成SL-S-4，且至少打破5个水汽汽水瓶",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageCondition",
+      "templateType": "8",
+      "param": [
+        "8",
+        "3",
+        "act27side_s04",
+        "trap_123_stmbot",
+        "be_killed",
+        "5"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_26",
+      "sortId": 26,
+      "description": "以3星评价完成SL-S-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_s05",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_27",
+      "sortId": 27,
+      "description": "通关活动关卡15次,不含教学关、SL-P系列关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_01^act27side_02^act27side_03^act27side_04^act27side_05^act27side_06^act27side_07^act27side_08^act27side_ex01^act27side_ex01#f#^act27side_ex02^act27side_ex02#f#^act27side_ex03^act27side_ex03#f#^act27side_ex04^act27side_ex04#f#^act27side_ex05^act27side_ex05#f#^act27side_ex06^act27side_ex06#f#^act27side_ex07^act27side_ex07#f#^act27side_ex08^act27side_ex08#f#^act27side_s01^act27side_s01#f#^act27side_s02^act27side_s02#f#^act27side_s03^act27side_s03#f#^act27side_s04^act27side_s04#f#^act27side_s05^act27side_s05#f#^act27side_mo01",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_28",
+      "sortId": 28,
+      "description": "通关活动关卡45次,不含教学关、SL-P系列关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_01^act27side_02^act27side_03^act27side_04^act27side_05^act27side_06^act27side_07^act27side_08^act27side_ex01^act27side_ex01#f#^act27side_ex02^act27side_ex02#f#^act27side_ex03^act27side_ex03#f#^act27side_ex04^act27side_ex04#f#^act27side_ex05^act27side_ex05#f#^act27side_ex06^act27side_ex06#f#^act27side_ex07^act27side_ex07#f#^act27side_ex08^act27side_ex08#f#^act27side_s01^act27side_s01#f#^act27side_s02^act27side_s02#f#^act27side_s03^act27side_s03#f#^act27side_s04^act27side_s04#f#^act27side_s05^act27side_s05#f#^act27side_mo01",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "27sideActivity_29",
+      "sortId": 29,
+      "description": "通关活动关卡85次,不含教学关、SL-P系列关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act27side_01^act27side_02^act27side_03^act27side_04^act27side_05^act27side_06^act27side_07^act27side_08^act27side_ex01^act27side_ex01#f#^act27side_ex02^act27side_ex02#f#^act27side_ex03^act27side_ex03#f#^act27side_ex04^act27side_ex04#f#^act27side_ex05^act27side_ex05#f#^act27side_ex06^act27side_ex06#f#^act27side_ex07^act27side_ex07#f#^act27side_ex08^act27side_ex08#f#^act27side_s01^act27side_s01#f#^act27side_s02^act27side_s02#f#^act27side_s03^act27side_s03#f#^act27side_s04^act27side_s04#f#^act27side_s05^act27side_s05#f#^act27side_mo01",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act27side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act27side_token_fur",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
     {
       "id": "19sreActivity_1",
       "sortId": 1,
@@ -48422,6 +49437,47 @@
   ],
   "missionGroup": [
     {
+      "id": "act27side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": [],
+      "rewards": [],
+      "missionIds": [
+        "27sideActivity_1",
+        "27sideActivity_2",
+        "27sideActivity_3",
+        "27sideActivity_4",
+        "27sideActivity_5",
+        "27sideActivity_6",
+        "27sideActivity_7",
+        "27sideActivity_8",
+        "27sideActivity_9",
+        "27sideActivity_10",
+        "27sideActivity_11",
+        "27sideActivity_12",
+        "27sideActivity_13",
+        "27sideActivity_14",
+        "27sideActivity_15",
+        "27sideActivity_16",
+        "27sideActivity_17",
+        "27sideActivity_18",
+        "27sideActivity_19",
+        "27sideActivity_20",
+        "27sideActivity_21",
+        "27sideActivity_22",
+        "27sideActivity_23",
+        "27sideActivity_24",
+        "27sideActivity_25",
+        "27sideActivity_26",
+        "27sideActivity_27",
+        "27sideActivity_28",
+        "27sideActivity_29"
+      ],
+      "startTs": 1690862400,
+      "endTs": 1693252799
+    },
+    {
       "id": "act19sre",
       "title": null,
       "type": "ACTIVITY",
@@ -50583,6 +51639,205 @@
       }
     },
     "CHECKIN_ONLY": {
+      "act34sign": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "ap_supply_lt_120",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 1,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "7001",
+                "count": 5,
+                "type": "TKT_RECRUIT"
+              }
+            ],
+            "order": 2,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "2": {
+            "itemList": [
+              {
+                "id": "furni_act41d0_magmapool_01",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "3302",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 3,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 1,
+            "isDynItem": false
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3401",
+                "count": 300,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 4,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "mod_update_token_1",
+                "count": 10,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 5,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "5": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "3003",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 6,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "6": {
+            "itemList": [
+              {
+                "id": "mod_update_token_2",
+                "count": 3,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 7,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "7": {
+            "itemList": [
+              {
+                "id": "char_4041_chnut@summer#12",
+                "count": 1,
+                "type": "CHAR_SKIN"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 8,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 2,
+            "isDynItem": false
+          },
+          "8": {
+            "itemList": [
+              {
+                "id": "mod_unlock_token",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "7002",
+                "count": 5,
+                "type": "TKT_INST_FIN"
+              }
+            ],
+            "order": 9,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "9": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 10,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          }
+        },
+        "apSupplyOutOfDateDict": {
+          "ap_supply_lt_120": 1692647999
+        },
+        "dynCheckInData": null,
+        "extraCheckinList": []
+      },
       "act33sign": {
         "checkInList": {
           "0": {
@@ -102329,6 +103584,17 @@
       }
     },
     "LOGIN_ONLY": {
+      "act16login": {
+        "description": "<color value=#898989>该物品过期时间</color>\n<color value=#ff3e6c>2023/08/15 03:59</color>",
+        "itemList": [
+          {
+            "id": "LIMITED_TKT_GACHA_10_4101",
+            "count": 1,
+            "type": "LIMITED_TKT_GACHA_10"
+          }
+        ],
+        "apSupplyOutOfDateDict": {}
+      },
       "act15login": {
         "description": "<color value=#898989>该物品过期时间</color>\n<color value=#cfd340>2023/05/15 03:59</color>",
         "itemList": [
@@ -118357,6 +119623,9 @@
     }
   },
   "activityItems": {
+    "act27side": [
+      "act27side_token_fur"
+    ],
     "act19sre": [
       "act19side_token_reagents_rep_1"
     ],
@@ -118800,6 +120069,11 @@
     ]
   },
   "dynActs": {
+    "act6pray": {
+      "slotCount": 12,
+      "rule1": "用尽当日次数选取的所有心动券中，合成玉数量最多的1张心动券为当日最终奖励。",
+      "rule2": "当日心动券合成玉奖励不足400时，次日可选择3张心动券。"
+    },
     "act5pray": {
       "slotCount": 12,
       "rule1": "用尽当日次数选取的所有幸运笺中，合成玉数量最多的1张幸运笺为当日最终奖励。",
@@ -121494,6 +122768,29 @@
         }
       ],
       "startTs": 1689667200
+    },
+    {
+      "id": "dis_side_27",
+      "type": 1,
+      "funcId": "act27side",
+      "endTs": 1692647999,
+      "sortId": 57,
+      "itemId": "act27side_token_fur",
+      "timeNodes": [
+        {
+          "title": "<火山旅梦>活动已开放",
+          "ts": 1690862400
+        },
+        {
+          "title": "\"城市寻宝\"内关卡已开放",
+          "ts": 1691481600
+        },
+        {
+          "title": "\"岩浆冲浪\"内关卡已开放",
+          "ts": 1692086400
+        }
+      ],
+      "startTs": 1690862400
     }
   ],
   "actFunData": {
@@ -136003,6 +137300,12 @@
     }
   ],
   "stringRes": {
+    "act27side": {
+      "TEXT_PROGRESS_FORMAT_CAN_CLAIM": "<color=#EEE1CC>{0}/{1}</color>",
+      "TEXT_PROGRESS_FORMAT_CANNOT_CLAIM": "<color=#1FA09E>{0}/{1}</color>",
+      "TEXT_DETAIL_COLOR_CAN_CLAIM": "<color=#EEE1CC>{0}</color>",
+      "TEXT_DETAIL_COLOR_CANNOT_CLAIM": "<color=#1FA09E>{0}</color>"
+    },
     "act25side": {
       "TEXT_PROGRESS_FORMAT_CAN_CLAIM": "<color=#EAE2CE>{0}/{1}</color>",
       "TEXT_PROGRESS_FORMAT_CANNOT_CLAIM": "<color=#333333>{0}/{1}</color>",
