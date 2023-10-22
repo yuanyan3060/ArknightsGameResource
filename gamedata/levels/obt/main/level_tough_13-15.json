@@ -2441,6 +2441,30 @@
       "visitEveryCheckPoint": false
     },
     {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
       "motionMode": 0,
       "startPosition": {
         "row": 1,
@@ -2889,8 +2913,8 @@
     {
       "motionMode": 0,
       "startPosition": {
-        "row": 1,
-        "col": 6
+        "row": 2,
+        "col": 7
       },
       "endPosition": {
         "row": 6,
@@ -2910,7 +2934,7 @@
           "time": 0.0,
           "position": {
             "row": 6,
-            "col": 6
+            "col": 7
           },
           "reachOffset": {
             "x": 0.0,
@@ -3506,6 +3530,28 @@
           "preDelay": 20.0,
           "actions": [
             {
+              "actionType": 5,
+              "managedByScheduler": true,
+              "key": "enemy_1368_spilot",
+              "count": 1,
+              "preDelay": 3.0,
+              "interval": 1.0,
+              "useExtraRoute": true,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
+            },
+            {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1368_spilot",
@@ -3661,7 +3707,7 @@
         }
       ]
     },
-    "bonore_dfello1": {
+    "bonore_dfello": {
       "phases": [
         {
           "preDelay": 0.0,
@@ -3695,7 +3741,7 @@
         }
       ]
     },
-    "bonore_dfello": {
+    "bonore_spilot": {
       "phases": [
         {
           "preDelay": 0.0,
@@ -3703,7 +3749,7 @@
             {
               "actionType": 0,
               "managedByScheduler": true,
-              "key": "enemy_1360_dfello",
+              "key": "enemy_1368_spilot",
               "count": 1,
               "preDelay": 0.0,
               "interval": 1.0,
@@ -3783,9 +3829,9 @@
         "tmplId": null,
         "overrideSkillBlackboard": [
           {
-            "key": "branch_id",
+            "key": "SummonSpilot.branch_id",
             "value": 0.0,
-            "valueStr": "bonore_dfello1"
+            "valueStr": "bonore_spilot"
           },
           {
             "key": "branch_id",
