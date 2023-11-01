@@ -6,6 +6,7 @@ on:
     types: [created]
   schedule:
     - cron:  '50 0/1 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
