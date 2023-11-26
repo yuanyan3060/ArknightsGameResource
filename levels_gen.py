@@ -56,6 +56,15 @@ for i in Path("gamedata\\levels\\activities").glob("*rune/*.json"):
         "levelId":levelId
     }
     levels.append(level)
+for i in Path("gamedata\\levels\\obt\\crisis\\v2").glob("*.json"):
+    levelId = i.as_posix().removeprefix("gamedata/levels/").removesuffix(".json")
+    level = {
+        "name":i.stem,
+        "code":i.stem,
+        "stageId":i.stem,
+        "levelId":levelId
+    }
+    levels.append(level)
 
 result = []
 for level in levels:
