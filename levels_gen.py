@@ -38,7 +38,7 @@ for char_code, data in handbook_info_table["handbookStageData"].items():
         "levelId":data["levelId"].lower()
     }
     levels.append(level)
-for i in Path("gamedata\\levels\\obt\\rune").glob("*.json"):
+for i in Path("gamedata/levels/obt/rune").glob("*.json"):
     levelId = i.as_posix().removeprefix("gamedata/levels/").removesuffix(".json")
     level = {
         "name":i.stem,
@@ -47,7 +47,7 @@ for i in Path("gamedata\\levels\\obt\\rune").glob("*.json"):
         "levelId":levelId
     }
     levels.append(level)
-for i in Path("gamedata\\levels\\activities").glob("*rune/*.json"):
+for i in Path("gamedata/levels/activities").glob("*rune/*.json"):
     levelId = i.as_posix().removeprefix("gamedata/levels/").removesuffix(".json")
     level = {
         "name":i.stem,
@@ -56,7 +56,7 @@ for i in Path("gamedata\\levels\\activities").glob("*rune/*.json"):
         "levelId":levelId
     }
     levels.append(level)
-for i in Path("gamedata\\levels\\obt\\crisis/v2").glob("*.json"):
+for i in Path("gamedata/levels/obt/crisis/v2").glob("*.json"):
     levelId = i.as_posix().removeprefix("gamedata/levels/").removesuffix(".json")
     level = {
         "name":i.stem,
