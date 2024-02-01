@@ -2148,6 +2148,58 @@
       }
     ]
   },
+  "limit_bonus[sp_recover]": {
+    "attributes": {
+      "abnormalFlags": [],
+      "abnormalImmunes": [],
+      "abnormalAntis": [],
+      "abnormalCombos": [],
+      "abnormalComboImmunes": [],
+      "attributeModifiers": []
+    },
+    "buffKey": "limit_bonus[sp_recover]",
+    "loadFromDB": false,
+    "isDurableBuff": false,
+    "isSilenceable": false,
+    "isStunnable": false,
+    "isFreezable": false,
+    "isLevitatable": false,
+    "statusResistable": -254,
+    "templateKey": "limit_bonus[sp_recover]",
+    "disableOverride": false,
+    "overrideKey": null,
+    "overrideType": 0,
+    "maxStackCnt": 1,
+    "maxValidStackCnt": -1,
+    "overrideEffectKey": null,
+    "overrideOnEventPriority": false,
+    "onEventPriority": 0,
+    "audioSignal": null,
+    "lifeTimeType": -2147483646,
+    "takeSnapshotWhenExtend": false,
+    "durationKey": null,
+    "lifeTime": 0.0,
+    "triggerLifeType": -2147483646,
+    "triggerCnt": 0,
+    "triggerInterval": 0.25,
+    "waitFirstTriggerInterval": true,
+    "firstTriggerInterval": -1.0,
+    "priority": -1,
+    "priorityBBKeys": [],
+    "stripBlackboardParamsWithBuffKey": false,
+    "blackboard": [
+      {
+        "key": "max_hp_ratio",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "max_sp_recovery_per_sec",
+        "value": 0.0,
+        "valueStr": null
+      }
+    ]
+  },
   "encourage[def]": {
     "attributes": {
       "abnormalFlags": [],
