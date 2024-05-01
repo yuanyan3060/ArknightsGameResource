@@ -1562,7 +1562,8 @@
       "conds": [
         {
           "stageId": "main_08-16",
-          "completeState": 2
+          "completeState": 2,
+          "unlockTs": 0
         }
       ]
     },
@@ -1570,7 +1571,8 @@
       "conds": [
         {
           "stageId": "main_14-20",
-          "completeState": 2
+          "completeState": 2,
+          "unlockTs": 0
         }
       ]
     }
@@ -1579,17 +1581,20 @@
     "char_002_amiya": {
       "patchId": "char_002_amiya",
       "sortId": 0,
-      "infoParam": "术师"
+      "infoParam": "术师",
+      "transSortId": 1
     },
     "char_1001_amiya2": {
       "patchId": "char_1001_amiya2",
       "sortId": 1,
-      "infoParam": "近卫"
+      "infoParam": "近卫",
+      "transSortId": 0
     },
     "char_1037_amiya3": {
       "patchId": "char_1037_amiya3",
       "sortId": 2,
-      "infoParam": "医疗"
+      "infoParam": "医疗",
+      "transSortId": 2
     }
   }
 }

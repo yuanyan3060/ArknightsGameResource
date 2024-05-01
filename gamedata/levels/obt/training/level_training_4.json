@@ -889,6 +889,14 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "damageHitratePhysical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -1045,12 +1053,20 @@
             "m_defined": false,
             "m_value": 0.0
           },
-          "stunImmune": {
+          "damageHitratePhysical": {
             "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": true,
             "m_value": false
           },
           "silenceImmune": {
-            "m_defined": false,
+            "m_defined": true,
             "m_value": false
           },
           "sleepImmune": {
@@ -1066,7 +1082,7 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
-            "m_defined": true,
+            "m_defined": false,
             "m_value": false
           }
         },
