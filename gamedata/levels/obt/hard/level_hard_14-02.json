@@ -1229,7 +1229,31 @@
     "layerRects": []
   },
   "tilesDisallowToLocate": [],
-  "runes": [],
+  "runes": [
+    {
+      "difficultyMask": 7,
+      "key": "enemy_attribute_mul",
+      "professionMask": 1023,
+      "buildableMask": 3,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 1.2,
+          "valueStr": null
+        },
+        {
+          "key": "def",
+          "value": 1.2,
+          "valueStr": null
+        },
+        {
+          "key": "max_hp",
+          "value": 1.2,
+          "valueStr": null
+        }
+      ]
+    }
+  ],
   "globalBuffs": [],
   "routes": [
     {
