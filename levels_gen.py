@@ -75,7 +75,7 @@ for level in levels:
     level_path = levelId.replace("main/level_easy_sub", "main/level_sub")
     level_path = level_path.replace("main/level_easy", "main/level_main")
     #level_path = level_path.replace("main/level_tough", "main/level_main")
-    path = Path("gamedata/levels", f"{level_path}.json")
+    path = Path("gamedata/levels", f"{level_path.replace("\\", "/")}.json")
     try:
         level_data = read_json(path)
         mapData = level_data["mapData"]
