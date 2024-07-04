@@ -77,7 +77,9 @@ for i in Path("gamedata/levels/obt/crisis/v2").glob("*.json"):
     }
     levels.append(level)
 
-result = []
+if not Path("generated_level_data").exists():
+    Path("generated_level_data").mkdir()
+
 for level in levels:
     name = level["name"]
     code = level["code"]
@@ -119,11 +121,11 @@ for level in levels:
                     isEnd = True
                 tmp.append(
                     {
-                        "heightType": tile_data["heightType"],
                         "buildableType": tile_data["buildableType"],
-                        "tileKey":tile_data["tileKey"],
-                        "isStart": isStart,
-                        "isEnd":isEnd
+                        "heightType": tile_data["heightType"],
+                        "isEnd":not (isEnd and isStart) and isEnd,
+                        "isStart": not (isEnd and isStart) and isStart,
+                        "tileKey":tile_data["tileKey"]
                     }
                 )
             tiles.append(tmp)
@@ -133,19 +135,18 @@ for level in levels:
             view = maps[level_path]
         else:
             continue
-        result.append({
-            "name":name,
+        result = {
             "code": code,
-            "levelId": levelId,
-            "stageId":stageId,
-            "width": width,
             "height": height,
+            "levelId": levelId,
+            "name":name,
+            "stageId":stageId,
             "tiles": tiles,
-            "view": view
-        })
+            "view": view,
+            "width": width
+        }
+        with open("generated_level_data/" + stageId + "-" + levelId.replace("/", "-") + ".json", "w+", encoding="UTF-8") as fp:
+            json.dump(result, fp, indent=4, ensure_ascii=False)
     except Exception as e:
         print(e)
         pass
-
-with open("levels.json", "w", encoding="UTF-8") as fp:
-    json.dump(result, fp, indent=2, ensure_ascii=False)
