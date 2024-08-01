@@ -821,6 +821,30 @@
       "visitEveryCheckPoint": false
     },
     {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
       "motionMode": 0,
       "startPosition": {
         "row": 4,
@@ -1033,11 +1057,11 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "actionType": 5,
+              "actionType": 7,
               "managedByScheduler": true,
-              "key": "enemy_1014_rogue",
+              "key": "effect_warning_fullscreen",
               "count": 2,
-              "preDelay": 3.0,
+              "preDelay": 0.0,
               "interval": 0.8,
               "routeIndex": 5,
               "blockFragment": false,
@@ -1056,7 +1080,7 @@
               "actionId": null
             },
             {
-              "actionType": 0,
+              "actionType": 5,
               "managedByScheduler": true,
               "key": "enemy_1014_rogue",
               "count": 2,
@@ -1086,6 +1110,29 @@
               "preDelay": 3.0,
               "interval": 0.8,
               "routeIndex": 7,
+              "blockFragment": false,
+              "autoPreviewRoute": true,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_1014_rogue",
+              "count": 2,
+              "preDelay": 3.0,
+              "interval": 0.8,
+              "routeIndex": 8,
               "blockFragment": false,
               "autoPreviewRoute": true,
               "autoDisplayEnemyInfo": false,
@@ -1175,6 +1222,6 @@
   "hardPredefines": null,
   "excludeCharIdList": [],
   "randomSeed": 795215981,
-  "operaConfig": null,
+  "operaConfig": "common_guide",
   "runtimeData": null
 }
