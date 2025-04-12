@@ -8970,7 +8970,7 @@
   "tilesDisallowToLocate": [],
   "runes": [
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "char_attribute_mul",
       "professionMask": 1023,
       "buildableMask": 3,
@@ -9003,7 +9003,7 @@
       ]
     },
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "char_dynamic_ability_new",
       "professionMask": 639,
       "buildableMask": 3,
@@ -9016,7 +9016,7 @@
       ]
     },
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "char_skill_cd_mul",
       "professionMask": 639,
       "buildableMask": 3,
@@ -9029,6 +9029,7 @@
       ]
     }
   ],
+  "optionalRunes": {},
   "globalBuffs": [],
   "routes": [
     {
@@ -10536,6 +10537,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10560,6 +10562,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10584,6 +10587,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10608,6 +10612,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10632,6 +10637,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10656,6 +10662,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10680,6 +10687,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10704,6 +10712,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10728,6 +10737,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10752,6 +10762,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -10789,6 +10800,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -10818,6 +10830,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10842,6 +10855,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10866,6 +10880,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -10890,6 +10905,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -10915,8 +10931,9 @@
           "characterKey": "char_474_glady",
           "level": 1,
           "phase": 2,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -10937,8 +10954,9 @@
           "characterKey": "char_388_mint",
           "level": 1,
           "phase": 2,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
@@ -10959,8 +10977,9 @@
           "characterKey": "char_466_qanik",
           "level": 1,
           "phase": 2,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
@@ -10981,8 +11000,9 @@
           "characterKey": "char_4091_ulika",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -11003,8 +11023,9 @@
           "characterKey": "char_4027_heyak",
           "level": 1,
           "phase": 2,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 2,
         "mainSkillLvl": 7,
@@ -11025,8 +11046,9 @@
           "characterKey": "char_236_rope",
           "level": 70,
           "phase": 2,
-          "favorPoint": 100,
-          "potentialRank": 0
+          "favorBattlePhase": 100,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 10,
@@ -11047,8 +11069,9 @@
           "characterKey": "char_383_snsant",
           "level": 1,
           "phase": 2,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 10,
@@ -11071,8 +11094,9 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 1,
@@ -11129,8 +11153,9 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 1,
@@ -11187,8 +11212,9 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 1,
@@ -11245,8 +11271,9 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 1,
@@ -11303,8 +11330,9 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 1,
@@ -11361,8 +11389,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11383,8 +11412,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11421,8 +11451,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11459,8 +11490,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11497,8 +11529,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11535,8 +11568,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11573,8 +11607,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11601,8 +11636,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11629,8 +11665,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11657,8 +11694,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11685,8 +11723,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11713,8 +11752,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11741,8 +11781,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11769,8 +11810,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11797,8 +11839,9 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11825,8 +11868,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11847,8 +11891,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11869,8 +11914,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11891,8 +11937,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11913,8 +11960,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11935,8 +11983,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11957,8 +12006,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -11979,8 +12029,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -12001,8 +12052,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -12023,8 +12075,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -12045,8 +12098,9 @@
           "characterKey": "trap_424_pushtw",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -12067,8 +12121,9 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -12105,8 +12160,9 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -12143,8 +12199,9 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -12181,8 +12238,9 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -12219,8 +12277,9 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -12257,8 +12316,9 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -12295,8 +12355,9 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -12333,8 +12394,9 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -12391,8 +12453,9 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -12449,8 +12512,9 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,

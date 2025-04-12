@@ -927,6 +927,7 @@
   },
   "tilesDisallowToLocate": [],
   "runes": [],
+  "optionalRunes": {},
   "globalBuffs": [],
   "routes": [
     {
@@ -2289,6 +2290,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2313,6 +2315,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2337,6 +2340,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2361,6 +2365,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2385,6 +2390,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2409,6 +2415,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2433,6 +2440,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2457,6 +2465,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2481,6 +2490,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2505,6 +2515,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2529,6 +2540,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2553,6 +2565,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2577,6 +2590,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2601,6 +2615,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2625,6 +2640,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2649,6 +2665,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2673,6 +2690,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2697,6 +2715,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2721,6 +2740,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2746,8 +2766,9 @@
           "characterKey": "char_180_amgoat",
           "level": 80,
           "phase": 2,
-          "favorPoint": 50,
-          "potentialRank": 0
+          "favorBattlePhase": 50,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 2,
         "mainSkillLvl": 10,
@@ -2768,8 +2789,9 @@
           "characterKey": "char_155_tiger",
           "level": 80,
           "phase": 2,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 10,
@@ -2790,8 +2812,9 @@
           "characterKey": "char_131_flameb",
           "level": 80,
           "phase": 2,
-          "favorPoint": 0,
-          "potentialRank": 5
+          "favorBattlePhase": 0,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 10,
@@ -2812,8 +2835,9 @@
           "characterKey": "char_4106_bryota",
           "level": 20,
           "phase": 2,
-          "favorPoint": 50,
-          "potentialRank": 5
+          "favorBattlePhase": 50,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -2834,8 +2858,9 @@
           "characterKey": "char_415_flint",
           "level": 20,
           "phase": 2,
-          "favorPoint": 50,
-          "potentialRank": 0
+          "favorBattlePhase": 50,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -2856,8 +2881,9 @@
           "characterKey": "char_486_takila",
           "level": 80,
           "phase": 2,
-          "favorPoint": 50,
-          "potentialRank": 5
+          "favorBattlePhase": 50,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 10,
@@ -2876,8 +2902,9 @@
           "characterKey": "char_1016_agoat2",
           "level": 20,
           "phase": 2,
-          "favorPoint": 50,
-          "potentialRank": 0
+          "favorBattlePhase": 50,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 2,
         "mainSkillLvl": 7,

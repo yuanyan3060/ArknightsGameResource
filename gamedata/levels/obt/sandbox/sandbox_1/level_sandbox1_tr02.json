@@ -1546,7 +1546,7 @@
   "tilesDisallowToLocate": [],
   "runes": [
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "char_attribute_mul",
       "professionMask": 639,
       "buildableMask": 3,
@@ -1564,7 +1564,7 @@
       ]
     },
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "env_gbuff_new_with_verify",
       "professionMask": 256,
       "buildableMask": 3,
@@ -1587,7 +1587,7 @@
       ]
     },
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "env_gbuff_new_with_verify",
       "professionMask": 256,
       "buildableMask": 3,
@@ -1610,7 +1610,7 @@
       ]
     },
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "env_gbuff_new_with_verify",
       "professionMask": 256,
       "buildableMask": 3,
@@ -1633,6 +1633,7 @@
       ]
     }
   ],
+  "optionalRunes": {},
   "globalBuffs": [],
   "routes": [
     {
@@ -2343,6 +2344,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2372,6 +2374,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2401,6 +2404,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2425,6 +2429,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2449,6 +2454,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2473,6 +2479,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2497,6 +2504,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2526,6 +2534,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2562,6 +2571,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2598,6 +2608,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2634,6 +2645,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2670,6 +2682,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2706,6 +2719,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2742,6 +2756,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2778,6 +2793,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2814,6 +2830,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2850,6 +2867,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2886,6 +2904,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2912,8 +2931,9 @@
           "characterKey": "char_507_rsnipe",
           "level": 55,
           "phase": 1,
-          "favorPoint": 50,
-          "potentialRank": 0
+          "favorBattlePhase": 50,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -2934,8 +2954,9 @@
           "characterKey": "char_416_zumama",
           "level": 80,
           "phase": 2,
-          "favorPoint": 50,
-          "potentialRank": 0
+          "favorBattlePhase": 50,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 10,
@@ -2956,8 +2977,9 @@
           "characterKey": "char_507_rsnipe",
           "level": 55,
           "phase": 1,
-          "favorPoint": 50,
-          "potentialRank": 0
+          "favorBattlePhase": 50,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -2978,8 +3000,9 @@
           "characterKey": "char_507_rsnipe",
           "level": 55,
           "phase": 1,
-          "favorPoint": 50,
-          "potentialRank": 0
+          "favorBattlePhase": 50,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -3000,8 +3023,9 @@
           "characterKey": "char_507_rsnipe",
           "level": 55,
           "phase": 1,
-          "favorPoint": 50,
-          "potentialRank": 0
+          "favorBattlePhase": 50,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -3024,8 +3048,9 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -3046,8 +3071,9 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -3068,8 +3094,9 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -3090,8 +3117,9 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -3112,8 +3140,9 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -3134,8 +3163,9 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -3156,8 +3186,9 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -3178,8 +3209,9 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
