@@ -3260,6 +3260,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -3289,6 +3293,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -3432,6 +3440,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -3461,6 +3473,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -3604,17 +3620,21 @@
             "m_defined": false,
             "m_value": 0.0
           },
-          "stunImmune": {
+          "epBreakRecoverSpeed": {
             "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": true,
             "m_value": false
           },
           "silenceImmune": {
             "m_defined": true,
-            "m_value": false
+            "m_value": true
           },
           "sleepImmune": {
             "m_defined": true,
-            "m_value": true
+            "m_value": false
           },
           "frozenImmune": {
             "m_defined": true,
@@ -3625,7 +3645,7 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
-            "m_defined": true,
+            "m_defined": false,
             "m_value": false
           },
           "fearedImmune": {
@@ -3633,6 +3653,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -4541,9 +4565,8 @@
           "characterKey": "trap_024_npcsld",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -4565,9 +4588,8 @@
           "characterKey": "trap_024_npcsld",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -4589,9 +4611,8 @@
           "characterKey": "trap_024_npcsld",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,

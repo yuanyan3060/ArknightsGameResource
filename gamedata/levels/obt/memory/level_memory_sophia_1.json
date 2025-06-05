@@ -3680,17 +3680,21 @@
             "m_defined": false,
             "m_value": 0.0
           },
-          "stunImmune": {
+          "epBreakRecoverSpeed": {
             "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": true,
             "m_value": false
           },
           "silenceImmune": {
             "m_defined": true,
-            "m_value": false
+            "m_value": true
           },
           "sleepImmune": {
             "m_defined": true,
-            "m_value": true
+            "m_value": false
           },
           "frozenImmune": {
             "m_defined": true,
@@ -3701,7 +3705,7 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
-            "m_defined": true,
+            "m_defined": false,
             "m_value": false
           },
           "fearedImmune": {
@@ -3709,6 +3713,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -3865,17 +3873,21 @@
             "m_defined": false,
             "m_value": 0.0
           },
-          "stunImmune": {
+          "epBreakRecoverSpeed": {
             "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": true,
             "m_value": false
           },
           "silenceImmune": {
             "m_defined": true,
-            "m_value": false
+            "m_value": true
           },
           "sleepImmune": {
             "m_defined": true,
-            "m_value": true
+            "m_value": false
           },
           "frozenImmune": {
             "m_defined": true,
@@ -3886,7 +3898,7 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
-            "m_defined": true,
+            "m_defined": false,
             "m_value": false
           },
           "fearedImmune": {
@@ -3894,6 +3906,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -4646,9 +4662,8 @@
           "characterKey": "char_124_kroos",
           "level": 55,
           "phase": 0,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -4668,9 +4683,8 @@
           "characterKey": "char_265_sophia",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
@@ -4687,9 +4701,8 @@
           "characterKey": "char_423_blemsh",
           "level": 80,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -4706,9 +4719,8 @@
           "characterKey": "char_148_nearl",
           "level": 80,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -4728,9 +4740,8 @@
           "characterKey": "trap_019_electric",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -4748,9 +4759,8 @@
           "characterKey": "trap_009_battery",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 1,

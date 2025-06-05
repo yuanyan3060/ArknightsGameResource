@@ -1453,6 +1453,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -1482,6 +1486,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -1942,9 +1950,8 @@
           "characterKey": "char_263_skadi",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 2,
         "mainSkillLvl": 7,
@@ -1964,9 +1971,8 @@
           "characterKey": "char_183_skgoat",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
@@ -1986,9 +1992,8 @@
           "characterKey": "trap_001_crate",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,

@@ -2767,17 +2767,21 @@
             "m_defined": false,
             "m_value": 0.0
           },
-          "stunImmune": {
+          "epBreakRecoverSpeed": {
             "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": true,
             "m_value": false
           },
           "silenceImmune": {
             "m_defined": true,
-            "m_value": false
+            "m_value": true
           },
           "sleepImmune": {
             "m_defined": true,
-            "m_value": true
+            "m_value": false
           },
           "frozenImmune": {
             "m_defined": true,
@@ -2788,7 +2792,7 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
-            "m_defined": true,
+            "m_defined": false,
             "m_value": false
           },
           "fearedImmune": {
@@ -2796,6 +2800,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -2952,17 +2960,21 @@
             "m_defined": false,
             "m_value": 0.0
           },
-          "stunImmune": {
+          "epBreakRecoverSpeed": {
             "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": true,
             "m_value": false
           },
           "silenceImmune": {
             "m_defined": true,
-            "m_value": false
+            "m_value": true
           },
           "sleepImmune": {
             "m_defined": true,
-            "m_value": true
+            "m_value": false
           },
           "frozenImmune": {
             "m_defined": true,
@@ -2973,7 +2985,7 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
-            "m_defined": true,
+            "m_defined": false,
             "m_value": false
           },
           "fearedImmune": {
@@ -2981,6 +2993,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -3137,6 +3153,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -3166,6 +3186,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -3321,17 +3345,21 @@
             "m_defined": false,
             "m_value": 0.0
           },
-          "stunImmune": {
+          "epBreakRecoverSpeed": {
             "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": true,
             "m_value": false
           },
           "silenceImmune": {
             "m_defined": true,
-            "m_value": false
+            "m_value": true
           },
           "sleepImmune": {
             "m_defined": true,
-            "m_value": true
+            "m_value": false
           },
           "frozenImmune": {
             "m_defined": true,
@@ -3342,7 +3370,7 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
-            "m_defined": true,
+            "m_defined": false,
             "m_value": false
           },
           "fearedImmune": {
@@ -3350,6 +3378,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -4308,9 +4340,8 @@
           "characterKey": "char_235_jesica",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 10,
@@ -4332,9 +4363,8 @@
           "characterKey": "char_367_swllow",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 10,
@@ -4356,9 +4386,8 @@
           "characterKey": "char_126_shotst",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 10,
@@ -4380,9 +4409,8 @@
           "characterKey": "char_129_bluep",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 10,
@@ -4402,9 +4430,8 @@
           "characterKey": "char_308_swire",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
@@ -4424,9 +4451,8 @@
           "characterKey": "trap_012_mine",
           "level": 10,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -4444,9 +4470,8 @@
           "characterKey": "trap_018_bomb",
           "level": 10,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -4464,9 +4489,8 @@
           "characterKey": "trap_019_electric",
           "level": 10,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -4484,9 +4508,8 @@
           "characterKey": "trap_033_sbomb",
           "level": 10,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,

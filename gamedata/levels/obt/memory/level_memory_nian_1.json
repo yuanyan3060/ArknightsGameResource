@@ -3859,17 +3859,21 @@
             "m_defined": false,
             "m_value": 0.0
           },
-          "stunImmune": {
+          "epBreakRecoverSpeed": {
             "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": true,
             "m_value": false
           },
           "silenceImmune": {
             "m_defined": true,
-            "m_value": false
+            "m_value": true
           },
           "sleepImmune": {
             "m_defined": true,
-            "m_value": true
+            "m_value": false
           },
           "frozenImmune": {
             "m_defined": true,
@@ -3880,7 +3884,7 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
-            "m_defined": true,
+            "m_defined": false,
             "m_value": false
           },
           "fearedImmune": {
@@ -3888,6 +3892,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -4085,17 +4093,21 @@
             "m_defined": false,
             "m_value": 0.0
           },
-          "stunImmune": {
+          "epBreakRecoverSpeed": {
             "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": true,
             "m_value": false
           },
           "silenceImmune": {
             "m_defined": true,
-            "m_value": false
+            "m_value": true
           },
           "sleepImmune": {
             "m_defined": true,
-            "m_value": true
+            "m_value": false
           },
           "frozenImmune": {
             "m_defined": true,
@@ -4106,7 +4118,7 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
-            "m_defined": true,
+            "m_defined": false,
             "m_value": false
           },
           "fearedImmune": {
@@ -4114,6 +4126,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -4275,6 +4291,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -4304,6 +4324,10 @@
             "m_value": false
           },
           "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -5651,9 +5675,8 @@
           "characterKey": "char_274_astesi",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -5675,9 +5698,8 @@
           "characterKey": "char_333_sidero",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
@@ -5697,9 +5719,8 @@
           "characterKey": "char_121_lava",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -5716,9 +5737,8 @@
           "characterKey": "char_2014_nian",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 2,
         "mainSkillLvl": 7,
@@ -5735,9 +5755,8 @@
           "characterKey": "char_210_stward",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -5754,9 +5773,8 @@
           "characterKey": "char_120_hibisc",
           "level": 50,
           "phase": 1,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -5776,9 +5794,8 @@
           "characterKey": "trap_026_inverter",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
