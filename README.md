@@ -12,3 +12,5 @@ profession 干员职业的图标
 声明  
 --
 本项目所有静态资源，版权均属于Arknights/上海鹰角网络科技有限公司，仅用于学习和交流，侵删。
+ 
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
