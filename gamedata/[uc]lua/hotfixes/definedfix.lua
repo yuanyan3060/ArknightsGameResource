@@ -7,7 +7,9 @@ local list =
   "HotFixes/ActVecBreakV2OffenseStageSelectStateHotfixer",
   "HotFixes/ActVecBreakV2OffenseTowerViewHotfixer",
   "HotFixes/CommonCharCardCacheHotfixer",
-  "HotFixes/Phatm2TokenHitRangeProviderHotfixer"
+  "HotFixes/Phatm2TokenHitRangeProviderHotfixer",
+  "HotFixes/SceneAddLightHotfixer",
+  "HotFixes/MainTargetMultiRangedAttackHotfixer"
 };
 
 return list;
