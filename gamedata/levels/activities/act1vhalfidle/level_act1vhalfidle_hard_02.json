@@ -10,10 +10,27 @@
     "isTrainingLevel": false,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
-    "maxPlayTime": 0.0,
-    "functionDisableMask": 1133248512,
-    "configBlackBoard": [],
-    "enemyTauntLevelPow": 4
+    "displayRestTime": false,
+    "maxPlayTime": 280.0,
+    "functionDisableMask": 0,
+    "configBlackBoard": [
+      {
+        "key": "boss_branch_trigger_time",
+        "value": 200.0,
+        "valueStr": null
+      },
+      {
+        "key": "enemy_wave_appear_time",
+        "value": 0.0,
+        "valueStr": "60|130|220"
+      },
+      {
+        "key": "max_enemy_capacity",
+        "value": 15.0,
+        "valueStr": null
+      }
+    ],
+    "enemyTauntLevelPow": 0
   },
   "levelId": null,
   "mapId": null,
