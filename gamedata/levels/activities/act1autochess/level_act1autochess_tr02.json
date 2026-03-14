@@ -4064,7 +4064,7 @@
   "globalBuffs": [],
   "routes": [
     {
-      "motionMode": 1,
+      "motionMode": 0,
       "startPosition": {
         "row": 9,
         "col": 10
@@ -4088,76 +4088,6 @@
           "position": {
             "row": 9,
             "col": 9
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 11,
-            "col": 9
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 11,
-            "col": 7
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 11,
-            "col": 5
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 11,
-            "col": 4
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 9,
-            "col": 4
           },
           "reachOffset": {
             "x": 0.0,
@@ -4239,7 +4169,7 @@
     },
     {
       "useDb": true,
-      "id": "enemy_1041_lazerd",
+      "id": "enemy_1026_aghost",
       "level": 0,
       "overwrittenData": null
     }
@@ -4256,10 +4186,10 @@
             {
               "actionType": 0,
               "managedByScheduler": true,
-              "key": "enemy_1041_lazerd",
-              "count": 1,
-              "preDelay": 15.0,
-              "interval": 7.0,
+              "key": "enemy_1026_aghost",
+              "count": 4,
+              "preDelay": 10.0,
+              "interval": 1.5,
               "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
@@ -4282,7 +4212,7 @@
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1007_slime",
-              "count": 2,
+              "count": 6,
               "preDelay": 5.0,
               "interval": 3.0,
               "routeIndex": 1,

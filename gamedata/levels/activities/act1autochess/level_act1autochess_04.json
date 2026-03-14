@@ -18,7 +18,7 @@
   },
   "levelId": null,
   "mapId": null,
-  "bgmEvent": "bat_act35side_01",
+  "bgmEvent": "bat_kazimierz2_2",
   "environmentSe": null,
   "mapData": {
     "map": [
@@ -4710,143 +4710,6 @@
     {
       "motionMode": 1,
       "startPosition": {
-        "row": 9,
-        "col": 10
-      },
-      "endPosition": {
-        "row": 9,
-        "col": 2
-      },
-      "spawnRandomRange": {
-        "x": 0.0,
-        "y": 0.0
-      },
-      "spawnOffset": {
-        "x": 0.0,
-        "y": 0.0
-      },
-      "checkpoints": [
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 9,
-            "col": 8
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 12,
-            "col": 8
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 12,
-            "col": 5
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 9,
-            "col": 5
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 9,
-            "col": 4
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 12,
-            "col": 4
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 12,
-            "col": 3
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        },
-        {
-          "type": 0,
-          "time": 0.0,
-          "position": {
-            "row": 9,
-            "col": 3
-          },
-          "reachOffset": {
-            "x": 0.0,
-            "y": 0.0
-          },
-          "randomizeReachOffset": false,
-          "reachDistance": 0.0
-        }
-      ],
-      "allowDiagonalMove": true,
-      "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false,
-      "visitEveryCheckPoint": false
-    },
-    {
-      "motionMode": 1,
-      "startPosition": {
         "row": 12,
         "col": 10
       },
@@ -5094,7 +4957,7 @@
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1422_lrsldr",
-              "count": 5,
+              "count": 2,
               "preDelay": 12.0,
               "interval": 4.0,
               "routeIndex": 0,
@@ -5169,7 +5032,7 @@
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1422_lrsldr",
-              "count": 4,
+              "count": 2,
               "preDelay": 3.0,
               "interval": 6.0,
               "routeIndex": 3,
@@ -5194,7 +5057,7 @@
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1005_yokai",
-              "count": 3,
+              "count": 2,
               "preDelay": 3.0,
               "interval": 6.0,
               "routeIndex": 4,
@@ -5220,34 +5083,9 @@
               "managedByScheduler": true,
               "key": "enemy_1005_yokai",
               "count": 3,
-              "preDelay": 22.0,
-              "interval": 5.5,
-              "routeIndex": 5,
-              "blockFragment": false,
-              "autoPreviewRoute": false,
-              "autoDisplayEnemyInfo": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false,
-              "hiddenGroup": null,
-              "randomSpawnGroupKey": null,
-              "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
-              "weight": 0,
-              "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "notCountInTotal": false,
-              "extraMeta": null,
-              "actionId": null
-            },
-            {
-              "actionType": 0,
-              "managedByScheduler": true,
-              "key": "enemy_1005_yokai",
-              "count": 3,
               "preDelay": 26.0,
               "interval": 6.5,
-              "routeIndex": 6,
+              "routeIndex": 5,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -5272,7 +5110,7 @@
               "count": 3,
               "preDelay": 17.0,
               "interval": 9.0,
-              "routeIndex": 7,
+              "routeIndex": 6,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -5297,7 +5135,7 @@
               "count": 2,
               "preDelay": 18.0,
               "interval": 9.0,
-              "routeIndex": 8,
+              "routeIndex": 7,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -5322,7 +5160,7 @@
               "count": 3,
               "preDelay": 7.0,
               "interval": 8.0,
-              "routeIndex": 9,
+              "routeIndex": 8,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
