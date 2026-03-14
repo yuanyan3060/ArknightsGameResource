@@ -5004,6 +5004,11 @@
             "id": "nc_as2025_EchoesoftheLegends",
             "availStartTime": 1745481600,
             "availEndTime": 1747857599
+          },
+          {
+            "id": "nc_as2025_EchoesoftheLegends",
+            "availStartTime": 1774555200,
+            "availEndTime": 1775764799
           }
         ]
       },
@@ -5040,6 +5045,11 @@
             "id": "nc_as2025_DivineReverie",
             "availStartTime": 1745481600,
             "availEndTime": 1747857599
+          },
+          {
+            "id": "nc_as2025_DivineReverie",
+            "availStartTime": 1774555200,
+            "availEndTime": 1775764799
           }
         ]
       },
@@ -5076,6 +5086,11 @@
             "id": "nc_as2025_GlazedGrace",
             "availStartTime": 1745481600,
             "availEndTime": 1747857599
+          },
+          {
+            "id": "nc_as2025_GlazedGrace",
+            "availStartTime": 1774555200,
+            "availEndTime": 1775764799
           }
         ]
       },
@@ -5112,6 +5127,11 @@
             "id": "nc_as2025_TheWildEra",
             "availStartTime": 1745481600,
             "availEndTime": 1747857599
+          },
+          {
+            "id": "nc_as2025_TheWildEra",
+            "availStartTime": 1774555200,
+            "availEndTime": 1775764799
           }
         ]
       },
@@ -5148,6 +5168,11 @@
             "id": "nc_as2025_BloomsofTime",
             "availStartTime": 1745481600,
             "availEndTime": 1747857599
+          },
+          {
+            "id": "nc_as2025_BloomsofTime",
+            "availStartTime": 1774555200,
+            "availEndTime": 1775764799
           }
         ]
       },
@@ -8570,7 +8595,7 @@
         "keyCodes": [
           1
         ],
-        "canBeSetted": false
+        "canBeSetted": true
       },
       "keyWindows": {
         "keyId": "keyWindows",
@@ -8584,292 +8609,387 @@
       }
     },
     "keySettingData": {
-      "CHANGE_SPEED": {
-        "funcId": 2,
-        "funcName": "战斗内变速",
+      "default": {
+        "groupId": "default",
+        "name": "default",
+        "funcType": 1,
+        "keyEffectGroup": 2,
+        "isHidden": true,
+        "relatedActType": 62,
+        "gameModeTag": "",
+        "sortId": 0,
+        "startTs": -1,
+        "itemList": [
+          {
+            "funcId": "defaultReturn",
+            "funcName": "defaultReturn",
+            "canBeSet": false,
+            "defaultKeyId": "bannedEscape",
+            "sortId": 0
+          }
+        ]
+      },
+      "normalBattle": {
+        "groupId": "normalBattle",
+        "name": "基础设置",
         "funcType": 0,
         "keyEffectGroup": 0,
-        "canBeSet": true,
-        "defaultKeyId": "alphaF",
-        "sortId": 1
+        "isHidden": false,
+        "relatedActType": 62,
+        "gameModeTag": null,
+        "sortId": 1,
+        "startTs": -1,
+        "itemList": [
+          {
+            "funcId": "changeSpeed",
+            "funcName": "战斗内变速",
+            "canBeSet": true,
+            "defaultKeyId": "alphaF",
+            "sortId": 1
+          },
+          {
+            "funcId": "releaseSkill",
+            "funcName": "释放技能",
+            "canBeSet": true,
+            "defaultKeyId": "alphaE",
+            "sortId": 2
+          },
+          {
+            "funcId": "retreatChar",
+            "funcName": "撤退干员",
+            "canBeSet": true,
+            "defaultKeyId": "alphaQ",
+            "sortId": 3
+          },
+          {
+            "funcId": "pauseBattle",
+            "funcName": "暂停",
+            "canBeSet": true,
+            "defaultKeyId": "keySpace",
+            "sortId": 4
+          },
+          {
+            "funcId": "battleLeftPopup",
+            "funcName": "放弃行动",
+            "canBeSet": true,
+            "defaultKeyId": "alphaV",
+            "sortId": 5
+          }
+        ]
       },
-      "RELEASE_SKILL": {
-        "funcId": 4,
-        "funcName": "释放技能",
-        "funcType": 0,
-        "keyEffectGroup": 0,
-        "canBeSet": true,
-        "defaultKeyId": "alphaE",
-        "sortId": 2
-      },
-      "RETREAT_CHAR": {
-        "funcId": 5,
-        "funcName": "撤退干员",
-        "funcType": 0,
-        "keyEffectGroup": 0,
-        "canBeSet": true,
-        "defaultKeyId": "alphaQ",
-        "sortId": 3
-      },
-      "ESC": {
-        "funcId": 0,
-        "funcName": "暂停",
-        "funcType": 0,
-        "keyEffectGroup": 0,
-        "canBeSet": false,
-        "defaultKeyId": "bannedEscape",
-        "sortId": 4
-      },
-      "HOME_KEY": {
-        "funcId": 6,
-        "funcName": "导航栏",
+      "normalFunc": {
+        "groupId": "normalFunc",
+        "name": "基础设置",
         "funcType": 1,
         "keyEffectGroup": 1,
-        "canBeSet": true,
-        "defaultKeyId": "keyTab",
-        "sortId": 5
+        "isHidden": false,
+        "relatedActType": 62,
+        "gameModeTag": null,
+        "sortId": 2,
+        "startTs": -1,
+        "itemList": [
+          {
+            "funcId": "homeKey",
+            "funcName": "导航栏",
+            "canBeSet": true,
+            "defaultKeyId": "keyTab",
+            "sortId": 1
+          }
+        ]
       },
-      "MOVE_FORWARD": {
-        "funcId": 7,
-        "funcName": "向前移动",
+      "baseFunc": {
+        "groupId": "baseFunc",
+        "name": "隐藏键位",
         "funcType": 1,
         "keyEffectGroup": 2,
-        "canBeSet": true,
-        "defaultKeyId": "alphaW",
-        "sortId": 6
+        "isHidden": true,
+        "relatedActType": 62,
+        "gameModeTag": null,
+        "sortId": 3,
+        "startTs": -1,
+        "itemList": [
+          {
+            "funcId": "moveForward",
+            "funcName": "向前移动",
+            "canBeSet": false,
+            "defaultKeyId": "bannedUpArrow",
+            "sortId": 1
+          },
+          {
+            "funcId": "moveBackward",
+            "funcName": "向后移动",
+            "canBeSet": false,
+            "defaultKeyId": "bannedDownArrow",
+            "sortId": 2
+          },
+          {
+            "funcId": "moveToLeft",
+            "funcName": "向左移动",
+            "canBeSet": false,
+            "defaultKeyId": "bannedLeftArrow",
+            "sortId": 3
+          },
+          {
+            "funcId": "moveToRight",
+            "funcName": "向右移动",
+            "canBeSet": false,
+            "defaultKeyId": "bannedRightArrow",
+            "sortId": 4
+          }
+        ]
       },
-      "MOVE_BACKWARD": {
-        "funcId": 8,
-        "funcName": "向后移动",
-        "funcType": 1,
-        "keyEffectGroup": 2,
-        "canBeSet": true,
-        "defaultKeyId": "alphaS",
-        "sortId": 7
-      },
-      "MOVE_TO_LEFT": {
-        "funcId": 9,
-        "funcName": "向左移动",
-        "funcType": 1,
-        "keyEffectGroup": 2,
-        "canBeSet": true,
-        "defaultKeyId": "alphaA",
-        "sortId": 8
-      },
-      "MOVE_TO_RIGHT": {
-        "funcId": 10,
-        "funcName": "向右移动",
-        "funcType": 1,
-        "keyEffectGroup": 2,
-        "canBeSet": true,
-        "defaultKeyId": "alphaD",
-        "sortId": 9
+      "autoChess": {
+        "groupId": "autoChess",
+        "name": "卫戍协议",
+        "funcType": 0,
+        "keyEffectGroup": 0,
+        "isHidden": false,
+        "relatedActType": 61,
+        "gameModeTag": "autochess",
+        "sortId": 4,
+        "startTs": 1773475200,
+        "itemList": [
+          {
+            "funcId": "autochessRefresh",
+            "funcName": "刷新",
+            "canBeSet": true,
+            "defaultKeyId": "alphaD",
+            "sortId": 1
+          },
+          {
+            "funcId": "autochessFreeze",
+            "funcName": "冻结",
+            "canBeSet": true,
+            "defaultKeyId": "alphaS",
+            "sortId": 2
+          },
+          {
+            "funcId": "autochessLevelUp",
+            "funcName": "升级",
+            "canBeSet": true,
+            "defaultKeyId": "alphaG",
+            "sortId": 3
+          },
+          {
+            "funcId": "autochessShop",
+            "funcName": "调度中心",
+            "canBeSet": true,
+            "defaultKeyId": "alphaA",
+            "sortId": 4
+          },
+          {
+            "funcId": "autochessReady",
+            "funcName": "准备就绪",
+            "canBeSet": true,
+            "defaultKeyId": "alphaC",
+            "sortId": 5
+          },
+          {
+            "funcId": "autochessSale",
+            "funcName": "出售",
+            "canBeSet": true,
+            "defaultKeyId": "alphaX",
+            "sortId": 6
+          },
+          {
+            "funcId": "autochessViewEnemy",
+            "funcName": "查看敌人",
+            "canBeSet": true,
+            "defaultKeyId": "alphaW",
+            "sortId": 7
+          }
+        ]
       }
     },
     "constData": {
       "cannotSetKeyNotice": "该按键无法被设置为快捷键",
       "resetKeyNotice": "是否确认重置设置？"
-    },
-    "keyHideSettingData": {
-      "MOVE_FORWARD": {
-        "funcId": 7,
-        "funcName": "向前移动",
-        "funcType": 1,
-        "keyEffectGroup": 2,
-        "canBeSet": false,
-        "defaultKeyId": "bannedUpArrow",
-        "sortId": 0
-      },
-      "MOVE_BACKWARD": {
-        "funcId": 8,
-        "funcName": "向后移动",
-        "funcType": 1,
-        "keyEffectGroup": 2,
-        "canBeSet": false,
-        "defaultKeyId": "bannedDownArrow",
-        "sortId": 0
-      },
-      "MOVE_TO_LEFT": {
-        "funcId": 9,
-        "funcName": "向左移动",
-        "funcType": 1,
-        "keyEffectGroup": 2,
-        "canBeSet": false,
-        "defaultKeyId": "bannedLeftArrow",
-        "sortId": 0
-      },
-      "MOVE_TO_RIGHT": {
-        "funcId": 10,
-        "funcName": "向右移动",
-        "funcType": 1,
-        "keyEffectGroup": 2,
-        "canBeSet": false,
-        "defaultKeyId": "bannedRightArrow",
-        "sortId": 0
-      }
     }
   },
   "resolutionSettingList": [
     {
       "sortId": 0,
-      "resolutionWidth": -2,
-      "resolutionHeight": -2,
+      "resolutionWidth": -1,
+      "resolutionHeight": -1,
       "resolutionText": "无边框全屏",
-      "isFullScreen": true
+      "isFullScreen": true,
+      "isBorderless": true
     },
     {
       "sortId": 1,
       "resolutionWidth": -1,
       "resolutionHeight": -1,
       "resolutionText": "窗口全屏",
-      "isFullScreen": true
+      "isFullScreen": true,
+      "isBorderless": false
     },
     {
       "sortId": 2,
       "resolutionWidth": 640,
       "resolutionHeight": 480,
       "resolutionText": "640*480",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 3,
       "resolutionWidth": 720,
       "resolutionHeight": 480,
       "resolutionText": "720*480",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 4,
       "resolutionWidth": 800,
       "resolutionHeight": 600,
       "resolutionText": "800*600",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 5,
       "resolutionWidth": 1024,
       "resolutionHeight": 768,
       "resolutionText": "1024*768",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 6,
       "resolutionWidth": 1152,
       "resolutionHeight": 864,
       "resolutionText": "1152*864",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 7,
       "resolutionWidth": 1176,
       "resolutionHeight": 664,
       "resolutionText": "1176*664",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 8,
       "resolutionWidth": 1280,
       "resolutionHeight": 720,
       "resolutionText": "1280*720",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 9,
       "resolutionWidth": 1280,
       "resolutionHeight": 768,
       "resolutionText": "1280*768",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 10,
       "resolutionWidth": 1280,
       "resolutionHeight": 800,
       "resolutionText": "1280*800",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 11,
       "resolutionWidth": 1280,
       "resolutionHeight": 960,
       "resolutionText": "1280*960",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 12,
       "resolutionWidth": 1360,
       "resolutionHeight": 768,
       "resolutionText": "1360*768",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 13,
       "resolutionWidth": 1440,
       "resolutionHeight": 1080,
       "resolutionText": "1440*1080",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 14,
       "resolutionWidth": 1600,
       "resolutionHeight": 900,
       "resolutionText": "1600*900",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 15,
       "resolutionWidth": 1600,
       "resolutionHeight": 1024,
       "resolutionText": "1600*1024",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 16,
       "resolutionWidth": 1600,
       "resolutionHeight": 1200,
       "resolutionText": "1600*1200",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 17,
       "resolutionWidth": 1680,
       "resolutionHeight": 1050,
       "resolutionText": "1680*1050",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 18,
       "resolutionWidth": 1920,
       "resolutionHeight": 1080,
       "resolutionText": "1920*1080",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 19,
       "resolutionWidth": 1920,
       "resolutionHeight": 1200,
       "resolutionText": "1920*1200",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 20,
       "resolutionWidth": 2048,
       "resolutionHeight": 1080,
       "resolutionText": "2048*1080",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 21,
       "resolutionWidth": 2560,
       "resolutionHeight": 1440,
       "resolutionText": "2560*1440",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     },
     {
       "sortId": 22,
       "resolutionWidth": 3840,
       "resolutionHeight": 2160,
       "resolutionText": "3840*2160",
-      "isFullScreen": false
+      "isFullScreen": false,
+      "isBorderless": false
     }
   ],
   "artGalleryCollectData": {
@@ -8884,31 +9004,31 @@
         "items": [
           {
             "itemId": "tm_rogue_5",
-            "itemType": "HOME_THEME",
+            "itemType": 77,
             "collectionSetId": "collect_rogue5",
             "sortId": 3
           },
           {
             "itemId": "char_1011_lava2@whirlwind#9",
-            "itemType": "CHAR_SKIN",
+            "itemType": 19,
             "collectionSetId": "collect_rogue5",
             "sortId": 1
           },
           {
             "itemId": "char_322_lmlee@whirlwind#10",
-            "itemType": "CHAR_SKIN",
+            "itemType": 19,
             "collectionSetId": "collect_rogue5",
             "sortId": 2
           },
           {
             "itemId": "bg_rogue_5",
-            "itemType": "HOME_BACKGROUND",
+            "itemType": 52,
             "collectionSetId": "collect_rogue5",
             "sortId": 4
           },
           {
             "itemId": "avatar_activity_RL5_1",
-            "itemType": "PLAYER_AVATAR",
+            "itemType": 45,
             "collectionSetId": "collect_rogue5",
             "sortId": 5
           }
@@ -8949,31 +9069,31 @@
         "items": [
           {
             "itemId": "tm_rogue_4",
-            "itemType": "HOME_THEME",
+            "itemType": 77,
             "collectionSetId": "collect_rogue4",
             "sortId": 3
           },
           {
             "itemId": "char_4151_tinman@sale#11",
-            "itemType": "CHAR_SKIN",
+            "itemType": 19,
             "collectionSetId": "collect_rogue4",
             "sortId": 1
           },
           {
             "itemId": "char_311_mudrok@wild#10",
-            "itemType": "CHAR_SKIN",
+            "itemType": 19,
             "collectionSetId": "collect_rogue4",
             "sortId": 2
           },
           {
             "itemId": "bg_rogue_4",
-            "itemType": "HOME_BACKGROUND",
+            "itemType": 52,
             "collectionSetId": "collect_rogue4",
             "sortId": 4
           },
           {
             "itemId": "avatar_activity_RL4_3",
-            "itemType": "PLAYER_AVATAR",
+            "itemType": 45,
             "collectionSetId": "collect_rogue4",
             "sortId": 5
           }
@@ -9014,37 +9134,37 @@
         "items": [
           {
             "itemId": "avatar_activity_RL3_1",
-            "itemType": "PLAYER_AVATAR",
+            "itemType": 45,
             "collectionSetId": "collect_rogue3",
             "sortId": 5
           },
           {
             "itemId": "char_2012_typhon@wild#9",
-            "itemType": "CHAR_SKIN",
+            "itemType": 19,
             "collectionSetId": "collect_rogue3",
             "sortId": 1
           },
           {
             "itemId": "tm_rogue_3",
-            "itemType": "HOME_THEME",
+            "itemType": 77,
             "collectionSetId": "collect_rogue3",
             "sortId": 3
           },
           {
             "itemId": "char_341_sntlla@summer#15",
-            "itemType": "CHAR_SKIN",
+            "itemType": 19,
             "collectionSetId": "collect_rogue3",
             "sortId": 2
           },
           {
             "itemId": "avatar_activity_RL3_2",
-            "itemType": "PLAYER_AVATAR",
+            "itemType": 45,
             "collectionSetId": "collect_rogue3",
             "sortId": 6
           },
           {
             "itemId": "bg_rogue_3",
-            "itemType": "HOME_BACKGROUND",
+            "itemType": 52,
             "collectionSetId": "collect_rogue3",
             "sortId": 4
           }
@@ -9085,25 +9205,25 @@
         "items": [
           {
             "itemId": "avatar_activity_RL2_1",
-            "itemType": "PLAYER_AVATAR",
+            "itemType": 45,
             "collectionSetId": "collect_rogue2",
             "sortId": 3
           },
           {
             "itemId": "char_437_mizuki@sale#7",
-            "itemType": "CHAR_SKIN",
+            "itemType": 19,
             "collectionSetId": "collect_rogue2",
             "sortId": 1
           },
           {
             "itemId": "avatar_activity_RL2_2",
-            "itemType": "PLAYER_AVATAR",
+            "itemType": 45,
             "collectionSetId": "collect_rogue2",
             "sortId": 4
           },
           {
             "itemId": "bg_rogue_2",
-            "itemType": "HOME_BACKGROUND",
+            "itemType": 52,
             "collectionSetId": "collect_rogue2",
             "sortId": 2
           }
@@ -9144,25 +9264,25 @@
         "items": [
           {
             "itemId": "avatar_activity_RL1_1",
-            "itemType": "PLAYER_AVATAR",
+            "itemType": 45,
             "collectionSetId": "collect_rogue1",
             "sortId": 3
           },
           {
             "itemId": "avatar_activity_RL1_2",
-            "itemType": "PLAYER_AVATAR",
+            "itemType": 45,
             "collectionSetId": "collect_rogue1",
             "sortId": 4
           },
           {
             "itemId": "char_250_phatom@sale#4",
-            "itemType": "CHAR_SKIN",
+            "itemType": 19,
             "collectionSetId": "collect_rogue1",
             "sortId": 1
           },
           {
             "itemId": "bg_rogue_1",
-            "itemType": "HOME_BACKGROUND",
+            "itemType": 52,
             "collectionSetId": "collect_rogue1",
             "sortId": 2
           }
@@ -9203,31 +9323,31 @@
         "items": [
           {
             "itemId": "avatar_activity_XB1_1",
-            "itemType": "PLAYER_AVATAR",
+            "itemType": 45,
             "collectionSetId": "collect_sandbox1",
             "sortId": 4
           },
           {
             "itemId": "nc_sandbox_1",
-            "itemType": "NAME_CARD_SKIN",
+            "itemType": 81,
             "collectionSetId": "collect_sandbox1",
             "sortId": 3
           },
           {
             "itemId": "char_136_hsguma@summer#16",
-            "itemType": "CHAR_SKIN",
+            "itemType": 19,
             "collectionSetId": "collect_sandbox1",
             "sortId": 1
           },
           {
             "itemId": "avatar_activity_XB1_2",
-            "itemType": "PLAYER_AVATAR",
+            "itemType": 45,
             "collectionSetId": "collect_sandbox1",
             "sortId": 5
           },
           {
             "itemId": "bg_sandboxv2_1",
-            "itemType": "HOME_BACKGROUND",
+            "itemType": 52,
             "collectionSetId": "collect_sandbox1",
             "sortId": 2
           }
@@ -9605,7 +9725,7 @@
         "decorList": [
           {
             "id": "nc_rhodes_default",
-            "type": "NAME_CARD_SKIN",
+            "type": 81,
             "sub": 0,
             "pos": [
               72.22203,
@@ -9615,7 +9735,7 @@
           },
           {
             "id": "bg_rhodes_day",
-            "type": "HOME_BACKGROUND",
+            "type": 52,
             "sub": 0,
             "pos": [
               526.62708,
@@ -9625,7 +9745,7 @@
           },
           {
             "id": "sticker_def_1",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               539.02637,
@@ -9635,7 +9755,7 @@
           },
           {
             "id": "avatar_def_01",
-            "type": "PLAYER_AVATAR",
+            "type": 45,
             "sub": 0,
             "pos": [
               12.2,
@@ -9645,7 +9765,7 @@
           },
           {
             "id": "tm_rhodes_day",
-            "type": "HOME_THEME",
+            "type": 77,
             "sub": 0,
             "pos": [
               495.9425,
@@ -9656,7 +9776,7 @@
         ],
         "charSkin": {
           "id": "char_002_amiya@winter#1",
-          "type": "CHAR_SKIN",
+          "type": 19,
           "sub": 0,
           "pos": [
             289.31363,
@@ -9670,7 +9790,7 @@
         "decorList": [
           {
             "id": "sticker_def2_1",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               -450.90408,
@@ -9681,7 +9801,7 @@
         ],
         "charSkin": {
           "id": "char_002_amiya@winter#1",
-          "type": "CHAR_SKIN",
+          "type": 19,
           "sub": 0,
           "pos": [
             330.46237,
@@ -9695,7 +9815,7 @@
         "decorList": [
           {
             "id": "avatar_activity_RL1_2",
-            "type": "PLAYER_AVATAR",
+            "type": 45,
             "sub": 0,
             "pos": [
               -23.8,
@@ -9705,7 +9825,7 @@
           },
           {
             "id": "bg_rogue_1",
-            "type": "HOME_BACKGROUND",
+            "type": 52,
             "sub": 0,
             "pos": [
               -333.60834,
@@ -9715,7 +9835,7 @@
           },
           {
             "id": "sticker_rog_1_1",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               5.78792,
@@ -9725,7 +9845,7 @@
           },
           {
             "id": "sticker_rog_1_2",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               -514.36371,
@@ -9736,7 +9856,7 @@
         ],
         "charSkin": {
           "id": "char_250_phatom@sale#4",
-          "type": "CHAR_SKIN",
+          "type": 19,
           "sub": 0,
           "pos": [
             296.76105,
@@ -9750,7 +9870,7 @@
         "decorList": [
           {
             "id": "avatar_activity_RL2_2",
-            "type": "PLAYER_AVATAR",
+            "type": 45,
             "sub": 0,
             "pos": [
               105.24206,
@@ -9760,7 +9880,7 @@
           },
           {
             "id": "avatar_activity_RL2_1",
-            "type": "PLAYER_AVATAR",
+            "type": 45,
             "sub": 0,
             "pos": [
               167.21426,
@@ -9770,7 +9890,7 @@
           },
           {
             "id": "sticker_rog_2_2",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               -425.14423,
@@ -9780,7 +9900,7 @@
           },
           {
             "id": "sticker_rog_2_1",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               -169.40747,
@@ -9790,7 +9910,7 @@
           },
           {
             "id": "bg_rogue_2",
-            "type": "HOME_BACKGROUND",
+            "type": 52,
             "sub": 0,
             "pos": [
               492.70798,
@@ -9801,7 +9921,7 @@
         ],
         "charSkin": {
           "id": "char_437_mizuki@sale#7",
-          "type": "CHAR_SKIN",
+          "type": 19,
           "sub": 0,
           "pos": [
             -349.86978,
@@ -9815,7 +9935,7 @@
         "decorList": [
           {
             "id": "bg_rogue_3",
-            "type": "HOME_BACKGROUND",
+            "type": 52,
             "sub": 0,
             "pos": [
               -536.6236,
@@ -9825,7 +9945,7 @@
           },
           {
             "id": "avatar_activity_RL3_1",
-            "type": "PLAYER_AVATAR",
+            "type": 45,
             "sub": 0,
             "pos": [
               -388.97708,
@@ -9835,7 +9955,7 @@
           },
           {
             "id": "sticker_rog_3_2",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               8.92008,
@@ -9845,7 +9965,7 @@
           },
           {
             "id": "sticker_rog_3_1",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               103.6,
@@ -9855,7 +9975,7 @@
           },
           {
             "id": "sticker_rog_3_3",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               495.69382,
@@ -9866,7 +9986,7 @@
         ],
         "charSkin": {
           "id": "char_2012_typhon@wild#9",
-          "type": "CHAR_SKIN",
+          "type": 19,
           "sub": 0,
           "pos": [
             339.81351,
@@ -9880,7 +10000,7 @@
         "decorList": [
           {
             "id": "bg_rogue_4",
-            "type": "HOME_BACKGROUND",
+            "type": 52,
             "sub": 0,
             "pos": [
               447.99112,
@@ -9890,7 +10010,7 @@
           },
           {
             "id": "tm_rogue_4",
-            "type": "HOME_THEME",
+            "type": 77,
             "sub": 0,
             "pos": [
               -405.93961,
@@ -9900,7 +10020,7 @@
           },
           {
             "id": "avatar_activity_RL4_3",
-            "type": "PLAYER_AVATAR",
+            "type": 45,
             "sub": 0,
             "pos": [
               -543.09998,
@@ -9910,7 +10030,7 @@
           },
           {
             "id": "sticker_rog_4_1",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               -478.57379,
@@ -9920,7 +10040,7 @@
           },
           {
             "id": "sticker_rog_4_2",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               -266.96777,
@@ -9931,7 +10051,7 @@
         ],
         "charSkin": {
           "id": "char_4151_tinman@sale#11",
-          "type": "CHAR_SKIN",
+          "type": 19,
           "sub": 0,
           "pos": [
             202.56064,
@@ -9945,7 +10065,7 @@
         "decorList": [
           {
             "id": "avatar_activity_RL5_1",
-            "type": "PLAYER_AVATAR",
+            "type": 45,
             "sub": 0,
             "pos": [
               -165.39999,
@@ -9955,7 +10075,7 @@
           },
           {
             "id": "tm_rogue_5",
-            "type": "HOME_THEME",
+            "type": 77,
             "sub": 0,
             "pos": [
               -169.61206,
@@ -9965,7 +10085,7 @@
           },
           {
             "id": "sticker_rog_5_2",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               -43.53667,
@@ -9975,7 +10095,7 @@
           },
           {
             "id": "sticker_rog_5_1",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               560.45453,
@@ -9985,7 +10105,7 @@
           },
           {
             "id": "bg_rogue_5",
-            "type": "HOME_BACKGROUND",
+            "type": 52,
             "sub": 0,
             "pos": [
               436.0694,
@@ -9996,7 +10116,7 @@
         ],
         "charSkin": {
           "id": "char_322_lmlee@whirlwind#10",
-          "type": "CHAR_SKIN",
+          "type": 19,
           "sub": 0,
           "pos": [
             158.36763,
@@ -10010,7 +10130,7 @@
         "decorList": [
           {
             "id": "avatar_activity_XB1_2",
-            "type": "PLAYER_AVATAR",
+            "type": 45,
             "sub": 0,
             "pos": [
               -548.5683,
@@ -10020,7 +10140,7 @@
           },
           {
             "id": "sticker_sand_1_3",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               510.72217,
@@ -10030,7 +10150,7 @@
           },
           {
             "id": "bg_sandboxv2_1",
-            "type": "HOME_BACKGROUND",
+            "type": 52,
             "sub": 0,
             "pos": [
               481.79999,
@@ -10040,7 +10160,7 @@
           },
           {
             "id": "sticker_sand_1_5",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               41.8,
@@ -10050,7 +10170,7 @@
           },
           {
             "id": "nc_sandbox_1",
-            "type": "NAME_CARD_SKIN",
+            "type": 81,
             "sub": 0,
             "pos": [
               69.1,
@@ -10060,7 +10180,7 @@
           },
           {
             "id": "sticker_sand_1_2",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               457.0,
@@ -10070,7 +10190,7 @@
           },
           {
             "id": "sticker_sand_1_1",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               570.91394,
@@ -10080,7 +10200,7 @@
           },
           {
             "id": "sticker_sand_1_4",
-            "type": "STICKER",
+            "type": 92,
             "sub": 0,
             "pos": [
               26.5,
@@ -10091,7 +10211,7 @@
         ],
         "charSkin": {
           "id": "char_136_hsguma@summer#16",
-          "type": "CHAR_SKIN",
+          "type": 19,
           "sub": 0,
           "pos": [
             346.2106,
