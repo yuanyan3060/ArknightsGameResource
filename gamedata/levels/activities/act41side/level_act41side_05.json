@@ -10,6 +10,7 @@
     "isTrainingLevel": false,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
@@ -816,7 +817,7 @@
   "tilesDisallowToLocate": [],
   "runes": [
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "env_system_new",
       "professionMask": 1023,
       "buildableMask": 3,
@@ -829,6 +830,7 @@
       ]
     }
   ],
+  "optionalRunes": {},
   "globalBuffs": [],
   "routes": [
     {
@@ -1534,6 +1536,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1558,6 +1561,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1582,6 +1586,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -1611,6 +1616,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1635,6 +1641,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1659,6 +1666,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1683,6 +1691,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1707,6 +1716,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1731,6 +1741,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1755,6 +1766,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -1791,6 +1803,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -1827,6 +1840,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -1863,6 +1877,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -1886,12 +1901,15 @@
         "hidden": false,
         "alias": "trap_219_fttreant#1",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "trap_219_fttreant",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -1914,12 +1932,15 @@
         "hidden": false,
         "alias": "trap_219_fttreant#2",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "trap_219_fttreant",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -1942,12 +1963,15 @@
         "hidden": false,
         "alias": "trap_219_fttreant#3",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "trap_219_fttreant",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -1970,12 +1994,15 @@
         "hidden": false,
         "alias": "trap_218_fttree#1",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "trap_218_fttree",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -1992,12 +2019,15 @@
         "hidden": false,
         "alias": "trap_218_fttree#1",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "trap_218_fttree",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -2014,12 +2044,15 @@
         "hidden": false,
         "alias": "trap_218_fttree#1",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "trap_218_fttree",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,

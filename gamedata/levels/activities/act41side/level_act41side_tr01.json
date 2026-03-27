@@ -10,6 +10,7 @@
     "isTrainingLevel": true,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
@@ -890,7 +891,7 @@
   "tilesDisallowToLocate": [],
   "runes": [
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "env_system_new",
       "professionMask": 1023,
       "buildableMask": 3,
@@ -903,6 +904,7 @@
       ]
     }
   ],
+  "optionalRunes": {},
   "globalBuffs": [],
   "routes": [
     {
@@ -1481,6 +1483,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -1510,6 +1513,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1534,6 +1538,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1558,6 +1563,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1582,6 +1588,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1606,6 +1613,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1630,6 +1638,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1654,6 +1663,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1678,6 +1688,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1702,6 +1713,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1726,6 +1738,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1750,6 +1763,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1774,6 +1788,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1798,6 +1813,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1822,6 +1838,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1846,6 +1863,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1870,6 +1888,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1894,6 +1913,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1918,6 +1938,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -1939,12 +1960,15 @@
         "hidden": true,
         "alias": "char_124_kroos",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "char_124_kroos",
           "level": 55,
           "phase": 1,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -1961,12 +1985,15 @@
         "hidden": true,
         "alias": "char_120_hibisc",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "char_120_hibisc",
           "level": 55,
           "phase": 1,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -1983,12 +2010,15 @@
         "hidden": true,
         "alias": "char_122_beagle",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "char_122_beagle",
           "level": 55,
           "phase": 1,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -2005,12 +2035,15 @@
         "hidden": true,
         "alias": "char_121_lava",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "char_121_lava",
           "level": 55,
           "phase": 1,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -2027,12 +2060,15 @@
         "hidden": true,
         "alias": "char_208_melan",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "char_208_melan",
           "level": 55,
           "phase": 1,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -2049,12 +2085,15 @@
         "hidden": false,
         "alias": "char_123_fang",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "char_123_fang",
           "level": 55,
           "phase": 1,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -2073,12 +2112,15 @@
         "hidden": false,
         "alias": "trap_218_fttree#0",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "trap_218_fttree",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -2101,12 +2143,15 @@
         "hidden": false,
         "alias": "trap_218_fttree#1",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "trap_218_fttree",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -2129,12 +2174,15 @@
         "hidden": false,
         "alias": "trap_218_fttree#2",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "trap_218_fttree",
           "level": 1,
           "phase": 0,
-          "favorPoint": 0,
-          "potentialRank": 0
+          "favorBattlePhase": 0,
+          "potentialRank": 0,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -2154,12 +2202,15 @@
         "hidden": true,
         "alias": "char_281_popka",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "char_281_popka",
           "level": 55,
           "phase": 1,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -2171,12 +2222,15 @@
         "hidden": true,
         "alias": "char_212_ansel",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "char_212_ansel",
           "level": 55,
           "phase": 1,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -2188,12 +2242,15 @@
         "hidden": true,
         "alias": "char_211_adnach",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "char_211_adnach",
           "level": 55,
           "phase": 1,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -2205,12 +2262,15 @@
         "hidden": true,
         "alias": "char_282_catap",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "char_282_catap",
           "level": 55,
           "phase": 1,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
@@ -2222,12 +2282,15 @@
         "hidden": true,
         "alias": "char_283_midn",
         "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
         "inst": {
           "characterKey": "char_283_midn",
           "level": 55,
           "phase": 1,
-          "favorPoint": 100,
-          "potentialRank": 5
+          "favorBattlePhase": 100,
+          "potentialRank": 5,
+          "playerInstId": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
