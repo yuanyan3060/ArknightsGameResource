@@ -1,0 +1,557 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="bg_oldwarehouse_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playMusic(key="$calm_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_2184_1#3$1",duration=1)]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_npc_2184_1#3$1")]
+[name="尤拉"]不对，不能这么写。
+[charslot(slot="m",name="avg_npc_2184_1#4$1")]
+[name="尤拉"]“用一层雪水，擦拭灰色的街道”？“拿来一盒受潮的烟”？不对，都不对！
+[charslot(slot = "m", focus = "n")]
+他对着微弱的月光，拿起满是印子的草稿，不禁抱怨灵感枯竭的自己——这首诗还不如一旁熟睡的同学那含糊的梦话。
+经历大火后，无缚者同盟的营地异常平静，冬风像是在用钝刀刮蹭年轻人们稚嫩的脸颊。
+尚有精力的年轻人窃窃私语着，他们裹紧散发着霉味的大衣，在夜色下就像一个个土包，时不时发出几阵笑声。
+[charslot(slot="m",name="avg_npc_2184_1#2$1")]
+[name="尤拉"]......请给每一颗星星，一个能够记住的名字。
+[name="尤拉"]请给想要遗忘的人，一杯最廉价的烈酒。
+[name="尤拉"]请给我......
+[name="尤拉"]请给我一张去往春天的单程票......
+[name="尤拉"]可以让我住进，穿过苔原的风里。
+[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot="m",name="avg_4224_turdus_1#4$1")]
+[name="乌克西克"]吓——
+[charslot(slot="m",name="avg_npc_2184_1#5$1")]
+[name="尤拉"]？！
+[charslot(slot="m",name="avg_npc_2184_1#2$1")]
+[name="尤拉"]果然是你......我发誓，总有一天我会对你所有的恶作剧免疫。
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="乌克西克"]又在写那些酸掉牙的诗了，尤拉。
+[charslot(slot="m",name="avg_npc_2184_1#2$1")]
+[name="尤拉"]每首诗可都是我费尽心血写的，才不是什么酸诗，你看得懂吗？
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="乌克西克"]我才不想看懂，你们这些能看得懂的人每天都愁眉苦脸的。
+[name="乌克西克"]何况马特维才教我识了几行字，我能看懂地址就不错了。反正大家写什么，最后还不是要靠我送出去。
+[charslot(slot="m",name="avg_4224_turdus_1#4$1")]
+[multiline(name="乌克西克")]说说吧尤拉，这次要我帮你送给哪个姑娘？
+[playsound(key="$d_avg_knock_head")]
+[CameraShake(duration=0.2, xstrength=0, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot="m",name="avg_4224_turdus_1#10$1")]
+[multiline(name="乌克西克")]哎哟——
+[dialog]
+[charslot(slot="m",name="avg_npc_2184_1#2$1")]
+[PlaySound(key="$d_avg_paper1")]
+[Delay(time=1)]
+[name="尤拉"]送给你的，你这个小鬼！
+[charslot(slot="m",name="avg_4224_turdus_1#10$1")]
+[name="乌克西克"]你竟敢打小孩！我要收走这张纸，你别想再写了！
+[charslot(slot="m",name="avg_npc_2184_1#2$1")]
+[name="尤拉"]好啦好啦，就是拿纸筒打了下，哪有那么夸张......不过你想要，就拿去吧。
+[name="尤拉"]这次......我是写给大家的，当然你也有份。
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="乌克西克"]奇奇怪怪的......那我放包里了。
+[charslot(slot="m",name="avg_npc_2184_1#2$1")]
+[name="尤拉"]不说这些了，乌克西克。
+[name="尤拉"]安托沙那里好像有很多信，我想，你得去找他一趟。
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="乌克西克"]他不是每晚都和你们一起吃饭休息吗？我怎么没在这里看到他？
+[charslot(slot="m",name="avg_npc_2184_1#2$1")]
+[name="尤拉"]我哪知道？反正他就在里边，能问出原由的话，你也帮我问问他。
+[name="尤拉"]对了，把大衣扣紧一点，你要是冻着了，安托沙又要骂人。
+[charslot(slot="m",name="avg_4224_turdus_1#6$1")]
+[name="乌克西克"]嗯？他可从来不骂我。
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="乌克西克"]再见了，尤拉。
+[dialog]
+[PlaySound(key="$d_gen_walk_n")]
+[charslot(slot = "m",posfrom = "0,0", posto = "-200,0",duration = 1,afrom=1,ato=0)]
+[Delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_npc_2184_1#2$1")]
+[name="尤拉"]因为他骂的是我们，小鬼......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="bg_oldwarehouse_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4224_turdus_1#4$1",duration=0.5)]
+[Delay(time=1)]
+[name="乌克西克"]安托沙，我来啦。
+[charslot(slot="m",name="avg_npc_2157_1#2$1")]
+[name="安托沙"]......不用每次都喊得那么大声，乌克西克。
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="乌克西克"]尤拉和我说，你有些信件要交给我。在哪儿呢？
+[charslot(slot="m",name="avg_npc_2157_1#2$1")]
+[name="安托沙"]是，有些多。
+[Dialog]
+[charslot(duration=1)]
+[PlaySound(key="$d_gen_walk_n")]
+[delay(time=1)]
+他走到角落，抱起厚厚一摞信件。
+[charslot]
+[charslot(slot="m",name="avg_4224_turdus_1#10$1")]
+[name="乌克西克"]好麻烦......我先看看。
+[PlaySound(key="$d_avg_paper1")]
+[charslot(slot="m",name="avg_4224_turdus_1#6$1")]
+[name="乌克西克"]这第一封，送到奥多耶夫区老街的34号？第二封送到铁河区左岸街的15号，第三封送到香料市场的......
+[charslot(slot="m",name="avg_4224_turdus_1#1$1")]
+[name="乌克西克"]等等安托沙，这些信都是你写的？这些地址都是什么地方？
+[charslot(slot="m",name="avg_npc_2157_1#2$1")]
+[name="安托沙"]奥多耶夫区老街的34号，是尤拉的家，然后是小列夫和维萨里昂的......
+[name="安托沙"]我为每一个人都写了信，等我们打倒了那个枢密官后你再看看，需要送出多少封。
+[charslot(slot="m",name="avg_npc_2157_1#11$1")]
+[name="安托沙"]如果有人倒在明天，至少......我不希望他们的家人，是从乌萨斯给出的伤亡名单上知道他们的消息。
+[charslot(slot="m",name="avg_4224_turdus_1#9$1")]
+[name="乌克西克"]......你是什么时候记下这些的？
+[charslot(slot="m",name="avg_npc_2157_1#5$1")]
+[name="安托沙"]有人把命交给我的时候，我必须要知道这些命是从哪里来的......这是忘不掉的。
+[charslot(slot="m",name="avg_npc_2157_1#2$1")]
+[name="安托沙"]还记得吗？当初我也问过你的出身。
+[charslot(slot="m",name="avg_4224_turdus_1#1$1")]
+[name="乌克西克"]只不过你没想到，我是一个连名字都没有的孤儿？
+[charslot(slot="m",name="avg_npc_2157_1#11$1")]
+[name="安托沙"]......
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="乌克西克"]好啦，你这是什么表情？
+[name="乌克西克"]我自己都没有像你这样愁过，何况今天我还帮你省了一张纸呢。
+[name="乌克西克"]说起来，这些信里，也有你和马特维的吗？
+[dialog]
+[charslot]
+[playsound(key="$d_gen_walk_n", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=1)]
+[charslot(slot="m",name="avg_npc_2160_1#1$1",duration=0.5)]
+[Delay(time=1)]
+[name="马特维"]说不定会有我的，但绝不会有他的。
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="乌克西克"]马特维？
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]要做什么大事前，我和他习惯单独聚一聚。
+[charslot(slot="m",name="avg_npc_2157_1#2$1")]
+[name="安托沙"]翻到啤酒了吗？
+[playsound(key="$d_avg_bottlecollide")]
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]最后两瓶，不知道被谁藏在了那堆烂菜叶里。不过今晚整理装备的时候，利斯特还是闻出来了。
+[charslot(slot="m",name="avg_npc_2157_1#2$1")]
+[name="安托沙"]......给我一瓶。
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="乌克西克"]马特维，我也能尝一尝吗？正好有些口渴——
+[charslot(slot="m",name="avg_npc_2160_1#9$1")]
+[name="马特维"]你才多大？休想。
+[charslot(slot="m",name="avg_4224_turdus_1#10$1")]
+[name="乌克西克"]小气！
+[charslot]
+马特维轻轻地拍了一下女孩的头，接着他坐在了安托沙身旁，递去一个玻璃瓶。
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="乌克西克"]不过马特维，你为什么说安托沙不会给自己家里写信呢？
+[name="乌克西克"]他要是觉得自己不会死，又何必让我去送信？难道他不敢？
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]哈哈，那怎么可能......
+[charslot(slot="m",name="avg_npc_2160_1#3$1")]
+[name="马特维"]只是他和家里，已经很久没有联系了。
+[charslot(slot="m",name="avg_npc_2160_1#2$1")]
+[name="马特维"]安托沙？
+[charslot(slot="m",name="avg_npc_2157_1#5$1")]
+[name="安托沙"]无妨，都是些往事罢了。
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]我们刚认识不久的时候，有一次我和其他人谈到了安托沙。
+[name="马特维"]我无意间称呼他为“安东·舍斯托夫”，正好被他路过听到，他耿耿于怀了一个月。
+[charslot(slot="m",name="avg_4224_turdus_1#6$1")]
+[name="乌克西克"]安东·舍斯托夫？听起来像是某个贵族老爷。
+[charslot(slot="m",name="avg_npc_2157_1#2$1")]
+[name="安托沙"]上大学前，我就舍弃了这个名字，也离开了为我起这个名字的人。
+[name="安托沙"]或许现在看来，比起失去一个儿子，他们恐怕更庆幸自己摆脱了一个会惹事的叛徒。
+[charslot(slot="m",name="avg_4224_turdus_1#1$1")]
+[name="乌克西克"]我第一次听说安托沙家人的事......
+[name="乌克西克"]他们对你不好吗？
+[charslot(slot="m",name="avg_npc_2157_1#5$1")]
+[name="安托沙"]我的祖父......那个杀了欺压自己的地主起家，最后成为伯爵荣归故里的人。
+[name="安托沙"]小时候我憧憬他那样的“英雄”，于是就学着传闻中的事迹，去与佃农们同吃同住，和每一个所谓的“下人”都交了朋友。
+[charslot(slot="m",name="avg_npc_2157_1#10$1")]
+[name="安托沙"]家里怪我不成体统，我从来不在意，因为我相信至少祖父会理解我。
+[charslot(slot="m",name="avg_npc_2157_1#11$1")]
+[name="安托沙"]直到我长大，了解到许多......
+[name="安托沙"]比如有一位老农户，不小心撞倒了他。作为惩罚，祖父强迫那个老人，当着我们的面掐死自己养了几年的鼷兽。
+[charslot(slot="m",name="avg_npc_2160_1#4$1")]
+[name="马特维"]安托沙，如果你不想说——
+[charslot(slot="m",name="avg_npc_2157_1#5$1")]
+[name="安托沙"]我始终抱着一丝幻想，直到那一晚......祖父举办了盛大的家宴，庆祝我考上圣骏堡的大学。
+[name="安托沙"]一位和我差不多年纪的女仆，溜进厨房里拿走了不少食物，想让自己的母亲和弟弟也尝尝贵族家的大餐。
+[charslot(slot="m",name="avg_npc_2157_1#2$1")]
+[name="安托沙"]警察想要带走她，但我祖父拒绝了。
+[name="安托沙"]他笑着说：“今天是好日子，我要让所有人都能因我孙子的荣耀而感到幸福。”
+[charslot(slot="m",name="avg_4224_turdus_1#1$1")]
+[name="乌克西克"]......
+[charslot(slot="m",name="avg_npc_2157_1#11$1")]
+[name="安托沙"]过了两天，我前往圣骏堡的时候，在郊外看到了一具满是鞭痕的尸体。
+[name="安托沙"]管家告诉我，如果让警察带走她，最多关几天而已......只有贵族的“体罚权”，才能给她“真正的教训”。
+[charslot(slot="m",name="avg_npc_2157_1#10$1")]
+[name="安托沙"]不过，得到教训的是我——每当我闭上双眼，就会想起在她睫毛上攀爬的虫蝇。
+[charslot(slot="m",name="avg_npc_2157_1#1$1")]
+[name="安托沙"]于是我知道，只要还有人是贵族，只要抗争的结果还是会把人变成贵族，压迫就永远不会消失。
+[charslot(slot="m",name="avg_4224_turdus_1#2$1")]
+[name="乌克西克"]......安托沙，我想跟你说。
+[name="乌克西克"]最悲苦的日子，已经过去了，我们......会胜利的。
+[charslot(slot="m",name="avg_npc_2157_1#11$1")]
+[name="安托沙"]......
+[charslot(slot="m",name="avg_4224_turdus_1#5$1")]
+[name="乌克西克"]反正，明天、明天就，我——
+[charslot(duration=0.5)]
+她大着舌头嘟囔出最后这几个词，脑袋一歪，砸在马特维肩上，昏睡了过去。
+安托沙意识到了什么，他一把夺过乌克西克怀里抱着的酒瓶，里面已经空空荡荡。
+[charslot(slot="m",name="avg_npc_2157_1#3$1")]
+[name="安托沙"]乌克西克——我还在想，你什么时候学会说那种安慰人的话了。
+[name="安托沙"]居然敢偷偷喝我的酒......马特维，你也不看着点。
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]算了......别吵醒她，正好我还不知道该怎么哄她离开。
+[name="马特维"]是时候带她走了。
+[charslot(slot="m",name="avg_npc_2160_1#2$1")]
+[name="马特维"]不过，你知道，我们要去的地方是......
+[charslot(slot="m",name="avg_npc_2157_1#4$1")]
+[name="安托沙"]呵......
+[name="安托沙"]我来帮你。
+[dialog]
+[charslot]
+[playsound(key="$d_avg_clothmovement")]
+[charslot(slot="r",name="avg_4224_turdus_1#5$1",afrom=0,ato=0,posfrom = "-130,50", posto = "-130,80")]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0)]
+[charslot(slot="r",posfrom = "-120,50", posto = "-120,100",duration=0.5,afrom=0,ato=1)]
+[charslot(slot="m",name="avg_npc_2160_1#1$1",posfrom = "0,-30", posto = "0,0",duration=0.5)]
+[Delay(time=1.5)]
+[name="马特维"]说真的......你也为我写了信吗？
+[charslot]
+[charslot(slot="m",name="avg_npc_2157_1#4$1")]
+[name="安托沙"]不需要，我相信你。
+[charslot(slot="r",posfrom = "-120,100", posto = "-120,100",name="avg_4224_turdus_1#5$1")]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0)]
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]......
+[name="马特维"]前段时间，乌克西克还能钻洞出去的时候，我倒是写了一封信，让她带给了我的妈妈。
+[charslot]
+[charslot(slot="m",name="avg_npc_2157_1#4$1")]
+[name="安托沙"]你写了什么？
+[charslot(slot="r",posfrom = "-120,100", posto = "-120,100",name="avg_4224_turdus_1#5$1")]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0)]
+[charslot(slot="m",name="avg_npc_2160_1#10$1")]
+[name="马特维"]“最多再有十天，我们就能离开这个鬼地方，回一趟城里。”
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]总算要出发了，我的朋友。
+[charslot]
+[charslot(slot="m",name="avg_npc_2157_1#10$1")]
+[name="安托沙"]......
+[charslot(slot="m",name="avg_npc_2157_1#2$1")]
+[name="安托沙"]记得回来。
+[charslot]
+马特维闭上了眼睛，点点头。
+[charslot(slot="m",name="avg_npc_2157_1#4$1")]
+[name="安托沙"]晚安，马特维......
+[name="安托沙"]等到黎明时分，我们再见。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="72_g6_blockcamp",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(key="$tara_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_2180_1#2$1",duration=0.5)]
+[delay(time=1)]
+[name="兴奋的学生"]还要多久啊，罗莎琳？你摆弄一晚上了。
+[charslot(slot="m",name="avg_194_leto_1#4$1")]
+[name="烈夏"]别催啦，我修的是吉他，又不是碎布娃娃。
+[name="烈夏"]你们从垃圾堆里刨出来的，琴轴没一个是好的，哪能修得那么快？
+[charslot(slot="m",name="avg_npc_2180_1#2$1")]
+[name="兴奋的学生"]这不是明天就得干大事了嘛，能弹一个音是一个音。
+[charslot(slot="m",name="avg_194_leto_1#6$1")]
+[name="烈夏"]啧......把钳子递给我。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="72_g4_blockst_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_1051_headb2_1#1$2",duration=1)]
+[delay(time=1.5)]
+[name="凛冬"]......都检查过了吗？
+[charslot(slot="m",name="avg_npc_2178_1#1$1")]
+[name="谨慎的学生"]都检查过了，那栋楼很安全，伤员安置在那里没有问题。
+[charslot(slot="m",name="avg_1051_headb2_1#1$2")]
+[name="凛冬"]很好，你去找米科拉，再检查一遍我们在街道两侧的布置。
+[name="凛冬"]确保万无一失，明白了吗？
+[charslot(slot="m",name="avg_npc_2178_1#1$1")]
+[name="谨慎的学生"]明白！
+[charslot]
+[name="？？？"]......我又来得不是时候吗，索尼娅？
+[charslot(slot="m",name="avg_1051_headb2_1#6$2")]
+[name="凛冬"]马特维？
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2160_1#1$1",duration=0.5)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_1051_headb2_1#1$2")]
+[name="凛冬"]你怎么来了？你们那边出什么状况了吗？有什么我们能做的？
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]多谢，我们很好。
+[name="马特维"]先前安托沙把话说到那个份上......以他的脾气饿死都不会来求你的。
+[name="马特维"]我是为了这个孩子。
+[dialog]
+[charslot(slot="r",posfrom = "-120,100", posto = "-120,100",name="avg_4224_turdus_1#5$1",duration=1)]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0)]
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[Delay(time=2)]
+[charslot(slot = "m", focus = "n")]
+他微微侧身，露出身后呼呼大睡的女孩。
+[charslot]
+[charslot(slot="m",name="avg_1051_headb2_1#10$2")]
+[name="凛冬"]这味道......
+[charslot(slot="r",posfrom = "-120,100", posto = "-120,100",name="avg_4224_turdus_1#5$1")]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0)]
+[charslot(slot="m",name="avg_npc_2160_1#9$1")]
+[name="马特维"]趁我不注意，她偷偷喝了酒。
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]所以现在，我想把她交给你。从人手和作战计划来看，她在你这边会更安全。
+[charslot]
+[charslot(slot="m",name="avg_1051_headb2_1#4$2")]
+[name="凛冬"]......
+[charslot(slot="m",name="avg_1051_headb2_1#1$2")]
+[name="凛冬"]罗莎琳那里还有几张软垫，你过去找她吧。
+[charslot(slot="r",posfrom = "-120,100", posto = "-120,100",name="avg_4224_turdus_1#5$1")]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0)]
+[charslot(slot="m",name="avg_npc_2160_1#5$1")]
+[name="马特维"]呼......
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]谢谢你，真的。
+[name="马特维"]我原本担心，你们那次争吵......
+[charslot]
+[charslot(slot="m",name="avg_1051_headb2_1#1$2")]
+[name="凛冬"]他的做法或许有些冷酷......但没有人能否认，你们都是纯粹的勇士。
+[charslot(slot="r",posfrom = "-120,100", posto = "-120,100",name="avg_4224_turdus_1#5$1")]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0)]
+[charslot(slot="m",name="avg_npc_2160_1#3$1")]
+[name="马特维"]曾经的安托沙......会更热情一些。
+[name="马特维"]虽然刚认识的时候我就知道他是个怪人，明明举止都是大贵族的做派，却拉着老师问哪里可以打零工。
+[name="马特维"]后来老师带着他，写文章批评贵族政治，当时的议会非但没处罚，还把老师提拔成了督学。
+[charslot(slot="m",name="avg_npc_2160_1#2$1")]
+[name="马特维"]那天，安托沙拉着我的手，说乌萨斯终于有希望了，以后不再会有受苦的人，我们都能获得自由。
+[name="马特维"]为了纪念那一刻，他还和我在学校的花园里，种下了一棵樱桃树。
+[charslot(slot="m",name="avg_npc_2160_1#10$1")]
+[name="马特维"]直到我们的报刊被查处，老师也因我们而死......
+[charslot]
+[charslot(slot="m",name="avg_1051_headb2_1#1$2")]
+[name="凛冬"]你们......
+[charslot(slot="r",posfrom = "-120,100", posto = "-120,100",name="avg_4224_turdus_1#5$1")]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0)]
+[charslot(slot="m",name="avg_npc_2160_1#2$1")]
+[name="马特维"]我们被开除了，老师扛下了主要的罪责，换来乌萨斯对我们的“宽大处理”。
+[name="马特维"]离开学校的前一天，安托沙倚靠在那棵樱桃树前，抚摸着没长出叶子的树枝，坐了一个晚上。
+[charslot]
+[charslot(slot="m",name="avg_1051_headb2_1#4$2")]
+[name="凛冬"]......
+[charslot(slot="r",posfrom = "-120,100", posto = "-120,100",name="avg_4224_turdus_1#5$1")]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0)]
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]我该去找罗莎琳了，再一次谢谢你。
+[charslot]
+[charslot(slot="m",name="avg_1051_headb2_1#1$2")]
+[name="凛冬"]马特维，等等。
+[name="凛冬"]既然你说留在这里更加安全......
+[name="凛冬"]那么你自己不留下吗？
+[charslot(slot="r",posfrom = "-120,100", posto = "-120,100",name="avg_4224_turdus_1#5$1")]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0)]
+[charslot(slot="m",name="avg_npc_2160_1#2$1")]
+[name="马特维"]不了，有一个约定，我今晚刚答应下来。
+[charslot(slot="m",name="avg_npc_2160_1#1$1")]
+[name="马特维"]......也许是更早的时候。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="72_g6_blockcamp",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2180_1#1$1")]
+[name="兴奋的学生"]这是......成功了？
+[charslot(slot="m",name="avg_194_leto_1#8$1")]
+[name="烈夏"]我试试。
+[dialog]
+[playsound(key="$d_avg_wdnguitarstrum", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=0.5)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_194_leto_1#8$1")]
+[name="烈夏"]虽然音准有些偏，但好歹能听个响了。
+[charslot(slot="m",name="avg_npc_2180_1#2$1")]
+[name="兴奋的学生"]好欸！我就说罗莎琳是个真正的天才！
+[charslot(slot="m",name="avg_194_leto_1#1$1")]
+[name="烈夏"]这时候知道恭维我了？有这个工夫，不如想想要听点什么。
+[charslot(slot="m",name="avg_npc_2180_1#2$1")]
+[name="兴奋的学生"]呃......《故乡的河流之上》？或者什么莱塔尼亚有什么......
+[charslot(slot="m",name="avg_194_leto_1#5$1")]
+[name="烈夏"]哈？那些软绵绵的我才不要弹。
+[charslot(slot="m",name="avg_194_leto_1#8$1")]
+[name="烈夏"]这样，我来即兴弹几个和弦，你们随便唱点应景的东西。
+[charslot(slot="m",name="avg_npc_2180_1#2$1")]
+[name="兴奋的学生"]这是不是太难了？
+[charslot(slot="m",name="avg_194_leto_1#4$1")]
+[stopmusic(fadetime=2)]
+[name="烈夏"]你们那么多学文学的，都学到哪里去了？赶紧想词儿，要开始了。
+[charslot(slot="m",name="avg_194_leto_1#11$1")]
+[name="烈夏"]一、二、三......
+[Dialog]
+[playMusic(key="$finalrush_loop", volume=0.6)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Delay(time=2)]
+......
+我们踩断寒铁织就的蛛网♪
+我们剥落夜的坚甲♪
+只为了♪
+让芽尖挣开冻土的壳♪
+代替守望雪中虚假的晨光♪
+[dialog]
+[Delay(time=2)]
+[name="乌克西克"]嗯哼......这声音......
+[name="乌克西克"]......马特维？
+[dialog]
+[Delay(time=2)]
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="bg_ltroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$nervous_intro",key="$nervous_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_2158_1#8$2",duration=0.5)]
+[Delay(time=1)]
+[name="巴普洛维奇"]还没有消息吗？
+[name="巴普洛维奇"]这都几点了？啊？
+[charslot(slot = "m", focus = "n")]
+[name="安保队长"]枢密官大人，那两条路上的警戒塔我们都加固了，但是——
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot="m",name="avg_npc_2158_1#5$2")]
+[name="巴普洛维奇"]我问警戒塔了吗？我问的是增援，是补给！
+[charslot(slot="m",name="avg_npc_2158_1#8$2")]
+[name="巴普洛维奇"]达尼拉·特里波列夫......答应我的弩箭呢？重炮呢？战车呢？军队呢？
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot="m",name="avg_npc_2158_1#5$2")]
+[name="巴普洛维奇"]派了一万封信，他一个字都不回，他怎么敢这样！
+[charslot(slot = "m", focus = "n")]
+[name="安保队长"]请冷静，大人，我们几位配备了精良的弩箭，还有备用的弹射飞行装置，至少能保障您的生命安全。
+[charslot(slot="m",name="avg_npc_2158_1#8$2")]
+[name="巴普洛维奇"]“冷静”？“你们几位”？
+[name="巴普洛维奇"]你是想告诉我，我请你们过来，就为了让我捡一条命好去支付你们的账单？我逃出去他们会放过我？那和死了有什么区别？
+[name="巴普洛维奇"]“队长大人”，你们如果想拿到钱，就全都得给我上，干掉那些愣头青！
+[charslot(slot = "m", focus = "n")]
+[name="安保队长"]可您的钱也就够请我们这几个人，还送了些弟兄给格罗莫夫，而他们有几百人——
+[charslot(slot="m",name="avg_npc_2158_1#8$2")]
+[name="巴普洛维奇"]我还要你提醒我吗？听听，他们的歌声都传进来了。
+[charslot(slot="m",name="avg_npc_2158_1#5$2")]
+[name="巴普洛维奇"]他们在唱丧歌给我听！
+[dialog]
+[charslot(slot = "m", focus = "n")]
+[PlaySound(key="$doorknockquite")]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2158_1#3$2")]
+[name="巴普洛维奇"]......是哪位？
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_1977_1#1$1",duration=0.5)]
+[Delay(time=1)]
+[name="乌萨斯军官"]晚上好，枢密官大人，我是契切林上尉。
+[name="乌萨斯军官"]想必您这里物资充盈，炉子烧得这么热，让您流了不少汗。
+[charslot(slot="m",name="avg_npc_2158_1#4$2")]
+[name="巴普洛维奇"]你......不不，您是特里波列夫公爵大人派来支援我的？快，快请坐。
+[charslot(slot="m",name="avg_npc_1977_1#1$1")]
+[name="乌萨斯军官"]不，大人，公爵大人对卡托加区已经失去了兴趣。
+[charslot(slot="m",name="avg_npc_2158_1#4$2")]
+[name="巴普洛维奇"]为什么？！
+[charslot(slot="m",name="avg_npc_1977_1#1$1")]
+[name="乌萨斯军官"]我不能揣测公爵大人的想法，这是规矩。
+[name="乌萨斯军官"]不过，虽说我不是那位大人所派遣的，但我确实是来支援您的。
+[charslot(slot="m",name="avg_npc_2158_1#2$2")]
+[name="巴普洛维奇"]好......好，我为了乌萨斯尽心尽责地治理卡托加区，我就知道国家一定会奖励我的忠心。
+[name="巴普洛维奇"]您带了多少士兵？多少重武器？您可以随意挑选地方架设，就算把大炮拉进这个房间都可以，拜托您了。
+[charslot(slot="m",name="avg_npc_1977_1#1$1")]
+[name="乌萨斯军官"]枢密官大人，您好像误会了。
+[name="乌萨斯军官"]我没有士兵，上司只让我带了三十名军警，自然也不会有什么重武器。
+[charslot(slot="m",name="avg_npc_2158_1#4$2")]
+[name="巴普洛维奇"]什么？！
+[charslot(slot="m",name="avg_npc_1977_1#1$1")]
+[name="乌萨斯军官"]不过他为您准备了这个。
+[charslot(slot = "m", focus = "n")]
+军官从公文包里掏出了一个黑色的、巴掌大小的盒子，递给了他。
+[charslot(slot="m",name="avg_npc_1977_1#1$1")]
+[name="乌萨斯军官"]这是军用加密通讯终端，直接连接到城外的炮兵阵地。
+[name="乌萨斯军官"]如果您真的顶不住了......按下这个红色按钮。我们会提供“适量”的火力覆盖。
+[charslot(slot="m",name="avg_npc_2158_1#8$2")]
+[name="巴普洛维奇"]什么叫“适量”？我要把整条街都炸平。
+[charslot(slot="m",name="avg_npc_1977_1#1$1")]
+[name="乌萨斯军官"]那是不可能的。每一发炮弹都有成本，每一寸街道都有产权——即使是卡托加区。
+[charslot(slot="m",name="avg_npc_2158_1#8$2")]
+[name="巴普洛维奇"]那源石弩箭呢？还有炸药，这些你们总搬得动吧？
+[charslot(slot="m",name="avg_npc_1977_1#1$1")]
+[name="乌萨斯军官"]都在这儿了。
+[charslot(slot = "m", focus = "n")]
+巴普洛维奇这才注意到，军官提着两个不大的皮箱。
+[charslot(slot="m",name="avg_npc_1977_1#1$1")]
+[name="乌萨斯军官"]这也是为了防止这些武器落入暴徒手中，毕竟当初给过您那么多东西，都让学生捡了。我们必须控制风险。
+[charslot(slot="m",name="avg_npc_2158_1#8$2")]
+[name="巴普洛维奇"]我......我为你们干了那么多脏活，你们就......
+[charslot(slot="m",name="avg_npc_1977_1#1$1")]
+[name="乌萨斯军官"]枢密官大人，我们这三十人都是精锐，可以供您差遣，已能体现老爷们的诚意了。
+[name="乌萨斯军官"]而且我想，您低估了您手中的“武器”。按下它，乌萨斯就会赐予您无上的“荣耀”......
+[charslot]
+这位枢密官呆站在原地，分辨着这句话的意思，渗出汗的手掌还攥着那个冰冷的通讯器。
+[charslot(slot="m",name="avg_npc_2158_1#7$2")]
+[name="巴普洛维奇"]对......我不能放弃希望，他们会救我的，我能打败那些乌合之众......
+[charslot(slot="m",name="avg_npc_2158_1#8$2")]
+[name="巴普洛维奇"]来人！
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2166_1#1$1",duration=0.5)]
+[Delay(time=1)]
+[name="“十六勇士”暴徒"]大人，您喊我们？
+[charslot(slot="m",name="avg_npc_2158_1#8$2")]
+[name="巴普洛维奇"]你们还有多少人能动？
+[charslot(slot="m",name="avg_npc_2166_1#1$1")]
+[name="“十六勇士”暴徒"]大概......三四百？
+[charslot(slot="m",name="avg_npc_2158_1#8$2")]
+[name="巴普洛维奇"]比对面多就行，让他们全部起来热身，很快他们就能为格罗莫夫报仇了！
+[charslot(slot="m",name="avg_npc_2166_1#1$1")]
+[name="“十六勇士”暴徒"]好！
+[charslot(slot="m",name="avg_npc_2158_1#8$2")]
+[name="巴普洛维奇"]你，在门口埋点炸药，他们若是敢冲进来，我就拉着所有人一起去见伊戈尔大帝！
+[charslot(slot = "m", focus = "n")]
+[name="安保队长"]这......
+[charslot(slot="m",name="avg_npc_2158_1#8$2")]
+[name="巴普洛维奇"]至于上尉，我需要你们去对付所谓的无缚者同盟。
+[name="巴普洛维奇"]不要低估敌人，我和他们在这里对抗了两个月，虽然他们人数不多，但经验丰富。
+[name="巴普洛维奇"]最重要的是，他们对贵族一律格杀......不要对这种人有幻想，议会也不会想放他们出去。
+[charslot(slot="m",name="avg_npc_1977_1#1$1")]
+[name="乌萨斯军官"]遵命，枢密官大人。
+[dialog]
+[charslot(slot = "m", focus = "n")]
+[PlaySound(key="$d_avg_armycrowd")]
+[Delay(time=3)]
+[charslot(slot="m",name="avg_npc_1977_1#1$1")]
+[name="乌萨斯军官"]如果我没听错的话......有人来了。
+[charslot(slot="m",name="avg_npc_2158_1#1$2")]
+[name="巴普洛维奇"]......出发。
+[name="巴普洛维奇"]是时候去给这些小毛头一点教训了。
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

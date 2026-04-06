@@ -11,7 +11,7 @@ function CheckinAccessUrlView:OnViewModelUpdate(data)
   if data == nil then
     return;
   end
-  luaUtils.SetActiveIfNecessary(data.showUrlBtn);
+  self:SetVisible(data.showUrlBtn);
   if not data.showUrlBtn then
     return;
   end

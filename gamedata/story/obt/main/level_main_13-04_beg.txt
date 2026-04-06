@@ -374,10 +374,10 @@ Logos，怎么了？
 [charslot(slot = "m", name = "avg_4071_peper_1#11$1",bstart=0.2,bend=0.7,focus="m")]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
 [delay(time=1)]
-[charslot(slot = "l", name = "avg_4071_peper_1#11$1",posfrom = "0,0", posto = "200,0",focus="n")]
-[charslot(slot = "m", name = "avg_4071_peper_1#11$1",bstart=0,bend=0,duration=2,focus="m")]
+[charslot(slot = "l", name = "avg_4071_peper_1#11$1",posfrom = "0,0", posto = "200,0",focus="n",isCopy=true)]
+[charslot(slot = "m", name = "avg_4071_peper_1#11$1",bstart=0,bend=0,duration=2,focus="m",isCopy=true)]
 [delay(time=2)]
-[charslot(slot = "m", name = "avg_4071_peper_1#11$1",focus="m")]
+[charslot(slot = "m", name = "avg_4071_peper_1#11$1",focus="m",isCopy=true)]
 [name="明椒"]那些鬼魂是真的！
 [charslot]
 [dialog]

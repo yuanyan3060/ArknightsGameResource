@@ -1,0 +1,458 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="72_g13_nobleroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playMusic(intro="$darkness01_intro",key="$darkness01_loop", volume=0.6)]
+[charslot(slot="m",name="avg_197_poca_1#4$1",duration=1.5)]
+[delay(time=2)]
+[name="早露"]......
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]我必须重申一次，孩子。
+[name="沃伦佐娃夫人"]如果你只是来还书，仍不愿考虑我先前的建议，那么你可以把书放在那边的壁炉上，然后离开。
+[charslot(slot="m",name="avg_197_poca_1#5$1")]
+[name="早露"]难道只要我不同意您的办法，您就真的连一句旁的话也不愿和我说了吗？
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]放在其他时候，即使你因着年轻人可爱的轻率做出再多糊涂的选择，我都能继续同你促膝长谈，直到深夜。
+[name="沃伦佐娃夫人"]毕竟，我的确错过了许多。关于你，关于你父母，关于你们在切城的经历......
+[charslot(slot="m",name="avg_197_poca_1#4$1")]
+[name="早露"]现在我同样能将这些都告诉您。
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]可现在我却没有资格去听。
+[name="沃伦佐娃夫人"]面对关乎生死的问题，我无法说服你接受我的安排——离开圣骏堡避避风头，或者至少提交一份对自己有利无害的证词。
+[name="沃伦佐娃夫人"]我无法保护你，也就无颜面对你的父母，那我又有什么资格从你这里了解有关他们的任何事情？
+[charslot(slot="m",name="avg_197_poca_1#16$1")]
+[name="早露"]不是这样的，夫人——
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]这本书，你读了吗？
+[charslot(slot="m",name="avg_197_poca_1#8$1")]
+[name="早露"]我读了，我全都读了，我已经明白您为什么要将它借给我。
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]它的扉页上写着什么？
+[charslot(slot="m",name="avg_197_poca_1#2$1")]
+[name="早露"]“世上没有任何主义，值得人们用美好的生活去交换。”
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]是的，是的。雅科夫·彼得洛夫的《忏悔录》，在他死后由其家人整理出版，一本背叛者用死亡换来的经验之谈。所以，我真的不明白......
+[name="沃伦佐娃夫人"]如果你知道已经有人为这经验付出过生命的代价，而自己还能有所选择，那又为何......一定要重蹈覆辙呢？
+[name="沃伦佐娃夫人"]难道一定要在你行将就木，甚至是像他一样在牢狱中咽下鲜血的时候，你才能意识到自己所坚信的只是注定被历史遗忘的瞬间？
+[charslot(slot="m",name="avg_197_poca_1#8$1")]
+[name="早露"]夫人，我......
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]告诉我吧，孩子，告诉我为什么。
+[charslot(slot="m",name="avg_197_poca_1#9$1")]
+[name="早露"]......说实在的，我也问过我自己。可如果......
+[name="早露"]......
+[charslot(slot="m",name="avg_197_poca_1#5$1")]
+[name="早露"]请原谅我的厚颜无耻，我还想提一个要求。
+[name="早露"]如果我能按照您的办法出具这份证词，保全自己，您能答应我，对自治团里的其他成员也一视同仁吗？
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]当然！只要你能按那些人想要的，在证词里列出特定人员的名字——
+[charslot(slot="m",name="avg_197_poca_1#4$1")]
+[name="早露"]好。那么，我会做的。
+[name="早露"]我会向听证会提交一份这样的证词......
+[charslot(slot="m",name="avg_197_poca_1#3$1")]
+[name="早露"]一封“忏悔信”。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[playsound(key="$d_avg_crwddiscuss_outside", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.3, channel="bgs",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_177",duration=0.5)]
+[delay(time=1)]
+[name="急切的贵族"]伯爵夫人？
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]......啊，我在听。你想说什么？
+[charslot(slot="m",name="avg_npc_177")]
+[name="急切的贵族"]抱歉，我想提醒您，仲裁人刚才提到娜塔莉娅小姐了，一会儿需要您把她的证词递上去。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2168_1#1$1",duration=1)]
+[delay(time=2)]
+[name="仲裁人"]下一位证人，娜塔莉娅·罗斯托娃小姐。出于特殊原因，她本人今日不会出席。
+[name="仲裁人"]但是，她已提前申请，由现场某位人士代为诵读证词。
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]仲裁人阁下——
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_405_absin_1#1$2",duration=1)]
+[delay(time=2)]
+[name="苦艾"]娜塔莉娅小姐在昨日将信件交付于我，请仲裁委员会诸位大人过目，并允许我诵读。
+[charslot]
+[SoundVolume(volume=0.6, channel="bgs",fadetime=2)]
+当书记官接过苦艾手中的信件时，窃窃私议的声音越来越大，沃伦佐娃夫人感到无数目光汇集于自身，她摇了摇头。
+[StopSound(channel="bgs", fadetime=2)]
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]那么，请卓娅女士代为讲述娜塔莉娅小姐在此事中的见闻。
+[charslot(slot="m",name="avg_405_absin_1#1$2")]
+[name="苦艾"]“公正的仲裁委员会，以及受人敬仰的诸位大人，这是一封忏悔信......”
+[name="苦艾"]“出于我的悔意，与这封信所涉及的敏感之事，除了不得不谈论的巴普洛维奇外，我不会提及任何大人的具体姓名。”
+[charslot(slot="m",name="avg_npc_177")]
+[name="急切的贵族"]（低声）夫人，这和我们说的——
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]......先听她念完吧。
+[charslot(slot="m",name="avg_405_absin_1#1$2")]
+[name="苦艾"]“......我希望，这足以换取诸位的信任。”
+[Dialog]
+[PlaySound(key="$d_avg_paper1")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Subtitle(text="<i>“在舞会事件发生后不久，出于对索尼娅安危的深切忧虑，我托一位有影响力的人士帮忙，成功联系到了当天大多数被捕学生的家长。”</i>", x=300, y=330, alignment="center", size=24, delay=0.04, width=720)]
+[Subtitle(text="<i>“我得知，所有擅闯萨列夫格勒区的‘罪犯’，都将被统一关押在卡托加区，也就是现在人们口中的‘封锁区’。”</i>", x=300, y=330, alignment="center", size=24, delay=0.04, width=720)]
+[Subtitle(text="<i>“令我意外的是，尽管家长中不乏地位显赫的贵族，他们也难以获得封锁区内的确切消息。”</i>", x=300, y=330, alignment="center", size=24, delay=0.04, width=720)]
+[Subtitle(text="<i>“其中一部分人，是考虑到自身身份敏感，不便直接涉足封锁区。于是，他们委托我作为所有人的代表，前往探视被捕学生。”</i>", x=300, y=330, alignment="center", size=24, delay=0.04, width=720)]
+[Subtitle(text="<i>“他们向我推荐了封锁区的管理者——枢密官巴普洛维奇。为拜访他，隔日我便登上了隔绝卡托加区与外界的城墙。”</i>", x=300, y=330, alignment="center", size=24, delay=0.04, width=720)]
+[Subtitle]
+[stopmusic(fadetime=2)]
+[delay(time=2)]
+[Dialog]
+[Background(image="bg_ltroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playMusic(intro="$sjoyasorrow_intro",key="$sjoyasorrow_loop", volume=0.6)]
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",duration = 1)]
+[charslot(slot = "right", name = "avg_197_poca_1#4$1",duration = 1)]
+[delay(time=2)]
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]......哈哈，我还见了一位您父亲的朋友，舒瓦洛夫男爵，当初他举债跑到切尔诺伯格搞投资，后来又一穷二白地回到圣骏堡。
+[PlaySound(key="$e_atk_saw_n_1",volume=0.1)]
+[name="巴普洛维奇"]但前天我们见面时，他被铐着双手，正由两位警官押着出城，要往东边送。我好奇问他，这是犯了多大的事儿，还要被流放？
+[name="巴普洛维奇"]他神秘兮兮地凑到我耳边说，参加宴会的时候，他喊了一句“矿工万岁”。
+[name="巴普洛维奇"]我惊讶地问他为什么，您猜他说什么？
+[charslot(slot = "right", name = "avg_197_poca_1#4$1",focus="r")]
+[name="早露"]抱歉，我猜不出来。
+[charslot(slot = "left", name = "avg_npc_2158_1#6$1",focus="l")]
+[name="巴普洛维奇"]他笑着回头，看向那两个押送他的警官，说：“被流放了，债主就找不到我了，哈哈哈哈。”
+[charslot(slot = "right", name = "avg_197_poca_1#5$1",focus="r")]
+[name="早露"]这真是，特别的见闻......如果我没有要事在身，或许听一天都不会疲惫。
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]瞧我，一闲聊就停不下来，真是让您见笑了。
+[name="巴普洛维奇"]来，亲爱的罗斯托娃小姐。我们先说正事。
+[charslot(slot = "right", name = "avg_197_poca_1#5$1",focus="r")]
+[name="早露"]枢密官阁下，我是为——
+[Dialog]
+[charslot]
+[charslot(slot = "m", focus = "n")]
+[PlaySound(key="$e_atk_saw_n_2", volume=0.6)]
+[delay(time=1.5)]
+尖厉的电钻声彻底搅扰了巴普洛维奇的兴致，他略带歉意地向早露挥手，起身走到门边。
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_2158_1#8$1")]
+[name="巴普洛维奇"]怎么搞的？今天谁管事？给我出来！
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2166_1#1$1",duration = 0.5)]
+[delay(time=1)]
+[name="“十六勇士”打手"]对不起大人，昨晚带回来的人比较多......
+[charslot(slot = "m", name = "avg_npc_2158_1#8$1")]
+[name="巴普洛维奇"]我管你有多少人？不知道我正在招待客人吗？
+[charslot(slot = "m", name = "avg_npc_2166_1#1$1")]
+[name="“十六勇士”打手"]我这就让他们停手。
+[Dialog]
+[charslot(duration=0.5)]
+[delay(time=1.5)]
+[charslot(slot = "right", name = "avg_197_poca_1#4$1",focus="l")]
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]不好意思，我们刚才说到哪儿了？
+[charslot(slot = "right", name = "avg_197_poca_1#5$1",focus="r")]
+[name="早露"]......原谅我的好奇，枢密官阁下。
+[name="早露"]圣骏堡各区的军警都有统一的装备，而刚刚与您交谈的那个人拿着武器，却身着便服。这里有什么特殊之处吗？
+[charslot(slot = "left", name = "avg_npc_2158_1#6$1",focus="l")]
+[name="巴普洛维奇"]特殊？哈哈，罗斯托娃小姐说笑了，除非您觉得垃圾场也很特殊。
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]在圣骏堡工业转型升级后，老的工业区闲置久了，就有议员提出，可以把这些地方都改造一下，再利用起来。
+[name="巴普洛维奇"]比如用来关些罪犯和一些不愿搬迁的穷人，在封锁区内就地搞生产，一举多得。
+[name="巴普洛维奇"]本来运转得好好的，如果不是这几个月资源吃紧，这些工厂也不会全都停工。
+[name="巴普洛维奇"]唉，乌萨斯从来不会在无用之处多费心思。正规的军警数量有限，给我的资金也只够雇这种白痴帮我管理。
+[name="巴普洛维奇"]万幸的是，这些家伙至今为止还没有出过岔子。
+[charslot(slot = "right", name = "avg_197_poca_1#8$1",focus="r")]
+[name="早露"]那刚才的钻头声，似乎也不是在装修——
+[charslot(slot = "left", name = "avg_npc_2158_1#4$1",focus="l")]
+[name="巴普洛维奇"]啊，如果让您受惊的话，很抱歉。那是牙医在做手术，我也不愿他惊扰到我宝贵的客人。
+[charslot(slot = "right", name = "avg_197_poca_1#8$1",focus="r")]
+[name="早露"]牙医？在这里？
+[charslot(slot = "left", name = "avg_npc_2158_1#3$1",focus="l")]
+[name="巴普洛维奇"]是的，他们要钻开虫蛀之处，把烂掉的东西挖出来，填上新的材料......无论是牙齿，还是思想。
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]相信罗斯托娃小姐的好奇心已经得到满足了，我们该来谈正事了吧？
+[charslot(slot = "right", name = "avg_197_poca_1#4$1",focus="r")]
+[name="早露"]......实在抱歉。
+[name="早露"]刚见面时，您看过我给的名单，我是受他们父母的委托而来，希望您能让我确认这些人的情况。
+[name="早露"]尤其考虑到那名单之中不乏达官显贵的继承人，还请枢密官阁下通融。
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]当然，当然。这次被捕的确实好像都是学生，可怜天下父母心，我当然知道那些大人物对自己的继承人有多么关切。
+[charslot(slot = "left", name = "avg_npc_2158_1#10$1",focus="l")]
+[name="巴普洛维奇"]这些孩子要是能够体谅半点他们父母的心思，又怎么会做出这种大逆不道、令父母伤心的事呢？
+[name="巴普洛维奇"]可您也该体谅，我对于卡托加区的未来有多么关切。
+[charslot(slot = "right", name = "avg_197_poca_1#4$1",focus="r")]
+[name="早露"]枢密官阁下，在与您进一步谈判前我得再次申明，委托我来的家长们希望能够确认孩子们的状态。
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]当然，当然，一会儿有的是时间让您慢慢确认他们的安危。
+[name="巴普洛维奇"]只是那份名单上有两个名字，我还想和罗斯托娃小姐讨论讨论。
+[charslot(slot = "right", name = "avg_197_poca_1#4$1",focus="r")]
+[name="早露"]您请说。
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]首先是瑙姆。据我所知，他已经在昨日被释放了，或许在您来的路上，他就已经到家了。
+[charslot(slot = "right", name = "avg_197_poca_1#4$1",focus="r")]
+[name="早露"]感谢您的告知，我会尽快和他的家长确认。
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]嗯，其次就是这位——索尼娅。
+[name="巴普洛维奇"]短短几天她便在这里名声大噪，我也从手下那里了解到了不少有关她的事迹。
+[charslot(slot = "right", name = "avg_197_poca_1#5$1",focus="r")]
+[name="早露"]索尼娅怎么了？
+[charslot(slot = "m", focus = "n")]
+看着巴普洛维奇惯常挂在脸上的微笑，娜塔莉娅突然感觉到一丝异样。
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]别紧张，我只是好奇，她既非贵族，也不是富有人家的孩子，只是个普通学生，究竟为何能够出现在这份名单上呢？
+[charslot(slot = "right", name = "avg_197_poca_1#4$1",focus="r")]
+[name="早露"]......我无意隐瞒。只因为索尼娅是我的朋友，并非什么真正穷凶极恶的暴徒，所以我才加上了她的名字，恳请您能让我确认她的情况。
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]哦，天哪。罗斯托夫家的继承人向我求助，我怎么会拒绝呢？
+[name="巴普洛维奇"]不过，您必须答应我两件事：其一，您告诉索尼娅，让她这几日安心留在封锁区里，我保证过几日就放她出去。
+[name="巴普洛维奇"]其二，去依次告诉名单上学生们的家长，让他们向议会施压，撤回提案，保留封锁区，无论用什么手段。
+[charslot(slot = "right", name = "avg_197_poca_1#8$1",focus="r")]
+[name="早露"]“保留”封锁区？您是指，卡托加区的区划很快就会被撤销？
+[charslot(slot = "left", name = "avg_npc_2158_1#4$1",focus="l")]
+[name="巴普洛维奇"]哦，小姐，我们亲爱的沃伦佐娃夫人竟然没有告诉您吗？这里面对的可不是简单的撤销......而是赤裸裸的放弃。
+[charslot(slot = "left", name = "avg_npc_2158_1#3$1",focus="l")]
+[name="巴普洛维奇"]帝国资源枯竭已经不是什么秘密了。为了节流，帝国甚至已经窘迫到要放弃一块位于首都的工业地块。
+[name="巴普洛维奇"]早在一周前，议会就有了放弃封锁区，将它抛在荒野上的提案。这提案得到了议长的许可，也就代表着陛下的默认。
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]幸运的是，在一些支持我的旧贵族的力保下，这件事的推行得以拖延至今。但这不是长久之计。
+[name="巴普洛维奇"]我注意到您的名单中有不少知名的产业贵族，倘若他们能鼓动各自亲友一同反对，想必陛下和议会也得重新考量。
+[name="巴普洛维奇"]这关乎他们孩子的性命，他们绝不敢怠慢。一旦收到保留封锁区的敕令，我就放所有人离开。
+[charslot(slot = "right", name = "avg_197_poca_1#5$1",focus="r")]
+[name="早露"]......您认为我能做到？
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]至少我对您抱有期待。凭您拿到了这份名单，毫无畏惧地来到这个人人避之不及的地方，还想救您的朋友。
+[name="巴普洛维奇"]所以，包括索尼娅在内，所有人的性命都在您手上了，娜塔莉娅·罗斯托娃小姐。
+[charslot(slot = "right", name = "avg_197_poca_1#4$1",focus="r")]
+[name="早露"]我会转达的，但首先，我要见到索尼娅。
+[charslot(slot = "left", name = "avg_npc_2158_1#1$1",focus="l")]
+[name="巴普洛维奇"]当然。
+[name="巴普洛维奇"]“小松针”，过来。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_walkfast")]
+[charslot(slot = "m", name = "avg_npc_2166_1#1$1",duration = 0.5)]
+[delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_2158_1#1$1")]
+[name="巴普洛维奇"]带这位小姐去见索尼娅吧，记得要报上娜塔莉娅的名号。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="72_g4_blockst",screenadapt="coverall",xScale=1.1, yScale=1.1,y=-30)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$d_avg_snowstormlp", loop=true, channel="bgs",volume=0.8)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2166_1#1$1")]
+[name="被雇佣的打手"]......这儿离那家伙——离索尼娅的驻地不远，你先等着，我去通报。
+[charslot(slot = "m", name = "avg_197_poca_1#8$1")]
+[name="早露"]她在这里已经有驻地了？还需要“通报”？
+[charslot(slot = "m", name = "avg_npc_2166_1#1$1")]
+[name="被雇佣的打手"]你是她的朋友，那肯定知道，她确实是个不好对付的家伙。
+[charslot]
+[SoundVolume(volume=0.5, channel="bgs",fadetime=2)]
+早露的嘴角不禁有了一丝笑意。阴冷的街道深处吹来一阵风，她扶住帽子，侧过头去。
+[playMusic(intro="$loneliness_intro",key="$loneliness_loop", volume=0.6)]
+忽然，一道灰影从废墟里窜出。那是只瘦骨嶙峋的云兽，浑身癞斑，它停在路中间，警惕地看向早露，嘴里死死叼着一截东西。
+早露的瞳孔骤然收缩——那是一根人的手指，苍白、僵硬，指甲缝里嵌着黑泥与血污，断口处像是被嚼碎的树枝。
+[Dialog]
+[PlaySound(key="$d_avg_stickbeat")]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot = "m", name = "avg_npc_2166_1#1$1")]
+[name="被雇佣的打手"]*乌萨斯粗口*！该死的畜生！
+[charslot]
+[Dialog]
+[PlaySound(key="$d_avg_smallanimal_scream")]
+[delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_2166_1#1$1")]
+[name="被雇佣的打手"]娜塔莉娅小姐，你没事吧？
+[charslot(slot = "m", name = "avg_197_poca_1#9$1")]
+[name="早露"]我......没事，它刚才......不，没什么。
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]街道上实在有些冷，得麻烦您尽快请索尼娅出来了。
+[charslot(slot = "m", name = "avg_npc_2166_1#1$1")]
+[name="被雇佣的打手"]马上。
+[Dialog]
+[PlaySound(key="$d_avg_walkfast")]
+[charslot(duration=0.8)]
+[delay(time=1)]
+看着打手逐渐消失的背影，一阵寒颤从头打到脚，早露原本挺直的身躯猛地软了下来。
+[Dialog]
+[PlaySound(key="$bodyfalldown1",volume=0.6)]
+[CameraShake(duration=0.3, xstrength=3, ystrength=5, vibrato=10, randomness=90, fadeout=true, block=false)]
+[backgroundTween(duration=0.3, yTo=20,block=true)]
+她跌跌撞撞，最后倚在冰冷的砖墙上，捂住了嘴巴。将喉头的动静强行咽下之后，泪水却不受控制地涌出眼眶。
+[Dialog]
+[focusout(duration=1, type="bg", from=0, to=0.61, block=true)]
+[Dialog]
+[Background(image="bg_school",screenadapt="coverall",fadetime=2)]
+[delay(time=3)]
+一根指头，一个屈辱的灵魂的尖叫，一片关于切尔诺伯格的、浑噩的记忆，全都疯狂涌进少女的脑海。
+这不是她第一次经历，她能够独自面对——
+不，不能这样，娜塔莉娅。这是不体面的，是不被允许的，是能被克服的。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Background(image="72_g4_blockst",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+早露蹲在地上，大口地呼吸着金属味道的冷空气，试图先让手臂停止颤抖......
+[Dialog]
+[playsound(key="$d_avg_rapidbreath_female", loop=true, channel="1",volume=1)]
+[Blocker(a=0.5, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopsound(channel="1",fadetime=0.5)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=1.5, block=true)]
+[playsound(key="$d_avg_rapidbreath_female", loop=true, channel="2",volume=1)]
+[Blocker(a=0.9, r=0,g=0, b=0, fadetime=1.2)]
+[focusout(duration=1, type="bg", from=0.61, to=1, block=true)]
+[stopsound(channel="2",fadetime=0.8)]
+[delay(time=1.5)]
+[playsound(key="$d_gen_walk_n", loop=true, channel="zl",volume=0)]
+[SoundVolume(volume=1, channel="zl",fadetime=1.5)]
+[delay(time=1.5)]
+[StopSound(channel="zl", fadetime=0.5)]
+[name="凛冬"]娜塔莉娅？
+[Dialog]
+[Blocker(a=0.5, r=0,g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_gen_heartbeat",volume=0.7, channel="HB", loop=true)]
+[stopsound(channel="HB", fadetime=1)]
+[playsound(key="$d_avg_tinnitus_loop", loop=true, channel="em",volume=0)]
+[SoundVolume(volume=1, channel="em",fadetime=1)]
+[playsound(key="$d_avg_rapidbreath_female", loop=true, channel="3",volume=0.7,delay=0.2)]
+[Blocker(a=0.5, r=0,g=0, b=0, fadetime=1, block=true)]
+[stopsound(channel="3",fadetime=0)]
+[name="早露"]（艰难地呼吸）
+[Dialog]
+[playsound(key="$rungeneral", loop=true, channel="a")]
+[StopSound(channel="a", fadetime=1)]
+[delay(time=1)]
+[multiline(name="凛冬")]你过呼吸了——
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[multiline(name="凛冬")]该死！娜塔莉娅，你能听到我说话吗？
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2)]
+[playsound(key="$d_avg_rapidbreath_female", loop=true, channel="4",volume=0)]
+[delay(time=0.7)]
+[SoundVolume(volume=0.6, fadetime=0,channel="4")]
+[delay(time=0.4)]
+[StopSound(channel="4", fadetime=0.5)]
+[StopSound(channel="em", fadetime=1)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_197_poca_1#16$1",duration = 1.5)]
+[delay(time=2)]
+[name="早露"]我、我——
+[charslot]
+[name="凛冬"]告诉我，你现在在哪儿？
+[charslot(slot = "m", name = "avg_197_poca_1#9$1")]
+[name="早露"]我在......我在......封锁区......
+[charslot]
+[name="凛冬"]对，你在封锁区——*乌萨斯粗口*你们一个两个的，到底进来做什么？找死吗？
+[name="凛冬"]......该死，现在不该说这个。听我说，娜塔莉娅。我在你身边，你不是一个人。
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="凛冬"]娜塔莉娅！
+[Dialog]
+[focusout(duration=1.5, type="bg", from=1, to=0, block=false)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1",duration = 1.5)]
+[delay(time=2.5)]
+[charslot(slot = "m", name = "avg_197_poca_1#5$1")]
+[name="早露"]索尼娅......？
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]对，是我。你还好吗？
+[charslot(slot = "m", name = "avg_197_poca_1#8$1")]
+[name="早露"]索尼娅......不，我没事，很高兴看到你......
+[name="早露"]你也没事。
+[charslot(slot = "m", name = "avg_1051_headb2_1#10$1")]
+[name="凛冬"]怎么还是语无伦次的。这是几？
+凛冬伸出三个手指，戳到早露面前。
+[charslot(slot = "m", name = "avg_197_poca_1#1$1")]
+[name="早露"]三。
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]哼，至少脑子没问题。
+[charslot(slot = "m", name = "avg_197_poca_1#1$1")]
+[name="早露"]我没事，只是吹了风，咳嗽起来，心脏就有点难受。现在已经好很多了，谢谢你。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]行了，在我面前就别装了。是不是刚才来找我那家伙惹你了？
+[charslot(slot = "m", name = "avg_197_poca_1#8$1")]
+[name="早露"]真的不是......唉，算了。
+[charslot(slot = "m", name = "avg_197_poca_1#12$1")]
+[name="早露"]听着，索尼娅，我能在这里停留的时间有限，必须尽快把目前的情况都告诉你。
+[charslot]
+她四下打量，朝凛冬示意，希望她靠得更近些。
+[Dialog]
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",duration = 1)]
+[charslot(slot = "right", name = "avg_197_poca_1#12$1",duration = 1)]
+[delay(time=2)]
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="凛冬"]......我知道了，你是从管事的人那过来的。
+[name="凛冬"]先告诉你一声，烈夏目前也在这里，你还需要知道什么吗？
+[charslot(slot = "right", name = "avg_197_poca_1#9$1",focus="r")]
+[name="早露"]罗莎琳......她一直坚持要来找你，只在办事处留下封信就走了。
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="凛冬"]不要责怪她，她也只是急着来帮我......我，我想问问大家都怎么样了？
+[charslot(slot = "left", name = "avg_1051_headb2_1#12$1",focus="l")]
+[name="凛冬"]古米还好吗？真理她有没有生我的气？还有卓娅和教官她们......
+[charslot(slot = "right", name = "avg_197_poca_1#8$1",focus="r")]
+[name="早露"]大家很好，但每个人都在担心你。
+[name="早露"]我过来也是想确认你的安全，以及这片封锁区......
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="凛冬"]我不知道你看到了什么，但这里发生的事，大概比你在这么短时间内看到的还要糟上不少。
+[name="凛冬"]没有食物，没有燃料，甚至没有干净的饮用水。不同的人在拉帮结派，四处争斗，抢夺地盘和资源。
+[charslot(slot = "left", name = "avg_1051_headb2_1#11$1",focus="l")]
+[name="凛冬"]每天都有人死。
+[charslot(slot = "right", name = "avg_197_poca_1#8$1",focus="r")]
+[name="早露"]巴普洛维奇说他会放所有人离开，只是有些条件——
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="凛冬"]你不会真相信这种人说的话吧？
+[charslot(slot = "right", name = "avg_197_poca_1#9$1",focus="r")]
+[name="早露"]我当然不......
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="凛冬"]我知道，你也没有别的办法，否则不会还要到处求人才能进来，还只能告诉我消息，看看我怎么样。
+[name="凛冬"]怎么说呢，虽然刚才我说的好像很恐怖，仿佛明天大家就都玩完了，但这对我们来说并不陌生......
+[name="凛冬"]一片哪怕明天就爆炸也没人在意的封锁区域，一群为生存相互倾碾得几乎只剩下本能的学生......
+[name="凛冬"]这里的一切都有种熟悉的感觉，是不是？
+[charslot(slot = "right", name = "avg_197_poca_1#12$1",focus="r")]
+[name="早露"]......告诉我，你现在需要什么？我还能离开这里，出去之后，我们这些在外面的人都会想办法——
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="凛冬"]我需要知道，这圈和堡垒一样的城墙上面有多少人？除了那些混混。
+[charslot(slot = "right", name = "avg_197_poca_1#12$1",focus="r")]
+[name="早露"]很少，巴普洛维奇请了几名保镖，加上穿旧款军队制服的那些也不超过十人。
+[charslot(slot = "left", name = "avg_1051_headb2_1#4$1",focus="l")]
+[name="凛冬"]......不错。
+[dialog]
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",focus="all")]
+[charslot(slot = "l",posfrom = "0,0", posto = "50,0",duration = 0.8,isblock=true)]
+[charslot(slot = "m", focus = "n")]
+凛冬往早露的方向靠得更近，迫切地压低了声音。
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="凛冬"]（小声）如果可能的话，尽量想办法切断他们的武装供应。
+[charslot(slot = "right", name = "avg_197_poca_1#8$1",focus="r")]
+[name="早露"]（小声）武装？可我看到他们的“安保人员”都不是专业的。
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="凛冬"]（小声）不，你不知道。
+[name="凛冬"]（小声）最近这里每天都有弹药补给和重型武器运进来，要是每个高地都有那样的大家伙守着，我们根本没有对抗的可能。
+[charslot(slot = "right", name = "avg_197_poca_1#3$1",focus="r")]
+[name="早露"]你的意思是......
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="凛冬"]就是字面意思。
+[charslot(slot = "right", name = "avg_197_poca_1#12$1",focus="r")]
+[name="早露"]......我明白了，出去后我会和大家商量，一起想想办法。
+[name="早露"]索尼娅，你和罗莎琳都要保重，一定要保护好自己。
+[charslot(slot = "left", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="凛冬"]别担心，我会出去的，会带着大家一起出去。
+[name="凛冬"]就像以前一样。
+[StopSound(channel="bgs", fadetime=2)]
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

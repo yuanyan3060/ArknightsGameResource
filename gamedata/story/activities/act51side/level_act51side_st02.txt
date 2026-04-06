@@ -1,0 +1,564 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playMusic(intro="$sjoyasorrow_intro",key="$sjoyasorrow_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_2168_1#1$1",duration=0.5)]
+[Delay(time=1)]
+[name="仲裁人"]肃静。
+[name="仲裁人"]诸位，所有证人均已陈述完毕，相信诸位大人已从各方证词中得到了线索。
+[name="仲裁人"]鉴于“卡托加事件”牵涉甚广，且证词存在诸多矛盾......
+[name="仲裁人"]仲裁委员会需要时间对所有证据进行“闭门核查”。
+[name="仲裁人"]现在宣布听证会流程到此结束。两小时后，我们将正式公布“卡托加事件”的最终审议结果。
+[charslot(slot="m",name="avg_405_absin_1#1$1")]
+[name="苦艾"]......
+[charslot(slot="m",name="avg_405_absin_1#7$1")]
+[name="苦艾"]（压低声音）是时候了。
+[charslot]
+[playsound(key="$d_avg_crwddiscuss_outside", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.4, channel="bgs",fadetime=2)]
+七嘴八舌的讨论又一次在她四周响起，几位贵族不出所料地与仲裁人同行，走向厅内的过道。
+苦艾摇了摇头，穿过熙熙攘攘的人群，走出门时，她回头对上书记官的目光。
+书记官面无表情，视线仿佛穿透了她，落在虚无的空气中。但他不动声色地竖起了手中的记录本——
+那上面一片雪白，空无一字。
+[Dialog]
+[StopSound(channel="bgs", fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="72_g10_hallway",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2168_1#1$1",duration=0.5)]
+[Delay(time=1)]
+[name="仲裁人"]呼......真是场漫长的闹剧。
+[name="仲裁人"]难以置信，连特里波列夫家的小孩都会犯错。
+[charslot(slot="m",name="avg_npc_2171_1#1$1")]
+[name="焦虑的贵族"]不过，重点还是在索尼娅身上，仲裁人阁下，您打算怎么定性？
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]这取决于我们需要她成为什么样的“反面教材”。
+[charslot(slot="m",name="avg_npc_2171_1#1$1")]
+[name="焦虑的贵族"]我们需要她是一个疯子，阁下。
+[name="焦虑的贵族"]有的新贵族试图利用皇帝陛下狡辩，连“勤王护驾有功”这种鬼话都讲得出口。
+[name="焦虑的贵族"]必须得放大索尼娅的危害性，不趁这个机会收拾那些暴发户，将来他们会变本加厉地颠倒黑白！
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]......等特里波列夫公爵到了再一起决定，他还需要一些时间平复心情。
+[dialog]
+[charslot(slot = "m", focus = "n")]
+[playsound(key="$d_avg_crwddiscuss_inside", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.2, channel="bgs",fadetime=2)]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]等等......
+[name="仲裁人"]这是什么声音？
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[SoundVolume(volume=0.4, channel="bgs",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_npc_2170_1#1$1",duration=0.5)]
+[Delay(time=1)]
+[name="乌萨斯警察"]仲裁人阁下！
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]发生什么事了？
+[charslot(slot="m",name="avg_npc_2170_1#1$1")]
+[name="乌萨斯警察"]有消息说，有一群歹徒突袭了三号监狱，劫走了许多犯人。
+[name="乌萨斯警察"]因为这个事情，刚才大家都吵翻了，需要您来主持秩序。
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]三号监狱这么随便就被突破了？
+[charslot(slot="m",name="avg_npc_2170_1#1$1")]
+[name="乌萨斯警察"]我们的警力都集中在这附近，余下的人不够提前发现那些歹徒，才导致了这一失误。
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]......不对。
+[name="仲裁人"]外面的学生呢？
+[charslot(slot="m",name="avg_npc_2170_1#1$1")]
+[name="乌萨斯警察"]他们刚刚都解散回家了，您的意思是......
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]......
+[name="仲裁人"]我的意思是，你们这些废物！赶紧找出带头的，把他抓回来！
+[charslot(slot="m",name="avg_npc_2170_1#1$1")]
+[name="乌萨斯警察"]是！
+[StopSound(channel="bgs", fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="bg_cellroom_1",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_key")]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2179_1#1$1",duration=0.5)]
+[Delay(time=1)]
+[name="积极的学生"]喂，醒醒！
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2176_1#1$1",duration=1)]
+[Delay(time=2)]
+[name="拉列亚"]......你是？
+[charslot(slot="m",name="avg_npc_2179_1#1$1")]
+[name="积极的学生"]你就是拉列亚吧，这座监狱已经被我们攻占了。
+[name="积极的学生"]趁他们的援军还没赶到，赶紧离开这里。
+[charslot(slot="m",name="avg_npc_2176_1#1$1")]
+[name="拉列亚"]我没有弄错吧......你们是来救我的吗？
+[charslot(slot="m",name="avg_npc_2179_1#1$1")]
+[name="积极的学生"]当然不止是你，你先出来。
+[charslot]
+惊喜与困意交织，拉列亚顶着发懵的脑袋，一步步地跨过倒在地上的狱警。
+他的思绪飘荡，原来自己的威望已然如此......他要回到学生联合大会，成为不亚于奥尔佳的领袖角色。
+[charslot(slot="m",name="avg_npc_2176_1#1$1")]
+[name="拉列亚"]同学们......我的同胞们！
+[name="拉列亚"]看着你们，我就知道，自由的火种从未熄灭！
+[charslot(slot="m",name="avg_npc_2179_1#1$1")]
+[playsound(key="$d_avg_crowdrun")]
+[name="积极的学生"]二队！二队把缺口守住！这边的牢房都打开了！
+[charslot(slot="m",name="avg_npc_2176_1#1$1")]
+[name="拉列亚"]咳咳——
+[name="拉列亚"]正如你们所见，虽然这漆黑的牢笼禁锢了我的肉体，但它无法禁锢我的——
+[dialog]
+[charslot(slot="r",name="avg_npc_2182_1#1$1",posfrom = "150,0", posto = "0,0",duration=0.5)]
+[Delay(time=1)]
+[charslot(slot = "m", focus = "r")]
+[name="匆忙的学生"]借过！别挡道！
+[dialog]
+[charslot(slot="r",posfrom = "0,0", posto = "-250,0",duration=0.81,afrom=1,ato=0, focus = "r")]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2176_1#1$1")]
+[name="拉列亚"]......没关系。
+[name="拉列亚"]我知道，你们是为了我而来的。为了——
+[charslot(slot = "m", focus = "n")]
+没有一个人回应他......他看着面前眼熟的各个身影，却发觉这群昔日的同学不知何时已经变得陌生。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="72_g1_sjbstreet_d",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$m_dia_street_intro",key="$m_dia_street_loop", volume=0.6)]
+[charslot(slot="m",name="avg_194_leto_1#1$1",duration=0.5)]
+[Delay(time=1)]
+[name="烈夏"]啊啊，累死我了。
+[name="烈夏"]我刚从那鬼地方跑出来，又要和你们干这一票。
+[charslot(slot="m",name="avg_1051_headb2_1#1$1")]
+[name="凛冬"]别抱怨了，卓娅都没说什么呢。
+[charslot(slot="m",name="avg_405_absin_1#4$1")]
+[name="苦艾"]索尼娅，你的想法一直都这么大胆吗？
+[name="苦艾"]没想到我们居然真的能在那些人的眼皮子底下玩出这套......
+[charslot(slot="m",name="avg_npc_2156_1#1$1")]
+[name="真理"]卓娅，先前你主动提出要出席听证会拖延时间，我们还担心了好久。
+[name="真理"]本来娜塔莉娅都找人安排好了，不用让你去冒这么大风险。
+[charslot(slot="m",name="avg_405_absin_1#1$1")]
+[name="苦艾"]古米本来也不用全程参与行动的，可她还是来了。
+[charslot(slot="m",name="avg_1051_headb2_1#4$1")]
+[name="凛冬"]哼，说到这个......
+[charslot(slot="m",name="avg_196_sunbr_1#19$1")]
+[name="古米"]凛冬姐——
+[name="古米"]我已经道过歉啦！而且，我不也没怎么受伤吗？真理姐还说我有帮上忙，你不能再骂我了。
+[charslot(slot="m",name="avg_1051_headb2_1#2$1")]
+[name="凛冬"]谁说我要骂你了？
+[name="凛冬"]如果不是你和坚雷教官，还有......弑君者，之前闯出封锁区的时候，我们还得分出精力提防来自动力层的袭击。你们确实帮上了忙。
+[charslot(slot="m",name="avg_197_poca_1#1$1")]
+[name="早露"]冬将军承认了呀。就像如果不是卓娅主动去听证会把这场戏演足，或许今天也不会有这么顺利的结果。
+[name="早露"]我们不会把任何人排除在外了。
+[charslot(slot="m",name="avg_1051_headb2_1#2$1")]
+[name="凛冬"]我没有想把她们排除在外......算了，事实证明这确实是我计划上的疏漏。
+[name="凛冬"]不过我更没想到，再见到你们的时候，外面原本各行其是的学生，已经变成了一支紧密的队伍。
+[name="凛冬"]也辛苦你了，真理。
+[charslot(slot="m",name="avg_npc_2156_1#2$1")]
+[name="真理"]还不是因为你太莽撞了，我只能这样......
+[charslot(slot="m",name="avg_197_poca_1#1$1")]
+[name="早露"]好啦，索尼娅，安娜，我们都该想想下一步的事了。
+[charslot(slot="m",name="avg_196_sunbr_1#1$2")]
+[name="古米"]啊，对。我们出发之前，坚雷教官说罗德岛准备好了安全屋，让我们结束后不要回办事处，直接过去。
+[charslot(slot="m",name="avg_196_sunbr_1#5$1")]
+[name="古米"]说是要先......“避避风头”？
+[charslot(slot="m",name="avg_npc_2156_1#1$1")]
+[name="真理"]之后在圣骏堡，我们只能隐秘行动了。所幸学校那边我已经安排好了，接收情报还是没问题的。
+[charslot(slot="m",name="avg_1051_headb2_1#2$1")]
+[name="凛冬"]那就走啊。
+[charslot(slot="m",name="avg_npc_2156_1#1$1")]
+[name="真理"]嗯。
+[charslot(slot="m",name="avg_194_leto_1#1$1")]
+[name="烈夏"]走！
+[charslot(slot="m",name="avg_1051_headb2_1#2$1")]
+[name="凛冬"]哦，等等。
+[name="凛冬"]卓娅，你是不是忘了什么？
+[charslot(slot="m",name="avg_405_absin_1#4$1")]
+[name="苦艾"]什么？
+[charslot(slot = "m", focus = "n")]
+看着凛冬疑惑的目光，她意识到了什么，从包里拿出了一个铁徽章——握紧的拳头的图案，还是崭新的。
+[charslot]
+[charslot(slot="m",name="avg_1051_headb2_1#2$1")]
+[name="凛冬"]嗯，你带着呢。之后要好好戴在身上啊。
+[name="凛冬"]你以前就该是我们的一员，现在和以后，更加得是。
+[charslot(slot="m",name="avg_405_absin_1#8$1")]
+[name="苦艾"]凛冬，你们......
+[charslot(slot="m",name="avg_194_leto_1#8$1")]
+[name="烈夏"]嘿嘿卓娅，以后可有你受的了。
+[charslot(slot="m",name="avg_194_leto_1#5$1")]
+[name="烈夏"]冬将军看起来嘻嘻哈哈，以前自己也不乐意戴这东西。但现在你要是被她逮到几次忘戴徽章，她那个脸色可——
+[charslot(slot="m",name="avg_1051_headb2_1#10$1")]
+[name="凛冬"]......别说了，不是还要避风头吗！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="49_g13_smallroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_1051_headb2_1#1$1")]
+[name="凛冬"]这地方七弯八拐的，真不好找。
+[charslot(slot="m",name="avg_405_absin_1#1$1")]
+[name="苦艾"]大概是为了保证安全性。
+[charslot(slot="m",name="avg_197_poca_1#5$1")]
+[name="早露"]是啊。之前你们在其他城市里活动的时候，卓娅和我每周都要换一个像这样的新据点，才好继续接收情报，准备下一步的行动。
+[charslot(slot="m",name="avg_194_leto_1#1$1")]
+[name="烈夏"]反正我是干不了这种活的，换成其他时候，让我在这待两天就得无聊死。
+[charslot(slot="m",name="avg_405_absin_1#1$1")]
+[name="苦艾"]其实也没那么枯燥。
+[charslot(slot="m",name="avg_npc_2156_1#1$1")]
+[name="真理"]是罗莎琳自己坐不住。
+[charslot(slot="m",name="avg_194_leto_1#6$1")]
+[name="烈夏"]欸——
+[dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n",volume=0.7)]
+[charslot(slot="m",name="avg_1502_crosly_1#1$1",duration=1)]
+[Delay(time=2)]
+[name="弑君者"]你们来了。
+[charslot(slot="m",name="avg_1051_headb2_1#6$1")]
+[name="凛冬"]啊。难道这里其实是你的安全屋？
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]就当作是罗德岛的吧。
+[charslot(slot="m",name="avg_npc_2156_1#6$1")]
+[name="真理"]索尼娅，她是......？
+[charslot(slot="m",name="avg_1051_headb2_1#1$1")]
+[name="凛冬"]弑君者，柳德米拉。她和我们一样，也是圣骏堡办事处的派驻干员。
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]（点头）
+[charslot(slot="m",name="avg_197_poca_1#8$1")]
+[name="早露"]......
+[charslot(slot="m",name="avg_1051_headb2_1#1$1")]
+[name="凛冬"]她们看上去都不认识你。看来就算我专门找你说了，你也还是没往心里去啊。
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]罗德岛在乌萨斯的资源尚且有限，最好先留给更需要的人。
+[name="弑君者"]而且，我找过办事处，古米帮了我。
+[charslot(slot="m",name="avg_196_sunbr_1#1$2")]
+[name="古米"]我觉得那算是互相帮助！
+[charslot(slot="m",name="avg_1051_headb2_1#2$1")]
+[name="凛冬"]好吧。有个开头总比没有好。
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]总之，你们可以在这里待一段时间，等风头过去，坚雷会来通知你们。
+[charslot(slot="m",name="avg_196_sunbr_1#3$1")]
+[name="古米"]嗯？那你呢？
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]我要离开圣骏堡一段时间。
+[name="弑君者"]正在追踪的任务有了重要进展，我现在必须先尽快去那边核实情况。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="72_g15_wideunder",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$distressed_intro",key="$distressed_loop", volume=0.6)]
+[charslot(slot="m",name="avg_1502_crosly_1#3$1",duration=0.5)]
+[Delay(time=1)]
+[name="弑君者"]......
+[dialog]
+[charslot(slot = "m", focus = "n")]
+[playsound(key="$d_gen_walk_n", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=2)]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]......古米......
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_196_sunbr_1#15$1",duration=1)]
+[Delay(time=2)]
+[name="古米"]唔。
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]为什么要跟着我？快回去。
+[charslot(slot="m",name="avg_196_sunbr_1#15$1")]
+[name="古米"]你要去爸爸在通讯里提到的那个地方，对不对？
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]这是我的任务。
+[charslot(slot="m",name="avg_196_sunbr_1#15$1")]
+[name="古米"]可是......
+[name="古米"]可那里有古米的爸爸。
+[charslot(slot="m",name="avg_1502_crosly_1#5$1")]
+[name="弑君者"]我甚至还没有确定他说的具体是哪个卫星城，跟着我，不一定能见到你父亲。
+[name="弑君者"]这与任务危险与否无关，只是现在你没有必要——
+[charslot(slot="m",name="avg_196_sunbr_1#15$1")]
+[name="古米"]柳德米拉姐。
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]嗯？
+[charslot(slot="m",name="avg_196_sunbr_1#15$1")]
+[name="古米"]如果你找到了那个卫星城，见到了我爸爸，或者我妈妈，你会告诉我吗？
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]我会。
+[charslot(slot="m",name="avg_196_sunbr_1#11$1")]
+[name="古米"]好。那我还有最后一个问题。
+[name="古米"]早露姐刚才说，你以前是整合运动的人。
+[charslot(slot="m",name="avg_1502_crosly_1#2$1")]
+[name="弑君者"]她说的是真的。
+[charslot(slot="m",name="avg_196_sunbr_1#21$1")]
+[name="古米"]可是凛冬姐说这不重要，烈夏姐说她本来也不打算和你有什么接触。
+[name="古米"]真理姐和苦艾姐都沉默了，古米心里也有自己的看法。
+[charslot(slot="m",name="avg_1502_crosly_1#3$1")]
+[name="弑君者"]......
+[charslot(slot="m",name="avg_196_sunbr_1#11$1")]
+[name="古米"]那时候，你不在那里，对不对？
+[name="古米"]你不在彼得海姆。
+[charslot(slot="m",name="avg_1502_crosly_1#6$1")]
+[name="弑君者"]......
+[charslot(slot = "m", focus = "n")]
+红发的青年女性沉默了。黑暗中，她握紧了双拳，而后又伸展开去。
+她望着女孩恳切的双眼，最终缓缓、缓缓地摇了摇头。
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]可我在切尔诺伯格。
+[charslot(slot="m",name="avg_1502_crosly_1#2$1")]
+[name="弑君者"]我曾经是那个整合运动的一员，无论它产生的邪恶是否曾真的经过我的双手，我都需要与它共同承担罪责。
+[charslot(slot="m",name="avg_1502_crosly_1#3$1")]
+[name="弑君者"]逃避毫无用处。因此，我不奢求原谅或是和解。只是现在，这一次，至少这一次......
+[name="弑君者"]如果我还有挽回些什么的机会，那我一定要去做。
+[charslot]
+古米睁大了眼睛，似乎在思考着弑君者的发言。很快，她又微笑起来，从口袋里掏出一颗蜂蜜糖。
+[PlaySound(key="$d_avg_clothmovement")]
+隔着手套，她把糖塞进弑君者的掌心里。
+[charslot(slot="m",name="avg_1502_crosly_1#1$1")]
+[name="弑君者"]......这是什么——
+[charslot(slot="m",name="avg_196_sunbr_1#11$1")]
+[name="古米"]这是约定。
+[name="古米"]我明白凛冬姐为什么说不重要了。我们已经长大，长大到即使选择不去迁怒和怨恨，也能获得内心的平静。
+[charslot(slot="m",name="avg_196_sunbr_1#3$1")]
+[name="古米"]我会等你回来，等你带着爸爸的消息，或者妈妈的消息——甚至是他们两个人的消息，回来！
+[name="古米"]我想相信。我想相信可靠的柳德米拉姐。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="72_g1_sjbstreet_d",screenadapt="coverall")]
+[name="安托沙"]第二天，我回到了那条街道，一个人。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(key="$calm_loop", volume=0.6)]
+[charslot(slot = "left", name = "avg_npc_1979_1#1$1",duration = 1)]
+[charslot(slot = "right", name = "avg_npc_1979_1#1$1",duration = 1)]
+[delay(time=1.5)]
+[charslot(slot = "left", focus="l")]
+[name="谨慎的工人"]喂喂，注意一下，这可是议员派的活儿，要是磕坏了东西——
+[charslot(slot = "left", focus="r")]
+[name="兴奋的工人"]但是你看到了吗？那个混蛋巴普洛维奇，就是在那片封锁区里被砸成了馅饼。
+[name="兴奋的工人"]说不定之前，我们人人都踩了一脚他的尸体呢！
+[charslot(slot = "left", focus="l")]
+[name="谨慎的工人"]小点声！这里可不都是我们的人。
+[charslot(slot = "left", focus="r")]
+[name="兴奋的工人"]嗐，怎么可能有别人嘛，我们都在——
+[charslot]
+[Dialog]
+[charslot(slot="m",name="avg_npc_2157_1#2$2",duration=1)]
+[Delay(time=2)]
+[name="安托沙"]......
+[charslot(slot="m",name="avg_npc_1979_1#1$1")]
+[name="兴奋的工人"]您，您是？
+[charslot(slot="m",name="avg_npc_2157_1#2$2")]
+[name="安托沙"]我是来找人的，不打扰你们工作。如果你担心我会出卖你——
+[charslot(slot="m",name="avg_npc_2157_1#1$2")]
+[name="安托沙"]巴普洛维奇死有余辜。
+[charslot(duration=1)]
+[PlaySound(key="$d_gen_walk_n")]
+安托沙向对方微微鞠躬，他穿过工人们的队伍，走到街道的对面，走向记忆中的门楣。
+被学校开除的时候，马特维将身无分文的他带回了家里，那是他自从来到圣骏堡后，第一次有了和家人吃饭的感觉。
+他还记得马特维的母亲，总是安静地微笑，搅动着红菜汤里为数不多的肉块，偷偷盛进他的碗中。
+[charslot]
+[charslot(slot="m",name="avg_npc_2157_1#11$2")]
+[name="安托沙"]我......
+[charslot(slot = "m", focus = "n")]
+他抬起头，是熟悉的甜菜与洋葱的味道。
+窗帘没有拉严，昏黄的灯光透了出来，他不禁朝着屋里看去。
+一位年迈的女士，从狭窄的厨房里捧出了一个陶罐，舀出红菜汤，分到了三个不同的碗里。
+[charslot(slot="m",name="avg_npc_2157_1#6$2")]
+[name="安托沙"]三份......？！
+[charslot(slot="m",name="avg_npc_2157_1#3$2")]
+[name="安托沙"]那是留给我的——
+[charslot(slot="m",name="avg_npc_2157_1#11$2")]
+[name="安托沙"]你在信里到底写了什么......
+[charslot]
+[name="？？？"]嗯？外面有人吗？
+[Dialog]
+[playsound(key="$rungeneral", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+听到屋里的声音，他像是最卑劣的窃贼，拿出为马特维所写的讣告，夹在了窗户的边缘，转身逃开。
+[Dialog]
+[charslot(slot="m",name="avg_npc_2157_1#1$2")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[name="安托沙"]（压低声音）该死！
+[name="安托沙"]（压低声音）什么时候变得这么软弱了，安托沙！
+[dialog]
+[charslot]
+[playsound(key="$d_avg_carriage_loop", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=2)]
+[delay(time=2)]
+[name="休息的工人"]年轻人，别跑那么急，让一让。
+[charslot(slot="m",name="avg_npc_2157_1#3$2")]
+[name="安托沙"]......
+[charslot]
+[name="休息的工人"]驮兽有点累了，搬点旧家具也不容易，嘿嘿。
+安托沙点点头，他侧过了身子。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background]
+[Image(image="72_i15_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[delay(time=1)]
+[Dialog]
+[playMusic(intro="$storyendjp_intro",key="$storyendjp_loop", volume=0.6)]
+[bgeffect(name="$eb_072cg_snowcoverwindow",layer=1)]
+[delay(time=2)]
+[Image(image="72_i15_3",screenadapt="coverall",fadetime=2)]
+[delay(time=3)]
+[name="安托沙"]马特维？！
+驮车上的镜子，映着灰暗的街道、狼狈的自己、属于过去的身影。
+阳光铺满了马特维的脸庞。他是那么地真实、鲜活，没有不甘的表情和被灰尘沾染的伤口，只是胸膛上插着一束樱桃花......
+鲜血的颜色，从花蕊到花瓣，渐渐晕散。
+[name="安托沙"]是你吗，朋友？
+[name="安托沙"]我明明看见你，看见利斯特、尤拉......我......
+[name="安托沙"]我记得每个人的死亡，记得你们每一句祈祷与告别，还有那些没能留下遗言的人。
+[name="安托沙"]你会告诉我，这一切都是虚假的，对吗？
+[name="“马特维”"]......不，安托沙。
+[name="安托沙"]？！
+[name="“马特维”"]你有没有想象过，我本该会过上的人生。
+[name="“马特维”"]我还会留在校园里，遇上更多值得交往的朋友，在春天的河流边写下今年的第一首诗。
+[name="“马特维”"]下午没课的时候，我会回到家里，等着母亲炖好汤，我会念起写给她的文章。
+[name="“马特维”"]她肯定听不懂，但是会眯起眼睛，笑着和我说：“多吃点，我亲爱的大学生。”
+[name="安托沙"]啊......
+[name="安托沙"]马特维，马特维，我......
+[name="安托沙"]为什么是，我活着......
+[name="“马特维”"]因为，你还有机会，过上我想过的人生。
+[name="“马特维”"]放下吧安托沙，我知道，你到底背负着担子走了多少年。
+[name="安托沙"]过上那样美好的人生......我真的可以吗？
+[name="安托沙"]......每一个乌萨斯人都可以吗？
+[multiline(name="安托沙")]马特维，如果我没有选择反抗这片充满压迫的大地，
+[multiline(name="安托沙")]我还会和你成为朋友吗......
+过去的身影没有回答，只是轻轻发出一声叹息。
+[dialog]
+[Image(image="72_i15_2",screenadapt="coverall",fadetime=2)]
+[delay(time=3)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[curtain(direction = 0,fillfrom = 0.01,fillto = 0.22)]
+[curtain(direction = 4,fillfrom = 0.01,fillto = 0.22)]
+[Image(image="72_i15_2",screenadapt="coverall", xScale=1.6, yScale=1.6,x=150,y=-200)]
+[delay(time=0.25)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Image(image="72_i15_4",screenadapt="coverall",fadetime=2, xScale=1.6, yScale=1.6,x=150,y=-200)]
+[delay(time=3)]
+离开故乡后，安托沙第二次流下了眼泪。
+他活着，但他的一部分灵魂，永远留在了卡托加区的废墟下。
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[curtain]
+[Image(image="72_i15_2",screenadapt="coverall")]
+[delay(time=0.25)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="安托沙"]活下去......
+[name="安托沙"]如果现在放弃了，马特维就永远是帝国贵族口中的叛徒。
+[name="安托沙"]会有那么一天，我会把他和老师，把无缚者同盟的大家，都刻在属于烈士的石碑上......
+[name="安托沙"]再给我一些时间吧，我的朋友。
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[curtain]
+[Image]
+他用满是尘土与污垢的袖子，抹过了自己的眼睛。
+随后他抬起步子，跟在了工人队伍的最后。
+[dialog]
+[delay(time=1)]
+[Background(image="72_g1_sjbstreet_d",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+在这工人队伍的另一头，一个年轻人望着这座陌生的城市，甚至没发觉自己扛在肩上的箱子已滑落于地。
+[charslot(slot="m",name="avg_npc_1979_1#1$1")]
+[name="爽朗的工人"]喂，兄弟！
+[name="爽朗的工人"]看什么呢这么认真？也让我们看看。
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2185_1#4$1",duration=0.5)]
+[delay(time=1)]
+[name="尼克托"]我好像......不，没什么。
+[charslot(slot="m",name="avg_npc_1979_1#1$1")]
+[name="爽朗的工人"]你来我们这里也几天了，别那么拘谨嘛，开心点，我们都进圣骏堡啦。
+[charslot(slot="m",name="avg_npc_2185_1#1$1")]
+[name="尼克托"]圣骏堡......
+[charslot(slot="m",name="avg_npc_2185_1#10$1")]
+[name="尼克托"]你说得没错，到圣骏堡的这一路，可真是难熬......
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+天光逐渐消散，像是拉上了帷幕。
+[dialog]
+[charslot]
+[image]
+[Delay(time=1)]
+[Background(image="50_g13_warshipcommandroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$suspenseful_intro",key="$suspenseful_loop", volume=0.6)]
+[charslot(slot = "left", name = "avg_npc_1977_1#1$1",duration = 0.5)]
+[charslot(slot = "right", name = "avg_npc_1977_1#1$1",duration = 0.5)]
+[delay(time=1.5)]
+[charslot(slot = "left", focus="l")]
+[name="紧张的军官"]元帅把我们召集到这里，又是要做什么？
+[name="紧张的军官"]难道因为那小子遇刺，砍了他所有亲卫的脑袋都不够，还要追责到我们头上来吗？
+[charslot(slot = "left", focus="r")]
+[name="严肃的军官"]也可能是你想多了，只是又有预料外的紧急情况。
+[name="严肃的军官"]毕竟，即使半个月前军中爆发了小规模叛乱，从整体战况来看，第四集团军仍然与第二集团军相持不下。
+[charslot(slot = "left", focus="l")]
+[name="紧张的军官"]你的意思是？
+[charslot(slot = "left", focus="r")]
+[name="严肃的军官"]只是猜测，但或许，我们也没法再独善其身了。
+[charslot(slot = "left", focus="l")]
+[name="紧张的军官"]可第一集团军向来都是——
+[dialog]
+[charslot]
+[playsound(key="$d_avg_armyboots_walk", loop=true, channel="bgs")]
+[delay(time=2)]
+[StopSound(channel="bgs", fadetime=0)]
+[name="威严的军人"]向来都是？
+[charslot(slot = "m", name = "avg_npc_1977_1#1$1")]
+[name="紧张的军官"]......向来都是独、独立于派系之外的编制。我们不主动参与任何斗争，只维护乌萨斯的利益。
+[charslot]
+[name="威严的军人"]没错。
+[name="威严的军人"]既然是这样，各位又在忧心什么呢？
+[charslot(slot = "m", name = "avg_npc_1977_1#1$1")]
+[name="严肃的军官"]请恕我直言，总司令。您突然将我们从各自的驻地召集至此，一定有足够重要的缘由。
+[charslot]
+[name="威严的军人"]当然。
+[charslot(slot = "m", name = "avg_npc_1977_1#1$1")]
+[name="严肃的军官"]那么这个缘由是......？
+[charslot]
+[name="威严的军人"]我们的新型武器已经通过了理论测算阶段，可以投放试验。
+[name="威严的军人"]我需要各军团配合，“悄无声息”地完成这场试爆。
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

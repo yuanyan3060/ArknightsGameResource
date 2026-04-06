@@ -1,0 +1,21 @@
+[header(is_skippable=false, is_tutorial=true)]
+[Battle.LockFunction(mask="SYSTEM_MENU_INTERACT")]
+[Battle.Pause]
+
+[inputblocker(blockInput=true, black=0.3)]
+[popupdialog(dialogHead="$avatar_leto")]不好，它好像发现我了！
+
+[InputBlocker(blockInput=false, black=0)] 
+[Tutorial(protectTime=0.5,waitForSignal="put_down", dialogHead="$avatar_headb2", animStyle="Drag", \
+           startCardIndex=0, startRightStart=true, endTileX=4, endTileY=4)] \
+快使用<@tu.kw>伪装工具</>！潜伏起来！
+
+[inputblocker(blockInput=true, black=0.3)]
+
+[popupdialog(dialogHead="$avatar_leto")]这就是你从那个瑞柏巴朋友那里借来的好东西？它有什么用？
+
+[popupdialog(dialogHead="$avatar_headb2")]它能让你在一段时间内不被敌人发现，但也<@tu.kw>无法再阻挡敌人</>。使用它潜伏时不会释放自动触发技能，一旦手动释放技能，就会<@tu.kw>解除潜伏状态</>。
+
+[popupdialog(dialogHead="$avatar_headb2", protectTime=0.5)]别担心，我来解决剩下的那些家伙！
+
+[battle.pause(pause=false)]

@@ -78,10 +78,10 @@
 [Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
 [PlaySound(key="$d_gen_surfacefrozen",channel="2")]
 [PlaySound(key="$d_avg_punchairwall")]
-[avgdisplay(id="1", name="act49side_02", style="animekv", slot="bgover",  scalex=1.1, scaley=1.1, entryfrom=0, entryto=0.3, duration=0.3, block=true)]
+[avgdisplay(id="1", name="act49side_02", style="animekv", slot="cgover",  scalex=1.1, scaley=1.1, entryfrom=0, entryto=0.3, duration=0.3, block=true)]
 [delay(time=0.5)]
 [CameraShake(duration=3, xstrength=5, ystrength=5, vibrato=50, randomness=30, fadeout=true, block=false)]
-[avgdisplay(id="1", name="act49side_02", style="animekv", slot="bgover",  scalex=1.1, scaley=1.1, entryfrom=0.3, entryto=1, duration=3, block=true)]
+[avgdisplay(id="1", name="act49side_02", style="animekv", slot="cgover",  scalex=1.1, scaley=1.1, entryfrom=0.3, entryto=1, duration=3, block=true)]
 [name="岁"]——！
 [name="岁"]怎么回事......
 一记重击，蕴含着凶暴无匹的力量切实落在祂的躯体上，这样的力量竟然让祂感觉到熟悉。
@@ -166,12 +166,13 @@
 [PlaySound(key="$d_avg_swordtsing8")]
 [delay(time=0.2)]
 [PlaySound(key="$d_avg_swordtsing9",channel="3")]
-[avgdisplay(id="1", name="act49side_02", style="animekv", slot="bgover",  scalex=1, scaley=1, entryfrom=0, entryto=1, duration=0.5, block=true)]
+[avgdisplay(id="1", name="act49side_02", style="animekv", slot="cgover",  scalex=1, scaley=1, entryfrom=0, entryto=1, duration=0.5, block=true)]
 [delay(time=1)]
 [avgdisplay(id="1")]
 [PlaySound(key="$d_avg_phntsmbrek",channel="3")]
 [CameraShake(duration=5, xstrength=5, ystrength=5, vibrato=30, randomness=50, fadeout=true)]
-[avgdisplay(id="2", name="act49side_01", style="animekv", slot="bgover",  scalex=1, scaley=1, entryfrom=0, entryto=0.3, duration=5, block=false)]
+[avgdisplay(id="2", name="act49side_01", style="animekv", slot="cgover",  scalex=1, scaley=1, entryfrom=0, entryto=0.3, duration=5, block=false)]
+[Image(image="70_i16_1",screenadapt="coverall")]
 [delay(time=3)]
 [name="望"]可死亡是你的终局，不是我的。
 [name="望"]对，在所有的因果，所有的可能，所有的幻梦之中，你都会死。
@@ -192,6 +193,7 @@
 [PlaySound(key="$d_avg_hugemonsterroar_long",volume=1)]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
 [avgdisplay(id="2")]
+[image]
 [delay(time=1)]
 [Sticker(id="st1",multi = true, text="<i>月斫冷子，日老残枰......</i>",  x=300, y=320, alignment="center", size=24, delay=0, width=700,duration=2, block=false)]
 [Sticker(id="st1",multi = true, text="\n\n<i>劫灰吹尽送古今。</i>",  x=300, y=340, alignment="center", size=24, delay=0, width=700,duration=2, block=true)]

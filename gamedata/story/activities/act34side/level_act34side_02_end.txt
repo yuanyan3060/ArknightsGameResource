@@ -55,7 +55,7 @@
 [Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
 [charslot]
 [charslot(slot="l",name="avg_4145_Ulpia_1#1$1",posfrom = "0,0", posto = "200,0")]
-[charslot(slot="m",name="avg_4145_Ulpia_1#1$1",bstart=0.2,bend=0.5,focus="m")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#1$1",bstart=0.2,bend=0.5,focus="m",isCopy=true)]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
 [StopSound(channel="bgs", fadetime=2)]
 [name="？？？"]对阿戈尔来说，失控的猎人比海嗣本身更加危险。
@@ -69,7 +69,7 @@
 [Predicate(references="1")]
 [charslot(slot="m",name="avg_4145_Ulpia_1#1$1",duration=1,focus="m")]
 [delay(time=2)]
-[charslot(slot="l",name="avg_4145_Ulpia_1#1$1",afrom=0,ato=0)]
+[charslot(slot="l",name="avg_4145_Ulpia_1#1$1",afrom=0,ato=0,isCopy=true)]
 [name="乌尔比安"]你比我想象中要冷静很多，也知道我的身份。
 [name="乌尔比安"]看来歌蕾蒂娅在陆地上建立的信任关系，并不只是对那位医生一人。
 [name="乌尔比安"]我没有在之前的任何一次行动中见过你。你不是伊比利亚的审判官，也不是岛民。
@@ -78,50 +78,50 @@
 [charslot(slot = "m", focus = "n")]
 [Decision(options="我只是凯尔希的同僚。;我和她同属于罗德岛。", values="1;2")]
 [Predicate(references="1;2")]
-[charslot(slot="m",name="avg_4145_Ulpia_1#1$1")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#1$1",isCopy=true)]
 [name="乌尔比安"]随你怎么定性自己。
 [name="乌尔比安"]总之，你能帮到猎人们。
 [dialog]
 [charslot(slot = "m", focus = "n")]
 [Decision(options="有事为什么不直接找斯卡蒂？;有事为什么不直接找幽灵鲨？;有事为什么不直接找歌蕾蒂娅？", values="1;2;3")]
 [Predicate(references="1")]
-[charslot(slot="m",name="avg_4145_Ulpia_1#3$1")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#3$1",isCopy=true)]
 [name="乌尔比安"]斯卡蒂不太擅长这样的事情。
 [Predicate(references="2")]
-[charslot(slot="m",name="avg_4145_Ulpia_1#1$1")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#1$1",isCopy=true)]
 [name="乌尔比安"]你是说劳伦缇娜？
-[charslot(slot="m",name="avg_4145_Ulpia_1#3$1")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#3$1",isCopy=true)]
 [name="乌尔比安"]她不太擅长这样的事情。
 [Predicate(references="3")]
-[charslot(slot="m",name="avg_4145_Ulpia_1#3$1")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#3$1",isCopy=true)]
 [name="乌尔比安"]现在并不是合适的时机。
 [Predicate(references="1;2;3")]
 [dialog]
 [charslot(slot = "m", focus = "n")]
 [Decision(options="你不信任猎人们？", values="1")]
 [Predicate(references="1")]
-[charslot(slot="m",name="avg_4145_Ulpia_1#2$1")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#2$1",isCopy=true)]
 [name="乌尔比安"]恰恰相反，我信任她们，而且太过了解她们。
-[charslot(slot="m",name="avg_4145_Ulpia_1#3$1")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#3$1",isCopy=true)]
 [name="乌尔比安"]斯卡蒂的行动快过思考，劳伦缇娜清醒的时日尚浅，最终决定一切的人只会是歌蕾蒂娅。
 [name="乌尔比安"]此前我已经向她分享过许多情报，她应该有了警惕。她并非不清楚自己会遭遇多少限制，但仍然选择回到阿戈尔。
 [name="乌尔比安"]她太急于回到熟悉的环境，殊不知自己已经被摆在了最显眼的位置，一切可信任的和不可信任的都有十足的权力来审视她。
-[charslot(slot="m",name="avg_4145_Ulpia_1#1$1")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#1$1",isCopy=true)]
 [name="乌尔比安"]现在并不是深海猎人返乡的最好时机，这是一场豪赌。
 [dialog]
 [charslot(slot = "m", focus = "n")]
 [Decision(options="既然如此，你为什么还要潜入这座城市？;看来你还是很关心猎人们。", values="1;2")]
 [Predicate(references="1;2")]
-[charslot(slot="m",name="avg_4145_Ulpia_1#1$1")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#1$1",isCopy=true)]
 [name="乌尔比安"]歌蕾蒂娅她们的处境不容乐观。
 [name="乌尔比安"]与我不同，她们三人虽然接受了改造，却没有参与深海猎人计划最核心的研发工作。她们很难解释清楚自己身体的异变。
 [name="乌尔比安"]我会告诉你一些相关的信息，必要的时候，我需要你想办法为歌蕾蒂娅解围。事后，再向她传达我的提醒。
-[charslot(slot="m",name="avg_4145_Ulpia_1#3$1")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#3$1",isCopy=true)]
 [name="乌尔比安"]至于更多的事情——
 [stopmusic(fadetime=2)]
 [charslot(slot = "m", focus = "n")]
 [name="布兰都斯"]或许，各位可以听我说两句。
-[charslot(slot="m",name="avg_4145_Ulpia_1#1$1")]
+[charslot(slot="m",name="avg_4145_Ulpia_1#1$1",isCopy=true)]
 [name="乌尔比安"]......布兰都斯。他也来到了这里？
 [Dialog]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]

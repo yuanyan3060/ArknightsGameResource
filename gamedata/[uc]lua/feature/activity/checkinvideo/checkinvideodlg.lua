@@ -25,6 +25,7 @@ function CheckinVideoDlg:OnInit()
   infoView.onReceiveBtnClicked = Event.Create(self, self._EventOnReceiveBtnClicked);
   infoView.onReplayBtnClicked = Event.Create(self, self._EventOnReplayBtnClicked);
   infoView.onShareBtnClicked = Event.Create(self, self._EventOnShareBtnClicked);
+  infoView.onSecondBtnClicked = Event.Create(self, self._EventOnSecondBtnClicked);
 
   self:CreateWidgetByGO(CheckinVideoProgressGroupView, self._progressView);
 
@@ -37,6 +38,9 @@ function CheckinVideoDlg:_EventOnNextBtnClicked()
     return;
   end
   local count = #viewModel.itemList;
+  if count <= 1 then
+    return;
+  end
   viewModel.isEnter = false;
   viewModel.currFocusItem = viewModel.currFocusItem + 1;
   viewModel.isNext = true;
@@ -52,6 +56,9 @@ function CheckinVideoDlg:_EventOnPrevBtnClicked()
     return;
   end
   local count = #viewModel.itemList;
+  if count <= 1 then
+    return;
+  end
   viewModel.isEnter = false;
   viewModel.currFocusItem = viewModel.currFocusItem - 1;
   viewModel.isNext = false;
@@ -73,6 +80,16 @@ function CheckinVideoDlg:_EventOnReceiveBtnClicked()
   if currSelect == nil or currSelect.status ~= CheckinVideoItemStatus.CAN_RECEIVE then
     return;
   end
+
+  local btnType = "";
+  if currSelect.resType == CheckinVideoDailyInfoResType.NO_RES then
+    btnType = CS.Torappu.EventTrack.EventLogTrace.EventLogCheckinVideoTraceContext.MAIN_BTN_TYPE_REWARD_GET;
+  else
+    btnType = CS.Torappu.EventTrack.EventLogTrace.EventLogCheckinVideoTraceContext.MAIN_BTN_TYPE_PLAY;
+  end
+  CS.Torappu.GameAnalytics.RecordCheckinVideoReceiveBtnClicked(viewModel.actId, 
+    CS.Torappu.EventTrack.EventLogTrace.EventLogCheckinVideoTraceContext.BTN_MAIN, viewModel.currFocusItem, btnType);
+
   currSelect.status = CheckinVideoItemStatus.RECEIVED;
   UISender.me:SendRequest(CheckinVideoServiceCode.GET_REWARD,
       {
@@ -96,7 +113,7 @@ function CheckinVideoDlg:_HandleGetRewardResponse(response)
   viewModel:NotifyUpdate();
   local handler = CS.Torappu.UI.LuaUIMisc.ShowGainedItems(response.items, CS.Torappu.UI.UIGainItemFloatPanel.Style.DEFAULT,
       function()
-        self:_PlayVideo(response.index + 1);
+        self:_ShowItemResInfo(response.index + 1);
       end);
   self:_AddDisposableObj(handler);
 end
@@ -106,11 +123,15 @@ function CheckinVideoDlg:_EventOnReplayBtnClicked()
   if viewModel == nil or viewModel.currFocusItem == nil then
     return;
   end
-  self:_PlayVideo(viewModel.currFocusItem);
+  
+  CS.Torappu.GameAnalytics.RecordCheckinVideoBaseBtnClicked(viewModel.actId, 
+    CS.Torappu.EventTrack.EventLogTrace.EventLogCheckinVideoTraceContext.BTN_REPLAY, viewModel.currFocusItem);
+
+  self:_ShowItemResInfo(viewModel.currFocusItem);
 end
 
 
-function CheckinVideoDlg:_PlayVideo(index)
+function CheckinVideoDlg:_ShowItemResInfo(index)
   if index == nil then
     return;
   end
@@ -119,12 +140,32 @@ function CheckinVideoDlg:_PlayVideo(index)
     return;
   end
   local itemModel = viewModel.itemList[index];
-  if itemModel == nil or itemModel.status ~= CheckinVideoItemStatus.RECEIVED or
-      string.isNullOrEmpty(itemModel.videoId) then
+  if itemModel == nil or itemModel.status ~= CheckinVideoItemStatus.RECEIVED then
     return;
   end
+  if itemModel.resType == CheckinVideoDailyInfoResType.VIDEO_RES then
+    luaUtils.OpenWebVideoPlayer(itemModel.videoId);
+  elseif itemModel.resType == CheckinVideoDailyInfoResType.PIC_RES then
+    
+  end
+end
 
-  luaUtils.OpenWebVideoPlayer(itemModel.videoId);
+function CheckinVideoDlg:_EventOnSecondBtnClicked()
+  local viewModel = self.m_viewModel;
+  if viewModel == nil or viewModel.currFocusItem == nil then
+    return;
+  end
+  local currSelect = viewModel.itemList[viewModel.currFocusItem];
+  if currSelect == nil or currSelect.status ~= CheckinVideoItemStatus.RECEIVED or currSelect.hasSecondBtn ~= true or currSelect.secondBtnLink == nil then
+    return;
+  end
+  
+  CS.Torappu.GameAnalytics.RecordCheckinVideoBaseBtnClicked(viewModel.actId, 
+    CS.Torappu.EventTrack.EventLogTrace.EventLogCheckinVideoTraceContext.BTN_JUMP, viewModel.currFocusItem);
+
+  luaUtils.OpenUrl(currSelect.secondBtnLink);
+  CheckinVideoUtil.SetSecondBtnNewChecked(viewModel.actId, viewModel.currFocusItem);
+  viewModel:NotifyUpdate();
 end
 
 function CheckinVideoDlg:_EventOnShareBtnClicked()
@@ -134,7 +175,7 @@ function CheckinVideoDlg:_EventOnShareBtnClicked()
     return;
   end
   local currSelect = viewModel.itemList[viewModel.currFocusItem];
-  if currSelect == nil or currSelect.status ~= CheckinVideoItemStatus.RECEIVED or
+  if currSelect == nil or currSelect.status ~= CheckinVideoItemStatus.RECEIVED or currSelect.hasShareBtn ~= true or
       currSelect.shareImgList == nil then
     return;
   end
@@ -173,6 +214,10 @@ function CheckinVideoDlg:_EventOnShareBtnClicked()
   if inputParam == nil then
     return;
   end
+
+  CS.Torappu.GameAnalytics.RecordCheckinVideoBaseBtnClicked(viewModel.actId, 
+    CS.Torappu.EventTrack.EventLogTrace.EventLogCheckinVideoTraceContext.BTN_SHARE, viewModel.currFocusItem);
+
   inputParam.remakePrefabPath = CS.Torappu.ResourceUrls.GetCheckinVideoRemakePrefabPath(viewModel.actId);
   inputParam.additionModel = nil;
   inputParam.modelCollector = simpleShareModel;

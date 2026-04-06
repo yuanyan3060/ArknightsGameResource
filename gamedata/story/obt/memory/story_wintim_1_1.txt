@@ -1,0 +1,589 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="66_g10_instituteinterior",screenadapt="showall")]
+[Delay(time=1)]
+[playMusic(key="$formal_loop", volume=0.6)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=0.5)] 
+[PlaySound(key="$d_avg_clothmovement")]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m",duration=1)]
+[delay(time=2)]
+[name="？？？"]没有，没有......还是没有。
+[dialog]
+[charslot]
+没有空白的录像带了。这个不是，那个也用过了......翻遍柜子，她也没有找到一盘全新的。
+她应该更早意识到这一点的。
+现在恐怕方圆百里内，都找不到哪里卖这种既不能吃也不能用的非生活必需品。
+但时间不等人，他们很快就要来了。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]等等，也许......
+[dialog]
+[charslot]
+她看向那些被胡乱堆在一边的录像带。它们每一个上面都贴着纸条，写着编号与日期，提示着它们刻录下的光阴。
+但也许其中有些内容并不重要。她可以抹除上面的东西，拿来录制新的内容。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]对，就这么办。
+[dialog]
+[charslot]
+编号是“1”的那盘录像带刚巧就在她的手边。她将它塞进了手边的摄像机中，按下播放键。
+[dialog]
+[charslot]
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[PlaySound(key="$d_avg_filmprojection")]
+[playsound(key="$d_avg_oldtvelectricity", loop=true, channel="fi")]
+[Background(image="bg_schoolyard",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.5, fadetime=0, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_npc_092",focus="m")]
+[name="年迈的教师"]我瞧瞧，是这么用吗？这新潮的玩意真叫人弄不明白......哦！已经开始录了。
+[name="年迈的教师"]咳，今天是个值得纪念的日子，虽然男爵本人很遗憾没能到场，但他派来了别利亚科夫准尉参加表彰大会......瞧，准尉来了！
+[charslot]
+闪烁噪点的老旧画面一阵摇晃，镜头指向了不远处搭建在露天操场上的小小颁奖台。
+寒风中裹着冬衣的孩子们吸着发红的鼻子，注视着厚重军装打扮的男子上台。
+[charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
+[name="军人"]数年来男爵阁下积极响应陛下的号召，一直为具有天赋却苦于出身贫寒的孩子们提供援助，以培育祖国栋梁之材为己任。
+[name="军人"]蒙陛下的恩泽——我们骄傲地宣布，科谢尼娅·马尔科芙娜·涅留朵娃同学考取了我国最顶尖的学府帝国理工大学！
+[name="军人"]在男爵阁下赞助的数十名天才少年之中，她是最出色的那一个。告诉我，孩子，你未来的目标是什么？
+[charslot]
+[name="女孩"]我会进入最顶尖的研究所，研究出造福整个乌萨斯的成果，让我们伟大的祖国更加美好强盛！
+女孩稚嫩却坚定的声音引得掌声雷动，她骄傲地挺起胸膛。
+[charslot]
+[name="校长"]说得好，说得好！拉古诺夫老师代表我们为你准备了礼物，现在我们请他上来。
+随着台上人的示意，镜头开始向前，直到画面中出现一张红扑扑的脸蛋。
+[charslot(slot="m",name="avg_npc_092",focus="m")]
+[name="年迈的教师"]拿着吧，这是老师们一起买给你的。我们都很荣幸做过你的老师......也许这是我这辈子最光荣的事了。
+[charslot(slot="m",name="avg_npc_092",focus="m")]
+[name="年迈的教师"]孩子，你拥有无限的可能性，今后一定还会迎来更多这样的时刻，你可以用这个把那些有意义的瞬间记录下来。
+[charslot(slot="m",name="avg_npc_092",focus="m")]
+[name="年迈的教师"]知道怎么用吗？按这里是开始录像，那个是......哎哟，别！那是停——
+[dialog]
+[PlaySound(key="$d_avg_filmprojection")]
+[stopsound(channel="fi")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", amount=0, fadetime=0, keep=true)]
+[Background(image="66_g10_instituteinterior",screenadapt="coverall")]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+画面中断了，徒留恼人的雪花音回响在寂寥的室内。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]这拍的......是谁？
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]啊，是了，是了......看来我想的没错。
+[dialog]
+[charslot]
+这种老式的摄像机并不具有单独删除录像带上内容的功能，但总有方法可以解决这个问题。
+她按下倒带键，待马达运转与磁带摩擦的声响停歇后，又按下录制键。
+原有的内容被尽数覆盖。待闪烁的“REC”指示灯熄灭，她便获得了一盘空录像带。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]这样就好了。
+[dialog]
+[charslot]
+她的余光瞥见堆积如山的其余录像带。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]......也许还有其他的也和这盘一样。
+[dialog]
+[charslot]
+拍的内容毫无意义，只是白白占着地方。
+她将手伸向另一盘带子。
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[PlaySound(key="$d_avg_filmprojection")]
+[playsound(key="$d_avg_oldtvelectricity", loop=true, channel="fi")]
+[Background(image="bg_snowconutry_4",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.5, fadetime=0, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[name="圆脸女孩"]能不能别捣鼓你的那个怪机器了，科谢尼娅？等把它不小心摔了有你哭的！
+[charslot]
+[name="镜头外的声音"]放心，我拿得可稳了。倒是你，小心像那年体操节一样摔个四脚朝天，把好不容易买的新衣服弄脏了。
+摇晃的画面中出现了一座被白雪覆盖的村庄，镜头中背着高高一摞薪柴的女孩涨红了脸，拾起一捧雪砸了过来。
+[charslot]
+[name="圆脸女孩"]好哇，你又拿那件事打趣我！我今年长高了不少，要是再跑一次，可不会输给你了！
+[charslot]
+[name="镜头外的声音"]谁说的，比比看？
+[charslot]
+[name="圆脸女孩"]比就比！瞧你这细胳膊细腿......那个什么理工不管饭的吗？
+[charslot]
+[name="镜头外的声音"]怎么可能，食堂里每天都有白面包和热乎乎的肉汤呢！我只是......有的时候忙，没空吃而已。
+[charslot]
+[name="圆脸女孩"]那边的其他学生是不是都是城里来的大孩子？他们......有没有排挤你？
+[charslot]
+[name="镜头外的声音"]无所谓，本来我也不喜欢和他们打交道，正好能省出时间看书。
+[charslot]
+[name="圆脸女孩"]你还是那么喜欢看书，小心把眼睛看坏了，将来像校长一样戴个瓶底厚的眼镜。
+[charslot]
+[name="镜头外的声音"]不看不行，那里有很多厉害的人。
+[charslot]
+[name="圆脸女孩"]比你还聪明？那你不再是全校第一了？
+[charslot]
+[name="镜头外的声音"]这......还不知道呢，今年还没到综合排名的时候......不过我拿到了跟教授参加校外研究的名额，全校就我一个！
+[charslot]
+[name="镜头外的声音"]所以下个假期我就不回来了——啊，到你家了。
+[dialog]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="53_g16_sunnyday_L1",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+镜头一阵摇晃，像是被临时塞到了拍摄者的口袋里，仰面朝向冬日的晴空。
+[charslot]
+[name="镜头外的声音"]拿着，把我的这捆柴也带回去吧。
+[charslot]
+[name="圆脸女孩"]你这是做什么？
+[charslot]
+[name="镜头外的声音"]你家棚子里都空了，就拿着吧。你爷爷......还在的时候，也经常照顾我们家呢。
+[charslot]
+[name="圆脸女孩"]那你们够用吗？
+[charslot]
+[name="镜头外的声音"]操那些多余的心做什么？我可是学能源的，总不会把自己冻死。
+[charslot]
+[name="镜头外的声音"]等再过几年我研究出更安全、更便宜的新能源炉子，到时候不用上山拾柴，屋子也总会是暖烘烘的，谁也不会挨冻。
+[charslot]
+[name="圆脸女孩"]......我还以为你说那种话，是用来哄贵族老爷开心的呢。
+[charslot]
+[name="镜头外的声音"]呃，一部分是啦。他们愿意花钱赞助我们这种没背景的小孩，其实就是为了听我们这么说，好向上面邀功......
+[charslot]
+[name="镜头外的声音"]但也不全是说来糊弄他们的。毕竟你看，我这么厉害......嘿嘿，将来这些肯定都是小菜一碟。
+[dialog]
+[PlaySound(key="$d_avg_filmprojection")]
+[stopsound(channel="fi")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", amount=0, fadetime=0, keep=true)]
+[Background(image="66_g10_instituteinterior",screenadapt="coverall")]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]果然，这盘也一样。
+[dialog]
+[charslot]
+停止，倒带，录制。
+很快，当内置马达停止运转时，这盘录像带上的内容也被清洗一空。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]......
+[dialog]
+[charslot]
+窗外北风呼啸。她拿起又一盘录像带。
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[PlaySound(key="$d_avg_filmprojection")]
+[playsound(key="$d_avg_oldtvelectricity", loop=true, channel="fi")]
+[Background(image="bg_graduate",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.5, fadetime=0, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="char_003_kalts_1#1",bstart=0.2,bend=0.7,focus="m")]
+[name="菲林研究者"]数据我都看了，确实和我们原先的预计存在出入，我会建议调整这边的变量——嗯？
+[dialog]
+[charslot]
+远处正和其他研究员交流着的女子似乎察觉到了什么，向镜头的方向望了过来。
+[charslot]
+[name="稚嫩的声音"]......唔！
+镜头立刻做贼心虚般调转方向，慌慌忙忙地穿过各式仪器、跃过遍布的电线。最终，它在一个偏僻的角落停了下来。
+[charslot]
+[name="稚嫩的声音"]啊......科谢尼娅。
+画面中出现了一个缩在墙角阴影中的少女。
+那是一个黎博利，样貌和第一盘录像带里颁奖台上的女孩十分相似，只是个子拔高了不少，鼻梁上架起了一副黑框眼镜。
+[charslot]
+[name="少女"]柳达？什么事——你怎么把这个翻出来了？快放下！这里不让录像，被所长发现咱们都得挨骂！
+镜头于是乖顺地朝向了地面，少女发红的眼角一闪而过。
+[charslot]
+[name="稚嫩的声音"]他们又凶你了？我听爸爸说，你的什么......权限被没收了？
+[charslot]
+[name="少女"]是我自己急功近利......做了错事。
+[charslot]
+[name="少女"]听好，我要回学校替伊利亚老师取一份资料。这期间你要乖乖的，等我回来再陪你玩，好吗？
+[charslot]
+[name="稚嫩的声音"]跑腿？
+[charslot]
+[name="少女"]......其他人都比我厉害，手头有更重要的工作。
+[charslot]
+[name="稚嫩的声音"]可他们都是大人！比咱们大那么多呢！这不是在欺负人吗？
+年幼的拍摄者义愤填膺地晃动起手中的摄像机，原本垂下的镜头中晃过少女的苦笑。
+[charslot]
+[name="少女"]不是的，有些差距......和年龄没关系。
+[charslot]
+[name="少女"]从前周围人总说我是天才、是他们见过最聪明的孩子，我就信了。
+[charslot]
+[name="少女"]可乌萨斯那么大，多的是比我更聪明的天才，我......其实根本排不上号。
+片刻后，镜头外的少女长舒一口气。
+[charslot]
+[name="少女"]——不过，跑腿就跑腿吧！
+[charslot]
+[name="少女"]不管是多小的事，只要能帮上忙就好。
+[PlaySound(key="$d_avg_filmprojection")]
+[stopsound(channel="fi")]
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", amount=0, fadetime=0, keep=true)]
+[Background(image="66_g10_instituteinterior",screenadapt="coverall")]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]哈......多么可笑。
+[charslot]
+停止，倒带，录制——她的动作愈发娴熟。
+清空的录像带被抽出后随手丢到一边，又一盘被塞入带仓。
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[PlaySound(key="$d_avg_filmprojection")]
+[playsound(key="$d_avg_oldtvelectricity", loop=true, channel="fi")]
+[Background(image="bg_hotel",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.5, fadetime=0, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[name="少女"]今天......我就不出镜了。这几天都没怎么收拾自己，实在有些不得体。
+[charslot]
+[name="少女"]我怕错过消息，还在上次的旅店里。但剩下的钱不多了，明天就必须搬出去了。
+[charslot]
+[name="少女"]我还是联系不上任何一个人，申请也没有通过，还是老一套的说辞......他们说这是机密。
+[charslot]
+[name="少女"]......我不被允许回去，也不被允许了解究竟发生了什么。只有我。
+[charslot]
+[name="少女"]的确，我是不如其他人。可我还以为哪怕是再不起眼的脏活累活也好，至少我能帮上些忙，只要日积月累，总有一天......
+[charslot]
+[name="少女"]看来，我还是太自以为是了。
+[charslot]
+[name="少女"]......
+[charslot]
+[name="少女"]也许这是件好事。我该及时认清自己，为接下来做打算了。只是有些对不起柳达......不知道什么时候才能再见面。
+少女深吸了一口气，让窗外透进来的阳光重新点亮自己的双眼。
+[charslot]
+[name="少女"]我想好了，明天我就收拾行李，去阿尔乔姆先生介绍的那个实验室。
+[charslot]
+[name="少女"]我看过了他们的资料，虽然肯定比不上凯尔希所长那里，但......总也是个不错的去处。
+[PlaySound(key="$d_avg_filmprojection")]
+[stopsound(channel="fi")]
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", amount=0, fadetime=0, keep=true)]
+[Background(image="66_g10_instituteinterior",screenadapt="coverall")]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[name="模糊的喊声"]......！
+门外隐约传来一些动静，夹在哀鸣的风声中钻入耳中。
+再一次——停止，倒带，录制。
+逐渐变得麻木而机械化的作业中，又一盘被清空的录像带被丢弃一旁。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]......
+[charslot]
+她的手指微微颤抖着。
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[PlaySound(key="$d_avg_filmprojection")]
+[playsound(key="$d_avg_oldtvelectricity", loop=true, channel="fi")]
+[Background(image="bg_ibindoor",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.5, fadetime=0, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+短暂的杂音过后，画面映出一间昏暗的房间和身材单薄的女子。
+她眼神飘忽，脸色苍白，双颊却隐约泛着一抹酡红。躺倒在房间角落的空瓶或许暗示着原因。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="青年女子"]我知道，我已经很久没有记录了......这些年实在没有什么可以拍的。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="青年女子"]算起来......这已经是我辗转的第五个研究所了，来这边也已经过去了半年。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="青年女子"]当我的课题好不容易被批准通过的时候，我还以为这里会有所不同......结果没有什么不一样。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="青年女子"]昨天课题被叫停了，他们说经费不够，要给更重要的项目。我们做了那么多，事到如今......
+[dialog]
+[charslot]
+她垂下头沉默了片刻，将手旁杯中的液体灌入口中后，才重新开口。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="青年女子"]更重要的项目......无非就是能用在军队上的，和大概率能用在军队上的......就这点区别。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="青年女子"]季娜伊达走了。她说怕无法胜任工作......我知道她是不愿意自己的成果被拿去杀人。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="青年女子"]我不也一样......可我们真的一样吗？父亲和母亲都上了年纪，他们还在等着我把工资寄回去。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="青年女子"]自从那片林子被划作男爵的私产，捡拾柴火也成了重罪。现在木炭的价格那么贵......我需要这笔钱。
+[dialog]
+[charslot]
+她为自己灌下又一杯液体。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="青年女子"]明天我就要去新的课题小组报道，去做那些......能批下来经费的研究。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="青年女子"]我暂时应该不会再记录什么了。
+[PlaySound(key="$d_avg_filmprojection")]
+[stopsound(channel="fi")]
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", amount=0, fadetime=0, keep=true)]
+[Background(image="66_g10_instituteinterior",screenadapt="coverall")]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[name="愤怒的喊声"]没有......一个都没有！那些混账全都跑了！
+[charslot]
+[name="威严的声音"]不急着追，分头找找看有没有什么补给。
+[charslot]
+[name="威严的声音"]这边有吃的，有不少呢！
+[charslot]
+[name="焦急的喊声"]我到楼上去看看有没有药！
+最初，她还以为自己又犯了老毛病。直到那些声响越来越清晰，她才意识到那不是幻觉。
+——他们来了。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]得抓紧了......我得抓紧了。
+[charslot]
+她如梦方醒。现在有这么多的空录像带，要在生命的最后时刻留下一两句话，已绰绰有余。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]可是......说些什么好呢？
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]......
+[charslot]
+正要将带子置入仓内的手，又无力地放了下来。
+她没有头绪，是时候正视这一点了。这就是她不断拖延、磨蹭、观看这些旧带子的原因。
+最初拿到这台摄像机时她爱不释手，羽毛蒜皮的事也要记录一番，有段时间非得父母几番催促，她才舍得放下它坐到餐桌前......
+可如今，她却察觉到自己甚至害怕面对镜头。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]上一次拍......是什么时候来着？
+[charslot]
+她开始翻找。在过去的海洋中，她发现了日期更近的一盘。
+那是她拍摄的最后一盘录像带。
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[PlaySound(key="$d_avg_filmprojection")]
+[playsound(key="$d_avg_oldtvelectricity", loop=true, channel="fi")]
+[Background(image="66_g9_institutecorridor",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.5, fadetime=0, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]啊，有画面了。行李一路放在货舱里，我还担心会不会已经被冻坏了......幸好。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]这里是布列斯克下辖的远北中心矿区研究所，是我到过的最北边的地方。其实来这边已经有一个月了，只是之前......没什么记录的兴致。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]没人愿意来这种地方，是那位女大公联系各个研究所提议进行人才交流，之后......哈，我猜，像我这样不受欢迎的人就都被打包送来了。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]这里什么都没有。所有娱乐都无从谈起，物资会有人定期送来，但永远是那几样，就连寄给家里的信都要走上好几个月。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]当然，这是我听其他人闲聊的时候说到的......现在爸妈不在了，我也不需要给谁写信了。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]没有任何重要的研究项目被分到这里，经费少得可怜，甚至通常不会真正到我们手里。我本来已经做好了最坏的打算。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]直到我意识到......也许，这反而是因祸得福。
+[charslot]
+她扯出一个极浅的笑容，眼角的笑纹昭示着岁月的流逝。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]与其说是研究所，这里更像是给矿区配备的医院兼殡仪馆。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]只要他们被送到这里时还有救，我多少能做些什么。我还是第一次这样感谢自己这些年来被迫涉猎的那许多不同学科。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]至于那些已经无力回天的......我们需要将他们的遗体无害化处理。这不怎么叫人好受，但总比做杀人的帮凶好些。
+[charslot]
+她略作停顿。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]这里的研究员不在意谁是哪个学派出身、来自什么家庭、是乌萨斯还是非乌萨斯种族......他们只在乎自己的工资是不是会照常发放。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]在这座毫无自由可言的陆上孤岛，我反而获得了至今为止最大限度的自由。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]挨着矿区，至少不愁没有源石用。我可以用工资补贴经费......我可以重新捡起中断的研究。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]兜兜转转走了那么多地方，我想......就是这里了。
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="女子"]虽然我已经不确定自己能做到什么地步，但总要试试。也许我可以在这里做出些成果，做些有意义的事——
+[PlaySound(key="$d_avg_filmprojection")]
+[stopsound(channel="fi")]
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", amount=0, fadetime=0, keep=true)]
+[Background(image="66_g10_instituteinterior",screenadapt="coverall")]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]够了......够了，够了！
+[charslot]
+这次录像没有播放到最后。
+她几乎是发疯般将录像带从带仓中拽了出来，将塑料壳粗暴地掰裂。
+本就因冻疮干裂的手指被尖锐处划开一道道伤口，但她却感觉不到疼痛。
+[dialog]
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]瞧瞧我们都做了些什么吧！那些——那些事——根本是魔鬼的行径！
+[charslot(slot="m",name="avg_4208_wintim_1#1$2",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]我竟然还觉得这里会有所不同——怎么会有所不同？哪里都一样！哪里都一样！
+[charslot]
+一盘又一盘录像带被撕裂，磁带被大段扯出，染上渗出的鲜血，像是从躯壳中流出黑色的内脏。
+[stopmusic(fadetime=2)]
+她呜咽着，滚烫的泪水灼烧着脸颊，直到——
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_4208_wintim_1#8$2",focus="m",duration=1)]
+[delay(time=2)]
+[charslot]
+咚！
+一声震颤砸在心脏上。
+[playMusic(intro="$nervous_intro", key="$nervous_loop", volume=0.6)]
+[charslot]
+[name="惊讶的声音"]咦，这扇门上了锁！
+[charslot]
+[name="愤怒的声音"]难道还有人？那些*乌萨斯粗口*还有留下的？
+咚咚咚！
+[charslot]
+[name="愤怒的声音"]开门，给我滚出来！
+[charslot]
+[name="愤怒的声音"]下面有工具，我去拿上来，把门砸开！
+[charslot(slot="m",name="avg_4208_wintim_1#6$2",focus="m")]
+[name="科谢尼娅"]啊......
+[charslot]
+[PlaySound(key="$bodyfalldown2")]
+她跌坐在地，心如死灰。
+看吧——多么愚蠢，已经来不及了。她就连给自己录下几句遗言这样的小事也做不到，那些愤怒的感染者矿工们已经发现她了。
+但同时，她的心里又冒出了一个幽灵般的念头。
+[charslot(slot="m",name="avg_4208_wintim_1#2$2",focus="m")]
+[name="科谢尼娅"]......也好，这样也好。
+[charslot]
+就这样结束也好。
+然而事与愿违，她等待了一会儿，听到门外传来模糊的喊声。
+[charslot]
+[name="楼下的声音"]喂！下面人手不够，快过来帮忙！
+[charslot]
+[name="门外的声音"]可这间屋子呢？
+[charslot]
+[name="楼下的声音"]雷尔金说不管它，那些胆小鬼肯定都跑啦！把物资赶快搬回去要紧！
+[charslot]
+[name="门外的声音"]......也是，来了！
+她听到门外的人走开了。又过了一会儿，所有的嘈杂声都消失了。
+科谢尼娅犹豫地打开房门。研究所一片死寂。
+[charslot(slot="m",name="avg_4208_wintim_1#3$2",focus="m")]
+[name="科谢尼娅"]哈......哈哈......
+[charslot(slot="m",name="avg_4208_wintim_1#3$2",focus="m")]
+[name="科谢尼娅"]看来，一切终究不会简单顺了我的心意。
+[charslot]
+看来，还是得她自己做个了结。
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[PlaySound(key="$d_avg_filmprojection")]
+[playsound(key="$d_avg_oldtvelectricity", loop=true, channel="fi")]
+[CameraEffect(effect="Grayscale", amount=0.5, fadetime=0, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+尘封许久的摄像机被再一次启动，镜头扫过地板上繁复的线路。
+[charslot(slot="m",name="avg_4208_wintim_1#2$2",focus="m")]
+[name="科谢尼娅"]......都布置好了，他们没发现仓库里的炸药......只要引燃，诞生在这里的一切错误都会烟消云散。
+[charslot(slot="m",name="avg_4208_wintim_1#2$2",focus="m")]
+[name="科谢尼娅"]连同我这几十年来同样堆满错误的人生一起，一切都会结束。
+[charslot(slot="m",name="avg_4208_wintim_1#2$2",focus="m")]
+[name="科谢尼娅"]......
+[charslot(slot="m",name="avg_4208_wintim_1#3$2",focus="m")]
+[name="科谢尼娅"]拉古诺夫老师将这台摄像机送给我，是想让我记录下“有意义的瞬间”，是因为相信我终会有所成就......
+[charslot(slot="m",name="avg_4208_wintim_1#3$2",focus="m")]
+[name="科谢尼娅"]可结果却是它见证了我一生一无所成。
+[charslot(slot="m",name="avg_4208_wintim_1#3$2",focus="m")]
+[name="科谢尼娅"]我不知道该怪谁，也许该怪我自己......毕竟我能责怪的、本能改变这一切的只有我自己。
+[charslot(slot="m",name="avg_4208_wintim_1#8$2",focus="m")]
+[name="科谢尼娅"]我本该做到更多的，本能做更多努力，但我没有......不，不对！不对！
+[charslot]
+她忽然痉挛般发起抖来，惊怒交加地嘶吼。
+[charslot(slot="m",name="avg_4208_wintim_1#5$2",focus="m")]
+[name="科谢尼娅"]你又在犯老毛病了！你又在重复同样的错误！
+[charslot(slot="m",name="avg_4208_wintim_1#5$2",focus="m")]
+[name="科谢尼娅"]明明结果已经摆在眼前，明明已经一败涂地，却总妄想再找出一线希望，给自己一个挣扎的借口！
+[charslot(slot="m",name="avg_4208_wintim_1#4$2",focus="m")]
+[name="科谢尼娅"]没有什么如果，没什么能改变这一切！这没有意义，一切都......没有意义。
+[charslot]
+该说的话已经都写下来了，她又在这里磨磨蹭蹭地胡言乱语些什么呢？
+该结束了，结束这毫无意义的一生。
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+摄像机从她的手中滑落，坠入堆满记忆的墓场。
+麦克风捕捉到的声音变得遥远而飘忽，仍显示“录制中”的画面里，模糊地闪过一抹火光。
+那是烛火点燃了她本就不准备让任何人看到的遗书，它将代替引火索，为一切画下句号。
+然而，就在此时，一个明亮的声音蓦地闯入。
+[charslot]
+[stopmusic(fadetime=2)]
+[name="？？？"]科谢尼娅！——你是科谢尼娅，对吗？
+[dialog]
+[stopsound(channel="fi",fadetime=3)]
+[charslot]
+[delay(time=3)]
+[CameraEffect(effect="Grayscale", amount=0, fadetime=0, keep=true)]
+[Background(image="bg_room_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>罗德岛新基地，干员宿舍</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1.5)]
+[PlayMusic(key="$calm_loop", volume=0.6)]
+[PlaySound(key="$d_gen_walk_n")]
+[delay(time=2)]
+[charslot(slot="m",name="avg_1502_crosly_1#1$1",focus="m",duration=1)]
+[delay(time=2)]
+[name="弑君者"]到了，这里就是你的房间。
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_4208_wintim_1#1$1",focus="m",duration=2)]
+[delay(time=3)]
+[name="冬时"]好的，谢谢。
+[charslot(slot="m",name="avg_1502_crosly_1#1$1",focus="m")]
+[name="弑君者"]......
+[charslot(slot="m",name="avg_4208_wintim_1#1$1",focus="m")]
+[name="冬时"]......
+[charslot(slot="m",name="avg_4208_wintim_1#8$1",focus="m")]
+[name="冬时"]呃，要不要坐一会儿？虽然还什么都没来得及收拾，但......你看，我们这么久没见，也许可以说说话。
+[charslot(slot="m",name="avg_1502_crosly_1#1$1",focus="m")]
+[name="弑君者"]下次吧。之后我还有别的任务，不好久留。行李我给你放在这里——嗯？
+[charslot]
+塞满文件和杂物的纸箱中，一台老旧的便携式摄像机安静地躺在角落。
+[charslot(slot="m",name="avg_1502_crosly_1#1$1",focus="m")]
+[name="弑君者"]我记得这东西......小的时候我还拿来玩过，没想到你还留着。
+[charslot(slot="m",name="avg_4208_wintim_1#1$1",focus="m")]
+[name="冬时"]其实本来是打算不要了的，但从远北离开的时候......我还是把它带上了。
+[charslot(slot="m",name="avg_1502_crosly_1#1$1",focus="m")]
+[name="弑君者"]这么说来，我听后勤的人说你申请采购了几盘老式录像带，就是给它用的？
+[charslot(slot="m",name="avg_1502_crosly_1#1$1",focus="m")]
+[name="弑君者"]打算拍些什么？
+[charslot(slot="m",name="avg_4208_wintim_1#3$1",focus="m")]
+[name="冬时"]这......
+[charslot(slot="m",name="avg_4208_wintim_1#3$1",focus="m")]
+[name="冬时"]......
+[charslot(slot="m",name="avg_1502_crosly_1#2$1",focus="m")]
+[name="弑君者"]随口一问，不方便说就算了。
+[charslot(slot="m",name="avg_1502_crosly_1#2$1",focus="m")]
+[name="弑君者"]......只是看你捡起了以前的爱好，有点怀念而已。
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[PlaySound(key="$d_avg_filmprojection")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="冬时"]......我没想到自己会再次启动这台机器。
+[name="冬时"]前些天Mon3tr小姐和博士终于告诉了我当年发生的事。原来......老师他们真的已经不在了。
+[name="冬时"]早年我曾经有过一些更可耻的猜测。猜测是不是大家平安无事，只是为找个借口将我这个拖后腿的踢出去。
+[name="冬时"]后来听说了那些传闻，又开始整日心惊胆颤，生怕再受牵连，竟把天大的幸运污蔑为纠缠不休的厄运，但凡碰壁就开始怨天尤人......
+[name="冬时"]上一次我拿起这台摄像机的时候，居然想要去死。
+[name="冬时"]可既然当年的人只剩下我了，那么我想......这条命已经不再独属于我自己。哪怕是为了完成老师和大家未竟的研究，我也要活下去。
+[name="冬时"]......
+[name="冬时"]我知道这是种恬不知耻的想法，我一事无成，凭什么敢妄言继承那些伟大灵魂的意志？
+[name="冬时"]我也知道这万分可笑，这只是我又一次为自己找到的，苟活下去的借口。
+[name="冬时"]但既然我现在还活着......那么，就是这样了。
+[name="冬时"]凯尔希所长留下了一些研究，我有幸获准接手其中一些未完成的内容。
+[name="冬时"]哥伦比亚的一家学术期刊在这个领域最为权威，等论文完成后我打算把它寄过去，看看是否能发表。
+[name="冬时"]我也不知道会不会有回应、这一切是不是真的有意义。所以刚才柳达问我想要拍什么，我也答不上来。
+[name="冬时"]只是我想，无论如何......
+[name="冬时"]我该继续拍下去。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=4, block=true)]
+[charslot]
+[Image]

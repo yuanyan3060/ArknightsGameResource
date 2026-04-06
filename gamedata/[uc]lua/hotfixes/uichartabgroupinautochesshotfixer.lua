@@ -19,7 +19,11 @@ local function _RefreshEquipDataFix(self, characterPtr, mode, card)
   local hasInstId = CS.Torappu.Battle.AutoChess.AutoChessBattleUtil.TryGetCharacterInstId(character, instId)
 
   if hasInstId then
-    return self:_UpdateEquip(character.gridPosition)
+    local ret = self:_UpdateEquip(character.gridPosition)
+    if ret then
+      self.m_hasGarrisonAbility = true
+    end
+    return ret
   end
 
   for pairI = 0, self.m_equipTextPair.Count - 1 do

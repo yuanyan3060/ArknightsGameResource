@@ -1,0 +1,750 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[playMusic(intro="$rebel_intro",key="$rebel_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$firestorm")]
+[bgeffect(name="$eb_smoke_01",layer=1)]
+[Delay(time=1.2)]
+[Image(image="72_i03_1", screenadapt="coverall", xScale=1, yScale=1, fadetime=0.5)]
+[ImageTween(image="72_i03_1",xScaleFrom=1, yScaleFrom=1, xScaleTo=1.02, yScaleTo=1.02, duration=4, block=false)]
+[PlaySound(key="$d_avg_churchfire",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.2, channel="f",fadetime=2)]
+[PlaySound(key="$d_avg_audience_chaos",volume=0.8)]
+[delay(time=2)]
+[Image(image="72_i03_2", screenadapt="coverall", xScale=1.02, yScale=1.02,fadetime=1.5)]
+[ImageTween(image="72_i03_2",xScaleFrom=1.02, yScaleFrom=1.02, xScaleTo=1.06, yScaleTo=1.06, duration=8, block=false)]
+[delay(time=1)]
+[name="乌萨斯学生"]释放拉列亚！释放被你们欺压的所有人！
+[name="乌萨斯学生"]放出库存，均分能源，让人人都能用上暖气！
+[name="古米"]对不起对不起，麻烦让我过一下......
+[name="古米"]凛、凛冬姐，真理姐！你们......都在哪？
+[PlaySound(key="$d_avg_audience_chaos",volume=0.8)]
+[name="乌萨斯学生"]自由归于人民！面包归于人民！
+[name="乌萨斯学生"]今日的沉默，就是明日的奴役，聆听我们发出的声音！
+[name="乌萨斯学生"]快滚出来和我们谈判！
+[StopSound(channel="f", fadetime=2)]
+[StopSound(channel="kou", fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[image]
+[bgeffect]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$d_avg_crowdtalk_fear",volume=0, channel="dis", loop=true)]
+[SoundVolume(volume=1, channel="dis",fadetime=2)]
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]这之后的故事，或许在场的各位都比我更熟悉。
+[charslot(slot = "m", name = "avg_405_absin_1#2$2")]
+[name="苦艾"]当时，舞会厅里乱作一团，甚至有的大人还在惊慌之下，脱了外衣，从侍从手中夺过一顶女帽就往外走......
+[charslot(slot = "m", name = "avg_npc_2171_1#1$1")]
+[name="愤怒的贵族"]胡说！你根本没去舞会，究竟是谁向你灌输了这些谣言？
+[charslot(slot = "m", name = "avg_405_absin_1#4$2")]
+[name="苦艾"]警队里早已传了个遍，很难说源头究竟出自哪里。不过，如果这是谣言，那我必须向您道歉——
+[charslot(slot = "m", name = "avg_npc_2171_1#1$1")]
+[name="愤怒的贵族"]不是我！
+[name="愤怒的贵族"]不是，不是向我道歉，你应该向所有参加舞会的人道歉！
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]肃静！
+[SoundVolume(volume=0.4, channel="dis",fadetime=0.1)] 
+[name="仲裁人"]听证会对街谈巷议不感兴趣，我们需要知道学生们在当晚的情况。
+[name="仲裁人"]比如具体说说，是谁喊出了那句不敬之语？
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]哪一句？
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]......还能是哪句？最不敬的那句。
+[charslot(slot = "m", name = "avg_405_absin_1#7$2")]
+[name="苦艾"]当时说什么的人都有，我实在不知道您指的是——
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]就是最大逆不道、目无君上、傲慢无礼......这里没人能说得出口的那一句！
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]啊，我明白了。
+[StopSound(channel="dis", fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[playMusic(intro="$rebel_intro",key="$rebel_loop", volume=0.6)]
+[bgeffect(name="$eb_smoke_01",layer=1)]
+[PlaySound(key="$d_avg_churchfire",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.2, channel="f",fadetime=2)]
+[PlaySound(key="$d_avg_studentsshout_amb_loop",volume=0, channel="kou", loop=true)]
+[SoundVolume(volume=0.8, channel="kou",fadetime=2)]
+[Image(image="72_i03_2", screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[name="激愤的学生"]打倒傻*乌萨斯粗口*皇帝！
+[Dialog]
+[ImageTween(xScaleTo=1.2, yScaleTo=1.2, duration=0.8, block=false)]
+[Image(image="72_i03_2", screenadapt="coverall",fadetime=0.8)]
+[Delay(time=0.8)]
+[multiline(name="激愤的学生")]打倒傻*乌萨斯粗口*皇帝！
+[ImageTween(xScaleTo=1.2, yScaleTo=1.2, duration=0.8, block=false)]
+[Image(image="72_i03_2", screenadapt="coverall",fadetime=0.8)]
+[Delay(time=1)]
+[multiline(name="激愤的学生")]打倒傻*乌萨斯粗口*皇帝！
+[ImageTween(xScaleTo=1.2, yScaleTo=1.2, duration=0.8, block=false)]
+[Image(image="72_i03_2", screenadapt="coverall",fadetime=0.8)]
+[Delay(time=1)]
+[multiline(name="激愤的学生")]打倒傻*乌萨斯粗口*皇帝！
+[ImageTween(xScaleTo=1.2, yScaleTo=1.2, duration=0.8, block=false)]
+[Image(image="72_i03_2", screenadapt="coverall",fadetime=0.8)]
+[Delay(time=1.5)]
+[name="列昂尼德"]流着骏鹰血的秽种，把权力还给真正的乌萨斯人！
+[name="激愤的学生"]让吸血虫维特滚出来！让草包费奥多尔滚出来！
+[stopmusic(fadetime=2)]
+[StopSound(channel="kou", fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image]
+[bgeffect]
+[StopSound(channel="f", fadetime=2)]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$sjoyasorrow_intro", key="$sjoyasorrow_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]你的意思是，在这场行动中，所有学生都是对陛下口出狂言的无礼之徒。
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]也许，只除了极少数仍然保有理智的人。青年们总是很容易被热血带动着发出不属于自己的声音，仲裁人阁下。
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]又或许，你只是为了替其中的一部分人遮掩，而有所夸大。
+[charslot(slot = "m", name = "avg_405_absin_1#6$2")]
+[name="苦艾"]我说的只是事实，您的猜想却实在令我惶恐。
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]让我们先回到之前的叙述。你曾经解释过为什么娜塔莉娅小姐并未留意陛下的缺席，那么，你又是否知道陛下那时身在何处？
+[charslot(slot = "m", name = "avg_405_absin_1#2$2")]
+[name="苦艾"]通过警队的消息渠道，我的确了解一些，但也只是非常模糊的消息。
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]你知道他当时在哪里？
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]我知道他当时就在皇宫中，但不知道他为什么没有准时出现在舞会上。
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]不，你知道。
+[charslot(slot = "m", name = "avg_405_absin_1#4$2")]
+[name="苦艾"]什么？
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]我这里的证据显示，圣骏堡警察厅夜巡部队是最先得知陛下失踪消息的，这就意味着你也能够通过相应渠道了解。
+[name="仲裁人"]回答我，卓娅女士，你为什么要隐瞒陛下在那晚游行示威的混乱中遇刺失踪的事实？
+[PlaySound(key="$d_avg_crwddiscuss_inside",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.5, channel="f",fadetime=2)]
+[charslot(slot = "m", name = "avg_405_absin_1#4$2")]
+[name="苦艾"]原来......
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]而你知道，也就意味着你的朋友，索尼娅·米哈伊里芙娜，也能知道。
+[name="仲裁人"]“完成刺客未竟之事”，这是否是她后续在封锁区中发动的暴力行动的目标之一？
+[charslot(slot = "m", name = "avg_405_absin_1#7$2")]
+[name="苦艾"]（低声）原来陛下也是在当晚失踪的。一切都说得通了。
+[StopSound(channel="f", fadetime=2)]
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]......什么？
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]娜塔莉娅曾经提到过一个细节。示威开始之前，她原本想走向议长与副议长所在的方向，却和其他人一样被窗外的火光吸引了注意。
+[name="苦艾"]而等到她再回过头去，那两位都已经离开了现场。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g13_nobleroom",screenadapt="coverall")]
+[Delay(time=2.5)]
+听证会当天，萨列夫格勒区某办公室。
+[Dialog]
+[playMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2162_1#9$1")]
+[name="瓦西里"]如果您不想出现在听证会现场，那我也可以为您走一趟。至少去控制问询进行的方向，将陛下失踪的后续影响降到最低。
+[charslot(slot = "m", name = "avg_npc_1984_1#8$1")]
+[name="维特"]掩饰已经不再必要了，瓦夏。
+[charslot(slot = "m", name = "avg_npc_1984_1#8$1")]
+[name="维特"]几乎所有定居圣骏堡的大贵族都已经知道了陛下的“任性举动”，再多的缄默命令，也不能抹除事实带给他们的震撼。
+[charslot(slot = "m", name = "avg_npc_1984_1#8$1")]
+[name="维特"]现在，我不在乎听证会或是群议，只在乎陛下的安危。所以在动手清理那些导致陛下陷入危险的问题之前，你必须清楚当天发生了什么。
+[charslot(slot = "m", name = "avg_npc_1984_1#8$1")]
+[name="维特"]那时失控的，远不仅是圣骏堡的警卫。这足够使我们警惕，也足够使我们引以为戒。
+[charslot(slot = "m", name = "avg_npc_2162_1#8$1")]
+[name="瓦西里"]议长阁下，请您原谅。我知道在舞会之前，您和陛下有过一次短暂的争执，他对议会处理卡托加区的方式相当不满。
+[charslot(slot = "m", name = "avg_npc_2162_1#9$1")]
+[name="瓦西里"]如果是指这件事，那想必外界也不会意外，陛下始终平等地关切着所有生活在这片大地上的人，即使这种博爱常常被误认作软弱。
+[charslot(slot = "m", name = "avg_npc_1984_1#1$1")]
+[name="维特"]不，不是。
+[charslot(slot = "m", name = "avg_npc_1984_1#8$1")]
+[name="维特"]那天陛下的确心情糟糕，可他仍然答应出席舞会。直到舞会开始前，我收到一封密报——
+[charslot(slot = "m", name = "avg_npc_1984_1#8$1")]
+[name="维特"]有人试图在舞会主厅安装源石炸药，被维修工人抓获举报。
+[charslot(slot = "m", name = "avg_npc_2162_1#5$1")]
+[name="瓦西里"]......想要行刺陛下？
+[charslot(slot = "m", name = "avg_npc_1984_1#1$1")]
+[name="维特"]没那么简单。起初我也和你想得一样，于是按照应急预案，让内卫前往陛下的房间，护送他从地下通道离开，而我立刻亲自审问了刺客。
+[charslot(slot = "m", name = "avg_npc_1984_1#1$1")]
+[name="维特"]结果他交代说，他是应了卡姆沙洛夫男爵夫人的请求，前来刺杀男爵本人的。
+[charslot(slot = "m", name = "avg_npc_2162_1#2$1")]
+[name="瓦西里"]如果换个时机，恐怕我会很乐意听听这出家庭悲剧......
+[charslot(slot = "m", name = "avg_npc_1984_1#8$1")]
+[name="维特"]然而，随着审问的进行，他讲述了更令人不安的事情——
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_ltroom",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playMusic(key="$prommelody_loop", volume=0.6)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_1044_1#1$1",posfrom="0,-60",posto="0,-50")]
+[name="紧张的刺客"]该死......不要紧张，阿盖，你一定能行的......
+[Dialog]
+[charslot]
+他蹲在地上，反复地擦着流进眼睛的冷汗，红丝绒毯上散落了一地的零件。
+一个圆滚滚的“闹钟”、三枚像腊肠一样捆绑的炸药，以及数不清的导线。最经典的设计，只要按照操作说明，连一个新手都能组装。
+只是，他攥着的纸条，不知何时被手汗浸湿，字迹已然模糊不清。
+[charslot(slot = "r", name = "avg_npc_1044_1#1$1",posfrom="-150,-60",posto="-150,-60")]
+[name="紧张的刺客"]还好，能认出一些字......我要将蓝色的线，接上去，然后是绿色这根，然后需要一磅的，一磅的......
+[CameraShake(duration=0.3, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="紧张的刺客"]一磅的罐焖肉？
+[name="紧张的刺客"]*乌萨斯粗口*伊凡！夫人花了那么多钱，你就找了张菜谱给我写安装教程！
+[name="紧张的刺客"]......
+[name="紧张的刺客"]冷静点，只能靠自己了......这根绿色的，或许能塞进这个接口。
+[Dialog]
+[charslot(slot = "l", name = "avg_npc_1042_1#1$1",posfrom="-110,0",posto="20,0",duration=1,focus="r")]
+[Delay(time=1)]
+[charslot(slot = "l", name = "avg_npc_1042_1#1$1",focus="r")]
+[name="？？？"]你错了，绿色的要接在蓝色的下方。
+[stopmusic(fadetime=2)]
+[charslot(slot = "r",focus="r")]
+[name="紧张的刺客"]我试试......
+[Dialog]
+[PlaySound(key="$d_avg_frdrgnld", volume=0.8)]
+[Delay(time=1)]
+[charslot(slot = "r", name = "avg_npc_1044_1#1$1",posfrom="-150,-60",posto="-150,0",afrom=1,ato=1,duration=0.8,focus="r")]
+[Delay(time=0.8)]
+[name="紧张的刺客"]嚯，成功了！谢谢您，好心的——
+[Dialog]
+[playMusic(key="$comedy_loop", volume=0.6)]
+[charslot(slot = "R", action="jump", posto="150,0", power=5, times=1, duration=1,focus="r")]
+[name="紧张的刺客"]你*乌萨斯粗口*是谁？！
+[charslot(slot = "l", focus="l")]
+[name="松弛的刺客"]（压低声音）别激动！小点声！你要把警察都招来吗？
+[name="松弛的刺客"]我必须得阻止你，你要是真把那根线塞进去，这个房间马上就会多出一份，不，是两份“罐焖肉”了。
+[name="松弛的刺客"]别紧张，咱们是同行，我绝不会出卖你。
+[charslot(slot = "r",focus="r")]
+[name="紧张的刺客"]同行？
+[name="紧张的刺客"]这么说，你也是被贵族夫人包养的？
+[charslot(slot = "l", focus="l")]
+[name="松弛的刺客"]......你在说什么啊？我们不都是刺客吗？
+[charslot(slot = "r",focus="r")]
+[name="紧张的刺客"]实在抱歉......我、我的确是第一次干这种事，还没入门。
+[charslot(slot = "l", focus="l")]
+[name="松弛的刺客"]没关系，一回生二回熟嘛。这回你的出道任务，接的是什么目标啊？官大吗？
+[charslot(slot = "r",focus="r")]
+[name="紧张的刺客"]我也不知道算不算大，总之是一个开赌场的男爵。
+[charslot(slot = "l", focus="l")]
+[name="松弛的刺客"]哈，对于一个新人来说还算不错。等你逐渐上手，会有人找你刺杀些更狠的角色。
+[charslot(slot = "r",focus="r")]
+[name="紧张的刺客"]那你呢？
+[charslot(slot = "l", focus="l")]
+[name="松弛的刺客"]哼哼，先捂好嘴，不要被吓到，别把什么人引来。
+[name="松弛的刺客"]（压低声音）我是来刺杀沃尔金娜公爵的。
+[charslot(slot = "r",focus="r")]
+[name="紧张的刺客"]......
+[name="紧张的刺客"]那是谁？
+[charslot(slot = "l", focus="l")]
+[name="松弛的刺客"]......什么？
+[name="松弛的刺客"]你不知道她？！
+[charslot(slot = "r",focus="r")]
+[name="紧张的刺客"]小声点，小声点——
+[charslot(slot = "l", focus="l")]
+[name="松弛的刺客"]那可是如今乌萨斯屈指可数的世袭公爵，旧贵族的眼中钉，皇帝的亲戚！
+[charslot(slot = "r",focus="r")]
+[name="紧张的刺客"]别喊了，我道歉还不行吗......
+[charslot(slot = "l", focus="l")]
+[name="松弛的刺客"]雇主找遍了整个乌萨斯，全乌萨斯只有我敢接手这个目标！你竟然——
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_open_door", volume=1)]
+[Delay(time=2)]
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1",duration=1.5)]
+[Delay(time=2)]
+[charslot(slot = "m", name = "avg_npc_1044_1#1$1")]
+[name="紧张的刺客"]......？
+[name="紧张的刺客"]......你——
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="？？？"]嘘——
+[charslot(slot = "m", name = "avg_npc_1044_1#1$1")]
+[name="紧张的刺客"]......嘘？
+[Dialog]
+[charslot]
+这位不速之客摇了摇头，又指了指一边的桌子。紧张的刺客犹豫了一下，他慢腾腾地走了过去。
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_1044_1#1$1",afrom=1, ato=1, posfrom="120,0",posto="0,0",duration=2,isblock=true)]
+[Delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_1044_1#1$1",afrom=1, ato=1, posfrom="0,0",posto="-120,0",duration=2,isblock=true)]
+[Delay(time=0.5)]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1",posfrom="0,0",posto="0,0",isblock=true)]
+[name="？？？"]给我。
+[charslot(slot = "m", name = "avg_npc_1044_1#1$1")]
+[name="紧张的刺客"]你是要这片面包？
+[Dialog]
+[charslot]
+那人又摇了摇头。
+[charslot(slot = "m", name = "avg_npc_1044_1#1$1")]
+[name="紧张的刺客"]......你不会想要这把餐刀吧？
+[Dialog]
+[charslot]
+他点点头。
+[charslot(slot = "m", name = "avg_npc_1042_1#1$1")]
+[name="松弛的刺客"]等等，你先告诉我们，你想要干什么？贸然把刀递给陌生人，实在有辱我们身为刺客的专业性。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="？？？"]把刀给我，我就告诉你们。
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_1044_1#1$1",posfrom="-150,0",posto="-150,0")]
+[charslot(slot = "r", name = "avg_npc_1979_1#1$1",posfrom="150,0",posto="150,0")]
+[charslot(slot = "l", focus="l")]
+[charslot(slot = "l", action="shake", power=3, times=30, duration=0.3, focus="l")]
+[Delay(time=0.3)]
+[PlaySound(key="$d_avg_metalcollar", volume=1)]
+[charslot(slot = "r", name = "avg_npc_1979_1#1$1",posfrom="150,0",posto="150,-50",afrom=1,ato=0, duration=0.5)]
+[Delay(time=0.8)]
+[PlaySound(key="$d_avg_clothmovement", volume=0.5)]
+[charslot(slot = "r", name = "avg_npc_1979_1#1$1",posfrom="150,-50",posto="150,0", duration=0.5)]
+[Delay(time=0.6)]
+[charslot(slot = "r", focus="n")]
+紧张的刺客不敢上前，他将餐刀抛给了对方，而对方也只是默默拾起，然后伸出两根手指比划着。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_1042_1#1$1")]
+[name="松弛的刺客"]......你从这里走出去，穿过一层的厨房，然后通过梯子爬上顶端，走天窗落到西边的房间。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="？？？"]嘘——
+[charslot(slot = "m", name = "avg_npc_1042_1#1$1")]
+[name="松弛的刺客"]......嘘。
+[Dialog]
+[charslot]
+不速之客嘴角抽动了一下，他点点头，转身离开了这两位还在愣神的刺客。
+[charslot(slot = "l", name = "avg_npc_1042_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_1044_1#1$1",focus="r")]
+[name="紧张的刺客"]你刚才在说什么？我怎么完全听不懂？
+[charslot(slot = "l",focus="l")]
+[name="松弛的刺客"]他想要......刺杀皇帝。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g13_nobleroom",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2162_1#10$1")]
+[name="瓦西里"]如果我没理解错，您的意思是，皇宫主建筑的安保人员，能让这些目的不同的刺客都混进舞会厅中，最后还是靠维修工人才找到了他们。
+[charslot(slot = "m", name = "avg_npc_2162_1#9$1")]
+[name="瓦西里"]......圣骏堡的警卫们到底还要给我们带来多少惊喜。
+[charslot(slot = "m", name = "avg_npc_1984_1#1$1")]
+[name="维特"]随后就是那场波及整个圣骏堡的停电事件。
+[charslot(slot = "m", name = "avg_npc_1984_1#1$1")]
+[name="维特"]尽管在能源缺乏的当下，我对此类情况早有预期，但那会儿恰好又出了刺客的事，难免惊惶过度。
+[charslot(slot = "m", name = "avg_npc_1984_1#3$1")]
+[name="维特"]所以当时从舞会现场离开后，我才让你立刻赶去警察厅，令他们寻找示威者中的可疑人士。
+[charslot(slot = "m", name = "avg_npc_1984_1#8$1")]
+[name="维特"]在那之后，他们粗暴且低效的手段，你也看见了。
+[charslot(slot = "m", name = "avg_npc_1984_1#8$1")]
+[name="维特"]只能庆幸，你的女儿上进勤勉，如果她毫无抱负，选择走关系去当了军警，那恐怕现在该轮到你烦心不已了。
+[charslot(slot = "m", name = "avg_npc_2162_1#2$1")]
+[name="瓦西里"]您愿意拨冗替我指点阿洛伊泽，我由衷地为她感到骄傲，这也是我们家族的荣幸。
+[charslot(slot = "m", name = "avg_npc_2162_1#3$1")]
+[name="瓦西里"]不过，就这些手段荒诞到可笑的刺客，又怎么能影响到陛下呢？
+[charslot(slot = "m", name = "avg_npc_1984_1#7$1")]
+[name="维特"]你应该还记得，我按照预案，派了谁去寻找陛下。
+[charslot(slot = "m", name = "avg_npc_2162_1#1$1")]
+[name="瓦西里"]内卫？
+[charslot(slot = "m", name = "avg_npc_2162_1#3$1")]
+[name="瓦西里"]可这也正是我不明白的地方。如果有内卫在，陛下又怎么可能陷入需要逃走的危险境地？
+[charslot(slot = "m", name = "avg_npc_1984_1#7$1")]
+[name="维特"]......
+[charslot(slot = "m", name = "avg_npc_1984_1#1$1")]
+[name="维特"]（低声）因为，内卫效忠的对象是乌萨斯，而不是乌萨斯的皇帝。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background]
+[Delay(time=1)]
+[curtain(direction = 0,fillfrom = 0.01,fillto = 0.38,block=false)]
+[curtain(direction = 4,fillfrom = 0.01,fillto = 0.12,block=true)]
+[name="维特"]什么......
+[name="维特"]你怎么，还在这里......
+[name="？？？"]维特，你来迟了。
+[Dialog]
+[Image(image="72_i05", xScale=1.2, yScale=1.2, x=100, y=70)]
+[ImageTween(xFrom=100, xTo=-20, duration=10)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="维特"]......陛下在哪里？你没有和他一起走？
+[name="“皇帝的利刃”"]你交给我的任务是，来到他的房间，防备刺客。
+[name="维特"]我是让你保证皇帝陛下的安全！这是早就定死的计划，如果大型集会期间发生了意外，你要亲自护送陛下通过地道。
+[name="“皇帝的利刃”"]可惜了，你这周到的打算，有的人却不领情。
+[name="维特"]你是说......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[curtain(direction = 4,fillfrom = 0.01,fillto = 0.38,block=false)]
+[curtain(direction = 0,fillfrom = 0.01,fillto = 0.12,block=true)]
+[Image(image="72_i05", xScale=1.2, yScale=1.2, x=-100, y=-80)]
+[ImageTween(xFrom=-80, xTo=50, duration=10)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[name="“皇帝的利刃”"]还没有察觉到端倪吗，议长阁下？
+[name="“皇帝的利刃”"]你誓死保护的那一位，近几年，也许是几十年，这里发生的一切都让他失望透顶。
+[name="“皇帝的利刃”"]当然，凭借你多年来毫无保留的忠诚，哪怕他已经觉得所有的贵族都是叛徒，他仍会相信你。
+[name="“皇帝的利刃”"]但他却不会对我托付同样的信任。
+[name="维特"]直接告诉我陛下的情况。
+[name="“皇帝的利刃”"]他依照计划从地道离开了，却执意不肯与我同行。
+[name="维特"]你没有阻止他？
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[curtain]
+[Image(image="72_i05", xScale=1, yScale=1)]
+[ImageTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=0.8, yScaleTo=0.8,duration=10)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[name="“皇帝的利刃”"]我为什么要阻止他？
+[name="“皇帝的利刃”"]你可以不理解我的想法，但也应该试着理解他的想法，“监护人”。
+[name="“皇帝的利刃”"]让他真正走出去，看看窗外的乌萨斯。
+[name="维特"]......
+[name="维特"]也就是说，皇帝陛下在内卫的看护下失踪了。
+[name="维特"]即使这是他自愿的。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="72_g2_sjbstreet_n",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$chernobog_intro", key="$chernobog_loop", volume=0.6)]
+[PlaySound(key="$d_avg_studentsshout_amb_loop",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.5, channel="f",fadetime=2)]
+摩肩接踵的学生们中，空气都被挤压得稀薄。然而，他们还是为他们的领袖奥尔佳，腾出了一个狭小却异常孤立的空间。
+[charslot(slot = "m", name = "avg_npc_2159_1#5$1",posfrom="0,50",posto="0,50")]
+[name="奥尔佳"]同学们！团结一致，打倒当权者！
+[Dialog]
+[charslot]
+年轻的贵族小姐，此刻正高傲地立于一只残旧的橡木酒桶上，桶身依稀可见腐朽的家族纹章。
+虽然她的高喊被淹没在更极端的口号声中，但她眯起眼睛，似乎在享受这个夜晚，这个圣骏堡属于他们的夜晚，直到有人挤到她身边。
+[Dialog]
+[StopSound(channel="f", fadetime=2)]
+[charslot(slot = "l", name = "avg_npc_2159_1#5$1",posfrom="0,50",posto="0,50")]
+[charslot(slot = "r", name = "avg_1051_headb2_1#9$1",posfrom="50,0",posto="0,0",duration=0.5)]
+[Delay(time=0.5)]
+[charslot(slot = "r", name = "avg_1051_headb2_1#7$1",focus="r")]
+[name="凛冬"]适可而止吧，奥尔佳！
+[charslot(slot = "l", name = "avg_npc_2159_1#3$1",focus="l")]
+[name="奥尔佳"]索尼娅？
+[charslot(slot = "r", name = "avg_1051_headb2_1#9$1",focus="r")]
+[name="凛冬"]都不说列队行进，连口号都没有统一排演......我还看到有人带了酒瓶，再这样下去风险太大了。
+[charslot(slot = "l", name = "avg_npc_2159_1#8$1",focus="l")]
+[name="奥尔佳"]别扫兴！现在正是士气最高昂的时候——
+[charslot(slot = "r", name = "avg_1051_headb2_1#9$1",focus="r")]
+[name="凛冬"]你听我说完！这条街两侧都是贵族住所，非常狭窄，不利于疏散和撤退。
+[charslot(slot = "r", name = "avg_1051_headb2_1#10$1",focus="r")]
+[name="凛冬"]更要紧的是，直到现在，我都没有看见哪怕一个警察。
+[charslot(slot = "r", name = "avg_1051_headb2_1#9$1",focus="r")]
+[name="凛冬"]事情绝不会那么简单，我们应该列队往南，边喊边走，至少能应对各种情况。
+[charslot(slot = "l", name = "avg_npc_2159_1#1$1",focus="l")]
+[name="奥尔佳"]我知道你想说什么，但这一切都很正常，法杰伊解释过了，冬季舞会期间警察厅会调整官员，是管理最混乱的时候。
+[charslot(slot = "l", name = "avg_npc_2159_1#1$1",focus="l")]
+[name="奥尔佳"]而且以我们的家世，在合理的范围内活动，为同伴争取应有的权利，只会被视为一种历练，而不是反叛。
+[charslot(slot = "l", name = "avg_npc_2159_1#2$1",focus="l")]
+[name="奥尔佳"]放下心来，和我们站在一起吧，索尼娅。
+[charslot(slot = "r", name = "avg_1051_headb2_1#9$1",focus="r")]
+[name="凛冬"]......你也说了，“以你们的家世”。
+[charslot(slot = "r", name = "avg_1051_headb2_1#4$1",focus="r")]
+[name="凛冬"]如果你执意要留在这里，我只能带着自治团先行离开。
+[charslot(slot = "l", name = "avg_npc_2159_1#8$1",focus="l")]
+[name="奥尔佳"]这简直不像你了，索尼娅。我以为在这种场合，你会是最勇敢坚定的那个。
+[charslot(slot = "l", name = "avg_npc_2159_1#8$1",focus="l")]
+[name="奥尔佳"]明明已经达到了吸引注意和震慑的目的，接下来只要和他们谈判释放拉列亚，我们就可以享受胜利了。
+[charslot(slot = "r", name = "avg_1051_headb2_1#7$1",focus="r")]
+[name="凛冬"]既然胜利唾手可得，那你就自己去领，我不奉陪了！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_recorderglitch", volume=1)]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_paniccrowd", volume=0.6)]
+她话音刚落，舞会厅所在的楼房灯火骤灭，顿时一片漆黑，接着数声尖叫传到了楼外，随后时不时传来讨论与啜泣声。
+不明所以的学生们愣在原地，不约而同地合上了嘴巴，面面相觑，这无疑是今夜的圣骏堡最安静的时刻。
+[Dialog]
+[charslot(slot = "r", name = "avg_1051_headb2_1#6$1")]
+[charslot(slot = "l", name = "avg_npc_2159_1#4$1",afrom=1,ato=1,posfrom="0,50",posto="0,0",duration=1)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_runstop", volume=1)]
+[charslot(slot = "l", name = "avg_npc_2159_1#4$1",afrom=1,ato=1,posfrom="0,0",posto="20,0",duration=0.5)]
+[Delay(time=0.5)]
+[charslot(slot = "l", name = "avg_npc_2159_1#4$1",focus="l")]
+[name="奥尔佳"]......索尼娅，是你们干的吗？
+[charslot(slot = "r", name = "avg_1051_headb2_1#5$1",focus="r")]
+[name="凛冬"]不，这次和我们——
+[charslot(slot = "l", name = "avg_npc_2159_1#2$1",focus="l")]
+[name="奥尔佳"]干得漂亮！
+[charslot(slot = "l", name = "avg_npc_2159_1#2$1",focus="l")]
+[name="奥尔佳"]你之前说的我就当没听过，自治团为示威立了大功！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_slapcloth_light", volume=1)]
+[Delay(time=1)]
+她兴奋地拍了拍对方的肩膀。随后，一阵难以察觉的、低沉的破空声从街道的尽头传来，静得几乎要被奥尔佳拍击的声音盖过。
+[Dialog]
+[charslot(slot = "l", name = "avg_npc_2159_1#4$1")]
+[charslot(slot = "r", name = "avg_1051_headb2_1#7$1",posfrom="0,0",posto="-150,0",duration=0.3)]
+[Delay(time=0.3)]
+[charslot(slot = "r",focus="r")]
+[name="凛冬"]......危险！
+[Dialog]
+[PlaySound(key="$rungeneral")]
+[charslot(slot = "r", name = "avg_1051_headb2_1#9$1",afrom=1,ato=0,posfrom="-150,0",posto="300,0",duration=0.8)]
+[charslot(slot = "l", name = "avg_npc_2159_1#4$1",afrom=1,ato=0,posfrom="0,0",posto="450,0",duration=0.8)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_gnrtrllng", volume=1)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_steamburst", volume=1)]
+[bgeffect(name="$eb_smokebomb",layer=1)]
+她强行拉过奥尔佳，往外跑去。几个黑色的罐头落在附近，在雪地上滚动出了轻微的痕迹后，缓缓冒出白烟。
+[PlaySound(key="$d_avg_male_scream", volume=1)]
+离得最近的学生突然大叫，他的声音嘶哑，随后便被猛烈的咳嗽声打断，硫磺气味的烟雾像是细小的沙砾，直钻他的眼窝与口鼻。
+[PlaySound(key="$d_avg_audience_chaos",volume=0.8)]
+然后是第二个、第三个......不同的学生同样被剥夺了视觉与呼吸，捂着面部哀嚎、抽搐，余下的人纷纷惊叫奔散。
+[Dialog]
+[Delay(time=1.5)]
+许多人已经跌倒在地，他们呼求着朋友的名字，却无人回应，他们的脸贴着地面，耳畔传来不远处踏步行进的声音。
+[Dialog]
+[PlaySound(key="$d_avg_soldiersstep", volume=1)]
+[Delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_2170_1#1$1")]
+[name="？？？"]催泪弹发射完毕！抓住那些受伤的交差，其他人不用理会！
+[Dialog]
+[charslot]
+姗姗来迟的军警举起手电筒，数道强光打在学生们稚嫩的、恐惧的面庞上。
+[PlaySound(key="$d_avg_audience_chaos",volume=0.5)]
+还能动弹的学生哭喊着，全都朝着街口冲去，他们中有的连滚带爬，衣服上满是雪泥与脚印，甚至还沾了鲜血。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[bgeffect]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[SoundVolume(volume=0.3, channel="f",fadetime=3)]
+[playMusic(intro="$tense_intro", key="$tense_loop", volume=0.6)]
+[charslot(slot = "l", name = "avg_npc_2156_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_194_leto_1#14$1",focus="r")]
+[name="烈夏"]冬将军！我们在这！
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_1051_headb2_1#9$1",duration=0.5)]
+[Delay(time=0.5)]
+[name="凛冬"]先走再说！后面已经完全乱了！
+[charslot(slot = "m", name = "avg_1051_headb2_1#10$1")]
+[name="凛冬"]等等，古米呢？
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2156_1#6$1",focus="l")]
+[charslot(slot = "r", name = "avg_194_leto_1#6$1",focus="l")]
+[name="真理"]她去找你了啊？你没看到她？
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]......
+[charslot(slot = "m", name = "avg_1051_headb2_1#9$1")]
+[name="凛冬"]*乌萨斯粗口*！
+[Dialog]
+[PlaySound(key="$rungeneral")]
+[charslot(slot = "m", posfrom="0,0",posto="-200,0",afrom=1,ato=0,duration=0.5)]
+[Delay(time=1.5)]
+[charslot]
+凛冬没有思考，转头挤进了混乱不堪的人堆里，全然听不清真理与烈夏的呼唤。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+不知多久后，她踉跄地回到了刚才奥尔佳所在的地方，那里已是一片狼藉，乌萨斯的军警用棍子处理着零星的、试图反抗的人。
+此刻，古米就站在凛冬的前方。她异常地愣在原地，然后缓缓向一名警察走去，凝视着他握棍的手腕。
+[Dialog]
+[charslot(slot = "m", name = "avg_196_sunbr_1#11$1",duration=1.5)]
+[Delay(time=1.5)]
+[name="古米"]爸爸的腕表，怎么会在这里......
+[charslot(slot = "m", name = "avg_196_sunbr_1#10$1")]
+[name="古米"]你们......对他做了什么？！
+[CameraShake(duration=0.3, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot = "m",name = "avg_npc_2170_1#1$1")]
+[name="乌萨斯警察"]——跪下！不许乱动！
+[Dialog]
+[PlaySound(key="$d_avg_singleblunt", volume=1)]
+[Delay(time=0.3)]
+[charslot(slot = "r",name = "avg_1051_headb2_1#1$1",posfrom="80,40",posto="-110,-40",afrom=1,ato=0, duration=0.3)]
+[charslot(slot = "m",name = "avg_npc_2170_1#1$1",posfrom="0,0",posto="-80,-80",afrom=1,ato=0, duration=0.3)]
+[Delay(time=0.5)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[Delay(time=0.3)]
+[PlaySound(key="$d_avg_puddlesplash", volume=1)]
+棍子挥了过来，古米下意识避开，几乎是在同一时间，眼前的壮汉被一个黑影扑倒在地，溅起雪水。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_196_sunbr_1#10$1")]
+[name="古米"]凛冬姐？！
+[charslot(slot = "m", name = "avg_1051_headb2_1#7$1")]
+[name="凛冬"]快走！
+[Dialog]
+[charslot]
+[name="乌萨斯警察"]有人袭警！过来支援！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_stickimp", volume=0.9)]
+[Delay(time=0.3)]
+[PlaySound(key="$d_avg_stickimp", volume=0.3)]
+[Delay(time=0.1)]
+[PlaySound(key="$d_avg_stickimp", volume=1)]
+从四面八方涌来十几人，手忙脚乱地钳住凛冬的臂膀，想要分开她与地上的同僚，她却纹丝不动，随后警棍便轮番招呼在了她的后背。
+[PlaySound(key="$d_avg_audience_chaos",volume=0.4)]
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_walkfast")]
+[charslot(slot = "m", name = "avg_194_leto_1#1$1",posfrom="-100,0",posto="0,0",duration=0.5)]
+[Delay(time=0.5)]
+[name="烈夏"]可算找到你了，古米！
+[charslot(slot = "m", name = "avg_194_leto_1#14$1")]
+[name="烈夏"]......你们在干嘛！都给我起开！
+[Dialog]
+[charslot]
+[charslot(slot = "l",name = "avg_npc_2170_1#1$1",focus="l")]
+[charslot(slot = "r",name = "avg_npc_2170_1#1$1",focus="l")]
+[name="乌萨斯警察"]把她们几个赶走，马上收队。
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral")]
+[charslot(slot = "m", name = "avg_npc_2156_1#7$1",posfrom="-80,0",posto="0,0",duration=0.5)]
+[Delay(time=0.5)]
+[name="真理"]索尼娅！
+[PlaySound(key="$d_avg_strongwind_dream", volume=0.8)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot]
+[Image(image="72_i04_2", screenadapt="coverall")]
+[focusout(duration=0.1, type="cg" , from=1, to=1, block=false)]
+[ImageTween(yFrom=0, yTo=-30, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.3, yScaleTo=1.3, duration=3.5, ease="OutQuad", block=false)]
+[cgitem(image="cgitem_72_i04_1", style="cg", sfrom=1, sto=1, pfrom = "80,0", pto = "80,0",layer=4, block=false)]
+[cgitem(image="cgitem_72_i04_2", style="cg", sfrom=1, sto=1, pfrom = "-280,-20", pto = "-280,-20", layer=3, block=false)]
+[cgitem(image="cgitem_72_i04_3", style="cg", sfrom=1, sto=1, pfrom = "220,-10", pto = "220,-10", layer=2, block=false)]
+[focusout(duration=2, type="cg" , from=1, to=0, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=false)]
+[cgitem(image="cgitem_72_i04_1", style="cg", sfrom=1, sto=1.2, sduration=3.5, pfrom = "80,0", pto = "150,-30", pduration=3.5, layer=4, ease="OutQuad", block=false)]
+[cgitem(image="cgitem_72_i04_2", style="cg", sfrom=0.9, sto=1.2, sduration=3.5, pfrom = "-280,-20", pto = "-420,-40", pduration=3.5, layer=3, ease="OutQuad", block=false)]
+[cgitem(image="cgitem_72_i04_3", style="cg", sfrom=0.9, sto=1.2, sduration=3.5, pfrom = "220,-10", pto = "390,-30", pduration=3.5, layer=2, ease="OutQuad", block=false)]
+[focusout(duration=3.5, type="cgitem", id="cgitem_72_i04_1", from=1, to=1, block=false)]
+[focusout(duration=3.5, type="cgitem", id="cgitem_72_i04_2", from=1, to=1, block=false)]
+[focusout(duration=3.5, type="cgitem", id="cgitem_72_i04_3", from=1, to=1, block=false)]
+[Delay(time=3)]
+[bgeffect]
+[focusout(duration=0.2, type="cgitem", id="cgitem_72_i04_1", from=1, to=0, block=false)]
+[focusout(duration=0.2, type="cgitem", id="cgitem_72_i04_2", from=1, to=0, block=false)]
+[focusout(duration=0.2, type="cgitem", id="cgitem_72_i04_3", from=1, to=0, block=false)]
+[Delay(time=1.5)]
+[name="凛冬"]你疯了吗烈夏！
+[name="凛冬"]给我滚出去，这是命令！
+[name="烈夏"]哈......我才不要！
+[name="古米"]凛冬姐！不行，我要来帮你——
+[name="真理"]少逞英雄了索尼娅！拉住我们的手！
+[name="凛冬"]连你也疯了吗？他们后面有更多人，全都配着弩。
+[name="凛冬"]听我的命令，自治团撤退！
+[name="真理"]现在不是摆团长架子的时候，你这套东西——对我不起作用！
+[Dialog]
+[Image(image="72_i04_3",xScale=1.3, yScale=1.3, x=0, y=-30, screenadapt="coverall",fadetime=1)]
+[Delay(time=1)]
+[name="凛冬"]......我需要你带他们离开，同学们也需要你，帮帮他们！
+[Image(image="72_i04_4",xScale=1.3, yScale=1.3, x=0, y=-30, screenadapt="coverall")]
+[name="凛冬"]这不是团长的命令，而是朋友的请求。
+[Image(image="72_i04_5",xScale=1.3, yScale=1.3, x=0, y=-30, screenadapt="coverall")]
+[name="凛冬"]就这一次，听我的！你们都快走——
+[StopSound(channel="f", fadetime=2)]
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot]
+[image]
+[hidecgitem(image="cgitem_72_i04_1")]
+[hidecgitem(image="cgitem_72_i04_2")]
+[hidecgitem(image="cgitem_72_i04_3")]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[Delay(time=2.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$mist_intro", key="$mist_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]......这就是那晚发生的所有故事。
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]有的大人可能一时难以接受，但无论从何种角度来说，索尼娅都更像是这场行动的受害者。
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]书记官记录了今天证人提供的新信息，后续我们会综合卓娅女士之前的报告，出具一份正式的官方说明文件。
+[name="仲裁人"]在座的哪位大人对此还有问题？
+[dialog]
+[charslot(slot = "m", name = "avg_npc_2171_1#1$1")]
+[name="仲裁委员会成员"]......仲裁人阁下，卓娅女士，或许我们中有人误会了听证会的本意。
+[name="仲裁委员会成员"]许多大人以叛国定性学生团体，并不单是因为那场示威，更因为后来他们在封锁区里扰乱秩序的行动。
+[name="仲裁委员会成员"]我们所关心的是，我们敬爱的费奥多尔陛下，在这一整场事件中，到底处于什么样的位置？
+[name="仲裁委员会成员"]关于这点，民间谣言甚多，甚至有人说，是陛下授意学生去对抗贵族的。
+[name="仲裁委员会成员"]所以我还是很好奇，比如示威的当晚，为什么陛下他——
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]特罗扬伯爵，很抱歉打断您。
+[name="仲裁人"]必须要强调的是，虽然为了减轻仲裁委员会的压力，议长阁下不会来到现场，也没有对我做出任何倾向性的暗示。
+[name="仲裁人"]尽管我先前曾向证人询问关于陛下去向的问题，但也只是为了理清陛下遇刺失踪一事与学生领袖索尼娅所涉行动的联系。
+[name="仲裁人"]如果委员会仍对此有所疑虑，那么，我们可以当场再做明确的问询。
+[name="仲裁人"]卓娅女士，请回答。
+[name="仲裁人"]你是否认为索尼娅在示威游行中的行动与陛下遇刺失踪有关？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g13_nobleroom",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2162_1#3$1")]
+[name="瓦西里"]......内卫的选择......
+[charslot(slot = "m", name = "avg_npc_2162_1#1$1")]
+[name="瓦西里"]所以，这才是真正重要，却无人能够知晓的细节。听证会能了解的，必定不会包含这点。
+[charslot(slot = "m", name = "avg_npc_2162_1#1$1")]
+[name="瓦西里"]那么，陛下回来后，有和您提起过什么吗？
+[charslot(slot = "m", name = "avg_npc_1984_1#1$1")]
+[name="维特"]不，瓦夏，不......
+[charslot(slot = "m", name = "avg_npc_1984_1#11$1")]
+[name="维特"]我们都能看出来，自那以后，他便愈发沉默，终日寡言。
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Background]
+[Image]

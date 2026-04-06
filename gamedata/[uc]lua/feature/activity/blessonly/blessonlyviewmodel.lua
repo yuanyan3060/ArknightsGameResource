@@ -242,7 +242,7 @@ function BlessOnlyViewModel:LoadData(actId)
   self.playerNameId = status.nickNumber;
   self.playerLevel = status.level;
   self.playerId = CS.U8.SDK.U8SDKInterface.Instance.uid;
-  self.avatarInfo = status.avatar;
+  self.avatarQuery = luaUtils.GetAvatarQueryFromPlayerStatus(status);
 
   
   local apSupplyDict = actGameData.apSupplyOutOfDateDict;

@@ -1,0 +1,405 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playMusic(intro="$darkness02_intro",key="$darkness02_loop", volume=0.6)]
+[charslot(slot="m",name="avg_405_absin_1#1$2",duration=1)]
+[delay(time=2)]
+[name="苦艾"]“......之后，我对照名单，依次与各个学生见面。”
+[name="苦艾"]“与索尼娅不同，他们被送到城墙边的办公室与我交谈，大多面带恐惧，什么都不敢说。”
+[charslot(slot="m",name="avg_npc_177")]
+[name="急切的贵族"]我受够了！仲裁人阁下，帝国的听证会怎能纵容如此荒谬的、针对一位清白贵族的侮辱？
+[name="急切的贵族"]他曾是陛下亲封的枢密官，如果事实真如娜塔莉娅描述的那样，他又怎么可能取得这样的殊荣？
+[name="急切的贵族"]任谁都能听出来，这封信名为忏悔，实为诘难，我们不能再被谣言牵着走了。
+[name="急切的贵族"]据我所知，现场还有一份——
+[charslot(slot="m",name="avg_405_absin_1#6$2")]
+[name="苦艾"]这位大人，无论您对巴普洛维奇大人的“管理艺术”抱有怎样的欣赏态度，都请不要因此就把娜塔莉娅亲笔写下的血泪称为谣言。
+[name="苦艾"]您不能因为我们此刻都在温暖的厅堂中对话，就否认外面正有人因饥寒交迫而战栗。
+[charslot(slot="m",name="avg_405_absin_1#7$2")]
+[name="苦艾"]毕竟，依照您的想法，如果世上真有那么多苦难，乌萨斯怎么可能繁荣数百年呢？
+[charslot(slot="m",name="avg_npc_177")]
+[name="急切的贵族"]卓娅女士，注意你的措辞。听证会尊重你烈士子女的身份，出于信任和对公正的索求让你来辅助作证，不是让你来这里侮辱贵族的！
+[charslot(slot="m",name="avg_405_absin_1#6$2")]
+[name="苦艾"]仲裁委员会明鉴，我分明是在维护一位真正的贵族，我决不容忍任何人轻率地用“谣言”去污蔑她。
+[charslot(slot="m",name="avg_npc_177")]
+[name="急切的贵族"]荒谬——
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]安静！
+[name="仲裁人"]卓娅女士，你的责任是代为陈述娜塔莉娅小姐的证词，事实判断是仲裁委员会才能做的。
+[charslot(slot="m",name="avg_405_absin_1#1$2")]
+[name="苦艾"]......抱歉，仲裁人阁下。
+[name="苦艾"]如果诸位大人在意的是“忏悔”的部分，那么接下来就是了。
+[name="苦艾"]还请仲裁人阁下允许我继续。
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]记住，如果你继续试图对任何贵族的观点进行评判，那么我将不再允许你发言。
+[name="仲裁人"]继续吧。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Subtitle(text="<i>“当我回到城中，向他们的父母汇报情况时，有的家长会多留我一会儿，想要了解更多有关他们孩子的情况。”</i>", x=300, y=330, alignment="center", size=24, delay=0.04, width=720)]
+[Subtitle(text="<i>“为了寻找缓解封锁区内境况的契机，我必须要试探谁能够提供更多的帮助。”</i>", x=300, y=330, alignment="center", size=24, delay=0.04, width=720)]
+[Subtitle(text="<i>“于是，我挑选了几位家长私下见面，刻意渲染了学生们所处境况的窘迫与凄惨。”</i>", x=300, y=330, alignment="center", size=24, delay=0.04, width=720)]
+[Subtitle(text="<i>“最终，我找到了一位独生子被押的贵族，而他迫不及待地将我引荐给了他的上司。”</i>", x=300, y=330, alignment="center", size=24, delay=0.04, width=720)]
+[Subtitle]
+[Dialog]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[Background(image="72_g13_nobleroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$ponder_intro",key="$ponder_loop", volume=0.6)]
+[name="早露"]......以上就是我在封锁区内的全部见闻，议员阁下。
+[charslot(slot = "m", name = "avg_197_poca_1#5$1")]
+[name="早露"]若是继续坐视巴普洛维奇大人的行为，甚至继续放任他们使用大型武器，这一定会在不久后酿成无法挽回的惨剧。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2162_1#1$1",duration = 1)]
+[delay(time=2)]
+[name="某位议员"]娜塔莉娅小姐，从你的表述来看，你似乎希望议会能公布巴普洛维奇的罪行，从而剥夺他的官秩，甚至将其撤职。
+[charslot(slot = "m", name = "avg_197_poca_1#12$1")]
+[name="早露"]我只是希望能阻止他。
+[name="早露"]议员阁下，请原谅我话语的直接。我对议会既无意评判，也产生不了影响，但我能想象这其中会有多大阻力。
+[charslot(slot = "m", name = "avg_npc_2162_1#1$1")]
+[name="某位议员"]那么，或许我们就应该答应他的要求，暂缓抛下封锁区地块的决议，然后他就会如约释放学生们。
+[name="某位议员"]你相信他会兑现承诺吗？
+[charslot(slot = "m", name = "avg_197_poca_1#3$1")]
+[name="早露"]......不，我无法信任巴普洛维奇大人。
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]而且我也明白，您之所以会这么问我，是因为您同样无法信任他。
+[charslot(slot = "m", name = "avg_npc_2162_1#2$1")]
+[name="某位议员"]哈哈，你很聪明，也许你和我的女儿会聊得来。
+[charslot(slot = "m", name = "avg_npc_2162_1#1$1")]
+[name="某位议员"]我的下属也向我报告过，你从封锁区回来后并没有按照他的要求，煽动家长们一同想办法保留封锁区。
+[name="某位议员"]反之，你选择从家长们的身份、状况和性格入手，找到了我。
+[name="某位议员"]你认为我是能左右事情的关键，也是你目前能接触到的、最有政治影响力的对象。
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]您的判断全都正确，我的想法，那些青涩的算计，在您面前一览无余。
+[name="早露"]可是阁下，我只是无法不去想我的朋友们。就在我们交谈的时候，她们正在封锁区里遭受磨难，每一秒都有丧命的风险。
+[name="早露"]我知道您的顾虑，是源于我想法的不现实。
+[name="早露"]所以阁下，我并不奢望能立即处罚巴普洛维奇大人，但至少我们应该争取改善封锁区内学生们的待遇，并解除封锁区的重型武装。
+[charslot(slot = "m", name = "avg_npc_2162_1#3$1")]
+[name="某位议员"]......很遗憾，当下的议会大概无法满足这些请求。
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]巴普洛维奇大人曾和我提到，他得到了议会当中许多贵族朋友的支持。
+[charslot(slot = "m", name = "avg_npc_2162_1#1$1")]
+[name="某位议员"]你恐怕说漏了一个“旧”字。或者说，“军事贵族”。
+[name="某位议员"]开诚布公地说，乌萨斯贵族间的阵营对立，恐怕对玻利瓦尔人都谈不上是什么秘密了，你不必如此谨慎。
+[name="某位议员"]由于近来的动乱，每一个决议，每一条规章，谁今天在议会上逞了口舌之快，谁明日被皇帝陛下夸奖，处处都是党同伐异，必分高低。
+[name="某位议员"]仅是帝国议会，就有四百多名议员，他们大都家世显赫，功勋卓著。
+[name="某位议员"]居住在圣骏堡的、姓氏被计入了《贵族谱系》的世袭贵族，有将近八百人。
+[name="某位议员"]至于那些有影响力的荣誉市民，更是不计其数......每个人的态度都很复杂。
+[charslot(slot = "m", name = "avg_npc_2162_1#8$1")]
+[name="某位议员"]如果世事都像切薄饼一样能轻易分成两半......我想乌萨斯也不会走到现在这种局面。
+[charslot(slot = "m", name = "avg_197_poca_1#5$1")]
+[name="早露"]您是想告诉我......
+[name="早露"]即使是新贵族，其中也有人支持巴普洛维奇大人。现在之所以无法阻止他，也是因为他有许多有权势的支持者。
+[charslot(slot = "m", name = "avg_npc_2162_1#1$1")]
+[name="某位议员"]所以即使是我，甚至是议长，都无法在这件事情上跨过众人的意见，给你们提供任何实质性的帮助。
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]能有幸与您交流，就已经是莫大的帮助了。
+[name="早露"]我的目标不会改变，要真正解救索尼娅以及封锁区里的人们，就必须尽量干扰巴普洛维奇大人。
+[charslot(slot = "m", name = "avg_npc_2162_1#2$1")]
+[name="某位议员"]判断不错，但只有判断是不够的。
+[name="某位议员"]在年轻的时候，人们很容易知道自己应该反对什么，却很难知道自己应该去做什么。
+[name="某位议员"]娜塔莉娅小姐，你会怎么做呢？
+[charslot(slot = "m", name = "avg_197_poca_1#2$1")]
+[name="早露"]......如果我能调查清楚不同人支持他的原因，并且联系上一些潜在的“朋友”......
+[charslot(slot = "m", name = "avg_197_poca_1#8$1")]
+[name="早露"]您提醒过我，每一个人的态度都是复杂的。换种角度说，即使是旧贵族，即使曾经是他的盟友，也可能会在特定情况下态度发生偏移。
+[charslot(slot = "m", name = "avg_npc_2162_1#2$1")]
+[name="某位议员"]你把那句话看作是“提醒”，这可真是......
+[name="某位议员"]等事情解决之后，请一定要再来坐坐。等阿洛达没在做她自己的事的时候吧，也许......
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]您说什么？
+[charslot(slot = "m", name = "avg_npc_2162_1#1$1")]
+[name="某位议员"]没什么。
+[name="某位议员"]娜塔莉娅小姐，我这里有一个消息，是即使维特议长明令禁止，也已经在部分贵族中传播开来的。
+[name="某位议员"]冬季舞会之后，出于一些原因，皇帝陛下没有返回宫殿。
+[charslot(slot = "m", name = "avg_197_poca_1#12$1")]
+[name="早露"]......
+[charslot(slot = "m", name = "avg_npc_2162_1#1$1")]
+[name="某位议员"]截至目前，议长暗中派人调查，却始终没有发现任何线索，排除到最后，就只剩下一个地方。
+[charslot(slot = "m", name = "avg_npc_2162_1#9$1")]
+[name="某位议员"]一个此时难以查证的地方。
+[charslot(slot = "m", name = "avg_197_poca_1#6$1")]
+[name="早露"]难以查证的地方？难道——
+[charslot(slot = "m", name = "avg_197_poca_1#12$1")]
+[name="早露"]您的意思是，陛下或许在封锁区里......就连议长也没法实施搜查吗？
+[charslot(slot = "m", name = "avg_npc_2162_1#9$1")]
+[name="某位议员"]以当下的局势来看，我们希望尽可能地低调处理，以免制造出更大的混乱。
+[name="某位议员"]而某些不知从何处得知陛下失踪消息的贵族，却似乎希望这个局面能够持续。这也与你告诉我的情况相吻合。
+[name="某位议员"]......一些利益交换、心照不宣的态度倾斜，又或是想趁机一劳永逸地解决压在他们头顶上最大的困难。
+[name="某位议员"]更不用说恰好在这时，那原本应该立即启用以保护陛下的特殊手段，也出于某些原因而反应迟滞。
+[name="某位议员"]所以，这个消息并不具有明确的时效性，甚至也不算难以打听。
+[name="某位议员"]重要的是，在特殊手段生效之前，你可以继续按照你的方式去解决你朋友面临的问题。而如果特殊手段生效......
+[charslot(slot = "m", name = "avg_npc_2162_1#8$1")]
+[name="某位议员"]你的朋友们，大概就只能自求多福了。
+[charslot(slot = "m", name = "avg_197_poca_1#8$1")]
+[name="早露"]......这个特殊手段，是指——
+[charslot(slot = "m", name = "avg_npc_2162_1#9$1")]
+[name="某位议员"]你只需要知道，当它生效，陛下一定会安全地回到他的宫殿之中。
+[charslot(slot = "m", name = "avg_197_poca_1#12$1")]
+[name="早露"]......
+[charslot(slot = "m", name = "avg_npc_2162_1#1$1")]
+[name="某位议员"]不过，我这里还有一件或许能宽慰你的事。维特议长已经按下了抛下封锁区的决议，这至少在一周之内都不会改变。
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]......您所说的这些，对我们至关重要。我代表我自己，以及我的朋友，一同衷心地感谢您。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]......也就是说，有议员向娜塔莉娅小姐透露，某些新贵族希望陛下在封锁区里受到折磨，甚至遇害？
+[name="仲裁人"]尽管听证会出于维护贵族尊严的考量，赞成隐去名字的做法，但请诸位放心，此后会对此进行详尽的调查。
+[charslot(slot="m",name="avg_npc_177")]
+[name="急切的贵族"]不，是谁？是谁已经丧心病狂到这个地步，我要求证人马上、立即公布那些禽兽的名字！
+[name="急切的贵族"]把他们从巢穴里挖出来，看看他们只为金钱跳动的心脏究竟长没长着乌萨斯人的血肉！
+[charslot(slot="m",name="avg_405_absin_1#1$2")]
+[name="苦艾"]抱歉，我并非娜塔莉娅本人，我对信函里提到的那些人的名字一无所知。
+[name="苦艾"]不过从后文来看，她接下来寻访了不少历史悠久的贵族府邸，它们的主人似乎同样不太热情......当然，您也可以说他们是不为金钱所动。
+[charslot(slot="m",name="avg_npc_177")]
+[multiline(name="急切的贵族")]这、这太荒谬了，无论是谁都说出来，不然就是——
+[multiline(name="急切的贵族")]拉我干什么？
+[Dialog]
+[charslot]
+[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_slap")]
+[delay(time=1)]
+他下意识地狠狠挥手，清脆的巴掌声再次驱散了听证会上难得的凝重，在场所有人好奇地看过去，刚才阻止他的同伴正捂着脸。
+同伴面对着众人的“关切”，只得对他们挤出一个僵硬的讪笑，但双眼却恶狠狠地瞟向急切而冒失的贵族，对方悻悻地合上了嘴巴。
+[charslot(slot="m",name="avg_405_absin_1#1$2")]
+[name="苦艾"]那，我还应该继续往下说吗？毕竟在这之后，有人给了娜塔莉娅一份军事贵族的名单，附在这封信件后。
+[charslot(slot="m",name="avg_405_absin_1#7$2")]
+[name="苦艾"]信上写着，这些贵族未经核验就咬定陛下失踪是谣言，还有人想通过娜塔莉娅趁机勒索那些孩子被抓的家长......
+[name="苦艾"]尤其是在十二月二十九日下午，有一位不愿透露姓名的绅士向娜塔莉娅勒索——
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]等等，你不能透露那些贵族的具体信息。
+[charslot(slot="m",name="avg_405_absin_1#1$2")]
+[name="苦艾"]我会按照要求隐去他们的名字，也不会对他们的行为进行评判。
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]......具体时间和地点特征也要规避，不要对我的实质要求故作不知。只说事情，只说事情本身，明白了吗？！
+[charslot(slot="m",name="avg_405_absin_1#1$2")]
+[name="苦艾"]没有问题，阁下。
+[name="苦艾"]在此之后，虽然娜塔莉娅确实赢得了一部分家长的支持，但最关键的是，她在某日登门拜访了一位重要的贵族人士。
+[charslot(slot="m",name="avg_405_absin_1#9$2")]
+[name="苦艾"]他长期支持巴普洛维奇大人，并始终宣扬应对犯事学生实施重刑，只要——
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="33_g7_reception",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2165_1#4$1",duration = 1.5)]
+[delay(time=2.5)]
+[name="早露"]......您认同我们的想法，就能最大限度地降低封锁区内的交火烈度。
+[charslot(slot = "m", focus = "n")]
+[name="某位公爵"]罗斯托夫家的小姐......请回吧，若不是你放言事态危急，我本没有和切尔诺伯格的贵族打交道的想法。
+[charslot(slot = "m", name = "avg_npc_2165_1#9$1")]
+[name="早露"]公爵阁下，此事关乎陛下安危，谁都承担不起让乌萨斯面临国难的罪责。
+[charslot(slot = "m", focus = "n")]
+[name="某位公爵"]国难？孩子，你或许不知道，这些年的圣骏堡，每天都有疯子高喊这个词——当然，我并不是在说你。
+[name="某位公爵"]对于你口中那骇人听闻的消息，请原谅我不得不故作不知。毕竟我的理智在不断向我提醒——这又是那些暴发户自导自演的戏码。
+[charslot(slot = "m", name = "avg_npc_2165_1#3$1")]
+[name="早露"]或许是我理解错了，但您似乎是在指责我们拿陛下的安危演戏，完全不担心危险发生的后果。
+[charslot(slot = "m", focus = "n")]
+[name="某位公爵"]不，我只是不接受讹诈，即使你穿戴得齐整高贵，就像任何一个圣骏堡的贵族那样。
+[name="某位公爵"]在如今的乌萨斯，没有什么比教育那些思想中毒的年轻人更为重要。
+[name="某位公爵"]如果说，在皇村——在萨列夫格勒区聚众闹事都不能严惩，乌萨斯还有什么威信可言？
+[name="某位公爵"]你关心同学的心情可以理解，我不会追究你为暴民辩护的罪责，今天的会面，就当没有发生过吧。
+[charslot(slot = "m", name = "avg_npc_2165_1#4$1")]
+[name="早露"]......我明白了，公爵阁下。
+[name="早露"]不过，请相信，您终有一天，也会起身为所谓的“暴民”辩护。
+[charslot(slot = "m", focus = "n")]
+[name="某位公爵"]......你说什么？
+[Dialog]
+[playsound(key="$d_avg_armycrowd",volume=0.5)]
+[delay(time=2)]
+[charslot(slot = "m", name = "avg_npc_2165_1#12$1")]
+[name="早露"]我会找到您，是因为我从一些贵族那里听闻，您和您的继承人一直在私底下煽动学生。
+[charslot(slot = "m", name = "avg_npc_2165_1#3$1")]
+[name="早露"]有人已经掌握了相关证据，能够证明公爵阁下府邸中的地下室，就是学生活动的据点，甚至拍摄到了他们就在您花园里排演的画面。
+[charslot(slot = "m", focus = "n")]
+[name="某位公爵"]......呵，无谓的尝试。孩子，无论你再怎么虚张声势，我也不会上当。
+[charslot]
+他缓缓起身，不再对上娜塔莉娅的目光。
+[name="某位公爵"]我已经警告过你，如果试图讹诈——
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background]
+[focusout(duration=1, type="cgitem", id="cgitem_72_i06_3", from=0.5, to=0.5)]
+[focusout(duration=5, type="cg", from=1, to=0)]
+[cgitem(image="cgitem_72_i06_3", style="cg",pfrom = "80,0", pto = "100,0",pduration=20, afrom = 0, ato = 1, aduration = 0,layer = 2,sfrom=1, sto=1)]
+[Image(image="72_i06_2",screenadapt="coverall",xScale=1.2,yScale=1.2,y=30)]
+[ImageTween(  duration=20, block=false,xFrom=50,xTo=30)]
+[bgeffect(name="$eb_sunlight_r",layer=1,y=200,xto=200,yto=200,movetime = 30)]
+[bgeffect(name="$eb_sunlight_l",layer=2,y=200,x=250,xto=300,yto=200,movetime = 30)]
+[playsound(key="$d_avg_armycrowd")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playMusic(key="$m_avg_ursusdaily_loop", volume=0.6)]
+[delay(time=1)]
+[name="？？？"]听我的口令！队尾转队首，齐步撤退！
+[name="早露"]据我所知，很早就有人猜测您的继承人与学生组织之间的关系，而您甚至为此威胁过她的老师们，要求禁止这类“谣言”传播。
+[name="早露"]可凑巧的是，自从冬季舞会那时参与示威的学生们被捕后，您的继承人就再也没有露面。
+[name="某位公爵"]那是因为她正在中部研学——
+[name="早露"]您当然可以继续自欺欺人。只是，也许是我自作多情，想当然地认为自己与您有相似的立场，能够帮您挽回继承人的前程......
+[name="早露"]唉，可怜的奥尔佳。
+[name="某位公爵"]你、你做了什么？！
+[name="早露"]我就在这里，什么也没做。也许只是恰巧在您家里遇上了他们排练的时刻。
+[name="早露"]或者说，连我这样的不速之客，都能无意间撞见他们的举动，恰恰说明这些学生在您府中的活跃程度，不是吗？
+[name="某位公爵"]你——
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[bgeffect(name="$eb_sunlight_r",layer=1,y=300,x=300)]
+[bgeffect(name="$eb_sunlight_l",layer=2,y=300,x=300)]
+[cgitem(image="cgitem_72_i06_3", style="cg",layer = 2,sfrom=1, sto=0.85,sduration = 30,pfrom = "100,10", pto = "90,0",pduration=30)]
+[focusout(duration=10, type="cgitem", id="cgitem_72_i06_3", from=0.5, to=0)]
+[ImageTween( xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1,  yTo=0, xTo=0, duration=30)]
+[focusout(duration=30, type="cg", from=0, to=0.5)]
+[cgitem(image="cgitem_72_i06_1", style="cg",layer = 1,sfrom=0.85, sto=1,sduration = 30,pfrom = "-530,100", pto = "-430,0",pduration=30)]
+[cgitem(image="cgitem_72_i06_2", style="cg",layer = 3,sfrom=0.85, sto=1,sduration = 30,pfrom = "570,100", pto = "470,0",pduration=30)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+窗外阳光炫目，早露垂下眼睛，以无法让人察觉的幅度点了点头，旋即换上了属于贵族小姐的礼貌笑容。
+[name="早露"]如我所说，我只是听到了一些传闻。对公爵阁下而言，幸运的是，它们并没有扩散。
+[name="某位公爵"]......你想要什么？
+[name="早露"]不是我想要什么，是您需要守护自己，和整个家族的未来。
+[name="早露"]现在刚过正午，希望您能允许我在此稍作休息，静候您的答复——
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[image]
+[hidecgitem]
+[bgeffect]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="？？？"]不，不是这样的！
+[name="？？？"]这是谎言......仲裁人阁下！
+[charslot(slot="m",name="avg_npc_2168_1#1$1")]
+[name="仲裁人"]特里波列夫公爵？
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2171_1#1$1",duration = 0.5)]
+[delay(time=1)]
+[name="特里波列夫公爵"]我坦白，娜塔莉娅·罗斯托娃找到的人是我，我也的确同意了削减巴普洛维奇军备的要求。
+[name="特里波列夫公爵"]但我的女儿是无罪的！她是被他们、被这群学生组织的疯子胁迫的！
+[name="特里波列夫公爵"]她会在今天出席作证，勇敢地证明自己的清白，揭露娜塔莉娅的谎言。她就是下一个证人。
+[charslot(slot="m",name="avg_405_absin_1#6$2")]
+[name="苦艾"]公爵大人，娜塔莉娅的这封信，忏悔的便是对您、对其他人的不诚实。
+[name="苦艾"]乌萨斯从来没有给过我们机会，而从始至终，娜塔莉娅也没有背叛任何人，她只是做出了正确的选择，保护了应当保护的朋友。
+[name="苦艾"]无论谁出面，在这里发表任何搬弄是非的证词，她都无愧于乌萨斯，无愧于我们。
+[charslot(slot = "m", name = "avg_npc_2171_1#1$1")]
+[name="特里波列夫公爵"]你——
+[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[PlaySound(key="$gavel1")]
+[name="仲裁人"]肃静！
+[name="仲裁人"]临时休会十分钟。
+[name="仲裁人"]书记官，让下一位证人做好准备......
+[Dialog]
+[charslot(duration=0.5)]
+[PlaySound(key="$d_avg_peoplestandup")]
+[delay(time=2.5)]
+[charslot(slot="m",name="avg_npc_177")]
+[name="急切的贵族"]沃伦佐娃夫人......我不明白，这不像您的作风。
+[name="急切的贵族"]您明明拿到了娜塔莉娅真正的证词，如果能够与卓娅的说法对峙，至少不会让列位贵族如此失态。
+[name="急切的贵族"]可您从她讲述封锁区的遭遇开始就沉默不语，有好几位大人都在看着您，愤怒溢于言表。
+[name="急切的贵族"]您到底在等什么？
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]......
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[Background(image="72_g13_nobleroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playMusic(key="$wasteland_loop", volume=0.6)]
+[name="早露"]......如您所愿。
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]好，好。这样，我就还来得及对你的父母有所交代。一切都还来得及。
+[name="沃伦佐娃夫人"]瞧瞧，真是漂亮的字迹啊，娜塔申卡。让我看看你有没有遗漏——
+[name="沃伦佐娃夫人"]......
+[name="沃伦佐娃夫人"]......娜塔申卡，你......
+[name="沃伦佐娃夫人"]你写的这些，都是什么呀？这不是“忏悔信”吗？
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]是的，忏悔信。
+[charslot(slot = "m", name = "avg_197_poca_1#15$1")]
+[name="早露"]我忏悔，向所有曾受我的诡计蒙骗的人，和所有被这些人利用并抛弃的、受难的学生。
+[charslot(slot = "m", name = "avg_197_poca_1#5$1")]
+[name="早露"]他们都曾是我的同学，即使我们从未就读于同一所学校。
+[name="早露"]我们也都是乌萨斯人，我们本该拥有同样的命运。
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]不，不！
+[name="沃伦佐娃夫人"]孩子，我的孩子！是谁要让你背负这样的痛苦？是谁指责你将他们欺骗？这不是我想让你做的，这绝不是！
+[name="沃伦佐娃夫人"]天哪，玛尔莎，我......我该怎么办？我该怎么做才能宽慰你可怜的孩子？不要说这样恐怖的话了，娜塔申卡，这不是你的错！
+[charslot(slot = "m", name = "avg_197_poca_1#12$1")]
+[name="早露"]可总有人应该为此付出代价，或背负罪责，夫人。
+[name="早露"]我写下这些，按照您的要求描述这些人的参与，以及......我所知道的故事。您却说，这不是我应该做的。
+[name="早露"]难道我剖开自己的做法不对吗？还是说我应该永远对责任敬而远之，就像个永远长不大的孩子？
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]在我们面前，你们永远都只是孩子！我也只是想帮助你，像帮助任何一个朋友的亲人——甚至像帮助自己的孩子。
+[name="沃伦佐娃夫人"]不过是些荒唐的、尽可以被原谅的错误，谁需要这样沉重的忏悔？我决不愿看你自苦至此，我的......娜塔申卡......
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]我明白，夫人，我都明白。
+[name="早露"]您的热情，您的真挚，甚至常常达到使我在相处中觉得煎熬的程度。可这并不是您的问题。
+[charslot(slot = "m", name = "avg_197_poca_1#3$1")]
+[name="早露"]只是我自己，在这些日子接触到太多以往遥不可及的高贵之人后，在亲身了解了他们的所思所想和对乌萨斯的感情后，总忍不住去想——
+[charslot(slot = "m", name = "avg_197_poca_1#5$1")]
+[name="早露"]骏鹰王国尚未灭亡的时候，如今的乌萨斯贵族们的祖先，也都是一个个普通人，就连伊戈尔大帝也只是军旅行伍中的一员。
+[charslot(slot = "m", name = "avg_197_poca_1#12$1")]
+[name="早露"]在骏鹰挥动着鞭子的时候，他们毫无畏惧地冲了上去，挡在被奴役者的身前。这才让大家相信，他们拥有荣耀的、勇者的血脉。
+[name="早露"]但若是有一天，这些流淌着勇者血液的人，选择将另一些被压迫和被侮辱的人踩在脚下，甚至拿起了骏鹰曾挥动的鞭子......
+[charslot(slot = "m", name = "avg_197_poca_1#15$1")]
+[name="早露"]还会有人相信他们，甘愿与他们为伍吗？
+[charslot(slot = "m", name = "avg_197_poca_1#9$1")]
+[name="早露"]而我，竟然也要加入，作为其中的一员吗？
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]这是......我们与生俱来的权利——
+[name="沃伦佐娃夫人"]娜塔申卡，不......
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]不，夫人，只有这一次，请容我拒绝。
+[name="早露"]如果说，有什么权利是我希望所有人都能与生俱来的，那一定是......
+[charslot(slot = "m", name = "avg_197_poca_1#5$1")]
+[name="早露"]“选择权”。
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]......
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]而现在，正如您所说......“一切都还来得及”。
+[name="早露"]来得及让我做出选择，来得及让我决定背负。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="沃伦佐娃夫人"]......只是，没有必要。
+[name="沃伦佐娃夫人"]“再怎么精心编造的谎言，也敌不过切身经历的事实”。娜塔申卡......只是做出了选择。
+[charslot(slot="m",name="avg_npc_177")]
+[name="急切的贵族"]可她蒙骗了您，至少要让她付出代价——
+[charslot(slot="m",name="avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]大人，我感谢您的热心，只不过......
+[name="沃伦佐娃夫人"]我已经有些累了。
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

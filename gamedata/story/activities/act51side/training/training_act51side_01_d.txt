@@ -1,0 +1,28 @@
+[header(is_skippable=false, is_tutorial=true)]
+[Battle.LockFunction(mask="SYSTEM_MENU_INTERACT")]
+[Battle.Pause]
+
+
+[inputblocker(blockInput=false)]
+[Tutorial(protectTime=0.5,waitForSignal="put_down", dialogHead="$avatar_headb2", animStyle="Drag", \
+           startCardIndex=0, startRightStart=true, endTileX=7, endTileY=3)] \
+就是现在，时间卡得刚刚好！
+
+[inputblocker(blockInput=true, black=0.3)]
+
+[popupdialog(dialogHead="$avatar_headb2")]烈夏，我该使用<@tu.kw>伪装工具</>了，警戒塔短时间内还不会转向你那边，剩下的敌人就交给你了！
+
+[Battle.UnlockFunction(mask="CHARACTER_INFO")]
+[Battle.UnlockFunction(mask="CHARACTER_MENU")]
+[Battle.EnsureMinSp(charId="char_194_leto", sp=40)]
+
+[popupdialog(dialogHead="$avatar_leto")]没问题！是不是我只要主动释放技能，就能<@tu.kw>提前解除潜伏状态</>？
+
+[InputBlocker(blockInput=true, tileY=4, tileX=4, validWidth=110, validHeight=110)]
+
+[Tutorial(waitForSignal="char_info", tileX=4, tileY=4, focusWidth=110, focusHeight=110, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_headb2", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+	  正是这样！现在就用技能解决掉他们！
+
+[battle.pause(pause=false)]

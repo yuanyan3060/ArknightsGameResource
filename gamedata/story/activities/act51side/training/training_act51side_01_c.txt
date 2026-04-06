@@ -1,0 +1,18 @@
+[header(is_skippable=false, is_tutorial=true)]
+[Battle.LockFunction(mask="SYSTEM_MENU_INTERACT")]
+[Battle.Pause]
+
+[popupdialog(dialogHead="$avatar_headb2")]时间紧迫，要不了多久，警戒塔就会转向我这边......
+
+[Battle.UnlockFunction(mask="CHARACTER_INFO")]
+[Battle.UnlockFunction(mask="CHARACTER_MENU")]
+
+[InputBlocker(blockInput=true, validX=290, validY=60, validWidth=100, validHeight=100)]
+
+[Tutorial(waitForSignal="char_info", focusX=290, focusY=60, focusWidth=100, focusHeight=100, \
+          animStyle="Click", focusStyle="HighlightCircle", black=0.5, \
+          protectTime=0.5, dialogHead="$avatar_headb2", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+看我将他们一网打尽！
+[InputBlocker(blockInput=true)]
+
+[battle.pause(pause=false)]

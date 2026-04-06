@@ -8,6 +8,17 @@ local luaUtils = CS.Torappu.Lua.Util;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 local CheckinVideoItemViewModel = Class("CheckinVideoItemViewModel");
 
 function CheckinVideoItemViewModel:ctor()
@@ -15,7 +26,18 @@ function CheckinVideoItemViewModel:ctor()
   self.introImgList = {};
   self.rewardList = {};
   self.lockedTip = "";
+  self.resType = CheckinVideoDailyInfoResType.NO_RES
   self.videoId = "";
+  self.picId = "";
+  self.mainBtnTxt = "";
+  self.mainBtnAfterClickTxt = "";
+  self.hasSecondBtn = false;
+  self.secondBtnCol = "";
+  self.secondBtnTxtCol = "";
+  self.secondBtnTxt = "";
+  self.secondBtnLink = "";
+  self.signLockedTxt = "";
+  self.hasShareBtn = false;
   self.shareImgList = {};
   self.status = CheckinVideoItemStatus.LOCKED;
 end
@@ -35,7 +57,26 @@ function CheckinVideoItemViewModel:LoadData(data)
     viewModel.itemCount = reward.count;
     table.insert(self.rewardList, viewModel);
   end
+  
   self.videoId = data.videoId;
+  self.picId = data.picId;
+  if self.videoId ~= nil and self.picId == nil then
+    self.resType = CheckinVideoDailyInfoResType.VIDEO_RES;
+  elseif self.videoId == nil and self.picId ~= nil then
+    self.resType = CheckinVideoDailyInfoResType.PIC_RES;
+  else
+    self.resType = CheckinVideoDailyInfoResType.NO_RES;
+  end
+
+  self.mainBtnTxt = data.mainBtnTxt;
+  self.mainBtnAfterClickTxt = data.mainBtnAfterClickTxt;
+  self.hasSecondBtn = data.hasSecondBtn;
+  self.secondBtnCol = data.secondBtnCol;
+  self.secondBtnTxtCol = data.secondBtnTxtCol;
+  self.secondBtnTxt = data.secondBtnTxt;
+  self.secondBtnLink = data.secondBtnLink;
+  self.signLockedTxt = data.signLockedTxt;
+  self.hasShareBtn = data.hasShareBtn;
   self.status = CheckinVideoItemStatus.LOCKED;
 end
 
@@ -47,13 +88,19 @@ function CheckinVideoItemViewModel:RefreshPlayerData(historyInfo, currCount)
   end
   if historyInfo == nil then
     self.status = CheckinVideoItemStatus.LOCKED;
-    self.lockedTip = luaUtils.Format(StringRes.CHECKIN_VIDEO_LOCK_TIP_FORMAT, self.order - currCount);
+    self.lockedTip = luaUtils.Format(self.signLockedTxt, self.order - currCount);
   elseif historyInfo == 0 then
     self.status = CheckinVideoItemStatus.RECEIVED;
   else
     self.status = CheckinVideoItemStatus.CAN_RECEIVE;
   end
 end
+
+
+
+
+
+
 
 
 
@@ -71,6 +118,13 @@ function CheckinVideoViewModel:LoadData(actId)
   self.currFocusItem = 0;
   self.isNext = false;
   self.isEnter = false;
+  self.isCommonElementColSet = false;
+  self.mainBgCol = "";
+  self.mainBtnCol = "";
+  self.blurCol = "";
+  self.newCol = "";
+  self.mainBtnLightCol = "";
+  self.progressDotCol = "";
 
   local gameData = CheckinVideoUtil.LoadGameData(actId);
   if gameData == nil or gameData.checkInList == nil then
@@ -84,6 +138,15 @@ function CheckinVideoViewModel:LoadData(actId)
       local itemModel = CheckinVideoItemViewModel.new();
       itemModel:LoadData(dailyInfo);
       table.insert(self.itemList, itemModel);
+      if self.isCommonElementColSet == false then
+        self.mainBgCol = dailyInfo.mainBgCol;
+        self.mainBtnCol = dailyInfo.mainBtnCol;
+        self.blurCol = dailyInfo.blurCol;
+        self.newCol = dailyInfo.newCol;
+        self.mainBtnLightCol = dailyInfo.mainBtnLightCol;
+        self.progressDotCol = dailyInfo.progressDotCol;
+        self.isCommonElementColSet = true;
+      end
     end
   end
   table.sort(self.itemList, function(a, b)

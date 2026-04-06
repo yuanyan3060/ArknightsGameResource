@@ -1458,6 +1458,11 @@
       "termName": "伤害减免",
       "description": "受到的伤害降低一定数值（同名效果取最高）"
     },
+    "ba.dt.erosion2": {
+      "termId": "ba.dt.erosion2",
+      "termName": "侵蚀损伤·我方",
+      "description": "累计满时爆发（普通、精英敌人1000点、领袖2000点累计值），敌人立即受到5000点元素伤害且永久降低120点防御力（可叠加）。8秒冷却"
+    },
     "cc.bd_A_1": {
       "termId": "cc.bd_A_1",
       "termName": "念力",
@@ -1596,7 +1601,7 @@
     "cc.g.ussg": {
       "termId": "cc.g.ussg",
       "termName": "乌萨斯学生自治团",
-      "description": "包含以下干员\n早露、凛冬、真理、古米、烈夏"
+      "description": "包含以下干员\n早露、凛冬、真理、古米、烈夏、苦艾"
     },
     "cc.g.A1": {
       "termId": "cc.g.A1",
@@ -1855,8 +1860,8 @@
     }
   },
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
-  "dataVersion": "71.6.0",
-  "resPrefVersion": "71d0d0",
+  "dataVersion": "72.0.0",
+  "resPrefVersion": "72d0d0",
   "announceWebBusType": "ak_announcement",
   "videoPlayerWebBusType": "ak_video_player",
   "gachaLogBusType": "ak_gacha_log",

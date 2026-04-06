@@ -39,11 +39,11 @@ function BlessOnlyBlessListHorizontalItem:Render(data, illustLoader)
   local blessingGroupRenderData = self._blessingAtlasObject:GetSpriteByName(data.openPacketModel.blessingGroup);
   self._blessingGroupImg:SetSprite(blessingGroupRenderData);
 
-  self.m_avatarView:Render(data.avatarInfo);
+  self.m_avatarView:RenderByPlayerAvatarQuery(data.avatarQuery);
 
   if self._crossAppShareAvatarContent ~= nil then
     local avatarModel = CS.Torappu.UI.CrossAppShare.CrossAppShareAvatarModel();
-    avatarModel:InitModel(true, data.avatarInfo);
+    avatarModel:InitModel(true, data.avatarQuery);
     self._crossAppShareAvatarContent.dynAssetModel = avatarModel;
   end
 

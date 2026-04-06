@@ -159,9 +159,9 @@
 [charslot(slot="r",name="avg_4166_varkis_1#10$2",focus="r")]
 [delay(time=0.7)]
 [PlaySound(key="$d_avg_clothmovement",volume=1)]
-[charslot(slot = "m", name = "avg_4166_varkis_1#10$1",posfrom = "200,0", posto = "200,0",duration=1,focus="r,m")]
+[charslot(slot = "m", name = "avg_4166_varkis_1#10$1",posfrom = "200,0", posto = "200,0",duration=1,focus="r,m",isCopy=true)]
 [Delay(time=2)]
-[charslot(slot="m",name="avg_4166_varkis_1#1$1",focus="m")]
+[charslot(slot="m",name="avg_4166_varkis_1#1$1",focus="m",isCopy=true)]
 [name="赞索斯"]送来这双靴子的战友来自哪里？同胞，指给我方向就好。
 [Dialog]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]

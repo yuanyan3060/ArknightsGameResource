@@ -1,0 +1,730 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[playMusic(intro="$loneliness_intro",key="$loneliness_loop", volume=0.6)]
+[Background(image="49_g12_diving",screenadapt="coverall")]
+[BackgroundTween(image="49_g12_diving", duration=10, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.08, yScaleTo=1.08, xFrom=0, xTo=-45,yFrom=0, yTo=-25, block=false)]
+[PlaySound(key="$d_avg_marshbubble", volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1.5)]
+咕咚。咕咚。
+我盯着饮水机里的气泡，它们不断上涌、破碎。
+有很多人正在走出那间沉闷的大厅，在仲裁人宣布暂停会议的时间里活动一下膝盖，顺便发表自己的见解。
+[dialog]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_lqudrppg", volume=1)]
+[Delay(time=1)]
+恍惚间，水溢了出来，溅到地上。身后那位贵妇人厌烦地躲避着，生怕那些“来自萨米的纯净雪水”打湿她过气的皮靴。
+天哪，我曾经也有双一模一样的鞋子......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[PlaySound(key="$d_avg_carriagegoaway", volume=0.8)]
+我赶紧转动轮椅，试图逃开。
+[dialog]
+[delay(time=1)]
+[Background(image="72_g10_hallway",screenadapt="coverall")]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[dialog]
+[charslot(slot = "m", name = "avg_npc_2176_1#4$1", duration=0.8, block=true)]
+[Delay(time=1)]
+[name="英俊的贵族男性"]是你吗？瓦尔瓦拉？
+[name="英俊的贵族男性"]不可置信，你看上去......
+[dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[charslot]
+[Background(image="72_g11_schoolway",screenadapt="coverall")]
+[charslot(slot = "m", name = "avg_npc_2181_1#1$1")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[PlaySound(key="$d_avg_bookdrop1", volume=1)]
+[Delay(time=1)]
+[name="瓦尔瓦拉"]帮我拿着这些书。它们太沉了！
+[name="瓦尔瓦拉"]我要把力气留给晚上的剧本朗读会......不，你不能来！这是学生小组内部的活动。
+[dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[charslot]
+[Background(image="72_g10_hallway",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Delay(time=1)]
+[name="瓦尔瓦拉"]......这让你很意外吗？
+[charslot(slot = "m", name = "avg_npc_2176_1#3$1")]
+[name="英俊的贵族男性"]不，瓦尔瓦拉，我不是这个意思。
+[charslot(slot = "m", name = "avg_npc_2176_1#2$1")]
+[name="英俊的贵族男性"]我们可是从小就认识的好朋友。贵族之间的友谊没那么容易破裂。
+[Dialog]
+[charslot]
+[name="瓦尔瓦拉"]瞧瞧我这副样子，你还觉得我是一名贵族？
+[charslot(slot = "m", name = "avg_npc_2176_1#3$1")]
+[name="英俊的贵族男性"]这到底——
+[Dialog]
+[charslot]
+[name="瓦尔瓦拉"]没听到刚才卓娅她们在说什么吗？
+[name="瓦尔瓦拉"]那个仲裁人，为什么要扭曲我们所遭受的一切......
+[Dialog]
+[PlaySound(key="$d_avg_carriagegoaway", volume=0.8)]
+[BackgroundTween(image="72_g10_hallway", duration=1.3, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.07, yScaleTo=1.07,ease="InQuart", block=false)]
+[Delay(time=1.3)]
+[charslot(slot = "m", name = "avg_npc_2175_1#1$1", bstart=0.1,bend=0.7,posfrom="0,-100",posto="0,-100",duration=1.5, block=true)]
+[Delay(time=2)]
+[name="瓦尔瓦拉"]呵，呵呵。你是在看我的裤子吗？
+[name="瓦尔瓦拉"]没关系，你看得再久，我的腿也长不出下半截。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2176_1#3$1")]
+[name="英俊的贵族男性"]天哪......
+[name="英俊的贵族男性"]瓦尔瓦拉......这简直......天哪！
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g5_blockalley",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$lostmemory_intro",key="$lostmemory_loop", volume=0.6)]
+[charslot(slot = "l", name = "avg_npc_2166_1#1$1",focus="l")]
+[charslot(slot = "r", name = "avg_npc_2167_1#1$1",focus="l")]
+[name="“十六人议会”暴徒A"]投票结果出来了吗？
+[charslot(slot = "r",focus="R")]
+[name="“十六人议会”暴徒B"]出来了。
+[name="“十六人议会”暴徒B"]老大决定，以后我们都叫“十六勇士”。
+[charslot(slot = "L",focus="L")]
+[name="“十六勇士”暴徒A"]凭什么！我在古籍上看到过，最早追随伊戈尔大帝的那十六个人的头衔，就是议员的意思，“议会”才是对的！
+[charslot(slot = "r",focus="R")]
+[name="“十六勇士”暴徒B"]收收你那套没人信的理论吧......何况你都叫“议会”了，那肯定得尊重投票结果，现在大家都觉得“勇士”更好听。
+[charslot(slot = "L",focus="L")]
+[name="“十六勇士”暴徒A"]*乌萨斯粗口*，这钱是挣得越来越不开心了。
+[name="“十六勇士”暴徒A"]除了改名字，还突然说每个人都要算战果，看谁处理的学生更多......
+[charslot(slot = "r",focus="R")]
+[name="“十六勇士”暴徒B"]少抱怨点啦，昨天看你闲了一天，又想挨老大的骂？
+[charslot(slot = "L",focus="L")]
+[name="“十六勇士”暴徒A"]别瞎说，昨晚我刚送走一个。
+[charslot(slot = "r",focus="R")]
+[name="“十六勇士”暴徒B"]谁啊？
+[charslot(slot = "L",focus="L")]
+[name="“十六勇士”暴徒A"]就是那个说自己是“纯正的圣骏堡贵族”的，叫什么列昂尼德·格拉什维利。
+[name="“十六勇士”暴徒A"]我看了几遍圣骏堡的《贵族谱系》，都没见过这个家族，最后还是翻了编年史才知道，他们家就是普通的南方人而已。
+[name="“十六勇士”暴徒A"]老大只让留着真正的贵族，我就把他处理掉了。
+[charslot(slot = "r",focus="R")]
+[name="“十六勇士”暴徒B"]唉......哪用那么麻烦，你听他口音，有一点圣骏堡的味道吗？
+[charslot(slot = "L",focus="L")]
+[name="“十六勇士”暴徒A"]口音？待在这个鬼地方那么久，我都快忘了本地人说话是什么调调了。
+[name="“十六勇士”暴徒A"]喂，小子，你是圣骏堡人吗？
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_slap",volume=1)] 
+[Delay(time=0.3)]
+[PlaySound(key="$d_avg_male_scream",volume=1)] 
+[Delay(time=1)]
+他猛地一拍自己的屁股下方，那里竟传出一声惊叫——一个学生趴跪在地上，正给他当座椅。
+[name="惊慌的学生"]我我、我、我是......我是圣骏堡的！
+[name="惊慌的学生"]我口音是对的，我也有家族，大人放我出去吧！
+[charslot(slot = "l", name = "avg_npc_2166_1#1$1",focus="l")]
+[charslot(slot = "r", name = "avg_npc_2167_1#1$1",focus="l")]
+[name="“十六勇士”暴徒A"]看我这记性......你在当椅子的时候是不能说话的，不然一会儿老大看到又要骂我了。
+[name="“十六勇士”暴徒A"]好好闭上嘴，行吗？这一小时你能安安静静的，今天就不送你走了。
+[charslot(slot = "r",focus="R")]
+[name="“十六勇士”暴徒B"]得了得了，学生们也不容易，天天都要被你吓唬。
+[charslot(slot = "l", name = "avg_npc_2166_1#1$1",focus="l")]
+[name="“十六勇士”暴徒A"]还教育起我了？
+[name="“十六勇士”暴徒A"]你倒好，坐在尸体上面，也不嫌硬。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_tear",volume=1)] 
+[Blocker(a=0.2, r=0.92, g=0.4, b=0.3, fadetime=0.6, block=true)]
+[Blocker(a=0, r=0.92, g=0.4, b=0.3, fadetime=0.4, block=true)]
+听了同伴的话，暴徒抽出了插在“坐垫”上的刀，刀下冒出温热的鲜血。
+[charslot(slot = "l", name = "avg_npc_2166_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_2167_1#1$1",focus="r")]
+[name="“十六勇士”暴徒B"]反正我喜欢盘腿坐着，死的活的都无所谓。
+[name="“十六勇士”暴徒B"]......等等，那边是“小伯爵”？她拉着一个女学生，好像还是贵族——
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_2167_1#1$1", duration=1.5, block=true)]
+[Delay(time=2)]
+[name="“十六勇士”暴徒C"]省点力气吧亲爱的，我们这么多人，你是逃不掉的。
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_2181_1#1$1")]
+[charslot(slot = "m", action="shake", power=2, times=20, duration=0.3)]
+[Delay(time=0.5)]
+[name="瓦尔瓦拉"]不，我求您——
+[name="瓦尔瓦拉"]我把所有钱都给格罗莫夫了，他说我是贵族，会让我活着离开的。
+[charslot(slot = "m", name = "avg_npc_2167_1#1$1")]
+[name="“十六勇士”暴徒C"]你给了他，又没给我......再说了，我才不在乎钱。
+[name="“十六勇士”暴徒C"]我只在乎规矩，懂吗？说得明明白白，宿舍里不准打架，谁让你和那个什么研讨会动手了？
+[charslot(slot = "m", name = "avg_npc_2181_1#1$1")]
+[name="瓦尔瓦拉"]我没有打人，我只是推了他一把——
+[charslot(slot = "m", name = "avg_npc_2167_1#1$1")]
+[name="“十六勇士”暴徒C"]还在狡辩！我告诉过你们多少次，打人是不对的，你什么时候听进去了？
+[name="“十六勇士”暴徒C"]所以，你必须要接受惩罚。
+[charslot(slot = "m", name = "avg_npc_2181_1#1$1")]
+[name="瓦尔瓦拉"]......什么，惩罚？
+[charslot(slot = "m", name = "avg_npc_2167_1#1$1")]
+[name="“十六勇士”暴徒C"]......来人！把这个大小姐给我打死，我自有办法和格罗莫夫解释。
+[Dialog]
+[charslot]
+[name="众人"]是！
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[PlaySound(key="$d_avg_metallicclick", volume=1)]
+[Delay(time=1)]
+[PlaySound(key="$fightgeneral")]
+[Delay(time=1)]
+[PlaySound(key="$blooddrop", volume=1)]
+瓦尔瓦拉紧闭双眼，一阵风扫过她的脸颊，几滴温热的液体溅在了她的额头上。
+[Dialog]
+[Delay(time=0.5)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="72_g5_blockalley",screenadapt="coverall",xScale=1.2, yScale=1.2)]
+[Delay(time=0.5)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.8, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.2, block=true)]
+她颤抖着睁开眼睛，刚才高高举起的棍子不见了，连同它的主人。
+[playMusic(key="$wheel_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#7$1")]
+[name="凛冬"]下一个是谁？！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_singleblunt", volume=0.8)]
+在瓦尔瓦拉的面前，凛冬正提着一根滴血的钢管，甩了甩手腕，向四周怒吼。
+更多的脚步声和叫骂声传来，但很快就被痛呼声取代。
+[charslot(slot = "m", name = "avg_194_leto_1#5$1")]
+[name="烈夏"]嘿！别跑啊！
+[charslot(slot = "m", name = "avg_194_leto_1#5$1")]
+[name="烈夏"]现在你们不是叫什么“勇士”吗？怎么比源石虫还不禁打？
+[Dialog]
+[charslot]
+[BackgroundTween(xFrom=0, xTo=-50, duration=2, ease="OutQuad",block=false)]
+[Delay(time=0.6)]
+[charslot(slot="m", name = "avg_npc_2178_1#2$1", posfrom="-60,0", posto="0,0", duration=1)]
+[Delay(time=1.5)]
+[name="“铅笔头”"]我追上他们了！
+[Dialog]
+[charslot]
+[BackgroundTween(xFrom=-50, xTo=50, duration=2.5, ease="OutQuad",block=false)]
+[Delay(time=1)]
+[charslot(slot="m", name = "avg_npc_2183_1#2$1", posfrom="60,0", posto="0,0", duration=1)]
+[Delay(time=1.8)]
+[name="尼卡"]索尼娅，后路也堵住了，没放跑一个！
+[Dialog]
+[charslot]
+[PlaySound(key="$fightgeneral", volume=0.7)]
+[Delay(time=0.6)]
+[PlaySound(key="$fightgeneral")]
+不久，附近的“勇士”横七竖八地躺在地上，烈夏拍了拍手上的灰，一脚踢开挡路的“勇士”脑袋，回到了凛冬身边。
+[Dialog]
+[PlaySound(key="$d_avg_snowbootwalk", volume=1)]
+[charslot(slot = "m", name = "avg_194_leto_1#8$1",duration=1.2)]
+[Delay(time=1.2)]
+[name="烈夏"]都搞定了，冬将军。
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]漂亮！大家都休息一会儿。
+[Dialog]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1",afrom=1,ato=1,posfrom="0,0",posto="0,-20",duration=1)]
+[Delay(time=1.2)]
+[charslot(slot = "m",focus="n")]
+凛冬蹲下身，向地上的瓦尔瓦拉伸出手。
+虽然凛冬的脸上沾着刚才战斗留下的血迹，但那是瓦尔瓦拉几天来见过的最让人安心的面孔。
+[charslot(slot = "m", name = "avg_npc_2177_1#4$1")]
+[name="法杰伊"]你是......瓦尔瓦拉？这里居然有我们的人？
+[charslot(slot = "m", name = "avg_npc_2177_1#5$1")]
+[name="法杰伊"]天杀的......到底有多少学生近卫军成员被抓住了......
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1",posfrom="0,-20",posto="0,-20",focus="m")]
+[name="凛冬"]别再想这些了，救人要紧。
+[charslot(slot = "m", name = "avg_npc_2177_1#1$1")]
+[name="法杰伊"]......
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1",posfrom="0,-20",posto="0,-20",focus="m")]
+[name="凛冬"]还能站起来吗，瓦尔瓦拉？
+[Dialog]
+[charslot]
+[name="瓦尔瓦拉"]我......
+[Dialog]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[PlaySound(key="$bodyfalldown2")]
+[Delay(time=1)]
+[name="瓦尔瓦拉"]索尼娅！
+[name="瓦尔瓦拉"]呜......索尼娅、法杰伊，我以为我要死了......
+[charslot(slot = "m", name = "avg_npc_2177_1#1$1")]
+[name="法杰伊"]......我记得你是军人的女儿，先把眼泪擦干吧。
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1",posfrom="0,-20",posto="0,-20",focus="m")]
+[name="凛冬"]好了，没事了。
+[Dialog]
+[charslot]
+[name="瓦尔瓦拉"]嗯......嗯。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1",posfrom="0,-20",posto="0,-20",focus="m")]
+[name="凛冬"]听着，我们是来带大家回去的。
+[charslot(slot = "m", name = "avg_1051_headb2_1#4$1",posfrom="0,-20",posto="0,-20",focus="m")]
+[name="凛冬"]这里只有你一个人吗？其他同学都被关在哪儿？
+[Dialog]
+[charslot]
+[name="瓦尔瓦拉"]他们......他们都在北边的楼里。
+[name="瓦尔瓦拉"]格罗莫夫说那里是“贵宾休息室”和“普通等候区”。我知道路，还有好多同学都被关在里面。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1",posfrom="0,-20",posto="0,-20",focus="m")]
+[name="凛冬"]......带路。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2181_1#2$1",duration=1.2,posfrom = "0,-50", posto = "0,0")]
+[Delay(time=1.5)]
+[charslot(slot="m",focus="n")]
+瓦尔瓦拉抓着凛冬的手臂，借力站了起来。她虽然还在发抖，但眼里重新燃起了光。
+这是溺水之人抓住了救生圈的光芒。她并不确信那扇大门后究竟是什么，但此刻，她相信只要跟着索尼娅，那里就是出口。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g9_topwall",screenadapt="coverall")]
+[Delay(time=2.5)]
+[playMusic(key="$wasteland_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=1)]
+[charslot(slot = "l", name = "avg_194_leto_1#8$1",focus="l")]
+[charslot(slot = "r", name = "avg_npc_2178_1#2$1",focus="l")]
+[name="烈夏"]......冬将军，人都已经带出来了。
+[charslot(slot = "l", name = "avg_194_leto_1#9$1",focus="l")]
+[name="烈夏"]别看那些混混吹牛吹得狠，其实绝大多数被抓的人都活着，只是......受了不少刺激。
+[charslot(slot = "r",focus="r")]
+[name="“铅笔头”"]这么久都没看到那些混混，都感觉哪里不对劲了，哈哈。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2177_1#5$1")]
+[name="法杰伊"]闭上嘴吧，只有你会喜欢他们。
+[charslot(slot = "m", name = "avg_1051_headb2_1#11$1")]
+[name="凛冬"]......这栋楼离出口太近了，容易被发现，不能等所有人的情绪恢复平静再行动了。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]“铅笔头”，你组织下其他人，再到前面带路。罗莎琳，和我一起断后。
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_194_leto_1#8$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_2178_1#1$1",focus="r")]
+[name="“铅笔头”"]是，冬将军。
+[charslot(slot = "l", name = "avg_194_leto_1#3$1",focus="l")]
+[name="烈夏"]哼，还是喊外号顺口吧？
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_studentsexhausted_fts_loop",volume=0, channel="foot", loop=true)]
+[SoundVolume(volume=0.4, channel="foot",fadetime=2)]
+获救的数十名学生像被塞进罐头的鳞肉干一样蜷缩在街边。一些人被剥去了外套，脸上积满了泪痕。
+但随着“铅笔头”他们的呼喊，众人犹豫之后还是纷纷站起，跟着前面的人，往营地的方向走去。
+[Dialog]
+[charslot(slot = "l", name = "avg_npc_2182_1#1$1",bstart=0.2,bend=0.7,duration=1)]
+[Delay(time=1)]
+[charslot(slot = "r", name = "avg_npc_2177_1$2",bstart=0.2,bend=0.7,duration=1)]
+[Delay(time=1)]
+[StopSound(channel="foot", fadetime=2)]
+[charslot(slot = "l",focus="l")]
+[name="获救的学生A"]......终于，得救了。
+[charslot(slot = "r",focus="r")]
+[name="获救的学生B"]见到太阳了......快走吧，我死也不会再回到这个鬼地方了。
+[Dialog]
+[charslot]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$d_avg_crwdkneelsnow",volume=1)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_mictest", volume=1)]
+[Delay(time=1)]
+[charslot(slot = "l", name = "avg_npc_2182_1#1$1",bstart=0.2,bend=0.7,focus="r")]
+[charslot(slot = "r",name = "avg_npc_2177_1$2",bstart=0.2,bend=0.7,focus="r")]
+[name="获救的学生B"]这是，什么声音？
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]有人来了，往旁边的建筑跑，藏好，不要乱动！
+[Dialog]
+[charslot]
+[playMusic(intro="$rosmontisteam_intro",key="$rosmontisteam_loop", volume=0.6)]
+没等众人反应，“十六勇士”簇拥着一个健壮的乌萨斯，出现在了队伍的最后。
+[Dialog]
+[PlaySound(key="$d_avg_male_scream",channel="s",volume=1)]
+[PlaySound(key="$d_avg_audience_chaos",volume=0.9)]
+有人尖叫了起来，场面顿时乱作一团，少数人高喊着，试图维持秩序，却丝毫不起作用。
+[charslot(slot = "m", name = "avg_1051_headb2_1#7$1")]
+[name="凛冬"]都别慌！我去对付他们！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_2161_1#1$1", duration=1.5, block=true)]
+[Delay(time=2)]
+[name="健壮的乌萨斯"]哦？你就是他们说的那个索尼娅吧。
+[charslot(slot = "m", name = "avg_npc_2161_1#2$1")]
+[name="健壮的乌萨斯"]看着块头不大，倒是很能打。
+[charslot(slot = "m", name = "avg_1051_headb2_1#9$1")]
+[name="凛冬"]你是格罗莫夫？想干什么？
+[charslot(slot = "m", name = "avg_npc_2161_1#2$1")]
+[name="格罗莫夫"]嘿嘿，你的同学们跑得太快，忘记了一些重要的事。
+[charslot(slot = "m", name = "avg_npc_2161_1#4$1")]
+[name="格罗莫夫"]鉴于有人来到了“竞拍会”，还想不买票就离场......我不得不亲自来教训他们了。
+[charslot(slot = "m", name = "avg_1051_headb2_1#9$1")]
+[name="凛冬"]你弄错了，你的对手从来就只有我一个。
+[charslot(slot = "m", name = "avg_npc_2161_1#7$1")]
+[name="格罗莫夫"]就你一个？
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]怎么？你不敢了吗？
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]你带着的武器结合了锤子与斧头，看着还挺霸气的。
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]没想到，主人却是个彻头彻尾的胆小鬼。
+[charslot(slot = "m", name = "avg_npc_2161_1#2$1")]
+[name="格罗莫夫"]......噗，哈哈哈哈——
+[charslot(slot = "m", name = "avg_npc_2161_1#2$1")]
+[name="格罗莫夫"]你是今天第三个逗我笑出声的人，小熊。前两个都已经被我丢在了雪地里，正在痛恨自己为什么要出生在这片大地。
+[charslot(slot = "m", name = "avg_npc_2161_1#5$1")]
+[name="格罗莫夫"]来吧，让你见识见识，我的武器！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_tramcarwheel_loop",volume=1)]
+[delay(time=1.5)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]什么——
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_audience_chaos",volume=1)]
+[delay(time=0.5)]
+[cameraeffect(effect="Colorinverse", keep=true)]
+[delay(time=0.1)]
+[cameraeffect(effect="Colorinverse", keep=false)]
+[delay(time=0.15)]
+[cameraeffect(effect="Colorinverse", keep=true)]
+[delay(time=0.3)]
+[cameraeffect(effect="Colorinverse", keep=false)]
+[delay(time=1)]
+那是一个漆黑的洞口，一个饥饿的深渊。
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]......
+[charslot(slot = "m", name = "avg_npc_2181_1#1$1")]
+[name="瓦尔瓦拉"]他们推上来的是......大炮？
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_2161_1#1$1")]
+[name="格罗莫夫"]预备——
+[charslot(slot = "m", name = "avg_1051_headb2_1#7$1")]
+[name="凛冬"]所有人！就近躲避！
+[Dialog]
+[charslot]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot]
+[PlaySound(key="$d_avg_tramcarwheel_loop",volume=1)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_woodgear",volume=1)]
+漆黑的炮口缓缓上扬，齿轮声刺破死寂。人们惊叫溃散，争相钻进街边建筑的缝隙，缩在暗处屏息。
+[PlaySound(key="$d_avg_audience_chaos",volume=0.9)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2183_1#5$1")]
+[name="尼卡"]......快跑！往两边的建筑跑！
+[charslot(slot = "m", name = "avg_npc_2161_1#2$1")]
+[name="格罗莫夫"]发射！
+[Dialog]
+[charslot]
+[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_gen_explo_n")]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]
+[delay(time=2)]
+[bgeffect(name="$eb_bloodfalling",layer=2)] 
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+一瞬间，卡托加区失去了声音，只剩下尖锐的耳鸣。
+凛冬从雪堆里抬起头，视线被鲜血模糊，她跃出了爆炸的中心，但碎片划伤了她的额角。
+烟尘覆盖下，原本平整的地面出现了一个焦黑的坑，火焰已经攀上了四周的木门......人们在受伤，在倒下。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2176_1#5$1")]
+[name="叶列梅"]这......为什么？！我们这里有很多贵族学生！
+[charslot(slot = "m", name = "avg_npc_2161_1#1$1")]
+[name="格罗莫夫"]因为你们激怒我了，书呆子。
+[charslot(slot = "m", name = "avg_npc_2161_1#1$1")]
+[name="格罗莫夫"]“十六勇士”说到底只有一条规矩——如果惹恼了我，那就赶紧准备遗言吧！
+[charslot(slot = "m", name = "avg_npc_2161_1#1$1")]
+[name="格罗莫夫"]预备，第二发——
+[charslot(slot = "m", name = "avg_1051_headb2_1#7$1")]
+[name="凛冬"]罗莎琳！把所有人都带走，我去吸引他们的注意，这是命令！
+[charslot(slot = "m", name = "avg_194_leto_1#12$1")]
+[name="烈夏"]该死！
+[Dialog]
+[PlaySound(key="$rungeneral")]
+[charslot(slot = "m", name = "avg_194_leto_1#12$1",posfrom="0,0",posto="200,0",afrom=1,ato=0,duration=1)]
+[delay(time=1)]
+[Dialog]
+[charslot]
+[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_gen_explo_n")]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[bgeffect(name="$eb_dust_01",layer=1)] 
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]
+[delay(time=2.5)]
+炮火之中，格罗莫夫的笑声依然清晰可闻。他并不瞄准，肆意倾泻着火力，欣赏爬虫们的慌乱才是他追求的乐趣。
+[charslot(slot = "m", name = "avg_npc_2181_1#1$1",focus="n")]
+附近简陋失修的建筑都在晃动，经历了复杂的一天的瓦尔瓦拉，正呆立在一个石柱旁......
+[charslot]
+[name="法杰伊"]闪开！
+[Dialog]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$d_avg_collapse",channel="1",volume=1)]
+[delay(time=0.3)]
+[PlaySound(key="$d_avg_clothmovement",channel="2",volume=1)]
+[charslot(slot = "r", name = "avg_npc_2181_1#1$1",posfrom="-130,0",posto="-130,0")]
+[charslot(slot = "m", name = "avg_npc_2177_1#1$1",posfrom="-200,40",posto="-170,-20",afrom=1,ato=0,duration=0.4,focus="all")]
+[charslot(slot = "r", name = "avg_npc_2181_1#1$1",posfrom="-130,0",posto="-130,-20",afrom=1,ato=0,focus="all",duration=0.3)]
+[delay(time=0.3)]
+[Dialog]
+[charslot]
+[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=2.3)]
+[name="瓦尔瓦拉"]啊！
+[Dialog]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[charslot]
+[bgeffect] 
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=1)]
+[name="瓦尔瓦拉"]我的，我的腿，它——
+[playMusic(intro="$dignified_intro",key="$dignified_loop", volume=0.6)]
+[name="瓦尔瓦拉"]发发慈悲，我感觉不到它了！
+[name="法杰伊"]......省点力气吧，你还活着。
+[Dialog]
+[PlaySound(key="$rungeneral")]
+[charslot(slot = "m", name = "avg_npc_2183_1#4$1",posfrom="160,0",posto="0,0",duration=0.5)]
+[delay(time=0.5)]
+[name="尼卡"]法杰伊！你流了好多血！我必须得——
+[Dialog]
+[charslot]
+[name="法杰伊"]......不，你看不明白吗？赶紧走。
+[name="法杰伊"]顺便把这个瓦尔瓦拉带走，你们所有人，都别在这里烦我了......
+[charslot(slot = "m", name = "avg_npc_2183_1#3$1")]
+[name="尼卡"]......
+[Dialog]
+[charslot]
+[name="法杰伊"]走啊！！
+[charslot(slot = "m", name = "avg_npc_2183_1#3$1")]
+[name="尼卡"]保重，法杰伊......
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_2183_1#1$1",posfrom="0,0",posto="0,-30",afrom=1,ato=1,duration=1)]
+[delay(time=1.2)]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[charslot(slot = "r", name = "avg_npc_2181_1#1$1",posfrom="-130,-30",posto="-130,0",duration=1)]
+[charslot(slot = "m", name = "avg_npc_2183_1#1$1",posfrom="0,-30",posto="0,0",afrom=1,ato=1,duration=1)]
+[delay(time=1.2)]
+[charslot(slot = "m",focus="m")]
+[name="尼卡"]瓦尔瓦拉，搭着我的肩膀......你还能活下去，坚持住——
+[Dialog]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "r", name = "avg_npc_2181_1#1$1",posfrom="-130,0",posto="-230,0",afrom=1,ato=0,duration=2)]
+[charslot(slot = "m", name = "avg_npc_2183_1#1$1",posfrom="0,0",posto="-100,0",afrom=1,ato=0,duration=2)]
+[delay(time=2)]
+[Dialog]
+[charslot]
+她们的身影逐渐远去，法杰伊深深地吐了口气，最后的精神气也逐渐散去。
+[Dialog]
+[name="法杰伊"]......做成一件事，当一个英雄，是这种感觉......
+[name="法杰伊"]毕业的日子，挑得可真是时候......
+[Dialog]
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=2)]
+[bgeffect]
+[Background(image="72_g9_topwall",screenadapt="coverall")]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$nervous_intro",key="$nervous_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2161_1#8$1")]
+[name="格罗莫夫"]呼......这么多天的郁闷，总算是排空了。
+[charslot(slot = "m", name = "avg_npc_2161_1#5$1")]
+[name="格罗莫夫"]继续，别给他们喘息的余地。
+[Dialog]
+[PlaySound(key="$d_avg_arrowshot",channel="1",volume=1)]
+[charslot(slot = "l", name = "avg_npc_2166_1#1$1",posfrom="-200,0",posto="-150,0",duration=0.3)]
+[delay(time=0.3)]
+[charslot(slot = "l", focus="l")]
+[name="“十六勇士”暴徒A"]来来来，我这就——啊！
+[Dialog]
+[PlaySound(key="$d_avg_arrowtarget",channel="2",volume=1)]
+[charslot(slot = "l", action="shake", power=3, times=30, duration=0.3)]
+[delay(time=0.5)]
+[charslot(slot="l",posfrom="-150,0",posto="-150,-150",afrom="1",ato="0",duration=0.5)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[delay(time=0.8)]
+[charslot(slot = "m", name = "avg_npc_2161_1#1$1",afrom=1,ato=1,posfrom="0,0",posto="-10,-10",duration=0.5)]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_clothmovementsp", volume=1)]
+[charslot(slot = "m", name = "avg_npc_2161_1#1$1",posfrom="-10,-10",posto="200,40",afrom=1,ato=0,duration=0.3)]
+[delay(time=0.3)]
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_arrow_rain")]
+手下的胸口插着弩箭，格罗莫夫纵身而起，望向来箭处——高楼上，箭矢接连射来。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=1.5, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=1.5, block=true)]
+[charslot(slot = "m", name = "avg_npc_2161_1#7$1")]
+[name="格罗莫夫"]无缚者？又是你，安托沙！
+[charslot(slot = "m", name = "avg_npc_2161_1#5$1")]
+[name="格罗莫夫"]来人！继续装填弹药，我要让他也给学生们陪葬！
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral")]
+[Delay(time=1)]
+[name="安保队长"]住手！格罗莫夫！
+[name="安保队长"]你的胡作非为已经惊动了巴普洛维奇大人，他要求你立刻停火，再敢伤到一个贵族，就扒了你的皮！
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_2161_1#6$1")]
+[name="格罗莫夫"]......
+[charslot(slot = "m", name = "avg_npc_2167_1#1$1")]
+[name="“十六勇士”暴徒B"]那，老大......我们先撤？
+[charslot(slot = "m", name = "avg_npc_2161_1#1$1")]
+[name="格罗莫夫"]撤？不用大炮你就不会打了？
+[charslot(slot = "m", name = "avg_npc_2161_1#5$1")]
+[name="格罗莫夫"]给我追上安托沙，你们对付不了他，我扒了你们的皮！
+[charslot(slot = "m", name = "avg_npc_2161_1#5$1")]
+[name="格罗莫夫"]快滚！
+[charslot(slot = "m", name = "avg_npc_2167_1#1$1")]
+[name="“十六勇士”暴徒B"]是！
+[Dialog]
+[PlaySound(key="$rungeneral")]
+[charslot(slot = "m", name = "avg_npc_2167_1#1$1",posfrom="0,0",posto="-120,0",afrom=1,ato=0,duration=1)]
+[Delay(time=1.5)]
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[curtain(direction = 0,fillfrom = 0.18,fillto = 0.18, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.18,fillto = 0.18, fadetime=0.1)]
+[Delay(time=2)]
+[bgeffect(name="$eb_062cg_phantom_front",layer=2)]
+[Image(image="cg_bonfire", screenadapt="coverall",x=-100, y=0, xScale=1.3, yScale=1.3,fadetime=0)]
+[ImageTween(duration=30,xTo=-110,yTo=-80,block=false)]
+[focusout(duration=0, type="cg", from=0, to=1, block=true)]
+[PlaySound(key="$d_avg_churchfire",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.2, channel="f",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[focusout(duration=2, type="cg", from=1, to=0, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$distressed_intro", key="$distressed_loop", volume=0.6)]
+这一夜的营地，篝火旁坐满了打着绷带的人，他们向其他人不断重复着今天的遭遇，鲜有劫后余生的喜悦。
+烈夏尚有精力，她和几位有医疗知识的学生还在营地里奔走。
+而尼卡、叶列梅和“铅笔头”坐在一起，沉默了半个晚上，不停翻动着柴火。
+处理完伤势的瓦尔瓦拉沉沉睡去，她会梦到那些永远失去的身体部分......以及永远失去的同学们。
+[StopSound(channel="f", fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[curtain]
+[bgeffect]
+[Image]
+[Background(image="72_g6_blockcamp",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot = "l", name = "avg_npc_2157_1#2$1",focus="l")]
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="安托沙"]那个贵族没事了，马特维带人在照看她和其他伤者。
+[charslot(slot = "r", name = "avg_1051_headb2_1#11$1",focus="r")]
+[name="凛冬"]谢谢，再多的感谢也不足以表达我们的心情......马特维他们处理伤口的手法非常专业，无缚者同盟帮了我们太多。
+[charslot(slot = "l", name = "avg_npc_2157_1#1$1",focus="l")]
+[name="安托沙"]呵，那些脱离生产的贵族永远不会明白，劳动者比他们有能力得多。哪怕起初一无所长，只要你想活下去，乌萨斯总能把你“教会”。
+[charslot(slot = "l", name = "avg_npc_2157_1#2$1",focus="l")]
+[name="安托沙"]所以我不能理解，何必浪费精力和药品在这种人身上？他们不值得你这么做。
+[charslot(slot = "r", name = "avg_1051_headb2_1#11$1",focus="r")]
+[name="凛冬"]是我带他们去的，我也答应过要把所有人带回来......我救下了一些人，可另一些人，相信我的人，却没能一起回来......
+[charslot(slot = "l", name = "avg_npc_2157_1#5$1",focus="l")]
+[name="安托沙"]不管怎么说，你已经尽力了。这里的营地拥挤了很多，你带回了大多数人，达成了目的。
+[charslot(slot = "l", name = "avg_npc_2157_1#1$1",focus="l")]
+[name="安托沙"]但我必须要警告你，对那些养尊处优的废物不要有任何期待，或许某天你会为救了他们而后悔。
+[charslot(slot = "l", name = "avg_npc_2157_1#1$1",focus="l")]
+[name="安托沙"]不要否认，索尼娅，你我都清楚，能够意识到自己要战斗的贵族是极少数，你应该依赖那些更有决心的人。
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]......
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]不，安托沙。
+[charslot(slot = "r", name = "avg_1051_headb2_1#4$1",focus="r")]
+[name="凛冬"]你去篝火边看看，无论是什么身份，都有人在捏紧自己的拳头。
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]只要他们没有放弃反抗，心中还有火焰......我就不会放弃任何一个人。
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]我需要他们，他们也都能成为战士。
+[charslot(slot = "l", name = "avg_npc_2157_1#10$1",focus="l")]
+[name="安托沙"]这是妄想。
+[charslot(slot = "l", name = "avg_npc_2157_1#1$1",focus="l")]
+[name="安托沙"]能决定结果的永远只是一部分人，你挑选一些手脚麻利的、平时会劳动的普通学生，和我一起行动。
+[charslot(slot = "l", name = "avg_npc_2157_1#1$1",focus="l")]
+[name="安托沙"]干掉那两个管事的，很快就能逃出去。
+[charslot(slot = "r", name = "avg_1051_headb2_1#2$1",focus="r")]
+[name="凛冬"]......谢谢你，安托沙，我已经做好了决定。
+[charslot(slot = "r", name = "avg_1051_headb2_1#2$1",focus="r")]
+[name="凛冬"]当危机到来时，没有人能置身事外。我会让他们成为一支真正的队伍，没有人应该被放弃。
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]无论是格罗莫夫还是巴普洛维奇，那些推着大炮、看不起人的家伙——
+[charslot(slot = "r", name = "avg_1051_headb2_1#9$1",focus="r")]
+[name="凛冬"]都会被我们打倒！
+[charslot(slot = "l", name = "avg_npc_2157_1#3$1",focus="l")]
+[name="安托沙"]......或许这次营救行动提升了你的威望，也让你有了盲目的信心。
+[charslot(slot = "l", name = "avg_npc_2157_1#10$1",focus="l")]
+[name="安托沙"]我不明白，那些掌心里没有茧子、连武器都握不紧的家伙，到底该怎么对付那群疯子，还有那门大炮......
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]他们能够走路，能够握拳，我会从如何行军开始带着大家训练。
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]过去的经历告诉过我，只要战术得当，再弱小的人也能以一当十。
+[charslot(slot = "r", name = "avg_1051_headb2_1#11$1",focus="r")]
+[name="凛冬"]至于那门大炮，我们只能等待时机，短期内不能硬碰硬。
+[charslot(slot = "r", name = "avg_1051_headb2_1#4$1",focus="r")]
+[name="凛冬"]或许......我的同伴，会给我们带来一些机会。
+[charslot(slot = "l", name = "avg_npc_2157_1#2$1",focus="l")]
+[name="安托沙"]你的同伴？在卡托加区外的？
+[charslot(slot = "r", name = "avg_1051_headb2_1#2$1",focus="r")]
+[name="凛冬"]没错。
+[charslot(slot = "l", name = "avg_npc_2157_1#2$1",focus="l")]
+[name="安托沙"]那你怎么能确信，她们一定在准备帮你？
+[charslot(slot = "r", name = "avg_1051_headb2_1#2$1",focus="r")]
+[name="凛冬"]我当然能确信。
+[charslot(slot = "r", name = "avg_1051_headb2_1#2$1",focus="r")]
+[name="凛冬"]你没有办法想象，我们一同经历过什么。
+[dialog]
+[delay(time=1)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Background]
+[Image]

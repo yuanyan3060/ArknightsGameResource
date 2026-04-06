@@ -193,7 +193,7 @@
 [focusout(duration=0.5, type="bg", from=0, to=1, block=true)]
 [PlaySound(key="$d_gen_heartbeat",channel="ht",loop=false, volume=0.8)]
 [stopsound(channel="ht",fadetime=2)]
-[charslot(slot="l",name="avg_4194_rmixer_1#1$1",posfrom="200,0",posto="160,0",afrom = 0, ato = 0.7,duration =0.7,focus="all",block=true)]
+[charslot(slot="l",name="avg_4194_rmixer_1#1$1",posfrom="200,0",posto="160,0",afrom = 0, ato = 0.7,duration =0.7,focus="all",block=true,isCopy=true)]
 [Delay(time=0.5)]
 [charslot(slot="l",posfrom="160,0",posto="200,0",duration = 1,focus="all")]
 [Delay(time=1)]

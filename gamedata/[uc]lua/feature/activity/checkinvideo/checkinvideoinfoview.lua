@@ -36,6 +36,42 @@ local UICommonItemCard = require("Feature/Supportor/UI/UICommonItemCard");
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 local CheckinVideoInfoView = Class("CheckinVideoInfoView", UIPanel);
 
 local ALPHA_CAN_RECEIVE = 1.0;
@@ -48,6 +84,8 @@ local ANIM_NEXT_IN_NAME = "anim_checkin_video_next_in";
 local ANIM_LOOP_NAME = "anim_checkin_video_loop";
 
 local CheckinVideoRewardItemView = require("Feature/Activity/CheckinVideo/CheckinVideoRewardItemView");
+local CheckinVideoDynImageView = require("Feature/Activity/CheckinVideo/CheckinVideoDynImageView");
+
 
 function CheckinVideoInfoView:OnInit()
   self:AddButtonClickListener(self._btnNext, self._EventOnNextBtnClicked);
@@ -55,6 +93,7 @@ function CheckinVideoInfoView:OnInit()
   self:AddButtonClickListener(self._btnReceive, self._EventOnReceiveBtnClicked);
   self:AddButtonClickListener(self._btnReplay, self._EventOnReplayBtnClicked);
   self:AddButtonClickListener(self._btnShare, self._EventOnShareBtnClicked);
+  self:AddButtonClickListener(self._hotspotSecondBtn, self._EventOnSecondBtnClicked);
 
   self.m_rewardAdapter = self:CreateCustomComponent(UISimpleLayoutAdapter, self, self._rewardContent,
       self._CreateRewardView, self._GetRewardCount, self._UpdateRewardView);
@@ -68,9 +107,14 @@ function CheckinVideoInfoView:OnViewModelUpdate(data)
     return;
   end
 
+  local hasMultiItem = #data.itemList > 1;
+  luaUtils.SetActiveIfNecessary(self._objSwitchPart, hasMultiItem);
+  luaUtils.SetActiveIfNecessary(self._objProgressPart, hasMultiItem);
+
   local currFocusId = data.currFocusItem;
   if data.isEnter or self.m_cachedIndex == data.currFocusItem then
     self.m_cachedIndex = currFocusId;
+    self:_InitElementsColor(data);
     self:_Render(data.itemList[data.currFocusItem], data.actId);
     return;
   end
@@ -99,6 +143,39 @@ function CheckinVideoInfoView:OnViewModelUpdate(data)
   self.m_switchAnim = switchAnim;
 end
 
+function CheckinVideoInfoView:_InitElementsColor(data)
+  if data.mainBgCol ~= nil then
+    self._mainBkg.color = CS.Torappu.ColorRes.TweenHtmlStringToColor(data.mainBgCol);
+  end
+  if data.mainBtnCol ~= nil then
+    local mainBtnCol = CS.Torappu.ColorRes.TweenHtmlStringToColor(data.mainBtnCol);
+    self._mainBtnBg.color = mainBtnCol;
+    self._textMainBtnReceive.color = mainBtnCol;
+    self._textMainBtnAfterClick.color = mainBtnCol;
+    self._mainBtnRecieveIcon.color = mainBtnCol;
+    self._mainBtnRecieveIconGift.color = mainBtnCol;
+    self._mainBtnAfterClickIcon.color = mainBtnCol;
+    self._mainBtnAfterClickIconGift.color = mainBtnCol;
+    self._shareBtnBg.color = mainBtnCol;
+    self._shareBtnText.color = mainBtnCol;
+    self._shareBtnIcon.color = mainBtnCol;
+    self._lockIcon.color = mainBtnCol;
+    self._textLocked.color = mainBtnCol;
+  end
+  if data.blurCol ~= nil then
+    local blurCol = CS.Torappu.ColorRes.TweenHtmlStringToColor(data.blurCol);
+    self._gradientBottom.color = blurCol;
+    self._gradientLeft.color = blurCol;
+    self._gradientRight.color = blurCol;
+  end
+  if data.newCol ~= nil then
+    self._secondBtnNew.color = CS.Torappu.ColorRes.TweenHtmlStringToColor(data.newCol);
+  end
+  if data.mainBtnLightCol ~= nil then
+    self._mainBtnLight.color = CS.Torappu.ColorRes.TweenHtmlStringToColor(data.mainBtnLightCol);
+  end
+end
+
 
 
 function CheckinVideoInfoView:_Render(itemModel, actId)
@@ -125,11 +202,35 @@ function CheckinVideoInfoView:_Render(itemModel, actId)
     self.m_loopAnim = nil;
   end
 
+  local isLock = itemModel.status == CheckinVideoItemStatus.LOCKED;
+  local canReceive = itemModel.status == CheckinVideoItemStatus.CAN_RECEIVE;
   self.m_hasReceived = itemModel.status == CheckinVideoItemStatus.RECEIVED;
-  luaUtils.SetActiveIfNecessary(self._panelCanReceive, itemModel.status == CheckinVideoItemStatus.CAN_RECEIVE);
-  luaUtils.SetActiveIfNecessary(self._panelLocked, itemModel.status == CheckinVideoItemStatus.LOCKED);
+  local showRecieveIcon = itemModel.resType == CheckinVideoDailyInfoResType.VIDEO_RES or itemModel.resType == CheckinVideoDailyInfoResType.PIC_RES;
+  local showRecieveGiftIcon = itemModel.resType == CheckinVideoDailyInfoResType.NO_RES;
+  local hasShareBtn = itemModel.hasShareBtn;
+  self.m_showSecondBtn = itemModel.hasSecondBtn and itemModel.status == CheckinVideoItemStatus.RECEIVED;
+  local hasSecondBtnNew = self.m_showSecondBtn and not CheckinVideoUtil.IsSecondBtnNewChecked(actId, self.m_cachedIndex);
+  luaUtils.SetActiveIfNecessary(self._panelCanReceive, canReceive);
+  luaUtils.SetActiveIfNecessary(self._mainBtnRecieveIcon.gameObject, canReceive and showRecieveIcon);
+  luaUtils.SetActiveIfNecessary(self._mainBtnRecieveIconGift.gameObject, canReceive and showRecieveGiftIcon);
+  luaUtils.SetActiveIfNecessary(self._panelLocked, isLock);
+  luaUtils.SetActiveIfNecessary(self._panelLockedMask, isLock);
   luaUtils.SetActiveIfNecessary(self._panelReceived, self.m_hasReceived);
+  local showReceivedAndReplay = self.m_hasReceived and showRecieveIcon;
+  luaUtils.SetActiveIfNecessary(self._mainBtnAfterClickIcon.gameObject, showReceivedAndReplay);
+  luaUtils.SetActiveIfNecessary(self._btnReplay.gameObject, showReceivedAndReplay);
+  local showRecievedGift = self.m_hasReceived and showRecieveGiftIcon;
+  luaUtils.SetActiveIfNecessary(self._mainBtnAfterClickIconGift.gameObject, showRecievedGift);
   luaUtils.SetActiveIfNecessary(self._panelReplay, not string.isNullOrEmpty(itemModel.videoId));
+  luaUtils.SetActiveIfNecessary(self._objSharePart, hasShareBtn);
+  luaUtils.SetActiveIfNecessary(self._objSecondBtnPart, self.m_showSecondBtn);
+  luaUtils.SetActiveIfNecessary(self._objSecondBtnNew, hasSecondBtnNew);
+
+  if self.m_showSecondBtn then
+    self._textSecondBtn.text = itemModel.secondBtnTxt;
+    self._textSecondBtn.color = CS.Torappu.ColorRes.TweenHtmlStringToColor(itemModel.secondBtnTxtCol);
+    self._imgSecondBtnBg.color = CS.Torappu.ColorRes.TweenHtmlStringToColor(itemModel.secondBtnCol);
+  end
 
   self.m_cachedRewardList = itemModel.rewardList;
   if self.m_rewardAdapter ~= nil then
@@ -139,27 +240,54 @@ function CheckinVideoInfoView:_Render(itemModel, actId)
     self.m_receivedAdapter:NotifyDataSetChanged();
   end
 
-  if itemModel.status == CheckinVideoItemStatus.LOCKED then
+  if isLock then
     self._textLocked.text = itemModel.lockedTip;
   end
 
+  if canReceive then
+    self._textMainBtnReceive.text = itemModel.mainBtnTxt;
+  end
+
+  if self.m_hasReceived then
+    self._textMainBtnAfterClick.text = itemModel.mainBtnAfterClickTxt;
+  end
+
   local hubPath = CS.Torappu.ResourceUrls.GetCheckinVideoImageHubPath(actId);
-  local imgPath = itemModel.introImgList[1];
-  if not string.isNullOrEmpty(imgPath) and self._imgIcon1 ~= nil then
-    self._imgIcon1.sprite = self:LoadSpriteFromAutoPackHub(hubPath, imgPath);
+  self.m_dynImageViewMain = self:_RenderDynImageView(self.m_dynImageViewMain, actId, self._dynImageMain, self._panelDynMainImageHolder, itemModel.introImgList[1], hubPath);
+  self.m_dynImageViewTitle = self:_RenderDynImageView(self.m_dynImageViewTitle, actId, self._dynImageTitle, self._panelDynTitleImageHolder, itemModel.introImgList[2], hubPath);
+  self.m_dynImageViewActName = self:_RenderDynImageView(self.m_dynImageViewActName, actId, self._dynImageActName, self._panelDynActNameImageHolder, itemModel.introImgList[3], hubPath);
+  self.m_dynImageViewLogo = self:_RenderDynImageView(self.m_dynImageViewLogo, actId, self._dynImageLogo, self._panelDynLogoImageHolder, itemModel.introImgList[4], hubPath);
+end
+
+function CheckinVideoInfoView:_PlayLoopAnim()
+  if self.m_loopAnim == nil then
+    self.m_loopAnim = self._animWrapper:PlayWithTween(ANIM_LOOP_NAME);
   end
-  local imgPath = itemModel.introImgList[2];
-  if not string.isNullOrEmpty(imgPath) and self._imgIcon2 ~= nil then
-    self._imgIcon2.sprite = self:LoadSpriteFromAutoPackHub(hubPath, imgPath);
+end
+
+
+
+
+
+
+
+
+function CheckinVideoInfoView:_RenderDynImageView(imgaeView, actId, imgId, holder, imgPath, hubPath)
+  if imgaeView == nil then
+    imgaeView = self:_CreateDynImageView(actId, imgId, holder);
   end
-  local imgPath = itemModel.introImgList[3];
-  if not string.isNullOrEmpty(imgPath) and self._imgIcon3 ~= nil then
-    self._imgIcon3.sprite = self:LoadSpriteFromAutoPackHub(hubPath, imgPath);
+  if imgaeView ~= nil then
+    imgaeView:Render(imgPath, hubPath);
   end
-  local imgPath = itemModel.introImgList[4];
-  if not string.isNullOrEmpty(imgPath) and self._imgIcon4 ~= nil then
-    self._imgIcon4.sprite = self:LoadSpriteFromAutoPackHub(hubPath, imgPath);
-  end
+  return imgaeView;
+end
+
+
+function CheckinVideoInfoView:_CreateDynImageView(actId, id, holder)
+  local prefabPath = CS.Torappu.ResourceUrls.GetCheckinVideoDynImageViewPath(actId, id);
+  local layout = self.m_parent:LoadLayout(prefabPath);
+  local imageView = self:CreateWidgetByPrefab(CheckinVideoDynImageView, layout, holder);
+  return imageView;
 end
 
 
@@ -243,6 +371,13 @@ function CheckinVideoInfoView:_EventOnShareBtnClicked()
     return;
   end
   self.onShareBtnClicked:Call();
+end
+
+function CheckinVideoInfoView:_EventOnSecondBtnClicked()
+  if self.onSecondBtnClicked == nil or self.m_showSecondBtn == false then
+    return;
+  end
+  self.onSecondBtnClicked:Call();
 end
 
 return CheckinVideoInfoView;

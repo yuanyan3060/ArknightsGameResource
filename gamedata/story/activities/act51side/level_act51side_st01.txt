@@ -1,0 +1,945 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=0.5)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>圣骏堡</><p=2>1102年初</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[PlaySound(key="$d_avg_crwddiscuss_inside",volume=0, channel="bgs", loop=true)]
+[SoundVolume(volume=0.2, channel="bgs",fadetime=2)]
+[PlaySound(key="$d_avg_openftstpwalk",volume=0.8)]
+[SoundVolume(volume=0.5, channel="bgs",fadetime=50)]
+[playMusic(key="$formal_loop", volume=0.6)]
+[Background(image="72_g10_hallway",screenadapt="coverall")]
+[BackgroundTween(xFrom=0,xTo=-80, xScaleTo=1.2, yScaleTo=1.2, duration=60, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=2)]
+[PlaySound(key="$d_avg_openftstpwalk",volume=0.8)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.4, r=0, g=0, b=0, fadetime=1, block=true)]
+[Sticker(id="st1", multi = true, text="......理解各位对青年才俊们的关爱，但年龄从不该是犯罪与堕落的借口。",x=250, y=150, alignment="left", size=24, delay=0.04, width=800)]
+[Sticker(id="st2", multi = true, text="在乌萨斯，很多比他们还小的孩子，都已经在军队、工厂、矿区为帝国默默奉献了。",x=250, y=270, alignment="left", size=24, delay=0.04, width=800)]
+[Sticker(id="st3", multi = true, text="唯独这些把头脑落在了学堂里的纨绔子弟，但凡劝他们停下那夸夸其谈的嘴，他们就失惊倒怪，俨然一副乌萨斯要亡国的模样。",x=250, y=390, alignment="left", size=24, delay=0.04, width=800)]
+[Sticker(id="st1", duration=1, block=false)]
+[Sticker(id="st2", duration=1, block=false)]
+[Sticker(id="st3", duration=1, block=false)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_openftstpwalk",volume=0.8)]
+[Sticker(id="st1", multi = true, text="从来没有上过战场，没有背负过战友生命的重责，就敢对着报纸，摆弄沙盘与地图，喊着什么包抄迂回，“不惜一切代价”。",x=250, y=150, alignment="left", size=24, delay=0.04, width=800)]
+[Sticker(id="st2", multi = true, text="从来没进过车间，没见过一条生产线停摆、几十双手等着你回应的夜晚，就敢喊着什么“提高待遇就能产能翻倍”。",x=250, y=270, alignment="left", size=24, delay=0.04, width=800)]
+[Sticker(id="st3", multi = true, text="他们成双成对地溜进白桦林里，写出来的那些令人作呕的酸诗，念着倒是比远北矿工的生活还要忧郁凄凉。",x=250, y=390, alignment="left", size=24, delay=0.04, width=800)]
+[Sticker(id="st1", duration=1, block=false)]
+[Sticker(id="st2", duration=1, block=false)]
+[Sticker(id="st3", duration=1, block=false)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_openftstpwalk",volume=0.8)]
+[Sticker(id="st1", multi = true, text="他们的立场，源于对周遭一切浅薄的认知。这些人牵强附会地搬用古人写出的格言警句，再反复念诵，直至让同立场的蠢材都深信不疑。",x=250, y=150, alignment="left", size=24, delay=0.04, width=800)]
+[Sticker(id="st2", multi = true, text="由此，议会唯一的失误，便是不断地善意忍让。这只能换来他们的蔑视与仇恨，最终酿成如此大祸。",x=250, y=270, alignment="left", size=24, delay=0.04, width=800)]
+[Sticker(id="st3", multi = true, text="我依然保持我的观点：这是一场没有任何必要的听证会，因为诸位所要讨论的事件性质一目了然。",x=250, y=390, alignment="left", size=24, delay=0.04, width=800)]
+[Sticker(id="st4", multi = true, text="学生们妄图扰乱乌萨斯的秩序，他们拿起武器，摧毁封锁区的高墙，这无疑是处心积虑的谋反。",x=250, y=520, alignment="left", size=24, delay=0.04, width=800)]
+[Sticker(id="st1", duration=1, block=false)]
+[Sticker(id="st2", duration=1, block=false)]
+[Sticker(id="st3", duration=1, block=false)]
+[Sticker(id="st4", duration=1, block=false)]
+[StopSound(channel="f", fadetime=0.5)]
+[PlaySound(key="$d_avg_gateopen")]
+[Dialog]
+[StopSound(channel="bgs", fadetime=0.5)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[PlaySound(key="$d_avg_crwddiscuss_inside",volume=0.8, channel="bgs", loop=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[Stickerclear]
+[charslot(slot = "m", name = "avg_npc_2171_1#1$1",duration=1,block=true)]
+[Delay(time=1)]
+[multiline(name="刻薄的贵族")]至于他们的“领袖”，所谓的“冬将军”——
+[multiline(name="刻薄的贵族")]索尼娅·米哈伊里芙娜......
+[name="刻薄的贵族"]更是彻头彻尾的，乌萨斯的叛徒。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1", duration=1.5, block=true)]
+[Delay(time=2)]
+[name="仲裁人"]我尊重您的看法，尤苏波夫伯爵。但是在这场听证会得出结果之前，我们还无法轻易对这些学生下判断。
+[name="仲裁人"]我也想再次提醒在座的各位，这场听证会最终的结果会直接定性“卡托加事件”。
+[name="仲裁人"]对于这桩发生在伟大的圣骏堡、骇人听闻的恶性事件，我们必须进行公正而严肃的审议。
+[name="仲裁人"]对于这些乌萨斯的未来——生活在圣骏堡的学生们，我们也要给出最公正的结果。
+[StopSound(channel="bgs", fadetime=3)]
+[charslot(slot = "m", name = "avg_npc_2171_1#1$1")]
+[name="刻薄的贵族"]尊敬的仲裁人阁下，在开始之前，我还是有必要提醒您。
+[name="刻薄的贵族"]现在站在议会大厦外的这些学生，他们的所作所为，直接伤害了乌萨斯的威严。
+[name="刻薄的贵族"]乌萨斯的徽记在您的头顶之上，它在警醒我们，每一个乌萨斯人享有的荣耀究竟来源于何处。
+[name="刻薄的贵族"]正如圣骏堡的过去属于诸位先皇，现在与将来应当属于当今陛下，以及在他身边拱卫乌萨斯意志的我们。
+[name="刻薄的贵族"]如果我们不能审判索尼娅等人的叛国之罪，就等于把未来随手送给这帮少不更事的宵小......
+[name="刻薄的贵族"]乌萨斯何以在这片大地立足？陛下的公正又何以彰显？
+[charslot(slot = "m", name = "avg_npc_1981_1#1$1")]
+[name="台下的贵族"]公正？你们也配妄言“陛下的公正”？
+[name="台下的贵族"]没有律师，没有公诉人，没有陪审团......修订成文法的议案早在十几年前就给出来了，都是你们这些老古董在阻挠！
+[charslot(slot = "m", name = "avg_npc_2171_1#1$1")]
+[name="刻薄的贵族"]我得问问您，诸位“后起之秀”又为帝国做了什么？靠着挥舞切尔文金币，谋得半点爵位，现在还和叛国贼眉来眼去......
+[name="刻薄的贵族"]别上陛下授予的勋章，从外边那些抗议的学生中走到这里高谈阔论，你们难道没有负责愧疚的器官吗？！
+[dialog]
+[charslot]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$d_avg_gavel", volume=1)]
+[Delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Background(image="72_g1_sjbstreet_d",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(key="$darkness_03_loop", volume=0.6)]
+与此同时，议会大厦外。
+[dialog]
+[charslot(slot = "l", name = "avg_npc_2177_1$2", posfrom="-100,0",posto="-100,0",duration=0.8)]
+[charslot(slot = "r", name = "avg_npc_2182_1#1$1", posfrom="120,0",posto="120,0",duration=0.8)]
+[charslot(slot = "m", name = "avg_npc_2187_1#1$1", posfrom="50,0",posto="50,0",duration=0.8)]
+[delay(time=1.5)]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_2170_1#1$1", duration=1.5, block=true)]
+[delay(time=1.5)]
+[name="乌萨斯警察"]这群小鬼......
+[charslot(slot = "m", focus="n")]
+今天原本不是自己当值的日子。
+而一大早，他在宿舍床上被紧急叫醒，上级告诉他，整个圣骏堡的学生都被动员了起来，他们围堵了议会大厦外的每一条街道。
+他和同僚带好了完整的装备，做好了应对一场“战争”的准备，然而他们来到现场时才发现......
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2177_1$2", posfrom="-100,0",posto="-100,0")]
+[charslot(slot = "r", name = "avg_npc_2182_1#1$1", posfrom="120,0",posto="120,0")]
+[charslot(slot = "m", name = "avg_npc_2187_1#1$1", posfrom="50,0",posto="50,0")]
+[delay(time=1.5)]
+[charslot(slot = "l", name = "avg_npc_2177_1$2", afrom=1,ato=1, posfrom="-100,0",posto="-150,0",duration=0.8)]
+[charslot(slot = "r", name = "avg_npc_2182_1#1$1", afrom=1,ato=1, posfrom="120,0",posto="170,0",duration=0.8)]
+[charslot(slot = "m", name = "avg_npc_2187_1#1$1", afrom=1,ato=1, posfrom="50,0",posto="110,0",duration=0.8)]
+[delay(time=1.5)]
+[charslot(slot = "m", focus="n")]
+没有旗帜，没有呐喊，学生们只是无声地站在各处。
+每当有警察或官员到来时，学生们都会自觉地让开一条道路，让他们进入“包围”。
+[dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "r", name = "avg_npc_2170_1#1$1")]
+[charslot(slot = "l", name = "avg_npc_2177_1$2", posfrom = "-80,0", posto = "30,0",duration =1.2)]
+[delay(time=0.8)]
+[playsound(key="$d_avg_scabbard", volume=0.6,delay=0.6)]
+[charslot(slot = "r",posfrom="0,0",posto="30,0",focus="r",duration=0.5, block=true)]
+[Delay(time=1)]
+[charslot(slot = "r",focus="r" ,isblock=true)]
+[name="乌萨斯警察"]......嗯？
+[name="乌萨斯警察"]别动！你想干什么？
+[charslot(slot = "l",focus="l")]
+[name="乌萨斯学生"]别紧张，先生，我们只想支持自己的同学，不会对各位不敬。
+[name="乌萨斯学生"]只是，有几位大人与我们约好，要在听证会上发言，可直到现在也不见他们的身影。
+[name="乌萨斯学生"]想请教您，是警察将他们关押起来了吗？我们不能接受听证会就这样照常开始——
+[charslot(slot = "r",focus="r")]
+[name="乌萨斯警察"]我不知道你在说什么！这和你无关！
+[name="乌萨斯警察"]现在，退后！
+[dialog]
+[charslot(slot = "R", afrom=1,ato=1, posfrom="30,0",posto="-120,0",duration=0.5)]
+[PlaySound(key="$bodyfalldown2",volume=0.5)]
+[charslot(slot = "l", afrom=1,ato=1, name = "avg_npc_2177_1$2", posfrom = "30,0", posto = "-50,0",duration =0.5)]
+[Delay(time=0.8)]
+[charslot(slot = "R", afrom=1,ato=1, posfrom="-120,0",posto="-70,0",duration=0.8)]
+[delay(time=1)]
+[charslot]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_crwddiscuss_inside",volume=0.6, channel="bgs", loop=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="台下的贵族"]......那我们的人都去哪儿了？为什么有这么多人缺席？
+[name="台下的贵族"]该不会是那些老东西提前把我们的证人都控制了起来，好让他们的声音占上风吧。
+[PlaySound(key="$d_avg_gavel", volume=0.8)]
+[Delay(time=0.3)]
+[PlaySound(key="$d_avg_gavel", volume=0.8)]
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]肃静！
+[name="仲裁人"]鉴于目前圣骏堡内复杂的形势，议会不得不调动警力封路，有人迟到在所难免。
+[name="仲裁人"]不过，如此大事，我无法负起拖延的责任。遑论在诸位争吵的时候，第一位证人已经来到了现场。
+[dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_405_absin_1#1$2", duration=2, block=true)]
+[Delay(time=2.5)]
+[charslot(slot = "m",focus="n")]
+[stopmusic(fadetime=2)]
+[SoundVolume(volume=0.2, channel="bgs",fadetime=2)]
+议会大厅内，方才还在争吵的人们往门口看去，心中的愤怒渐渐转为好奇，他们打量着刚刚走入大厅的乌萨斯女性。
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]请各位大人坐回座位，以陛下的公正之名，听证会流程必须继续推进......
+[name="仲裁人"]证人上前。
+[dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[curtain(direction = 0,fillfrom = 0.5,fillto = 0.18, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.5,fillto = 0.18, fadetime=0.1)]
+[Background]
+[StopSound(channel="bgs", fadetime=2)]
+[playMusic(intro="$sjoyasorrow_intro", key="$sjoyasorrow_loop", volume=0.6)] 
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[cgitem(image="cgitem_72_i01_1",afrom=0,ato=1,aduration=1, style="cg", pfrom = "230,0", pto = "280,0", pduration=30, layer=2)]
+[delay(time=1)]
+[name="窃窃私语的贵族A"]这个证人，是那位索尼娅的朋友？
+[dialog]
+[cgitem(image="cgitem_72_i01_2",afrom=0,ato=1,aduration=1, style="cg", pfrom = "-40,-180", pto = "-100,-180", pduration=30, layer=1)]
+[delay(time=1)]
+[name="窃窃私语的贵族B"]是的，我得到消息，那些新贵族给她做了担保，只要按照事先的约定配合作证，她的朋友都能被从轻发落。
+[name="窃窃私语的贵族A"]但这不是我们想看到的结果......
+[name="窃窃私语的贵族B"]别着急，我倒想看看，这些市侩之辈的话究竟有多少分量。
+[dialog]
+[PlaySound(key="$d_avg_spotlight", volume=1)]
+[Image(image="72_i01_2", xScale=1, yScale=1, x=30, y=0)]
+[cgitem(image="cgitem_72_i01_3",layer=3)]
+[focusout(type="cgitem", id="cgitem_72_i01_1", from=0, to=1, duration=0.1)]
+[focusout(type="cgitem", id="cgitem_72_i01_2", from=0, to=1, duration=0.1)]
+[Delay(time=1)]
+[name="仲裁人"]卓娅女士，感谢你前来作证。
+[name="仲裁人"]想必各位都已经注意到了，卓娅女士身上带着警队的配件。
+[name="仲裁人"]她的父亲是一名受人尊敬的乌萨斯警察，因维系帝国的秩序而牺牲于切尔诺伯格。作为警官之女，想必她一定会继承父亲对帝国的忠诚。
+[name="仲裁人"]前几日，她以“卡托加事件”知情者的身份，接受我们的质询，并提交了一份报告。
+[name="仲裁人"]听证会将在今日公开宣读这份报告，向她确认相关细节，相信在座的所有人，听完后将对“卡托加事件”的过程有新的认识。
+[name="仲裁人"]卓娅女士，本庭向你确认，你将对这份文件与接下来的回答的真实性负责，是吗？
+[name="苦艾"]是，阁下。
+[dialog]
+[focusout(type="cg", id="72_i01_2", from=0, to=0.6, duration=0.2)]
+[focusout(type="cgitem", id="cgitem_72_i01_1", from=1, to=0, duration=0.2)]
+[focusout(type="cgitem", id="cgitem_72_i01_2", from=1, to=0, duration=0.2)]
+[Delay(time=1)]
+[name="台下的贵族"]等等，仲裁人阁下，我们要求听证会延期。
+[name="台下的贵族"]为卓娅女士作保的卡姆沙洛夫男爵都没到场，她的发言同样关系到男爵的声誉，绝不能在男爵不在场的时候作证。
+[name="满不在乎的贵族"]别说笑了，谁不知道卡姆沙洛夫男爵最爱睡懒觉？他要是每次都起不来，听证会还开不开了？
+[name="台下的贵族"]我怎么不知道他有这种习惯？
+[name="满不在乎的贵族"]呵，你以为他开的那些赌场敢在白天营业吗？每天半夜都得忙前忙后的。
+[name="满不在乎的贵族"]现在倒同样是男爵，可当年你还是个泥腿子列兵的时候，他早就赚出你两辈子的饷钱了。
+[name="台下的贵族"]但他昨晚不在——
+身旁的人赶紧拉了拉他，他明白了什么，额头上霎时冒出冷汗，昨晚和几位有头有脸的好友欢聚非法赌场的事可不能在这里说漏嘴。
+[name="满不在乎的贵族"]哦？
+[name="满不在乎的贵族"]如果晚上他不在赌场，那你该问问你的妻子了——
+[name="台下的贵族"]*乌萨斯粗口*你再说一遍！
+[dialog]
+[PlaySound(key="$d_avg_clothmovement_heavy1", volume=1)]
+[Delay(time=0.6)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[PlaySound(key="$d_avg_punch02", volume=1)]
+失去理智的贵族快步跨过几排座位，直接扑向了口无遮拦的对方。
+[name="仲裁人"]警察！分开他们！
+[dialog]
+[PlaySound(key="$d_avg_crwddiscuss_inside",volume=0.8, channel="bgs", loop=true)]
+[Delay(time=0.5)]
+[PlaySound(key="$d_avg_punch", volume=0.5)]
+[Delay(time=0.5)]
+仲裁人的喊声让本就吵闹的听证会瞬间被点燃，刚才就有口角的几人也果断加入其中，打得难解难分。
+[PlaySound(key="$d_avg_punch", volume=0.8)]
+室内为数不多的警察走上前去，但他们拉架的手纷纷停在半空，毕竟眼前的这几位没一个他们惹得起。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[image]
+[curtain]
+[hidecgitem(image="cgitem_72_i01_1")]
+[hidecgitem(image="cgitem_72_i01_2")]
+[hidecgitem(image="cgitem_72_i01_3")]
+[delay(time=1)]
+[Image(image="72_i01_1",xScale=1, yScale=1)]
+[focusout(type="cg", id="72_i01_1", from=0, to=0, duration=0.1)]
+[ImageTween(image="72_i01_1",xScaleTo=0.8, yScaleTo=0.8, duration=1.3, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+苦艾闭上眼，摸了摸后颈，她一度怀疑是背后厮打的人的“拳风”让她浑身发凉，而不是贵族的作风又突破了她的认知。
+隐隐约约，她的耳边响起每一个乌萨斯人都听腻了的对话。
+[Dialog]
+[Blocker(a=0.4, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Sticker(id="st1", multi = true, text="<i>你们要毁了乌萨斯吗？</i>", x=700, y=460, alignment="left", size=24, delay=0.04, width=750)]
+[Delay(time=1)]
+[Sticker(id="st1", duration=1, block=false)]
+[Sticker(id="st2", multi = true, text="<i>我还说呢......</i>", x=350, y=190, alignment="left", size=24, delay=0.04, width=750)]
+[Delay(time=1)]
+[Sticker(id="st3", multi = true, text="<i>乌萨斯就是因为有你们才会变成现在这样！</i>", x=350, y=240, alignment="left", size=24, delay=0.04, width=750)]
+[Delay(time=1)]
+[Sticker(id="st2", duration=1, block=false)]
+[Sticker(id="st3", duration=1, block=false)]
+[StopSound(channel="bgs", fadetime=1)]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g3_podium",screenadapt="coverall")]
+[Delay(time=1.5)]
+[image]
+[playMusic(intro="$darkness02_intro", key="$darkness02_loop", volume=0.6)]
+[charslot(slot = "l", name = "avg_npc_2177_1#5$1", posfrom = "70,0", posto = "70,0")]
+[charslot(slot = "r", name = "avg_npc_2179_1#1$1", posfrom = "-70,0", posto = "-70,0")]
+[name="“近卫军”成员"]......乌萨斯就是因为有你们才会变成现在这样！
+[name="“研讨会”成员"]那真是谢天谢地。乌萨斯要都是你们这种人，还不知道会变成什么样子呢！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=1)]
+[Dialog]
+[charslot(slot = "l", focus="n")]
+两人互相揪着对方的衣领，而围观的同学丝毫没有劝架的意思，反倒不断起哄，生怕自己错过一场真正的好戏。
+[charslot]
+有几名学生则选择远离人群，默默坐在稍靠后的位置。
+[dialog]
+[charslot(slot = "m", name = "avg_405_absin_1#2$2", duration=0.8, block=true)]
+[Delay(time=1)]
+[name="苦艾"]唉......
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]索尼娅还没到吗？
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_197_poca_1#2$1")]
+[name="早露"]按之前的回信来看，索尼娅今天下午就该到了，而坚雷教官还要晚一天。
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]不过，现在大家讨论的风向有点偏离，随时有可能失控。我们有没有必要介入控制一下？
+[dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_2156_1#8$1",duration=2)]
+[Delay(time=2)]
+[name="真理"]我们是以“乌萨斯学生自治团”的名义参与学生集会，索尼娅是团长，她来之前，这里的人恐怕不会听取我们的想法。
+[charslot(slot = "m", name = "avg_npc_2156_1#2$1")]
+[name="真理"]何况这次集会讨论的问题很重要，我们的确需要索尼娅来做判断。
+[charslot(slot = "m", name = "avg_197_poca_1#9$1")]
+[name="早露"]可是我记得上一次，索尼娅和奥尔佳他们见面，闹得不太愉快——
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_walkfast",volume=0.6)]
+[charslot(slot = "r", name = "avg_196_sunbr_1#5$1", posfrom = "-300,0", posto = "10,0",duration=1)]
+[Delay(time=0.3)]
+[charslot(slot = "l", name = "avg_194_leto_1#1$1", posfrom = "-100,0", posto = "150,0",duration=0.8)]
+[PlaySound(key="$d_avg_clothtrailground")]
+[Delay(time=1.5)]
+[charslot(slot = "r", name = "avg_196_sunbr_1#10$1",focus="r")]
+[name="古米"]烈夏姐，这真是最后一颗蜂蜜糖了！
+[charslot(slot = "l", name = "avg_194_leto_1#1$1",focus="l")]
+[name="烈夏"]小古米，我知道你人是最好的，你再翻翻口袋嘛，万一还有多的呢？
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2156_1#1$1")]
+[name="真理"]为了糖果欺负小古米可不好哦，烈夏。
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_194_leto_1#8$1", posfrom = "170,0", posto = "0,0",duration=0.8)]
+[charslot(slot = "r", name = "avg_196_sunbr_1#1$3", posfrom = "20,0", posto = "30,0",duration=0.8)]
+[Delay(time=1)]
+[charslot(slot = "l", name = "avg_194_leto_1#4$1",focus="l")]
+[name="烈夏"]还不是因为你不让我喝蜂蜜......好不容易回一趟乌萨斯，一口蜜都没给我尝到。
+[charslot(slot = "l", name = "avg_194_leto_1#4$1",focus="l")]
+[name="烈夏"]早知道就在谢拉格多待几个月了。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2156_1#1$1")]
+[name="真理"]我们不是来旅游的......等我们完成了建立圣骏堡办事处的任务，或者什么时候你不醉蜜了，我一定让你喝个痛快。
+[dialog]
+[charslot]
+[charslot(slot = "r", name = "avg_196_sunbr_1#1$3",posfrom = "30,0", posto = "30,0",focus="l")]
+[charslot(slot = "l", name = "avg_194_leto_1#13$1", posfrom = "0,0", posto = "0,0",focus="l")]
+[name="烈夏"]没劲......
+[charslot(slot = "r", name = "avg_196_sunbr_1#3$1",focus="r")]
+[name="古米"]烈夏姐，他们打架你不去看吗？我还以为你会喜欢看热闹......
+[charslot(slot = "l", name = "avg_194_leto_1#4$1",focus="l")]
+[name="烈夏"]我是喜欢打架，但我才不要看两个傻子打架。口口声声说什么救人，先把帮自己忙的同伴揍一顿，这算什么啊？
+[dialog]
+[charslot(slot = "l",focus="n")]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[Delay(time=1.2)]
+[charslot(slot = "l", name = "avg_194_leto_1#5$1",focus="l")]
+[name="烈夏"]......嗯？管事的那个好像终于忍不住了。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2159_1#5$1",duration=0.8)]
+[Delay(time=1)]
+[name="奥尔佳"]各位......各位！请到此为止！
+[dialog]
+[charslot(slot = "m", focus="n")]
+金发的乌萨斯尽量扯着自己的嗓子大喊，但在欢呼与争吵声中，她焦急而颤抖的声音显得极其单薄。
+[charslot(slot = "m", name = "avg_npc_2159_1#9$1")]
+[name="奥尔佳"]各位......把无关的争论先放一放吧，别忘了我们今天聚集在这里的目的。
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]拉列亚是圣骏堡的学生，是我们中的一员。我们的伙伴，因为一项正义的举动遭受了不公正的待遇，这令我们感到痛心。
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]我一个人的力量是有限的，但是凭借学生联合大会的力量，我们应当可以做到什么，让整个圣骏堡从此重视我们学生的声音。
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]所以我希望各位能冷静下来，一同思索策略，才能将我们的同伴从牢狱中拯救出来。
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2177_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_2179_1#1$1",focus="r")]
+[name="“研讨会”成员"]呵，和他那种大脑比肱二头肌还小的人，谈什么以退为进的策略都是没用的。
+[name="“研讨会”成员"]拉列亚本身的行为就够鲁莽的，他在议会大厅大肆涂鸦的时候难道就没有想过后果吗？
+[charslot(slot = "l", name = "avg_npc_2177_1#5$1",focus="l")]
+[name="“近卫军”成员"]你听听，奥尔佳，研讨会根本不敢营救拉列亚。除了投降，他们什么事都讲究“从长计议”，真会给自己找逃避责任的说辞。
+[charslot(slot = "l", name = "avg_npc_2177_1#2$1",focus="l")]
+[name="“近卫军”成员"]虽然拉列亚是你奥尔佳的朋友，也是你们彼得拉设夫斯基小组的“自家人”，但是，学生近卫军从始至终都站在你们这一边。
+[charslot(slot = "l", name = "avg_npc_2177_1#1$1",focus="l")]
+[name="“近卫军”成员"]而这位懦夫，亏他的祖父还是先皇在位时的近卫军团荣誉团长，到他这里，哪里还有半点乌萨斯军人的胆气？
+[charslot(slot = "r", name = "avg_npc_2179_1#1$1",focus="r")]
+[name="“研讨会”成员"]奥尔佳，研讨会的心情和你一样急切，我们从不反对营救拉列亚以及其他被捕的学生，甚至同意在必要的时候使用武力。
+[name="“研讨会”成员"]倒是这些“学生近卫军”，他们以为那些粗暴的行为对改变乌萨斯的现状又能有多少帮助？
+[name="“研讨会”成员"]《乌萨斯的复兴》中说得很明白，乌萨斯不是一件破旧的外套，随意脱下就能换新的。
+[charslot(slot = "l", name = "avg_npc_2177_1#1$1",focus="l")]
+[name="“近卫军”成员"]哈，又是该死的尼古拉·伊林斯基......
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2159_1#1$1")]
+[name="奥尔佳"]如果研讨会有更好的建议，我很乐意听取。
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2177_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_2179_1#1$1",focus="r")]
+[name="“研讨会”成员"]首先，我们得刊印更多的报纸，反复强调拉列亚等人遭受的不公待遇。
+[name="“研讨会”成员"]不能像原来那样只在校园里传播，还要发动更多的市民。拉列亚他们是为远北的矿工发声才被捕的，工人们肯定也会站在我们这边。
+[name="“研讨会”成员"]通过宣传被捕学生的遭遇，我们就能吸引、团结到一大批同情者，再教授他们如何抗争、为何抗争，要把矛头对准骏鹰的继承者。
+[name="“研讨会”成员"]如今的乌萨斯旧贵族们，欣然接受骏鹰王国蛮横无理的传统，甚至许多人体内本就淌着骏鹰的血。
+[name="“研讨会”成员"]只有剜去这些一千年前的毒疮，乌萨斯人才会真正认识到自己是乌萨斯人。
+[charslot(slot = "l", name = "avg_npc_2177_1#1$1",focus="l")]
+[name="“近卫军”成员"]真是可笑，你说的旧贵族里，包不包括特里波列夫家族？要不要先把奥尔佳当毒疮剜了？
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]......
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2177_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_2179_1#1$1",focus="r")]
+[name="“研讨会”成员"]这是两码事，只要是赞同新乌萨斯的——
+[charslot(slot = "l", name = "avg_npc_2177_1#1$1",focus="l")]
+[name="“近卫军”成员"]然后你再告诉那些市民、工人，你们崇拜的尼古拉·伊林斯基，从来没想过要推倒政权，只想着起事后把自己卖出一个好价钱。
+[name="“近卫军”成员"]顺便再告诉他们中的黎博利、菲林，未来的乌萨斯是“乌萨斯人”的国家，其他族裔“要么是帮手，要么是间谍”。
+[charslot(slot = "r", name = "avg_npc_2179_1#1$1",focus="r")]
+[name="“研讨会”成员"]断章取义！他从来没表达过这种观点。
+[charslot(slot = "l", name = "avg_npc_2177_1#5$1",focus="l")]
+[name="“近卫军”成员"]哼，先皇做的唯一正确的事，就是吊死了这个满嘴“新乌萨斯民族”的疯子！
+[dialog]
+[charslot]
+[PlaySound(key="$gavel1", volume=1)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=1)]
+话音刚落，台下的一位学生举起手边的水壶，猛地向喋喋不休的“近卫军”成员掷去，可惜准头不佳，金属水壶重重砸在舞台上。
+[dialog]
+[PlaySound(key="$fightgeneral", volume=0.5)]
+[Delay(time=0.3)]
+[PlaySound(key="$d_avg_fight_amb_loop",volume=0, channel="fight", loop=true)]
+[SoundVolume(volume=0.5, channel="fight",fadetime=2)]
+[Delay(time=1.5)]
+台下的“近卫军”成员反应迅速，他们马上揪住了这个不礼貌的听众，举拳就往他身上招呼，场面再次乱成一团。
+[charslot(slot = "m", name = "avg_194_leto_1#5$1")]
+[name="烈夏"]欸，卓娅，还真别说，这帮叫“学生近卫军”的，果然更能打一点。
+[dialog]
+[charslot]
+嘈杂的打闹声已让苦艾无暇回应烈夏的调侃，她瞥向本该掌控局面的奥尔佳。
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1",focus="n")]
+而奥尔佳只是静静站在原地，面带犹豫的神色，盯着自治团众人——只有她们没有参与冲突。
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_open_door")]
+[Delay(time=1.5)]
+[charslot(slot = "M", name = "avg_npc_2177_1#1$1")]
+[name="“近卫军”成员"]......又多了一个麻烦。
+[charslot]
+[StopSound(channel="fight", fadetime=2)]
+拳头悬空，喊声戛然而止，扭打在一起的学生纷纷松开了对方。
+[dialog]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1", duration=1.5)]
+[Delay(time=2)]
+[charslot]
+[charslot(slot = "m",posfrom="-150,0",posto="0,0",duration=0.5, name = "avg_194_leto_1#1$1")]
+[name="烈夏"]冬将军！
+[charslot(slot = "m", name = "avg_npc_2156_1#1$1")]
+[name="真理"]你又迟到了，索尼娅。
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]......抱歉。
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]不过从现场的情况看，我应该来得正好。
+[charslot(slot = "m", name = "avg_npc_2159_1#3$1")]
+[name="奥尔佳"]......索尼娅，上一次联合大会你也迟到了。如果你没忘记，每次召开学生联合大会，都意味着——
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]都意味着“有关乎圣骏堡学生命运的大事发生”，我记得，你们继续“聊”。
+[charslot(slot = "m", name = "avg_npc_2177_1#1$1")]
+[name="“近卫军”成员"]......
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]怎么不说话了？法杰伊，你之前不是挺乐意用拳头和别人打招呼的吗？包括我。
+[charslot(slot = "m", name = "avg_npc_2177_1#1$1")]
+[name="法杰伊"]......反正不会有结果。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]不，用拳头聊天比用嘴巴好的地方就是，总能聊出一个结果。
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]......今天的议程确实进行得不顺利，但是索尼娅，这不是你们自治团屡次蔑视学生联合大会的理由。
+[charslot(slot = "m", name = "avg_npc_2156_1#2$1")]
+[name="真理"]抱歉，奥尔佳主席，我们需要你解释一下，什么叫“蔑视”？
+[charslot(slot = "m", name = "avg_npc_2156_1#2$1")]
+[name="真理"]自治团自从选择加入学生联合大会，从来没有违背过大会制定的各项准则，所有活动也都参与了。
+[charslot]
+所有人不约而同地看向凛冬。
+[dialog]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[Delay(time=0.8)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#8$1")]
+[Delay(time=0.8)]
+[charslot(slot = "m", name = "avg_npc_2156_1#8$1")]
+[name="真理"]......联合大会的通知下达得很仓促，自治团许多成员都有在外地的任务。我想，仅以迟到这一点指责自治团蔑视大会显然有失公平。
+[charslot(slot = "m", name = "avg_npc_2156_1#1$1")]
+[name="真理"]最重要的是，自治团从未参与任何内部冲突。
+[charslot(slot = "m", name = "avg_npc_2156_1#1$1")]
+[name="真理"]恕我直言，比起在这里大吵大闹的其他学生社团，自治团倒像是最尊重联合大会的那个。
+[charslot(slot = "m", name = "avg_npc_2179_1#1$1")]
+[name="“研讨会”成员"]同样也恕我直言，安娜，你们原本没有资格加入联合大会。
+[name="“研讨会”成员"]毕竟你们的个人出身和组织建立都是在切尔诺伯格，而我们都是圣骏堡人。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]别忘了，是奥尔佳主动向我发出邀请，希望自治团加入联合大会。
+[charslot(slot = "m", name = "avg_npc_2179_1#1$1")]
+[name="“研讨会”成员"]奥尔佳希望联合大会可以团结更多的学生，所以才收容了你们这些远道而来的人——还为你们在圣骏堡落脚提供了帮助。
+[name="“研讨会”成员"]对应地，我们也需要看到你们为联合大会做出贡献的意愿，至少是对联合大会的尊重。
+[dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_197_poca_1#5$1",duration=0.8)]
+[Delay(time=1)]
+[name="早露"]我们不会忘记自己受过的帮助，自治团对此表示感谢，列昂尼德。
+[charslot(slot = "m", name = "avg_197_poca_1#5$1")]
+[name="早露"]我们自治团一直很支持联合大会举行的各种活动，从未退缩过，也没有耽误过大家的计划。
+[charslot(slot = "m", name = "avg_npc_2179_1#1$1")]
+[name="列昂尼德"]上一次，大会交给你们的烧毁皇帝画像的任务，你们是怎么做的？
+[charslot(slot = "m", name = "avg_194_leto_1#4$1")]
+[name="烈夏"]我们升级了活动，将画像替换成了皇帝一家的涂鸦，难道也有问题吗？
+[charslot(slot = "m", name = "avg_npc_2179_1#1$1")]
+[name="列昂尼德"]那张涂鸦是谁画的？
+[charslot(slot = "m", name = "avg_196_sunbr_1#3$1")]
+[name="古米"]是我，嘿嘿。
+[charslot(slot = "m", name = "avg_196_sunbr_1#3$1")]
+[name="古米"]那还是我第一次画涂鸦，大家都夸我画得好呢！
+[charslot(slot = "m", name = "avg_npc_2177_1#5$1")]
+[name="法杰伊"]问题就在这里！
+[name="法杰伊"]你把皇帝一家画得那么可爱，还怎么通过这个事激发市民的反皇帝热情？
+[charslot(slot = "m", name = "avg_194_leto_1#4$1")]
+[name="烈夏"]画得好还成问题了？你练三年都赶不上她！
+[charslot(slot = "m", name = "avg_npc_2177_1#5$1")]
+[name="法杰伊"]*激烈的乌萨斯粗口*，你们就是在故意找麻烦！！
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_smashtable", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]够了，都停下——
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$mist_intro",key="$mist_loop", volume=0.6)]
+[PlaySound(key="$d_avg_gavel", volume=0.8)]
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]......这里是听证会，任何人都不能扰乱现场秩序。
+[dialog]
+[charslot]
+苦艾回过神。原先打成一片的贵族早已休战，他们整理着不再体面的华服，恶狠狠地瞪着眼睛。
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]好了，卓娅女士，我们回到你的经历上来。
+[name="仲裁人"]你提到了“学生联合大会”，关于这个组织，相信在座的多数人都有所耳闻。
+[name="仲裁人"]它由不同学校的不同社团联合成立，通常以一些知名叛国贼的名字作为公共笔名发表社论，例如最近“出名”的伊凡·图林。
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2172_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_2171_1#1$1",focus="r")]
+[name="窃窃私语的贵族A"]呃......这个“伊凡·图林”是谁？
+[charslot(slot = "l",focus="l")]
+[name="窃窃私语的贵族B"]大叛国贼雅科夫·彼得洛夫的弟弟，在莱塔尼亚流亡时写过几本逆书。
+[name="窃窃私语的贵族B"]议会派人去追查过，他本人很久没有公开露面，最近也没有真正发表过什么作品，极大概率已经死了。
+[charslot(slot = "r",focus="r")]
+[name="窃窃私语的贵族A"]......何必用一个死人的名字呢？
+[charslot(slot = "l",focus="l")]
+[name="窃窃私语的贵族B"]呵，林林总总的、见不得人的奇谈怪论，需要借一个反对陛下的代表承载，这个代表最好还不能亲自驳斥他们。
+[name="窃窃私语的贵族B"]他们都比我们更希望伊凡死了，才好去做新的“伊凡”。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]在这个所谓的学生联合大会起事前，你作为旁观者目睹了他们商议的过程，是吗？
+[charslot(slot = "m", name = "avg_405_absin_1#1$1")]
+[name="苦艾"]是的。
+[charslot(slot = "m", name = "avg_405_absin_1#1$1")]
+[name="苦艾"]或许需要澄清的是，我不是任何学生组织的成员，仅作为索尼娅等人的朋友参加集会。
+[charslot(slot = "m", name = "avg_405_absin_1#2$1")]
+[name="苦艾"]我对他们的具体商议结果并不完全知情，同时我也始终不支持他们的行动。
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]嗯......
+[name="仲裁人"]书记官，请将你左边的文件递给我。
+[name="仲裁人"]这里有另一份笔录表示，在学生联合大会上，学生们谋划了一场针对圣骏堡冬季舞会的行动。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g3_podium",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2159_1#7$1")]
+[name="奥尔佳"]够了......我们已经浪费了太多时间。我们必须立刻回到今天原本的议题——我们应当如何营救拉列亚等人。
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]法杰伊，你代表学生近卫军，你们最终提出的方案是？
+[charslot(slot = "m", name = "avg_npc_2177_1#2$1")]
+[name="法杰伊"]我们已经详细讨论过了，我们最终的决定是——突袭监狱。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2159_1#4$1")]
+[name="奥尔佳"]......
+[charslot(slot = "m", name = "avg_npc_2177_1#1$1")]
+[name="法杰伊"]我们事先了解过，虽然抓捕拉列亚的事闹得沸沸扬扬，但关押他的监狱人手算不上多。
+[name="法杰伊"]......更何况，每年舞会也是圣骏堡警备最松懈的时候，这无疑是我们行动的绝佳机会。
+[charslot(slot = "m", name = "avg_npc_2179_1#1$1")]
+[name="列昂尼德"]你果然疯了！
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_405_absin_1#7$1",posfrom="-80,0",posto="-80,0")]
+[charslot(slot = "r", name = "avg_197_poca_1#2$1",posfrom="120,0",posto="120,0")]
+[charslot(slot = "m", name = "avg_194_leto_1#6$1")]
+[Delay(time=0.8)]
+[charslot(slot = "m", name = "avg_194_leto_1#6$1", focus="m")]
+[name="烈夏"]（小声）舞会期间，贵族云集，警察难道不会管得更严吗？
+[charslot(slot = "l", name = "avg_405_absin_1#7$1",focus="L")]
+[name="苦艾"]（小声）父亲说过，圣骏堡的警察，不是被法律选中，而是被权力推举。
+[charslot(slot = "l", name = "avg_405_absin_1#1$1",focus="L")]
+[name="苦艾"]（小声）那些军警都隶属于卫戍军团，一些小贵族没有办法直接把子女送去集团军做军官，就退而求其次，把他们送去警察厅“历练”。
+[charslot(slot = "r", name = "avg_197_poca_1#2$1",focus="r")]
+[name="早露"]（小声）......而冬季舞会不仅是玩乐的活动，作为贵族聚集的场合，自然也是政治博弈的舞台。
+[charslot(slot = "r", name = "avg_197_poca_1#5$1",focus="r")]
+[name="早露"]（小声）所以警察厅高层的人事任免，通常会在舞会前后进行，那些官员有的是事情要忙——
+[charslot(slot = "r", name = "avg_197_poca_1#5$1",focus="r")]
+[name="早露"]（小声）从这一点来看，那位法杰伊说得或许还真没错。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]你的提议是货真价实的战争，法杰伊。但直到现在，我都不知道你会不会操作军火，更没有看到你们有任何准备。
+[charslot(slot = "m", name = "avg_npc_2177_1#1$1")]
+[name="法杰伊"]哼，我们才不是毫无准备。
+[name="法杰伊"]这话只能关起门来说。我认识一些自由商人，只要我们愿意，就能立刻拿到一批伦蒂尼姆战场上的旧军备，足够武装这里的所有人。
+[charslot(slot = "m", name = "avg_npc_2179_1#1$1")]
+[name="列昂尼德"]自由商人？那帮外国佬？
+[charslot(slot = "m", name = "avg_npc_2159_1#9$1")]
+[name="奥尔佳"]这能对付得了全副武装的狱警吗......
+[charslot(slot = "m", name = "avg_npc_2177_1#1$1")]
+[name="法杰伊"]当然！只要你们亲眼见过那些玩意，就该知道那已经是领先了乌萨斯不知道多少年的武器装备。
+[name="法杰伊"]我们已经落后了，弱肉强食的大地从不给任何人时间。我们必须迎头赶上，这是乌萨斯最后的机会。
+[name="法杰伊"]不能放任那些尸位素餐的“大人物”把乌萨斯拖入泥淖，我们会成为带领乌萨斯重新强大的先锋力量。
+[charslot(slot = "m", name = "avg_npc_2179_1#1$1")]
+[name="列昂尼德"]说得倒简单，你真信那些“自由商人”安了好心？永远不要忘了，我们都是乌萨斯人！
+[name="列昂尼德"]拿着外国的武器，还想追随维多利亚或哥伦比亚堕落的制度，我绝不能接受让你们这种人——
+[dialog]
+[charslot(slot = "m", name = "avg_npc_2179_1#1$1",afrom=1,ato=1,posfrom="0,0",posto="100,0",duration=0.6,block=false)]
+[delay(time=0.3)]
+[charslot(slot = "l",name = "avg_1051_headb2_1#1$1",posfrom="10,0",posto="45,0",duration=0.5,block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[charslot(slot = "m", action="shake", power=3, times=30, duration=0.2,focus="m")]
+[delay(time=0.3)]
+[charslot(slot = "m",focus="n")]
+他边高喊，边向前踏出一步——他又想证明了，证明研讨会的成员在身体上也不弱于人。
+从身侧伸来一只手，拽住了他的右臂，他想用力甩开这位劝架者，但自己的手臂竟一动不动。
+列昂尼德刚想转头咒骂，就对上了凛冬的双眼。
+[charslot(slot = "l",name = "avg_1051_headb2_1#7$1",focus="l")]
+[name="凛冬"]都闹够了吗？
+[charslot(slot = "l",name = "avg_1051_headb2_1#9$1",focus="l")]
+[name="凛冬"]法杰伊，这个计划无疑是让大家去送死。缺乏情报，毫无战术，并且你也无法判断武器是否可靠。
+[charslot(slot = "l",name = "avg_1051_headb2_1#9$1",focus="l")]
+[name="凛冬"]警察厅再怎么混乱，在那驻守的也是长期受训的军警，我们没有做好准备。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2177_1#1$1")]
+[name="法杰伊"]......我知道你很能打，索尼娅。实话说，“近卫军”许多人私底下也十分佩服你。
+[name="法杰伊"]然而，你所说的“做好准备”，和研讨会的“从长计议”根本没有区别，通通都是拒绝行动的借口。
+[charslot(slot = "m", name = "avg_npc_2177_1#5$1")]
+[name="法杰伊"]如果你没有更好的方法能够救援拉列亚他们，就不要想着干涉大会的决议。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2156_1#9$1")]
+[name="真理"]不要擅自代表“大会决议”，法杰伊，联合大会向来是以集体表决为准。
+[charslot(slot = "m", name = "avg_npc_2156_1#9$1")]
+[name="真理"]研讨会显然不站在你这一边，自治团同样不赞成这种自毁行为。若是你认为自己的话足以煽动其他人，那我们现在就来表决。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1",focus="n")]
+所有人的视线齐齐聚在奥尔佳身上，那些目光里满是对结果的期盼。
+[charslot(slot = "m", name = "avg_npc_2156_1#4$1")]
+[name="真理"]奥尔佳，如果你没有意见，那么就照例由你们彼得拉设夫斯基小组计票——
+[charslot(slot = "m", name = "avg_npc_2159_1#7$1")]
+[name="奥尔佳"]不。
+[charslot(slot = "m", name = "avg_npc_2177_1#6$1")]
+[name="法杰伊"]奥尔佳？
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]我同意列昂尼德和索尼娅的看法，大会承担不起武装对抗失败的后果。
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]......但是，我也同意，一味地等待，无疑是坐以待毙，给了警察厅随意处置拉列亚的机会，空耗大家反抗的热情。
+[charslot(slot = "m", name = "avg_npc_2159_1#1$1")]
+[name="奥尔佳"]所以，我有一个能满足所有人的想法，并且能够救出拉列亚他们的提议——趁着举办冬季舞会，直接包围舞会厅。
+[charslot(slot = "m", name = "avg_194_leto_1#14$1")]
+[name="烈夏"]......这家伙在说什么呢？不去劫狱，直接去打贵族？
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]不，不会发生任何暴力事件。
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]我们不会携带任何武器，而是通过举牌抗议，让贵族们都知道，在许多人不知情的时候，有人正在戕害这个国家的未来。
+[charslot(slot = "m", name = "avg_npc_2156_1#6$1")]
+[name="真理"]......我完全不明白这场行动的意义。
+[charslot(slot = "m", name = "avg_npc_2156_1#6$1")]
+[name="真理"]奥尔佳，或许你认为你的父亲是一位高尚的人，但这并不意味着那些贵族都愿意和我们坐下说理。
+[charslot(slot = "m", name = "avg_npc_2156_1#2$1")]
+[name="真理"]姑且不提这些年他们做出的种种荒唐举动，如今他们逮捕了拉列亚等人，并且放出各种消息，宣称要严惩示众，以绝后患。
+[charslot(slot = "m", name = "avg_npc_2156_1#2$1")]
+[name="真理"]结果你居然想赤手空拳地对着他们叫喊......简直就像把鲜肉切好了，摇着铃铛等裂兽来吃。
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]不，安娜。你并不明白，参加舞会的贵族没有理由伤害我们。
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]根据我以往多次组织类似活动的经验，只要我们足够克制，无论是贵族还是那些警察，都不会为难我们。
+[charslot(slot = "m", name = "avg_npc_2159_1#2$1")]
+[name="奥尔佳"]我以我父亲的名誉向你保证，这只是一次为我们争取发声机会的活动，不会有任何人受到伤害。
+[charslot(slot = "m", name = "avg_npc_2179_1#1$1")]
+[name="列昂尼德"]......我同意奥尔佳的想法。在这里的许多人都是本地贵族，某种意义上，我们是在以自己为条件要挟贵族群体。
+[name="列昂尼德"]这是少数真正握在自己手里的筹码，只要我们人数足够多，撬动议会的决议并非幻想。
+[charslot(slot = "m", name = "avg_npc_2177_1#2$1")]
+[name="法杰伊"]一条折中的路线，总比完全无所作为要好。“近卫军”也没有什么拒绝的理由......
+[charslot(slot = "m", name = "avg_npc_2159_1#2$1")]
+[name="奥尔佳"]既然如此，我们来表决吧。
+[charslot(slot = "m", name = "avg_npc_2159_1#8$1")]
+[name="奥尔佳"]我在此正式提议，三天后晚上七点，即冬季舞会的中段，学生联合大会所有社团，共同前往舞会厅，向贵族们示威。
+[dialog]
+[charslot]
+一只只手先后举起......很快，大会里就出现了几个“异类”，一如方才争斗时那样。
+举手的学生们显得如此高大，安静更让他们平添了一种力量。
+苦艾呼吸有些急促，她的目光在他们脸上依次扫过，没有得到任何令人安心的回应。
+有的人渴望行动，他们的眼睛囚住了愤懑，对同学的歉疚与对体制的恨意使他们高举的手轻轻颤抖。
+有的人畏惧流血，他们对“替代方案”深以为然，只要不举起刀剑，总有人会为他们兜底，他们的嘴角勾起如释重负的微笑。
+更多的人在忧虑，他们渴望成为同流者，害怕被这个代表进步与激情的团体摒弃，于是把手心举过耳边，温顺而合群......
+[charslot(slot = "m", name = "avg_194_leto_1#4$1")]
+[name="烈夏"]......离索尼娅远一点！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[curtain(direction = 0,fillfrom = 0.5,fillto = 0.2, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.5,fillto = 0.2, fadetime=0.1)]
+[Image(image="72_i02", screenadapt="coverall", xScale=1.2, yScale=1.2,x=100,y=-120,fadetime=0)]
+[ImageTween(xFrom=100,xTo=-100, duration=20, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[name="奥尔佳"]结果很明显，索尼娅，绝大多数人同意这项提议。
+[name="奥尔佳"]在此我也希望，自治团能够积极参与这次行动，大会需要所有人出力。
+[name="真理"]再多的人赞同，也不能改变这是一个欠考量......几乎算得上愚蠢的提议。
+[name="乌萨斯学生"]安娜，不要以为只有你是聪明人。自治团一直对大会阳奉阴违，我们都只是忍住没说罢了！
+[name="列昂尼德"]自治团需要证明对联合大会的忠诚。别再自以为是了，切尔诺伯格人。
+[name="烈夏"]找死！
+[name="古米"]烈夏姐！不要去！
+[name="早露"]......自治团的每一次行动，都在追求对于所有学生的最佳方案。
+[name="早露"]从不墨守成规，这是我们的应变策略，我们已经向大会诸位多次解释过了，如今要在立场上指责自治团，对我们非常不公平。
+[name="法杰伊"]罗斯托夫家族的娜塔莉娅，即使你并非军旅出身，作为乌萨斯的贵族，也应该清楚，服从命令是乌萨斯战无不胜的基础。
+[name="早露"]但是——
+[name="凛冬"]我参加。
+[Dialog]
+[curtain(direction = 0,fillfrom = 0.2,fillto = 0.01, fadetime=2)]
+[curtain(direction = 4,fillfrom = 0.2,fillto = 0.01, fadetime=2)]
+[Image(image="72_i02", screenadapt="coverall",fadetime=2)]
+[Delay(time=2)]
+[name="真理"]索尼娅......？
+[name="奥尔佳"]我很高兴你能理解联合大会的理想，索尼娅。
+[name="凛冬"]奥尔佳，我会参加，也会配合你的行动，但你也要答应我一个条件。
+[name="凛冬"]任何自己不愿意参与的、没有行动经验的普通学生，都可以自由退出，并且不影响他们未来在联合大会的位置。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image]
+[Background(image="72_g2_sjbstreet_n",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_breezeblow_amb",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=2)]
+[Delay(time=1)]
+[charslot(slot = "l", name = "avg_194_leto_1#5$1",focus="l")]
+[charslot(slot = "r", name = "avg_196_sunbr_1#1$1",focus="l")]
+[name="烈夏"]呼......总算结束了。
+[charslot(slot = "l", name = "avg_194_leto_1#12$1",focus="l")]
+[name="烈夏"]和那帮贵族学生打交道简直气得人脑门疼......嘶，没想到圣骏堡的晚上已经这么冷了。
+[Dialog]
+[playMusic(intro="$warm_intro", key="$warm_loop", volume=0.6)]
+[StopSound(channel="f", fadetime=2)]
+[charslot(slot = "r",afrom=1,ato=1, name = "avg_196_sunbr_1#3$1",posfrom="0,0",posto="-50,0",duration=0.5)]
+[Delay(time=0.5)]
+[charslot(slot = "r",name = "avg_196_sunbr_1#3$1",focus="r")]
+[name="古米"]烈夏姐，古米帮你挡挡风！
+[Dialog]
+[charslot(slot = "l",afrom=1,ato=1,  name = "avg_194_leto_1#1$1",posfrom="0,0",posto="50,0",duration=0.5)]
+[Delay(time=0.5)]
+[charslot(slot = "l", name = "avg_194_leto_1#1$1",focus="l")]
+[name="烈夏"]谢谢你小古米！
+[Dialog]
+[PlaySound(key="$d_avg_clothtrailground")]
+[Delay(time=1.5)]
+[charslot(slot = "l",afrom=1,ato=1, name = "avg_194_leto_1#5$1",posfrom="50,0",posto="20,0",duration=0.5)]
+[Delay(time=0.5)]
+[charslot(slot = "l", name = "avg_194_leto_1#5$1",focus="l")]
+[name="烈夏"]啊，摸到了，蜂蜜糖！
+[charslot(slot = "r", name = "avg_196_sunbr_1#9$1",focus="r")]
+[name="古米"]烈夏姐！你太狡猾了！
+[charslot(slot = "l", name = "avg_194_leto_1#3$1",focus="l")]
+[name="烈夏"]古米才是！你还骗我没有蜂蜜糖了！
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2156_1#8$1",focus="l")]
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="真理"]索尼娅......？
+[charslot(slot = "r", name = "avg_1051_headb2_1#4$1",focus="r")]
+[name="凛冬"]抱歉，安娜，还有大家，我擅自替你们做了决定。
+[charslot(slot = "l", name = "avg_npc_2156_1#6$1",focus="l")]
+[name="真理"]我不是这个意思......
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_197_poca_1#1$1")]
+[name="早露"]为什么要道歉呢，索尼娅？你没有替我们决定什么，是我们自己决定和你一起行动的。
+[charslot(slot = "m", name = "avg_197_poca_1#2$1")]
+[name="早露"]再说了，如果真的在那个时候和联合大会闹翻脸，只会给我们接下来的行动增添更多麻烦吧。
+[charslot(slot = "m", name = "avg_197_poca_1#1$1")]
+[name="早露"]作为团长，索尼娅一直努力在做正确的事，我们都相信你。
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2156_1#1$1",focus="l")]
+[charslot(slot = "r", name = "avg_1051_headb2_1#4$1",focus="l")]
+[name="真理"]娜塔莉娅说得没错......可是索尼娅，你答应奥尔佳的方案是为了给自治团解围，还是确实愿意支持她的行动？
+[charslot(slot = "r", name = "avg_1051_headb2_1#11$1",focus="r")]
+[name="凛冬"]他们决定得很仓促，几乎毫无规划，我担心会闹出很严重的事故。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]我们接受过罗德岛的训练，如果真的发生了什么意外，我们可以帮上忙。
+[charslot(slot = "m", name = "avg_405_absin_1#8$2")]
+[name="苦艾"]索尼娅，我也支持你。
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2156_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]我只是在想......
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]为什么，我们会回到乌萨斯呢？
+[charslot(slot = "l", name = "avg_npc_2156_1#11$1",focus="l")]
+[name="真理"]罗德岛......因为乌萨斯还没有罗德岛的办事处，需要自治团在这里建立情报网络。
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]但我们完全可以选择做别的外勤工作来帮助罗德岛，实际上，我们来到圣骏堡以后，能做的也只是一些辅助工作。
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]离开罗德岛之前，我们一起讨论过。大家都同意，自治团一定要去争取在乌萨斯建立办事处的任务。
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]博士表示过担忧，最后还是同意了我们的决定......
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_197_poca_1#2$1")]
+[name="早露"]实际上，博士是希望我们，可以回归正常的生活吧。
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_194_leto_1#7$1",focus="r")]
+[charslot(slot = "r", name = "avg_196_sunbr_1#5$1",focus="r")]
+[name="古米"]可是......这里和古米想象中正常的生活一点也不一样......
+[charslot(slot = "r", name = "avg_196_sunbr_1#5$1",focus="r")]
+[name="古米"]大家好像永远都在吵架，虽然不会饿肚子，但是一点也不开心。
+[charslot(slot = "l", name = "avg_194_leto_1#4$1",focus="l")]
+[name="烈夏"]这个倒是真的，在这里碰上的每一个人都是这样，说着没头没脑的话，实际上什么都不懂。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_405_absin_1#9$2")]
+[name="苦艾"]我也不知道，这是因为我们不熟悉圣骏堡，还是我们自己不愿意去接触别人......
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_197_poca_1#15$1")]
+[name="早露"]也许，我们只是离开乌萨斯的生活太久，需要多花一点时间......
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2156_1#5$1",focus="l")]
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="真理"]......我们从没有真正离开切尔诺伯格，对吗？
+[dialog]
+[charslot]
+[BackgroundTween(image="72_g2_sjbstreet_n", duration=5, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.05, yScaleTo=1.05, block=false)]
+昏黄的路灯下，女孩们的脸庞朦胧地映在街道边的橱窗上，圣骏堡的冬夜居然如此安静而漫长。
+她们站在石砖铺成的老街上，脚下成块的积雪被踩进了缝隙，渗进泥土。
+[dialog]
+[charslot(slot = "l", name = "avg_npc_2156_1#5$1",focus="r")]
+[charslot(slot = "r", name = "avg_1051_headb2_1#12$1",focus="r")]
+[name="凛冬"]我们早该去做一次郑重的告别了，告别那个旧的、毫无生气的地方。
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]如果一直躲藏下去，记忆里的乌萨斯，就会永远是碎石下的焦土......我绝不承认，那是我们的故乡。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_197_poca_1#4$1")]
+[name="早露"]那是乌萨斯的过去，如果我们什么都不做的话，那也会成为乌萨斯的将来。
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2156_1#9$1",focus="l")]
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="l")]
+[name="真理"]......自治团比他们更早地见识过火焰，即使机会再怎么微小，我们也该尽力想出最好的方案。
+[charslot(slot = "r", name = "avg_1051_headb2_1#2$1",focus="r")]
+[name="凛冬"]在圣骏堡站稳脚跟需要积累更多的同伴，这是我们最初加入联合大会的原因。
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_194_leto_1#8$1",focus="r")]
+[charslot(slot = "r", name = "avg_196_sunbr_1#3$1",focus="r")]
+[name="古米"]古米也想去帮助新的朋友！
+[charslot(slot = "l", name = "avg_194_leto_1#8$1",focus="l")]
+[name="烈夏"]哈，更何况，自治团从来就没退缩过。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]......嗯！
+[PlaySound(key="$d_avg_breezeblow_amb",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=2)]
+[stopmusic(fadetime=2)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]卓娅，你还好吗？
+[charslot(slot = "m", name = "avg_405_absin_1#9$2")]
+[name="苦艾"]......
+[StopSound(channel="f", fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot]
+[Background(image="66_g12_deitygrypherburgmeeting",screenadapt="coverall")]
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$mist_intro",key="$mist_loop", volume=0.6)]
+[name="仲裁人"]......卓娅女士？卓娅女士？
+[name="仲裁人"]你在听吗？
+[charslot(slot = "m", name = "avg_405_absin_1#4$2")]
+[name="苦艾"]......
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]抱歉，仲裁人阁下。
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]在听证会重述联合大会细节的时候，难免会有些情绪波动，毕竟那对我来说是个艰难的时刻。
+[charslot(slot = "m", name = "avg_npc_2168_1#1$1")]
+[name="仲裁人"]理解。
+[name="仲裁人"]想必在座的诸位已经知悉了“卡托加事件”的背景，但作为事件的开端，关于冬季舞会内外的情况，还希望你再做一次详细说明。
+[charslot(slot = "m", name = "avg_405_absin_1#1$2")]
+[name="苦艾"]好的，阁下。
+[charslot(slot = "m", name = "avg_405_absin_1#7$2")]
+[name="苦艾"]舞会结束后不久，我与参加舞会的部分人士，以及参与行动的部分学生都有所交流。
+[name="苦艾"]因此得知在舞会当天，出现了一件令人意外的“事故”——
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Background]
+[Image]

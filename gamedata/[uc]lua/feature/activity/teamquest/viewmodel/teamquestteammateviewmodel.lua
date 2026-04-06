@@ -1,3 +1,4 @@
+local luaUtils = CS.Torappu.Lua.Util;
 
 
 
@@ -31,10 +32,7 @@ function TeamQuestTeammateViewModel:LoadData(mateInfo, friendStatus)
     self.skinTmpl = tmpl ~= nil and tmpl or 0
   end
 
-  if mateInfo.avatar ~= nil then
-    self.avatarType = mateInfo.avatar.type
-    self.avatarId = mateInfo.avatar.id
-  end
+  self.avatarQuery = luaUtils.GetAvatarQueryFromPlayerStatus(mateInfo);
 end
 
 return TeamQuestTeammateViewModel

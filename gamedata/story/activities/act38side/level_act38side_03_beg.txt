@@ -713,7 +713,7 @@
 [Effect(name="$e_slash_02_s",layer = 1,rox=120,y=-200,roy=88,x=400)]
 [charslot(slot = "m",posfrom = "0,0", posto = "100,-30",duration=0.3)]
 [delay(time=0.1)]
-[charslot(slot = "r", name = "char_144_red_7#5",duration=0.2,posfrom = "150,0", posto = "150,0")]
+[charslot(slot = "r", name = "char_144_red_7#5",duration=0.2,posfrom = "150,0", posto = "150,0",isCopy=true)]
 [playsound(key="$swordtsing4")]
 [delay(time=0.3)]
 [playsound(key="$d_avg_ftrub")]

@@ -84,11 +84,7 @@ function TeamQuestTeammateItemView:Render(mateModel, mainModel)
   self._textId.text = tostring(mateModel.uid)
   self._textLv.text = tostring(mateModel.level)
   
-  local avatarInfo = nil
-  if self.m_avatarView ~= nil and mateModel.avatarType ~= nil and mateModel.avatarId ~= nil then
-    avatarInfo = luaUtils.CreateAvatarInfo(mateModel.avatarType, mateModel.avatarId)
-  end
-  self.m_avatarView:Render(avatarInfo)
+  self.m_avatarView:Render(mateModel.avatarQuery);
 
   local nameCardStyle = self:_LoadNameCardStyle(mateModel.skinId, mateModel.skinTmpl)
   local bgNameCard = nil

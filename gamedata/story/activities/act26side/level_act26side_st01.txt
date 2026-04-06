@@ -167,10 +167,10 @@
 [charslot(slot = "m", name = "avg_1032_excu2_1#1$1",bstart=0.2,bend=0.7,focus="m")]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]
 [delay(time=0.5)]
-[charslot(slot = "l", name = "avg_1032_excu2_1#1$1",posfrom = "0,0", posto = "200,0",focus="n")]
-[charslot(slot = "m", name = "avg_1032_excu2_1#1$1",bstart=0,bend=0,duration=1,focus="m")]
+[charslot(slot = "l", name = "avg_1032_excu2_1#1$1",posfrom = "0,0", posto = "200,0",focus="n",isCopy=true)]
+[charslot(slot = "m", name = "avg_1032_excu2_1#1$1",bstart=0,bend=0,duration=1,focus="m",isCopy=true)]
 [delay(time=1)]
-[charslot(slot="m",name="avg_1032_excu2_1#1$1",focus="m")]
+[charslot(slot="m",name="avg_1032_excu2_1#1$1",focus="m",isCopy=true)]
 [name="费德里科"]可以。
 [Dialog]
 [charslot]

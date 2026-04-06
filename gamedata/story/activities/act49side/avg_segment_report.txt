@@ -1,0 +1,226 @@
+============================================================
+AVG 演出指令段分析报告 (act49side)
+样本目录: Story/Activities/act49side
+文本指令: dialog, subtitle, aside (含无方括号纯文字->dialog)
+演出指令段: 相邻两条文本指令之间的全部非文本指令
+============================================================
+
+【1. 文件与段落概览】
+  参与文件数: 32
+  演出指令段总数: 3895 (非空: 3895)
+    level_act49side_09_end.txt: 289 段
+    level_act49side_01_end.txt: 243 段
+    level_act49side_01_beg.txt: 209 段
+    level_act49side_08_beg.txt: 197 段
+    level_act49side_st02.txt: 194 段
+    level_act49side_03_beg.txt: 192 段
+    level_act49side_06_beg.txt: 187 段
+    level_act49side_10_beg.txt: 177 段
+    level_act49side_06_end.txt: 173 段
+    level_act49side_08_end.txt: 171 段
+    level_act49side_03_end.txt: 163 段
+    level_act49side_05_beg.txt: 162 段
+    level_act49side_10_end.txt: 158 段
+    level_act49side_st01.txt: 157 段
+    level_act49side_07_end.txt: 155 段
+    level_act49side_04_end.txt: 147 段
+    level_act49side_11_end.txt: 144 段
+    level_act49side_02_end.txt: 142 段
+    level_act49side_09_beg.txt: 135 段
+    level_act49side_02_beg.txt: 133 段
+    ... 其余 12 个文件
+
+【2. 段落长度分布】
+  长度 1: 2812 次 (72.2%)
+  长度 2: 290 次 (7.4%)
+  长度 3: 218 次 (5.6%)
+  长度 4: 85 次 (2.2%)
+  长度 5: 77 次 (2.0%)
+  长度 6: 75 次 (1.9%)
+  长度 7: 77 次 (2.0%)
+  长度 8: 47 次 (1.2%)
+  长度 9: 45 次 (1.2%)
+  长度 10: 35 次 (0.9%)
+  长度 11: 27 次 (0.7%)
+  长度 12: 23 次 (0.6%)
+  长度 13: 15 次 (0.4%)
+  长度 14: 14 次 (0.4%)
+  长度 15: 7 次 (0.2%)
+  长度 16: 9 次 (0.2%)
+  长度 17: 7 次 (0.2%)
+  长度 18: 5 次 (0.1%)
+  长度 19: 6 次 (0.2%)
+  长度 20: 4 次 (0.1%)
+  长度 21: 2 次 (0.1%)
+  长度 22: 1 次 (0.0%)
+  长度 23: 1 次 (0.0%)
+  长度 24: 1 次 (0.0%)
+  长度 27: 2 次 (0.1%)
+  长度 28: 2 次 (0.1%)
+  长度 29: 1 次 (0.0%)
+  长度 32: 1 次 (0.0%)
+  长度 38: 1 次 (0.0%)
+  长度 40: 1 次 (0.0%)
+  长度 41: 1 次 (0.0%)
+  长度 42: 1 次 (0.0%)
+  长度 45: 1 次 (0.0%)
+  长度 47: 1 次 (0.0%)
+  最长段落: 47 条指令
+
+【3. 演出指令出现频次 (Top 30)】
+  charslot: 4520
+  delay: 1136
+  blocker: 944
+  playsound: 627
+  background: 247
+  stopmusic: 145
+  camerashake: 130
+  playmusic: 120
+  stopsound: 106
+  bgeffect: 102
+  image: 96
+  sticker: 89
+  curtain: 66
+  createeffect: 53
+  cameraeffect: 52
+  effect: 50
+  playanim: 50
+  soundvolume: 48
+  focusout: 45
+  header: 32
+  imagetween: 31
+  popupdialog: 30
+  backgroundtween: 28
+  animtext: 27
+  animtextclean: 27
+  avgdisplay: 23
+  battle.pause: 20
+  multiline: 18
+  hidecgitem: 17
+  inputblocker: 17
+
+【4. 单指令段 (仅一条演出指令)】
+  [charslot]: 2652 次
+  [stopmusic]: 56 次
+  [blocker]: 38 次
+  [playsound]: 26 次
+  [delay]: 25 次
+  [stopsound]: 5 次
+  [focusout]: 2 次
+  [camerashake]: 2 次
+  [playmusic]: 1 次
+  [multiline]: 1 次
+  [soundvolume]: 1 次
+  [cameraeffect]: 1 次
+  [theater]: 1 次
+  [playanim]: 1 次
+
+【5. 双指令段 常见搭配 (Top 25)】
+  [charslot] -> [charslot]: 102 次
+  [blocker] -> [charslot]: 23 次
+  [charslot] -> [delay]: 21 次
+  [playsound] -> [charslot]: 18 次
+  [charslot] -> [playsound]: 18 次
+  [header] -> [stopmusic]: 12 次
+  [playsound] -> [delay]: 12 次
+  [delay] -> [charslot]: 10 次
+  [camerashake] -> [charslot]: 7 次
+  [playmusic] -> [charslot]: 6 次
+  [camerashake] -> [playsound]: 5 次
+  [camerafocusto] -> [delay]: 5 次
+  [blocker] -> [blocker]: 3 次
+  [charslot] -> [stopsound]: 2 次
+  [playsound] -> [playsound]: 2 次
+  [image] -> [imagetween]: 2 次
+  [charslot] -> [stopmusic]: 2 次
+  [playsound] -> [camerashake]: 2 次
+  [playsound] -> [blocker]: 2 次
+  [image] -> [delay]: 2 次
+  [playsound] -> [stopsound]: 2 次
+  [bgeffect] -> [charslot]: 2 次
+  [stopmusic] -> [charslot]: 2 次
+  [charslot] -> [camerashake]: 2 次
+  [stopsound] -> [charslot]: 2 次
+
+【6. 段落首指令 (段前常见)】
+  charslot: 3090
+  blocker: 273
+  playsound: 172
+  delay: 92
+  stopmusic: 74
+  header: 32
+  stopsound: 30
+  camerashake: 26
+  playmusic: 17
+  sticker: 14
+  image: 9
+  bgeffect: 8
+  playanim: 7
+  avgdisplay: 6
+  background: 5
+  effect: 5
+  cameraeffect: 5
+  camerafocusto: 5
+  animtext: 3
+  curtain: 3
+
+【7. 段落尾指令 (段后常见，即紧接文本前的指令)】
+  charslot: 3170
+  delay: 310
+  blocker: 126
+  stopmusic: 88
+  playsound: 80
+  stopsound: 17
+  playmusic: 16
+  image: 13
+  camerashake: 13
+  focusout: 8
+  background: 7
+  soundvolume: 6
+  multiline: 5
+  battle.pause: 5
+  bgeffect: 4
+  sticker: 3
+  effect: 3
+  playanim: 3
+  avgdisplay: 2
+  imagetween: 2
+
+【8. 常见指令组合 (按指令集合，Top 20)】
+  {charslot}: 2821 次
+  {charslot, delay}: 97 次
+  {charslot, delay, playsound}: 74 次
+  {charslot, playsound}: 58 次
+  {stopmusic}: 56 次
+  {blocker}: 42 次
+  {blocker, charslot}: 34 次
+  {playsound}: 29 次
+  {delay}: 25 次
+  {blocker, charslot, delay}: 16 次
+  {background, blocker, charslot, delay, playmusic}: 15 次
+  {delay, playsound}: 15 次
+  {background, blocker, charslot, delay}: 14 次
+  {charslot, delay, playsound, stopsound}: 13 次
+  {header, stopmusic}: 12 次
+  {blocker, header, stopmusic}: 12 次
+  {bgeffect, blocker, charslot, delay, ...} (7 种): 11 次
+  {blocker, charslot, delay, playsound}: 10 次
+  {camerashake, playsound}: 10 次
+  {camerashake, charslot}: 9 次
+
+【9. 典型演出指令段示例】
+  长度 1 示例:
+    [delay] [delay(time=1)]
+  长度 2 示例:
+    [header] [HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+    [stopmusic] [stopmusic]
+  长度 3 示例:
+    [charslot] [charslot]
+    [playsound] [PlaySound(key="$d_avg_slmddrprn",volume=0, channel="f", loop=true)]
+    [soundvolume] [SoundVolume(volume=1, channel="f",fadetime=2)]
+  长度 5 示例:
+    [avgdisplay] [avgdisplay(id = "1",style = "bg",name = "bg_black",afrom=0.6,ato=0,du...
+    [avgdisplay] [avgdisplay(id = "1")]
+    [playsound] [PlaySound(key="$d_avg_rainheavy_loop", volume=0, loop=true, channel="...
+    [soundvolume] [SoundVolume(volume=0.8, channel="ra",fadetime=1)]
+    [charslot] [charslot(slot = "m", name = "avg_1050_chen3_1#11$2",focus="m")]

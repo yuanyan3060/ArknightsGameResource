@@ -411,7 +411,7 @@
 [character]
 [PlaySound(key="$d_gen_soldiersrun",volume=0.8)]
 [charslot(slot="r",name="char_015_lmg",duration=2)]
-[charslot(slot="l",name="char_015_lmg",duration=2)]
+[charslot(slot="l",name="char_015_lmg",duration=2,isCopy=true)]
 [delay(time=3)]
 [dialog]
 [PlaySound(key="$rungeneral", volume=1)]

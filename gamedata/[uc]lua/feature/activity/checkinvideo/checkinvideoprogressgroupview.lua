@@ -5,6 +5,7 @@
 
 
 
+
 local CheckinVideoProgressGroupView = Class("CheckinVideoProgressGroupView", UIPanel);
 
 local CheckinVideoProgressItemView = require("Feature/Activity/CheckinVideo/CheckinVideoProgressItemView");
@@ -22,6 +23,7 @@ function CheckinVideoProgressGroupView:OnViewModelUpdate(data)
   self.m_cachedIndex = data.currFocusItem;
   self.m_cachedItemList = data.itemList;
   self.m_cachedEnter = data.isEnter;
+  self.m_cachedDotColor = data.progressDotCol;
   
   if self.m_progressAdapter ~= nil then
     self.m_progressAdapter:NotifyDataSetChanged();
@@ -50,7 +52,7 @@ function CheckinVideoProgressGroupView:_UpdateProgressItem(index, view)
     return;
   end
   local idx = index + 1;
-  view:Render(self.m_cachedItemList[idx], idx == self.m_cachedIndex, self.m_cachedEnter);
+  view:Render(self.m_cachedItemList[idx], idx == self.m_cachedIndex, self.m_cachedEnter, self.m_cachedDotColor);
 end
 
 return CheckinVideoProgressGroupView;

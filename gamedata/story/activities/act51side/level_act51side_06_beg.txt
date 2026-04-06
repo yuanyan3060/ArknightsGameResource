@@ -1,0 +1,658 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="72_g5_blockalley",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$m_dia_street_intro",key="$m_dia_street_loop", volume=0.6)]
+[playsound(key="$d_avg_soldiersstep", loop=true, channel="bgs")]
+[Delay(time=2)]
+[StopSound(channel="bgs", fadetime=2)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1",duration = 0.5)]
+[delay(time=1)]
+[name="凛冬"]......米科拉，你在干什么？
+[charslot(slot = "m", name = "avg_npc_2177_1#1$1")]
+[name="乌萨斯学生A"]报告，有人没跟上——
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]所以你就放弃维持队伍左翼的队形？重新走一遍！
+[Dialog]
+[charslot]
+[playsound(key="$d_avg_soldiersstep", loop=true, channel="bgs")]
+[Delay(time=1)]
+[StopSound(channel="bgs", fadetime=2)]
+[Delay(time=0.5)]
+[CameraShake(duration=0.2, xstrength=10, ystrength=10, vibrato=20, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_stickimp")]
+[Blocker(a=0, r=0, g=0, b=0, afrom=0.8, rfrom=1, gfrom=1, bfrom=1, fadetime=0.3, block=true)]
+[Delay(time=0.5)]
+[CameraShake(duration=0.2, xstrength=15, ystrength=15, vibrato=20, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_metallicclick",channel="3")]
+[Blocker(a=0, r=0, g=0, b=0, afrom=0.8, rfrom=1, gfrom=1, bfrom=1, fadetime=0.3, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]好，拿长枪上来，顶住我的盾牌，把我逼到角落里。
+[charslot(slot = "m", name = "avg_npc_2179_1#1$1")]
+[name="乌萨斯学生B"]报告索尼娅，你的力气太大了，我们推不动。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]不是你们推不动，是你们劲儿使得不够齐。
+[charslot(slot = "m", name = "avg_1051_headb2_1#11$1")]
+[name="凛冬"]记住，我们不是什么散兵游勇。乌萨斯不保护我们，所以我们每个人都要当彼此的堡垒。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]明白了吗？
+[PlaySound(key="$d_avg_crwdcheerup")]
+[CameraShake(duration=0.3, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot]
+[name="众人"]明白！
+[Dialog]
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1")]
+[Delay(time=0.5)]
+[charslot(slot = "l", name = "avg_194_leto_1#1$1",posfrom = "-150,0", posto = "0,0",duration = 0.8)]
+[Delay(time=1.3)]
+[charslot(slot = "l", name = "avg_194_leto_1#1$1",focus="l")]
+[name="烈夏"]嘿！冬将军，还在训练呢？
+[charslot(slot = "r", name = "avg_1051_headb2_1#2$1",focus="r")]
+[name="凛冬"]刚回来吗？辛苦啦。
+[name="凛冬"]今天情况怎么样？
+[charslot(slot = "l", name = "avg_194_leto_1#8$1",focus="l")]
+[name="烈夏"]好消息，昨天还摆出来耀武扬威的大炮和重武器，今天全不见了。
+[name="烈夏"]尼卡那边还发现，有些人在往外搬物资，看着像是些军火。
+[name="烈夏"]娜塔莉娅她们成功了，索尼娅。
+[charslot(slot = "r", name = "avg_1051_headb2_1#2$1",focus="r")]
+[name="凛冬"]......不愧是她们。
+[charslot(slot = "l", name = "avg_194_leto_1#8$1",focus="l")]
+[name="烈夏"]还有，就像之前我们聊过的那样，格罗莫夫每晚都驻扎在封锁区内的某处营地，只有巴普洛维奇才住在城墙上面。
+[name="烈夏"]进攻城墙前，我们可以先消灭那些混混的主力。
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]还要找到更多食物和其他补给品，有人发现他们的仓库吗？
+[charslot(slot = "l", name = "avg_194_leto_1#9$1",focus="l")]
+[name="烈夏"]没有......现在的粮食还能撑多久？
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]最多三天，无缚者同盟那边也快见底了，我们欠安托沙的已经太多。
+[charslot(slot = "r", name = "avg_1051_headb2_1#11$1",focus="r")]
+[name="凛冬"]关于食物的事，我搞砸过一次......我不能——
+[charslot(slot = "l", name = "avg_194_leto_1#8$1",focus="l")]
+[name="烈夏"]快握住我的手！冬将军，不会有事的，我们一定能挺过去。
+[charslot(slot = "r", name = "avg_1051_headb2_1#4$1",focus="r")]
+[name="凛冬"]得抓紧训练了，烈夏，我有预感，接下来的几天会决定我们的命运。
+[charslot(slot = "l", name = "avg_194_leto_1#7$1",focus="l")]
+[name="烈夏"]那现在愿意上战场的人......
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]出乎意料地多，这几天的行军训练很有成效，大家都看在眼里。其他人也愿意帮助我们去做医疗和后勤工作。
+[charslot(slot = "r", name = "avg_1051_headb2_1#2$1",focus="r")]
+[name="凛冬"]在我们这个年纪，最不肯向不公低头了，对吗？
+[charslot(slot = "l", name = "avg_194_leto_1#8$1",focus="l")]
+[name="烈夏"]哼，那也是你做得好。
+[name="烈夏"]说起来，那个叫费佳的，他不是学生，也愿意参与行动吗？
+[charslot(slot = "r", name = "avg_1051_headb2_1#1$1",focus="r")]
+[name="凛冬"]嗯......我不知道能不能信任他。
+[name="凛冬"]直到现在，他的来历也是个谜，但他很有决心。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="72_g6_blockcamp",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2178_1#2$1",duration = 0.5)]
+[delay(time=1)]
+[name="“铅笔头”"]费佳！我找到了一个带肉的罐头，一起来吃点吗？
+[charslot(slot="m",name="avg_npc_2155_1#8$1")]
+[name="费佳"]......不了，谢谢。
+[charslot(slot="m",name="avg_npc_2176_1#2$1")]
+[name="叶列梅"]别逼他了，“铅笔头”。你和费佳不熟，不知道他喜欢一个人待着吧？
+[charslot(slot = "m", name = "avg_npc_2178_1#2$1")]
+[name="“铅笔头”"]都认识好几天了，哪有你说的那么生分。
+[name="“铅笔头”"]对了，费佳，你看起来不像是学生，也不像是工人。
+[name="“铅笔头”"]我到现在都不知道，你是怎么到了这个鬼地方的。
+[charslot(slot="m",name="avg_npc_2155_1#2$1")]
+[name="费佳"]......抱歉，那是绝对不能说的。
+[charslot(slot = "m", name = "avg_npc_2178_1#4$1")]
+[name="“铅笔头”"]欸？
+[charslot(slot="m",name="avg_npc_2176_1#4$1")]
+[name="叶列梅"]你到底是......
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="72_g13_nobleroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>1101年12月24日</><p=2>冬季舞会开始前半个小时</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[playMusic(intro="$escape_intro",key="$escape_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_1984_1#1$1",duration=1)]
+[delay(time=2)]
+[name="维特"]陛下，时间不多了，我恳请您最后再考虑一下。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2155_1#1$2",duration=1)]
+[delay(time=2)]
+[name="费奥多尔"]考虑，是的，我的确在考虑——我在考虑，或许我们真的应该把这些脑满肠肥的老东西统统送去喂蓄肉蝎。
+[name="费奥多尔"]这样一来，我们不仅可以直接没收他们的家产拿到一大笔收入，还能得到一批肉质鲜美的蓄肉蝎。
+[charslot(slot="m",name="avg_npc_1984_1#1$1")]
+[name="维特"]陛下......我完全理解您的愤怒。
+[name="维特"]可您也应该清楚，比起那些忠诚可以明码标价的产业贵族，这些资历更老的贵族是更愿意与您站在一起的。
+[name="维特"]尤其是当您想要震慑住现在还盘踞在涅瓦湖彼岸的集团军的时候，您的确需要更多声音站在您这一边。
+[charslot(slot="m",name="avg_npc_2155_1#2$2")]
+[name="费奥多尔"]这是他们可以与我讨价还价的资本、向我施压的底牌？
+[name="费奥多尔"]今年冬天连我的宫殿都快烧不起暖炉了，他们竟然还胆敢向我讨要源石去供给他们那个毫无产出的卡托加区？
+[charslot(slot="m",name="avg_npc_2155_1#7$2")]
+[name="费奥多尔"]他们在意的是那点微不足道的利益吗？他们只是想用这种方式来向我彰显他们的存在，试图让我低头！我岂能让他们如愿？
+[name="费奥多尔"]远北的女大公、集团军，还有这些旧贵族......
+[charslot(slot="m",name="avg_npc_2155_1#5$2")]
+[name="费奥多尔"]乌萨斯何时养出了这么多蛀虫，一个个等着舔舐血液，有一点风吹草动，他们就会造势宣扬我们的虚弱无力，对圣骏堡动手！
+[charslot(slot="m",name="avg_npc_2155_1#7$2")]
+[name="费奥多尔"]回答我，维特......回答说我们依然能得到这些人的尊重，即便我答应他们无理的请求，也不会被他们视作软弱。
+[name="费奥多尔"]并且你还能驱使那些老勋贵去战场上拼命，把第四集团军赶回他们原本的驻地——否则就别拿这件事烦我！
+[charslot(slot="m",name="avg_npc_1984_1#1$1")]
+[name="维特"]陛下......
+[charslot(slot="m",name="avg_npc_2155_1#4$2")]
+[name="费奥多尔"]维特，有时候我的确会想，乌萨斯的身上已经生长出了太多腐肉，就像他们力图保下的那个卡托加区，还有他们自己。
+[charslot(slot="m",name="avg_npc_1984_1#1$1")]
+[name="维特"]您说得没错，乌萨斯的确是病了。可稍有常识的医生都清楚，对于重病的病人，是不能用猛药的。
+[name="维特"]我们的源石储备已经岌岌可危了，在我们得出具体的解决方案之前，您更需要尽一切可能阻止分裂势力继续在乌萨斯内部滋长。
+[charslot(slot="m",name="avg_npc_1984_1#8$1")]
+[name="维特"]否则这些内在的矛盾，一定会先于外敌和自然环境毁灭我们。
+[charslot(slot="m",name="avg_npc_2155_1#7$2")]
+[name="费奥多尔"]太棒了，我们伟大的乌萨斯简直就像舞会上的高卢蛋卷一样酥脆，随便谁轻轻一碰就能让她四分五裂。
+[charslot(slot="m",name="avg_npc_1984_1#1$1")]
+[name="维特"]实际上，这并不需要您做太多事。
+[name="维特"]您只需要像往常那样安抚他们的情绪，告诉他们，乌萨斯依然需要他们的效忠，您也同样有意保护他们的利益。
+[name="维特"]剩下的，我会代您完成。
+[charslot(slot="m",name="avg_npc_2155_1#1$2")]
+[name="费奥多尔"]......你想做什么，就去做什么吧，维特。
+[charslot(slot="m",name="avg_npc_2155_1#2$2")]
+[name="费奥多尔"]我已经习惯了，每次我想做什么，都会被那些挂勋章的骷髅和涂脂粉的臭虫妨碍......他们不在乎乌萨斯，更不在乎我。
+[charslot(slot="m",name="avg_npc_1984_1#1$1")]
+[name="维特"]那就请您在出席舞会的时候，向他们说明这一点吧。
+[charslot(slot="m",name="avg_npc_2155_1#4$2")]
+[name="费奥多尔"]......就不能交给你和副议长吗？我今天很累了。
+[charslot(slot="m",name="avg_npc_1984_1#10$1")]
+[name="维特"]陛下，这不合礼数。
+[name="维特"]您不能连续两年拒绝出席冬季舞会，何况在这个人心动荡的时候，每个臣民都盼望着您能带给大家一些信心——
+[charslot(slot="m",name="avg_npc_2155_1#7$2")]
+[name="费奥多尔"]好吧好吧，我会去的，再给我一点时间！求你不要再啰嗦了，这个冬天让人心烦的事已经够多了。
+[charslot(slot="m",name="avg_npc_2155_1#8$2")]
+[name="费奥多尔"]下去吧维特......抱歉。
+[Dialog]
+[charslot(slot="m",name="avg_npc_1984_1#1$1")]
+[charslot(duration=1)]
+[delay(time=1)]
+[PlaySound(key="$doorclosequite")]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2155_1#7$2")]
+[name="费奥多尔"]*极端的乌萨斯粗口*......
+[charslot(slot = "m", focus = "n")]
+费奥多尔从房间的窗户向外望去，圣骏堡的街道完全不似往年繁华。
+[charslot(slot="m",name="avg_npc_2155_1#1$2")]
+[name="费奥多尔"]这么冷的冬天......多需要一把火啊。
+[Dialog]
+[PlaySound(key="$d_avg_spotlightc")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="费奥多尔"]怎么回事......停电了？
+[Dialog]
+[playsound(key="$d_avg_riot", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.3, channel="bgs",fadetime=2)]
+[name="激愤的学生"]打倒傻*乌萨斯粗口*皇帝！打倒傻*乌萨斯粗口*皇帝！打倒傻*乌萨斯粗口*皇帝！
+[name="激愤的学生"]让吸血虫维特滚出来！让草包费奥多尔滚出来！
+[Dialog]
+[charslot]
+[delay(time=1)]
+[bgeffect(name="$eb_burn",layer=1)]
+[playsound(key="$d_avg_churchfire", loop=true, channel="a",volume=0)]
+[SoundVolume(volume=0.4, channel="a",fadetime=2)]
+[Background(image="72_g2_sjbstreet_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[SoundVolume(volume=0.4, channel="bgs",fadetime=2)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2155_1#1$1",duration=1)]
+[delay(time=2)]
+[name="费奥多尔"]好，如你们所愿，我在这了。
+[charslot(slot="m",name="avg_npc_2155_1#2$1")]
+[name="费奥多尔"]还真是热闹......
+[Dialog]
+[charslot]
+[charslot(slot = "left", name = "avg_npc_2170_1#1$1",duration = 0.5)]
+[charslot(slot = "right", name = "avg_npc_2178_1#1$1",duration = 0.5)]
+[delay(time=1)]
+[charslot(slot ="r", action="shake", power=6, times=40, duration=0.3)]
+[delay(time=0.5)]
+[charslot(slot = "right",focus="r")]
+[name="恐惧的学生"]够了！别打了！求您放过我！
+[charslot(slot = "right",focus="l")]
+[name="高大的警察"]闭嘴！你竟敢侮辱皇帝陛下！卖国贼！
+[Dialog]
+[charslot(slot = "l",posfrom = "0,0", posto = "250,0",duration = 0.3)]
+[delay(time=0.2)]
+[charslot(slot = "r",posfrom = "0,0", posto = "150,0",duration = 0.5)]
+[PlaySound(key="$d_avg_punch")]
+[CameraShake(duration=0.3, xstrength=15, ystrength=15, vibrato=20, randomness=90, fadeout=true, block=true)]
+[PlaySound(key="$d_avg_dropspanner",channel="2",volume=0.7)]
+[delay(time=0.8)]
+[charslot(slot = "l",posfrom = "250,0", posto = "320,-50",duration = 0.3)]
+[delay(time=0.2)]
+[PlaySound(key="$d_avg_stickbeat")]
+[charslot(slot = "r",posfrom = "150,0", posto = "150,-50",duration = 0.3)]
+[CameraShake(duration=0.3, xstrength=25, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=true)]
+[charslot(slot = "l",posfrom = "320,-50", posto = "300,0",duration = 0.3)]
+[delay(time=0.3)]
+[charslot(slot = "l",posfrom = "300,0", posto = "350,-50",duration = 0.3)]
+[delay(time=0.2)]
+[charslot(slot = "r",posfrom = "150,-50", posto = "150,-100",duration = 0.4,afrom=1,ato=0)]
+[PlaySound(key="$d_avg_stickbeat")]
+[CameraShake(duration=0.3, xstrength=25, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=true)]
+[charslot(slot = "l",posfrom = "350,-50", posto = "350,0",duration = 0.3)]
+[delay(time=0.5)]
+[charslot(slot = "m", focus = "n")]
+警棍不断地砸在那个学生背上，似乎是因为用力太猛，警棍竟甩脱了手，飞落一旁，接着砸下的是皮靴、拳头......
+[Dialog]
+[charslot(slot="m",name="avg_npc_2155_1#7$1",duration=0.5,posfrom = "-300,0", posto = "-300,0")]
+[delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_2155_1#7$1",focus="m")]
+[name="费奥多尔"]嘿，够了，够了！他已经求饶了，你没必要下这么狠的手。
+[charslot(slot = "right",focus="l")]
+[name="高大的警察"]啊，差点把你漏了，这里还有一个卖国贼！
+[charslot(slot="m",name="avg_npc_2155_1#7$1",focus="m")]
+[name="费奥多尔"]卖国？哈，我卖给你，你打算用什么价来买？
+[charslot(slot = "right",focus="l")]
+[name="高大的警察"]还敢出言不逊！我看你也是找打！
+[Dialog]
+[charslot(slot = "l",posfrom = "350,0", posto = "150,0",duration = 0.3)]
+[delay(time=0.2)]
+[PlaySound(key="$fightgeneral")]
+[charslot(slot="m",duration=0.4,posfrom = "-300,0", posto = "-400,0")]
+[CameraShake(duration=0.3, xstrength=25, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=true)]
+[delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_2155_1#5$1",focus="m")]
+[name="费奥多尔"]放肆！
+[Dialog]
+[PlaySound(key="$fightgeneral")]
+[CameraShake(duration=0.3, xstrength=25, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot = "l",posfrom = "150,0", posto = "250,0",duration = 0.4)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.03, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot(slot = "right",focus="l")]
+[name="高大的警察"]啊——你居然敢打我！
+[charslot(slot="m",name="avg_npc_2155_1#5$1",focus="m")]
+[name="费奥多尔"]没错，是我打的。骄傲吧，以后你可以向你的孩子吹嘘，你被皇帝——
+[Dialog]
+[charslot(slot = "l",posfrom = "250,0", posto = "-50,0",duration = 0.5, block=true)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$fightgeneral", volume=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+不等费奥多尔的话说完，一只沉重的拳头便已砸上了他的颧骨。
+[Dialog]
+[StopSound(channel="a", fadetime=2)]
+[StopSound(channel="bgs", fadetime=2)]
+[charslot]
+[delay(time=1)]
+[PlaySound(key="$transmission")]
+[name="耳机里的声音"]滋啦......目标......逃走......抓捕，完成！结束！
+[name="耳机里的声音"]为了......滋啦......皇帝陛下！结束！
+[stopmusic(fadetime=2)]
+[Dialog]
+[PlaySound(key="$d_avg_tinnitus",volume=1)]
+[focusout(duration=2, type="bg", from=1, to=0, block=false)]
+[Background(image="72_g2_sjbstreet_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[delay(time=1)]
+费奥多尔从地上爬起时，随身佩戴的隐秘通讯装置已经摔落在了地面上，他来不及检查，连忙抓起装置重新塞进耳中。
+[playMusic(intro="$drift_intro",key="$drift_loop", volume=0.6)]
+[PlaySound(key="$transmission")]
+[name="耳机里的声音"]......
+[name="耳机里的声音"]............
+[charslot(slot="m",name="avg_npc_2155_1#3$1")]
+[name="费奥多尔"]......真是要命。
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]滋啦......
+[name="耳机里的声音"]情况不妙！有谁能听到我吗？
+[name="耳机里的声音"]所有学生联合大会成员，马上想办法逃离，前序的车辆在往郊区方向行驶！
+[name="耳机里的声音"]有任何能听到消息的人尽快回复我，伯塔尼结束！
+[charslot(slot="m",name="avg_npc_2155_1#6$1")]
+[name="费奥多尔"]等等——
+[Dialog]
+[charslot(slot = "left", name = "avg_npc_2170_1#1$1",duration = 0.5,posfrom = "-100,0", posto = "-100,0")]
+[charslot(slot = "right", name = "avg_npc_2170_1#1$1",duration = 0.5,posfrom = "100,0", posto = "100,0")]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_clothmovement_heavy1")]
+[CameraShake(duration=0.3, xstrength=20, ystrength=10, vibrato=10, randomness=90, fadeout=true, block=false)]
+[charslot(slot = "m",action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0.3)]
+[charslot(duration=0.3)]
+[delay(time=1)]
+几名警察上前，不由分说地将他推进了混乱的人群，装进了狭小的载具。
+在一片恐惧紧张的哭喊声中，载具向卡托加区驶去。
+[Dialog]
+[PlaySound(key="$d_avg_ironchain_lock")]
+[delay(time=1)]
+[PlaySound(key="$d_gen_doorclose",channel="2")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[bgeffect]
+[PlaySound(key="$transmission")]
+[name="耳机里的声音"]就这样......我们所有人都被抓了起来。
+[name="耳机里的声音"]没有解释，没有承诺，没有食物，没有帐篷。
+[name="耳机里的声音"]我们像垃圾一样被扔进了卡托加区。
+[Dialog]
+[delay(time=1)]
+[Background(image="72_g9_topwall",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2186_1#1$1",duration=0.5)]
+[delay(time=1)]
+[name="紧张的学生"]别怕，我来帮你！
+[charslot]
+稍矮的学生把费奥多尔护在身后，手里拿着一根不知何种生物的胫骨，朝围过来的牙兽不住地挥舞。
+[charslot(slot="m",name="avg_npc_2186_1#1$1")]
+[name="紧张的学生"]躲到我身后！我跟父亲去远北打过猎，我能对付这些家伙，相信我！
+[name="紧张的学生"]小心！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_stickimp")]
+[CameraShake(duration=0.3, xstrength=25, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2186_1#1$1")]
+[name="紧张的学生"]呼......它们跑了，好险。
+[Dialog]
+[charslot]
+[CameraShake(duration=0.2, xstrength=5, ystrength=15, vibrato=5, randomness=90, fadeout=true, block=true)]
+[PlaySound(key="$bodyfalldown2")]
+他气喘吁吁地摔坐进雪堆里。
+[charslot(slot="m",name="avg_npc_2155_1#11$1")]
+[name="费奥多尔"]你的胳膊，被咬伤了。
+[charslot(slot="m",name="avg_npc_2186_1#1$1")]
+[name="紧张的学生"]啊？嘶......你身上应该不会恰好带着医用酒精和绷带吧？
+[charslot(slot="m",name="avg_npc_2155_1#1$1")]
+[name="费奥多尔"]没有。但是，等我们出去后，我会帮你寻找圣骏堡最好的医生。
+[charslot(slot="m",name="avg_npc_2186_1#1$1")]
+[name="紧张的学生"]没那个必要，这里这么冷，也不见得一定会感染。
+[name="紧张的学生"]对了，你叫什么？
+[charslot(slot="m",name="avg_npc_2155_1#8$1")]
+[name="费奥多尔"]......费奥多尔。
+[charslot(slot="m",name="avg_npc_2186_1#1$1")]
+[name="紧张的学生"]看在刚刚帮了你一次的分上，请容许我叫你费佳吧。你叫我“小个子”就行，同学们都这么喊我。
+[charslot(slot="m",name="avg_npc_2155_1#1$1")]
+[name="费奥多尔"]你不介意？
+[charslot(slot="m",name="avg_npc_2186_1#1$1")]
+[name="“小个子”"]介意又改变不了什么......你要是没受伤，我就先走了。
+[charslot(slot="m",name="avg_npc_2155_1#2$1")]
+[name="费奥多尔"]等等，你是要去城墙那边？
+[charslot(slot="m",name="avg_npc_2186_1#1$1")]
+[name="“小个子”"]对，我的朋友告诉我，这里管事的人很好说话，给钱就能走。
+[name="“小个子”"]我凑了点钱，还不知道够不够，但至少先碰碰运气。
+[name="“小个子”"]哦，给你这个，压缩饼干。如果你想找个烤火的地方，我们学生在南边有个营地。
+[name="“小个子”"]再见啦，费佳——
+[charslot(slot="m",name="avg_npc_2155_1#1$1")]
+[name="费奥多尔"]......等等。
+[name="费奥多尔"]带上这些金币，应该足够你买通守卫了。
+[charslot]
+“小个子”脸上的表情几番变化，他向费奥多尔郑重地鞠了一躬，向城墙走去。
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="“小个子”"]求求您了，请听我讲——！
+[Dialog]
+[PlaySound(key="$knifegore")]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.3, r=1, g=0, b=0, fadetime=1, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[charslot(slot="m",name="avg_npc_2155_1#11$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="费奥多尔"]......
+[Dialog]
+[charslot(slot="m",focus="n")]
+[PlaySound(key="$transmission")]
+[delay(time=2)]
+[name="耳机里的声音"]滋滋......伯塔尼呼叫任何人，任何人，能听见吗？
+[name="耳机里的声音"]请给我回应......
+[name="耳机里的声音"]“十六人议会”的暴徒们正在殴打杀害学生，我们需要帮助！
+[name="耳机里的声音"]有没有人能听见？怎么所有频段都没人回应！
+[name="耳机里的声音"]难道我们已经被抛弃了吗？难道我们的哭喊嘶吼都是没有声音的吗？！
+[name="耳机里的声音"]那只是一堵墙，不是隔着一整个雪原！为什么......
+[name="耳机里的声音"]（哭泣）为什么没人能听见我们......
+[Dialog]
+[charslot(slot="m",name="avg_npc_2155_1#3$1")]
+[name="费奥多尔"]我到底应该......
+[charslot(slot = "m", focus = "n")]
+[PlaySound(key="$d_gen_transmissionget")]
+[name="耳机里的声音"]......伯塔尼，结束。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Dialog]
+[Background(image="72_g6_blockcamp",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(key="$monastery_sad_loop", volume=0.6)]
+......
+[Dialog]
+[charslot(slot="m",name="avg_npc_2155_1#1$1",duration=1)]
+[delay(time=1.5)]
+[PlaySound(key="$transmission")]
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]（沙哑的低语）第三百七十三次呼叫，呼叫任何人......
+[charslot(slot="m",name="avg_npc_2155_1#4$1")]
+[name="费奥多尔"]......
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]我们被困在圣骏堡卡托加区内，与外界失去了联系......
+[name="耳机里的声音"]在过去的一天内，仅仅我知道的，就有五位同学死于殴打和低温......我们身在乌萨斯光荣的首都，却挣扎在生死线上。
+[name="耳机里的声音"]而那些杀了我的同学的凶手，此刻就坐在我上方的房间......
+[charslot(slot="m",name="avg_npc_2155_1#6$1")]
+[name="费奥多尔"]......！
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]第三百七十四次呼叫，呼叫，呼叫——
+[name="耳机里的声音"]......伯塔尼，也许，你永远也没办法像远北的那个声音一样，你什么都改变不了。
+[name="耳机里的声音"]我到底该怎么做，才能被人听到，让这一切都得到拯救？
+[name="耳机里的声音"]（痛苦的干呕声）
+[name="耳机里的声音"]（抽泣）
+[charslot(slot="m",name="avg_npc_2155_1#1$1")]
+[name="费奥多尔"]第三百七十四次......你已经比圣骏堡所有的高官都有毅力了。
+[name="费奥多尔"]或许你没有意识到，自己在做一件了不起的事。
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]......啊？
+[name="耳机里的声音"]你能，听到我的声音？你是......
+[charslot(slot="m",name="avg_npc_2155_1#1$1")]
+[name="费奥多尔"]我......我是费佳，索尼娅营地里的人。
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]索尼娅的营地......我知道，但我过不去，不，我不敢......
+[name="耳机里的声音"]我混进了最后一辆车，来到了这里......我原本想将看到的真相，告诉圣骏堡人：这里的年轻人，正在遭受最残酷的暴力。
+[name="耳机里的声音"]但没有人能回应，没有人能听到......我躲藏的这个房间，还恰好是在那些暴徒的驻地的中心......
+[name="耳机里的声音"]今天他们住进了这里，磨好的刀就插在我躲着的衣柜上......我不知道，我现在都还感觉它在抖......
+[name="耳机里的声音"]我不敢过去跟你们会合，我会被抓住的。
+[name="耳机里的声音"]（抽泣）我什么都做不到——
+[charslot(slot="m",name="avg_npc_2155_1#2$1")]
+[name="费奥多尔"]既然如此......
+[name="费奥多尔"]你为什么还在说话？
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]......为什么？
+[charslot(slot="m",name="avg_npc_2155_1#1$1")]
+[name="费奥多尔"]暴徒就在你的周遭，理智的人会选择缄默，会屏蔽五感，仿佛发生的一切都与自己无关......
+[name="费奥多尔"]就像卡托加区的事情本就与你无关......你完全可以不发声，你活在危险与痛苦中，没有人能够苛责你。
+[name="费奥多尔"]然而你走进了封锁区，冒着暴露的风险，在他们眼皮底下重复念着无人听闻的噩耗，你相信每一遍重复，都会给学生们带来希望。
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]我能......带来希望......同学们需要......
+[charslot(slot="m",name="avg_npc_2155_1#7$1")]
+[name="费奥多尔"]或者你能给出更好的解释......真是够了，一个勇敢的人喋喋不休地诉说自己的怯懦，出来一趟碰上的全是这种事。
+[name="费奥多尔"]你告诉我，一共有多少敌人在你那里？
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]两人。
+[charslot(slot="m",name="avg_npc_2155_1#2$1")]
+[name="费奥多尔"]很好，两个人是抓不住你的。你的位置能听见他们的动静吗？比如他们在说什么、状态怎样？
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]......仔细听能听见。他们一直在抱怨工作，打着哈欠，好像非常疲惫。
+[charslot(slot="m",name="avg_npc_2155_1#7$1")]
+[name="费奥多尔"]这就对了，疲惫的人警觉性最低。他们也是人，会虚弱，会松懈，即便是你，想杀死一个疲惫的人也轻轻松松。
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]那样还是太——
+[charslot(slot="m",name="avg_npc_2155_1#2$1")]
+[name="费奥多尔"]行，想不想动手随便你，那么逃跑总没问题吧？
+[charslot(slot="m",name="avg_npc_2155_1#1$1")]
+[name="费奥多尔"]今天晚上，感觉他们睡着了，听到了呼噜声，你就逃出来，不要回头。
+[name="费奥多尔"]如果你不认识路，我会告诉你。我从高墙一路走到了营地，对沿途的建筑都还有印象。
+[name="费奥多尔"]只要试试就会知道，这并不困难。
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]......我能一直听到你的声音？
+[charslot(slot="m",name="avg_npc_2155_1#1$1")]
+[name="费奥多尔"]如果这能使你有走出去的信心......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]
+[Background(image="bg_indoor_u",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+她想起了那一天，决定将来要去做什么的那一天。
+尘土的气味，电子元件过热后微焦的气息......她蜷缩在座椅上，在杂乱的频率中，搜寻着自己的家乡——布列斯克的消息。
+“接下来为您带来歌剧唱段——”
+“嘶——”
+手指拧动着旋钮，她需要听见故土的声音，需要这份给人带来安定的力量，来压住胸口如失重般的慌乱，哪怕只有一瞬......
+[name="伯塔尼"]——什么？
+[PlaySound(key="$d_avg_radiodisturb_loop", loop=true, channel="bgs")]
+“嘶、嘶嘶......”
+“矿区与城市的同伴们。”
+“我们来自远北。”
+[StopSound(channel="bgs", fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4223_botany_1#9$1",duration=1)]
+[delay(time=2)]
+[name="伯塔尼"]......我，愿意试试。
+[name="伯塔尼"]我还需要确认你的身份，你不是学生吧？
+[charslot(slot = "m", focus = "n")]
+[name="费奥多尔"]......对，但索尼娅容许我住在这里。
+[charslot(slot="m",name="avg_4223_botany_1#1$1")]
+[name="伯塔尼"]原来如此......我一直通过通讯给学生联合大会提供帮助，只要听到我的声音，所有学生都能认出我，知道“伯塔尼”这个代号。
+[charslot(slot = "m", focus = "n")]
+[name="上层传来的声音"]帕夫洛，休息会儿吧，今天又搬了一大批物资，我都嫌累，更别说你了。
+[name="帕夫洛的声音"]哪里哪里，帮格罗莫夫大人分忧罢了。
+[name="上层传来的声音"]好歹你爸爸给你捐了个男爵当，不至于卑微成这样吧。
+[name="帕夫洛的声音"]他早就去世了，我们家也......
+[name="帕夫洛的声音"]能不能和格罗莫夫说说，我只想尽快离开这里，我是被你们绑——
+[name="上层传来的声音"]闭嘴，是我抓你过来的，那又如何？这不是老大需要一个懂算账的吗？又没亏待你。
+[name="上层传来的声音"]你要真这么想出去就少说点话，待会儿继续干吧。
+[charslot(slot="m",name="avg_4223_botany_1#3$1")]
+[name="伯塔尼"]......
+[charslot(slot = "m", focus = "n")]
+[name="费奥多尔"]怎么了，伯塔尼？
+[charslot(slot="m",name="avg_4223_botany_1#3$1")]
+[name="伯塔尼"]不，没什么。
+[name="伯塔尼"]只是我冷静下来，听到他们的谈话......好像他们远不像我以为的那么可怕。
+[charslot(slot = "m", focus = "n")]
+[name="费奥多尔"]嘁，乌萨斯有多少酒囊饭袋，我是最清楚的。
+[charslot(slot="m",name="avg_4223_botany_1#2$1")]
+[name="伯塔尼"]嘿嘿......
+[name="伯塔尼"]谢谢你，费佳。
+[name="伯塔尼"]谢谢你能听到我的声音。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g12_ursusroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$d_avg_snowstormlp", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.4, channel="bgs",fadetime=2)]
+[delay(time=1)]
+[playMusic(intro="$mist_intro",key="$mist_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_2174_1#1$1",duration=1)]
+[delay(time=2)]
+[charslot(slot = "m", focus = "n")]
+深夜，合不上的窗户时不时吹进寒风，破旧的屋子随之发出低吟。
+帕夫洛坐在满是油渍的桌前，伴着隔壁房间的同伴如雷的鼾声，皱紧眉头翻阅着账本。
+[PlaySound(key="$d_avg_paper2")]
+[charslot(slot="m",name="avg_npc_2174_1#1$1")]
+[name="帕夫洛"]格罗莫夫申请了那么多物资，我怎么一个都没看到......
+[name="帕夫洛"]不对，采购价比市场价高出不少，账目上“十六勇士”的工资也远比实际的多。
+[name="帕夫洛"]哼，这种脏活，圣骏堡可真是不缺。
+[charslot(slot = "m", focus = "n")]
+他轻笑一声，几乎是在同时，身后那如雷的鼾声断了一拍，变成了某种湿润的、咕噜咕噜的气泡声，就像有人在试图用水漱口。
+[charslot(slot="m",name="avg_npc_2174_1#1$1")]
+[name="帕夫洛"]又做梦吃肉呢？*乌萨斯粗口*蠢货，这动静像掉进汤锅里了。
+[PlaySound(key="$d_avg_blddpgrn")]
+[charslot(slot = "m", focus = "n")]
+接着那“咕噜”声停止了，取而代之的是液体滴落在木地板上的声音。
+[charslot(slot="m",name="avg_npc_2174_1#1$1")]
+[name="帕夫洛"]......漏水了？
+[charslot(duration=1)]
+他揉了揉干涩的眼睛，起身走向隔壁。
+[dialog]
+[PlaySound(key="$dooropenquite",channel="1")]
+[delay(time=1)]
+[PlaySound(key="$d_avg_bookdrop1",channel="2")]
+[CameraShake(duration=0.3, fadeout=true, xstrength=20, ystrength=20, vibrato=30, randomness=90, block=false)]
+[delay(time=0.5)]
+打开门的那一刻，帕夫洛瞳孔骤然收缩，手中的账本也落在地上——原本躺着的同伴，脖颈处正汩汩冒着黑红的液体。
+[charslot]
+[charslot(slot="m",name="avg_npc_2174_1#1$1")]
+[name="帕夫洛"]啊——
+[Dialog]
+[charslot(slot="r",name="avg_4223_botany_1#9$1",posfrom = "-100,0", posto = "-100,0",focus="n",duration=0.5)]
+[delay(time=1)]
+[charslot(slot = "m", focus = "n")]
+[name="伯塔尼"]嘘......男爵大人，您的命在我手里。
+[charslot(slot = "m", focus = "m")]
+[name="帕夫洛"]你、你是谁？
+[charslot(slot = "m", focus = "n")]
+[name="伯塔尼"]不重要，但，我需要您的帮助。
+[charslot(slot = "m", focus = "m")]
+[name="帕夫洛"]......你的声音在发抖，手比声音抖得还要厉害，你很紧张吗？
+[name="帕夫洛"]既然如此，姑娘，放下刀，我们可以慢慢聊——
+[charslot(slot = "m", focus = "n")]
+[name="伯塔尼"]不......
+[name="伯塔尼"]如果，您喊出声，或者试图拖延时间，我就不得不杀了您。
+[name="伯塔尼"]就像您说的，我的手很抖，它不能保证会把刀刺向哪里。
+[charslot(slot = "m", focus = "m")]
+[name="帕夫洛"]别，别别......我还有妻子、父母，只要您肯放我一条生路，我什么都愿意——
+[charslot(slot = "m", focus = "n")]
+[name="伯塔尼"]......好，你先戴上这个耳机。
+[charslot(slot = "m", focus = "m")]
+[name="帕夫洛"]这是......
+[charslot(slot = "m", focus = "n")]
+[name="伯塔尼"]我不会一直拿刀逼着你，但如果你轻举妄动......这个耳机是第三局的最新科技成果，它随时能炸掉你的脑袋。
+[charslot(slot = "m", focus = "m")]
+[name="帕夫洛"]第三局？！不，我怎么会招惹到那种人——
+[charslot(slot = "m", focus = "n")]
+[name="伯塔尼"]小声点......耳机那头的同学会告诉你该怎么走，你带我避开所有“十六勇士”的据点，明白了吗？
+[charslot(slot = "m", focus = "m")]
+[name="帕夫洛"]明白，明白......
+[StopSound(channel="bgs", fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[charslot(slot="m",name="avg_npc_2155_1#1$1")]
+[Background(image="bg_oldwarehouse_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$transmission")]
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]同学，告诉我你的营地，我这就过去......
+[charslot(slot="m",name="avg_npc_2155_1#10$1")]
+[name="费奥多尔"]呵，呵呵——
+[charslot(slot = "m", focus = "n")]
+[name="耳机里的声音"]......你在笑什么？
+[charslot(slot="m",name="avg_npc_2155_1#9$1")]
+[name="费奥多尔"]不，没什么，先告诉我，你们附近的建筑——
+[charslot(slot = "m", focus = "n")]
+竟然还有我的“任务”......事情越来越出乎意料了，不过似乎没有变得更糟。
+对了，让我想想，第三局的那些疯子平时会怎么说话......
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

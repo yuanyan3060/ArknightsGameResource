@@ -1,0 +1,470 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g7_ballroom",screenadapt="coverall")]
+[curtain(direction = 0,fillfrom = 0.1,fillto = 0.1, fadetime=0.1,block=true)]
+[curtain(direction = 4,fillfrom = 0.1,fillto = 0.1, fadetime=0.1,block=true)]
+[PlaySound(key="$d_avg_highheeledshoe_carpet_fts",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.8, channel="f",fadetime=2)]
+[name="早露"]一路走来，走廊上都只点着蜡烛。连皇宫也减少了电的用度吗？这真是......
+[name="殷勤的近侍"]为将储存的能源节省起来分给民众，陛下是这样说的。
+[name="殷勤的近侍"]不过请您放心，这只是陛下出于勤俭节约的提议，宫中的生活并没有受到影响，今年的冬季舞会也是如此。
+[name="殷勤的近侍"]我们就要到了。罗斯托娃小姐，请让我为您取下大衣。
+[dialog]
+[StopSound(channel="f", fadetime=1)]
+[Delay(time=1.2)]
+[PlaySound(key="$d_avg_clothtrailground")]
+[Delay(time=2.8)]
+[PlaySound(key="$d_avg_highheeledshoe_carpet_fts", volume=0.8)]
+[name="早露"]感谢您的帮助。
+[name="殷勤的近侍"]职责所在。
+[dialog]
+[playMusic(key="$ouat_loop", volume=0.6)]
+[focusout(type="bg", id="72_g7_ballroom", from=1, to=0.2, duration=4, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2165_1#4$1", duration=1, block=true)]
+[Delay(time=1)]
+[name="早露"]好亮......
+[charslot(slot = "m", name = "avg_npc_1982_1#1$1")]
+[name="殷勤的近侍"]那么，我就退下了。祝您愉快。
+[dialog]
+[charslot(slot = "m",posfrom="0,0",posto="60,0",afrom=1,ato=0,duration=1)]
+[Delay(time=1.1)]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2165_1#3$1",posfrom="-35,0",posto="35,0",duration=1)]
+[Delay(time=1.1)]
+[name="早露"]烦请稍等，我还有一些问题——
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2173_1#1$1")]
+[name="贵族女性"]——娜塔申卡？
+[dialog]
+[charslot]
+[charslot(slot = "r", name = "avg_npc_2165_1#6$1")]
+[name="早露"]嗯？您是......
+[name="早露"]沃伦佐娃伯爵夫人？
+[dialog]
+[PlaySound(key="$d_avg_walkfast")]
+[charslot(slot = "l", name = "avg_npc_2173_1#1$1",posfrom="-80,0",posto="110,0",duration=0.8)]
+[Delay(time=0.8)]
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]陛下在上......可怜的孩子，真的是你。
+[charslot(slot = "l",focus="n")]
+稍远处的贵妇人看见了早露，立即快步迎了上来，惊喜的神情几乎让她有失贵族仪态。
+她紧紧握住了早露的小臂，像是在努力确认眼前的女孩并不是幻影。
+[dialog]
+[charslot(slot = "l", name = "avg_npc_2173_1#1$1",afrom=1,ato=1,posfrom="110,0",posto="20,0",duration=1.8)]
+[Delay(time=1.8)]
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]娜塔申卡......实在是太好了，我还能见到你......健康活着的你。
+[name="沃伦佐娃夫人"]我听说了发生在切尔诺伯格的事情，我的心简直都要碎了。我实在是不明白，命运为何要让如此善良的一家人遭受这样可怕的事......
+[charslot(slot = "r", name = "avg_npc_2165_1#8$1",focus="r")]
+[name="早露"]承蒙您的挂念，虽说损失了些产业，但比起全家人的安危来说，那些已经不值一提了......总之，都过去了。
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]是的，是的，快让我们忘了那些不好的回忆吧......你不知道，我在收到你的信，得知你要来圣骏堡的时候有多高兴。
+[name="沃伦佐娃夫人"]真希望你能够在这过上一段平静的日子，可如你所见，现在的圣骏堡也不是一个安稳平静的地方。
+[name="沃伦佐娃夫人"]到处都是心怀不满的人，到处都是不知感恩的抱怨——仿佛那些无礼的军人闹得还不够似的，吵闹的平民也恨不得将圣骏堡翻个底朝天。
+[charslot(slot = "r", name = "avg_npc_2165_1#13$1",focus="r")]
+[name="早露"]......
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]哦，瞧我。你刚回来，恐怕还不知道。为近来这些事，我终日精神紧绷，多梦少眠，可见到老友的孩子，总归不该一上来就说这些。
+[charslot(slot = "r", name = "avg_npc_2165_1#11$1",focus="r")]
+[name="早露"]......不会的，只要是您说的，我都愿意听。
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]你是个好孩子，但现在却不是提这些事的好时候。
+[name="沃伦佐娃夫人"]告诉我，娜塔申卡。你母亲身体还好吗？你父亲安德烈如今又在何处？
+[name="沃伦佐娃夫人"]如果他来了圣骏堡，却没遣人告知于我，只让你来参加冬季舞会......
+[name="沃伦佐娃夫人"]想来，应该是因为我们两家已经生分太久，我实在不算是个合格的朋友。
+[charslot(slot = "r", name = "avg_npc_2165_1#8$1",focus="r")]
+[name="早露"]不是这样的，沃伦佐娃夫人。父亲曾说，如果能在这里见到您，就让我代他向您致意，请您宽恕他的久疏问候。
+[charslot(slot = "r", name = "avg_npc_2165_1#8$1",focus="r")]
+[name="早露"]至于母亲那边就更不必说了，您当然是她最要好的女友，可罗斯托夫家族如今必须想办法将中部仅剩的那些产业紧紧抓住。
+[charslot(slot = "r", name = "avg_npc_2165_1#5$1",focus="r")]
+[name="早露"]“我们切不可再丢失任何体面。”所以，非常遗憾......他们在短时间内都脱不开身。
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]我了解了。但是孩子，你最后应该说的是：“所以，我就在这里了。”
+[name="沃伦佐娃夫人"]看看你，已经是一个成熟体面的姑娘了，可以代表罗斯托夫家族了，不是吗？
+[name="沃伦佐娃夫人"]我得说，你的仪态与教养，比许多生斯长斯的圣骏堡人都更为优秀——我相信用不了多久，圣骏堡会记住罗斯托夫这个姓氏的。
+[charslot(slot = "r", name = "avg_npc_2165_1#1$1",focus="r")]
+[name="早露"]不......我很清楚自己还有许多要学的事务。
+[charslot(slot = "r", name = "avg_npc_2165_1#1$1",focus="r")]
+[name="早露"]说起这点，夫人，其实我很想向您请教，关于圣骏堡现在的局势......
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]年轻的娜塔申卡，不要着急，我了解你的困惑，但这不是三言两语就能说清楚的问题。
+[name="沃伦佐娃夫人"]你要学会用自己的眼睛去看，不会有比现在更好的机会了，你现在最应该做的就是——先好好享受这场冬季舞会。
+[name="沃伦佐娃夫人"]在陛下到来之前，抛开那些恼人的问题、急于知道的答案，以及所有有关未来将会如何的奇谈怪论，只是享受当下。
+[name="沃伦佐娃夫人"]去舞蹈，去嬉笑，去做年轻人应当做的事。
+[name="沃伦佐娃夫人"]如果你看上某位青年军官，就算是那个老顽固博尔孔斯基家的，为了你母亲，我也会豁出这张老脸去替你说媒——
+[name="沃伦佐娃夫人"]总之，在陛下的庇护下安宁地享乐，这是属于首都，属于我们这些忠诚的人的特权。
+[name="沃伦佐娃夫人"]娜塔申卡，你必须先学会这点，才能真正融入其中。
+[Dialog]
+[curtain(direction = 0,fillfrom = 0.1,fillto = 0.01, fadetime=2)]
+[curtain(direction = 4,fillfrom = 0.1,fillto = 0.01, fadetime=2)]
+[Delay(time=2)]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot]
+[curtain]
+[Background(image="72_g2_sjbstreet_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$mist_intro",key="$mist_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[PlaySound(key="$transmission", volume=0.8)]
+[Subtitle(text="“......你必须先学会这点，才能真正融入其中。”",multi = true, x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2156_1#2$1")]
+[name="真理"]......矿工们仍在挨饿，哪怕是在圣骏堡，奥多耶夫区的居民也都已经用不起暖气，卡托加区更是在停工之后，被彻底切断了供电和供暖。
+[charslot(slot = "m", name = "avg_npc_2156_1#2$1")]
+[name="真理"]就算这样，他们也还是要享乐。
+[charslot(slot = "m", name = "avg_196_sunbr_1#5$1")]
+[name="古米"]我不明白......那个人不是说，陛下节省了皇宫的用电吗？那些省下来的能源呢？为什么——
+[charslot(slot = "m", name = "avg_194_leto_1#4$1")]
+[name="烈夏"]这都聊的些什么乌七八糟的，“大人物”就是麻烦。
+[charslot(slot = "m", name = "avg_196_sunbr_1#21$1")]
+[name="古米"]而且，早露姐一个人在里面，真的没关系吗？
+[charslot(slot = "m", name = "avg_npc_2156_1#11$1")]
+[name="真理"]学生联合大会召开的前几天，娜塔莉娅就和我们商量了，她会以罗斯托夫家继承人的身份进入舞会，探查情报。
+[charslot(slot = "m", name = "avg_npc_2156_1#8$1")]
+[name="真理"]毕竟，总有些东西是只有贵族才知道，其他人都被蒙在鼓里的。无论是哪方面的情报，多掌握些总不会错。
+[charslot(slot = "m", name = "avg_npc_2156_1#8$1")]
+[name="真理"]索尼娅相信她能做好，我也没有反对的理由。除了这些我们早就有所预料的对话内容，目前听起来还算顺利，监听设备的声音也算清晰。
+[Dialog]
+[charslot]
+[avgdisplay(id = "1", style = "bg", name = "bg_black",afrom=0,ato=0.6,duration=2,slot = "bgover", layer = 1,isblock=true)]
+[delay(time=1)]
+[interlude(maskid = "ui_cutin_mask_horizon" ,char = "伯塔尼",size = "1300,380",style=2, offset = "0,20", channel = 3, isblock=false)]
+[interlude(channel = 3, type = 1, slot = "m",sfrom="1.25,1.25",sto="1,1",sduration=0.3,pfrom = "80,20",pto="0,20",name = "cutin_char_23",duration=6, isblock=false)]
+[interlude(channel = 3, type = 2, name = "72_g3_podium",sfrom="1.25,1.25",sto="1.1,1.1",sduration=0.3, pfrom="100,20", pto="0,20",duration=5, isblock=false)]
+[delay(time=2)]
+[name="烈夏"]得亏那位叫“伯塔尼”的学生，她的设备比想象中可靠。
+[Dialog]
+[interlude(channel =3,clear = true)]
+[avgdisplay(id = "1",style = "bg",name = "bg_black",afrom=0.6,ato=0,duration=0.7,slot = "bgover", layer = 1,block=true)]
+[delay(time=0.7)]
+[avgdisplay(id = "1")]
+[charslot(slot = "m", name = "avg_npc_2156_1#8$1")]
+[name="真理"]接下来，我们只需要按计划配合示威行动就行。
+[charslot(slot = "m", name = "avg_196_sunbr_1#9$1")]
+[name="古米"]凛冬姐好像在那边招手，我们该过去会合了！
+[charslot(slot = "m", name = "avg_npc_2156_1#8$1")]
+[name="真理"]应该是她已经和其他人沟通好了。我们收拾一下，这就过去。
+[charslot(slot = "m", name = "avg_npc_2156_1#4$1")]
+[name="真理"]烈夏，你是留在这里还是？
+[charslot(slot = "m", name = "avg_194_leto_1#7$1")]
+[name="烈夏"]不，等下，先别说话。
+[charslot(slot = "m", name = "avg_194_leto_1#7$1")]
+[name="烈夏"]好像有情况......
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot]
+[Background(image="72_g7_ballroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[playMusic(key="$ouat_loop", volume=0.6)]
+[name="担忧的贵族"]......我还以为，今年的冬季舞会不会举办了......
+[name="担忧的贵族"]那群无礼的叛臣，竟敢矜仗武力威逼我们的皇帝陛下。可我也实在不知道，我们的陛下到底该拿他们怎样为好......
+[name="骄傲的贵族"]越是这种时刻，我们越要挺起胸膛，继续必要的活动。陛下有这样的勇气，也有这样的远见。
+[name="骄傲的贵族"]因为这是比什么举动都有力的反击，证明这动乱不足为惧，我们不会被已经失败过一次的叛徒击溃。
+[name="骄傲的贵族"]至于那些看不清现状，选择支持叛乱者的家伙......我们只需要来年去他们的墓前，献上一束百合花。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2165_1#4$1")]
+[name="早露"]......
+[charslot(slot = "m", name = "avg_npc_2165_1#7$1")]
+[name="早露"]小心！
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_walkfast", volume=1)]
+[delay(time=1)]
+[PlaySound(key="$bodyfalldown3", volume=1)]
+[PlaySound(key="$d_avg_splashwine")]
+[charslot(slot = "m", name = "avg_npc_2165_1#7$1",posfrom="170,0",posto="145,0",duration=0.2)]
+[charslot(slot = "l", name = "avg_npc_2158_1#4$1",afrom=1, ato=1, posfrom="210,0",posto="30,0",duration=0.6, focus="l")]
+[delay(time=1.1)]
+[charslot(slot = "l", name = "avg_npc_2158_1#4$1",afrom=1, ato=1, posfrom="30,0",posto="10,0",duration=0.5, focus="l")]
+[delay(time=0.6)]
+[charslot(slot = "l", focus="l")]
+[name="？？？"]——抱歉——
+[dialog]
+[charslot]
+[name="骄傲的贵族"]......先不论这位好心小姐的裙子，您的莽撞可是弄洒了一杯好酒，这位......不知名的先生。
+[charslot(slot = "m", name = "avg_npc_2158_1#10$1")]
+[name="？？？"]抱歉，真的非常抱歉！请原谅我的无礼，沃尔金娜公爵阁下——
+[charslot]
+[name="骄傲的贵族"]您没有冒犯到我，您现在更应当对这位被弄脏了裙子的小姐道歉。
+[charslot(slot = "m", name = "avg_npc_2158_1#4$1")]
+[name="？？？"]呃，那这位......
+[charslot(slot = "m", name = "avg_npc_2165_1#1$1")]
+[name="早露"]没关系。
+[dialog]
+[charslot]
+[name="担忧的贵族"]是谁把这么冒失的家伙放进来了？
+[name="骄傲的贵族"]他能被侍者放进来，总不会是什么籍籍无名的小市民。您的名字是？
+[charslot(slot = "m", name = "avg_npc_2158_1#1$1")]
+[name="巴普洛维奇"]哦！您可以叫我巴普洛维奇，下议院的一名小小议员，最近刚被陛下授予了枢密官官秩，是卡托加区近期事务的特别全权代表——
+[charslot]
+[name="骄傲的贵族"]卡托加区的代表？啊，我想起来了。
+[charslot(slot = "m", name = "avg_npc_2158_1#6$1")]
+[name="巴普洛维奇"]您竟然记得我，这可真是无上的荣幸！
+[charslot]
+[name="骄傲的贵族"]当然，当然。我听说议会迟迟没有找到人选来处理卡托加区这个大麻烦，这份重任最后落在了您的头上，想必您一定有过人之处吧。
+[name="骄傲的贵族"]如果不是我近来忙于为第二集团军调度冬季物资，一定会亲自派人上门祝贺。
+[charslot(slot = "m", name = "avg_npc_2158_1#2$1")]
+[name="巴普洛维奇"]公爵阁下实在是谬赞了......其实，我已经在卡托加区上任两个月了。
+[charslot(slot = "m", name = "avg_npc_2158_1#2$1")]
+[name="巴普洛维奇"]我也不知道自己究竟是何德何能，会被委以重任，但的确不敢让陛下失望。
+[charslot(slot = "m", name = "avg_npc_2158_1#2$1")]
+[name="巴普洛维奇"]您应该知道的，卡托加区并不如大家所说的那样一文不值，这个老工业区只是缺一个重新焕发生机的机会......
+[charslot]
+[name="担忧的贵族"]（小声）我怎么没听说有这样一号人物？
+[name="骄傲的贵族"]你在自己那奢华的庄园里休养了太久，不了解中枢人员变动也是常事。坐在花园摇椅里百无聊赖的时候，至少多看看报纸吧。
+[name="担忧的贵族"]唉，看了也只是徒增烦扰。
+[charslot(slot = "m", name = "avg_npc_2158_1#1$1")]
+[name="巴普洛维奇"]不不......我实在不值得格利岑伯爵阁下劳神关注——我听说伯爵阁下的酒庄今年生意非常兴盛，想必您应该十分繁忙......
+[charslot]
+[name="骄傲的贵族"]先不要急着献殷勤——您是不是还欠这位小姐一个正式的道歉？
+[name="骄傲的贵族"]这位热心的小姐，您怎么称呼？
+[charslot(slot = "m", name = "avg_npc_2165_1#8$1")]
+[name="早露"]尊敬的公爵阁下，我叫娜塔莉娅·罗斯托娃。
+[charslot]
+[name="骄傲的贵族"]罗斯托娃？这个姓氏倒是没怎么听说过......
+[name="担忧的贵族"]我也没有。
+[charslot(slot = "m", name = "avg_npc_2158_1#1$1")]
+[name="巴普洛维奇"]哦！您的父亲一定就是切尔诺伯格的安德烈伯爵吧。
+[charslot(slot = "m", name = "avg_npc_2165_1#6$1")]
+[name="早露"]没想到您竟然会知道家父......
+[charslot(slot = "m", name = "avg_npc_2158_1#1$1")]
+[name="巴普洛维奇"]当然，您的父亲是个有远见的人，他及时从切城抽身而出，才不至于让全副身家都丢在那里——的确十分有智慧！
+[charslot(slot = "m", name = "avg_npc_2165_1#13$1")]
+[name="早露"]......都已经是过去的事了。
+[charslot]
+[name="骄傲的贵族"]没想到，巴普洛维奇先生，还真是......博闻强识。
+[name="骄傲的贵族"]不过，还是先去换掉你的裙子吧，孩子。即使是再醇厚的美酒，也不是为了让绸缎品尝而酿造的。
+[charslot(slot = "m", name = "avg_npc_2165_1#3$1")]
+[name="早露"]好的，谢谢您......
+[Dialog]
+[PlaySound(key="$d_avg_highheeledshoe_carpet_fts", volume=1)]
+[charslot(slot = "m",posfrom="0,0",posto="60,0",afrom=1,ato=0, duration=0.8,block=true)]
+[delay(time=1)]
+早露匆匆离开了这个令自己窘迫的场合，隐约还能听到身后人们热切的谈论。
+[name="殷勤的声音"]沃尔金娜公爵阁下！我听说，您不支持将卡托加区全面停用的提议，当然，我也一样......
+[name="殷勤的声音"]......这其中的产业，依然......
+[name="殷勤的声音"]......也许我们能合作......
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g7_ballroom",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[playMusic(intro="$darkness02_intro",key="$darkness02_loop", volume=0.6)]
+[charslot(slot = "r", name = "avg_npc_2171_1#1$1",focus="r")]
+[charslot(slot = "l", name = "avg_npc_1981_1#1$1",focus="r")]
+[name="严肃的贵族"]......请注意你的措辞，梅利尼科夫先生。目前连陛下都还没有对远北事宜下定论。
+[charslot(slot = "l", focus="l")]
+[name="傲慢的贵族"]大人，您误会了我的意思，我刚才的话绝非是在对您或者女大公个人进行指责。
+[name="傲慢的贵族"]只是，我早在叶莉萨维塔把远北搅得乌烟瘴气前，就已多次表达过对布列洁诺伊的担忧，而你们当时却齐声向陛下保证她的忠诚。
+[name="傲慢的贵族"]所以是你们，你们老一派的每个人，都辜负了议会与陛下的信任。
+[charslot(slot = "r", focus="r")]
+[name="严肃的贵族"]那就期盼你在听证会上也能如此慷慨陈词，最好一字不改，让所有人知道，你如何妄言乌萨斯的基石们。
+[charslot(slot = "l", focus="l")]
+[name="傲慢的贵族"]不必等到那个时候，大人。
+[name="傲慢的贵族"]今晚皇帝陛下莅临会场，我一定会向他本人痛诉你们的罪行！
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_walkfast")]
+[Delay(time=0.8)]
+怒叱声惹来了在场许多人的目光，几位侍从赶忙上前，试图平息大人物不知因何而起的怒火。
+[dialog]
+[charslot(slot = "m", name = "avg_npc_2165_1#4$1",focus="n")]
+早露拢了拢衣袖，稍稍驱散寒意，尽管舞会厅的壁炉比乌萨斯任何一处都烧得更热，暖气也终日供应着。
+一旁的侍从正在更换香薰，浓郁的佛手柑与橙花的气味，遮掩住酒精挥发的辛辣，早露长吁一口气。
+[dialog]
+[charslot]
+[charslot(slot = "r", name = "avg_npc_2165_1#4$1")]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "l", name = "avg_npc_2173_1#1$1",duration=1)]
+[Delay(time=1.5)]
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]你还好吗，娜塔申卡？还是没有找到合适的聊天人选？
+[name="沃伦佐娃夫人"]哦天哪，你的裙子——是谁轻慢你了吗？把那人的名字告诉我，我一定狠狠给他一个教训！
+[charslot(slot = "r", name = "avg_npc_2165_1#8$1",focus="r")]
+[name="早露"]不是的，夫人，您实在不必为此生气。这是我帮助了一位女士所留下的“勋章”呢。
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]你是个热心的孩子，但答应我，下次先保证自己的安全，好吗？谁知道那些谄媚的家伙会做出什么事。
+[charslot(slot = "r", name = "avg_npc_2165_1#1$1",focus="r")]
+[name="早露"]感谢您的关心，可这算得上是今晚头等有趣的好事了。
+[charslot(slot = "r", name = "avg_npc_2165_1#12$1",focus="r")]
+[name="早露"]今晚我所听到的大都与那位女大公有关。我试着去了解，去询问，却始终因为对这类话题缺乏必要的知识，导致对话无法进行下去。
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]这就是你父母让你来到圣骏堡的作用了，我亲爱的娜塔申卡。
+[name="沃伦佐娃夫人"]我见过许多年轻的小姐，宁可把灵魂托付给厨师、裁缝和医生，也不愿分神给那些制定法律、平定叛乱、敲定赋税的伟人......
+[name="沃伦佐娃夫人"]即使是他们始终在照看着我们。
+[charslot(slot = "r", name = "avg_npc_2165_1#5$1",focus="r")]
+[name="早露"]您说的道理，我都明白，可我如今只是一个中部小伯爵的继承人，又怎么会得到这些人在百忙之中才会抽出空来的注视呢？
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]......你是我老友的独生女，我必须得把话讲得更明白。
+[name="沃伦佐娃夫人"]没有人能脱离政治而生存，尤其你承袭了贵族的头衔，它已经赋予了你沉重的责任。
+[charslot(slot = "r", name = "avg_npc_2165_1#14$1",focus="r")]
+[name="早露"]这样的责任，是通过在这里轻松地谈论一些事物就能实现的吗......
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]娜塔申卡......
+[name="沃伦佐娃夫人"]你误解了我们在这里高谈阔论的缘由。这些话语并不是为了宣告一定会被落实的举措，也不是为了表明我们真正的意见。
+[charslot(slot = "r", name = "avg_npc_2165_1#10$1",focus="r")]
+[name="早露"]那是为了......什么呢？
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]为了合群，孩子。为了迅速与一些人划清界限，又与另一些人结为同盟。
+[name="沃伦佐娃夫人"]一份签名文件，或许就能让你的父母东山再起，让你的儿女远离战壕，让你的朋友都在庄园里安稳入眠。
+[name="沃伦佐娃夫人"]不要以为沉浸享乐就能逃离他们的目光，这只会让他们照看你的方式变得粗暴，且不容置疑。
+[name="沃伦佐娃夫人"]真正高效的社交场合就是这样运作的，我的娜塔申卡。
+[charslot(slot = "r", name = "avg_npc_2165_1#1$1",focus="r")]
+[name="早露"]......看来我要学习的还有很多。
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]所幸，年轻人最不缺的就是时间了。
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_woodfloor_fts", volume=1)]
+[Delay(time=1.5)]
+[charslot(slot = "r", name = "avg_npc_1981_1#1$1",focus="r")]
+[charslot(slot = "l", name = "avg_npc_2171_1#1$1",focus="r")]
+[name="贵族A"]（低声）是议长阁下——
+[charslot(slot = "l", focus="l")]
+[name="贵族B"]还有瓦西里副议长！真稀奇，他们几乎不在议会之外的地方一同出现......
+[charslot(slot = "r", focus="r")]
+[name="贵族A"]议长阁下很少参加舞会，但陛下还迟迟没有驾临......这，是否是某种信号？
+[charslot(slot = "l", focus="l")]
+[name="贵族B"]也许是想安抚我们。
+[charslot(slot = "r", focus="r")]
+[name="贵族A"]那恐怕来得有些晚了。
+[dialog]
+[charslot]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2173_1#1$1")]
+[name="沃伦佐娃夫人"]......
+[charslot(slot = "m", name = "avg_npc_2165_1#6$1")]
+[name="早露"]那两位......？
+[dialog]
+[charslot]
+[Delay(time=0.5)]
+[charslot(slot = "r", name = "avg_npc_2162_1#1$1",duration=1.5)]
+[charslot(slot = "l", name = "avg_npc_1984_1#1$1",duration=1.5)]
+[playsound(key="$d_avg_crowdtalk_fear", loop=true, channel="a",volume=0)]
+[SoundVolume(volume=1, channel="a",fadetime=2)] 
+[Delay(time=2)]
+[charslot(slot = "l", focus="n")]
+在二人到来的第一时间，整个舞会的目光都聚集在了他们身上。人们自动为两人的到来分出一条道路，通向舞会厅的正中央。
+人群中发出声音响亮但不知情绪真假的问候。
+[dialog]
+[charslot]
+[avgdisplay(id = "1", style = "bg", name = "bg_black",afrom=0,ato=0.6,duration=2,slot = "bgover", layer = 1,isblock=true)]
+[delay(time=1)]
+[charslot(slot = "l", name = "avg_npc_2172_1#1$1", bstart=0.2,bend=0.7, duration = 1,focus="n")]
+[charslot(slot = "r", name = "avg_npc_2171_1#1$1", bstart=0.2,bend=0.7, duration = 1,focus="n")]
+[delay(time=1)]
+[Subtitle(text="“我们敬爱的议长阁下，向您致敬。”", x=300, y=350,multi = true, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=0.5)]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2169_1#1$1", bstart=0.2,bend=0.7, duration = 1,focus="n")]
+[Subtitle(text="“尊敬的副议长阁下，祝您身体健康。”", x=300, y=350,multi = true, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[charslot]
+[Subtitle(text="......", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[avgdisplay(id = "1",style = "bg",name = "bg_black",afrom=0.6,ato=0,duration=1,slot = "bgover", layer = 1,block=true)]
+[delay(time=1)]
+[avgdisplay(id = "1")]
+[charslot(slot = "m", name = "avg_npc_2165_1#10$1",duration=1)]
+[Delay(time=1.5)]
+[charslot(slot = "m", focus="n")]
+[SoundVolume(volume=0.5, channel="a",fadetime=2)] 
+早露挤在人群中，小心地打量起二人。
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_woodfloor_fts", volume=1)]
+[charslot(slot = "m", name = "avg_npc_1984_1#1$1",duration=1)]
+[Delay(time=1.8)]
+[charslot(slot = "m", name = "avg_npc_1984_1#1$1",afrom=1, ato=0, duration=1)]
+[Delay(time=1)]
+黑发的男人沉默地从人群中走过，脸上不见喜怒，眼神坚定却难掩疲惫，只是看向空无一物的前方。
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_woodfloor_fts", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2162_1#2$1",duration=1)]
+[Delay(time=1.8)]
+[charslot(slot = "m", name = "avg_npc_2162_1#2$1",afrom=1, ato=0, duration=1)]
+[Delay(time=1)]
+被称为“副议长”的男人走在明显矮他一头的黑发男人身后，恭敬地维持着半个身位的距离，同时以温和的笑容向人们点头致意。
+[dialog]
+[charslot]
+[StopSound(channel="a", fadetime=2)]
+[charslot(slot = "l", name = "avg_npc_2173_1#1$1",focus="l")]
+[charslot(slot = "r", name = "avg_npc_2165_1#1$1",focus="l")]
+[name="沃伦佐娃夫人"]......金发的那位，是瓦西里·戈尔奇科夫公爵，近卫军荣誉上将，也是帝国议会的常务副议长。
+[name="沃伦佐娃夫人"]（低声）而走在他前面，黑发的那位——
+[charslot(slot = "r", name = "avg_npc_2165_1#1$1",focus="r")]
+[name="早露"]伊斯拉姆·维特议长。
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]是了......每个立足在圣骏堡的人都不该不认识他。
+[charslot(slot = "r", name = "avg_npc_2165_1#2$1",focus="r")]
+[name="早露"]不，夫人，是我在城际网络上看过他演讲的视频。《在图利斯卡亚特别技术学校落成仪式上的演说》，内容简洁真挚，令人印象深刻。
+[charslot(slot = "l",focus="l")]
+[name="沃伦佐娃夫人"]哦，城际网络......我可能永远也弄不清这些时髦玩意。
+[name="沃伦佐娃夫人"]去吧，娜塔申卡，到他们跟前去。去听听那些人都在说些什么，这也是学习的好时机。
+[charslot(slot = "r", name = "avg_npc_2165_1#1$1",focus="r")]
+[name="早露"]好的，夫人。那么，我这就——
+[dialog]
+[charslot]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$d_avg_phntsmglsbrek", volume=1)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_crwddiscuss_inside",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.8, channel="f",fadetime=2)]
+清脆的玻璃破碎声响，在舞会厅各处愉悦的高谈阔论中显得如此刺耳，人们不禁寻找它的源头。
+[charslot(slot = "r", name = "avg_npc_1981_1#1$1",focus="r")]
+[charslot(slot = "l", name = "avg_npc_2171_1#1$1",focus="r")]
+[name="贵族A"]奥萨奇伯爵，您身体有什么不适吗？
+[charslot(slot = "l", focus="l")]
+[name="贵族B"]......不，不不，是他们来了，他们在楼下！
+[PlaySound(key="$d_avg_spotlightc", volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[PlaySound(key="$d_avg_paniccrowd", volume=0.7)]
+[name="贵族A"]什么？哪个天杀的把电闸关了——难道是停电了？
+[name="贵族B"]不，皇宫怎么会突然停电？肯定是暴民——
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_recorderglitch", volume=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[StopSound(channel="f", fadetime=2)]
+[charslot(slot = "r", name = "avg_npc_1981_1#1$1",focus="r")]
+[charslot(slot = "l", name = "avg_npc_2171_1#1$1",focus="r")]
+[name="贵族A"]皇宫的勤务官就是这么办事的吗，连个电闸都维护不好——
+[charslot(slot = "l", focus="l")]
+[name="贵族B"]......快看外面！
+[name="贵族B"]真的有暴民，还正在我们的窗外！
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Background]
+[Image]

@@ -309,7 +309,8 @@
 [playMusic(intro="$ghosthunter_intro",key="$ghosthunter_loop", volume=0.6)]
 [name="娜斯提"]我还记得离别那天的场景。
 [Dialog]
-[avgdisplay(id="1", name="act47side_01", style="animekv", slot="bgover", entryfrom=0, entryto=1, duration=4, block=false)]
+[avgdisplay(id="1", name="act47side_01", style="animekv", slot="cgover", entryfrom=0, entryto=1, duration=4, block=false)]
+[Image(image="68_i10",screenadapt="coverall")]
 [Image(fadetime=1.5)]
 [delay(time=3)]
 [name="娜斯提"]你叫我，我没转身。一旦面对面，有些话就再也没法平静地说出口，但我还是忍不住低头看了看你倒映在水面上的脸——
@@ -339,6 +340,7 @@
 [charslot(slot = "m", name = "avg_npc_2036_1#1$1")]
 [Image]
 [avgdisplay(id="1")]
+[image]
 [Background(image="68_g11_treeinside",screenadapt="coverall")]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
 [name="拂哀菈"]你在外面做的这些事，这棵天空上的“树”......
