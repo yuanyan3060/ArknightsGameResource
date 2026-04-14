@@ -36216,6 +36216,25 @@
       "voucherRelateList": [],
       "shopRelateInfoList": []
     },
+    "voucher_full_odda": {
+      "itemId": "voucher_full_odda",
+      "name": "奥达的私人信件",
+      "description": "信中提及了他在旅途中见识到的各种新奇武器，还附上了一袋新烤的卡兹戴尔硬饼干。",
+      "rarity": 4,
+      "iconId": "voucher_full_odda",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5000035,
+      "usage": "发送给博士的私人信件，用于将奥达的潜能提升至满级。",
+      "obtainApproach": "记录修复获得",
+      "hideInItemGet": false,
+      "classifyType": "MATERIAL",
+      "itemType": "VOUCHER_FULL_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": [],
+      "shopRelateInfoList": []
+    },
     "uni_set_guitar": {
       "itemId": "uni_set_guitar",
       "name": "火蓝之心家具收藏包",
@@ -36511,6 +36530,25 @@
       "stackIconId": null,
       "sortId": -10000,
       "usage": "获得所有尚未取得且仅可在怀黍离活动中得到的家具。",
+      "obtainApproach": "记录修复获得",
+      "hideInItemGet": false,
+      "classifyType": "NONE",
+      "itemType": "UNI_COLLECTION",
+      "stageDropList": [],
+      "buildingProductList": [],
+      "voucherRelateList": [],
+      "shopRelateInfoList": []
+    },
+    "uni_set_ScarMarket": {
+      "itemId": "uni_set_ScarMarket",
+      "name": "巴别塔家具收藏包",
+      "description": "采购部重新联系供货商，补齐了当初限量的部分家具，感谢可露希尔吧！",
+      "rarity": 4,
+      "iconId": "uni_set_ScarMarket",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "获得所有尚未取得且仅可在巴别塔活动中得到的家具。",
       "obtainApproach": "记录修复获得",
       "hideInItemGet": false,
       "classifyType": "NONE",
@@ -52309,6 +52347,91 @@
         }
       ]
     },
+    "uni_set_ScarMarket": {
+      "uniCollectionItemId": "uni_set_ScarMarket",
+      "uniqueItem": [
+        {
+          "id": "furni_ScarMarket_shortstick_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_ironbasket_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_storagetable_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_longstick_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_collectioncabinet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_ironbox_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_partitionwall_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_shortstick_02",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_carbonfirebox_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_ironcabinet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_bench_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_stool_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_carpet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_shoerack_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_wallpaper_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_ScarMarket_floor_01",
+          "count": 1,
+          "type": "FURN"
+        }
+      ]
+    },
     "uni_set_MemoryCloister_1": {
       "uniCollectionItemId": "uni_set_MemoryCloister_1",
       "uniqueItem": [
@@ -53413,6 +53536,10 @@
     "char_4119_wanqin": {
       "itemId": "voucher_full_wanqin",
       "ts": 1769025600
+    },
+    "char_4131_odda": {
+      "itemId": "voucher_full_odda",
+      "ts": 1776715200
     }
   },
   "activityPotentialCharacters": {
