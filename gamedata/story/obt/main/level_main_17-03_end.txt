@@ -1,0 +1,717 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="72_g1_sjbstreet_d",screenadapt="coverall", block=true)]
+[charslot(slot = "l", name = "avg_188_helage_1#1$1")]
+[Delay(time=1)]
+[playMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "l", name = "avg_188_helage_1#1$1", focus="n")]
+[PlaySound(key="$d_avg_snowrun", volume=1)]
+[name="远处的声音"]——
+[name="远处的声音"]先生——
+[name="远处的声音"]赫拉格先生！
+[charslot(slot = "l", name = "avg_188_helage_1#11$1", focus="l")]
+[name="赫拉格"]嗯？
+[Dialog]
+[PlaySound(key="$d_avg_runstop", volume=1)]
+[charslot(slot = "r", name = "avg_npc_1966_1#9$1", duration=1)]
+[delay(time=1.5)]
+[charslot(slot = "r", name = "avg_npc_1966_1#9$1", focus="r")]
+[multiline(name="阿洛伊泽")]呼啊......
+[charslot(slot = "r", name = "avg_npc_1966_1#1$1", focus="r")]
+[multiline(name="阿洛伊泽")]哈。
+[name="阿洛伊泽"]您走得实在太快了。我在前一个拐角瞧见您的刀鞘，等追过来，您却已经走在另一条街的岔路上了。
+[charslot(slot = "l", name = "avg_188_helage_1#1$1", focus="l")]
+[name="赫拉格"]近卫军的体能训练要求远比这严苛。
+[charslot(slot = "r", name = "avg_npc_1966_1#20$1", focus="r")]
+[name="阿洛伊泽"]......是我近来松懈了。
+[charslot(slot = "l", name = "avg_188_helage_1#11$1", focus="l")]
+[name="赫拉格"]有什么事吗？
+[charslot(slot = "r", name = "avg_npc_1966_1#1$1", focus="r")]
+[name="阿洛伊泽"]其实，我一直期待能有与您交谈的机会。
+[name="阿洛伊泽"]送走了您的同伴，我的任务已经完成了，您呢？您现在要去哪里？
+[charslot(slot = "l", name = "avg_188_helage_1#1$1", focus="l")]
+[name="赫拉格"]在天黑之前，回到新建的感染者收治中心。
+[charslot(slot = "r", name = "avg_npc_1966_1#1$1", focus="r")]
+[name="阿洛伊泽"]也许您不用这么紧张，至少在白天的时候，不会有歹人威胁他们的安全。
+[charslot(slot = "l", name = "avg_188_helage_1#9$1", focus="l")]
+[name="赫拉格"]不......恐怕只是一个无所事事的老人，去提供一些力所能及的帮助。
+[charslot(slot = "l", name = "avg_188_helage_1#1$1", focus="l")]
+[name="赫拉格"]那里有很多孩子，而我的同僚似乎以为我......擅长和他们相处。
+[charslot(slot = "r", name = "avg_npc_1966_1#13$1", focus="r")]
+[name="阿洛伊泽"]我将这理解为您有时间与我同行了。
+[charslot(slot = "l", name = "avg_188_helage_1#11$1", focus="l")]
+[name="赫拉格"]什么？
+[charslot(slot = "r", name = "avg_npc_1966_1#1$1", focus="r")]
+[PlaySound(key="$d_avg_pcket", volume=1)]
+[name="阿洛伊泽"]还有，这是您的书，对吗？
+[Dialog]
+[charslot]
+没等赫拉格反应过来，年轻人已经将一本破损的线装书递到他面前。
+[PlaySound(key="$d_avg_wind", volume=0.7)]
+突然一阵风吹了过来，吹开了包在上面聊胜于无的书衣。
+阿洛伊泽开始在封皮上微微用力，似乎想将那些老化的残片按住，或者，这只是她在等待中忐忑的表现。
+风声中，年长者看到书的名字——
+《不息的行军》。
+[Dialog]
+[charslot(slot = "l", name = "avg_188_helage_1#11$1", focus="l")]
+[charslot(slot = "r", name = "avg_npc_1966_1#1$1", focus="l")]
+[name="赫拉格"]我以为乌萨斯不会存留任何——
+[charslot(slot = "l", name = "avg_188_helage_1#1$1", focus="l")]
+[name="赫拉格"]（低声）......我以为所有版本都已经在那场清洗中被销毁了。
+[charslot(slot = "r", name = "avg_npc_1966_1#1$1", focus="r")]
+[name="阿洛伊泽"]您还是没有直接回答我的问题。虽然您的反应一定程度上证实了我的猜测——
+[charslot(slot = "l", name = "avg_188_helage_1#1$1", focus="l")]
+[name="赫拉格"]但这不是我的书。
+[charslot(slot = "r", name = "avg_npc_1966_1#20$1", focus="r")]
+[name="阿洛伊泽"]可里面有您的名字，不是吗？您曾是一名光荣的军人，甚至是在讲述乌萨斯战争历史的书上留下过名字的军人，可现在——
+[charslot(slot = "l", name = "avg_188_helage_1#9$1", focus="l")]
+[name="赫拉格"]无论你认为自己找到了什么铁一样的事实，大概都是把力气用错方向了，孩子。
+[charslot(slot = "l", name = "avg_188_helage_1#1$1", focus="l")]
+[name="赫拉格"]我和你的父亲也说过，我不要求乌萨斯恢复我的身份与名誉，与此对应的，我也早已不再为帝国服务。
+[name="赫拉格"]圣骏堡默许我出现和行走在这片土地上，只是因为它并不在乎一个无能为力的幽魂。
+[name="赫拉格"]无论你想找的是谁，他都不在这里。
+[charslot(slot = "r", name = "avg_npc_1966_1#20$1", focus="r")]
+[name="阿洛伊泽"]......
+[Dialog]
+[charslot]
+手甲在封皮上留下更多的印痕，所幸当事人很快反应过来，停止了这种损坏行为。
+阿洛伊泽把书收起来，思索着接下来要说的话。
+[charslot(slot = "m", name = "avg_npc_1966_1#20$1", focus="m")]
+[name="阿洛伊泽"]那......
+[charslot(slot = "m", name = "avg_npc_1966_1#1$1", focus="m")]
+[name="阿洛伊泽"]那如果我只是请求和您同行一段路呢？
+[name="阿洛伊泽"]如果您确实不急着去哄孩子，我还有一场好戏想让您瞧瞧。
+[name="阿洛伊泽"]这不会耽误您太多时间的。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_forest",screenadapt="coverall", block=true)]
+[bgeffect(name="$eb_whitemask",layer=1)]
+[delay(time=1)]
+[playMusic(intro="$loneliness_intro",key="$loneliness_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="斯乔帕，我看到你了。过来，来这儿——", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="哦，瞧你，又偷偷地下到水里去了，弄得浑身湿淋淋的。你都找到了些什么？", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="算啦，小勇士，别急着炫耀你那些战利品，先把手给我。洗手要像这样，连指缝中的泥污也找到，洗得干干净净......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="这样，父亲才不会发现你去了哪里，又做了些什么。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_forest",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="真的要走么，斯乔帕？", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="我知道，这里留不住你，可却没想到分别来得竟这样早、这样快。仿佛昨天你都还是那个不比刀高多少的孩子，今天却要拿着它离开家乡。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="我无意阻拦你，我的小马驹。我只希望你能当心......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="当心那些人向你描绘的自由民的未来，当心那些关于乌萨斯人荣耀的言谈——它们不一定属于我们。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="小心......珍重，珍重。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="bg_iceforest_1",screenadapt="coverall", block=true)]
+[delay(time=0.5)]
+[playsound(key="$d_avg_snowstormflp", loop=true, channel="c",volume=0)]
+[SoundVolume(volume=0.8, channel="c",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_snowfootstep", volume=1)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2249_1#1$1",bstart=0.2,bend=0.7,duration=1)]
+[delay(time=1.5)]
+[name="冷淡的声音"]就到这里吧。
+[name="冷淡的声音"]一路送我到这里，你已经很冒险了。
+[name="冷淡的声音"]快回去，别让接应你的人久等。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="......那你呢？之后你打算去哪儿？", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_2249_1#1$1",bstart=0.2,bend=0.7,focus="m")]
+[name="冷淡的声音"]我有手有脚，当然是想去哪儿就去哪儿。如今，我才是真正的“自由民”......
+[name="冷淡的声音"]......哈。
+[name="冷淡的声音"]也许我会离开乌萨斯，去卡西米尔当竞技骑士也未可知。
+[name="冷淡的声音"]只要他们还接纳感染者骑士。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="可你不应该在那种地方！", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="你应该在战场上，在我、在大家的身边——", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_2249_1#1$1",bstart=0.2,bend=0.7,focus="m")]
+[name="冷淡的声音"]别说傻话了，斯乔帕。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="——？", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_2249_1#1$1",bstart=0.2,bend=0.7,focus="m")]
+[name="冷淡的声音"]我已经是感染者了，这是比盔甲更坚硬的事实。
+[name="冷淡的声音"]但既然你怀念从前，那就让我们这样结束吧。最后一次，把你的后背留给我，然后回去。
+[name="冷淡的声音"]回去，回到你的船上去，回到你尚且健康的兄弟姊妹中去。
+[name="冷淡的声音"]在听到“老祖母”的声音——在死亡到来之前，我们不会再见了。
+[Dialog]
+[stopmusic(fadetime=2)]
+[StopSound(channel="c", fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[Background(image="bg_black",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_intenseheartbeat", volume=1, loop=true, channel="B")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[stopsound(channel="B",fadetime=3.5)]
+[delay(time=2)]
+[name="模糊的声音"]——醒——
+[name="模糊的声音"]他醒了！
+[name="低沉的声音"]......嗯。
+[name="低沉的声音"]带上来。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="73_g12_ursuswarshipdeck_a",screenadapt="coverall", block=true)]
+[focusout(duration=0.1, type="bg", from=0, to=1, block=true)]
+[delay(time=1)]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="我这是......在哪儿？", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+[Dialog]
+[focusout(duration=1, type="bg", from=1, to=0, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="极光，军舰——呃。还有扒拉我的手。跟奥列格那家伙揉面似的，没轻没重。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1", focus="m")]
+[name="集团军士兵"]该死，这家伙比头成年的驮兽都重，吃什么长大的！
+[name="集团军士兵"]得把他弄起来。元帅要见他——
+[name="集团军士兵"]*乌萨斯粗口*！
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="不行。不知道昏过去的时候是什么姿势，现在四肢都是软的，站不起来。真该死......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="嗯，不过......第四集团军主力舰的甲板，躺起来和临时役所的地板也没什么区别。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+[name="低沉的声音"]他看上去意识不清。我不记得有让你们对他使用重刑。
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1", focus="m")]
+[name="集团军士兵"]没有，长官，我们完全按照您的命令执行，只用了水刑——这还都是为了让他认罪。
+[Dialog]
+[charslot]
+[name="低沉的声音"]他认罪了吗？
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1", focus="m")]
+[name="集团军士兵"]不，没有......
+[Dialog]
+[charslot]
+[name="低沉的声音"]那看来，是需要我亲自试试了。
+[Dialog]
+[PlaySound(key="$d_avg_openftstpwalk", volume=1, loop=true, channel="walk1")]
+[StopSound(channel="walk1", fadetime=2)]
+[delay(time=1.5)]
+[name="低沉的声音"]你们，去帮他一把。
+[name="低沉的声音"]帮我们亲爱的少校从地上爬起来，摆脱那不成体统的模样。
+[Dialog]
+[PlaySound(key="$d_avg_cnstrctnck", volume=1)]
+[delay(time=1.5)]
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="啧......这声音真是令人作呕......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1", focus="m")]
+[name="集团军士兵"]等等，这个动作——他又要逃跑！快点把他按住！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_clothmovement_heavy2", volume=1)]
+[CameraShake(duration=0.7, xstrength=8, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1", focus="m")]
+[name="集团军士兵"]都按住了！不要放松！
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1", focus="m")]
+[name="集团军士兵"]天杀的，他力气真大。还好我们已经把他身上那些玩意儿都收起来了。
+[Dialog]
+[charslot]
+[name="低沉的声音"]不要动了。对，就是这样......很好。
+[name="低沉的声音"]斯乔帕·拉辛，抬起头来。
+[Dialog]
+[PlaySound(key="$d_avg_unsheathe",volume=0.7)]
+[Image(image="73_i04_1", screenadapt="coverall",fadetime=1.5,block=false)]
+[delay(time=2.5)]
+[name="斯乔帕"]呃......
+[name="斯乔帕"]尊敬的......叶甫根尼总司令......
+[name="斯乔帕"]请原谅，我实在不明白自己哪里惹怒了您。
+[name="叶甫根尼"]你并未惹怒我，拉辛少校，你的不忠和谎言只是令我寒心。
+[name="叶甫根尼"]但为给第四集团军所有兢兢业业在前线作战的将士们一个交代，我必须对你的背叛行为有所应对。
+[name="叶甫根尼"]告诉我，你和你的战术兵团“谢钦”是否曾屡次帮助感染者逃离军营？
+[name="斯乔帕"]我没有帮助感染者——
+[name="叶甫根尼"]是的，你没有帮助感染者。你帮助的是你不幸感染矿石病的战友，对吗？
+[name="斯乔帕"]......没有！
+[name="斯乔帕"]恐怕您也找不到任何证据能证明这点。
+[name="叶甫根尼"]你们的确很谨慎，可万事总有疏漏。我猜你们之前从没尝试过在战时帮助感染者士兵离开，是不是？
+[name="叶甫根尼"]这次你们行动得太急了。你们似乎已经忘记，非乌萨斯种族的士兵，在军营当中会有多么显眼，又有多少人会盯着你们的一举一动。
+[name="斯乔帕"]是啊，我懂。所以在这样的日子里，选择做逃兵再正常不过了。
+[name="叶甫根尼"]......
+[name="斯乔帕"]也正因如此，我实在看不出您有什么必要再去把他们罪加一级，污名化成感染者。
+[name="斯乔帕"]如果您是想要把他们抓回来进行审判——咳，咳咳——我当然会全力配合，鉴于这是我管理上的疏漏。
+[name="斯乔帕"]可您要是想给我也随便安上个更大的罪名......
+[name="斯乔帕"]那就算您掌握再多的风言风语，也不能把它们变成在军事法庭上指控我的事实证据。
+[name="斯乔帕"]您只能继续像这样折磨我、拷打我，直到从我口中得到您想要的回答和确认。
+[name="斯乔帕"]而这是不可能的。
+[stopmusic(fadetime=1)]
+[name="叶甫根尼"]是吗......
+[name="叶甫根尼"]那么，我就让当事人来和你说说吧。
+[name="斯乔帕"]......什么？
+[Dialog]
+[PlaySound(key="$d_gen_transmissionget",volume=1)]
+[delay(time=1)]
+[PlayMusic(key="$darkness_03_loop", volume=0.6)]
+[name="冷淡的声音"]......斯乔帕......？
+[name="冷淡的声音"]咳、咳咳！
+[Dialog]
+[Image(image="73_i04_2", screenadapt="coverall",fadetime=1,block=true)]
+[delay(time=0.5)]
+[name="斯乔帕"]这不可能。
+[PlaySound(key="$d_avg_clothmovement_heavy1", volume=0.8)]
+[CameraShake(duration=1, xstrength=10,ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="斯乔帕"]这不可能！我已经把她送走了，我亲眼看着她——
+[name="冷淡的声音"]抱歉，斯乔帕，我......
+[name="叶甫根尼"]够了，挂断吧。
+[Dialog]
+[playsound(key="$transmission",volume=1)]
+[Delay(time=1.5)]
+[name="叶甫根尼"]她被捕之后，立刻就决定自杀以保全你们。我费了很大力气，才把她救活。
+[name="斯乔帕"]——！
+[name="叶甫根尼"]可惜，你还是辜负了她的勇敢和决绝，不是吗？
+[name="斯乔帕"]......
+[Dialog]
+[image(fadetime=1.5)]
+[delay(time=2)]
+[charslot(slot = "m", name = "avg_npc_2236_1#1$1", duration=0.5)]
+[Delay(time=0.7)]
+[charslot(slot = "m", name = "avg_npc_2236_1#1$1",focus="m")]
+[name="叶甫根尼"]放开他吧，他认罪了。
+[charslot(slot = "m", name = "avg_npc_2236_1#2$1",focus="m")]
+[name="叶甫根尼"]接下来，我们可以开始谈论选择背叛的代价。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="73_g13_ursuswscommandroom",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[playMusic(intro="$mist_intro",key="$mist_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2236_1#1$1",focus="m")]
+[name="叶甫根尼"]找件外套给他。
+[charslot(slot = "m", name = "avg_npc_2236_1#7$1",focus="m")]
+[name="叶甫根尼"]我不想看到有人冻死在我的船上。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_clothtrailground", volume=1)]
+[delay(time=2)]
+[charslot(slot = "l", name = "avg_npc_2236_1#7$1",focus="all")]
+[delay(time=0.5)]
+[charslot(slot = "r", name = "avg_4226_veen_1#1$3",duration=1)]
+[delay(time=1.5)]
+[charslot(slot = "r", name = "avg_4226_veen_1#1$3",focus="r")]
+[name="斯乔帕"]那我就，感谢您的仁慈了......
+[name="斯乔帕"]总司令大人。
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[name="叶甫根尼"]不必再装模作样，我知道你想说什么。
+[name="叶甫根尼"]如果不是你那位忠心耿耿的副手，在已经被护送离开前线之后，还徘徊在驻地附近，我的人恐怕也没法抓住她。
+[name="叶甫根尼"]你们的确做得很干净。但，还不够。
+[charslot(slot = "r", name = "avg_4226_veen_1#7$3",focus="r")]
+[name="斯乔帕"]......
+[name="斯乔帕"]她真的试图自杀——
+[charslot(slot = "l", name = "avg_npc_2236_1#2$1",focus="l")]
+[name="叶甫根尼"]哦，你要再听听吗？虽然她用匕首把自己胸腔捅了个对穿，到现在都还不太能说完整的话。
+[charslot(slot = "l", name = "avg_npc_2236_1#3$1",focus="l")]
+[name="叶甫根尼"]那匕首似乎还是你们人手一把的自制武器，不是来自集团军的配给。
+[Dialog]
+[charslot]
+说着，他似乎想起了什么，抬起手来摊开，身边人适时向上面放下一把银白色的匕首。
+叶甫根尼把它拿在手里端详了片刻，突然松开，任其坠落。
+[Dialog]
+[PlaySound(key="$d_avg_metalcollar", volume=0.8)]
+[delay(time=1.5)]
+斯乔帕紧紧盯着那柄落在地上的银色匕首。
+即使是在昏暗中他也能看清鞘上咒法印痕的红，和已经在终日摩挲与使用下显得有些模糊的名字。
+[Dialog]
+[charslot(slot = "l", name = "avg_npc_2236_1#2$1",focus="r")]
+[charslot(slot = "r", name = "avg_4226_veen_1#6$3",focus="r")]
+[name="斯乔帕"]你——
+[charslot(slot = "l", name = "avg_npc_2236_1#2$1",focus="l")]
+[name="叶甫根尼"]看看，是不是它？
+[charslot(slot = "r", name = "avg_4226_veen_1#11$3",focus="r")]
+[name="斯乔帕"]......你到底想说什么？
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[name="叶甫根尼"]那颗落在第三集团军和第七集团军前线附近的“炸弹”，记得吗？
+[name="叶甫根尼"]我要“谢钦”去将它夺来。
+[charslot(slot = "r", name = "avg_4226_veen_1#11$3",focus="r")]
+[name="斯乔帕"]它已经爆炸了，老爷，整个驻地里的人都知道了。这难道是要我去把灰烬都给您捧来吗？
+[charslot(slot = "l", name = "avg_npc_2236_1#6$1",focus="l")]
+[name="叶甫根尼"]......
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[name="叶甫根尼"]像你们这样总是把命拴在腰带上的人，也许都看不见近在眼前的危险，更遑论这场战争的全貌。
+[name="叶甫根尼"]我原谅你。
+[name="叶甫根尼"]你听清楚，与乌萨斯为敌的从来都是顽固不化的帝国议会，而非领命前来与我作战的第二集团军。
+[name="叶甫根尼"]我已经浪费了太多时间，在清理叛乱、内斗、渗透和腐败之上。我必须将事情拨回正轨。
+[charslot(slot = "l", name = "avg_npc_2236_1#4$1",focus="l")]
+[name="叶甫根尼"]因此，第一步，就是让“谢钦”的主力舰“利沃诺夫号”直接开向第一集团军驻地的卫星城，去他们研发武器的地方，把那东西夺走。
+[charslot(slot = "r", name = "avg_4226_veen_1#5$3",focus="r")]
+[name="斯乔帕"]......你疯了？！
+[name="斯乔帕"]先不说经过中央区边界会不会惊动他们的自动防御，单是挡在我们面前的第二集团军前锋营就能够将“利沃诺夫号”直接击毁在途中！
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[name="叶甫根尼"]你为什么如此笃定我不会有所准备，不会“回敬”他们的蔑视？帝国议会在十二月做过的事，我会十倍、百倍奉还。
+[charslot(slot = "r", name = "avg_4226_veen_1#5$3",focus="r")]
+[name="斯乔帕"]你难道，已经买通了第二集团军？
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[name="叶甫根尼"]注意你的措辞，而且，这不该是你好奇的事。
+[charslot(slot = "r", name = "avg_4226_veen_1#12$3",focus="r")]
+[name="斯乔帕"]行，就算您“有所准备”，认为第二集团军不会阻拦我们，那我们靠近卫星城之后呢？我们对那东西根本一无所知。
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[name="叶甫根尼"]你只需要执行我的军令，至于之后的行动，你会在恰当的时刻，得到我的指令。
+[charslot(slot = "r", name = "avg_4226_veen_1#11$3",focus="r")]
+[name="斯乔帕"]您这话说得未免太空泛了。我必须为我的下属考虑，我需要完整的计划。
+[charslot(slot = "l", name = "avg_npc_2236_1#6$1",focus="l")]
+[name="叶甫根尼"]而我的耐心有限，拉辛少校。
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[name="叶甫根尼"]实际上，有一点我说错了，这是胁迫，而不是“合作”。
+[name="叶甫根尼"]因此，即使这真的只是一次自杀行动，你和你的兵团也没有太多考虑的余地。
+[name="叶甫根尼"]除非你愿意放任你的副手，以及之前被你们送走的更多感染者都在被抓后“畏罪自尽”。
+[name="叶甫根尼"]值得一提的是，我的确已经掌握他们中多数人的行踪了。
+[charslot(slot = "r", name = "avg_4226_veen_1#12$3",focus="r")]
+[name="斯乔帕"]“谢钦”对你来说究竟是什么——
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[multiline(name="叶甫根尼")]请理解我，拉辛少校。我也曾数度尝试去以更文明的方式对待你们，但结果实在是......
+[charslot(slot = "l", name = "avg_npc_2236_1#6$1",focus="l")]
+[multiline(name="叶甫根尼")]不尽人意。
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[name="叶甫根尼"]也许你已经忘了，在第四集团军接纳你们这群异族人组成的松散队伍时，你曾向我承诺过什么。
+[name="叶甫根尼"]作为对维持特殊战术兵团“谢钦”独立地位的交换，你们将永远保证对我，和对第四集团军的绝对忠诚。
+[name="叶甫根尼"]不能再有和从前一样在不同集团军之间的摇摆，不能再有不敬和叛逆的名声。听命时像驮兽一样顺从，撕咬时像牙兽一样凶猛！
+[charslot(slot = "l", name = "avg_npc_2236_1#4$1",focus="l")]
+[name="叶甫根尼"]......可看看如今，你们究竟做到了哪一点？
+[charslot(slot = "r", name = "avg_4226_veen_1#10$3",focus="r")]
+[name="斯乔帕"]噢，这意味着我们要像打离婚官司一样翻旧账吗？那就来说说吧。
+[name="斯乔帕"]远的，那些暗中帮助都可以算作投诚。近的，“谢钦”至少为您处理了十二月那场哗变，还有数不胜数的类似脏活......
+[name="斯乔帕"]包括那些没人愿意沾上的“斩首行动”。
+[charslot(slot = "r", name = "avg_4226_veen_1#2$3",focus="r")]
+[name="斯乔帕"]您现在是想说这些全都不作数吗，我敬爱的——总司令阁下？
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[name="叶甫根尼"]不必阴阳怪气。
+[name="叶甫根尼"]你们在行军过程中的渎职行为，早就已经足够把你和你的团队都送上军事法庭绞首十次有余。
+[charslot(slot = "l", name = "avg_npc_2236_1#3$1",focus="l")]
+[name="叶甫根尼"]最近的一次。如果没有你该死的懦弱，远北之行本应是一次完美的军事行动，不会有任何人能活着逃脱。
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[name="叶甫根尼"]可你那时反常地放弃了响应，没有及时清扫应该扫净的土地，留下了四处躲藏的害虫。即使出现了这样的纰漏，我也容忍了。
+[name="叶甫根尼"]你们在之后的那场哗变中短暂地证明了自己仍有用武之地，即使这代价是牺牲你队伍中的兄弟姊妹，想必你也甘之如饴。
+[charslot(slot = "r", name = "avg_4226_veen_1#3$3",focus="r")]
+[name="斯乔帕"]......
+[charslot(slot = "l", name = "avg_npc_2236_1#1$1",focus="l")]
+[name="叶甫根尼"]总之，我是在给你第三次机会，拉辛少校。
+[charslot(slot = "l", name = "avg_npc_2236_1#6$1",focus="l")]
+[name="叶甫根尼"]不要错过。
+[Dialog]
+[StopMusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="73_g15_exurbforest",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[playMusic(key="$wasteland_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[dialog]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_only_heavy", pos = "-400,-200", block = false)]<p=1>泽尔格勒接驳区，林中</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[playsound(key="$d_avg_crowdtalk_fear", loop=true, channel="a",volume=0)]
+[SoundVolume(volume=0.8, channel="a",fadetime=2)]
+[delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1",focus="m")]
+[name="冷漠的军人"]找到自己的位置，有序排队，不要试图穿越树林进城！
+[name="冷漠的军人"]被抓住的人会直接剥夺资格，发配到东部矿场！
+[dialog]
+[charslot]
+[name="播报声"]下一位。
+[charslot(slot = "m", name = "avg_npc_1969_1#1$1",focus="m")]
+[name="胆小的矿工"]我！是我——轮到我了！
+[name="胆小的矿工"]终于......
+[dialog]
+[PlaySound(key="$d_avg_walkfast", volume=0.7)]
+[charslot(duration=0.7)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1",focus="m")]
+[name="冷漠的军人"]下一个，补位。
+[charslot(slot = "m", name = "avg_npc_1974_1#1$1",focus="m")]
+[name="后怕的学者"]......感染者，矿工......泽尔格勒更需要的，难道不是我们这样的技术型人才吗？
+[name="后怕的学者"]唉。我可不敢再跟这些人照面了，虽然我现在也成了感染者......还好我们没排在一列。
+[charslot(slot = "m", name = "avg_npc_1975_1#1$1",focus="m")]
+[name="骄傲的学者"]打起精神来！进去之后，我们会找到自己的活法的。
+[name="骄傲的学者"]“泽尔格勒是新时代的图利斯卡亚，将会是乌萨斯规模最大的工业基地。”那些疾驰在荒野上的货车，上面的车身广告不都这么说吗？
+[name="骄傲的学者"]从前，帝国的每一枚炮弹都从图利斯卡亚出产，往后，帝国的每一枚精密芯片都将在泽尔格勒诞生！
+[name="骄傲的学者"]如果我们能获许参与这样的建设，这意味着即使是作为感染者，我们也能被需要——
+[name="骄傲的学者"]意味着那位卜捷里娜元帅真正看见了我们头脑的价值。
+[dialog]
+[charslot]
+[stopsound(channel="a", fadetime=1)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2249_1#1$1",duration=1)]
+[delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_2249_1#1$1",focus="m")]
+[name="？？？"]......
+[name="？？？"]几乎都是感染者。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1",focus="m")]
+[name="诧异的工人"]小姐，你为什么站在我们这一列？你看上去......几乎像个贵族。
+[charslot(slot = "m", name = "avg_npc_2249_1#3$1",focus="m")]
+[name="？？？"]还好只是“几乎”。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1",focus="m")]
+[name="诧异的工人"]嗯？
+[charslot(slot = "m", name = "avg_npc_2249_1#9$1",focus="m")]
+[name="？？？"]你们是在排队等待进入泽尔格勒吗？
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1",focus="m")]
+[name="诧异的工人"]对啊，刚才我这列不就有个矿工进去了吗？听说是从西部矿场来的，兴许那边的矿场也都关停了，和北边一样。
+[name="诧异的工人"]不过就算在这儿排队排到了，前头也还有关口，他们能不能真正进去，大概还得看运气。
+[charslot(slot = "m", name = "avg_npc_2249_1#9$1",focus="m")]
+[name="？？？"]泽尔格勒之前从不接纳感染者，即使有陛下的命令。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1",focus="m")]
+[name="诧异的工人"]我也觉得奇怪呢。我是因为有亲戚在城里，他说工厂最近招工，让我来看看能不能帮忙干点活。
+[name="诧异的工人"]我想着，反正我只有个修源石火炉的手艺，估计派不上用场，就来看看，结果没想到会在接驳区看见这么多感染者。
+[name="诧异的工人"]......啊，不过也可能是因为那件事。
+[dialog]
+[delay(time=1)]
+说到这里，工人模样的男子警惕地环视四周之后，才侧过头去继续。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1",focus="m")]
+[name="诧异的工人"]（低声）我听说，矿脉里的源石都消失了。
+[charslot(slot = "m", name = "avg_npc_2249_1#3$1",focus="m")]
+[name="？？？"]就我所知，至少东南那边的矿场里还有石头。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1",focus="m")]
+[name="诧异的工人"]这个嘛，我可就不知道了......这年头，到处都乱糟糟的，但也不能放任失业的感染者到处乱跑，总得有个地方把他们收容起来。
+[name="诧异的工人"]你呢？你为什么来这儿？你肯定也不是感染者吧。
+[charslot(slot = "m", name = "avg_npc_2249_1#13$1",focus="m")]
+[name="？？？"]......不，我是感染者。
+[charslot(slot = "m", name = "avg_npc_2249_1#1$1",focus="m")]
+[name="？？？"]如果你很介意，我可以离开，去其他队列排队。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1",focus="m")]
+[name="诧异的工人"]呃，虽然你好像本来也不该站在这儿——
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1",focus="m")]
+[name="冷漠的军人"]雇佣兵？
+[charslot(slot = "m", name = "avg_npc_2249_1#1$1",focus="m")]
+[name="？？？"]退伍军人。
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1",focus="m")]
+[name="冷漠的军人"]服役部队编号？
+[charslot(slot = "m", name = "avg_npc_2249_1#1$1",focus="m")]
+[name="？？？"]47800。
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1",focus="m")]
+[name="冷漠的军人"]特殊部队？
+[charslot(slot = "m", name = "avg_npc_2249_1#1$1",focus="m")]
+[name="？？？"]皇帝许诺过，没有“特殊”。
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1",focus="m")]
+[name="冷漠的军人"]......但你是库兰塔，不是乌萨斯。
+[name="冷漠的军人"]算了，跟我来。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="34_g10_tent_inside",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2249_1#9$1",focus="m")]
+[name="？？？"]为什么带我来这里？
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1",focus="m")]
+[name="冷漠的军人"]贵族有“专用通道”。
+[charslot(slot = "m", name = "avg_npc_2249_1#9$1",focus="m")]
+[name="？？？"]但你不知道我是谁。
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1",focus="m")]
+[name="冷漠的军人"]退伍兵、少尉。公爵、侯爵。继承人、私生子。对我来说没有区别，女士。
+[name="冷漠的军人"]你成了感染者，现在想进入泽尔格勒，那就先在这里等着。
+[name="冷漠的军人"]等你的身份核实无误，会有人来接你进城。
+[charslot(slot = "m", name = "avg_npc_2232_1#1$1",focus="m")]
+[name="惊讶的军人"]谁在说——
+[name="惊讶的军人"]天哪格列沙，你不能这么对待一位贵族！
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1",focus="m")]
+[name="冷漠的军人"]听起来你最知道应该怎么对待贵族，那她就交给你了。
+[Dialog]
+[PlaySound(key="$d_gen_walk_n",volume=0.6)]
+[charslot(duration=1)]
+[delay(time=2.5)]
+[charslot(slot = "l", name = "avg_npc_2249_1#1$1",focus="l")]
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="l")]
+[name="？？？"]......
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]呃......这位......
+[charslot(slot = "l", name = "avg_npc_2249_1#1$1",focus="l")]
+[name="？？？"]西尔卡。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]西尔卡小姐！
+[charslot(slot = "l", name = "avg_npc_2249_1#1$1",focus="l")]
+[name="西尔卡"]嗯。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]啊，对，就像刚才格列沙说的，要麻烦你在这里等等了。
+[charslot(slot = "l", name = "avg_npc_2249_1#9$1",focus="l")]
+[name="西尔卡"]所以，泽尔格勒真的开门接纳感染者了。
+[name="西尔卡"]你们之前从未遵从皇帝的命令，为什么是现在？
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]老实说，我也不清楚......但我猜可能跟小将军有关。
+[charslot(slot = "l", name = "avg_npc_2249_1#9$1",focus="l")]
+[name="西尔卡"]你是说那个未有一桩功勋，却被第一集团军上下都称为“将军”的孩子。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]你也知道——
+[charslot(slot = "l", name = "avg_npc_2249_1#7$1",focus="l")]
+[name="西尔卡"]他在行伍闲谈之中称得上是名人了。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]我们可不能像这样谈论他，还是别说了。
+[charslot(slot = "l", name = "avg_npc_2249_1#1$1",focus="l")]
+[name="西尔卡"]这里没人听着。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]你怎么知道？
+[charslot(slot = "l", name = "avg_npc_2249_1#2$1",focus="l")]
+[name="西尔卡"]我的源石技艺。哪怕你现在大声朝外面喊三声“长官我要杀了你的草包儿子”——
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]嘘——！
+[charslot(slot = "l", name = "avg_npc_2249_1#12$1",focus="l")]
+[name="西尔卡"]......也不会有任何人听见。
+[Dialog]
+[charslot(slot = "l", name = "avg_npc_2249_1#12$1",focus="n")]
+西尔卡配合地噤声了片刻。帐篷外没有任何动静传来，即使是驻守在近旁的士兵也没有反应。
+[charslot(slot = "l", name = "avg_npc_2249_1#2$1",focus="l")]
+[name="西尔卡"]（摇头）
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]也许只是监听的人还没反应过来呢。
+[charslot(slot = "l", name = "avg_npc_2249_1#2$1",focus="l")]
+[name="西尔卡"]你不愿说，我不会逼迫你。但这只是聊天，和你回家在厨房打开收音机，一边喝水一边和阳台上的花草聊天一样。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]......
+[name="惊讶的军人"]那你......想听什么呢？
+[charslot(slot = "l", name = "avg_npc_2249_1#1$1",focus="l")]
+[name="西尔卡"]所有你愿意说的。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]唔。
+[charslot(slot = "l", name = "avg_npc_2249_1#1$1",focus="l")]
+[name="西尔卡"]不如就从这位小将军开始吧。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]那我就说说，我的推测吧。
+[name="惊讶的军人"]我觉得，泽尔格勒是为小将军而打开门户，接纳感染者的。
+[charslot(slot = "l", name = "avg_npc_2249_1#3$1",focus="l")]
+[name="西尔卡"]这是你的观点。原因呢？
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]（低声）因为小将军也已经是感染者了。
+[charslot(slot = "l", name = "avg_npc_2249_1#4$1",focus="l")]
+[name="西尔卡"]......谢谢你的坦诚。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]也许我只是希望......能有个不会被他恐吓的人，知道这件事。
+[name="惊讶的军人"]......
+[name="惊讶的军人"]我哥哥，曾经也是小将军亲卫队中的一员。在那场导致小将军感染的刺杀行动之后，他和队友都被处刑，砍断了双手双脚，流血而死。
+[name="惊讶的军人"]......然后送抚恤金过来的人说，他是殉职，踩中了卡西米尔游击队的炸弹，没有找到尸体。
+[charslot(slot = "l", name = "avg_npc_2249_1#7$1",focus="l")]
+[name="西尔卡"]......
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]如果真的没有找到尸体就好了。
+[charslot(slot = "l", name = "avg_npc_2249_1#1$1",focus="l")]
+[name="西尔卡"]你们还是找到了。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]我们的母亲，是医护兵，常常也负责收尸。
+[name="惊讶的军人"]后面的故事你应该能自己想象了。
+[charslot(slot = "l", name = "avg_npc_2249_1#13$1",focus="l")]
+[name="西尔卡"]......节哀。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]生活还要继续过下去。
+[charslot(slot = "l", name = "avg_npc_2249_1#9$1",focus="l")]
+[name="西尔卡"]请允许我问一下，小将军是在哪里遭遇刺杀的？
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]就在泽尔格勒主城区的大街上。白日行刺，凶手当场就被格杀了。
+[charslot(slot = "l", name = "avg_npc_2249_1#7$1",focus="l")]
+[name="西尔卡"]他竟然还会选择回到这里。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]是呀，我也没想到......
+[charslot(slot = "l", name = "avg_npc_2249_1#1$1",focus="l")]
+[name="西尔卡"]你聊了一件沉重的事。
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]对不起。
+[charslot(slot = "l", name = "avg_npc_2249_1#1$1",focus="l")]
+[name="西尔卡"]该道歉的人不是你。作为交换，我就说个轻松些的话题吧。
+[name="西尔卡"]你知道外面的队伍，现在是感染者和非感染者混在一起排列的吗？
+[name="西尔卡"]按理来说，非感染者应该有自己单独的队列？
+[charslot(slot = "r", name = "avg_npc_2232_1#1$1",focus="r")]
+[name="惊讶的军人"]——！
+[name="惊讶的军人"]我的天，这、我得去确认一下这件事！
+[name="惊讶的军人"]西尔卡小姐，麻烦你自己在这里等一会儿，等格列沙回来——
+[Dialog]
+[PlaySound(key="$d_avg_footstep_stonestep",volume=0.6,channel="step",loop=false)]
+[stopsound(channel="step",fadetime=2.5)]
+[charslot(slot="r",afrom=1,ato=0,duration=1,focus="r")]
+[delay(time=1.5)]
+[charslot(slot = "l", name = "avg_npc_2249_1#7$1",focus="l")]
+[name="西尔卡"]......
+[name="西尔卡"]抱歉。
+[Dialog]
+[charslot(duration=1)]
+[delay(time=2)]
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="34_g10_tent_inside",screenadapt="coverall", block=true)]
+[charslot(slot = "m", name = "avg_npc_1976_1#1$1",focus="m")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[name="冷漠的军人"]女士，尽管你的身份核查没有问题，但恐怕你也走不掉了。
+[name="冷漠的军人"]名册上显示你是逃兵，我们必须把你交还给第四集团军——
+[name="冷漠的军人"]......女士？
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Image]

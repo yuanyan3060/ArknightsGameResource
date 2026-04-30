@@ -75,6 +75,10 @@ function ReturnNewsItemViewModel:_LoadMainlineData()
     self.jumpDestination = actId;
   else
     self.jumpType = ReturnNewsJumpType.ZONE;
+    if(self:_CheckIfZoneUnlocked(zoneData.bindMainlineRetroZoneId)) then
+      self.jumpDestination = zoneData.bindMainlineRetroZoneId;
+      return;
+    end
     
     local mainlineZoneList = CS.Torappu.ZoneDB.data.mainlineZoneIdList;
     if (mainlineZoneList == nil or mainlineZoneList.Count == 0) then
@@ -82,20 +86,28 @@ function ReturnNewsItemViewModel:_LoadMainlineData()
     end
     for index = mainlineZoneList.Count - 1, 0, -1 do
       local zoneId = mainlineZoneList[index];
-      local preposedStage = CS.Torappu.StageDataUtil.GetMainlineAndRetroPreposedStageData(zoneId);
-      if (preposedStage == nil) then
+      if(self:_CheckIfZoneUnlocked(zoneId)) then
         self.jumpDestination = zoneId;
         break;
       end
-      if (CS.Torappu.StageDataUtil.CheckIfStageUnlocked(preposedStage.stageId)) then
-        local avail, playerStage = CS.Torappu.StageDataUtil.TryGetAvailStage(preposedStage.stageId);
-        if (avail and playerStage ~= nil and playerStage.state == CS.Torappu.PlayerStageState.COMPLETE) then
-          self.jumpDestination = zoneId;
-          break;
-        end
-      end
     end
   end
+end
+
+
+function ReturnNewsItemViewModel:_CheckIfZoneUnlocked(zoneId)
+  local preposedStage = CS.Torappu.StageDataUtil.GetMainlineAndRetroPreposedStageData(zoneId);
+  if (preposedStage == nil) then
+    return true;
+  end
+  if (CS.Torappu.StageDataUtil.CheckIfStageUnlocked(preposedStage.stageId)) then
+    local avail, playerStage = CS.Torappu.StageDataUtil.TryGetAvailStage(preposedStage.stageId);
+    if (avail and playerStage ~= nil and (playerStage.state == CS.Torappu.PlayerStageState.PASS or 
+        playerStage.state == CS.Torappu.PlayerStageState.COMPLETE)) then
+      return true;
+    end
+  end
+  return false;
 end
 
 function ReturnNewsItemViewModel:_LoadSandboxData()

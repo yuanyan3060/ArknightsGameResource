@@ -1,0 +1,993 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="72_g13_nobleroom",screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[playMusic(intro="$mist_intro", key="$mist_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_2232_1#1$1",focus="m")]
+[name="沉稳的士兵"]小将军的情况怎么样了？
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]他已经睡下了。
+[charslot(slot="m",name="avg_npc_2232_1#1$1",focus="m")]
+[name="沉稳的士兵"]也就是说，他已经脱离了生命危险？
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[name="希尔达"]......是的。
+[charslot(slot="m",name="avg_npc_2232_1#1$1",focus="m")]
+[name="沉稳的士兵"]那么，您也请休息吧。接下来我会守夜的。
+[name="沉稳的士兵"]感谢您为将军所做的。
+[charslot(slot="m",name="avg_npc_2246_1#9$1",focus="m")]
+[name="希尔达"]不......我只是平等地为每一个需要帮助的人送上抚慰。
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[name="希尔达"]而且，我还不累。我在想，也许这里还有更多人需要我的帮助。
+[name="希尔达"]我想一个人再出去看看。
+[charslot(slot="m",name="avg_npc_2232_1#1$1",focus="m")]
+[name="沉稳的士兵"]我们不能违抗您......但小将军的命令，是让您留在他的身边。
+[name="沉稳的士兵"]如果他一会醒来后发现您离开了，他会很不高兴。
+[charslot(slot="m",name="avg_npc_2246_1#8$1",focus="m")]
+[name="希尔达"]我保证，只是离开一会，请您给我一个机会......让我能多做一点事情，以充实自己的心灵。
+[charslot(slot="m",name="avg_npc_2232_1#1$1",focus="m")]
+[name="沉稳的士兵"]好，但请千万小心。
+[name="沉稳的士兵"]现在城里接收了更多感染者，没有人可以保证这些粗鄙的人是否会做出冒犯您的举动。
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[name="希尔达"]......我会当心的。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g2_exurbstreet_n",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="m")]
+[name="阿米娅"]拜托您，我的朋友现在状况很不好，我必须要拿到药物！
+[charslot(slot="m",name="avg_npc_082",focus="m")]
+[name="卫兵"]我说了，在这里任何人夜间不得离开住所。
+[name="卫兵"]要么提交申请，等候通知，要么把病人交给我们，我们会把她送去可以治疗她的地方。
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",focus="m")]
+[name="阿米娅"]可你们不允许陪同！时间已经来不及了，我必须现在——
+[charslot(slot="m",name="avg_npc_082",focus="m")]
+[name="卫兵"]在日出之前不行，这是规定。
+[charslot(slot="m",name="avg_1037_amiya3_1#3$1",focus="m")]
+[name="阿米娅"]......
+[charslot]
+[Dialog]
+[charslot(slot="m",name="avg_npc_2238_1#1$1",bstart=0.4,bend=0.9,afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[name="？？？"]呜......
+[charslot]
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]咦？
+[charslot(slot="m",name="avg_npc_082",focus="m")]
+[name="卫兵"]请回去吧，小姐。
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]你身后，草丛里——那是什么东西？
+[charslot(slot="m",name="avg_npc_082",focus="m")]
+[name="卫兵"]这样的招数是没用——
+[charslot]
+[Dialog]
+[charslot(slot="m",name="avg_npc_2238_1#1$1",bstart=0.4,bend=0.9,focus="m")]
+[name="？？？"]吼——！
+[Dialog]
+[charslot(slot="m",name="avg_npc_2238_1#1$1",bstart=0.4,bend=0.9,afrom=1, ato=0,duration=1.5)]
+[Delay(time=2)]
+[charslot]
+[PlaySound(key="$d_gen_transmissionget", volume=1)]
+[Delay(time=1)]
+[name="通讯器里的声音"]滨河区发现目标踪迹，第三区附近。
+[name="通讯器里的声音"]收到。附近巡逻队伍已前往增援。
+[charslot(slot="m",name="avg_npc_082",focus="m")]
+[name="卫兵"]......等等，那个怪物，真的是——
+[name="卫兵"]来人，来人！
+[charslot]
+卫兵匆匆回过身，迅速呼叫着守在建筑附近的同伴。
+阿米娅最后望了一眼草丛中穿梭的黑影，来不及犹豫，果断朝另一个方向跑去。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[charslot]
+[Delay(time=0.5)]
+[Background(image="73_g2_exurbstreet_n",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>泽尔格勒主城区</><p=2>1102年1月21日 01:25</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[PlaySound(key="$rungeneral", volume=1,channel="1")]
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",afrom=0, ato=1,duration=1.5)]
+[stopsound(channel="1",fadetime=1.5)]
+[delay(time=2)]
+[name="阿米娅"]（呼......）
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]（这里是白天进来时，人流量比较大的那条街。）
+[charslot]
+[dialog]
+[PlaySound(key="$d_avg_spotlightc")]
+[Blocker(a=0.9, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2.5, block=false)]
+[delay(time=3)]
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",focus="m")]
+[name="阿米娅"]（唔——）
+[charslot]
+[name="远处的声音"]——对不起，对不起！
+[name="远处的声音"]我是在厂里检查锅炉温度耽误了时间，我马上就回去——
+[name="电子音"]违反规定夜行，处罚款并拘留。
+[name="电子音"]带走。
+[name="远处的声音"]饶了我吧，我不能耽误工时——
+[name="远处的声音"]——
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]（看来必须得避开这些探照灯，可是这里为什么要这样严格地执行宵禁？）
+[charslot(slot="m",name="avg_1037_amiya3_1#3$1",focus="m")]
+[name="阿米娅"]（希望能找到更多抑制源石技艺过载反应的药物。）
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="m")]
+[name="阿米娅"]（Raidian小姐......）
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral", volume=1,channel="2")]
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",afrom=1, ato=0,duration=1.5)]
+[stopsound(channel="2",fadetime=1.5)]
+[delay(time=2)]
+[charslot]
+即使有路灯立在两旁，夜晚的泽尔格勒仍有些昏暗，似乎双月与星光都不曾到访。
+阿米娅在街道的边缘奔跑，躲避那些不断扫射的探照灯，同时在路边的建筑上挨个寻找着标牌。
+[Dialog]
+[PlaySound(key="$d_avg_hidehaystack",volume=1)]
+[charslot(slot="m",name="avg_npc_2238_1#1$1",bstart=0.4,bend=0.9,afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[name="？？？"]咕呜呜？
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]——！
+[charslot(slot="m",name="avg_1037_amiya3_1#1$1",focus="m")]
+[name="阿米娅"]是你......追你的那群人也在附近吗，他们为什么要抓你？
+[charslot(slot="m",name="avg_npc_2238_1#1$1",bstart=0.4,bend=0.9,focus="m")]
+[name="？？？"]（蹭上来）
+[name="？？？"]（拉扯阿米娅的裙摆）
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]啊......你要带我去哪里？
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]对不起，我现在没有时间——
+[charslot(slot="m",name="avg_npc_2238_1#1$1",bstart=0.4,bend=0.9,focus="m")]
+[name="？？？"]呜！
+[charslot]
+阴影中的“云兽”不住地拉扯着阿米娅的裙摆，试图将她引向附近昏暗的巷子深处。
+阿米娅沿着它所“指引”的方向望去，发现探照灯也正频繁地向那边扫射，却触及不到阴影覆盖的地方。
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",focus="m")]
+[name="阿米娅"]呃——
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]还是去看看吧。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[charslot]
+[Delay(time=0.5)]
+[Background(image="72_g14_dimunder",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[PlaySound(key="$rungeneral", volume=1,channel="3")]
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",afrom=0, ato=1,duration=1.5)]
+[stopsound(channel="3",fadetime=1.5)]
+[delay(time=2)]
+[name="阿米娅"]这是......什么？
+[charslot]
+[Dialog]
+[charslot(slot="m",name="avg_npc_2226_1#1$1",afrom=0, ato=1,duration=1.5)]
+[delay(time=2)]
+[charslot(slot="m",name="avg_npc_2226_1#1$1",focus="m")]
+在探照灯暂时无法触及的暗处，那倚在墙边的东西几乎已经不能被称之为“人”。
+绷带覆盖了他身上的大部分皮肤，露出的部分则呈现诡异而透明的绿色。
+一侧手臂上，那些皮肤和有限的肌肉组织，正在以类似苔藓的形状结块并脱落。
+他只能用更多的绷带将小臂缠住，似乎寄希望于这能减缓表皮和血肉离身体而去的速度。
+[charslot(slot="m",name="avg_npc_2226_1#3$1",focus="m")]
+[name="奇怪的人"]（喑哑的嘶声）
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",focus="m")]
+[name="阿米娅"]您——您身上，发生了什么？
+[charslot(slot="m",name="avg_npc_2226_1#3$1",focus="m")]
+[name="奇怪的人"]穆尔......
+[charslot(slot="m",name="avg_npc_2226_1#6$1",focus="m")]
+[name="奇怪的人"]穆尔，你在哪里？
+[charslot(slot="m",name="avg_npc_2238_1#1$1",bstart=0.4,bend=0.9,focus="m")]
+[name="？？？"]呜......
+[charslot(slot="m",name="avg_1037_amiya3_1#1$1",focus="m")]
+[name="阿米娅"]“穆尔”？这是它的名字吗？
+[charslot]
+借着探照灯的一点光亮，阿米娅终于看清了身边的“云兽”。
+[Dialog]
+[charslot(slot="r",name="avg_npc_2238_1#1$1",posfrom="0,0", posto="-200,0",duration=0)]
+[charslot(slot="m",name="avg_npc_2238_1#1$1",bstart=0.4,bend=0.9,afrom=1, ato=0,duration=1.5)]
+[delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]——？！
+[charslot(slot="m",name="avg_npc_2238_1#1$1",focus="m")]
+[name="奇怪的生物"]呜......呜——
+[Dialog]
+[PlaySound(key="$d_avg_hidehaystack",volume=1)]
+[charslot(slot="m",name="avg_npc_2238_1#1$1",afrom=1, ato=0,duration=1.5)]
+[delay(time=2)]
+[charslot]
+这怪异的生物发出几声低沉的呜咽，似乎是确认过阿米娅已经发现了身边的人，转眼间消失不见。
+[charslot(slot="m",name="avg_npc_2226_1#2$1",focus="m")]
+[name="奇怪的人"]我看不见......我看不见！穆尔，你去哪儿了？
+[charslot(slot="m",name="avg_npc_2226_1#3$1",focus="m")]
+[name="奇怪的人"]......穆尔——！
+[charslot]
+[Dialog]
+[PlaySound(key="$d_avg_viscousbandage",volume=1)]
+[charslot(slot="m",posfrom="0,0", posto="-70,0",duration=1)]
+[delay(time=1)]
+[charslot(slot="m",posfrom="-70,0", posto="-140,0",duration=1)]
+[delay(time=1)]
+身前，扭曲的人形步履蹒跚，缓慢走来，黏稠的皮肉被捆在绷带之下，摩擦出令人心怵的声响。
+再向前，他就要走进探照灯的照射范围下。阿米娅不得不冲上前去，在对方一无所知地暴露自己之前将他阻拦。
+[charslot]
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]当心——！
+[charslot(slot="m",name="avg_npc_2226_1#6$1",focus="m")]
+[name="奇怪的人"]谁？
+[charslot(slot="m",name="avg_npc_2226_1#5$1",focus="m")]
+[name="奇怪的人"]谁......
+[Dialog]
+[PlaySound(key="$d_avg_viscousbandage",volume=1,channel="band")]
+[delay(time=0.01)]
+[PlaySound(key="$bodyfalldown2",volume=1,channel="down")]
+[charslot(slot="m",posfrom="0,0", posto="0,-150",afrom=1, ato=0,duration=1.5)]
+[delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",focus="m")]
+[name="阿米娅"]您这是......得了什么病？
+[name="阿米娅"]我——有什么是我能帮您的吗？
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]天哪，您的手......
+[charslot]
+阿米娅下意识将倒下的人接住。一股腐败的沼泽一样的气息，正随着四肢剧烈的颤抖，不断从这人身上散发出来。
+而那同样也是死亡的气息。
+[name="奇怪的人"]穆尔......穆尔卡！
+[name="奇怪的人"]你们都......
+[name="奇怪的人"]......离我......
+[name="奇怪的人"]再也，见不到。
+再也......
+[Dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=true)]
+[charslot]
+[Background(image="72_g12_ursusroom",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+“再也见不到了。”
+在眼前人的迷茫和疼痛中，阿米娅再一次触碰到了令她痛苦的情绪。
+黑色的冠冕自虚空中浮现。
+在短暂的意识接触中，她看到简陋的房屋，看到出门后再也没有回来的女人和孩子，看到从窗台一跃而下的云兽——
+也看到一个带回了怪物的男人。
+[name="收音机里的声音"]“日前，新工业园区基地结构架设不全导致塌方，造成相邻园区学校师生十九死三十四伤。”
+[name="收音机里的声音"]“......据悉，截至发报日期，相关补贴已向家属发放完毕。对于此次事件，我们深表惋惜......”
+[charslot(slot="m",name="avg_npc_2227_1#5$1",focus="m")]
+[name="眼熟的男人"]我不会再开窗了，穆尔。不会给你机会。
+[charslot]
+[name="？？？"]呜？
+[charslot(slot="m",name="avg_npc_2227_1#3$1",focus="m")]
+[name="眼熟的男人"]我也不会再开门了......
+[name="眼熟的男人"]无论谁来，我都不会打开它们。
+[name="眼熟的男人"]我要让这里，只有你和我。
+[name="眼熟的男人"]我们永远......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_npc_2226_1#4$1",focus="m")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot]
+[name="收音机里的声音"]“......园区实验动物丢失，如遇紧急情况，请拨打10103。将线索告知畜牧局可领取......”
+[name="？？？"]呜......
+[charslot(slot="m",name="avg_npc_2226_1#4$1",focus="m")]
+[name="奇怪的人"]再也没有谁会离开谁，他们不能再从我身边夺走更多。
+[name="奇怪的人"]没错。就是这样。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_knockdoorfast", volume=1)]
+[Delay(time=1)]
+[name="门外的声音"]基里尔！
+[name="门外的声音"]基里尔，你在家吗！
+[name="门外的声音"]我已经一周没在工厂里见过你了，你还好吗？
+[name="门外的声音"]如果你还好，那就去跟工头说一声，正式请个假，好吗？我帮你说了，但我说的话不管用——
+[name="门外的声音"]基里尔......
+[name="门外的声音"]如果你能听到，请记得你还能依靠我们。
+[name="门外的声音"]我们是一个集体，记得吗？
+[charslot(slot="m",name="avg_npc_2226_1#2$1",focus="m")]
+[name="奇怪的人"]......
+[Dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=true)]
+[charslot]
+[charslot(slot="m",name="avg_1037_amiya3_1#15$2",focus="m")]
+[Background(image="72_g14_dimunder",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[name="阿米娅"]你的症状，“穆尔”，还有那个门外的声音——
+[charslot(slot="m",name="avg_1037_amiya3_1#6$2",focus="m")]
+[name="阿米娅"]这一切，究竟是......？
+[stopmusic(fadetime=2)]
+[Dialog]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_airridsrn",volume=1,channel="air")]
+[Background(image="bg_black",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[Blocker(a=0.3, r=0, g=0, b=0, fadetime=2, block=true)]
+[cgitem(image="cgitem_68_i17", style="cg",pfrom = "0,0",pto = "0,0", ato=1, aduration=0, pduration = 0, layer = 4)]
+[Delay(time=2)]
+[Image(image="73_i22",xScale=1.4, yScale=1.4, x=340,y=120,screenadapt="coverall",fadetime=2.5)]
+[imageTween(xTo = -170,yTo=-90, duration=2.5, block=false)]
+[Delay(time=2.5)]
+[imageTween(xTo = -110,yTo=-40, duration=1, block=false)]
+[focusout(duration=0.4, type="cg", from=0, to=0.7, block=true)]
+[focusout(duration=0.4, type="cg", from=0.7, to=0, block=true)]
+[Delay(time=0.5)]
+[imageTween(xTo = 40,yTo=-140, duration=1, block=false)]
+[focusout(duration=0.4, type="cg", from=0, to=0.7, block=true)]
+[focusout(duration=0.4, type="cg", from=0.7, to=0, block=true)]
+[Delay(time=1)]
+[name="阿米娅"]呃——
+[Dialog]
+[name="阿米娅"]（糟了，被发现了！）
+[name="阿米娅"]（还有延迟时间，得想个办法把病人也带走。）
+[name="阿米娅"]（他昏迷了，必须赶快——）
+[hidecgitem(image="cgitem_68_i17",fadetime=1)]
+[name="电子音"]发现目标。
+[name="电子音"]请不要反抗。
+[name="电子音"]第三区巡逻人员准备就位。
+[name="阿米娅"]（不行，不能被抓住，否则情况会变得更复杂。我还没有弄清这个人的情况，这可能是泽尔格勒想要遮掩的——）
+[name="阿米娅"]——！
+[name="阿米娅"]（对了，在接驳区遇到的那个人，提到了“粉尘”“感染”，这里又出现了症状奇怪的病人。是的，是的！）
+[Image(image="73_i22",xScale=1, yScale=1,screenadapt="coverall",fadetime=0.2)]
+[name="阿米娅"]对不起，我必须——
+[name="电子音"]请不要反抗。
+[name="电子音"]请不要——
+[Dialog]
+[stopsound(channel="air",fadetime=2)]
+[PlaySound(key="$d_sp_ballista",volume=0.6)]
+[PlaySound(key="$d_avg_explosion",volume=1,channel="air")]
+[CameraShake(duration=0.3, xstrength=40, ystrength=40, vibrato=60, randomness=80, fadeout=true, block=false)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.7, block=true)]
+[Delay(time=0.5)]
+[Dialog]
+[charslot]
+[Image]
+[Background(image="72_g14_dimunder",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_2260_1#1$1",focus="m")]
+[name="？？？"]快来，跟我走！
+[name="？？？"]这边！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="72_g15_wideunder",screenadapt="coverall")]
+[Delay(time=2)]
+[playMusic(intro="$ponder_intro",key="$ponder_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>泽尔格勒主城区，地下生活层</><p=2>1102年1月21日 02:16</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]街上空无一人......地下的空间里，却热闹许多。
+[charslot(slot="m",name="avg_npc_2246_1#8$1",focus="m")]
+[name="希尔达"]刚才那个感染者给我指的路，是通往这里吗？
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral", volume=1,channel="4")]
+[charslot(slot="m",name="avg_npc_2228_1#5$1",afrom=0, ato=1,duration=1.5)]
+[stopsound(channel="4",fadetime=1.5)]
+[delay(time=2)]
+[name="匆忙的工人"]前面出事了，快去叫几个人来——
+[charslot(slot="m",name="avg_npc_2228_1#7$1",focus="m")]
+[name="匆忙的工人"]呃。小朋友？你怎么在这里？
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]请问，前面出什么事了？
+[charslot(slot="m",name="avg_npc_2228_1#7$1",focus="m")]
+[name="匆忙的工人"]普罗霍尔，酒馆那个小老板，他死了！看样子是被人抢劫，杀了然后丢进下水道里去了。谁能想到在泽尔格勒还会发生这种事。
+[charslot(slot="m",name="avg_npc_2228_1#4$1",focus="m")]
+[name="匆忙的工人"]水道清理人发现的，现在得去再叫几个人搭把手把尸体捞上来，等天亮再叫警察......
+[charslot(slot="m",name="avg_npc_2228_1#7$1",focus="m")]
+[name="匆忙的工人"]唉，我跟你说这么多做什么！让开吧小妹妹，我急着去喊人呢。
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]力气上的事，我的确帮不上忙......抱歉。
+[charslot(slot="m",name="avg_npc_2228_1#1$1",focus="m")]
+[name="匆忙的工人"]没事。
+[Dialog]
+[PlaySound(key="$rungeneral", volume=1,channel="5")]
+[charslot(slot="m",afrom=1, ato=0,duration=1.5)]
+[stopsound(channel="5",fadetime=1.5)]
+[delay(time=2)]
+[charslot]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="72_g14_dimunder",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="m",name="avg_npc_2246_1#2$1",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[name="希尔达"]（这里，就是那个发现尸体的地方吗？）
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]（有人......）
+[name="希尔达"]你好，请问——
+[charslot(slot="m",name="avg_npc_2227_1#4$1",focus="m")]
+[name="惊讶的工人"]找到人了？
+[charslot(slot="m",name="avg_npc_2227_1#7$1",focus="m")]
+[name="惊讶的工人"]欸，怎么来了个小孩。你家大人呢？这底下可不是你该来的地方。
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[name="希尔达"]你好，我是想问路，请问你知道哪里有需要帮助的人吗？
+[charslot(slot="m",name="avg_npc_2246_1#8$1",focus="m")]
+[name="希尔达"]感染者，或者其他在病痛之中的人......
+[charslot(slot="m",name="avg_npc_2227_1#7$1",focus="m")]
+[name="惊讶的工人"]你这孩子说话真是奇怪，不过我大概能懂你意思。你是想找医院吧？家里人出了什么事？
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[multiline(name="希尔达")]医院......
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[multiline(name="希尔达")]也是可以的。
+[charslot(slot="m",name="avg_npc_2227_1#6$1",focus="m")]
+[name="惊讶的工人"]但你现在出去会被抓起来的，孩子。如果你是急着要医生的帮助，那我给你指个地方吧......
+[name="惊讶的工人"]只要有钱，那个人什么都肯治。
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]......
+[Dialog]
+[charslot]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+“从画着一个红色圆圈的大铁门出去，到地面之后，走没有路灯，也不会被探照灯‘关照’的那条路。”
+“一直往里走，走到一堵墙前面，蹲下去，试试推开。有松动的地方，就是能推开的‘门’。”
+“打开它，你会看到一个荒废的工厂，你要找的诊所和医生，就在里面。”
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="bg_indoor_n",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="痛苦的感染者"]医生......医生......
+[name="痛苦的感染者"]帮帮我，给我止痛吧，我把我所有的“厂券”都给您！我真的受不了了，我能听见那些石头在我的皮肤里越长越多——
+[name="乐观的感染者"]医生说了，不能依赖药物，必须等你疼到一定程度了再给你用药，这样不会太快产生抗药性，而且持续效果更好。
+[name="乐观的感染者"]再等等吧，再等等......咱们打了今天的药，白天还得回厂里去做工呢。你得趁机多休息一会儿。
+[name="痛苦的感染者"]我站不起来......
+[name="乐观的感染者"]那是幻觉！你太疼了，除了疼什么都感觉不到。我看看这是几级疼痛——
+[name="乐观的感染者"]嘶，你是不是能用药了？
+[name="痛苦的感染者"]快，帮我问——帮我问！
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[playMusic(intro="$drift_intro", key="$drift_loop", volume=0.6)]
+[name="希尔达"]请让我来帮你们看看吧。
+[charslot]
+[name="乐观的感染者"]你是谁？
+[name="痛苦的感染者"]谁都好，帮帮我——求求你了！
+[name="乐观的感染者"]你说什么呢！咱们都不知道她是谁，万一——
+希尔达走上前去，握住躺在担架上的感染者的双手。
+那双手冰凉，和腿上一样，皮肉中遍生细小的源石。若是发作起来，那种细密而绵长的疼痛，会轻易让死亡成为更可取的选项。
+[dialog]
+[PlaySound(key="$d_avg_magicshimmer",channel="D",volume=1)]
+[delay(time=2)]
+[name="乐观的感染者"]你干什么？！我要喊医生了，纳杰日达医生——医生！
+[name="痛苦的感染者"]呼......呼......
+[name="乐观的感染者"]......等等，你身上的源石，颜色变了？
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]我能做的不多，但至少，可以让他不再痛苦。
+[Dialog]
+[charslot]
+[name="乐观的感染者"]......他死了？
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]不，应该——
+[charslot]
+[name="痛苦的感染者"]你才......死了。
+[name="乐观的感染者"]*乌萨斯粗口*！我还以为——我还以为你这好运的家伙就这么到天上去了呢！
+[name="痛苦的感染者"]真的不痛了......谢谢你。
+[name="痛苦的感染者"]虽然不知道你是谁，又是怎么做到的，但能不能看在这家伙是担心我的分上，也为他治疗一下——
+[name="痛苦的感染者"]他是个没礼貌的东西，我替他向你道歉。
+[name="乐观的感染者"]喂！
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[name="希尔达"]好的，当然。
+[charslot(slot="m",name="avg_npc_2246_1#9$1",focus="m")]
+[name="希尔达"]不用担心，我正是为此而来的......
+[charslot]
+她轻声说着，将坐在一旁的感染者的手也牵过。
+[dialog]
+[PlaySound(key="$d_avg_magicshimmer",channel="D",volume=1)]
+[delay(time=2)]
+很快，那奇异的力量就再次发挥了作用。在一阵令人晕眩的、温暖的光芒中，他感觉自己几乎重获新生，甚至直接从地上站了起来。
+[dialog]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[charslot(slot="m",name="avg_npc_1731_1#1$1",focus="m",duration=1)]
+[delay(time=1.5)]
+[name="乐观的感染者"]这太神奇了......！一下就治好了，比吃什么特效药都有用，这怎么可能呢？
+[name="乐观的感染者"]你究竟是什——
+[name="乐观的感染者"]啊，纳杰日达医生！对不起，我没有觉得您的药不好的意思，绝对没有！
+[name="乐观的感染者"]呃......
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]纳杰日达医生......
+[charslot(slot="m",name="avg_npc_2246_1#8$1",focus="m")]
+[name="希尔达"]（应该就是在地下层里，那位先生提到的医生？）
+[charslot]
+希尔达转过头去，走廊尽头一处原本关闭的小门，此刻已经打开。
+门的内侧，透露出属于手术室的莹白灯光，门的外侧，则站着一个套着白袍戴着手套和口罩的中年人。
+[dialog]
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m",duration=1)]
+[delay(time=2)]
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]啊，医生......
+[charslot]
+[dialog]
+医生摇了摇头，在用毛巾清洁了双手，重新戴上手套之后，她朝希尔达招了招手。
+[charslot(slot="m",name="avg_npc_2222_1#6$1",focus="m")]
+[name="纳杰日达"]看来你就是那个传说中能用源石技艺祛除疼痛症状的人。
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]您知道我？
+[charslot(slot="m",name="avg_npc_2222_1#6$1",focus="m")]
+[name="纳杰日达"]你让我失去了不少病人，我猜到你可能会来。
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m")]
+[name="纳杰日达"]客观来说，你治了病，但主观来说，我因为你而失去了一大笔收入。
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]我以为，您是个医生......
+[charslot(slot="m",name="avg_npc_2222_1#5$1",focus="m")]
+[name="纳杰日达"]医生难道就不用吃饭了吗？而且从法律上讲，我已经不算医生了——我的执照被吊销了，现在是在无证行医。
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m")]
+[name="纳杰日达"]我是为了攒够能重新考证的钱才来到这里的，你说，我现在该拿砸了我饭碗的人怎么办？
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]我为您的遭遇感到遗憾，可即便如此，我也无法对那些需要帮助的病人无动于衷。
+[charslot]
+看到女孩紧张的表情，医生口罩遮挡下的面颊似乎松动了一些。
+[charslot(slot="m",name="avg_npc_2222_1#2$1",focus="m")]
+[name="纳杰日达"]一个不太合时宜的玩笑，别放在心上。这里的氛围已经够压抑了。
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m")]
+[name="纳杰日达"]不过我的确很好奇，你怎么能够做到这么夸张的事？你拥有这样的源石技艺，却只是像圣愚一样四处布道，分文不取？
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]我无法向您解释我的力量......希望您相信，我并无恶意。
+[charslot(slot="m",name="avg_npc_2222_1#3$1",focus="m")]
+[name="纳杰日达"]嗯哼，你看上去的确很可爱，可是按我自己对人性的理解，我不会相信一个付出不求回报的人。
+[charslot(slot="m",name="avg_npc_2222_1#5$1",focus="m")]
+[name="纳杰日达"]小兔子，你到底来这里做什么？
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral", volume=1,channel="6")]
+[charslot(slot="m",name="avg_npc_2260_1#1$1",afrom=0, ato=1,duration=1.5)]
+[stopsound(channel="6",fadetime=1.5)]
+[delay(time=2)]
+[name="慌忙的感染者"]纳杰日达医生！快，急诊！
+[name="慌忙的感染者"]这回是个完全没见过的，病症看起来已经很严重——
+[name="慌忙的感染者"]咦？希尔达小姐，你怎么也在这里？
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[name="希尔达"]啊......几天不见，您看上去好些了。
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m")]
+[name="纳杰日达"]先别闲聊了，让我看看病人。
+[Dialog]
+[charslot]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2222_1#6$1",focus="m")]
+[name="纳杰日达"]......
+[charslot(slot="m",name="avg_npc_2222_1#4$1",focus="m")]
+[name="纳杰日达"]巴尔斯，马上去穿防护服，然后帮我准备手术用物。
+[charslot]
+[charslot(slot="m",name="avg_npc_2260_1#1$1",focus="m")]
+[name="巴尔斯"]好！
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]......
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m")]
+[name="纳杰日达"]......算了，你先去服用一支代谢阻断剂，然后立刻想办法通知瑭雅。
+[name="纳杰日达"]手术我自己来。
+[Dialog]
+[charslot]
+在平板床被推至自己身边时，希尔达听到病人痛苦而微弱的呼喊。
+她下意识伸出手去，想像先前一样施以援助，却没能给对方带去丝毫的慰藉。
+哀鸣着的病人被推进手术室，她一路追去，最终也只能在手术室门前，无措地放开了那只毫无生气的手。
+[Dialog]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[name="阿米娅"]还好......总算是找到了。
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]是你发现了病人？
+[charslot(slot="m",name="avg_npc_2246_1#9$1",focus="m")]
+[name="希尔达"]我应该......谢谢你......
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="m")]
+[name="阿米娅"]只是力所能及的事......您也是这里的医生吗？
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]那位病人的情况看上去很奇怪，我从来没有见过这样的矿石病症状......我甚至不确定这是否是矿石病。
+[charslot(slot="m",name="avg_1037_amiya3_1#1$1",focus="m")]
+[name="阿米娅"]您是否知道——
+[charslot(slot="m",name="avg_npc_2246_1#8$1",focus="m")]
+[name="希尔达"]不，我不是医生......尽管我希望自己是。
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]可我却治不好他们，我能做的事实在很有限......
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="m")]
+[name="阿米娅"]对不起，我有点太着急了。看上去，您应该是位修士才对。
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]没什么，我刚才也没有注意到......你竟然也病得这样重。
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]您是说，我的病？......您怎么会知道我的病况？
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]不......你和那些人不一样，你病得很重，但你并没有在寻求救赎。我也不该对你做什么......
+[name="希尔达"]可是你身上背负的痛苦那么多，你为什么还能忍受......？
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]抱歉，我不明白——
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[Dialog]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[Image(image="73_i06",screenadapt="coverall", x=-150,y=-100, xScale=1.4, yScale=1.4)]
+[imageTween(xTo = -230, duration=20, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+瘦小的卡特斯将目光投向了一墙之隔的手术室。
+[name="希尔达"]我感受到痛苦......很多痛苦。
+[name="希尔达"]我本来以为自己已经不会再感受到痛苦了，可看到这些受苦的人们，我还是会感觉到......那么沉重的痛苦。
+[name="希尔达"]为什么......神会让人们受苦呢？
+[name="希尔达"]她要用这样的痛苦考验人们......难道只有痛苦，才是神的法则？
+[Image(image="73_i06",screenadapt="coverall", x=420,y=-40, xScale=1.7, yScale=1.7,fadetime=0.5)]
+[imageTween(xTo = 440, duration=20, block=false)]
+阿米娅感到奇怪。
+眼前这位看上去较自己还要小一些的卡特斯，身上似乎有某种与年龄严重不符的悲悯气质。
+甚至没有黑冠的浮现，再一次，魔王的力量不自觉地将阿米娅的意识与身边的女孩联系在一起。
+她没有感知到鲜明的情绪，只觉得触碰到了一团缭乱的云雾，或是暗流涌动的海洋。女孩意识中那无边无际的悲哀几乎要将她吞没。
+阿米娅不愿意继续深入下去。
+[name="阿米娅"]可据我所知，这并不是拉特兰的律法所提倡——抱歉，无意冒犯您的信仰。
+[name="阿米娅"]我不相信有什么苦难是理所应当的，那些被施加的痛苦，是我们应当竭尽全力去对抗的东西。
+[name="阿米娅"]去帮助受苦的人，去战胜施害的人......这才是我们应该去做的事。
+[Image(image="73_i06",screenadapt="coverall",fadetime=0.5)]
+[name="希尔达"]可是，总有人无法得救的。
+[name="希尔达"]总有人会继续受苦，苦难也没有尽头......我们能做的事，真的还有意义吗？
+[name="希尔达"]你难道，不会绝望吗？
+[name="阿米娅"]......
+[name="阿米娅"]也许，会的。
+[name="阿米娅"]如果只有我一个人的话，我一定会感到绝望，甚至被绝望压垮。
+[name="阿米娅"]可是我从来不是一个人......
+[name="阿米娅"]有人将她的理想告诉了我，她向我描绘了这片大地的另一番样貌......人们可以跨过隔阂，这片大地可以成为所有人共同的家。
+[name="阿米娅"]她的理想也鼓舞了许多人，团结了许多人。我见证了这份理想被传递下来，我也相信会有更多人继承这一份理想。
+[name="阿米娅"]我当然不知道怎样才能完全消除苦难，那应该是只有“神”才能做到的事吧。
+[name="阿米娅"]苦难无法被终结，可是希望也同样会延续下去。
+[name="希尔达"]所有人......共同的家。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[Image]
+[charslot]
+[Background(image="bg_indoor_n",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="m",name="avg_npc_2222_1#6$1",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[name="纳杰日达"]......
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]医生，请问他的情况怎么样？
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m")]
+[name="纳杰日达"]你是在哪儿发现他的？
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]在第一区，工厂旁边的巷子里。
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m")]
+[name="纳杰日达"]......基里尔自己的住所离那里很远。
+[charslot(slot="m",name="avg_npc_2222_1#3$1",focus="m")]
+[name="纳杰日达"]他应该是意识到自己活不久了，甚至不愿意在死后被认识他的人找到......可怜的瑭雅，她还在找他。
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]您是说......
+[charslot(slot="m",name="avg_npc_2222_1#6$1",focus="m")]
+[name="纳杰日达"]我尽力了，他的基础生理机能已经被破坏殆尽了......我能做的只有减轻一点他的痛苦。
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="m")]
+[name="阿米娅"]......
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]我们还能做到什么吗......
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m")]
+[name="纳杰日达"]......就算你有再神奇的源石技艺，大概也无法阻止人的生理机能走向完全的崩溃。
+[name="纳杰日达"]不过如果他醒来，你可以试试用你的源石技艺给他止痛。
+[Dialog]
+[charslot]
+[charslot(slot="r",name="avg_1037_amiya3_1#5$1",focus="r")]
+[PlaySound(key="$d_gen_transmissionget", volume=1)]
+[Delay(time=1)]
+[interlude(maskid = "group_interclude_vertical_common" ,size = "290,760",tsfrom="0,1", tsto ="1,1",tsduration = 0.5, switch = true, style = 0,offset = "-250,0", channel = 3)]
+[interlude(channel = 3, switch = true, type = 3, slot = "m", pfrom = "-250,0", pto="-250,0", name = "avg_4228_closur_1#9$1", duration = 0)]
+[interlude(channel = 3, switch = true)]
+[Delay(time=1)]
+[name="可露希尔"]阿米娅，你找到药物了吗？
+[interlude(channel = 3, switch = false)]
+[charslot(slot="r",name="avg_1037_amiya3_1#5$1",focus="r")]
+[name="阿米娅"]可露希尔小姐——
+[charslot(slot="r",name="avg_1037_amiya3_1#1$1",focus="r")]
+[name="阿米娅"]我刚刚找到医生，请等我一下。
+[Dialog]
+[PlaySound(key="$transmission", volume=1)]
+[Delay(time=1)]
+[interlude(channel = 3, clear = true, tsto="0,1", tsduration=0.5)]
+[Delay(time=1)]
+[charslot]
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="m")]
+[name="阿米娅"]纳杰日达医生！请问您这里有能够抑制源石技艺过载反应的药物吗？
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m")]
+[name="纳杰日达"]源石技艺过载反应？四肢无力或类似脑疲劳的症状，病人身上出现了哪种？
+[charslot(slot="m",name="avg_1037_amiya3_1#3$1",focus="m")]
+[name="阿米娅"]她直接昏迷了......我们携带的应急药物不够，能否请您分给我们一点？
+[charslot(slot="m",name="avg_npc_2222_1#5$1",focus="m")]
+[name="纳杰日达"]昏迷？听上去可真够严重的......
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m")]
+[name="纳杰日达"]我可不能把这种等级的药直接给你。我需要先检查病人的状态，我跟你走一趟吧。
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="m")]
+[name="阿米娅"]好吧......
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]医生——
+[charslot(slot="m",name="avg_npc_2222_1#1$1",focus="m")]
+[name="纳杰日达"]至于你，代谢阻断剂，拿上。我刚才的提议并非玩笑，如果你愿意，就留下来帮帮他吧。
+[name="纳杰日达"]如果你选择拒绝也没关系，自行离开就是了。
+[name="纳杰日达"]巴尔斯应该会带瑭雅过来，这个病人就是她要找的人。你也不用担心他会没人照看。
+[name="纳杰日达"]啊，对了。这位......阿米娅小姐？你接触过病人，也拿一支代谢阻断剂。现在我们不知道这种病的详情，这多少是个心理安慰。
+[charslot(slot="m",name="avg_npc_2222_1#3$1",focus="m")]
+[name="纳杰日达"]行了，我们走吧。
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]......等等！
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[name="希尔达"]阿米娅......你是叫阿米娅，对吗？
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="m")]
+[name="阿米娅"]嗯......
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[name="希尔达"]我叫......希尔达。
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]也许，我还能再见——
+[charslot]
+[name="纳杰日达"]病人住在哪里？快点带路。
+[charslot(slot="m",name="avg_1037_amiya3_1#1$1",focus="m")]
+[name="阿米娅"]好、好的——抱歉，希尔达小姐......
+[Dialog]
+[PlaySound(key="$rungeneral", volume=1,channel="7")]
+[charslot(slot="m",name="avg_1037_amiya3_1#1$1",afrom=1, ato=0,duration=1.5)]
+[stopsound(channel="7",fadetime=1.5)]
+[delay(time=2)]
+[charslot(slot="m",name="avg_npc_2246_1#8$1",focus="m")]
+[name="希尔达"]......我还能再见到你吗......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g16_illegalclinics",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="m",name="avg_npc_2246_1#2$1",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+在众人都离开之后，希尔达才缓步进入此前未曾踏足的手术室中。
+皮肉都异常脱落的病患已经被转移至病床上，四周拉起了透明防水布用作临时隔离，这让她看得不那么真切。
+于是希尔达走得更近了些。这样，她才能确认在那些新换的绷带下，病人的胸腔仍有微弱的起伏。
+[charslot]
+[name="奇怪的病人"]嗬......
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]啊，你醒了？你感觉怎么样？
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="n")]
+[name="奇怪的病人"]......疼......
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]......
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="n")]
+[name="奇怪的病人"]帮我......帮我。
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]我、我没办法帮你止疼。我试过了，我无法像对其他人那样，把你从痛苦中解放——
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="n")]
+[name="奇怪的病人"]呜......
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]告诉我，我还能做些什么来让你感觉好受些？
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="n")]
+[name="奇怪的病人"]嘶——呼......
+[name="奇怪的病人"]......杀......
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]您说什么？
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="n")]
+[name="奇怪的病人"]杀了......
+[name="奇怪的病人"]我。
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]杀您......？
+[charslot]
+[name="奇怪的病人"]我见不到，穆尔卡。
+[name="奇怪的病人"]我的穆尔卡——
+[Dialog]
+[PlaySound(key="$d_avg_viscousbandage",volume=1)]
+[charslot(slot="m",name="avg_npc_2226_1#3$1",posfrom="0,-150", posto="0,0",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]您不能起身——
+[charslot(slot="m",name="avg_npc_2226_1#3$1",focus="m")]
+[name="奇怪的病人"]咳、咳咳咳！！
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]您不该试着起身的，应该节省力气。如果把力气都消耗掉了，您之后会更疼的。
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]您想做什么？请让我来帮您吧。
+[charslot(slot="m",name="avg_npc_2226_1#3$1",focus="m")]
+[name="奇怪的病人"]咳......
+[charslot(slot="m",name="avg_npc_2226_1#1$1",focus="m")]
+[name="奇怪的病人"]我还去过了，我们第一次见面的地方。
+[charslot(slot="m",name="avg_npc_2226_1#4$1",focus="m")]
+[name="奇怪的病人"]我看见你坐着，怀里抱着云兽。
+[charslot(slot="m",name="avg_npc_2226_1#1$1",focus="m")]
+[name="奇怪的病人"]......
+[charslot(slot="m",name="avg_npc_2226_1#4$1",focus="m")]
+[name="奇怪的病人"]多奇怪啊。你们明明都已经不在了。
+[charslot(slot="m",name="avg_npc_2226_1#3$1",focus="m")]
+[name="奇怪的病人"]......呃......
+[name="奇怪的病人"]嘶——
+[Dialog]
+[PlaySound(key="$d_avg_viscousbandage",volume=1,channel="band")]
+[delay(time=0.01)]
+[PlaySound(key="$bodyfalldown2",volume=1,channel="down")]
+[charslot(slot="m",posfrom="0,0", posto="0,-150",afrom=1, ato=0,duration=1.5)]
+[delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]先生！
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="n")]
+[name="奇怪的病人"]我想做什么？......我想死......
+[name="奇怪的病人"]杀了我，别再给我希望。
+[name="奇怪的病人"]别让她看到我现在的模样......
+[charslot(slot="m",name="avg_npc_2246_1#8$1",focus="m")]
+[name="希尔达"]......
+[charslot(slot="m",name="avg_npc_2246_1#4$1",focus="m")]
+[name="希尔达"]不，也许......也许我能——
+[charslot]
+她难以描述这突如其来的冲动。是完成他的愿望，还是尽力帮他不那么痛苦地继续活？
+没有决断。希尔达只是再次伸手，轻轻放在他剧烈起伏的胸膛之上。
+[PlaySound(key="$d_avg_OriginiumArts_heal_loop", loop=true,volume=0.8,channel="heal")]
+[charslot(slot="m",name="avg_npc_2246_1#9$1",focus="m")]
+[name="希尔达"]（我向您，再度祈求一个愿望。）
+[name="希尔达"]（希望您的福泽，能平等地给予所有同胞。）
+[name="希尔达"]（即使矿石病并非令他痛苦的缘由，即使他无从知晓您的名讳......）
+[name="希尔达"]......
+[name="希尔达"]我衷心地希望，您能远离痛苦。
+[charslot]
+[dialog]
+[PlaySound(key="$d_avg_magicshimmer",channel="D",volume=1)]
+[delay(time=2)]
+青色渗红的皮肤如苔藓般块块剥落。在那下面，原本柔软的血肉，已经变得坚硬。
+橙色的石头逐渐取代了他身体残余的每个部分，希尔达睁大了眼睛，她先前从未直面过这样的转变过程。
+一个小小的笑容，最终出现在病患的脸上。
+[name="奇怪的病人"]......如果，你能见到“穆尔”......
+[name="奇怪的病人"]请替我......
+[name="奇怪的病人"]感谢它的陪伴。
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]......
+[stopmusic(fadetime=1)]
+[charslot]
+[name="？？？"]你做了什么？
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[stopsound(channel="heal",fadetime=1)]
+[name="希尔达"]我......我不是——
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="l",name="avg_npc_1979_1#1$1",afrom=0, ato=1,duration=1.5)]
+[charslot(slot="r",name="avg_npc_2225_1#9$1",afrom=0, ato=1,duration=1.5)]
+[delay(time=2)]
+[charslot(slot="r",name="avg_npc_2225_1#9$1",focus="r")]
+[name="沉稳的青年"]我想我没有看错。
+[name="沉稳的青年"]这位小姐，能否请你解释一下——你对这位病人，到底做了什么？
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="72_g13_nobleroom",screenadapt="coverall")]
+[Delay(time=2)]
+[PlayMusic(intro="$plot_intro", key="$plot_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_only_heavy", pos = "-400,-200", block = false)]<p=1>泽尔格勒扩展地块，元帅府邸</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+少年用长刀轻巧地把身前的尸体拨弄到一边，从侍从手中接过干净的绢帕，缓慢擦拭着刀身上的血迹。
+[charslot(slot="m",name="avg_npc_2235_1#10$1",focus="m")]
+[name="阿纳托利"]......
+[name="阿纳托利"]所以，你们谁能告诉我......
+[charslot(slot="m",name="avg_npc_2235_1#9$1",focus="m")]
+[name="阿纳托利"]“不知道她在哪儿”，是什么意思？
+[charslot(slot="m",name="avg_npc_1982_1#1$1",focus="m")]
+[name="胆大的侍从"]......希尔达小姐选择独自离开时，我们的确派人一路跟随，但在进入地下生活层之后丢失了她的踪迹。
+[name="胆大的侍从"]当然，我们立刻对她的去向展开了搜寻，目前已经锁定了一个范围，与我们此前多次尝试剿灭的感染者非法聚居区有大量重合。
+[name="胆大的侍从"]希尔达小姐......大概是主动去施行她的“神迹”了。
+[charslot(slot="m",name="avg_npc_2235_1#9$1",focus="m")]
+[name="阿纳托利"]“施行神迹”......哼。究竟是谁允许她这样滥施恩惠，难道她觉得所有人都配得上这份救赎？
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral", volume=1,channel="8")]
+[charslot(slot="m",name="avg_npc_082",afrom=0, ato=1,duration=1.5)]
+[stopsound(channel="8",fadetime=1.5)]
+[delay(time=2)]
+[name="卫兵"]报告小将军！我们在追捕刺客时，于集体住宅第三区发现了非法集会行为！
+[name="卫兵"]这些感染者违反了夜行禁令，且试图拒捕，也许是在为刺客打掩护——
+[name="卫兵"]请下达指示！
+[charslot(slot="m",name="avg_npc_2235_1#8$1",focus="m")]
+[name="阿纳托利"]......
+[charslot(slot="m",name="avg_npc_1982_1#1$1",focus="m")]
+[name="胆大的侍从"]第三区和希尔达小姐可能在的主城区都离我们不远。
+[charslot(slot="m",name="avg_npc_2235_1#9$1",focus="m")]
+[name="阿纳托利"]“可能在”？
+[charslot(slot="m",name="avg_npc_1982_1#1$1",focus="m")]
+[name="胆大的侍从"]......事实上，我们已经完全锁定了。
+[charslot(slot="m",name="avg_npc_2235_1#1$1",focus="m")]
+[name="阿纳托利"]那我们就先去第三区。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g16_illegalclinics",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_1979_1#1$1",focus="m")]
+[name="帕洪"]来不及了......他的确已经死了。
+[name="帕洪"]老师，我们都看到了，就是这个人刚刚对他使用了源石技艺，接着他就死了！
+[charslot]
+青年挥手制止了同伴继续说下去。
+[charslot(slot="m",name="avg_npc_2225_1#1$1",focus="m")]
+[name="沉稳的青年"]这位小姐，我们绝对不愿意伤害手无寸铁的人，我们也希望你能告知我们一点信息，以证明你同样没有敌意。
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]我没有伤害他......我只是不希望他继续忍受痛苦。
+[charslot(slot="m",name="avg_npc_2246_1#8$1",focus="m")]
+[name="希尔达"]医生对他得的病束手无策，我也没有办法挽回他的生命。
+[charslot(slot="m",name="avg_npc_2225_1#1$1",focus="m")]
+[name="沉稳的青年"]他得了病？什么样的病？
+[charslot(slot="m",name="avg_npc_2246_1#8$1",focus="m")]
+[name="希尔达"]这也是我想知道的......在来到这里之前，我也从来没有见过。
+[charslot]
+青年上前一步，来到病床旁，仔细观察着病人可怖的遗体......
+青年脸上的表情自始至终没有一丝波澜。
+[charslot(slot="m",name="avg_npc_2225_1#8$1",focus="m")]
+[name="沉稳的青年"]这的确证实了我们的猜想。不管军方在泽尔格勒隐藏了什么秘密，它都在杀死这里的人。
+[charslot(slot="m",name="avg_npc_2225_1#9$1",focus="m")]
+[name="沉稳的青年"]泽尔格勒绝非感染者理想的庇护所，我们需要让更多人知道真相，然后带领大家离开。
+[charslot(slot="m",name="avg_npc_1979_1#1$1",focus="m")]
+[name="帕洪"]您说的对，可是我们现在连将大家聚集在一起都很难做到，怎么才能把消息传播出去？
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]你们......想要带这里的人们离开？
+[charslot(slot="m",name="avg_npc_2246_1#5$1",focus="m")]
+[name="希尔达"]我还有同伴被收容在这里，他们一定会相信我......我可以联系他们，只要你愿意带他们一起离开。
+[charslot(slot="m",name="avg_npc_2225_1#9$1",focus="m")]
+[name="沉稳的青年"]小姐，我们很希望可以信任你，可是你该如何证明你值得信任？
+[charslot(slot="m",name="avg_npc_2246_1#8$1",focus="m")]
+[name="希尔达"]......我可以告诉你，那位小将军在这里的军队布防——
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_airridsrn", volume=1,channel="air")]
+[Delay(time=3)]
+[charslot(slot="m",name="avg_npc_1979_1#1$1",focus="m")]
+[name="帕洪"]怎么回事？！
+[name="帕洪"]可是，我们来的时候明明没有惊动任何警卫！
+[charslot(slot="m",name="avg_npc_2225_1#4$1",focus="m")]
+[name="沉稳的青年"]也许惊动他们的另有其人。
+[charslot(slot="m",name="avg_npc_2225_1#6$1",focus="m")]
+[name="沉稳的青年"]没时间在意了，帕洪，按计划分队撤离。
+[charslot(slot="m",name="avg_npc_2225_1#9$1",focus="m")]
+[name="沉稳的青年"]小姐，至于你——
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]我和你们......一起走。
+[stopsound(channel="air",fadetime=1.5)]
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[gridbg]
+[stopmusic(fadetime=2)]
+[Image]
+[charslot]

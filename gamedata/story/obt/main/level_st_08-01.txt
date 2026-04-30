@@ -176,7 +176,7 @@
 [Character(name="char_002_amiya_1#7")]
 [name="阿米娅"] 游击队现在的动向呢？
 [Character(name="avg_npc_012")]
-[name="罗德岛干员"] 侦查干员汇报说，已经集合的游击队正在中央大道上正面攻击其他整合运动守军。
+[name="罗德岛干员"] 侦察干员汇报说，已经集合的游击队正在中央大道上正面攻击其他整合运动守军。
 [name="罗德岛干员"] 还有一些游击队的小队，不进反退，他们四散向城市的各个部分......
 [Character(name="char_002_amiya_1#7",name2="avg_npc_012",focus=1)]
 [name="阿米娅"] ......是这样的，游击队还有其他的职责。
@@ -338,6 +338,7 @@
 [Dialog]
 [Character]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]
+[Background(image="bg_black",screenadapt="coverall")]
 [Image(image="avg_8_24",x=0, y=100, xScale=1.2, yScale=1.2, fadetime=0)]
 [Blocker(a=0, fadetime=1.5, block=false)]
 [Character]
@@ -347,6 +348,8 @@
 [Dialog]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
 [Image(fadetime=0)]
+[Background(image="bg_cherunder_2",screenadapt="coverall")]
+[delay(time=1)]
 [Blocker(a=0, fadetime=0.6, block=false)]
 [Character(name="char_003_kalts_1",fadetime=1,block=true)]
 [delay(time=1)]

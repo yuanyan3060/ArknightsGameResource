@@ -1,0 +1,966 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="73_g4_exurbstonewallstreet_d",screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[playsound(key="$d_avg_explosion_stone", volume=0.9)]
+[PlaySound(key="$d_sp_ballista",volume=0.9,delay=0.5)]
+[CameraShake(duration=2.5,xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[playMusic(intro="$exciting_intro", key="$exciting_loop", volume=0.6)]
+[bgeffect(name="$eb_scorchedearth",layer=1,y=-100)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="char_1002_nsabr_1",focus="m")]
+[name="整合运动成员A"]该死......！
+[name="整合运动成员A"]这些懦夫，各个都躲在掩体后面，我们不熟悉墙内地形，很难突破了。
+[name="整合运动成员A"]塔露拉还有多久能到？
+[charslot(slot="m",name="char_1011_wizard_1",focus="m")]
+[name="整合运动成员B"]她那边的敌人更多，估计还要点时间。
+[name="整合运动成员B"]按照她的指示，我们只要尽可能地拖住这边的守军，等到她来增援就好——
+[Dialog]
+[charslot]
+[playsound(key="$d_avg_grenadethrow")]
+[playsound(key="$d_gen_explo_n", volume=0.9,delay=1.2)]
+[delay(time=1)]
+[CameraShake(duration=1,xstrength=25,ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]
+[delay(time=0.5)]
+[charslot(slot="m",name="char_1002_nsabr_1",focus="m")]
+[name="整合运动成员A"]呃......什么动静——
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_drone",volume=1)]
+[PlaySound(key="$d_avg_droneshield_hit", volume=1,delay=2)]
+[playsound(key="$d_gen_explo_n", volume=0.6,delay=2.5)]
+[delay(time=2)]
+[CameraShake(duration=1.5,xstrength=25,ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=2)]
+话音未落，另一枚炮弹越过他的头顶，朝着身后的其他成员而去。
+他刚想招呼自己的同伴们躲开攻击，一架无人机腾空而起，将炮弹拦截在半空，爆炸让地面都为之震动。
+[charslot(slot="m",name="char_1002_nsabr_1",focus="m")]
+[name="整合运动成员A"]这，这是......可露希尔？！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_drone", volume=1, loop=false, channel="d")]
+[PlaySound(key="$d_avg_drone", volume=1, loop=false, channel="e",delay=0.2)]
+[PlaySound(key="$d_avg_drone", volume=1, loop=false, channel="f",delay=0.4)]
+[Delay(time=1.5)]
+随着身后响起的机械嗡鸣，数不清的无人机依次升到了上空，呼啸着扑向飞来的炮弹。
+[Dialog]
+[charslot(slot="m",name="avg_4228_closur_1#1$2",duration=1)]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_4228_closur_1#1$2",focus="m")]
+[name="可露希尔"]哼，才不用等到她来救场。
+[name="可露希尔"]多谢你们帮忙拖了点时间，针对电磁干扰的解决方案也已经完成了。
+[charslot(slot="m",name="avg_4228_closur_1#12$2",focus="m")]
+[multiline(name="可露希尔")]扫描掩体，标记敌方目标，自燃保护已解除——
+[charslot(slot="m",name="avg_4228_closur_1#8$2",focus="m")]
+[multiline(name="可露希尔")]去吧，给他们点颜色看看！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_drone", volume=1, loop=false, channel="d1")]
+[PlaySound(key="$d_avg_drone", volume=1, loop=false, channel="e1",delay=0.2)]
+[PlaySound(key="$d_avg_drone", volume=1, loop=false, channel="f1",delay=0.4)]
+[delay(time=1)]
+[playsound(key="$d_avg_airwaramb", loop=true, channel="aa",volume=0)]
+[PlaySound(key="$d_avg_battlefield_environment", volume=0, loop=true, channel="bb")]
+[SoundVolume(volume=1, channel="aa",fadetime=3)]
+[SoundVolume(volume=1, channel="bb",fadetime=3)]
+[delay(time=2)]
+无人机一架接一架越过了石墙大门，紧接着，掩体后响起阵阵爆炸声和乌萨斯军人此起彼伏的哀嚎。
+守军显然被这样毫无章法的攻击手段打乱了阵脚，他们慌忙用武器对付这些会飞行的铁块，已经顾不上隐藏自己的位置。
+[charslot(slot="m",name="char_1002_nsabr_1",focus="m")]
+[name="整合运动成员A"]这无人机怎么这么好用？要是我们也能用上这种——
+[name="整合运动成员A"]不管了，好机会，跟我冲进去！
+[charslot(slot="m",name="avg_4228_closur_1#10$2",focus="m")]
+[multiline(name="可露希尔")]哼哼......
+[charslot(slot="m",name="avg_4228_closur_1#1$2",focus="m")]
+[PlaySound(key="$d_avg_snapping", volume=1)]
+[multiline(name="可露希尔")]任务完成！
+[Dialog]
+她情不自禁地打了一个响指。
+[Dialog]
+[StopSound(channel="aa", fadetime=1.5)]
+[StopSound(channel="bb", fadetime=1.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[bgeffect]
+[Background(image="73_g4_exurbstonewallstreet_d",screenadapt="coverall", block=true)]
+[charslot(slot="m",name="avg_npc_2247_1#5$1")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2247_1#5$1",focus="m")]
+[name="塔露拉"]你们......
+[charslot(slot="m",name="avg_4228_closur_1#1$2",focus="m")]
+[name="可露希尔"]嘿嘿，我和大家提前搞定了这里，石墙的侧门已经被攻占了。
+[charslot(slot="m",name="avg_4228_closur_1#12$2",focus="m")]
+[name="可露希尔"]不过里面还有更多的守军，塔露拉，我需要你的帮助。
+[charslot(slot="m",name="avg_npc_2247_1#1$1",focus="m")]
+[name="塔露拉"]......嗯。
+[name="塔露拉"]去找罗德岛的人吧，可露希尔，把乌萨斯的军队都交给我，整合运动来确保他们不会影响到你的行动。
+[charslot(slot="m",name="avg_npc_2247_1#9$1",focus="m")]
+[name="塔露拉"]我还有很多账，要和这些人算。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="73_g6_newundergroundcorridor", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=0.5)]
+[dialog]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>泽尔格勒保密区，？？？</><p=2>1102年1月22日 14:28</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[playsound(key="$d_avg_recorderglitch",volume=1,channel="2",loop=true)]
+[PlaySound(key="$burningloop1", volume=0.8, loop=true, channel="burn")]
+[Delay(time=1)]
+[name="通讯器里的声音"]......滋滋......呼叫......尼科诺夫上校......
+[name="通讯器里的声音"]......敌人突破了石墙防御，他们所到之处都燃起了大火，驻防连队也已经无人应答......
+[name="通讯器里的声音"]......请立即汇报你们的指挥部情况，燃料工厂是重中之重，要保护好那些感染者资源，绝不能失守！如果有危险，启动应急方案——
+一只手伸过来，从倒下的男人怀里捡起了通讯器。
+[Dialog]
+[PlaySound(key="$d_avg_cloakmovement", volume=1)]
+[Delay(time=1)]
+[name="？？？"]什么方案？
+[SoundVolume(channel="2", volume=0, fadetime=6)]
+[SoundVolume(channel="burn", volume=0, fadetime=6)]
+[name="通讯器里的声音"]......
+[name="通讯器里的声音"]......你是谁？
+[Dialog]
+[charslot(slot="m",name="avg_npc_2247_1#1$1",focus="m")]
+[name="塔露拉"]捡到这个通讯器的人......你的上校，不久前死在了我的手上。
+[Dialog]
+[charslot]
+[name="通讯器里的声音"]你想干什么？！
+[charslot(slot="m",name="avg_npc_2247_1#4$1",focus="m")]
+[name="塔露拉"]你只需要知道，你是下一个。
+[Dialog]
+[charslot]
+[stopsound(channel="2", fadetime=1)]
+[stopsound(channel="burn", fadetime=1)]
+[PlaySound(key="$aluminum", volume=1)]
+[Delay(time=1.5)]
+她的五指猛然收紧，通讯器应声四分五裂，破碎的零件接连掉落在地上，发出清脆的细响。
+[charslot(slot="m",name="char_1002_nsabr_1",focus="m")]
+[name="整合运动成员"]搞定了，塔露拉，外面的残余士兵都已被处理。按照事先的计划，可露希尔前去寻找石棺，西尔卡则去寻找小将军的下落了。
+[name="整合运动成员"]而我们要找的“燃料工厂”，抓到的几个俘虏说它就在这里。
+[charslot(slot="m",name="avg_npc_2247_1#6$1",focus="m")]
+[name="塔露拉"]巧了......刚才他们的长官也这么说。
+[charslot(slot="m",name="avg_npc_2247_1#1$1",focus="m")]
+[name="塔露拉"]把门打开。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="73_g7_newinstitutelaboratory", screenadapt="coverall", block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$d_gen_dooropen", volume=0.7)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=0.5)]
+钢制大门被缓缓推开，里面排列着几十个等身的玻璃罐，一些人眯起眼睛，他们习惯了战场，却仍然恐惧于即将看到的事物。
+然而出人意料的是，这里和墙外的工厂并不全然相同，那些玻璃罐下红灯闪烁。塔露拉上前几步，观察着第一个罐中的情况。
+那是一名年轻的女人，她的躯体完整，无数根细长的软管连接着口鼻，体表的源石结晶正冒着暗黄色的微光。
+[Dialog]
+[charslot(slot="m",name="char_1002_nsabr_1",focus="m")]
+[name="整合运动成员"]这些灯都亮着，和扩展地块那会儿不一样......
+[name="整合运动成员"]我看到了！罐子里那个人的眼皮好像在动！
+[charslot(slot="m",name="avg_npc_2247_1#4$1",focus="m")]
+[name="塔露拉"]......他们还有得救，先关了总闸。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_overheat", volume=1)]
+[PlaySound(key="$d_avg_swordwhoosh_long", volume=1,delay=1.5)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.8,delay=2)]
+[PlaySound(key="$d_avg_glassbroken", volume=1,delay=3)]
+[PlaySound(key="$d_avg_waterpipeburst", volume=1,delay=3.2)]
+[Delay(time=1.5)]
+[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]
+[Delay(time=0.3)]
+刺耳的拉闸声响起的同时，一阵刀光闪过。
+塔露拉面前的玻璃罩齐整地裂开，油状的保存液轰然涌出，在她脚边四溅。
+女人随着泄出的液体逐渐向前倒去，塔露拉上前一步扶住了她，另一只手扯断她身上所有的软管。
+[name="获救的感染者"]......嗯......
+[charslot(slot="m",name="avg_npc_2247_1#4$1",focus="m")]
+[name="塔露拉"]她还有意识......快，去救其他人！
+[charslot(slot="m",name="char_1002_nsabr_1",focus="m")]
+[name="整合运动成员"]好！
+[Dialog]
+[charslot(duration=0.7)]
+[Delay(time=1.5)]
+[PlaySound(key="$bottlebroken", volume=0.6)]
+[PlaySound(key="$d_avg_glass_break", volume=1,delay=1)]
+[PlaySound(key="$d_avg_windowbreak", volume=1,delay=1.6)]
+[CameraShake(duration=2, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=2.5)]
+生的希望，让众人如梦初醒，方才的恐惧在这一刻化作力量，他们冲向其余的玻璃罐。一时间玻璃破碎声和招呼的声音此起彼伏。
+[stopmusic(fadetime=2)]
+[name="获救的感染者"]......我，得救了吗......
+[charslot(slot="m",name="avg_npc_2247_1#7$1",focus="m")]
+[name="塔露拉"]是的，你很安全。
+[name="塔露拉"]我能向你保证，那些人绝不会再碰到你了。
+[Dialog]
+[charslot]
+[name="获救的感染者"]整合运动......
+[charslot(slot="m",name="avg_npc_2247_1#5$1",focus="m")]
+[name="塔露拉"]......什么？
+[Dialog]
+[charslot]
+[playMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.6)]
+[name="获救的感染者"]一定是的......只有整合运动会救我们，我知道，大家都知道......
+[name="获救的感染者"]刚被转移到这里的时候，许多人，尤其是孩子都在哭......直到有人讲起你们的故事，大家，又开始相信了......
+[name="获救的感染者"]但那些军官打断了我们，说整合运动只是疯子组建的恐怖组织......
+[name="获救的感染者"]但在乌萨斯，在乎感染者的人，哪会不是疯子呢......
+[name="获救的感染者"]谢谢......你们......
+[name="获救的感染者"]可是......那个白发的黎博利呢？她不是和你们一起的？
+[charslot(slot="m",name="avg_npc_2247_1#5$1",focus="m")]
+[name="塔露拉"]你说什么？白发的黎博利？
+[Dialog]
+[charslot]
+[name="获救的感染者"]在你们来之前，有一个白发的黎博利来过这里。她告诉我们一定要坚持下去，很快就会有人来救我们！
+[name="获救的感染者"]她还说——
+[Dialog]
+[musicvolume(volume=0.3, fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[charslot]
+[Background(image="73_g7_newinstitutelaboratory", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[charslot(slot="m",name="avg_npc_415_1#1$1",focus="m")]
+[bgeffect(name="$eb_blackmask",layer=1)]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_415_1#1$1",focus="m")]
+[name="卡谢娜"]永远不要放弃抗争，驯服的人会变得软弱。
+[name="卡谢娜"]而只有拥有力量的人，才有资格活下去。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[charslot]
+[bgeffect]
+[Background(image="73_g7_newinstitutelaboratory",screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[charslot(slot="m",name="avg_npc_2247_1#2$1",focus="m")]
+[Delay(time=0.5)]
+[musicvolume(volume=0.6, fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Delay(time=0.5)]
+[name="塔露拉"]......！
+[charslot(slot="m",name="char_1002_nsabr_1",focus="m")]
+[name="整合运动成员"]塔露拉，其他人都被救出来了，我们得抓紧了，别的工厂里还有感染者等我们去解救。
+[charslot(slot="m",name="avg_npc_2247_1#1$1",focus="m")]
+[name="塔露拉"]......嗯，帮我搀着她，把她带出去。
+[charslot(slot="m",name="avg_npc_2247_1#4$1",focus="m")]
+[name="塔露拉"]这个地方，由我来处理。
+[dialog]
+[charslot]
+同伴搀走了这位虚弱的青年。塔露拉缓缓起身，她一步一步地走到门口，回过头。
+如今这座“工厂”空荡而寂静，倾翻的液体四处横流，倒映着远处最后一点微光。
+[Dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]
+[bgeffect(name="$eb_burn",layer=1)]
+[PlaySound(key="$b_char_fireharm", volume=1)]
+[PlaySound(key="$d_avg_churchfire", volume=0, loop=true, channel="b")]
+[SoundVolume(volume=0.4, channel="b",fadetime=3.5)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.7, block=true)]
+[delay(time=1)]
+就像一场告别，塔露拉伸出了手——烈火从各个角落同时蹿起，吞没青色的石料。
+这场属于感染者的漫长徭役，在此刻终止。
+[Dialog]
+[stopmusic(fadetime=2)]
+[StopSound(channel="b", fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[bgeffect(fade = true, fadetime =0.5)]
+[charslot]
+[Background(image="72_g13_nobleroom", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[playMusic(intro="$mist_intro", key="$mist_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_2249_1#3$1",focus="m")]
+[name="西尔卡"]......没人？
+[Dialog]
+[charslot]
+偌大的房间空无一人，只有尚在燃烧的壁炉，发出木屑破碎的声音。
+[playsound(key="$d_avg_paper1",volume=1)]
+西尔卡走近书桌，书册和文件散落在上面，她翻动着，从底部拿出一张写满记号的纸张，右下角留有一个崭新的签名。
+[charslot(slot="m",name="avg_npc_2249_1#8$1",focus="m")]
+[name="西尔卡"]......阿纳托利——
+[Dialog]
+[charslot(slot="m",name="avg_npc_2249_1#8$1",focus="n")]
+[name="？？？"]有人？是谁？
+[Dialog]
+[charslot(slot="m",name="avg_npc_2249_1#8$1",focus="m")]
+[Delay(time=0.3)]
+[charslot(duration=0.7)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_runstop", volume=1)]
+[charslot(slot="m",name="avg_npc_1976_1#1$1",duration=0.5)]
+[Delay(time=0.7)]
+[name="疑惑的卫兵"]嗯？奇怪......刚才还有声音。
+[Dialog]
+[charslot(duration=0.5)]
+[Delay(time=0.7)]
+[PlaySound(key="$d_avg_bodyhitwall",volume=1)]
+[CameraShake(duration=1, xstrength=20, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=1.2)]
+[PlaySound(key="$d_avg_daggerexsheath", volume=1)]
+忽然，他感到后颈一紧，一股力量几乎让他双脚离地，随后把他狠狠掼在柱子上，砸出一声沉重的闷响。
+这孤单的卫兵还不及适应剧烈的眩晕与疼痛，刀尖就抵住了他的后心，隔着衣料，微微刺入皮肤。
+[charslot(slot="m",name="avg_npc_2249_1#6$1",focus="m")]
+[name="西尔卡"]阿纳托利的下落，或者你的命。
+[charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
+[name="惊慌的卫兵"]我......我说！
+[name="惊慌的卫兵"]就在几个小时前......小将军接到一个消息，就赶忙带着亲卫队离开了这里。
+[charslot(slot="m",name="avg_npc_2249_1#8$1",focus="m")]
+[name="西尔卡"]什么消息？
+[charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
+[multiline(name="惊慌的卫兵")]我不知道......
+[PlaySound(key="$d_avg_daggerslow", loop=true, channel="a")]
+[delay(time=0.8)]
+[StopSound(channel="a", fadetime=0)]
+[charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
+[multiline(name="惊慌的卫兵")]啊——
+[name="惊慌的卫兵"]他、他说，“那些败类不配染指泽尔格勒”，然后大发了一通脾气，说要把什么带走。
+[charslot(slot="m",name="avg_npc_2249_1#8$1",focus="m")]
+[name="西尔卡"]“那些败类”？然后他去哪儿了？还待在城内吗？
+[charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
+[name="惊慌的卫兵"]他在几个实验室转了一圈，都是和原型核心有关的，然后往城东去了......求您了，我完全不知道他在说什么！
+[charslot(slot="m",name="avg_npc_2249_1#8$1",focus="m")]
+[name="西尔卡"]......我明白了。
+[name="西尔卡"]以防万一，接下来你不能告诉任何人，我来过这里。
+[charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
+[name="惊慌的卫兵"]好、好，我绝对不会——
+[Dialog]
+[PlaySound(key="$d_avg_knife", volume=1)]
+[PlaySound(key="$d_avg_bloodsplash", volume=1,delay=0.8)]
+[PlaySound(key="$bodyfalldown1", volume=1,delay=1.5)]
+[Delay(time=1.5)]
+[charslot(duration=1)]
+[Delay(time=1.5)]
+话音未落，刀尖已经自他的胸膛破出，直直插进柱子。鲜血如注，顺着柱身蜿蜒而下。
+西尔卡振掉刀上的血液，朝着窗外看去。
+[charslot(slot="m",name="avg_npc_2249_1#7$1",focus="m")]
+[name="西尔卡"]“原型核心”，就是他们所说的“石棺”吗......
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="73_g8_reactor",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[playmusic(intro="$corrosion_intro", key="$corrosion_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[dialog]
+[Decision(options="石棺被拆毁......？", values="1")]
+[Predicate(references="1")]
+[Decision(options="石棺现在，到底是什么状态？", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_4179_monstr_1#4$1 ",focus="m")]
+[name="Mon3tr"]在乌萨斯的认知当中，石棺可以作为一个巨型能量源来使用，除此之外的部分，都是不必要的。
+[name="Mon3tr"]这里的研究员没有办法突破凯尔希留下的封锁程序，所以选择对石棺进行了暴力破解。
+[charslot(slot="m",name="avg_4179_monstr_1#6$1 ",focus="m")]
+[name="Mon3tr"]就现在来看，和我们之前最坏的猜想一样，石棺的生物修复功能被破坏得很彻底......
+[dialog]
+[charslot(slot="m",name="avg_4179_monstr_1#6$1 ",focus="n")]
+[Decision(options="我们还有任何机会吗？;难道没有任何希望了吗？", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_4179_monstr_1#6$1 ",focus="m")]
+[name="Mon3tr"]如果我们能完整回收这里的设备，就还有一线可能！
+[name="Mon3tr"]可现在更紧急的情况是，石棺整体的控制系统已经遭到了非常严重的损坏！状态非常不稳定。
+[dialog]
+[PlaySound(key="$d_avg_keyboard_console", volume=0.7, loop=true, channel="key")]
+[StopSound(channel="key", fadetime=3)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_4179_monstr_1#1$1",focus="m")]
+[name="Mon3tr"]果然......这一段时间以来，研究所一直依赖大量的源石来勉强维持石棺的稳定，现在源石无以为继，石棺也处在失控的边缘。
+[charslot(slot="m",name="avg_4179_monstr_1#6$1",focus="m")]
+[name="Mon3tr"]石棺直到现在还在不断向外泄漏那种可以让人感染的生物粉尘，它的能量输出也非常不稳定！
+[name="Mon3tr"]如果石棺中蕴藏的能量完全不受控地释放出来，后果恐怕不只是整个泽尔格勒被夷为平地......
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]Mon3tr！我们还有机会关闭石棺吗？
+[charslot(slot="m",name="avg_4179_monstr_1#6$1",focus="m")]
+[name="Mon3tr"]我在努力！
+[name="Mon3tr"]我没有办法直接开启凯尔希留下的开关，得先从完整构建控制系统开始——总之，我还需要一定时间！
+[Dialog]
+[charslot]
+[playsound(key="$d_avg_grenadethrow",volume=0.7)]
+[PlaySound(key="$d_avg_explosion_stone",volume=0.6,delay=1)]
+[delay(time=1)]
+[CameraShake(duration=1.5, xstrength=30,ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_airdefensealert", volume=1, loop=true, channel="b")]
+[delay(time=2)]
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]是外面的士兵！他们还在试图强行闯入这里？
+[charslot(slot="m",name="avg_npc_1730_1#6$1",focus="m")]
+[name="Raidian"]不，是整座建筑都在受到攻击。
+[name="Raidian"]是第一集团军，他们难道准备完全销毁这里？
+[charslot(slot="m",name="avg_4179_monstr_1#7$1",focus="m")]
+[name="Mon3tr"]该死！这些鲁莽的乌萨斯人做事完全不考虑后果的吗！
+[Dialog]
+[charslot]
+[delay(time=0.5)]
+[playsound(key="$e_atk_airshipvibe",volume=0.6)]
+[playsound(key="$e_atk_vibe_n",volume=0.6,delay=0.4)]
+[charslot(slot="l",name="avg_npc_2238_1#1$1",posfrom="-100,0",posto="-100,0",bstart=0.3,bend=0.9,duration=1)]
+[charslot(slot="m",name="avg_npc_2238_1#1$1",posfrom="0,0",posto="0,0",bstart=0.3,bend=0.9,duration=1)]
+[charslot(slot="r",name="avg_npc_2238_1#1$1",posfrom="100,0",posto="100,0",bstart=0.3,bend=0.9,duration=1)]
+[delay(time=1.5)]
+随着整栋建筑的一阵震动，无数样貌怪异的生物源源不断地从石棺核心涌出。
+它们似乎也感到茫然与恐惧，在这方密闭的空间里四处流窜奔逃。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]这不是那天晚上见到的那种生物——
+[charslot(slot="m",name="avg_4179_monstr_1#6$1",focus="m")]
+[name="Mon3tr"]阿米娅，Raidian！千万当心别被那些东西碰到！
+[charslot(slot="m",name="avg_4179_monstr_1#7$1",focus="m")]
+[name="Mon3tr"]可恶，要是我能腾出手就好了——
+[charslot(slot="m",name="avg_npc_1730_1#6$1",focus="m")]
+[name="Raidian"]Mon3tr，你还需要多少时间？
+[charslot(slot="m",name="avg_4179_monstr_1#6$1",focus="m")]
+[name="Mon3tr"]也许是......四十分钟。
+[charslot(slot="m",name="avg_npc_1730_1#2$1",focus="m")]
+[name="Raidian"]......好。
+[name="Raidian"]别分心，我来保护阿米娅和博士。
+[charslot(slot="m",name="avg_npc_1730_1#6$1",focus="m")]
+[name="Raidian"]小戴乌，要勉强你们一下了......
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_npc_2238_1#1$1",posfrom="-100,0",posto="-100,0",bstart=0.3,bend=0.9,duration=0)]
+[charslot(slot="m",name="avg_npc_2238_1#1$1",posfrom="0,0",posto="0,0",bstart=0.3,bend=0.9,duration=0)]
+[charslot(slot="r",name="avg_npc_2238_1#1$1",posfrom="100,0",posto="100,0",bstart=0.3,bend=0.9,duration=0)]
+[delay(time=0.3)]
+[PlaySound(key="$p_imp_naginata_elc", volume=0.5)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[playsound(key="$d_avg_hgmscrmh")]
+[charslot(duration=1)]
+[delay(time=1.5)]
+[stopmusic(fadetime=1.5)]
+[stopsound(channel="b", fadetime=2)]
+[delay(time=1)]
+[playsound(key="$d_avg_stonesmashmetalwall",volume=0.5)]
+[playsound(key="$d_avg_stonesmashmetalwall", volume=0.8,channel="a",delay=1.5)]
+[CameraShake(duration=1, xstrength=10, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1.5)]
+[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]等等，外面有动静，大门可能要被突破了！
+[name="阿米娅"]博士躲在我身后，我来戒备——
+[charslot(slot="m",name="avg_npc_1730_1#4$1",focus="m")]
+[name="Raidian"]不对，那是熟悉的电信号——
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_rampartclose",volume=0.6)]
+[playsound(key="$d_avg_statueshake", volume=1,delay=2)]
+[PlaySound(key="$d_avg_statuecollapse",volume=1,delay=3.5)]
+[CameraShake(duration=4,ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=3)]
+[playMusic(intro="$kaltsitteam_intro", key="$kaltsitteam_loop", volume=0.6)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Background]
+[Image(image="73_i23",screenadapt="coverall",fadetime=0,block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=3.5, block=true)]
+[delay(time=1)]
+[name="可露希尔"]呼......赶上了！我是不是来得正是时候？
+[name="阿米娅"]可露希尔小姐？！
+[name="可露希尔"]阿米娅！我就知道你们一定可以成功的！但是我在见到你们之前真的很担心！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[image]
+[Background(image="73_g8_reactor",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_hgldshcrrig", volume=1)]
+[CameraShake(duration=1,ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot="m",name="avg_4228_closur_1#14$2",focus="m",duration=0.5)]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_4228_closur_1#13$2",focus="m")]
+[name="可露希尔"]欸欸......这些满地乱爬的是什么东西？！
+[charslot(slot="m",name="avg_npc_1730_1#2$1",focus="m")]
+[name="Raidian"]当心！那些感染生物很危险，千万不要被它们碰到！
+[charslot(slot="m",name="avg_4228_closur_1#13$2",focus="m")]
+[name="可露希尔"]那我应该怎么办？它们会爆炸吗？
+[charslot(slot="m",name="avg_npc_1730_1#2$1",focus="m")]
+[name="Raidian"]我需要你帮我控制它们的活动范围，可我的小赛柯携带的弹药不是很充足......
+[charslot(slot="m",name="avg_4228_closur_1#14$2",focus="m")]
+[name="可露希尔"]原来只是火力不足吗？那倒好办了！
+[name="可露希尔"]“零号油罐”！
+[Dialog]
+[CameraShake(duration=1.5, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=2, block=true)]
+[image(image="73_i11",screenadapt="coverall",xScale=1.3, yScale=1.3,y=100,fadetime=0,block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=2, block=false)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_drone", volume=1, loop=false, channel="d2")]
+[PlaySound(key="$d_avg_drone", volume=1, loop=false, channel="e2",delay=0.2)]
+[PlaySound(key="$d_avg_drone", volume=1, loop=false, channel="f2",delay=0.4)]
+[PlaySound(key="$d_avg_drone", volume=1, loop=false, channel="k2",delay=0.8)]
+[PlaySound(key="$d_avg_drone", volume=1, loop=false, channel="k3",delay=1)]
+[ImageTween(yFrom=100,yTo=0,xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1, yScaleTo=1, duration=2.5,ease="InOutCubic",block=false)]
+[delay(time=3)]
+随着一声令下，整齐的无人机阵列在可露希尔身后升空，仿佛组成了一道密不透风的墙。
+[name="可露希尔"]之前觉得这套攻击算法太残忍了，所以一直没有投入实战来着......现在总算派上用场了。
+[name="可露希尔"]正好来试验一下我刚刚装载的武器模块......
+[name="可露希尔"]“零号油罐”，识别攻击目标，精准歼灭！
+[dialog]
+[CameraShake(duration=4, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_sp_ballista")]
+[playsound(key="$d_avg_explosion", volume=0.8,delay=0.3)]
+[PlaySound(key="$d_avg_statuecollapse",volume=0.7,delay=1.2)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.6, block=true)]
+[delay(time=2)]
+[PlaySound(key="$d_avg_explosion_stone",volume=0.7)]
+[image]
+[delay(time=1)]
+[Background(image="73_g8_reactor",screenadapt="coverall", block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=2.5, block=true)]
+[delay(time=1)]
+[dialog]
+[Decision(options="可露希尔！你是怎么进来的？", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_4228_closur_1#1$2",focus="m")]
+[name="可露希尔"]天才黑客工程师当然有办法了！虽然也少不了遇到的一些帮手就是了......
+[charslot(slot="m",name="avg_4228_closur_1#14$2",focus="m")]
+[name="可露希尔"]而且小古米拿到的识别码也派上了用场，博士，你绝对猜不到我在石墙外面碰到了谁！
+[dialog]
+[charslot(slot="m",name="avg_4228_closur_1#14$2",focus="n")]
+[Decision(options="你安全就好......;之后告诉我。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_4228_closur_1#14$2",focus="m")]
+[name="可露希尔"]博士你们果然找到石棺核心了，我们是不是终于可以——
+[stopmusic(fadetime=2)]
+[charslot(slot="m",name="avg_4179_monstr_1#7$1",focus="m")]
+[name="Mon3tr"]可露希尔！帮帮我！
+[charslot(slot="m",name="avg_4228_closur_1#7$2",focus="m")]
+[name="可露希尔"]好的！没问题！
+[charslot(slot="m",name="avg_4228_closur_1#13$2",focus="m")]
+[name="可露希尔"]难得见到Mon3tr这么紧张的样子，现在到底是什么情况？
+[charslot(slot="m",name="avg_4179_monstr_1#7$1",focus="m")]
+[name="Mon3tr"]石棺马上就要爆炸了！！
+[charslot(slot="m",name="avg_4228_closur_1#2$2",focus="m")]
+[name="可露希尔"]......欸？！！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="73_g8_reactor", screenadapt="coverall", block=true)]
+[delay(time=2.5)]
+[PlaySound(key="$d_avg_furnaceamb", volume=0, loop=true, channel="fur")]
+[SoundVolume(volume=0.7, channel="fur",fadetime=2.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_keyboard_console", volume=0.7, loop=true, channel="key")]
+[Delay(time=2)]
+[StopSound(channel="key", fadetime=2.5)]
+[charslot(slot="m",name="avg_npc_1730_1#7$1",focus="m")]
+[name="Raidian"]......
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",focus="m")]
+[name="阿米娅"]Raidian小姐......
+[charslot(slot="m",name="avg_npc_1730_1#2$1",focus="m")]
+[name="Raidian"]我......没事......
+[name="Raidian"]过去多长时间了？
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]差不多，一个小时。
+[name="阿米娅"]相信她们吧......
+[Dialog]
+[charslot]
+Raidian与可露希尔的无人机共同构筑起的防线，将危险的感染生物控制在一个安全范围内。
+在房间的另一端，Mon3tr与可露希尔依然在操作台前忙碌着。
+每个人都沉默着，没有人敢对那个未知的结果发问。
+[Dialog]
+[PlaySound(key="$d_avg_emgseaalarm", volume=1)]
+[delay(time=1.5)]
+[Decision(options="有结果了吗！;......;情况，怎么样......？", values="1;2;3")]
+[Predicate(references="1;2;3")]
+[playMusic(key="$memory_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4179_monstr_1#9$1",focus="m")]
+[name="Mon3tr"]博士......我们......
+[charslot(slot="m",name="avg_4228_closur_1#12$1",focus="m")]
+[name="可露希尔"]不对......
+[charslot(slot="m",name="avg_4228_closur_1#8$1",focus="m")]
+[name="可露希尔"]不对不对不对不对——
+[name="可露希尔"]我们明明做了那么多实验研究，我们对石棺应该已经非常了解了才对，可怎么会——
+[Dialog]
+[charslot]
+可露希尔依然不住地喃喃着，石棺并没有回应她的努力，兀自不停运转着。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[PlaySound(key="$d_avg_emgseaalarm", volume=1)]
+[Sticker(id="st1", multi = true, text="<color=#cc0000>错误</color>", x=300,y=340, alignment="center", size=28, delay=0.08, width=700,block = true)]
+[Sticker(id="st1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4179_monstr_1#1$1",focus="m")]
+[name="Mon3tr"]博士......石棺的状况，已经到极限了。我们已经没有时间通过程序来终止它。
+[name="Mon3tr"]我们现在最后的机会，是在它完全失控，造成灾难性的后果之前......
+[charslot(slot="m",name="avg_4179_monstr_1#9$1",focus="m")]
+[name="Mon3tr"]......彻底毁掉它。
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="m")]
+[name="阿米娅"]......
+[charslot(slot="m",name="avg_4179_monstr_1#9$1",focus="m")]
+[name="Mon3tr"]博士......该做决定了。
+[name="Mon3tr"]如果......如果凯尔希还在的话，她也会同意这样做的。
+[Dialog]
+[charslot]
+Mon3tr用尽可能平静的语气，下达了最残酷的判决。
+已经没有时间了。
+“石棺”不再是可以带回同伴的希望，而是一个可能毁灭一切的威胁。
+尽管你们曾经都怀有真挚的希望，可是现在，需要你亲自做出决定，放弃最后一丝可能。
+[Dialog]
+[Decision(options="......;......;......", values="1;2;3")]
+[Predicate(references="1;2;3")]
+[Dialog]
+[SoundVolume(channel="fur", volume=0, fadetime=2)]
+[focusout(duration=1.5, type="bg", from=0, to=1, block=true)]
+[delay(time=1)]
+[bgeffect(name="$eb_whitemask",layer=1)]
+[CameraEffect(effect="Grayscale", fadetime=1.5, keep=true, initamount=0, amount=0.8, block=true)]
+[delay(time=1)]
+[name="？？？"]你在犹豫什么？
+[Dialog]
+[musicvolume(volume=0.3, fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[bgeffect]
+[Background(image="bg_infirmary", screenadapt="coverall", block=true)]
+[focusout(duration=0.1, type="bg", from=1, to=0, block=true)]
+[charslot(slot="l",name="avg_npc_249_1$1")]
+[charslot(slot="r",name="avg_171_bldsk_1#10$1")]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[PlaySound(key="$bottlebroken",volume=0.4)]
+[Delay(time=1)]
+[charslot(slot = "r", name = "avg_171_bldsk_1#10$1",focus="r")]
+[name="华法琳"]啊......
+[charslot(slot="l",name="avg_npc_249_1$1",focus="l")]
+[name="Touch"]少见你这样毛手毛脚的，走神了？
+[charslot(slot = "r", name = "avg_171_bldsk_1#1$1",focus="r")]
+[name="华法琳"]嗯......我在担心，去了乌萨斯的大家。
+[name="华法琳"]一直等一个悬而未决的结果，一点也不好受。
+[charslot(slot="l",name="avg_npc_249_1$1",focus="l")]
+[name="Touch"]你可从来没有当着博士的面表现出这种情绪。
+[charslot(slot = "r", name = "avg_171_bldsk_1#1$1",focus="r")]
+[name="华法琳"]不想影响士气，不代表不在意。
+[charslot(slot = "r", name = "avg_171_bldsk_1#8$1",focus="r")]
+[name="华法琳"]等你年纪和我一样大的时候，就知道这种分别是什么滋味了。
+[charslot(slot="l",name="avg_npc_249_1$1",focus="l")]
+[name="Touch"]这可不是个好的祝福......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="bg_rhodesengineeringroom", screenadapt="coverall", block=true)]
+[charslot(slot="m",name="avg_017_huang_1#1$1")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_017_huang_1#1$1",focus="m")]
+[name="煌"]呼......这样一来工程部的重建也算完成了吧，真是了不起的大工程！
+[name="煌"]等到博士和阿米娅，带凯尔希医生回来的时候，一定会被震惊的！
+[charslot(slot="m",name="avg_npc_521_1#1$1",focus="m")]
+[name="Mechanist"]确实是了不起......
+[name="Mechanist"]虽然不想说扫兴的话，你这么肯定博士会成功？
+[charslot(slot = "m", name = "avg_017_huang_1#11$1",focus="m")]
+[name="煌"]当然。
+[name="煌"]我相信小兔子，还有博士。就这么简单。
+[charslot(slot="m",name="avg_npc_521_1#1$1",focus="m")]
+[name="Mechanist"]没有理由？
+[charslot(slot = "m", name = "avg_017_huang_1#12$1",focus="m")]
+[name="煌"]如果一定要有什么理由才能相信彼此，也没有必要当精英干员了吧？
+[charslot(slot="m",name="avg_npc_521_1#1$1",focus="m")]
+[name="Mechanist"]说得也是。
+[charslot(slot = "m", name = "avg_4133_logos_1#9$1",focus="m")]
+[name="Logos"]我们应该为大家准备欢迎派对。
+[name="Logos"]就像往常一样。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="bg_bridge", screenadapt="coverall", block=true)]
+[bgeffect(name="$eb_whitemask",layer=1)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[Decision(options="凯尔希！;你到底还要将那些秘密隐瞒到什么时候？", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot = "m", name = "avg_003_kalts_1#5$1",focus="m")]
+[name="凯尔希"]我们讨论过这件事，我以为我们已经达成了共识。
+[name="凯尔希"]你不能像索要一杯咖啡一样要求别人交还你的记忆，一切经他人之口转述的都不是客观事实。
+[Dialog]
+[charslot(slot = "m", name = "avg_003_kalts_1#5$1",focus="n")]
+[Decision(options="你打算一直旁观我被蒙在鼓里？;一个失忆的人很难处理工作。", values="1;2")]
+[Predicate(references="1;2")]
+[Dialog]
+[charslot(slot = "m", name = "avg_003_kalts_1#5$1",focus="m")]
+[name="凯尔希"]相信我，并不是只有你一个人在忍受着事与愿违的烦躁。
+[name="凯尔希"]在将来的某一天，你会理解我的耐心。
+[name="凯尔希"]我不会主动对你谈及你的过去，但我会为你提供除此之外的一切必要帮助。
+[Dialog]
+[charslot(slot = "m", name = "avg_003_kalts_1#5$1",focus="n")]
+[Decision(options="有时候我都分不清......", values="1")]
+[Predicate(references="1")]
+[Decision(options="你到底是在意我，还是想找我的麻烦。", values="1")]
+[Predicate(references="1")]
+[charslot(slot = "m", name = "avg_003_kalts_1#2$1",focus="m")]
+[name="凯尔希"]我的确在意你，远超你的想象。
+[charslot(slot = "m", name = "avg_003_kalts_1#1$1",focus="m")]
+[name="凯尔希"]就像我说过的——我会克制自己的情感，不会让我对你的恨意或是别的情绪，影响我的判断。
+[name="凯尔希"]但我会一直保护你，直到你捡回记忆，或者找到你自己。
+[name="凯尔希"]到那时，我们才能谈论你存在于这里的意义。
+[Dialog]
+[Background(image="bg_white",screenadapt="coverall",fadetime=4)]
+[delay(time=2.5)]
+[charslot(slot = "m", name = "avg_003_kalts_1#11$1",focus="m")]
+[name="凯尔希"]你已经找到自己了，对吗？
+[Dialog]
+[delay(time=1.5)]
+[name="凯尔希"]你已经清楚了自己的责任，知道自己坚持的道路。
+[name="凯尔希"]就去做你一直以来认为是正确的选择吧。
+[name="凯尔希"]“保护这片大地上的生命”......
+[Dialog]
+[delay(time=1.5)]
+[multiline(name="凯尔希")]罗德岛不会因为某个人的缺位而停下......
+[charslot(slot = "m", name = "avg_003_kalts_1#13$1",focus="m")]
+[multiline(name="凯尔希")]你们会拥有不一样的未来。
+[Dialog]
+[charslot(duration=2)]
+[delay(time=2.5)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=2, block=true)]
+[stopmusic(fadetime=2.5)]
+[bgeffect]
+[charslot]
+[Background(image="73_g8_reactor", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[focusout(duration=0.1, type="bg", from=0, to=1, block=true)]
+[delay(time=2)]
+[SoundVolume(channel="fur", volume=0.7, fadetime=2.5)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=2, block=true)]
+[delay(time=0.5)]
+[focusout(duration=1.5, type="bg", from=1, to=0, block=true)]
+[delay(time=1)]
+[Decision(options="Mon3tr......", values="1")]
+[Predicate(references="1")]
+[Decision(options="就按你说的——", values="1")]
+[Predicate(references="1")]
+[PlaySound(key="$d_avg_heartratemonitor", volume=1, loop=true, channel="fs1")]
+[delay(time=1.5)]
+[stopsound(channel="fs1", fadetime=1.5)]
+[charslot(slot="m",name="avg_4228_closur_1#7$1",focus="m")]
+[name="可露希尔"]......！
+[name="可露希尔"]Mon3tr，你刚刚做什么了吗？
+[charslot(slot="m",name="avg_4179_monstr_1#8$1",focus="m")]
+[name="Mon3tr"]什么......我什么都没有做！
+[playMusic(intro="$m_sys_act1mainss_intro", key="$m_sys_act1mainss_loop", volume=0)]
+[musicvolume(volume=0.6, fadetime=4)]
+[charslot(slot="m",name="avg_4228_closur_1#7$1",focus="m")]
+[name="可露希尔"]可为什么这里的系统，会突然出现一个权限层级这么高的后门？如果这里始终存在一个后门，为什么那些研究员会发现不了？
+[charslot(slot="m",name="avg_4228_closur_1#13$1",focus="m")]
+[name="可露希尔"]不对不对，这里不只是一个权限漏洞......为什么石棺的操作系统中，会存在一个独立运行的程序，就像PRTS一样！
+[charslot(slot="m",name="avg_4228_closur_1#7$1",focus="m")]
+[multiline(name="可露希尔")]虽然很缓慢......
+[charslot(slot="m",name="avg_4228_closur_1#14$1",focus="m")]
+[multiline(name="可露希尔")]但它的确在阻止石棺！
+[charslot(slot="m",name="avg_4179_monstr_1#8$1",focus="m")]
+[name="Mon3tr"]难道是——
+[Dialog]
+[charslot]
+[Decision(options="AMa-10？;凯尔希？", values="1;2")]
+[Predicate(references="1;2")]
+[Dialog]
+[musicvolume(volume=0.3, fadetime=1.5)]
+[SoundVolume(channel="fur", volume=0.3, fadetime=1.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[charslot]
+[Background(image="60_g13_rhodesdeck_origin", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[charslot(slot = "m", name = "avg_npc_1718_1#8$1")]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_1718_1#8$1")]
+[name="普瑞赛斯"]我也想修好它，和你一样。
+[name="普瑞赛斯"]AMa-10不仅承载了我们共同的期待，它还保存了一段对我而言极为关键的记录。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[charslot]
+[Background(image="73_g8_reactor", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[musicvolume(volume=0.6, fadetime=1.5)]
+[SoundVolume(channel="fur", volume=0.7, fadetime=1.5)]
+[Delay(time=1)]
+[Decision(options="可露希尔！;可以追踪到那段程序吗！", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_4228_closur_1#12$1",focus="m")]
+[name="可露希尔"]我已经在这样做了！只是还需要一点时间！
+[charslot(slot="m",name="avg_4228_closur_1#8$1",focus="m")]
+[name="可露希尔"]五分钟......不，有没有办法再争取三分钟就好！我还可以试一试！
+[charslot(slot="m",name="avg_4179_monstr_1#7$1 ",focus="m")]
+[name="Mon3tr"]可是，石棺现在的状态非常危险，我不确定它还能维持多长时间！
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]如果......我们能通过压制石棺的能量，来让它稳定下来呢？
+[charslot(slot="m",name="avg_4179_monstr_1#8$1",focus="m")]
+[name="Mon3tr"]阿米娅？！
+[charslot(slot="m",name="avg_4179_monstr_1#6$1",focus="m")]
+[name="Mon3tr"]这绝对是不可能的，哪怕是你也不可能以一己之力对抗石棺的能量输出！
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="m")]
+[name="阿米娅"]不试试......又怎么能知道呢......
+[multiline(name="阿米娅")]而且，我能感受到，黑王冠在回应我的呼唤......
+[charslot(slot="m",name="avg_1037_amiya3_1#3$1",focus="m")]
+[multiline(name="阿米娅")]我相信，我能做到。
+[Dialog]
+[StopSound(channel="fur", fadetime=2)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_crystalmagic_loop", volume=1, loop=true, channel="cr")]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]
+[charslot(slot="m",name="avg_1037_amiya3_1#3$3",focus="m",duration=1)]
+[StopSound(channel="cr", fadetime=4)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1.2, block=true)]
+[Delay(time=1.5)]
+[charslot]
+[Delay(time=0.3)]
+[charslot(slot="m",name="avg_4134_cetsyr_1#10$1",duration=1.5)]
+[Delay(time=3)]
+[charslot(slot="m",name="avg_1037_amiya3_1#5$3",focus="m")]
+[name="阿米娅"]特蕾西娅小姐......你愿意来帮我了吗？
+[charslot(slot="m",name="avg_4134_cetsyr_1#10$1",focus="m")]
+[name="魔王"]不......阿米娅。
+[name="魔王"]你的请求违背了特蕾西娅为我设置的底层指令——
+[charslot(slot="m",name="avg_4134_cetsyr_1#1$1",focus="m")]
+[name="魔王"]任何时候，优先保护阿米娅你的安全。
+[charslot(slot="m",name="avg_1037_amiya3_1#1$3",focus="m")]
+[name="阿米娅"]特蕾西娅小姐，可是你也说过，不要做会让自己后悔的选择。
+[charslot(slot="m",name="avg_4134_cetsyr_1#5$1",focus="m")]
+[name="魔王"]阿米娅，你确定要这么做吗？
+[charslot(slot="m",name="avg_1037_amiya3_1#6$3",focus="m")]
+[name="阿米娅"]这一次......我一定会尽自己全部的努力。
+[charslot(slot="m",name="avg_1037_amiya3_1#2$3",focus="m")]
+[name="阿米娅"]我不想再失去身边任何一个人了......
+[charslot(slot="m",name="avg_4134_cetsyr_1#2$1",focus="m")]
+[name="魔王"]......
+[Dialog]
+[charslot(duration=1.5)]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_crystalmagic_intro", volume=1)]
+[Effect(name="$e_ringstart",layer =1)]
+[Delay(time=1.4)]
+[PlaySound(key="$p_skill_spiritexplo", volume=1)]
+[CameraShake(duration=3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]
+[Background]
+[Image(image="73_i14_2",screenadapt="coverall",fadetime=0,block=true)]
+[PlaySound(key="$d_avg_mgctrrnt", volume=1, loop=true, channel="a")]
+[PlaySound(key="$d_avg_grounddivide_rumble1", volume=1)]
+[PlaySound(key="$d_avg_grounddivide_rumble2", volume=1,delay=0.5)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1.5, block=true)]
+[Delay(time=1)]
+古老的巨构发出恐怖的嗡鸣，仅仅是站在它的周遭，你都能感到自己的五脏六腑在随之颤抖。
+根本无从想象，这个仪器当中到底蕴含着多么恐怖的能量。
+[Dialog]
+[PlaySound(key="$d_avg_crystalmagic_loop", volume=1, loop=true, channel="cr")]
+[CameraShake(duration=-1, xstrength=5, ystrength=8, vibrato=30, randomness=90, fadeout=false, block=false)]
+阿米娅向石棺伸出了手，黑色的法术从她的指尖流淌而出，在一瞬间，的确压制住了那股凶暴的力量，石棺核心变得安静下来。
+[name="阿米娅"]呃——！！
+[name="Mon3tr"]阿米娅！
+[name="阿米娅"]没事的......不用担心......
+[name="阿米娅"]那一天......是凯尔希医生挡在了我的前面，我不会忘记......
+[name="阿米娅"]每一次，都是你们站在我的身前保护我......
+[name="阿米娅"]这次......我绝对不会再放手了——
+[name="阿米娅"]我可以——
+[Dialog]
+[Image(image="73_i14_1",screenadapt="coverall",fadetime=1.5,block=false)]
+[CameraShake(duration=0.1, xstrength=5, ystrength=8, vibrato=30, randomness=90, fadeout=false, block=false)]
+[CameraShake(duration=2.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=true)]
+[StopSound(channel="cr", fadetime=3)]
+[Delay(time=1)]
+[Dialog]
+你再一次亲眼见证，阿米娅瘦小的身体爆发出无比强大的力量。
+你伸出手去扶住女孩的身体，你也清楚地感受到了汹涌的情绪，那是阿米娅力量的源头。
+不可动摇的决意，无数的遗憾，对离别的畏惧......还有对那些如今仅存在于回忆里的温情，深沉的不舍。
+你们共同走过了很漫长的路，你们一样都失去了许多。
+你努力地搀扶住阿米娅的肩膀，想要像往常一样安抚她的情绪，分担她的痛苦......可是那股力量，那汹涌的情绪仿佛无穷无尽。
+[Dialog]
+[PlaySound(key="$d_avg_rngcrck", volume=0.8)]
+[Delay(time=1.2)]
+你分明听到了，某样器物碎裂的声音。
+[Dialog]
+[Decision(options="可露希尔！;还要坚持多久！", values="1;2")]
+[Predicate(references="1;2")]
+[name="可露希尔"]很快......不，已经好了！
+[name="可露希尔"]阿米娅，已经可以了！
+[name="可露希尔"]停下来了，但是——
+[Dialog]
+[bgeffect(name="$eb_073_light_01",layer=1)]
+[stopmusic(fadetime=1.5)]
+[StopSound(channel="a", fadetime=4)]
+[PlaySound(key="$d_avg_erthshkng", volume=1, loop=true, channel="e")]
+[PlaySound(key="$d_avg_tinnitus",volume=1)]
+[StopSound(channel="e", fadetime=2)]
+[Delay(time=4)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=1, block=true)]
+[image]
+[bgeffect]
+[Background]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_messagestream_leave", volume=1)]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Background(image="73_g10_protocolsetnet", screenadapt="coverall", block=true)]
+[PlaySound(key="$d_avg_informationdeluge_loop", volume=0, loop=true, channel="inf1")]
+[SoundVolume(volume=0.7, channel="inf1",fadetime=4)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=5, block=true)]
+[Delay(time=2)]
+[Decision(options="这里......是什么地方？", values="1")]
+[Predicate(references="1")]
+[Dialog]
+[StopSound(channel="inf1", fadetime=3)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Image]

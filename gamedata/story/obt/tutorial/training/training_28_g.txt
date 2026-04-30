@@ -1,0 +1,14 @@
+[HEADER(is_tutorial=true, is_autoable=false, is_skippable=false)]
+[battle.pause]
+[inputblocker(blockInput=true, black=0.3)]
+
+[PopupDialog(dialogHead="$avatar_beagle")] 啊——
+
+[PopupDialog(dialogHead="$avatar_radian")] 干员部署到<@tu.kw>泄漏源</>上及周围四格时，会进入短暂的<@tu.kw>眩晕</>状态，这是我们的应急保护措施在起作用，一段时间后干员就会恢复正常。
+
+[PopupDialog(dialogHead="$avatar_radian")] 泄漏源被占据之后，粉尘的泄漏就得到了阻止，<@tu.kw>泄漏源只会影响最初部署在附近的那一名干员</>，不会影响其他人。
+
+[battle.UnlockFunction(mask="SYSTEM_MENU_INTERACT")]
+[battle.pause(pause=false)]
+
+[Blocker(fadetime=0.3, block=true, a=0)]

@@ -1,0 +1,881 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_iceforest_1",screenadapt="coverall")]
+[Delay(time=1)]
+[playMusic(intro="$path_intro", key="$path_loop", volume=0.6)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_writerub", volume=1)]
+[delay(time=2)]
+[Subtitle(text="“我亲爱的朋友们，我正在路上，给你们写信......”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“不出意外的话，这封信会比我先抵达圣骏堡。但我仍抱有希望，也许我还能赶在年底之前回去，和你们共同庆祝新年。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“离开圣骏堡后，我走过了扎莫列斯，走过了图利斯卡亚，我第一次了解到，乌萨斯首都周边的人们如何生活、忍受、死去。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“我参加了一些会议，参与了几次游行，也曾经因误解被逮捕过几天，不过别担心......”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[PlaySound(key="$d_avg_carstop", volume=1)]
+吱呀——！
+[stopmusic(fadetime=2)]
+[Delay(time=3)]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_snowstormlp",loop=true,fadetime=2,channel="mwind")]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1",duration=1)]
+[delay(time=2)]
+[charslot]
+[name="车夫"]（沉默地敲响车厢门）
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]怎么了？
+[charslot(slot = "m", name = "avg_npc_081")]
+[name="车夫"]只能送你到这里了，马上会经过彼得达诺尔，警察在前面抓人，我看见了手电筒的光柱晃来晃去。
+[charslot(slot = "m", name = "avg_npc_081")]
+[name="车夫"]出发前咱们约定好了，我不会为你冒险。
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]行。替我和你的孩子问好，他叫伊万，对吧？
+[charslot(slot = "m", name = "avg_npc_081")]
+[name="车夫"]没必要，孩子。我收了你的钱，不会说漏嘴的。
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]喂，我不是那个意思——
+[dialog]
+[charslot(slot = "m", name = "avg_npc_081")]
+[delay(time=0.3)]
+[charslot(duration=1)]
+[delay(time=2)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]......
+[dialog]
+[charslot]
+[delay(time=1)]
+时近冬日，即便处在相对温暖的圣骏堡航道附近，彼得达诺尔也没能逃脱刺骨寒风的肆虐。
+半死的树林难以与狂风抗衡，枯枝摧折的声响和羽兽的惊噪此起彼伏。
+凛冬并未看到车夫所说的手电筒的光柱，也没能从风声中听出警察抓人的动静。
+[charslot(slot = "m", name = "avg_1051_headb2_1#4$1")]
+[name="凛冬"]也是，能冻死醉汉的夜里，那些娇生惯养的巡警怎么会跑到城外来搜捕呢？
+[charslot(slot = "m", name = "avg_1051_headb2_1#4$1")]
+[name="凛冬"]既然已经到了彼得达诺尔附近，还是先找个住处，再想办法和坚雷教官联系上，回圣骏堡去......
+[dialog]
+[charslot]
+凛冬将写了一半的信折起塞进怀里，扶着沿路枯死的树干，往不远处那座灯光稀疏的小城走去。
+[dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[playsound(key="$d_avg_snowfootstep",channel="1")]
+[delay(time=4)]
+[stopSound(channel="mwind",fadetime=2)]
+[PlaySound(key="$d_avg_match", volume=1,channel="3")]
+[delay(time=4)]
+[Background(image="72_g16_conutryinside",screenadapt="coverall")]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[playMusic(key="$wasteland_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]谢谢你收留我，老人家。
+[charslot]
+[name="盲眼的老人"]是你自己闯进来的。
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]可你也没赶我走，还给了我一碗热燕麦粥。
+[charslot]
+[name="盲眼的老人"]不然呢？难道我打得过你？
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]矿渣路51号，我记下这里的门牌号了。等我回到圣骏堡，会给你寄来住宿费的。
+[charslot]
+[name="盲眼的老人"]圣骏堡？你是从圣骏堡来的？
+[charslot]
+[name="盲眼的老人"]听你的声音年纪不大，谈吐也像个大学生，为什么要跑到这里来受冻？
+[charslot(slot = "m", name = "avg_1051_headb2_1#4$1")]
+[name="凛冬"]我来学习......唉，至少我原本是想来学习的！但有很多东西在教室里学不到，比如怎么握镰刀，怎么收割小麦。
+[charslot]
+[name="盲眼的老人"]听起来，你学得并不满意？不然也不至于灰溜溜地逃回去。
+[charslot(slot = "m", name = "avg_1051_headb2_1#11$1")]
+[name="凛冬"]我被卷入了一些事情，惹上了些麻烦，还和同伴分散了。
+[charslot]
+[dialog]
+凛冬放下空碗，用手背擦了擦嘴。
+[charslot(slot = "m", name = "avg_1051_headb2_1#12$1")]
+[name="凛冬"]我的名字现在还在图利斯卡亚的“危险分子名录”上，你要是介意的话，我现在就离开。
+[charslot]
+[name="盲眼的老人"]净说些废话。我的眼睛已经瞎了三十年了，难道还能看清你长什么样？
+[charslot]
+[name="盲眼的老人"]就算我能看见，难道我还能扯着这两条老腿，跑到图利斯卡亚那栋尖顶混凝土大楼外面，把你跟墙上贴着的通缉令上的那人比对一下？
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[multiline(name="凛冬")]你怎么知道那里......
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[multiline(name="凛冬")]噢，你年轻时正好是图利斯卡亚扩建改造的时候，你肯定去过那里。
+[charslot]
+[name="盲眼的老人"]吃完了？吃完了就去把碗洗了。
+[charslot]
+[dialog]
+凛冬熟练地从门外挖来一大捧雪，用雪搓洗饭碗，那碗粥本就只比清水稠几分，所以并不难洗。
+[charslot]
+[name="盲眼的老人"]......
+[charslot]
+[name="盲眼的老人"]你犯什么事了？
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]你是说在图利斯卡亚吗？
+[charslot]
+[name="盲眼的老人"]你居然还是个惯犯？
+[charslot(slot = "m", name = "avg_1051_headb2_1#11$1")]
+[name="凛冬"]不，我只是一个......学生。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[cameraEffect(effect="Grayscale", keep=true, amount=1, fadetime=0)]
+[Background(image="72_g13_nobleroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+一开始，我是宾客。
+青年们的意见领袖在聚会上向我宣讲他们从外国带回的先进理论，邀请我加入他们的“小小团体”。
+他们谈天说地，对大地上每个国家的弊病与优势侃侃而谈，似乎无所不知。
+他们希冀有一位圣骏堡来的大学生为他们提供助力，争取选票和赞助。
+[dialog]
+[Delay(time=1)]
+[Background(image="72_g12_ursusroom",screenadapt="coverall",fadetime=3)]
+[dialog]
+[Delay(time=3)]
+然后，他们发现我对政治生意一无所知，便疏远了我。
+我走访那些工人、医生和教师的家庭，想要了解他们的生活，写一些基于客观事实的文章和报告。
+但他们在餐桌上只会谈论天气、交通和罐头中豆子的数量，他们对一些事物避而不谈，似乎是长久养成的习惯。
+然而我能清楚地看见他们的麻木与痛苦。
+[dialog]
+[Delay(time=1)]
+[Background(image="bg_snowconutry_2",screenadapt="coverall",fadetime=3)]
+[dialog]
+[Delay(time=3)]
+我的行李被扣押，他们翻查我的笔记本，我知道，那里我也待不下去了。
+于是我来到田地间，在遭遇雪灾的田地里和农人一起抢救麦子，我这双习惯了打架的手总是会漏掉麦粒，因此并没帮上多少忙。
+我在那里看见了更多痛苦的人，他们很擅长忍耐，却不会描述自己的痛苦......
+他们不知道为什么自己难以快乐，不知道这生活的不幸来自何处，他们甚至不知道该向谁发问。
+我想起那些意见领袖口中的无数理论、政体、策略、方针......竟没有一种，可用于现实的土壤。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[cameraEffect(effect="Grayscale", keep=true, amount=0, fadetime=0)]
+[Background(image="72_g16_conutryinside",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]再后来，我听说城市里有些学生和商人号召大家罢工游行，背地里却是为了倒卖一些从境外走私来的军火......我想不通缘由。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]我更想不通，他们为什么在被捕后供出了我的名字。我当时甚至不在城里！
+[charslot]
+[name="盲眼的老人"]那你当时在做什么？
+[charslot(slot = "m", name = "avg_1051_headb2_1#11$1")]
+[name="凛冬"]......
+[charslot(slot = "m", name = "avg_1051_headb2_1#11$1")]
+[name="凛冬"]我绑架了一位没长良心的征税官。
+[charslot]
+[name="盲眼的老人"]好吧！无所谓。
+[charslot]
+[name="盲眼的老人"]无论是满口胡嚼的政客，还是自以为找到了真理的学生，又或是成天装糊涂的官员，我都不感兴趣，别讲了！
+[charslot(slot = "m", name = "avg_1051_headb2_1#6$1")]
+[name="凛冬"]......
+[charslot]
+[name="盲眼的老人"]难道那些理论和方法，是像庄稼一样，自己从地里长出来的吗？
+[charslot]
+[name="盲眼的老人"]你以为那些外国的消息能轻易传进来？你以为那些学生真是自己找到那些所谓的“理论”的吗？
+[charslot]
+[name="盲眼的老人"]你能接触知识的所有途径都被他们把控着，你知道的只是他们允许你知道的！
+[charslot]
+[name="盲眼的老人"]别忘了你被翻得一团糟的行李箱，这就是他们一直以来对我们做的事！
+[charslot]
+[name="盲眼的老人"]别讲了！
+[charslot(slot = "m", name = "avg_1051_headb2_1#10$1")]
+[name="凛冬"]但刚刚明明是你一直在说话！能不能讲点道理？
+[charslot]
+[name="盲眼的老人"]要是在乌萨斯讲道理有用，你会到这里来？你要讲道理，就跟那帮满嘴胡话的毛头小子讲去吧！
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]至少他们还在想办法，替这个国家寻找可能的出路，而不是坐在屋子里什么也不做。
+[charslot]
+[name="盲眼的老人"]你还想不想住在这里了？！
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]你又打不过我——你自己说的。更何况我又不是不给你钱。
+[charslot]
+[name="盲眼的老人"]哼。我没有收空头支票的习惯。你住一天，就得帮我干一天的活。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]什么活？
+[charslot]
+[name="盲眼的老人"]看见门口堆着的报纸了吗？以前来给我读报纸的人死了。你要是愿意干，可以留下。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]这个......
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]没问题。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_snowstormlp",loop=true, fadetime=2,channel="mwind")]
+[delay(time=1)]
+[PlaySound(key="$d_avg_writerub", volume=1)]
+[delay(time=2)]
+[Subtitle(text="“我暂时落脚在彼得达诺尔，借宿在一位盲眼老人的家中。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“那位老人的话语中透露出他有着不一般的过往，他的口音让我感到熟悉，难道他也是来自圣骏堡？”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“现今的乌萨斯，到底还有多少能人志士如此般衰朽于荒野？这无法不让人感到悲哀。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“朋友们，我离开圣骏堡时，曾向你们承诺我会重新认识这个国家，从那些纷杂的声音中找到唯一正确的道路。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“但现在......”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[stopSound(channel="mwind",fadetime=2)]
+[delay(time=2)]
+[name="凛冬"]今天的报纸送到了，要帮你从头读到尾吗？
+[charslot]
+[name="盲眼的老人"]不，等一下。
+[dialog]
+[Background(image="72_g16_conutryinside",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot]
+[name="盲眼的老人"]你一定不服气。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]......？
+[charslot]
+[name="盲眼的老人"]我昨晚说的那些，不全是气话。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]我看得出你是很有阅历的人，但我无意窥探你的过往。
+[charslot]
+[name="盲眼的老人"]你如果知道我都经历了什么——
+[charslot(slot = "m", name = "avg_1051_headb2_1#11$1")]
+[name="凛冬"]我说了，我“无意”窥探你的过往。
+[charslot(slot = "m", name = "avg_1051_headb2_1#11$1")]
+[name="凛冬"]我走访了圣骏堡周边的几座城市，见到的人比我一年前想象自己这辈子可能认识的人还要多出几十倍。每个人都有一肚子话说。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]我得到的经验是......自己去看，而不是听人讲。而我，是个习惯朝前看的人，我相信新的总比旧的好。
+[charslot]
+[name="盲眼的老人"]哼。我本来也没打算告诉你！
+[charslot]
+[name="盲眼的老人"]新的......这太阳下哪有新的？念你的报纸吧！
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]头版头条，帝国议会第七十......
+[charslot]
+[name="盲眼的老人"]不，别念《圣骏堡晨报》这种垃圾。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]这里还有《首都日报》《学报》......没意见？那我就挑一份念了。
+[dialog]
+[charslot]
+[Blocker(a=0.3, r=0, g=0, b=0, fadetime=1, block=true)]
+[Sticker(id="st1", multi = true, text="“伦蒂尼姆警示了我们什么？归国学者即将发表公开演说，辨析君主立宪之得失。”", x=300,y=270, alignment="left", size=24, delay=0.04, width=950,block = true)]
+[Sticker(id="st1", multi = true, text="\n“异国奇迹，城市即将升空！天空才是乌萨斯的出路。”",block = true)]
+[Sticker(id="st1", multi = true, text="\n“金钱如何铸造力量？财富战争永远大于炮火战争！”",block = true)]
+[Sticker(id="st1")]
+[Sticker(id="st1", multi = true, text="......", x=300,y=270, alignment="left", size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st1", multi = true, text="\n“帝国理工大学的名誉不容玷污，散播谣言者得到严惩。”",block = true)]
+[Sticker(id="st1", multi = true, text="\n“流氓行径：街头暴力假借抗议游行之名残害无辜，匪首已授首。”",block = true)]
+[Sticker(id="st1", multi = true, text="\n“图利斯卡亚的杀人者已逃往其他城市，提供线索者......”",block = true)]
+[Sticker(id="st1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]你就只是听着吗？
+[charslot]
+[name="盲眼的老人"]难道我还需要说些什么？报纸上的评论专家们说得还不够多吗？
+[charslot(slot = "m", name = "avg_1051_headb2_1#10$1")]
+[name="凛冬"]难道你对这些消息就没有一点触动？为乌萨斯谋求出路的人们，他们的激情难道无法让你也感同身受？
+[charslot(slot = "m", name = "avg_1051_headb2_1#4$1")]
+[name="凛冬"]就比如这一条——
+[name="凛冬"]“远北矿工们所遭受的不公已经激起了公众的义愤，在一些环境同样恶劣的矿区，许多争取生命和自由的反叛正在爆发。”
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]这条新闻，这群人，那些矿工......对你来说意味着什么？
+[charslot]
+[name="盲眼的老人"]意味着有人死了，有人还活着。
+[charslot]
+[name="盲眼的老人"]这没什么，大惊小怪。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]那你为什么还要关心报纸？反正上面写什么，和你也没有关系。
+[charslot]
+[name="盲眼的老人"]我关心报纸，是因为我想知道这片大地上有些什么变化。但每一天，我都在失望。
+[charslot]
+[name="盲眼的老人"]每一天都只是在重复，重复......就算我能买来整个乌萨斯发行的所有报纸，也找不出一点新东西。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]......这不可能。
+[charslot]
+[name="盲眼的老人"]没什么不可能的。我说过了，是你大惊小怪。
+[dialog]
+[playsound(key="$d_avg_paper1",volume=0.8)]
+[delay(time=1.2)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#4$1")]
+[name="凛冬"]“1101年7月，自维多利亚归国的学者从伦蒂尼姆的战事中总结出对君主立宪和议会制度的新看法......”
+[charslot]
+[name="盲眼的老人"]1032年1月，旅居高卢的幸存者从著名的“四皇会战”中总结出君主立宪和议会制度的新视角，还在帝国议会发表了公开演讲。
+[charslot(slot = "m", name = "avg_1051_headb2_1#4$1")]
+[name="凛冬"]......曾在帝国议会发表公开演讲......
+[charslot]
+[name="盲眼的老人"]这个人将会在一个月后被秘密处决，伪装成意外事故。
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]......于今日早晨被发现死于家中，死因是......花粉过敏。
+[charslot]
+[name="盲眼的老人"]接下来他的学生和家人会逃亡，然后死在边境附近。当然，死亡原因会从驮兽载具事故变成源石动力载具事故，毕竟时代在进步。
+[charslot]
+[name="盲眼的老人"]柴火堆边上放着旧报纸，尽管去翻吧。
+[charslot]
+[name="盲眼的老人"]我听够了。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]......
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_snowstormlp",loop=true,fadetime=2,channel="mwind")]
+[delay(time=1)]
+[Subtitle(text="“朋友们，我拆开了已经封口的信，因为我必须将今夜经历的事情写下来......”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“那位盲眼的独居老人，他竟然是一位报纸收藏家，他收藏了近百年的各类报纸，但这并不是最让我震惊的。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“还记得我和你们说过的，我们在其他城市做的那些事情吗？我太自大了，我并不是第一个那样做的人。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“甚至连几十年前报纸上记载的那位同仁，他也不是首创者。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“我们喊出的口号，早已被喊过成千上万遍了；我们自以为开辟出的道路，实际上早已存在了几百年，还没人走通过！”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“......更要命的是，为什么没人知道这一切曾经发生过无数次？”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“我隐约感觉到，也许那位老人，也曾像我们一样......？”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[dialog]
+[Background(image="72_g16_conutryinside",screenadapt="coverall")]
+[stopSound(channel="mwind",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[charslot]
+[name="凛冬"]今天，十七座移动城市的大学生联名向皇帝陛下谏议，要求改善感染者生存处境，公开矿产资源储备情况。
+[charslot]
+[name="盲眼的老人"]感染者的生存问题，每十年就会被大规模提一次，如果你愿意，甚至可以把剪报做成一本比辞典还厚的书。但它们都不可能有结果。
+[charslot]
+[name="盲眼的老人"]这些都发生过了，等明天吧。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[name="凛冬"]今天，有反叛者占据了一座边境小镇，宣布脱离乌萨斯，他们宣称将自给自足，人人平等。
+[charslot]
+[name="盲眼的老人"]发生过了。一半人会死去，剩下的人会投降。等明天吧。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[name="凛冬"]今天，反叛者被自己的儿子割下头颅，余众正式宣布投降。另外，有人从特里蒙带回来了一手资料，正在向各家贵族兜售天空开发计划。
+[charslot]
+[name="盲眼的老人"]发生过了......不信？看看三十年前那份报纸，你以为北原的那次神秘爆炸事故是因为什么？
+[charslot]
+[name="盲眼的老人"]等明天吧。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[name="凛冬"]有一个省遭遇了洪水天灾......不，别急着说，我知道这发生过了。
+[name="凛冬"]该死，我竟然找不出一条能够反驳你的新闻！
+[name="凛冬"]......
+凛冬合上手里的报纸，脸色忽明忽暗，许久后她才开口——
+[dialog]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1",duration=1)]
+[delay(time=2)]
+[name="凛冬"]不说新闻了。说我自己曾遭遇的事吧，我不信那种事情曾经发生过不止一次......
+[charslot]
+[name="盲眼的老人"]我听得出来，那肯定是很不寻常的事。你想说，那就说吧。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]你清不清楚......曾经发生在切尔诺伯格的事情？
+[charslot]
+[name="盲眼的老人"]什么时——
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]五年前。
+[charslot(slot = "m", name = "avg_1051_headb2_1#11$1")]
+[name="凛冬"]那也是个冬天。孩子们被迫和父母分开，被迫挤在同一所学校里挣扎求生。没有食物，没有解释，没有承诺......
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]甚至连那“设计”出这一切的家伙，你都弄不清楚他脑子里到底想的是什么！
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]我不相信......这种事情，也是你所说的一种“重复”，一种“循环”。
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+女孩脸上故意扯出笑容。
+[charslot(slot = "m", name = "avg_1051_headb2_1#2$1")]
+[name="凛冬"]啊哈，你说不出来。我赢了。
+[charslot]
+[name="盲眼的老人"]......的确。
+[charslot]
+[name="盲眼的老人"]我没听说过类似的事。
+[charslot]
+[name="盲眼的老人"]但你活下来了，对吗？
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]什么？不，你的重点不该是......
+[charslot]
+[name="盲眼的老人"]有人死了，有人还活着。
+[charslot]
+[name="盲眼的老人"]我知道很多事情不该就这样简单地归类，但有时候面对最惨烈的记忆，你逃避不了，你只能这么告诉自己。
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]......你这话，什么意思？
+[charslot]
+[name="盲眼的老人"]等明天吧。
+[charslot(slot = "m", name = "avg_1051_headb2_1#7$1")]
+[name="凛冬"]喂，跟我说清楚——
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#4$1")]
+[name="凛冬"]今天的报纸还没送到。
+[charslot]
+[name="盲眼的老人"]那就继续看昨天的。
+[charslot]
+[name="盲眼的老人"]大雪封路了。等雪化了，邮递员会一起送来的。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]邮递员住在哪儿？
+[charslot]
+[name="盲眼的老人"]你似乎比我还急着看那些新闻。怎么了，昨天的报纸有什么问题吗？
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]昨天的报纸上画着我的头像，名字却是别人的，我没跟你讲。一伙在图利斯卡亚残杀贵族军官的学生，流窜到了彼得达诺尔附近。
+[charslot]
+[name="盲眼的老人"]你认识他们吗？
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]我不认为我认识。而且，他们沿途一直在......残杀平民。
+[charslot]
+[name="盲眼的老人"]......
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]我得知道那伙逃窜学生的下落......我的朋友们会在报纸上看见我的脸，我担心......
+[charslot]
+[name="盲眼的老人"]......噢。
+[charslot]
+[name="盲眼的老人"]喝完粥记得洗碗。
+[dialog]
+[PlaySound(key="$d_gen_walk_n", volume=0.4)]
+[delay(time=2)]
+[charslot]
+[name="盲眼的老人"]记得关上门，别让风灌进来。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]你......？
+[charslot]
+[name="盲眼的老人"]我只是瞎了眼，又不聋！你是死是活和我没关系，但你最好别被雪埋了......哼哼，你的脏碗还在桌上放着，等你回来洗！
+[charslot]
+[name="盲眼的老人"]如果报纸上没什么新消息，就不必带回来了！
+老人没等到回应，便在靠近门口的位置坐下了。
+[dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_snowstormlp",loop=true,fadetime=2, channel="mwind")]
+[delay(time=1)]
+[name="凛冬"]风雪......太大了！
+[name="凛冬"]得赶紧找个避风的地方！
+[name="凛冬"]对面那是......有人过来了？！
+[dialog]
+[delay(time=2)]
+[Background(image="bg_snowconutry_1",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_snowfootstep",volume=0.6)]
+[charslot(slot = "l", name = "avg_npc_2177_1#1$2",duration=2)]
+[charslot(slot = "r", name = "avg_npc_2176_1#1$2",duration=2)]
+[delay(time=3)]
+[charslot]
+[playMusic(intro="$drift_intro", key="$drift_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]那帮混蛋条子没发现我们......走吧，继续赶路。
+[charslot(slot = "m", name = "avg_npc_2176_1#1$2")]
+[name="受伤的学生"]老大，让我歇歇腿吧！
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]你要是走不动了，我就自己去。喂，你呢？你还走得动吗？
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2182_1#1$1",duration=1)]
+[delay(time=2)]
+[name="忧愁的学生"]别！别抛下我，你答应过我要带我逃出去的！
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]“出去”？去哪儿？我带你们逃出了图利斯卡亚，绕过了一路上的看守，还不够吗？
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]连刀子都拿不稳的家伙！如果不是你们在夜里生火引来了警察，我们至于在暴风雪中逃命吗？！
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]记好了，我们杀的都是有罪的人，我们才是正义的一方！
+[charslot(slot = "m", name = "avg_npc_2176_1#1$2")]
+[name="受伤的学生"]（扯动袖子）老大......
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]我说了......别出声！
+[charslot(slot = "m", name = "avg_npc_2176_1#1$2")]
+[name="受伤的学生"]可是......老大，这里......还有一个人......
+[charslot]
+手上沾血的学生悚然一惊，回头看去，一个浑身是雪的人正尽力将自己藏进岩壁的阴影里，手里拄着一根木杖。
+[charslot]
+[name="躲雪的路人"]抱歉......我只是想找个躲风的地方......
+[charslot]
+[name="躲雪的路人"]我只是来送报纸的——你们瞧，我的包里全是报纸。
+[charslot(slot = "m", name = "avg_npc_2176_1#1$2")]
+[name="受伤的学生"]（悄声）老大，今天的报纸上，有我们的通缉令......
+[charslot(slot = "m", name = "avg_npc_2182_1#1$1")]
+[name="忧愁的学生"]不、不要再杀人了！！
+[charslot]
+[name="躲雪的路人"]杀人？你们想干什么？！
+[charslot]
+[name="远处的警察"]那边好像有动静！跟我来！
+[dialog]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[delay(time=2)]
+手上沾血的学生看见那个人张开了嘴，似乎要呼喊什么——下一刻，他的手已经伸了出去，死死掐住了对方的脖子。
+另一个男学生也立马反应了过来，用力箍住了对方的胳膊，夺下了木杖。
+[charslot(slot = "m", name = "avg_npc_2182_1#1$1")]
+[name="忧愁的学生"]求你了，别......出声！
+[charslot]
+躲雪的路人渐渐停止了反抗。
+[dialog]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[Delay(time=3)] 
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]那些警察走了吗？
+[charslot(slot = "m", name = "avg_npc_2176_1#1$2")]
+[name="受伤的学生"]走、走了......
+[charslot(slot = "m", name = "avg_npc_2182_1#1$1")]
+[name="忧愁的学生"]他，好像......死了。
+[charslot(slot = "m", name = "avg_npc_2176_1#1$2")]
+[name="受伤的学生"]我......杀人了？
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]闭嘴，蠢货！
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]下次由你们俩来动手，听见没有？不能让我一个人背负所有的罪责！
+[dialog]
+[stopSound(channel="mwind",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="72_g16_conutryinside",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_092#3",duration=1)]
+[delay(time=2)]
+[name="盲眼的老人"]粥就快要熬好了，报纸怎么还没拿回来？
+[name="盲眼的老人"]别真被风雪埋住了......真是不让人省心，这孩子。
+[charslot]
+[name="门外的声音"]不行了，老大，我实在走不动了！
+[name="门外的声音"]废物！先在这个破屋子里歇歇脚吧......嗯？不对，屋顶的烟囱在冒烟？
+[name="门外的声音"]里面有人！
+[dialog]
+[Dialog]
+[Character]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$d_avg_doorbreak", volume=1)]
+[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
+[Blocker(a=0, fadetime=1.5, block=false)]
+[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=2)]
+[charslot(slot = "l", name = "avg_npc_2177_1#1$2",duration=2)]
+[charslot(slot = "r", name = "avg_npc_2176_1#1$2",duration=2)]
+[delay(time=3)]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_092#3")]
+[name="盲眼的老人"]你们是谁？小声点，别把那些警察招来，他们会把我的存粮全偷走的！
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]老人家，我们也在躲避那些混蛋的搜捕。我们可以进来歇息一下吗？
+[charslot(slot = "m", name = "avg_npc_092#3")]
+[name="盲眼的老人"]可是，你们不是已经进来了吗？
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]咳，快把门关上。
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]你的桌上摆着两副餐具......你的家人呢？
+[charslot(slot = "m", name = "avg_npc_092#3")]
+[name="盲眼的老人"]噢，那家伙替我取报纸去了。
+[name="盲眼的老人"]你们来的时候，没看见我的孩子吗？
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[playMusic(intro="$nervous_intro", key="$nervous_loop", volume=0.6)]
+[name="逃窜的学生"]一个活人也没见着。
+[charslot(slot = "m", name = "avg_npc_2182_1#1$1")]
+[name="忧愁的学生"]老先生......你家里有好多......报纸。
+[charslot(slot = "m", name = "avg_npc_092#3")]
+[name="盲眼的老人"]如你所见，我是个瞎子，我只能拜托别人念给我听。
+[charslot(slot = "m", name = "avg_npc_2182_1#1$1")]
+[name="忧愁的学生"]（低声）他看不见我们的脸......可不可以不要杀——
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]恕我直言，老头，你收藏这么多报纸有什么用呢？上面尽是些粉饰太平的假话！
+[charslot(slot = "m", name = "avg_npc_092#3")]
+[name="盲眼的老人"]我只是在等待改变的发生，你们可以随意翻阅那些报纸......用不了多久你们就会发现，世上压根儿没有什么新鲜事。
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]怎么可能？就我所知，有些人可正在干些了不起的大事！
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]杀无良的贵族，杀贪官，看以后谁还敢说学生们孱弱无力？
+[charslot(slot = "m", name = "avg_npc_092#3")]
+[name="盲眼的老人"]这样的事，不稀奇，发生过很多次了。你们也许忘了，那些被杀的贪官贵族，也曾是学生。
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]那不一样！时代不同了，现今风云动荡......
+[charslot(slot = "m", name = "avg_npc_092#3")]
+[name="盲眼的老人"]每个时代，都可以说是动荡的。
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]你！
+[charslot(slot = "m", name = "avg_npc_2182_1#1$1")]
+[name="忧愁的学生"]老先生，求你......少说几句吧。
+[charslot(slot = "m", name = "avg_npc_092#3")]
+[name="盲眼的老人"]呵呵，没关系......
+[name="盲眼的老人"]迷途的年轻人们，别担心，那孩子估计很快就会回来了。之后我会拜托镇上的治安官将你们送到安全的地方。
+[name="盲眼的老人"]这被雪封路的山村里，恐怕你们适应不了，容易生病。
+[name="盲眼的老人"]现在，辛苦你们自己去盛碗粥喝吧，暖暖身子。
+[dialog]
+[charslot]
+逃窜的学生的脸色愈发阴沉。受伤的学生更是不住地用袖子擦起脸上的冷汗。
+[charslot(slot = "m", name = "avg_npc_2176_1#1$2")]
+[name="受伤的学生"]（低声）怎么办......我们好像杀了......
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]（低声）把那根木杖给我。
+[charslot(slot = "m", name = "avg_npc_2176_1#1$2")]
+[name="受伤的学生"]（低声）你疯了吗？他会认出来那是他孩子的东西，到时候你该怎么解释？
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]（低声）我为什么......要解释？
+[charslot(slot = "m", name = "avg_npc_2182_1#1$1")]
+[name="忧愁的学生"]......
+[charslot(slot = "m", name = "avg_npc_2182_1#1$1")]
+[name="忧愁的学生"]（低声）可是......他只是个失明的老人......
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]（低声）你觉得，没有他的孩子带回食物并照料他，他一个老东西还能在暴风雪天气里活多久？半天？一天？
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]为什么要让这么一个善良的灵魂，徒受折磨？
+[charslot(slot = "m", name = "avg_npc_2176_1#1$2")]
+[name="受伤的学生"]......
+[charslot(slot = "m", name = "avg_npc_092#3")]
+[name="盲眼的老人"]咳、咳咳......快吃吧，别等粥凉了。
+[dialog]
+[charslot]
+手上沾血的学生将木杖塞进忧愁的学生手中，恶狠狠地盯着她。
+[charslot(slot = "m", name = "avg_npc_2177_1#1$2")]
+[name="逃窜的学生"]动手！
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[Dialog]
+[PlaySound(key="$doorknockquite")]
+[delay(time=2)]
+[name="门外的声音"]老人家，是我。
+[name="门外的声音"]我找到邮递员了，他人不错，说风雪太大路走不通，就带我回到邮局的木屋烤了一晚上火，还帮我联系了今天去圣骏堡的运载车。
+[name="门外的声音"]不出意外的话，我一会儿就能搭车回圣骏堡了！
+[name="门外的声音"]起初我还担心，他会在报纸的通缉令上看见我的脸，你猜他怎么说——
+[dialog]
+[PlaySound(key="$dooropenquite", volume=1)]
+[delay(time=3)]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1",duration=2)]
+[delay(time=2)]
+[name="凛冬"]他说，这年头，谁还看报纸啊？就算看了，谁会当真呢？
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]老人家？
+[dialog]
+[charslot]
+地上报纸散乱，被灌进来的风一卷，便像顽童一般往人身上乱扑。凛冬四下张望，却没发现那位盲眼老人的痕迹。
+在她愣神之时，一阵疾风夺下了她手里日期新鲜的报纸，和满屋的旧报纸混在一起，跳起颠簸的舞步。
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]不......
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="72_g12_ursusroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="邮递员"]欸，你怎么又回来了？运载车还要一会儿才到呢。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]老人家不在屋子里。啧，真会添乱。你这边有看到什么人经过吗？
+[dialog]
+[charslot]
+邮递员摇了摇头，目光瞟向凛冬手里抓着的皱巴巴的报纸。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="邮递员"]大概是觉得今天的报纸也是一样无聊，所以就出门转转了吧。
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]大雪天，盲眼的老人，出门转转？！
+[dialog]
+[charslot]
+凛冬叹了口气，把揉皱的报纸扔到邮递员面前的桌上。
+[charslot(slot = "m", name = "avg_1051_headb2_1#6$1")]
+[name="凛冬"]总之，我先去找人，如果你看见了......呃，这是？
+[dialog]
+[charslot]
+[stopmusic(fadetime=2)]
+揉皱的报纸像被压扁的弹簧，在桌面上缓缓展开，露出它的头版头条。
+凛冬带着它来来回回地跑，却还是第一次去看上面写着什么字。
+《彼得达诺尔快讯》，独居老人被残杀，凶手疑似近日流窜的......
+[charslot(slot = "m", name = "avg_1051_headb2_1#6$1")]
+[name="凛冬"]......
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]......怎么会！
+[dialog]
+[charslot]
+凛冬下意识地朝门口奔去，但刚迈出一步，她就像被一根拴在背后的绳子狠狠拽住一般停了下来。
+她缓缓回头，紧盯那位云淡风轻的邮递员。
+[charslot(slot = "m", name = "avg_1051_headb2_1#5$1")]
+[name="凛冬"]......如果是刚刚才发生的事，怎么会这么快就出现在报纸上？
+[charslot(slot = "m", name = "avg_1051_headb2_1#7$1")]
+[name="凛冬"]回答我！！
+[dialog]
+[charslot]
+而那位邮递员终于肯停下手上打包的活计，朝着凛冬耸了耸肩，用凛冬熟悉的那种语气说——
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="邮递员"]因为这发生过了。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="邮递员"]住在这一片的人都知道，他们不说，不代表他们忘了。
+[dialog]
+[charslot]
+报纸仍在凭借那微弱的弹性在桌面上展开，被尘封的日期终于显露在凛冬面前。
+[charslot(slot = "m", name = "avg_1051_headb2_1#6$1")]
+[name="凛冬"]那是......三十年前......的今天。
+[charslot(slot = "m", name = "avg_1051_headb2_1#6$1")]
+[name="凛冬"]那是......一张旧报纸。
+[dialog]
+[charslot]
+邮递员从口袋里掏出一封信，看上去和凛冬尚未寄出的那封极为相似。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="邮递员"]你落下了这个。
+[dialog]
+[charslot]
+明明是刚从他的口袋里掏出来的，又怎么会是自己“落下”的呢？
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]信上写的是......
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[playMusic(intro="$dignified_intro", key="$dignified_loop", volume=0.6)]
+[Background(image="bg_black",screenadapt="coverall")]
+[Subtitle(text="“朋友们，我恐怕再也无法回到圣骏堡了。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“我的手上沾了血，我用从无辜者手里抢来的木杖，砸死了那位用善意款待我们的盲眼老人。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“我一直试图说服自己，用我那同伴的话来说，我们为了活命而杀死了老人的儿子，是迫不得已。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“而一个失去儿子照料的盲眼老人又能活多久呢？我是在帮他减少痛苦——我只能这样骗自己。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“我几乎要骗过自己了......”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“直到那位老人真正的儿子推开了房门，带着剥好皮的猎物和弓弩......”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“那时我们才意识到，我们先杀害了一个无辜的送报人，又自以为是地谋杀了一个善良的老人。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2182_1#1$1",bstart=0.2,bend=0.4,duration=3)]
+[delay(time=3)]
+[Subtitle(text="“我逃离了那里......等我回去时，地上有四具尸体......”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“我根本分不清，我根本分不清谁是谁，谁是好的谁是坏的，我分不清......”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“所以，我用木炭，烫瞎了自己的眼睛。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“朋友们，我再也无法回到圣骏堡了。我会留在这里，无论命运还愿意给我留下多少时间，我都将留在这里......”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[dialog]
+[charslot(slot = "m", name = "avg_npc_093#3",bstart=0.2,bend=0.4,duration=4)]
+[delay(time=4)]
+[Subtitle(text="“有人死了，有人还活着。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[Subtitle(text="“我知道很多事情不该就这样简单地归类，但有时候面对最惨烈的记忆，你逃避不了，你只能这么告诉自己。”", x=300, y=270, alignment="left", size=24, delay=0.04, width=700)]
+[subtitle]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Background(image="72_g12_ursusroom",screenadapt="coverall")]
+[charslot]
+[delay(time=0.2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot = "m", name = "avg_npc_093#3",duration=2)]
+[delay(time=3)]
+[name="盲眼的老人"]啊，你在这里。
+[name="盲眼的老人"]我们一定是在路上错过了。你一整夜没回来，所以我只好出门来找你。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]......
+[charslot(slot = "m", name = "avg_npc_093#3")]
+[name="盲眼的老人"]好了，既然你在这里，我就放心了。我该回去了。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]等一等。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]这条路很崎岖，你没受伤？你......走过很多遍？
+[charslot(slot = "m", name = "avg_npc_093#3")]
+[name="盲眼的老人"]每次想起过去的事，我都会走一遍这条路。
+[name="盲眼的老人"]看不见，摔跤也没关系，摔了跤，下次就会避开石头和坑洼。
+[name="盲眼的老人"]摔了足够多的跤，挨过足够多的打，自然就能稳稳当当地走在正路上。
+[charslot(slot = "m", name = "avg_1051_headb2_1#4$1")]
+[name="凛冬"]看来，你是对的。这一切都发生过。
+[charslot(slot = "m", name = "avg_npc_093#3")]
+[name="盲眼的老人"]早就告诉过你了。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]但不代表我就错了。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]天气会变，路也会变，更何况最早的路也是人一步步走出来的。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]你的膝盖上沾着泥，这条路你走了一辈子，今天还是摔了跤，我没说错吧？
+[charslot(slot = "m", name = "avg_npc_093#3")]
+[name="盲眼的老人"]我又看不见，随便你怎么说。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="邮递员"]咳，我可以作证......确实有一片泥渍。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]我还是相信，每一天都和前一天不一样，哪怕只有一点点微小的变化，也是足以庆祝的胜利。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]也许那些变化尚不足以拼凑出一条道路，也许那些异国他乡的经验学说在乌萨斯的土地上难以落地生根，但引用你之前说过的一句话——
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]真正属于乌萨斯未来的道路，一定是在乌萨斯自己的土地上生长出来的，它要么在今天发芽，要么在明天......
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]但绝不会是在昨天！
+[charslot(slot = "m", name = "avg_npc_093#3")]
+[name="盲眼的老人"]我原话好像不是这么说的......不过无所谓，我就当是我又对了吧。
+[dialog]
+[charslot]
+凛冬从门外抓起一把雪，在老人冻僵的手心里仔细揉搓。
+[charslot(slot = "m", name = "avg_1051_headb2_1#11$1")]
+[name="凛冬"]我得回圣骏堡去了，可能来不及洗那只脏碗了，抱歉。
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1")]
+[name="凛冬"]有什么消息需要我帮你带回圣骏堡吗？
+[dialog]
+[charslot]
+盲眼的老人摇了摇头，没有回答凛冬的问题，而是换了一种更温柔的语气。
+[charslot(slot = "m", name = "avg_npc_093#3")]
+[name="盲眼的老人"]被困在粉笔画的圈中的蚂蚁，自然看不见外面的方向，如果你能看见——
+[dialog]
+[charslot]
+运载车在邮局的小木屋外鸣笛，似在催促。老人只好将没说完的话换成一句告别辞。
+[charslot(slot = "m", name = "avg_npc_093#3")]
+[name="盲眼的老人"]祝愿你真的能开辟出一条不同以往的道路。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="邮递员"]该走了！
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="邮递员"]对了，如果你们还没读过今天的报纸，倒是有一条消息值得注意......
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="邮递员"]那几个杀人后逃窜的学生，因为饥饿而误食了有毒的浆果，被好心人送到医院后就立马被逮捕了。
+[charslot(slot = "m", name = "avg_npc_1979_1#1$1")]
+[name="邮递员"]看来，和过去好像也并不完全是一模一样？
+[dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=4, block=true)]
+[charslot]
+[Delay(time=1)]
+[PlayMusic(key="$calm_loop", volume=0.6)]
+[name="凛冬"]真理，烈夏，小古米，娜塔莉娅还有卓娅，我快要回到圣骏堡了。
+[name="凛冬"]那些打赌我新年之前回不来的人，可以把作为赌注的纸杯蛋糕准备好了，因为我真的很饿！
+[name="凛冬"]离开圣骏堡时，我和坚雷教官说，此行如果能看清这个我从未真正熟悉的祖国，那途中再艰险也是值得的。
+[dialog]
+[Delay(time=1)]
+[Background(image="72_g1_sjbstreet_d",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[Delay(time=1)]
+[name="凛冬"]现在看来，一切的确是值得的。如果让我用大学课堂上学到的那种文绉绉的腔调来写的话，就是——
+[name="凛冬"]我们的祖国被困在一种循环里，痛苦、愚昧和罪恶相互滋生，所谓的希望只是一种虚无的奖励，只有继续忍受，这个系统才能正常运作。
+[name="凛冬"]我看见了无数人试图将道路从其他国家移植过来，或是押注于时下的热潮，我以前觉得这似乎是最稳妥的办法。
+[name="凛冬"]但在经历一些事后，我发现，那也只是循环的又一环而已。历史的深渊里堆满了失败者的遗体。
+[name="凛冬"]但失败，就是答案生长的土壤，我依然相信，真正属于乌萨斯未来的道路，一定是在乌萨斯自己的土地上生长出来的......
+凛冬突然停笔，她似乎听见了圣骏堡的钟声从不远处传来，圣骏堡的轮廓已近在眼前了。
+几天后，盛大的冬季舞会就会召开。而眼下，学生联合大会的会议也已开始。
+于是她撕碎了那封信，扔进风雪中。她最终还是受不了那种文绉绉的酸诗一般的腔调，但这不是主要原因。
+她决定将那些话亲口说给自己的同伴们听，不，甚至不用去说。
+[dialog]
+[charslot(slot = "m", name = "avg_1051_headb2_1#1$1",duration=2)]
+[delay(time=3)]
+[name="凛冬"]我会亲手去打破这个循环。
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[charslot]
+[Image]

@@ -1,0 +1,786 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="bg_black",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[name="普瑞赛斯"]一个没有痛苦的永恒之地......那是古老神话对未来的终极期许。
+[name="普瑞赛斯"]可是谁也没有料到，当我们的目光触及宇宙的边界时才发现，“未来”本身已经是奢求。
+[name="普瑞赛斯"]Dr.{@nickname}......现在的你，亲眼见证了这颗星球上满目疮痍的你——
+[name="普瑞赛斯"]到底还在期待什么样的未来？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot]
+[Background(image="60_g4_rhodesabyss_w",screenadapt="coverall")]
+[delay(time=0.5)]
+[playMusic(key="$calm_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_1718_1#2$1",duration=2.5)]
+[Delay(time=3.5)]
+[name="普瑞赛斯"]唉......
+[charslot(slot="m",name="avg_npc_1718_1#4$1",focus="m")]
+[name="普瑞赛斯"]PRTS功能受限，PCS系统被彻底破坏，DWDB-221E也已经遗落......我们所能利用的手段已经不多了。
+[name="普瑞赛斯"]你们曾经预想过这样的结果吗？
+[name="普瑞赛斯"]弗里斯顿、艾德、陆......
+[charslot(slot="m",name="avg_npc_1718_1#2$1",focus="m")]
+[name="普瑞赛斯"]我怀念我们曾经共事的时光，我也的确期待过你们可以得出能够带来希望的答案。
+[name="普瑞赛斯"]只是很可惜，时间已经证明了你们的努力徒劳无果......虽然值得尊敬。
+[name="普瑞赛斯"]......我感到遗憾。
+[charslot(slot="m",name="avg_npc_1718_1#1$1",focus="m")]
+[name="普瑞赛斯"]就让我最后再借用一下你们的遗产吧。也许你们直到最后也不全然认同我所设计的未来，但至少，我们还可以拥有一个“未来”。
+[name="普瑞赛斯"]也许，我们会在未来再见的。
+[Dialog]
+[charslot(duration=2.5)]
+[Delay(time=3.5)]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Subtitle(text="“天堂支点”中枢网络接入中......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="管理权限ID：", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="......", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="AMa-10", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Background(image="bg_rhodesbedroom",screenadapt="coverall")]
+[delay(time=3)]
+[playMusic(key="$desolate_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>罗德岛新基地，干员宿舍</><p=2>1101年12月初</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",duration=2.5)]
+[Delay(time=3.5)]
+[name="阿米娅"]......
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="none")]
+夜已经深了。
+阿米娅默然坐在床沿，她无法入睡。
+房间是新的，空气也很干净。
+这方狭小的空间几乎原封不动地保留了原本的布局，阿米娅完全不用改变过去每一个无意识积累下来的小习惯。
+可是自从阿米娅搬入这里后，她还从来没有睡过一个好觉。
+一声轻微的叹息。
+[name="魔王"]阿米娅......
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]特蕾西娅小姐？不，我没有在呼唤您......
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_1037_amiya3_1#5$1",duration=1.5)]
+[charslot(slot="r",name="avg_4134_cetsyr_1#1$1",duration=1.5)]
+[Delay(time=2)]
+[charslot(slot="l",name="avg_1037_amiya3_1#10$1",focus="l")]
+[name="阿米娅"]......您......您还是，听到了？
+[charslot(slot="r",name="avg_4134_cetsyr_1#1$1",focus="r")]
+[name="魔王"]阿米娅，我就住在你的意识里，你没有必要对自己说谎呀。
+[charslot(slot="l",name="avg_1037_amiya3_1#10$1",focus="l")]
+[name="阿米娅"]我......
+[charslot(slot="r",name="avg_4134_cetsyr_1#1$1",focus="r")]
+[name="魔王"]现在已经很晚了，你不应该睡觉吗？
+[charslot(slot="l",name="avg_1037_amiya3_1#1$1",focus="l")]
+[name="阿米娅"]Mon3tr、可露希尔小姐......她们正在做带回凯尔希医生最后的理论实验。
+[name="阿米娅"]我没办法直接帮上什么忙，可我也做不到就这样去休息......虽然我答应过博士要休息的。
+[charslot(slot="l",name="avg_1037_amiya3_1#7$1",focus="l")]
+[name="阿米娅"]可是......
+[charslot(slot="r",name="avg_4134_cetsyr_1#1$1",focus="r")]
+[name="魔王"]阿米娅，如果你想要倾诉的话，我一直都在。
+[charslot(slot="l",name="avg_1037_amiya3_1#7$1",focus="l")]
+[name="阿米娅"]我知道，为了把凯尔希医生带回来，大家每个人都拼尽全力了，我也应该坚定的。
+[name="阿米娅"]这种感受真的很奇怪......那一天意外发生的时候，我以为我们真的永远失去凯尔希医生了。
+[name="阿米娅"]可是后来Mon3tr小姐出现了，她告诉我们，还有带回凯尔希医生的可能，还有一点希望......
+[charslot(slot="l",name="avg_1037_amiya3_1#1$1",focus="l")]
+[name="阿米娅"]这种感觉就像......我第一次在伦蒂尼姆的废墟中见到......特蕾西娅小姐。
+[charslot(slot="l",name="avg_1037_amiya3_1#2$1",focus="l")]
+[name="阿米娅"]我还记得很清楚，那个时候自己心里的感受，绝对不是喜悦......
+[name="阿米娅"]对不起......特蕾西娅小姐......
+[charslot(slot="r",name="avg_4134_cetsyr_1#8$1",focus="r")]
+[name="魔王"]没关系的，阿米娅。
+[charslot(slot="r",name="avg_4134_cetsyr_1#1$1",focus="r")]
+[name="魔王"]我们已经与特蕾西娅好好告别过了，不是吗？
+[charslot(slot="l",name="avg_1037_amiya3_1#1$1",focus="l")]
+[name="阿米娅"]嗯......
+[charslot(slot="l",name="avg_1037_amiya3_1#2$1",focus="l")]
+[name="阿米娅"]我不确定，也不敢相信......假使我们真的“带回”了凯尔希医生，那个回来的人，还是凯尔希医生吗？
+[charslot(slot="r",name="avg_4134_cetsyr_1#1$1",focus="r")]
+[name="魔王"]阿米娅，你应该知道，凯尔希是与众不同的。
+[name="魔王"]Mon3tr也说过，这样的事情之前也在凯尔希身上发生过。
+[charslot(slot="r",name="avg_4134_cetsyr_1#8$1",focus="r")]
+[name="魔王"]也许我们认为的奇迹，真的有可能存在呢？
+[charslot(slot="l",name="avg_1037_amiya3_1#2$1",focus="l")]
+[name="阿米娅"]可是这么久以来，凯尔希医生一直像我的亲人一样，我没有办法想象她与我们有什么区别。
+[charslot(slot="l",name="avg_1037_amiya3_1#1$1",focus="l")]
+[name="阿米娅"]特蕾西娅小姐，您能不能再跟我讲讲，在更早的时候，您和凯尔希医生的故事？
+[name="阿米娅"]我想知道，特蕾西娅小姐眼中的凯尔希医生，又是什么样的人呢......
+[charslot(slot="r",name="avg_4134_cetsyr_1#1$1",focus="r")]
+[name="魔王"]阿米娅，我只能将特蕾西娅对凯尔希的记忆展示给你，却没有资格代她讲述。
+[name="魔王"]这应该也不是你想要的。
+[charslot(slot="l",name="avg_1037_amiya3_1#7$1",focus="l")]
+[name="阿米娅"]您说得对......也许，我只是想再听到凯尔希医生的声音。                                                        
+[name="阿米娅"]凯尔希医生照顾了我那么长时间，教了我许多......仔细想起来，我对她的了解却只有那么少。
+[charslot(slot="l",name="avg_1037_amiya3_1#1$1",focus="l")]
+[name="阿米娅"]以前我总是有许多问题，想要问特蕾西娅小姐，问凯尔希医生......可是每一个问题都是那么沉重，我不能再给她们增加压力了。
+[name="阿米娅"]也许......到了某些时候，她们觉得合适的时候，就会主动告诉我。
+[name="阿米娅"]我们直到最后都没有等到那个时候......
+[charslot(slot="r",name="avg_4134_cetsyr_1#1$1",focus="r")]
+[name="魔王"]我明白的......特蕾西娅，凯尔希，她们都是对阿米娅来说非常重要的人。
+[name="魔王"]阿米娅，你不用隐藏自己的情绪，也不该独自承担这一切......去告诉可露希尔她们，还有博士。
+[name="魔王"]无论最终会是什么样的结果......不要给自己留下后悔的机会，好吗？
+[charslot(slot="l",name="avg_1037_amiya3_1#8$1",focus="l")]
+[name="阿米娅"]嗯......没关系的，特蕾西娅小姐，等一会从这间房间里走出去的时候，我就会恢复正常了。
+[name="阿米娅"]放心吧，不管结果是什么样，一会见到可露希尔和Mon3tr小姐的时候，我不会让她们看到我沮丧的样子的。
+[charslot(slot="r",name="avg_4134_cetsyr_1#10$1",focus="r")]
+[name="魔王"]可是，阿米娅，我没有办法不担心你。
+[name="魔王"]你最近一个月以来，睡眠时长严重低于正常值，你应该休息更多的。
+[name="魔王"]你应该注意到了，在乌萨斯那一次使用过黑王冠的力量后，你身体的各方面指标都很不正常。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[Image(image="66_i24", xScale=1.08, yScale=1.08,screenadapt="coverall",fadetime=1)]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[Image]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="r",name="avg_4134_cetsyr_1#10$1",focus="r")]
+[name="魔王"]而且，阿米娅，在凯尔希离开后，你开始逃避罗德岛的常规体检了。
+[charslot(slot="l",name="avg_1037_amiya3_1#10$1",focus="l")]
+[name="阿米娅"]......我......
+[charslot(slot="l",name="avg_1037_amiya3_1#2$1",focus="l")]
+[name="阿米娅"]其实我也能感受到......有些变化在更早的时候就开始了。
+[name="阿米娅"]我和博士在“文明的存续”里探索，发现了一个源于“安眠桥”项目的模型，又借助那种力量与普瑞赛斯对抗。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[Image(image="60_i13_2_a", xScale=1.08, yScale=1.08,screenadapt="coverall",fadetime=1)]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[Image]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="l",name="avg_1037_amiya3_1#7$1",focus="l")]
+[name="阿米娅"]虽然我还无法完全理解，但是我能感受到，这个模型似乎让我和黑王冠之间的联系变得更紧密了。
+[name="阿米娅"]我可以更自如地使用魔王的力量，我能感受到的情绪也更加强烈，甚至有时候，会无法控制地听到一些声音。
+[charslot(slot="l",name="avg_1037_amiya3_1#2$1",focus="l")]
+[name="阿米娅"]就像是......回到了凯尔希医生为我戴上这副戒指之前的时候。
+[charslot(slot="r",name="avg_4134_cetsyr_1#3$1",focus="r")]
+[name="魔王"]阿米娅，我可以察觉到王冠与你的联系在以很快的速度加深。这是在萨卡兹历代魔王身上都没有出现过的现象。
+[name="魔王"]我也无法解释这种变化，但这听上去无论如何不是一件能让人安心的事。
+[charslot(slot="r",name="avg_4134_cetsyr_1#10$1",focus="r")]
+[name="魔王"]阿米娅，你一定要小心。我认为，你应该尽快让博士知道这件事。
+[charslot(slot="l",name="avg_1037_amiya3_1#8$1",focus="l")]
+[name="阿米娅"]嗯......我明白的。
+[name="阿米娅"]我保证会注意自己的身体状况的，只是现在，先不要告诉博士好吗？
+[charslot(slot="r",name="avg_4134_cetsyr_1#10$1",focus="r")]
+[name="魔王"]......
+[Dialog]
+[charslot(slot="l",name="avg_1037_amiya3_1#8$1",focus="none")]
+[PlaySound(key="$d_avg_mechalock",volume=1)]
+[Delay(time=2.5)]
+[charslot(slot="l",name="avg_1037_amiya3_1#17$1",focus="l")]
+[name="阿米娅"]是可露希尔小姐那边......？
+[name="阿米娅"]有结果了吗......
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_rhodesengineeringroom", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[playMusic(key="$m_sys_act15main_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_only_heavy", pos = "-400,-200", block = false)]<p=1>罗德岛新基地，工程部</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4228_closur_1#12$1",focus="m")]
+[name="可露希尔"]好——在第不知道多少次出错后，这一次终于可以确认所有数据都没有问题了。
+[name="可露希尔"]要来了，希望是最后一次模拟实验！
+[charslot(slot="m",name="avg_4228_closur_1#4$1",focus="m")]
+[name="可露希尔"]这一次......会成功的吧......
+[Dialog]
+[charslot(slot="m",name="avg_4228_closur_1#4$1",focus="none")]
+[name="Mon3tr"]涡绝得一登没柔昏提——
+[charslot(slot="m",name="avg_4228_closur_1#13$1",focus="m")]
+[name="可露希尔"]啊Mon3tr你不用动，头上的数据线会掉的！
+[name="可露希尔"]华法琳，帮我按住Mon3tr让她不要动，再帮我检查一下模拟创生舱的数据线都有没有连好。
+[charslot(slot="m",name="avg_171_bldsk_1#1$1",focus="m")]
+[name="华法琳"]好好......
+[charslot(slot="m",name="avg_171_bldsk_1#10$1",focus="m")]
+[name="华法琳"]你还真相信我能搞懂这些......医疗部之前可没有这种东西。
+[charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
+[name="可露希尔"]我也是从Mon3tr给的那一大堆材料里从头学起的呀！没事了，这边显示都没有问题，不用在意！
+[charslot(slot="m",name="avg_4228_closur_1#12$1",focus="m")]
+[name="可露希尔"]那么，都准备好了吗？
+[name="可露希尔"]好—— 
+[Dialog]
+[PlaySound(key="$keyboard")]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_keyboard_confirm")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_electronicmachine_enter_loop", volume=1)]
+[Sticker(id="st1", multi = true, text="生物模型构建-------------------100%", x=180,y=170, alignment="left", size=24, delay=0.07, width=700,block = true)]
+[PlaySound(key="$d_avg_electronicmachine_enter_loop", volume=1)]
+[Sticker(id="st1", multi = true, text="\n\n生理机能模拟-------------------100%",block = true)]
+[PlaySound(key="$d_avg_electronicmachine_enter_loop", volume=1)]
+[Sticker(id="st1", multi = true, text="\n\n神经元数据上传------------------98%",block = true)]
+[Sticker(id="st1")]
+[PlaySound(key="$d_avg_equipment_running_loop",loop=true,channel="2")]
+[Image(image="73_i03_1", xScale=1.08, yScale=1.08,screenadapt="coverall",fadetime=0)]
+[avgdisplay(id="1", name="act4mainss_01", style="animekv", slot="cgover",scalex=1, scaley=1, entryfrom=0.3, entryto=0.3, duration=0.1, block=false)]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+一分钟、两分钟......十分钟过去，比之从前要漫长得多的一段时间内，都没有出现报错的弹窗和令人担忧的红色。
+[name="可露希尔"]拜托拜托拜托——
+[name="可露希尔"]一定不要......
+[name="可露希尔"]（深呼吸）
+[name="可露希尔"]不，一定能有进展！
+[name="可露希尔"]这都是建立在合理设想和缜密计算基础上的尝试，也符合那家伙说的“生命相变过程”，所以，哪怕只能得到一点......
+[name="可露希尔"]......能看到一点希望都好。
+血魔红色的眼睛，眨也不眨地盯住屏幕。荧光在可露希尔苍白的面孔上映出若隐若现的光斑，进程的读数不断滚动与变化。
+屏幕上的进度条停在了临近终点的位置。
+[name="可露希尔"]有希望——
+[Dialog]
+[PlaySound(key="$d_avg_warning")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.2, r=1, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.2, r=1, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[name="可露希尔"]......吗？
+[Dialog]
+[stopsound(channel="2")]
+[PlaySound(key="$d_avg_equipment_warning_loop",loop=true,channel="1")]
+[avgdisplay(id="1", name="act4mainss_01", style="animekv", slot="cgover",scalex=1, scaley=1, entryfrom=0.3, entryto=0.6, duration=1, block=true)]
+[Blocker(a=0.3, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Sticker(id="st1", multi = true, text="神经元数据上传-------错误", x=180,y=170, alignment="left", size=24, delay=0.01, width=700,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n生理机能唤起----------错误",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n拟合失败。",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n......",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n......",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n......",block = true)]
+[Sticker(id="st1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[avgdisplay(id="1", name="act4mainss_01", style="animekv", slot="cgover",scalex=1, scaley=1, entryfrom=0.6, entryto=0.8, duration=2, block=true)]
+[stopsound(channel="1",fadetime=3)]
+[Image(image="73_i03_2", xScale=1.08, yScale=1.08,screenadapt="coverall",fadetime=2)]
+[Delay(time=2.5)]
+[name="可露希尔"]......
+[Dialog]
+[avgdisplay(id="1", name="act4mainss_01", style="animekv", slot="cgover",scalex=1, scaley=1, entryfrom=0.8, entryto=1, duration=3, block=true)]
+挫败。又一次。
+在如此多的失败之后，她早就应该习惯了迎来这样的结果，但她仍然深深地感到挫败。
+可露希尔望着眼前一片刺目的猩红，下意识试图用肉眼从那些报错的数据里分辨出错的关键节点。
+但最令人绝望的是，每一个关键节点都是不知确认过多少遍的。如果每一个步骤都正确，却无法导向一个成功的结果，那是不是说明......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[avgdisplay(id="1")]
+[Image(image="73_i03_4", xScale=1, yScale=1,screenadapt="coverall",fadetime=0)]
+[Delay(time=2.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="Mon3tr"]欸，又有哪里出问题了？这不应该呀——
+[Dialog]
+[name="华法琳"]别这么垂头丧气的。
+[name="华法琳"]谁都没有接触过这样复杂的生物工程，一定还有哪里有疏漏。
+[name="华法琳"]冷静一下，再找找，总会有发现的。
+[name="可露希尔"]我知道，还不到气馁的时候。
+[name="可露希尔"]六号无人机，记录第1860—1864次进展报告。
+[name="可露希尔"]项目：石棺复生实验。进展：0。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image]
+[charslot(slot="m",name="avg_4179_monstr_1#9$1",focus="m")]
+[Background(image="bg_rhodesengineeringroom", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="Mon3tr"]怎么会这样呢......
+[name="Mon3tr"]明明之前两次都能做到的，就算是凯尔希切断了我们之间的联系，但用别的手段理论上也能代替“双生循环”的信息传递功能。
+[name="Mon3tr"]我这里储存着凯尔希以能量弦为单位的全部记忆，石棺的各级参数都是准确的。
+[name="Mon3tr"]用空白源石“奥卡”当作重塑凯尔希身体的基底，理论上也一定是可行的才对......
+[name="Mon3tr"]可是问题到底出在哪里......我们到底还缺什么......
+[charslot(slot="m",name="avg_171_bldsk_1#1$1",focus="m")]
+[name="华法琳"]也许......
+[charslot(slot="m",name="avg_4228_closur_1#5$1",focus="m")]
+[name="可露希尔"]......
+[charslot(slot="m",name="avg_4179_monstr_1#9$1",focus="m")]
+[name="Mon3tr"]......
+[Dialog]
+[charslot]
+一个共同的猜想在每个人的脑海里同时浮现，谁也不愿意先把它说出来。
+[Dialog]
+[Decision(options="也许我们缺的是......", values="1")]
+[Predicate(references="1")]
+[Decision(options="凯尔希，之所以成为凯尔希的部分。", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_4179_monstr_1#8$1",focus="m")]
+[name="Mon3tr"]博士？你也来了！
+[charslot(slot="m",name="avg_4179_monstr_1#9$1",focus="m")]
+[name="Mon3tr"]抱歉，我们没能——
+[Dialog]
+[charslot]
+[Decision(options="没关系，遇到困难不在意料之外。;虽然结果的确有点令人失落。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
+[name="可露希尔"]别......别丧气博士！
+[name="可露希尔"]罗德岛最伟大的工程师还没有放弃呢，凭借泰拉天才黑客的智力一定可以破解凯尔希留下来的资料，赌上卡兹戴尔百强青年的荣誉——
+[charslot(slot="m",name="avg_4228_closur_1#14$1",focus="m")]
+[name="可露希尔"]我一定会找到带回凯尔希的办法的！
+[Dialog]
+[charslot]
+[Decision(options="看到可露希尔你还是这样我就放心了。;我以为应该是我安慰你才对？", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_4228_closur_1#15$1",focus="m")]
+[name="可露希尔"]毕竟刚才......博士看上去确实有点失落嘛。
+[name="可露希尔"]我向凯尔希保证过，不会再让你或阿米娅独自背上那么多压力了。
+[Dialog]
+[charslot]
+[Decision(options="谢谢你，可露希尔。", values="1")]
+[Predicate(references="1")]
+[Decision(options="罗德岛还需要凯尔希。;我们都希望她能够回到我们身边。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
+[name="可露希尔"]嗯！
+[Dialog]
+[charslot]
+[Decision(options="乌萨斯那边传回一些消息。;弑君者得到了更多关于“石棺”的线索。", values="1;2")]
+[Predicate(references="1;2")]
+[Decision(options="是时候再次出发了。", values="1")]
+[Predicate(references="1")]
+[Decision(options="也许等我们真的找到石棺......", values="1")]
+[Predicate(references="1")]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g5_blockalley", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[playMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>圣骏堡，奥多耶夫区，罗德岛临时收治中心</><p=2>1102年1月</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4207_branch_1#2$1",focus="m")]
+[name="别乔克"]您看......受伤的，关节......这样，固定住，就不会痛了。
+[charslot(slot="m",name="avg_npc_094",focus="m")]
+[name="憔悴的感染者"]谢谢你“小枝条”，我感觉好多了！
+[charslot(slot="m",name="avg_4207_branch_1#2$1",focus="m")]
+[name="别乔克"]这是，我和罗德岛的医生，学会的。
+[charslot(slot="m",name="avg_npc_094",focus="m")]
+[name="憔悴的感染者"]说起来，这圣骏堡可真不一样，取暖都可以用这种火炉啊。难怪那些住在城里的老爷们一点都不怕冬天。
+[name="憔悴的感染者"]“小枝条”，我们真的能一直在这里住下去吗？
+[charslot(slot="m",name="avg_4207_branch_1#4$1",focus="m")]
+[name="别乔克"]没......关系。Raidian姐姐说，会保护我们。
+[charslot(slot="m",name="avg_4207_branch_1#2$1",focus="m")]
+[name="别乔克"]现在，我们也，不怕。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_snowbootwalk",volume=1)]
+[Delay(time=2.5)]
+[name="？？？"]真要命，这里还是这么冷......
+[name="？？？"]就不能多烧一点柴吗——抱歉，我的意思是说，如果你们还缺柴火的话，我可以帮忙。
+[charslot(slot="m",name="avg_npc_094",focus="m")]
+[name="憔悴的感染者"]那人是......近卫军？这里为什么会有近卫军？
+[charslot(slot="m",name="avg_4207_branch_1#7$1",focus="m")]
+[name="别乔克"]您......您......别怕！
+[charslot(slot="m",name="avg_4207_branch_1#10$1",focus="m")]
+[name="别乔克"]这位......小姐，帮助过，我们......您不记得了吗？
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_1966_1#1$1",duration=1.5)]
+[PlaySound(key="$d_avg_snowbootwalk",volume=1)]
+[Delay(time=2.5)]
+[name="阿洛伊泽"]谢谢你，“小枝条”，谢谢你愿意替我说话，也谢谢你还记得我。
+[name="阿洛伊泽"]唉......明明是一起逃命出来的交情，现在有点让人伤心啊。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_1730_1#1$1",duration=1.5)]
+[PlaySound(key="$d_avg_snowbootwalk",volume=1)]
+[Delay(time=2.5)]
+[name="Raidian"]那只能怪你这身衣服太过显眼了，“中士”小姐。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_npc_1730_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_1966_1#1$1",focus="r")]
+[name="阿洛伊泽"]真是对不起，我也不是那种有空为每一趟行程更换行头的老爷。在圣骏堡别的地方，我还是要靠这套衣服当通行证的。
+[name="阿洛伊泽"]有段时间没来问候了，这里都还顺利吗？药物还够用吗？
+[charslot(slot="l",name="avg_npc_1730_1#2$1",focus="l")]
+[name="Raidian"]嗯，其他物资还勉强说得过去，可是你也知道，想在圣骏堡搞到治矿石病的药物几乎是不可能的事，从总部调运又太遥远。
+[charslot(slot="r",name="avg_npc_1966_1#3$1",focus="r")]
+[name="阿洛伊泽"]如果不是源石矿脉的事，圣骏堡的矿石病药物产线建设本来应该已经排上日程了。
+[name="阿洛伊泽"]谁能想到......
+[charslot(slot="l",name="avg_npc_1730_1#1$1",focus="l")]
+[name="Raidian"]不管怎么说，还是感谢你提供这样一片容身之处。
+[charslot(slot="r",name="avg_npc_1966_1#2$1",focus="r")]
+[name="阿洛伊泽"]毕竟是我承诺过的事。而且也不过是家族里闲置的一处工厂，甚至没办法让所有人都到室内待着......这里实在是太冷了。
+[charslot(slot="r",name="avg_npc_1966_1#3$1",focus="r")]
+[name="阿洛伊泽"]虽然为收容感染者补齐了手续，但是最近还是尽量不要在城内四处走动。
+[name="阿洛伊泽"]很遗憾......现阶段我也没有办法为你们提供更好的条件。
+[charslot(slot="l",name="avg_npc_1730_1#3$1",focus="l")]
+[name="Raidian"]我知道，他们之所以能被允许留在圣骏堡，是因为他们目前还是那场惨剧关键的人证......尽管那场审判至今都没有到来。
+[name="Raidian"]这并不改变他们在这个国家没有容身之处的事实。
+[charslot(slot="r",name="avg_npc_1966_1#2$1",focus="r")]
+[name="阿洛伊泽"]......也许很快，就会改变的。
+[charslot(slot="l",name="avg_npc_1730_1#3$1",focus="l")]
+[name="Raidian"]抱歉，你刚刚说什么了吗？
+[charslot(slot="r",name="avg_npc_1966_1#1$1",focus="r")]
+[name="阿洛伊泽"]不......这件事之后再说吧，我今天来是有别的事要找罗德岛。
+[name="阿洛伊泽"]你们那位“博士”，现在在哪里？
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="21_G9_rhodes_xqoffice", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[playMusic(key="$darkness_03_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_only_heavy", pos = "-400,-200", block = false)]<p=1>乌萨斯，罗德岛驻圣骏堡办事处</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[PlaySound(key="$keyboard",volume=1)]
+[Delay(time=2.5)]
+[playsound(key="$d_gen_transmissionget", volume=1)]
+[interlude(maskid = "group_interclude_vertical_common" ,size = "290,760", style=0 ,switch = true, offset = "0,0", channel = 3,tsfrom = "0,1", tsto="1,1",tsduration = 0.5)]
+[interlude(channel = 3, type = 3, slot = "m", switch = false, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#3$1", duration = 1)]
+[charslot(slot="m",posfrom="0,0",posto="-200,0",duration=1.5,focus="m")]
+[Delay(time=2)]
+[Decision(options="泽尔格勒？", values="1")]
+[Predicate(references="1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = true, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#3$1", duration = 0)]
+[name="坚雷"]是，根据博士你们的情报，我们暂且可以假设乌萨斯在圣骏堡周围暗中进行关于石棺的研究。
+[name="坚雷"]而根据弑君者提供的消息，我们也发现了一些端倪，似乎可以验证这个猜想。
+[interlude(channel = 3, type = 3, slot = "m", switch = true, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#9$1", duration = 0)]
+[name="坚雷"]乌萨斯的源石已经如此紧缺，每天还是固定会有大量源石被从圣骏堡运往外部，去往同一个方向。
+[name="坚雷"]源石的物流线路很隐秘，我们不敢追得太紧。不过我们排查了圣骏堡周边每个城市，都没有发现源石需求量这么大的工业设备。
+[name="坚雷"]除了第一集团军驻地的卫星城，泽尔格勒。
+[name="坚雷"]可是所有的线索一旦牵扯到这里就全部中断了，看得出圣骏堡为了隐藏能源的去向，花了很大功夫。
+[Dialog]
+[interlude(channel = 3, type = 3, slot = "m", switch = false, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#9$1", duration = 0)]
+[Decision(options="我们来到圣骏堡后从来没有听说过这个城市。", values="1")]
+[Predicate(references="1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = true, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#9$1", duration = 0)]
+[name="坚雷"]不止是你们，大部分乌萨斯人对泽尔格勒的存在都所知甚少。
+[Dialog]
+[interlude(channel = 3, type = 3, slot = "m", switch = false, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#9$1", duration = 0)]
+[Decision(options="乌萨斯一定有充分的理由做这样的保密工作。", values="1")]
+[Predicate(references="1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = true, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#3$1", duration = 0)]
+[name="坚雷"]想来也是，如果这个时候还有大量的源石去向不明，恐怕那些有产业的贵族都不会答应吧。
+[name="坚雷"]更何况，第四集团军已经兵临城下，他们也一定有眼线盯着圣骏堡的一举一动。
+[interlude(channel = 3, type = 3, slot = "m", switch = true, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#9$1", duration = 0)]
+[name="坚雷"]但正因如此......还有一件事才显得格外奇怪。
+[name="坚雷"]泽尔格勒作为本该密不透风的特殊行政区，最近却打出了“收留感染者”的广告。
+[interlude(channel = 3, type = 3, slot = "m", switch = true, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#3$1", duration = 0)]
+[name="坚雷"]他们公开的说辞是，第一集团军坚决谴责日前发生在远北矿场的惨剧，所以愿意收容所有因动乱失去归处的感染者。
+[name="坚雷"]“以彰显皇帝陛下对感染者一视同仁的仁慈。”
+[Dialog]
+[interlude(channel = 3, type = 3, slot = "m", switch = false, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#3$1", duration = 0)]
+[Decision(options="......", values="1")]
+[Predicate(references="1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = true, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#3$1", duration = 0)]
+[name="坚雷"]当然，我们所有人听到这个消息的第一反应都是质疑的。并且，我们同样追踪不到任何进入泽尔格勒的感染者的消息。
+[name="坚雷"]从弑君者找到的卫星城出入口记录上也可以窥见问题。在剔除了经由外包公司伪装的部分后，医药类产品和原材料的进口几乎为零。
+[name="坚雷"]但这些也都并非实证。真要了解，我们恐怕还是必须实地去看。
+[name="坚雷"]总之，我这边能够提供的线索暂时只有这些。我们会继续在圣骏堡外围活动，尽可能多收集情报。
+[interlude(channel = 3, type = 3, slot = "m", switch = true, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#1$1", duration = 0)]
+[name="坚雷"]对了，下次见面的时候，博士要记得夸夸自治团的几个小熊哦。
+[name="坚雷"]不只是在搜集情报上......前阵子圣骏堡的那场风波里，大家表现得都很棒，每个人都是成熟的罗德岛干员了。
+[Dialog]
+[interlude(channel = 3, type = 3, slot = "m", switch = false, pfrom = "0,0", pto="0,0", name = "avg_260_durnar_1#1$1", duration = 0)]
+[Decision(options="当然，每个人都很棒。;大家都是罗德岛最好的干员。", values="1;2")]
+[Predicate(references="1;2")]
+[Decision(options="谢谢你，坚雷。;记得叮嘱凛冬她们注意安全。", values="1;2")]
+[Predicate(references="1;2")]
+[playsound(key="$transmission", volume=1)]
+[interlude(channel = 3, clear = true,tsfrom="1,1", tsto ="0,1",tsduration = 0.5)]
+[charslot]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_4179_monstr_1#1$1",focus="m")]
+[name="Mon3tr"]在切尔诺伯格的时候，凯尔希封锁了石棺核心，理论上讲以乌萨斯现在掌握的技术手段，是没有办法重启石棺的。
+[charslot(slot="m",name="avg_4179_monstr_1#5$1",focus="m")]
+[name="Mon3tr"]更奇怪的是，乌萨斯这个时候不应该想办法把石棺变成能量源吗？可怎么还反过来要消耗那么多源石？他们到底想做什么？
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]博士，我很在意坚雷说的泽尔格勒对感染者的收容措施......
+[name="阿米娅"]我知道，这或许不是出于理智的判断......但我很难相信，第一集团军会出于什么正当的理由开始收容感染者。
+[Dialog]
+[charslot]
+[Decision(options="这样的举动的确很可疑。;当务之急是收集更多关于泽尔格勒的情报。", values="1;2")]
+[Predicate(references="1;2")]
+[Decision(options="可露希尔......？", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_1037_amiya3_1#1$1",focus="m")]
+[name="阿米娅"]可露希尔小姐，你这是在做什么？
+[charslot(slot="m",name="avg_4228_closur_1#9$1",focus="m")]
+[name="可露希尔"]啊，稍等一下马上就好。我看看......这个网站里到底藏了什么秘密。
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]等等......你是在黑入乌萨斯的网站吗？
+[charslot(slot="m",name="avg_4228_closur_1#4$1",focus="m")]
+[name="可露希尔"]不不不，完全不是黑入啦。我看看，全称是“乌萨斯帝国议会常务部门网站”，上面的信息都是面向大众的。
+[name="可露希尔"]官方发布的新闻，近期的天灾预警，果然，还有泽尔格勒收留感染者的广告......就是网络波动太大了，筛选和下载的速度很慢。
+[charslot(slot="m",name="avg_4228_closur_1#9$1",focus="m")]
+[name="可露希尔"]不过很明显，其中不少都是装点门面的假消息。
+[charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
+[name="可露希尔"]只需要把这里公示的城市航道通行表拉一遍——如果上面的信息属实，最近一个月，圣骏堡周围已经发生过三起移动城市相撞的事故啦！
+[name="可露希尔"]这样伪造信息，肯定是因为要隐瞒一些事啦。只要在这里稍微深挖一下......
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",focus="m")]
+[name="阿米娅"]可露希尔小姐，你真的没有做越界的事情吗？
+[charslot(slot="m",name="avg_4228_closur_1#13$1",focus="m")]
+[name="可露希尔"]我没有！嗯......就一点点？
+[charslot(slot="m",name="avg_4228_closur_1#4$1",focus="m")]
+[name="可露希尔"]不过搭建这个网站的人似乎也没那么强的保密意识，这个门面网站的服务器直接连通着内部的资料库。
+[name="可露希尔"]虽说没有太多要紧的资料，都是一些城市运行的基本信息。不过这里能找到泽尔格勒的城市识别码，还有明面上的往来物流运输的记录。
+[charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
+[name="可露希尔"]好了，只要三分钟的时间，ZOOT就能帮我计算出从圣骏堡到泽尔格勒的最佳路线了。
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",focus="m")]
+[name="阿米娅"]......
+[charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
+[name="可露希尔"]我保证！不会留下任何痕迹的！
+[charslot(slot="m",name="avg_4179_monstr_1#1$1",focus="m")]
+[name="Mon3tr"]可是，如果我们只是锁定了这个卫星城的位置，又该怎么进去呢？
+[name="Mon3tr"]直接闯吗？我倒是没问题啦......
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]如果石棺在第一集团军手中，那里也一定会有重兵把守，我们不可能直接闯入。
+[charslot(slot="m",name="avg_1037_amiya3_1#1$1",focus="m")]
+[name="阿米娅"]博士，我在想，我们是不是能趁泽尔格勒收容感染者的机会——
+[Dialog]
+[charslot]
+[Decision(options="是Raidian的提醒——;当心，好像有人来了。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="l",name="avg_npc_1730_1#1$1",duration=1.5)]
+[charslot(slot="r",name="avg_npc_1966_1#1$1",duration=1.5)]
+[PlaySound(key="$d_gen_walk_n")]
+[Delay(time=2.5)]
+[charslot]
+[charslot(slot="m",name="avg_1037_amiya3_1#1$1",focus="m")]
+[name="阿米娅"]Raidian小姐......和阿洛伊泽中尉？
+[charslot(slot="m",name="avg_npc_1730_1#1$1",focus="m")]
+[name="Raidian"]正好遇到了她，她说有事要和博士面谈。
+[charslot(slot="m",name="avg_npc_1966_1#1$1",focus="m")]
+[name="阿洛伊泽"]嗯，好久不见了各位。
+[name="阿洛伊泽"]还有这位我不认识的......血魔小姐？
+[charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
+[name="可露希尔"]哦，好久没有人提这回事，我都快要忘了自己是血魔了。
+[Dialog]
+[charslot]
+[Decision(options="她叫可露希尔。", values="1")]
+[Predicate(references="1")]
+[Decision(options="是一名很厉害的工程师。;是一名很厉害的网络黑客。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_npc_1966_1#1$1",focus="m")]
+[name="阿洛伊泽"]很荣幸认识您，可露希尔小姐。
+[charslot(slot="m",name="avg_npc_1966_1#10$1",focus="m")]
+[name="阿洛伊泽"]很容易看出来，您是一位优秀的......嗯......
+[charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
+[name="可露希尔"]嗯......？
+[Dialog]
+[charslot]
+阿洛伊泽转向Raidian，开始比划手语。
+“这里是安全的吗？”
+[charslot(slot="m",name="avg_npc_1730_1#1$1",focus="m")]
+[name="Raidian"]我没有检测到来源可疑的电信号，而且，可露希尔小姐也会保证我们谈话的安全。
+[charslot(slot="m",name="avg_4228_closur_1#13$1",focus="m")]
+[name="可露希尔"]嗯？我可看不懂手语——
+[charslot(slot="m",name="avg_npc_1730_1#2$1",focus="m")]
+[name="Raidian"]我记得这里用的也是我们自己的线路？
+[charslot(slot="m",name="avg_4228_closur_1#9$1",focus="m")]
+[name="可露希尔"]没错？
+[charslot(slot="m",name="avg_npc_1730_1#2$1",focus="m")]
+[name="Raidian"]（低声）这是否也意味着我们现在的谈话暂时不会受到监听......？
+[charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
+[name="可露希尔"]啊，这肯定不会。至少有我在这里的时候，不会让这种情况发生。
+[name="可露希尔"]当还在本舰——呃，当还在总部就好，不用客气。
+[charslot(slot="m",name="avg_npc_1966_1#3$1",focus="m")]
+[name="阿洛伊泽"]谢谢。那我们还是直接进入正题吧——我们上次交谈的话题停在了石棺的下落上。
+[name="阿洛伊泽"]关于石棺的消息，我这里有一点......不小的进展。
+[Dialog]
+[charslot]
+[Decision(options="感谢你愿意和我们分享情报。", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_npc_1966_1#2$1",focus="m")]
+[name="阿洛伊泽"]这也算我承诺过的，是我们合作的一部分。
+[charslot(slot="m",name="avg_npc_1966_1#3$1",focus="m")]
+[name="阿洛伊泽"]再者说，如果我再不共享一些情报，按罗德岛的行事风格，这个时候恐怕已经在找各种办法进入泽尔格勒了吧。
+[Dialog]
+[charslot]
+[Decision(options="我们会遵守圣骏堡的法律。;我们不会做有违规矩的事。", values="1;2")]
+[Predicate(references="1;2")]
+[PlaySound(key="$d_avg_medicalbeep",channel="1")]
+[Delay(time=1)]
+[stopSound(key="$d_avg_medicalbeep",channel="1")]
+[charslot(slot="m",name="avg_4228_closur_1#7$1",focus="m")]
+[name="可露希尔"]啊......！
+[Dialog]
+[charslot]
+终端播报声响起，阿米娅立即循声看去，血魔则是下意识地挡在了电脑屏幕前，年轻的近卫军将这一切看在眼里，却没有多说什么。
+[charslot(slot="m",name="avg_npc_1966_1#3$1",focus="m")]
+[name="阿洛伊泽"]好吧......我已经深刻知道建立信任关系有多么困难了。
+[name="阿洛伊泽"]不过我还是衷心建议，罗德岛应该有一个合法的身份行动了......接下来的麻烦会很多。
+[Dialog]
+[charslot]
+[name="？？？"]她说得不错，罗德岛也的确做好了准备。
+[Dialog]
+[charslot(slot="m",name="avg_188_helage_1#1$1",duration=1.5)]
+[PlaySound(key="$d_gen_walk_n",volume=0.6)]
+[Delay(time=2.5)]
+[charslot(slot="m",name="avg_npc_1966_1#11$1",focus="m")]
+[name="阿洛伊泽"]您是......赫拉托夫将军？
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="赫拉格"]称呼我为赫拉格就好。
+[name="赫拉格"]按照博士的指示，我已尝试并成功接触帝国议会副议长瓦西里·戈尔奇科夫。
+[name="赫拉格"]对圣骏堡而言，罗德岛已经有合法立足的权利。
+[charslot(slot="m",name="avg_npc_1966_1#3$1",focus="m")]
+[multiline(name="阿洛伊泽")]原来是你的主意，我就说怎么会......
+[charslot(slot="m",name="avg_npc_1966_1#11$1",focus="m")]
+[multiline(name="阿洛伊泽")]等等，你怎么知道他一定能见到副议长——见到我父亲？
+[Dialog]
+[charslot]
+[Decision(options="很简单，因为我们确实能见到。;是赫拉格干员先提出了这个想法。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_npc_1966_1#1$1",focus="m")]
+[name="阿洛伊泽"]看来我还是低估了罗德岛掌握的情报和人脉啊......
+[name="阿洛伊泽"]既然如此，我也不用再顾虑，可以正式向罗德岛发出邀请了。
+[name="阿洛伊泽"]一份来自费奥多尔陛下的邀请。
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]——？
+[charslot(slot="m",name="avg_npc_1966_1#1$1",focus="m")]
+[name="阿洛伊泽"]这就是我这次过来的目的。接下来，我将护送你们前去觐见。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="73_g13_ursuswscommandroom", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[playMusic(key="$m_avg_ursusdaily_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="m",name="avg_npc_2231_1#1$1",focus="m")]
+[name="斯韦特兰纳"]你来了。
+[name="斯韦特兰纳"]衣服还合身吗？来，走近些，让我瞧瞧。
+[name="斯韦特兰纳"]嗯。至少比原来要得体些了。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2246_1#1$1",duration=1.5)]
+[PlaySound(key="$d_gen_walk_n",volume=0.6)]
+[Delay(time=2.5)]
+[name="卡特斯"]谢谢您。这很合身，很舒适。
+[charslot(slot="m",name="avg_npc_2231_1#6$1",focus="m")]
+[name="斯韦特兰纳"]你是客人，这是我应该提供的。如果还有任何其他需要，也请尽管询问我的副官。
+[charslot(slot="m",name="avg_npc_2231_1#1$1",focus="m")]
+[name="斯韦特兰纳"]亚沙，阿纳托利呢？
+[charslot(slot="m",name="avg_npc_1982_1#1$1",focus="m")]
+[name="利落的近侍"]小将军正在挑选此次随行的亲卫。
+[charslot(slot="m",name="avg_npc_2231_1#3$1",focus="m")]
+[name="斯韦特兰纳"]真是一刻也等不了。叫他这次记得选些身强体壮的新兵，别再去招惹那些老油子。
+[charslot(slot="m",name="avg_npc_1982_1#1$1",focus="m")]
+[name="利落的近侍"]我已经提醒过了。
+[charslot(slot="m",name="avg_npc_2231_1#1$1",focus="m")]
+[name="斯韦特兰纳"]很好。
+[name="斯韦特兰纳"]孩子，你叫什么名字？我总不能一直这样叫你。
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[name="卡特斯"]希尔达。我叫希尔达，女士。
+[charslot(slot="m",name="avg_npc_2231_1#1$1",focus="m")]
+[name="斯韦特兰纳"]那么，希尔达小姐。
+[name="斯韦特兰纳"]鉴于我近期必须留在驻地，整顿军纪，我需要你作为“医生”，陪同我的孩子前往泽尔格勒。
+[name="斯韦特兰纳"]他会去那里巡逻，并照管那座城市，而我希望你能照看他。
+[name="斯韦特兰纳"]你应该知道，如今的乌萨斯遭逢变故，在这仍在不断扩大的动荡中，想要他命的人，不比想要直接夺走我手中权柄的人少。
+[name="斯韦特兰纳"]我要你站在他的身边坚定地保护他，且在一切尘埃落定之后，将他安全地带回我身边。
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]......“一切尘埃落定”？
+[charslot(slot="m",name="avg_npc_2231_1#1$1",focus="m")]
+[name="斯韦特兰纳"]你只需要回答我。你能做到吗？
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]我必须先确认我同伴的去向和安危。
+[charslot(slot="m",name="avg_npc_2231_1#1$1",focus="m")]
+[name="斯韦特兰纳"]是我的疏忽。忘了告诉你，他们都已经先一步过去了。
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]“过去”？
+[charslot(slot="m",name="avg_npc_2231_1#1$1",focus="m")]
+[name="斯韦特兰纳"]去泽尔格勒。如今那座城市已经对公众和感染者开放，你的那些同伴，就是第一批得到政策性收容的幸运儿。
+[name="斯韦特兰纳"]等你也到达那里，你会再见到他们的。
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]......
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="73_g11_ursuswarshipdeck_d", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="m",name="avg_npc_2246_1#2$1",duration=1.5)]
+[PlaySound(key="$d_gen_walk_n",volume=0.6)]
+[Delay(time=2.5)]
+[name="希尔达"]......这是？
+[charslot(slot="m",name="avg_npc_2246_1#8$1",focus="m")]
+[name="希尔达"]我刚才好像已经来过这里了。他不在。
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]（这艘船太大了，我应该去哪里才能找到那位小将军？）
+[name="希尔达"]唔......
+[Dialog]
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="none")]
+[name="隐约的声音"]......该死......
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]啊，那边有人。
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]您好，我想问——
+[Dialog]
+[charslot]
+[playMusic(intro="$mist_intro", key="$mist_loop", volume=0.6)]
+[charslot(slot="l",name="avg_npc_1978_1#1$1",duration=1.5)]
+[charslot(slot="r",name="avg_npc_1977_1#1$1",duration=1.5)]
+[PlaySound(key="$d_gen_walk_n",volume=0.6)]
+[Delay(time=2.5)]
+[charslot(slot="l",name="avg_npc_1978_1#1$1",focus="l")]
+[name="愤怒的军官"]......明知道做他的亲卫就是送死，谁还愿意去？
+[name="愤怒的军官"]如今他倒是学会了，只去点选那些没有背景也不知深浅的年轻人——
+[name="愤怒的军官"]无耻！
+[charslot(slot="r",name="avg_npc_1977_1#1$1",focus="r")]
+[name="坚定的军官"]（小声）嘘，低声些！咱们过来说，我知道怎么避开那些有监控的地方。
+[charslot(slot="l",name="avg_npc_1978_1#1$1",focus="l")]
+[name="愤怒的军官"]我今天必须把这些都说出口来。
+[charslot(slot="r",name="avg_npc_1977_1#1$1",focus="r")]
+[name="坚定的军官"]（小声）我明白，我都明白的，兄弟。这也是为什么就算面临牺牲，我们也必须继续在他的亲卫队里安插自己人。
+[name="坚定的军官"]（小声）元帅显然已经失去了对局势的判断能力，以为有新武器在手，我们就能高枕无忧，却不知道真正的问题早已显现在内部。
+[name="坚定的军官"]（小声）让一个没有能力的小孩，把治军当作他赚取军功过家家的游戏，拿着把开刃的刀就像拿着无所不能的权杖！
+[name="坚定的军官"]（小声）她甚至还真的放任他对士兵随意责罚打杀，却不必背负任何惩罚......这实在是太荒谬了。
+[charslot(slot="l",name="avg_npc_1978_1#1$1",focus="l")]
+[name="愤怒的军官"]口口声声要我们为了乌萨斯——这天杀的可不是为了乌萨斯！
+[charslot(slot="r",name="avg_npc_1977_1#1$1",focus="r")]
+[name="坚定的军官"]（小声）而且像这样下去，我们要如何应对叛军呢？我营中的下士安德雷，只是应元帅的命令去阻拦他，竟就被一刀割开了喉咙。
+[name="坚定的军官"]（小声）安德雷甚至都不算那“死亡亲卫队”里的成员。我去看了他的尸体，到死都睁着眼睛，白布下只有一张迷茫的年轻人的面庞......
+[charslot(slot="l",name="avg_npc_1978_1#1$1",focus="l")]
+[name="愤怒的军官"]我们必须行动了！
+[charslot(slot="r",name="avg_npc_1977_1#1$1",focus="r")]
+[name="坚定的军官"]（小声）是的......
+[name="坚定的军官"]我们必须有所行动了。
+[Dialog]
+[charslot(duration=1.5)]
+[PlaySound(key="$d_gen_walk_n",volume=0.6)]
+[Delay(time=2.5)]
+[charslot(slot="m",name="avg_npc_2246_1#3$1",focus="m")]
+[name="希尔达"]“行动”？
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]什么样的......
+[name="希尔达"]行动？
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Image]

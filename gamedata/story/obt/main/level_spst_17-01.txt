@@ -1,0 +1,156 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="60_g1_rhodescorridor_bc",screenadapt="coverall")]
+[playMusic(intro="$m_sys_act1mainss_intro",key="$m_sys_act1mainss_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+Dr.{@nickname}，还在挑选那些诗集吗？
+没什么，我刚才想到了一首诗，也可以放入其中。
+你想让我念给你听吗？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="60_g3_cvilizationtombstone", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[Blocker(a=0.4, r=0, g=0, b=0, fadetime=2, block=true)]
+[Sticker(id="st1", multi = true, text="倘若群星燃烧着关怀我们的激情，", x=300,y=230, alignment="center", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n我们却无法回报，我们作何感想？",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n现在我看群星，我却难以启齿，",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n说我成天思念一颗星星。",block = true)]
+[Sticker(id="st1")]
+[Sticker(id="st1", multi = true, text="倘若所有的星星消失或者消亡，", x=300,y=230, alignment="center", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n我应该学会仰望空荡的天空，",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n同时感受宇宙一片漆黑的崇高，",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n虽然这样可能要花费一点时间。",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n......",block = true)]
+[Sticker(id="st1")]
+[Blocker(a=0.4, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_black", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+原来......这就是你一万年的旅程。
+我该如何重新认识你，AMa-10......
+或者说......凯尔希？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="60_g4_rhodesabyss_w", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+你的行为对源石计划造成了不小的阻碍，但是跟着你的视线，或许是了解如今的泰拉文明最直接的方式。
+原来如此......
+PCS系统，保存者的维生舱，幸存的巨兽，破损的星门......那些破碎遗迹，竟然是以这种方式塑造了新生文明的样貌。
+出人意料的结果，却因过于荒唐而显得有趣。
+但最重要的是，源石改变了这些生命的样貌，也引导他们走上了与我们的文明相似的路。
+Dr.{@nickname}，从塔卫二召唤来的生命火种是你自作主张的选择，这样的结果符合你的期待吗？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_23_G07", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+我看到了......
+原始而远离危机的环境为生命保留了野蛮生长的空间，演化出了形态各异的文明，这是失落时代许久不曾见到的景象......
+它的确令人感动，我并非无法理解。
+可是，难道就仅此而已？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_cenbri", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+你曾经还记得的，我们经历过多少次被寄予厚望的计划在末日中灰飞烟灭，我们的同胞为了冲破终极的黑暗前赴后继地牺牲。
+所剩不多的希望被无休止地消磨，那是极度的残忍。
+相比之下，在这颗渺小的星球上，这个还会因语言和文化产生隔阂，因为政治而爆发战争的原始文明，如何能算得上“希望”？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_black", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+我不明白，到底是什么说服了你......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image(image="49_i22",screenadapt="coverall")]
+[ImageTween(xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, duration=40, block=false)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=3.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image(image="27_i31",screenadapt="coverall")]
+[ImageTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=40, block=false)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=3.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image(image="44_i12_1",screenadapt="coverall")]
+[ImageTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=40, block=false)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=3.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[image]
+[verticalbg(imagegroup="66_i18_4/66_i18_3/66_i18_2/66_i18_1", solidwidth=1280, solidheight="720/720/720/720",y=1200)]
+[largebgtween(duration = 50, yFrom = 1200, yTo = 0, block = false)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[Delay(time=1)]
+[Delay(time=3.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[verticalbg(imagegroup="38_g17_2/38_g17_1", solidwidth=1280, solidheight="1116.25/1117.5",x=0,y=920)]
+[largebgtween(duration = 13,yFrom = 920, yTo = 0, block = false)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[Delay(time=1)]
+[Delay(time=3.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[verticalbg]
+[image(image="49_i07",screenadapt="coverall")]
+[ImageTween(xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, duration=40, block=false)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=3.5)]
+原来......
+在被文明荒废的漫长时间里，也有这些堪称伟大的时刻留下痕迹，如同那些迅速熄灭的恒星。
+多么难得啊，陆不再执着于她天真的计划，就连弗里斯顿也选择交出了希望。
+AMa-10，这就是你留恋的？
+原来这就是你的理由......Dr.{@nickname}。
+只是因为你在他们的文明中，看到了与我们相似的挣扎？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[image]
+[charslot]
+[Background(image="60_g4_rhodesabyss_w", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+可是，这还不够，远远不够。
+我理解你的情感，但这不足以让我为他们的存续让出空间。
+我们的时间不多了，源石的生长还需要更多土壤与时间，而末日近在眼前。
+如果......如果你相信他们最终能够揭开那道帷幕，那他们也理应能够跨过眼前这些不值一提的障碍，超过他们自身。
+尽管向我证明吧。
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Image]

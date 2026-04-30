@@ -1,0 +1,866 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="73_g7_newinstitutelaboratory",screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[PlayMusic(intro="$mist_intro", key="$mist_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>泽尔格勒保密区研究所，六号实验室</><p=2>1102年1月18日 23:07</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[charslot(slot="l",name="avg_npc_1975_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2243_1#1$1",focus="n")]
+[name="担忧的研究员"]主任，您已经对着这些资料研究一天了，您总得休息一下，至少吃点东西......
+[charslot(slot="r",name="avg_npc_2243_1#1$1",focus="r")]
+[name="艾丽塔"]吉拉。所有关于“库茨金娜”的档案都在这里了吗？  
+[charslot(slot="l",name="avg_npc_1975_1#1$1",focus="l")]
+[name="吉拉"]都在这里了......但我也像您一样，是才被调过来的，所以不确定会不会有缺漏。
+[name="吉拉"]交接的时候，甚至没人给我档案册。
+[charslot(slot="r",name="avg_npc_2243_1#1$1",focus="r")]
+[name="艾丽塔"]按理来说所有研究资料都要登记在册的，无论是否包含有效数据。现在的情况非常棘手。
+[charslot(slot="r",name="avg_npc_2243_1#8$1",focus="r")]
+[name="艾丽塔"]你看，进度报告的编号直接从03跳到了21，缺漏的部分只被轻飘飘地标记为“数据损坏”，连原始记录都没有留下。
+[charslot(slot="l",name="avg_npc_1975_1#1$1",focus="l")]
+[name="吉拉"]什么？
+[charslot(slot="r",name="avg_npc_2243_1#8$1",focus="r")]
+[name="艾丽塔"]还有这些语音留档，几乎每一卷上都有明显被剪掉的部分。我花了些时间全部听完了，发现剩下的都只是无用的噪声段。
+[charslot(slot="r",name="avg_npc_2243_1#9$1",focus="r")]
+[name="艾丽塔"]这相当反常。我想去保卫处调出六号实验室交接之前的监控录像，又发现连着三天的录像都被删除了。
+[charslot(slot="r",name="avg_npc_2243_1#1$1",focus="r")]
+[name="艾丽塔"]保卫处的人只给了我一些后勤维修单，说是这几天的记录，能看六号实验室的出入情况。
+[name="艾丽塔"]猜猜我发现了什么？
+[charslot(slot="l",name="avg_npc_1975_1#1$1",focus="l")]
+[name="吉拉"]我不知道。
+[charslot(slot="r",name="avg_npc_2243_1#1$1",focus="r")]
+[name="艾丽塔"]在“库茨金娜”试爆当天，园区曾经断电半个小时左右。抢修队在断电后八分钟内介入，也没能完全处理好电能过载的问题。
+[name="艾丽塔"]我顺着查下去，发现冷却池早在那天就烧干了，备用冷却系统也全部报废了，而地底那东西的温度还维持在较高水平——
+[charslot(slot="r",name="avg_npc_2243_1#8$1",focus="r")]
+[multiline(name="艾丽塔")]不至于立刻爆炸，但也没能完全恢复原状。
+[charslot(slot="r",name="avg_npc_2243_1#7$1",focus="r")]
+[multiline(name="艾丽塔")]这意味着现在有其他东西正在持续对它进行冷却，可我们甚至都不知道那是什么！
+[charslot(slot="l",name="avg_npc_1975_1#1$1",focus="l")]
+[name="吉拉"]......
+[charslot(slot="r",name="avg_npc_2243_1#4$1",focus="r")]
+[name="艾丽塔"]而即使是这样，当天报告里的结语仍然是：风险可控。
+[charslot(slot="l",name="avg_npc_1975_1#1$1",focus="l")]
+[name="吉拉"]可是那次实验确实成功了。半个乌萨斯的人都看见了，“库茨金娜”有多么强大的威力......
+[charslot(slot="r",name="avg_npc_2243_1#8$1",focus="r")]
+[name="艾丽塔"]这真的是值得高兴的事吗？
+[name="艾丽塔"]我被调来了六号实验室，我原本的研究方向是让“原型”成为可靠的供能装置，而非不可控的武器。
+[name="艾丽塔"]可现在我们对“库茨金娜”的认知，也仅限于知道它威力巨大，且无法在可控情况下复现。
+[charslot(slot="r",name="avg_npc_2243_1#4$1",focus="r")]
+[name="艾丽塔"]我无法想象这项实验最终会走向什么样的结果。
+[charslot(slot="l",name="avg_npc_1975_1#1$1",focus="l")]
+[name="吉拉"]主任，我们能不能......能不能就只是继续实验？如果您要质疑元帅的决定——
+[charslot(slot="r",name="avg_npc_2243_1#1$1",focus="r")]
+[name="艾丽塔"]我没有立场也没有能力违抗命令......
+[charslot(slot="r",name="avg_npc_2243_1#8$1",focus="r")]
+[name="艾丽塔"]可我必须要弄清楚，这里究竟在发生什么事。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g7_newinstitutelaboratory",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_only_medium", pos = "-400,-200", block = false)]<p=2>1102年1月20日 02:11</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2243_1#9$1",focus="m")]
+[name="艾丽塔"]人事调度函......“数据测算组六人，风险评估组两人，装配组七人。”
+[name="艾丽塔"]调任......升职......总之都已经不在泽尔格勒了。
+[charslot(slot="m",name="avg_npc_2243_1#10$1",focus="m")]
+[name="艾丽塔"]我联系不上他们中的任何人......
+[Dialog]
+[charslot]
+[PlaySound(key="$doorknockquite", volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_1974_1#1$1",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[name="好奇的研究员"]这么晚了，您还在找什么？
+[charslot(slot="m",name="avg_npc_2243_1#9$1",focus="m")]
+[name="艾丽塔"]......我在找有没有前任负责人留下来的笔记之类的东西。白天实验遇到了瓶颈——
+[charslot(slot="m",name="avg_npc_1974_1#1$1",focus="m")]
+[name="好奇的研究员"]找不到的话，那就应该是没有了。整个六号实验室的人全都被换了，大家都是干这行的，肯定明白这是什么意思吧？
+[charslot(slot="m",name="avg_npc_2243_1#6$1",focus="m")]
+[name="艾丽塔"]......你在说什么？
+[charslot(slot="m",name="avg_npc_1974_1#1$1",focus="m")]
+[name="好奇的研究员"]肯定是因为他们在什么地方出了错啊。要是出了错的话，之前的负责人脱不了干系，这里也就不会还留着她写的笔记吧。
+[name="好奇的研究员"]咱们平时光是离开楼层都要清空口袋呢，就算她是走了，也不可能带上任何跟项目相关的东西。
+[name="好奇的研究员"]如果您找不到，那肯定就没有了。
+[charslot(slot="m",name="avg_npc_2243_1#4$1",focus="m")]
+[name="艾丽塔"]......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[charslot]
+[Delay(time=0.5)]
+[Background(image="73_g7_newinstitutelaboratory",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_only_medium", pos = "-400,-200", block = false)]<p=2>1102年1月20日 16:24</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_1975_1#1$1",focus="m")]
+[name="吉拉"]主任，您在吗？
+[charslot(slot="m",name="avg_npc_2243_1#9$1",focus="m")]
+[name="艾丽塔"]吉拉？找我有什么事？
+[charslot(slot="m",name="avg_npc_1975_1#1$1",focus="m")]
+[name="吉拉"]主任，我仔细想了想您之前说的话，还是决定把这个交给您。这里面装着一些未归档的笔记，是我从杂物间里翻出来的。
+[name="吉拉"]我没有打开看，但希望——希望它能帮上您、能帮上项目。
+[charslot(slot="m",name="avg_npc_2243_1#6$1",focus="m")]
+[name="艾丽塔"]谢谢你，吉拉......
+[charslot(slot="m",name="avg_npc_1975_1#1$1",focus="m")]
+[name="吉拉"]不用！
+[Dialog]
+[PlaySound(key="$rungeneral", volume=1,channel="1")]
+[charslot(slot="m",afrom=1, ato=0,duration=1.5)]
+[stopsound(channel="1",fadetime=1.5)]
+[delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_npc_2243_1#4$1",focus="m")]
+[name="艾丽塔"]日记......空白的演算纸......
+[charslot(slot="m",name="avg_npc_2243_1#6$1",focus="m")]
+[name="艾丽塔"]......这是，前任负责人的签名？这都是她的东西？
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]备忘录——
+[charslot(slot="m",name="avg_npc_2243_1#9$1",focus="m")]
+[name="艾丽塔"]......这是在说什么？
+[charslot]
+记录的最后一页，歪歪扭扭的字体写着笔者绝望的话。
+[Dialog]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0, block=true)]
+[Sticker(id="st1", multi = true, text="<i>以我仅剩的理智来看，也许在乌萨斯的有生之年，我们都没有可能解开这座机器的谜团。</i>", x=180,y=170, alignment="left", size=24, delay=0.04, width=900,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n<i>它的结构之复杂，所蕴含能源之庞大，使我只能将它视作神的造物。这注定我们无法僭越地使用它，无论是作为武器，或者是一座源石炉。</i>", x=180,y=170, alignment="left", size=24, delay=1, width=900,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n<i>它是彻彻底底的黑箱，根本没有能拿来研究它的可信理论。更令人绝望的是，它仿佛拥有自己的意识，在抗拒我们对它的探索。</i>", x=180,y=170, alignment="left", size=24, delay=1, width=900,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n<i>这一次爆炸是在荒野上，下一次或许就是在泽尔格勒，甚至是圣骏堡。</i>", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n<i>这座不知从何而来的仪器，没有人知道它到底是什么，但唯一能够肯定的是，它绝对不是大地赐予乌萨斯的礼物，而是诅咒。</i>", x=180,y=170, alignment="left", size=24, delay=0.04, width=900,duration=1.3,block = true)]
+[Sticker(id="st1",duration=1)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+笔记本中间，夹着许多张密密麻麻的曲线图。
+有些方差不大，线条看上去干净漂亮，另一些却高低波折，戛然而止，甚至难以从这些数据中找到任何共性。
+[charslot(slot="m",name="avg_npc_2243_1#8$1",focus="m")]
+[name="艾丽塔"]“实验结果不存在任何可复现性，零号项目研究状况综合判定为......”
+[charslot]
+[Dialog]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0, block=true)]
+[Subtitle(text="“完全失控。”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700,duration=2)]
+[delay(time=1)]
+[Subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[charslot(slot="m",name="avg_npc_2243_1#8$1",focus="m")]
+[name="艾丽塔"]......陛下在上。
+[name="艾丽塔"]武器根本没有研制完成，试爆成功只是侥幸......
+[name="艾丽塔"]（低声）那些“能源”......全都流向了一个无底洞。
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral", volume=1,channel="2")]
+[charslot(slot="m",name="avg_npc_1974_1#1$1",afrom=0, ato=1,duration=1.5)]
+[stopsound(channel="2",fadetime=1.5)]
+[delay(time=2)]
+[name="研究员"]艾丽塔主任，军方——小将军突然派人过来，四号实验室的人都被逮捕了！
+[charslot(slot="m",name="avg_npc_2243_1#6$1",focus="m")]
+[name="艾丽塔"]什么——他想要做什么？
+[charslot(slot="m",name="avg_npc_1974_1#1$1",focus="m")]
+[name="研究员"]不知道，但他们现在都还没被带走，您马上过去还来得及！
+[charslot(slot="m",name="avg_npc_2243_1#9$1",focus="m")]
+[name="艾丽塔"]我——我为什么要过去？
+[charslot(slot="m",name="avg_npc_1974_1#1$1",focus="m")]
+[name="研究员"]可是您丈夫不就在四号实验室工作吗？
+[charslot(slot="m",name="avg_npc_2243_1#5$1",focus="m")]
+[name="艾丽塔"]......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g6_newundergroundcorridor",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="m",name="avg_npc_2243_1#1$1",afrom=0, ato=1,duration=1.5)]
+[delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_npc_1978_1#1$1",focus="m")]
+[name="士兵"]停下。
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]我是六号实验室的负责人。
+[charslot(slot="m",name="avg_npc_1978_1#1$1",focus="m")]
+[name="士兵"]我不在乎。你不能过去。
+[charslot(slot="m",name="avg_npc_2243_1#7$1",focus="m")]
+[name="艾丽塔"]我是艾丽塔·瓦卢耶娃，六号实验室的负责人。我要求立即征用四号实验室及一应相关人员，来为六号实验室的关键项目提供支援。
+[name="艾丽塔"]立刻转告你们的上级。
+[charslot(slot="m",name="avg_npc_1978_1#1$1",focus="m")]
+[name="士兵"]不要让我再说第三次。
+[charslot(slot="m",name="avg_npc_2243_1#8$1",focus="m")]
+[name="艾丽塔"]我也不想再重复——
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="m",name="avg_npc_1977_1#1$1",afrom=0, ato=1,duration=1.5)]
+[delay(time=2)]
+[name="军官"]按她说的做吧。
+[charslot(slot="m",name="avg_npc_1978_1#1$1",focus="m")]
+[name="士兵"]参谋长？
+[charslot(slot="m",name="avg_npc_1977_1#1$1",focus="m")]
+[name="军官"]连一个从未上过战场、从未有过任何军功的孩子都能对他发号施令的参谋长？闻所未闻。
+[name="军官"]还是让我们认清现实吧，士兵。
+[name="军官"]尊敬的阿纳托利将军已经说过，六号实验室的所有要求，都应得到最优先的满足，无论是之前的那个，还是现在的这个。
+[charslot(slot="m",name="avg_npc_2243_1#8$1",focus="m")]
+[name="艾丽塔"]......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g7_newinstitutelaboratory",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2242_1#4$1",focus="m")]
+[name="憔悴的男子"]......
+[charslot(slot="m",name="avg_npc_2243_1#4$1",focus="m")]
+[name="艾丽塔"]......
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]你母亲送给你的手表呢？
+[charslot(slot="m",name="avg_npc_2242_1#9$1",focus="m")]
+[name="憔悴的男子"]弄丢了。
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]你还在继续吃药吗？
+[charslot(slot="m",name="avg_npc_2242_1#4$1",focus="m")]
+[name="憔悴的男子"]很久没吃了。被发现的话，会被直接赶出研究所的。
+[charslot(slot="m",name="avg_npc_2242_1#1$1",focus="m")]
+[name="憔悴的男子"]我不会离开你，丽塔。
+[charslot(slot="m",name="avg_npc_2243_1#8$1",focus="m")]
+[name="艾丽塔"]那就别再骗我，克利姆。
+[charslot(slot="m",name="avg_npc_2242_1#4$1",focus="m")]
+[name="克利姆"]......我没有......
+[charslot(slot="m",name="avg_npc_2243_1#8$1",focus="m")]
+[name="艾丽塔"]你轻率的举动差点害死你们实验室的所有人。
+[charslot(slot="m",name="avg_npc_2243_1#9$1",focus="m")]
+[name="艾丽塔"]而且我从来没有把我对外联络的渠道告诉过你。你是怎么找到的？
+[charslot(slot="m",name="avg_npc_2242_1#2$1",focus="m")]
+[name="克利姆"]丽塔，你用的还是大学的时候，我们一起搭建的那套系统呀。在这里，只有我会发现......
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]为什么不直接问我？
+[charslot(slot="m",name="avg_npc_2242_1#10$1",focus="m")]
+[multiline(name="克利姆")]你不想——
+[charslot(slot="m",name="avg_npc_2242_1#4$1",focus="m")]
+[multiline(name="克利姆")]你不想看见我，不是吗？
+[charslot(slot="m",name="avg_npc_2242_1#7$1",focus="m")]
+[name="克利姆"]啊，我并不是在责怪你——
+[charslot(slot="m",name="avg_npc_2243_1#5$1",focus="m")]
+[name="艾丽塔"]我知道。
+[charslot(slot="m",name="avg_npc_2242_1#7$1",focus="m")]
+[name="克利姆"]嗯？
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]我知道你想见我，可我却不愿见你。这里的人来来去去，我都不在乎，你必须知道，现在的你对我来说也是一样。
+[name="艾丽塔"]对我来说，现在重要的只有完成“库茨金娜”。
+[charslot(slot="m",name="avg_npc_2242_1#7$1",focus="m")]
+[name="克利姆"]丽塔——
+[charslot(slot="m",name="avg_npc_2243_1#4$1",focus="m")]
+[name="艾丽塔"]不要这样叫我。你不该为了我而选择加入一个你根本就适应不了的项目。你应该去找到拉达，陪在她身边。
+[charslot(slot="m",name="avg_npc_2243_1#8$1",focus="m")]
+[name="艾丽塔"]即使是个残缺的家庭，那也至少是个家。
+[charslot(slot="m",name="avg_npc_2242_1#5$1",focus="m")]
+[name="克利姆"]家。对，丽塔！我在最后一次通讯里听到——
+[charslot(slot="m",name="avg_npc_2243_1#8$1",focus="m")]
+[name="艾丽塔"]不，不要说了。我不想知道。
+[name="艾丽塔"]总之你不要再接触这里的工作了，也不要再用我的渠道尝试往外传递任何信息。
+[charslot(slot="m",name="avg_npc_2243_1#4$1",focus="m")]
+[name="艾丽塔"]......
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]去后勤处做些扫地和清理的活计，远离这一切吧。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g6_newundergroundcorridor",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>泽尔格勒保密区研究所，三层走廊</><p=2>1102年1月22日 07:20</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_1978_1#1$1",focus="m")]
+[name="沉默的士兵"]......
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]往这边走，整个地下三层都是五号实验室的场地。
+[name="艾丽塔"]其实客观来说，五号实验室和你们公司的专业更为贴合，研究方向是矿石病感染的阶段特征。
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]......
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]你们要进去看看吗？
+[charslot(slot="m",name="avg_1037_amiya3_1#1$1",focus="m")]
+[name="阿米娅"]不，艾丽塔女士......其实从刚才起，我就有一个问题——
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]请说。
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]一定要有这么多的集团军士兵陪同参观吗？
+[charslot(slot="m",name="avg_npc_2243_1#6$1",focus="m")]
+[name="艾丽塔"]啊，是我忘了解释。这也是我先前的疏忽之一。
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]按照规定，外来人士必须在军方代表的陪同下进行参观，所以我才按流程通知了他们。
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]这是为了避免部分保密项目遭到窥探和泄露，您一定能明白的吧？
+[charslot(slot="m",name="avg_1037_amiya3_1#3$1",focus="m")]
+[name="阿米娅"]......我明白了。
+[Dialog]
+[charslot]
+[Decision(options="他们不会妨碍我们的对话吗？", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]哦，不必担心。这层保障只会在某些出格时刻派上用场，平时，您尽可以当他们都不存在。
+[name="艾丽塔"]如果您实在忧心，那我们可以先停下来，培养一下对话不会被打断的信任。
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]这倒是不用——
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]比如，我其实一直很好奇，那份对“原型”结构的解析资料，似乎就是你们提供的吧？你们是怎么知道这么多的？
+[charslot(slot="m",name="avg_4179_monstr_1#5$1",focus="m")]
+[name="Mon3tr"]“原型”？
+[charslot(slot="m",name="avg_npc_1730_1#3$1",focus="m")]
+[name="Raidian"]（低声）也许是指“石棺”。嘘，让博士说吧。
+[Dialog]
+[charslot]
+[Decision(options="罗德岛上有人曾有幸参与过针对该原型的研究。", values="1")]
+[Predicate(references="1")]
+[Decision(options="那是一位出色的科研人员。;那是一位资历深厚的学者。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_npc_2243_1#9$1",focus="m")]
+[name="艾丽塔"]这位研究者对原型的了解有多深？
+[Dialog]
+[charslot(slot="m",name="avg_npc_2243_1#9$1",focus="n")]
+[Decision(options="可以说她是最了解石棺的人。;她对石棺几乎无所不知。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_npc_2243_1#4$1",focus="m")]
+[name="艾丽塔"]“石棺”......这个名字，我已经很久没听人说起过了。这里大家都把它称作“原型”，早已经习惯了。
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]所以，你们也都清楚她的研究成果吗？
+[Dialog]
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="n")]
+[Decision(options="我记得她留下的所有资料。", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_npc_2243_1#6$1",focus="m")]
+[name="艾丽塔"]......“留下”。她去哪儿了？
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="m")]
+[multiline(name="阿米娅")]她暂时......
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[multiline(name="阿米娅")]离开了罗德岛。所以这次才没有与我们同行。
+[charslot(slot="m",name="avg_npc_2243_1#4$1",focus="m")]
+[name="艾丽塔"]好吧，或许有你们也就够了。正好目前后续实验陷入了泥淖，那份资料里我也有许多弄不明白的地方，需要你们的帮助。
+[charslot(slot="m",name="avg_npc_2243_1#8$1",focus="m")]
+[name="艾丽塔"]比如现在最让人头疼的问题就是，原型长期处于过热状态，无法完全冷却，导致部分实验和操作难以进行，项目推进非常艰难。
+[name="艾丽塔"]要怎么才能解除这种过热状态，让原型的能量输出回到正常区间？谁也不知道。
+[charslot(slot="m",name="avg_4179_monstr_1#4$1",focus="m")]
+[name="Mon3tr"]（小声）听起来是石棺过载之后进入自我保护状态了。
+[charslot(slot="m",name="avg_npc_2243_1#6$1",focus="m")]
+[name="艾丽塔"]那位菲林小姐，你说什么？
+[charslot(slot="m",name="avg_4179_monstr_1#8$1",focus="m")]
+[name="Mon3tr"]阿米娅——
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="m")]
+[name="阿米娅"]告诉她吧，没关系。
+[charslot(slot="m",name="avg_4179_monstr_1#1$1",focus="m")]
+[name="Mon3tr"]我说，这情况听起来像是石棺因为过载，进入自我保护状态了。这种状况已经持续多久了？
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]自从我接手六号实验室之后，已经有五天了。在这之前说不定也一直是同样的状态。
+[charslot(slot="m",name="avg_4179_monstr_1#5$1",focus="m")]
+[name="Mon3tr"]不应该啊......
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]想具体了解一下吗？那我们直接回六号实验室吧。
+[name="艾丽塔"]反正无论如何我都不会放你们去其他项目了，你们一定得留下来。
+[name="艾丽塔"]走吧，我们边走边说......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g7_newinstitutelaboratory",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2243_1#4$1",focus="m")]
+[name="艾丽塔"]......就这样，我被调来了这里。
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]当初在我还是个学生的时候，其实就听说过“石棺”。这东西的存在几乎像个都市传说，而年轻人又总有那么多的好奇和勇气——
+[name="艾丽塔"]于是，我给市长写了一封信。在那封信上，我用稚拙的文法表达了在成年后加入“石棺”研究的希望。当然，没收到回信。
+[charslot(slot="m",name="avg_npc_2243_1#5$1",focus="m")]
+[name="艾丽塔"]可谁能想到二十多年后，我竟然真的在这里研究它呢？
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]您是切城人？
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]哈，是啊。我在切城出生，我的女儿在切城出生......无论如何，我希望我死去之后，也能埋葬在切城。
+[charslot(slot="m",name="avg_1037_amiya3_1#17$1",focus="m")]
+[name="阿米娅"]为什么突然说这样的话——
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]你多大了，孩子？
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[multiline(name="阿米娅")]我已经不算孩子了......
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="m")]
+[multiline(name="阿米娅")]我是作为，嗯，研究者被派遣到这里的。我不小了。
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]可在我们这一代人眼里，你们大概永远都只是孩子。只不过总有一天，你们会变成我们，会理解我们的想法也说不定。
+[charslot(slot="m",name="avg_npc_2243_1#5$1",focus="m")]
+[name="艾丽塔"]......
+[charslot(slot="m",name="avg_npc_2243_1#4$1",focus="m")]
+[name="艾丽塔"]因为工作，我已经离开那里太久，久得都快忘了我孩子的模样。
+[name="艾丽塔"]她有没有长高？生活得怎么样？交了新朋友吗？
+[charslot(slot="m",name="avg_npc_2243_1#5$1",focus="m")]
+[name="艾丽塔"]除了她还活着，躲过了五年前切城的那场灾难之外，我什么也不知道。我对我骄傲的小童子军......
+[charslot(slot="m",name="avg_npc_2243_1#10$1",focus="m")]
+[name="艾丽塔"]我对拉达，已经几乎一无所知。
+[charslot]
+隔绝联络的研究项目、切尔诺伯格、童子军、拉达。
+阿米娅一直记得弑君者在圣骏堡办事处留下的报告中提出的可能。
+也因此，她开始更仔细地打量起眼前人的金发，和那越发熟悉的面部轮廓。
+而后，她越发确定自己的推测，不得不提出那个已经来到唇边的问题。
+[charslot(slot="m",name="avg_1037_amiya3_1#17$1",focus="m")]
+[name="阿米娅"]请问，您能再说一遍您的姓氏吗？
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]瓦卢耶娃。
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]我认识一个拉达，也是这个姓氏。她和您一样来自切城，年纪和我差不多大——
+[charslot(slot="m",name="avg_npc_2243_1#6$1",focus="m")]
+[name="艾丽塔"]——！
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="m")]
+[name="阿米娅"]她甚至曾经也是一名童子军，后来成为了罗德岛的干员，目前已经回到乌萨斯继续学业。她现在，就在圣骏堡。
+[charslot(slot="m",name="avg_npc_2243_1#5$1",focus="m")]
+[name="艾丽塔"]......
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="m")]
+[name="阿米娅"]拉达一直在寻找她父母的去向。我想，也许您......有没有可能就是她的母亲？
+[charslot(slot="m",name="avg_npc_2243_1#4$1",focus="m")]
+[name="艾丽塔"]我——
+[charslot(slot="m",name="avg_npc_2243_1#10$1",focus="m")]
+[name="艾丽塔"]我不知道。
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]但如果真的是......那这将是我近年来听到过的，最好的消息了。
+[charslot(slot="m",name="avg_1037_amiya3_1#12$1",focus="m")]
+[name="阿米娅"]也许等这里的事情结束，您可以和我们一起去圣骏堡亲眼看看！
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]......你说的对。泽尔格勒离圣骏堡，也不算太远。
+[charslot(slot="m",name="avg_1037_amiya3_1#12$1",focus="m")]
+[name="阿米娅"]拉达见到你，一定会很开心的。
+[charslot(slot="m",name="avg_npc_2243_1#10$1",focus="m")]
+[name="艾丽塔"]是啊，她甚至都不会责备我们。
+[name="艾丽塔"]我们是最坏最恶劣的父母，却拥有最好最善良的孩子。
+[name="艾丽塔"]我真的......很想再见到她。
+[charslot(slot="m",name="avg_npc_1978_1#1$1",focus="m")]
+[name="沉默的士兵"]艾丽塔·瓦卢耶娃，停下。你正在将访客带往高保密区域。
+[charslot]
+在这冷硬的提醒出现之前，阿米娅几乎没注意到大家已经在谈话中，逐渐走到了实验室的深处。
+眼前，狭窄的走廊呈现弯曲的态势，似乎的确指向某些并不广为人知的区域。
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]......他们是议会派遣的协助者，不是单纯的访客。
+[charslot(slot="m",name="avg_npc_1978_1#1$1",focus="m")]
+[name="沉默的士兵"]按照流程，我必须先向上面各级进行确认。
+[name="沉默的士兵"]在得到完全的许可之前，你们不应该继续往里走了。
+[charslot(slot="m",name="avg_npc_2243_1#8$1",focus="m")]
+[name="艾丽塔"]作为六号实验室的负责人，我判断这是工作需要。在这里等待浪费掉的时间可以做多少事，你们恐怕没有概念。
+[charslot(slot="m",name="avg_npc_1978_1#1$1",focus="m")]
+[name="沉默的士兵"]我们只是听命行事。
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]......
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",focus="m")]
+[name="阿米娅"]女士，我们现在该怎么办——
+[charslot(slot="m",name="avg_npc_2243_1#4$1",focus="m")]
+[name="艾丽塔"]......
+[charslot(slot="m",name="avg_npc_2243_1#1$1",focus="m")]
+[name="艾丽塔"]请小心脚下。通往观察室的走廊没有中央供电连接，应急照明也时好时坏......
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]但我应该能找到，稍等一下。
+[charslot]
+[Dialog]
+[PlaySound(key="$d_avg_rummagething_loop",loop=true,channel="fanzhao",volume=1)]
+[delay(time=1)]
+[name="艾丽塔"]（低声）你们一会只有大概不到十秒的时间，绝对不能有任何犹豫。
+[name="艾丽塔"]（低声）所以，有什么问题，趁现在。
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]女士，石棺现在的状态，还有可能作为乌萨斯的能量来源吗......？
+[charslot]
+[name="艾丽塔"]现在可不是讨论飘渺的未来的时候......
+[name="艾丽塔"]算了......我可以相信你们，的确是有决心的。
+[name="艾丽塔"]......
+[stopsound(channel="fanzhao",fadetime=1)]
+[name="艾丽塔"]嗯，找到了。
+[Dialog]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[charslot(slot="m",name="avg_npc_2243_1#5$1",posfrom="0,-150", posto="0,0",afrom=0, ato=1,duration=1.5)]
+[delay(time=1.6)]
+[name="艾丽塔"]阿米娅小姐......
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]拉达，还有这件可能会影响无数人命运的事，就只能拜托你们了。
+[stopmusic(fadetime=2)]
+[Dialog]
+[charslot]
+[delay(time=1)]
+[PlaySound(key="$d_avg_turnoffpower", volume=1)]
+[Blocker(a=0.4, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_verificationpass", volume=1)]
+[Blocker(a=0.1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_closedoor_slow_loop",loop=true,channel="door1",volume=1)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]嗯？这是——
+[charslot(slot="m",name="avg_npc_2243_1#2$1",focus="m")]
+[name="艾丽塔"]这是“应急照明”呀。
+[name="艾丽塔"]快走吧，阿米娅小姐，带着你的同伴们进去。
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]......那您呢？！
+[charslot(slot="m",name="avg_npc_2243_1#7$1",focus="m")]
+[name="艾丽塔"]快走——
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral", volume=1,channel="2")]
+[stopsound(channel="2",fadetime=1.5)]
+[delay(time=2)]
+[PlaySound(key="$transmission", volume=1)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_1978_1#1$1",focus="m")]
+[name="沉默的士兵"]......瓦卢耶娃叛变。
+[name="沉默的士兵"]集合，准备进攻。
+[Dialog]
+[PlayMusic(intro="$dignified_intro", key="$dignified_loop", volume=0.6)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_armywalking",loop=true, channel="walk", volume=0.5)]
+[Background(image="73_g7_newinstitutelaboratory",screenadapt="coverall")]
+[cgitem(image="cgitem_73_i13_1", style="cg",pfrom = "-900,0",pto = "-460,0", pduration = 8, layer = 4)]
+[cgitem(image="cgitem_73_i13_2", style="cg",pfrom = "900,0",pto = "460,0", pduration = 8, layer = 4)]
+[Image(image="73_i13_1",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+只是短短几个瞬间，走廊里刺目的应急光源再次亮起，正在关闭的厚重安全门隔开了学者与罗德岛众人。
+[name="沉默的士兵"]瓦卢耶娃——
+[stopsound(channel="walk",fadetime=1)]
+[name="阿米娅"]艾丽塔女士！
+[delay(time=0.7)]
+[name="艾丽塔"]没时间了。答应我，阿米娅！你们一定要让石棺彻底停下来，你们一定要做到！
+[delay(time=0.7)]
+[name="艾丽塔"]因为石棺现在运行所燃烧的，是无数被带走的、被肢解的感染者的生命！
+[delay(time=0.7)]
+[name="阿米娅"]——？！
+[delay(time=0.7)]
+[Dialog]
+[Image(image="73_i13_2",screenadapt="coverall",fadetime=1)]
+[delay(time=1.5)]
+[name="艾丽塔"]太晚了，我发现得太晚了。这里所有......所有的研究，都只是在加固第一集团军那些丑恶的利益链条——
+[name="艾丽塔"]——而作为帮凶，我已经不能，也没有资格再去见拉达了。
+[name="阿米娅"]不，不是那样的！您明明——可您明明想要再见到她！
+[name="Mon3tr"]阿米娅，门已经在关上了，不要把手伸过去！
+[Dialog]
+[PlaySound(key="$d_avg_arrow_rain", volume=1)]
+[delay(time=1)]
+[name="阿米娅"]为什么——
+[name="阿米娅"]为什么？
+[stopsound(channel="door1",fadetime=0.5)]
+[delay(time=0.5)]
+[Dialog]
+[PlaySound(key="$d_avg_closedoor_slow", volume=1)]
+[Image(image="73_i13_3",screenadapt="coverall",fadetime=1)]
+[hidecgitem]
+[PlaySound(key="$d_avg_arrow_rain", volume=0.4)]
+[delay(time=2)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Subtitle(text="......也可能我只是厌倦了。厌倦了欺骗，也厌倦一切激烈的爱憎。而一个已经失去爱人能力的人，又要以哪种面目，再见所爱呢？", x=300, y=330, alignment="center", size=25, delay=0.04, width=700)]
+[Subtitle(text="幸好，拉达不像我。她一直是个坚强的、说到做到的好孩子。", x=300, y=330, alignment="center", size=25, delay=0.04, width=700)]
+[Subtitle(text="尽管她不会停止想念我，尽管她在未来可能仍然会遇到不可避免的悲伤和痛苦，但也一定还有更多的欢乐与幸福，在等待着她。", x=300, y=330, alignment="center", size=25, delay=0.04, width=700)]
+[Subtitle]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="模糊的声音"]......我没有什么需要你们替我转达的话了，所以，就只是......
+[name="模糊的声音"]——让我在最后也这样相信吧。
+[Dialog]
+厚重的大门外，一道血色的掌印留在了开关上，像是一道不可动摇的封印。
+[Dialog]
+[delay(time=1)]
+[stopmusic(fadetime=1.5)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[Image]
+[hidecgitem]
+[charslot]
+[Background(image="73_g8_reactor",screenadapt="coverall")]
+[Delay(time=3)]
+[PlayMusic(intro="$drift_intro", key="$drift_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[name="阿米娅"]艾丽塔女士......
+[charslot(slot="m",name="avg_4179_monstr_1#9$1",focus="m")]
+[name="Mon3tr"]阿米娅......
+[charslot(slot="m",name="avg_npc_1730_1#5$1",focus="m")]
+[name="Raidian"]站起身来吧，阿米娅。
+[charslot(slot="m",name="avg_npc_1730_1#7$1",focus="m")]
+[name="Raidian"]这道门很厚，甚至有电信号阻截功能，我判断外面的人暂时没办法用强硬手段打开。
+[charslot(slot="m",name="avg_npc_1730_1#7$1",focus="m")]
+[name="Raidian"]艾丽塔女士为我们争取了宝贵的时间。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",posfrom="0,-100", posto="0,0",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[name="阿米娅"]......
+[Dialog]
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="n")]
+[Decision(options="我们的时间很有限。;不能辜负她对我们的信任。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_1037_amiya3_1#3$1",focus="m")]
+[name="阿米娅"]那么......
+[name="阿米娅"]......
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]我们尽快开始吧。
+[charslot(slot="m",name="avg_4179_monstr_1#4$1",focus="m")]
+[name="Mon3tr"]我们眼前的就是石棺的核心了......我也没有亲眼见过它内部的样子。
+[charslot(slot="m",name="avg_4179_monstr_1#5$1",focus="m")]
+[name="Mon3tr"]可是它现在看上去......确实有点奇怪。
+[charslot]
+[Dialog]
+眼前的巨构令你感觉熟悉又陌生，你还记得它原本模糊的轮廓，而它此时的确不是记忆中的模样。
+那并非是遥远的记忆，在数年前，阿米娅将你从其中唤醒，你又与凯尔希共同封锁了这一来自前文明的遗产。
+一时间，诸多回忆，混杂着更久远的被深埋的记忆，共同涌入了你的脑海。
+[Dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=true)]
+[charslot]
+[Background(image="38_g8_storage",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[Image(image="avg_8_33",screenadapt="coverall",fadetime=0.4)]
+[Delay(time=1.5)]
+[Image(image="avg_0_1",screenadapt="coverall",fadetime=0.4)]
+[Delay(time=1.5)]
+[Image(image="49_i21_2",screenadapt="coverall",fadetime=0.4)]
+[Delay(time=1.5)]
+[Image(image="60_i09",screenadapt="coverall",fadetime=0.4)]
+[Delay(time=1.5)]
+[Dialog]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="bg_white",screenadapt="coverall")]
+[Subtitle(text="<color=#000000>{@nickname}，为什么要执着于留下这样一台低效率的机器？</color>", x=300, y=350, alignment="center", size=24, delay=0.04, width=700,duration=2)]
+[Subtitle(text="<color=#000000>明明我们拥有更便捷的方式来保留我们的意识......这也算是你对“生命”的执着？</color>", x=300, y=350, alignment="center", size=24, delay=0.04, width=700,duration=2)]
+[Subtitle(text="<color=#000000>哎呀，这不是又要回到我们始终争论不休的话题了吗？</color>", x=300, y=350, alignment="center", size=24, delay=0.04, width=700,duration=2)]
+[Subtitle(text="<color=#000000>不......不过这样一个小小的愿望，我当然不会反对了。那就在AMa-10的待处理事项中再加上一条好了。</color>", x=300, y=350, alignment="center", size=24, delay=0.04, width=700,duration=2)]
+[Subtitle(text="<color=#000000>嗯？只是思维上的碰触还不能够让你满意，像这样拉着我的手，会让你更安心一点吗？</color>", x=300, y=350, alignment="center", size=24, delay=0.04, width=700,duration=2)]
+[Subtitle(text="<color=#000000>{@nickname}......我知道，你一定和我一样，会希望此时此刻的回忆永远地留存下去。</color>", x=300, y=350, alignment="center", size=24, delay=0.04, width=700,duration=2)]
+[Subtitle(text="<color=#000000>{@nickname}而不是在那个终极的毁灭到来时，消弭无痕。</color>", x=300, y=350, alignment="center", size=24, delay=0.04, width=700,duration=2)]
+[Subtitle]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]
+[charslot]
+[Background(image="73_g8_reactor",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[CameraShake(duration=0.3, xstrength=40, ystrength=40, vibrato=60, randomness=80, fadeout=true, block=false)]
+[Decision(options="——！", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
+[name="阿米娅"]博士！
+[charslot(slot="m",name="avg_1037_amiya3_1#15$1",focus="m")]
+[name="阿米娅"]博士，你还好吗？你刚才怎么了？
+[Dialog]
+[charslot(slot="m",name="avg_1037_amiya3_1#15$1",focus="n")]
+[Decision(options="阿米娅，你看到了吗......？;我好像想起了什么......", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_1037_amiya3_1#3$1",focus="m")]
+[name="阿米娅"]我好像看到了一些支离破碎的画面......可我还是看不清楚。
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="m")]
+[name="阿米娅"]我只是感受到，刚才那一瞬间，你很痛苦......
+[Dialog]
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="n")]
+[Decision(options="我的确感觉到......有点头痛。", values="1")]
+[Predicate(references="1")]
+[Decision(options="Mon3tr，你能否检测出石棺现在的状态怎么样？", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_4179_monstr_1#4$1",focus="m")]
+[name="Mon3tr"]博士......根据我刚刚的检查结果来看......
+[charslot(slot="m",name="avg_4179_monstr_1#3$1",focus="m")]
+[name="Mon3tr"]石棺......
+[charslot(slot="m",name="avg_4179_monstr_1#9$1",focus="m")]
+[name="Mon3tr"]......已经被完全拆毁了。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g13_ursuswscommandroom",screenadapt="coverall")]
+[Delay(time=2)]
+[PlayMusic(intro="$batmeeting_intro", key="$batmeeting_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2240_1#1$1",focus="m")]
+[name="沉稳的士兵"]首领。
+[charslot(slot="m",name="avg_4226_veen_1#7$1",focus="m")]
+[name="斯乔帕"]......接通吧。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_transmissionget", volume=1)]
+[Delay(time=1)]
+[interlude(maskid = "group_interclude_vertical_common" ,size = "290,760",tsfrom="0,1", tsto ="1,1",tsduration = 0.5, switch = true, style = 0,offset = "-250,0", channel = 3)]
+[interlude(channel = 3, switch = true, type = 3, slot = "m", pfrom = "-250,0", pto="-250,0", name = "avg_npc_2236_1#1$1", duration = 0)]
+[charslot(slot = "r", name = "avg_4226_veen_1#7$1")]
+[interlude(channel = 3, switch = true)]
+[charslot(slot="r",name="avg_4226_veen_1#11$1",focus="n")]
+[name="叶甫根尼"]拉辛少校，我注意到你们行进的速度，与预期有较大差别。
+[name="叶甫根尼"]这样下去，你们无法按时抵达卫星城。
+[charslot(slot="r",name="avg_4226_veen_1#3$1",focus="r")]
+[interlude(channel = 3, switch = false)]
+[name="斯乔帕"]能源不够，尊敬的总司令。我们甚至已经在从舰载温控装置里尽量节省了，士兵们晚上都冻得没法睡着......
+[charslot(slot="r",name="avg_4226_veen_1#7$1",focus="r")]
+[name="斯乔帕"]虽然我猜这对您来说都不重要。
+[charslot(slot="r",name="avg_4226_veen_1#7$1",focus="n")]
+[interlude(channel = 3, switch = true)]
+[name="叶甫根尼"]的确如此。
+[interlude(channel = 3, switch = false)]
+[charslot(slot="r",name="avg_4226_veen_1#9$1",focus="r")]
+[name="斯乔帕"]......
+[charslot(slot="r",name="avg_4226_veen_1#9$1",focus="n")]
+[interlude(channel = 3, switch = true)]
+[name="叶甫根尼"]甚至于，我认为这样做还不够。
+[interlude(channel = 3, switch = false)]
+[charslot(slot="r",name="avg_4226_veen_1#11$1",focus="r")]
+[name="斯乔帕"]您不会想要一支疲惫得毫无战斗力的队伍去替您抢夺武器的。那完全是将脸送上去给第一集团军打。
+[charslot(slot="r",name="avg_4226_veen_1#11$1",focus="n")]
+[interlude(channel = 3, switch = true)]
+[name="叶甫根尼"]看来，你已经摆脱了对西尔卡少尉安危的担忧。
+[interlude(channel = 3, switch = false)]
+[charslot(slot="r",name="avg_4226_veen_1#1$1",focus="r")]
+[name="斯乔帕"]如果您不用她和其他人的性命相威胁，本可以得到我与整个“谢钦”完全的臣服。
+[charslot(slot="r",name="avg_4226_veen_1#1$1",focus="n")]
+[interlude(channel = 3, switch = true)]
+[name="叶甫根尼"]空头支票谁都能开，我只相信我看到的。我很难再次对已经背叛过自己的人付出信任，更不用说，你们本就不值得。
+[name="叶甫根尼"]你们这群人，根本不值得任何善意的对待。我早该吸取教训的。
+[interlude(channel = 3, switch = false)]
+[charslot(slot="r",name="avg_4226_veen_1#1$1",focus="r")]
+[name="斯乔帕"]只是会比计划晚上一两天，您却表现得像我们已经向第一集团军投诚一样。
+[charslot(slot="r",name="avg_4226_veen_1#1$1",focus="n")]
+[interlude(channel = 3, switch = true)]
+[name="叶甫根尼"]那就让我猜猜你接下来打算做什么吧。
+[name="叶甫根尼"]我猜，你会在下一次通讯时告诉我，为了节省更多的能源，你已经遣散了军舰上多数士兵，这样，就能全力完成我的任务——
+[interlude(channel = 3, switch = false)]
+[charslot(slot="r",name="avg_4226_veen_1#6$1",focus="r")]
+[name="斯乔帕"]不。西尔卡还在驻地，我不会——
+[charslot(slot="r",name="avg_4226_veen_1#6$1",focus="n")]
+[interlude(channel = 3, switch = true)]
+[name="叶甫根尼"]然后，你会在舰船完全离开驻地通讯范围之后，开始自行其是。
+[name="叶甫根尼"]无论是在掌握武器之后反过来与我谈判，还是再次背叛我倒向第一集团军，又或者是独自回来策划一次暗杀......
+[name="叶甫根尼"]只要“利沃诺夫号”离开我的掌控，你那些战友都得到了庇护，你再无后顾之忧，选择就很多了，不是吗？
+[interlude(channel = 3, switch = false)]
+[charslot(slot="r",name="avg_4226_veen_1#3$1",focus="r")]
+[name="斯乔帕"]......
+[charslot(slot="r",name="avg_4226_veen_1#3$1",focus="n")]
+[interlude(channel = 3, switch = true)]
+[name="叶甫根尼"]你以为我会对你拙劣的谋划，一无所知吗？
+[name="叶甫根尼"]愚蠢的、可怜的“自由民”啊......
+[name="叶甫根尼"]难道没人告诉过你，这让你们把自身和其他乌萨斯人相区别的名字，只来源于一个经年不曾兑现的许诺吗？
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[interlude(channel = 3, clear = true, tsto="0,1", tsduration=0)]
+[Background(image="73_g12_ursuswarshipdeck_a",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_only_medium", pos = "-400,-200", block = false)]<p=2>第四集团军，主力舰队旗舰甲板</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_1978_1#1$1",focus="m")]
+[name="士兵"]报告参谋长，重装兵团也已全部部署到位。
+[charslot(slot="m",name="avg_npc_1977_1#1$1",focus="m")]
+[name="军官"]前锋部队顺利驶离前线范围了吗？
+[charslot(slot="m",name="avg_npc_1978_1#1$1",focus="m")]
+[name="士兵"]根据汇报情况，是的。第二集团军前哨站没有任何警报迹象，非常安静......这是正常的吗，长官？
+[charslot(slot="m",name="avg_npc_1977_1#1$1",focus="m")]
+[name="军官"]这不是你应该考虑的事。
+[name="军官"]去将各舰就位情况汇报给叶甫根尼元帅，告诉他......
+[name="军官"]第四集团军已做好准备，正全体出动，目标——
+[name="军官"]第一集团军驻地卫星城，泽尔格勒。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g14_prolocutoroffice",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2155_1#1$2",focus="m")]
+[name="费奥多尔"]......就这样部署。对了，在公民大会召开之前，给我空出两个小时，请沃尔金娜公爵进宫一叙。
+[charslot(slot="m",name="avg_npc_1982_1#1$1",focus="m")]
+[name="恭敬的近侍"]是。
+[charslot(slot="m",name="avg_npc_2155_1#2$2",focus="m")]
+[name="费奥多尔"]还有，去告诉维特——
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral", volume=1,channel="1")]
+[charslot(slot="m",name="avg_npc_2169_1#1$1",afrom=0, ato=1,duration=1.5)]
+[stopsound(channel="1",fadetime=1.5)]
+[delay(time=2)]
+[name="惊慌的近侍"]——陛下！
+[charslot(slot="m",name="avg_npc_1982_1#1$1",focus="m")]
+[name="恭敬的近侍"]萨瓦尔阁下。我记得今日你并不当值，是谁允许你在琥珀宫中这样横冲直撞的？
+[name="恭敬的近侍"]陛下，请容我先带他告退。我保证，这样的事情不会再次发生。
+[charslot(slot="m",name="avg_npc_2155_1#8$2",focus="m")]
+[name="费奥多尔"]......把他带出去交给第三局，之后，我不想再在这里看见他。
+[charslot(slot="m",name="avg_npc_2169_1#1$1",focus="m")]
+[name="惊慌的近侍"]好吧、好吧！之后您无论怎么惩罚我都行，但现在您必须得听我说，陛下！
+[name="惊慌的近侍"]第四集团军已经开拔，目前正向着泽尔格勒进发！
+[charslot(slot="m",name="avg_npc_2155_1#5$2",focus="m")]
+[name="费奥多尔"]......你说什么？
+[charslot(slot="m",name="avg_npc_1982_1#1$1",focus="m")]
+[name="恭敬的近侍"]放肆！连议长都还没有得到切实消息，是谁指使你闯进来散布这样危言耸听的内容的？
+[charslot(slot="m",name="avg_npc_2169_1#1$1",focus="m")]
+[name="惊慌的近侍"]您不信，我原本也不相信，可这就是事实！
+[name="惊慌的近侍"]我也只是帮忙留意着消息，却没想到——却没想到竟然会发生这样的事！
+[name="惊慌的近侍"]他们现在甚至已经毫发无伤地越过了第二集团军的防线，我从来没想过事情会变成这样，从来都没有！
+[charslot(slot="m",name="avg_npc_1982_1#1$1",focus="m")]
+[name="恭敬的近侍"]越过防线，却没有交火？你是说——
+[charslot(slot="m",name="avg_npc_2155_1#6$2",focus="m")]
+[name="费奥多尔"]......第二集团军......
+[charslot(slot="m",name="avg_npc_2169_1#1$1",focus="m")]
+[name="惊慌的近侍"]第二集团军也已经叛变了，陛下！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g13_ursuswscommandroom",screenadapt="coverall")]
+[Delay(time=2)]
+[charslot(slot="r",name="avg_4226_veen_1#3$1",focus="r")]
+[interlude(maskid = "group_interclude_vertical_common" ,size = "290,760",tsfrom="0,1", tsto ="1,1",tsduration = 0.5, switch = true, style = 0,offset = "-250,0", channel = 3)]
+[interlude(channel = 3, switch = true, type = 3, slot = "m", pfrom = "-250,0", pto="-250,0", name = "avg_npc_2236_1#1$1", duration = 0)]
+[interlude(channel = 3, switch = false)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="r",name="avg_4226_veen_1#3$1",focus="r")]
+[name="斯乔帕"]......叶甫根尼。
+[charslot(slot="r",name="avg_4226_veen_1#11$1",focus="r")]
+[name="斯乔帕"]你先派出“谢钦”前往泽尔格勒，其实根本没打算让我们抢到那个什么天杀的武器，是不是？
+[name="斯乔帕"]我们只是被你拿去试探第二集团军合作诚意的炮灰，而你说的“别动队”，实际上就是你的主力部队。
+[charslot(slot="r",name="avg_4226_veen_1#6$1",focus="r")]
+[name="斯乔帕"]......赌上一切，只是为了一个自己甚至都摸不清底细的东西。你根本就是疯了，叶甫根尼。
+[charslot(slot="r",name="avg_4226_veen_1#6$1",focus="n")]
+[interlude(channel = 3, switch = true)]
+[name="叶甫根尼"]只是在胜负还未揭晓时，孤注一掷才会被认为是邪恶的疯狂。你理解不了，我原谅你。
+[name="叶甫根尼"]不过，我也并不是在和你谈判。既然你终于猜到了一切，那我也就不再拐弯抹角了。
+[name="叶甫根尼"]这是我最后一次容忍你的试探，在你们完成自己的使命之前，西尔卡少尉不会有事。
+[name="叶甫根尼"]现在，趁你们还能为主力部队转移注意，尽量让自己派上用场吧。那样，你们或许还有些许被回收的价值。
+[name="叶甫根尼"]如果你依然不紧不慢，那等我的旗舰追上“利沃诺夫号”，你们恐怕只会像一群被碾死的蚂蚁一样，被抛却在路边了。
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[interlude(channel = 3, clear = true, tsto="0,1", tsduration=0)]
+[gridbg]
+[stopmusic(fadetime=2)]
+[Image]
+[charslot]

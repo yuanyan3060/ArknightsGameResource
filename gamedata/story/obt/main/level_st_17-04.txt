@@ -1,0 +1,910 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="bg_wilderness_1",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[playMusic(key="$darkness_03_loop",volume=0.6)]
+[Delay(time=2)]
+[charslot(slot="l",name="avg_npc_2225_1#3$1",duration=1.5)]
+[charslot(slot="r",name="avg_npc_2247_1#1$1",duration=1.5)]
+[Delay(time=2)]
+[charslot(slot="l",name="avg_npc_2225_1#3$1",focus="l")]
+[name="米拉娜"]感谢你慷慨的邀请，塔露拉。
+[name="米拉娜"]我明白，整合运动的农庄要一下子接收那么多矿工，以及愿意追随我们的居民，不是一件轻松的事。
+[name="米拉娜"]我也能理解，对于你们来说，接纳一些非感染者，同样困难。
+[name="米拉娜"]不过请你相信，我们都是劳动的好手。只要有一丝安稳的地方就能自给自足，顺便照顾好有需要的同伴。
+[charslot(slot="r",name="avg_npc_2247_1#1$1",focus="r")]
+[name="塔露拉"]我毫不担心你们，在泽尔格勒我已经见识过这支队伍的韧性，图林——应该说，米拉娜。
+[name="塔露拉"]抱歉，我还需要一段时间才能彻底改口。
+[charslot(slot="l",name="avg_npc_2225_1#3$1",focus="l")]
+[name="米拉娜"]该道歉的是我，我不自量力的自称让大家误会了那么久。
+[charslot(slot="l",name="avg_npc_2225_1#1$1",focus="l")]
+[name="米拉娜"]那么，你让我来这里单独谈谈，是打算......
+[charslot(slot="r",name="avg_npc_2247_1#1$1",focus="r")]
+[name="塔露拉"]聊聊接下来要做的事......我们的将来。
+[name="塔露拉"]我曾经在野外与帝国军队分散周旋，并坚信这是对抗帝国最好的手段。
+[charslot(slot="r",name="avg_npc_2247_1#1$1",focus="r")]
+[name="塔露拉"]但当时的我们稚嫩而松散，有的人失去了本心，有的人走向了歧途......他们大多数已经死去。
+[name="塔露拉"]后来，我获得了一段相对平静的日子......那时我在思考，如果我们能变得更团结，能动员更多的人，能不断提醒自己真正的理想——
+[charslot(slot="r",name="avg_npc_2247_1#9$1",focus="r")]
+[name="塔露拉"]如果能让所有感染者......不，让所有乌萨斯同胞，都相信自己可以拥有更美好的未来，让大家有共同的理想，也许会有不一样的结果？
+[name="塔露拉"]我们已经找到要打倒的敌人，接下来，应该去找更多可以同行的同伴。
+[charslot(slot="l",name="avg_npc_2225_1#3$1",focus="l")]
+[name="米拉娜"]我很高兴听到这些话，可也不禁有点遗憾。
+[name="米拉娜"]很可惜，图林没能见过你。
+[charslot(slot="r",name="avg_npc_2247_1#7$1",focus="r")]
+[name="塔露拉"]我很惭愧，米拉娜......
+[name="塔露拉"]我听柳德米拉说了不少你的故事......我们走过相似的路，见证过同样的苦难，可你做得远比我要好。
+[name="塔露拉"]......你从不曾被绝望打败过。
+[charslot(slot="l",name="avg_npc_2225_1#4$1",focus="l")]
+[name="米拉娜"]抱歉，我不是很明白......
+[name="米拉娜"]整合运动的成员不都是坚强的战士，一路战斗到了现在？你为什么要说......
+[charslot(slot="r",name="avg_npc_2247_1#7$1",focus="r")]
+[name="塔露拉"]等将来有机会，我再把这个故事讲给你听吧。
+[charslot(slot="r",name="avg_npc_2247_1#1$1",focus="r")]
+[name="塔露拉"]总之，米拉娜，你愿意继续走向反抗这个国家一切不公的道路的话......请让我们并肩而行。
+[charslot(slot="l",name="avg_npc_2225_1#3$1",focus="l")]
+[name="米拉娜"]这是我的荣幸。
+[Dialog]
+[charslot(slot="l",name="avg_npc_2225_1#3$1",focus="none")]
+青年主动上前了一步，握住塔露拉的手。
+[charslot(slot="r",name="avg_npc_2247_1#1$1",focus="r")]
+[name="塔露拉"]不过，我只知道你的名字，而你的队伍——
+[charslot(slot="l",name="avg_npc_2225_1#3$1",focus="l")]
+[name="米拉娜"]没有名字......我们实在无暇思考这类问题。
+[name="米拉娜"]......不过如果你同意，我希望以整合运动的名号行动。
+[charslot(slot="r",name="avg_npc_2247_1#2$1",focus="r")]
+[name="塔露拉"]什么......？
+[charslot(slot="l",name="avg_npc_2225_1#3$1",focus="l")]
+[name="米拉娜"]希望你不要误会，我并不是永远喜欢借用别人的名号。
+[charslot(slot="r",name="avg_npc_2247_1#7$1",focus="r")]
+[name="塔露拉"]不，我只是担心......整合运动犯过许多错，或许这个名号会让一些人误会你的立场。
+[charslot(slot="l",name="avg_npc_2225_1#1$1",focus="l")]
+[name="米拉娜"]塔露拉，还记得吗？我和你说过，只是听到你们的故事，最沮丧的矿工都能重燃希望。
+[name="米拉娜"]就连在泽尔格勒，这种富庶的南方城市，也依然有人会借用这个名字行动，试图去发出喊声。
+[name="米拉娜"]如果说在乌萨斯有什么名号，能让受苦的人们振奋、让施虐的人们胆寒，那一定是整合运动。
+[charslot(slot="r",name="avg_npc_2247_1#7$1",focus="r")]
+[name="塔露拉"]也许......
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral",volume=1)]
+[charslot(slot="m",name="char_1002_nsabr_2",duration=1.5)]
+[Delay(time=2.5)]
+[name="整合运动成员"]塔露拉，终于找到你了——
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_npc_2225_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2247_1#1$1",focus="r")]
+[name="塔露拉"]请稍等，我们的事情还没有谈完。
+[Dialog]
+[charslot]
+[stopmusic(fadetime=1)]
+[charslot(slot="m",name="char_1002_nsabr_2",focus="m")]
+[name="整合运动成员"]实在抱歉，但我必须立刻告诉你，刚才从南边传来了急报——
+[name="整合运动成员"]我们的农庄出事了。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_npc_2225_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2247_1#2$1",focus="r")]
+[name="塔露拉"]——！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[PlaySound(key="$d_avg_seashipbattleamb", volume=1, loop=true, channel="a")]
+[Background(image="66_g13_reunionfarm", screenadapt="coverall", block=true)]
+[bgeffect(name="$eb_burn",layer=1,fade = true, fadetime = 5)]
+[Delay(time=1)]
+[SoundVolume(volume=0.5, channel="a",fadetime=2)]
+[playMusic(intro="$m_bat_mptxs_intro",key="$m_bat_mptxs_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+阴暗的天空下，正燃起熊熊火光。
+谷仓的屋顶先飞了起来，木头还没落地，另一发炮弹便犁过了牲口棚，掀翻了井边的木桶......
+遥远的山坡上，无数炮口的火焰明明灭灭，像有人一下一下地划着火柴。
+[charslot(slot="m",name="char_1002_nsabr_2",focus="m")]
+[name="整合运动成员"]敌人炮击！迅速避让——
+[Dialog]
+[charslot]
+[SoundVolume(volume=0, channel="a",fadetime=2)]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[stopsound(channel="a")]
+[PlaySound(key="$d_gen_explo_n")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[PlaySound(key="$d_avg_boomdust")]
+[CameraShake(duration=1, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=true)]
+喊声未落，又一轮炮弹砸进场地。木屑与泥土纷扬落下，驮兽的嘶鸣混着孩子的哭声，撕开了他们宁静已久的日子。
+[Dialog]
+[charslot(slot="m",name="char_1002_nsabr_2",focus="m")]
+[name="整合运动成员"]这、这到底......
+[Dialog]
+[charslot]
+[name="？？？"]不要慌乱，想想你该做的事！
+[charslot(slot="m",name="char_1002_nsabr_2",focus="m")]
+[name="整合运动成员"]你来了，九！
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral",volume=1)]
+[charslot(slot="m",name="avg_npc_1983_1#1$1",duration=2.5)]
+[Delay(time=3.5)]
+[name="九"]我已经带了增援过来，也安排了协助疏散的人手。
+[name="九"]你再去检查一遍还有没有行动不便的人，把他们都背出来，然后立马撤离。
+[charslot(slot="m",name="avg_npc_1983_1#8$1",focus="m")]
+[name="九"]无论来者是谁，都由我们来抵挡！
+[charslot(slot="m",name="char_1002_nsabr_2",focus="m")]
+[name="整合运动成员"]......是！
+[Dialog]
+[PlaySound(key="$rungeneral",volume=1)]
+[charslot(duration=2.5)]
+[Delay(time=3.5)]
+[charslot(slot="m",name="avg_npc_1983_1#1$1",focus="m")]
+[name="九"]十分抱歉，布乌卡先生，请您暂时远离我们，跟上撤离的队伍。
+[name="九"]这是对您最安全的决定。
+[charslot(slot="m",name="avg_npc_223",focus="m")]
+[name="卡西米尔商人"]......好吧，九女士，为了，啊——
+[Dialog]
+[charslot]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[PlaySound(key="$d_gen_explo_n")]
+[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]
+[PlaySound(key="$d_avg_boomdust")]
+[CameraShake(duration=1, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=true)]
+[charslot(slot="m",name="avg_npc_223",focus="m")]
+[name="卡西米尔商人"]我们、我们愿意继续交流、贸易，如果你们能够——
+[charslot(slot="m",name="avg_npc_1983_1#1$1",focus="m")]
+[name="九"]来人，带布乌卡先生离开！
+[charslot(slot="m",name="avg_npc_223",focus="m")]
+[name="卡西米尔商人"]好、好好，我这就走，这就走......
+[Dialog]
+[charslot]
+九和她身后的整合运动勇士们来到了农庄的中间，仰望沿着山坡冲下的、乌泱泱的步兵队伍。
+在她身前，涌出的花海如血海，向敌人奔去。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[Background(image="bg_campsite_d", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[playMusic(key="$darkness_03_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
+[name="通信兵"]报告长官！我们刚才陆续收到了两份电报。
+[charslot(slot="m",name="avg_npc_1977_1#1$1",focus="m")]
+[name="严肃的军官"]念。
+[charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
+[name="通信兵"]第一份，他们转交了卡西米尔人的抗议，交火地点位于乌卡边境，已经有——
+[charslot(slot="m",name="avg_npc_1977_1#1$1",focus="m")]
+[name="严肃的军官"]够了，不用理会卡西米尔人，念第二封。
+[charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
+[name="通讯兵"]是......第二封来自指挥中心，还在养伤的元帅对您的进展十分满意，希望能早日看到乌萨斯的旗帜飘扬在叛国贼的据点。
+[charslot(slot="m",name="avg_npc_1977_1#1$1",focus="m")]
+[name="严肃的军官"]呵，早该如此了......帮我回复他们，我们不但会插上乌萨斯的旗帜，还会插上第一集团军的旗帜。
+[name="严肃的军官"]我会让所有乌萨斯人看到，谁才是这片土地上，最光荣的军队。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[Delay(time=2.5)]
+[name="西尔卡"]最光荣的军队......吗？
+[Dialog]
+[PlaySound(key="$d_avg_daggerexsheath", volume=1)]
+[Delay(time=1.5)]
+[Background(image="73_g17_exurbforest_in", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[playMusic(intro="$distressed_intro",key="$distressed_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+我知道，父亲与母亲没有合葬。
+父亲埋在皇家陵园，母亲却葬在夏季行宫的苹果林中。果林的尽头，有一座小小的墓园。
+......难道我刻意不去想起这点，就能将这事实抹除了吗？
+[Dialog]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="l",name="avg_npc_1984_1#1$1",duration=1.5)]
+[charslot(slot="r",name="avg_npc_2155_1#1$2",duration=1.5)]
+[Delay(time=2.5)]
+[charslot(slot="r",name="avg_npc_2155_1#1$2",focus="r")]
+[name="费奥多尔"]这里......不是苹果林。
+[charslot(slot="l",name="avg_npc_1984_1#1$1",focus="l")]
+[name="维特"]陛下，这也是我一直想说的。
+[name="维特"]还是先皇在位时期，夏季行宫中原有的果林在经历一次大规模的锈病爆发后，就被铲除干净，换上其他树种了。
+[charslot(slot="l",name="avg_npc_1984_1#7$1",focus="l")]
+[name="维特"]那甚至远在您出生之前。
+[charslot(slot="r",name="avg_npc_2155_1#8$2",focus="r")]
+[name="费奥多尔"]......
+[name="费奥多尔"]那旁边的墓碑......
+[name="费奥多尔"]又是谁的？
+[charslot(slot="l",name="avg_npc_1984_1#1$1",focus="l")]
+[name="维特"]......在您决定过来之前，我做了调查，发现宫内没有记载。实地来看，墓碑的尺寸也小了很多，显然不是皇室墓葬的规格。
+[name="维特"]按照习俗，下面埋着的也可能是她生前喜爱的宠物——
+[charslot(slot="r",name="avg_npc_2155_1#1$2",focus="r")]
+[name="费奥多尔"]不。即使是宠物也会有名字，那个墓碑上，没有名字。
+[Dialog]
+[charslot]
+墓碑上有的，只是一句碑铭。
+“为我永远的爱。我将她的灵魂，安葬在此。”
+墓园中，小小的、简单的墓碑，靠在华丽的皇室墓碑旁边，就像孩子依偎着母亲。
+[charslot(slot="l",name="avg_npc_1984_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2155_1#1$2",focus="r")]
+[name="费奥多尔"]把它挖出来。
+[charslot(slot="l",name="avg_npc_1984_1#4$1",focus="l")]
+[name="维特"]......您说什么？
+[charslot(slot="r",name="avg_npc_2155_1#7$2",focus="r")]
+[name="费奥多尔"]我说，让人把这个墓碑下的棺材挖出来！
+[charslot(slot="l",name="avg_npc_1984_1#11$1",focus="l")]
+[name="维特"]陛下！
+[name="维特"]无论您想证实什么，那都只是赝品，只能是赝品。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Background(image="73_g14_prolocutoroffice", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="m",name="avg_npc_2155_1#11$2",focus="m")]
+[name="费奥多尔"]......你说什么？
+[charslot(slot="m",name="avg_npc_1982_1#1$1",focus="m")]
+[name="恭敬的近侍"]自称为“皇女”的不明身份者，突然出现在布列斯克，背后明显有女大公的支持。
+[name="恭敬的近侍"]这是根据她初次出现在城中安抚民众时的情况就能判断的。但唯有一件事，令我们的情报人员无论如何都想不明白。
+[name="恭敬的近侍"]那位“皇女”没有任何掩盖真实面容的迹象，可据在场所有目击者回忆，她的脸......
+[Dialog]
+[charslot]
+一向敢于直言的侍从，在这时突然停顿，抬头观察着皇帝的神情，似乎不确定自己是否应该说出接下来的话。
+[charslot(slot="m",name="avg_npc_2155_1#2$2",focus="m")]
+[name="费奥多尔"]直接说。
+[charslot(slot="m",name="avg_npc_1982_1#1$1",focus="m")]
+[name="恭敬的近侍"]......她的脸，和画像上的先皇后，几乎一模一样。
+[name="恭敬的近侍"]而在布列斯克，甚至在整个远北地区，几乎每户人家的客厅角落，被称为“红角”的地方，都会摆放一份先皇与先皇后的画像。
+[name="恭敬的近侍"]只需要看到她，听到她的声音，再有那些“天降”的馈赠......
+[name="恭敬的近侍"]这位“皇女”的虚假称号传到圣骏堡，也只是早晚的事。
+[charslot(slot="m",name="avg_npc_2155_1#8$2",focus="m")]
+[name="费奥多尔"]......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[Background(image="73_g17_exurbforest_in", screenadapt="coverall", block=true)]
+[charslot(slot="l",name="avg_npc_1984_1#11$1",focus="all")]
+[charslot(slot="r",name="avg_npc_2155_1#7$2",focus="all")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="l",name="avg_npc_1984_1#11$1",focus="l")]
+[name="维特"]乌萨斯没有皇女，先皇没有其他的孩子。您必须比任何人都坚信这点，否则，我们所做的一切都将前功尽弃——
+[charslot(slot="r",name="avg_npc_2155_1#3$2",focus="r")]
+[name="费奥多尔"]不要让我再说一次了，维特。
+[name="费奥多尔"]就只是，为我打开它吧......
+[charslot(slot="l",name="avg_npc_1984_1#11$1",focus="l")]
+[name="维特"]......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[PlaySound(key="$d_avg_shovel",volume=1)]
+[Delay(time=3)]
+[PlaySound(key="$d_avg_shovel",volume=1)]
+[Delay(time=3)]
+[Background(image="73_g17_exurbforest_in", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[PlaySound(key="$d_avg_sandstone",volume=1)]
+[Delay(time=2.5)]
+棺材并未埋得很深，挖出它，再将它抬上来，甚至都不用两个人来做。
+问题出现在打开之后。只装得下宠物，或是几岁孩子的遗体的棺材，其中空无一物。
+没有尸骨，也没有遗物。
+什么也没有。
+[Dialog]
+[charslot(slot="m",name="avg_npc_2155_1#8$2",duration=1.5)]
+[Delay(time=2)]
+[name="费奥多尔"]......
+[Dialog]
+[charslot]
+皇帝走上前，在棺材前单膝跪下，伸出手去，在上面摩挲着。
+终于，他找到了一个刻在棺材上的名字。
+[charslot(slot="m",name="avg_npc_2155_1#3$2",focus="m")]
+[name="费奥多尔"]......“纳斯塔霞·弗拉基米洛夫娜·拉齐萨拉”。
+[Dialog]
+[charslot(slot="m",name="avg_npc_2155_1#8$2",focus="m")]
+纳斯塔霞。
+姐姐。
+纳斯佳。
+[charslot(slot="m",name="avg_npc_2155_1#11$2",focus="m")]
+他抬头，望着并非苹果树的树木生长出的黄绿相间的枝叶。
+如果死者并非死者，如果鲜明的记忆也可以是错误的，如果已经遗忘的都能够被找回，那么......
+[charslot(slot="m",name="avg_npc_2155_1#4$2",focus="m")]
+还有什么是不可能的呢？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_coldforest", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="克利姆"]......就这样吧。
+[name="克利姆"]“两米长，一点五米宽和一点五米深。”
+[Dialog]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="m",name="avg_npc_2242_1#10$1",duration=1.5)]
+[Delay(time=2.5)]
+[charslot(slot="m",name="avg_npc_2242_1#10$1",focus="m")]
+[name="克利姆"]一个人一生需要的土地，果然只有这么大啊。
+[name="克利姆"]没有棺材，却可以放下一个人。
+[name="克利姆"]也只能放下一个人。
+[charslot(slot="m",name="avg_npc_2242_1#9$1",focus="m")]
+[name="克利姆"]......
+[charslot(slot="m",name="avg_npc_2242_1#10$1",focus="m")]
+[name="克利姆"]我多想......就这样留下来陪你。再挖出一块这样的坑洞，躺进去，闭上眼睛，永远陪着你。
+[name="克利姆"]可我不能。我现在知道拉达在哪儿了，我必须跟着那些人，去找她。
+[name="克利姆"]对了。我还没来得及告诉你......
+[charslot(slot="m",name="avg_npc_2242_1#4$1",focus="m")]
+[name="克利姆"]之前我在我们的通讯频段里，听到了拉达的声音。
+[name="克利姆"]拉达长大了。但她什么都记得......记得我们给她念过的所有故事，她一下就听出来了！
+[charslot(slot="m",name="avg_npc_2242_1#10$1",focus="m")]
+[name="克利姆"]多么聪明，多么......像你。
+[name="克利姆"]......
+[name="克利姆"]我知道，你想回到切尔诺伯格，但我现在只能带你到这里了。
+[name="克利姆"]等我见到拉达，再带她，来见你。
+[charslot(slot="m",name="avg_npc_2242_1#9$1",focus="m")]
+[name="克利姆"]......
+[name="克利姆"]到时候我们一起——
+[name="克利姆"]回家。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="31_g2_luo_reception", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[playMusic(key="$calm_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[PlaySound(key="$d_avg_paper1",volume=1)]
+[delay(time=1.5)]
+“......阿法纳西·伊戈里耶维奇·赫拉托夫上将，原第六集团军第一师团总司令，兼任参谋长。”
+“最初于四皇会战中崭露头角，在第十次乌卡战争中指挥少数精锐力量挫败了敌人反攻的企图，取得在同龄人中极为罕见的成就。”
+“后在边境冲突或局部摩擦中屡立战功，有相当丰富的正面战场、奇袭、镇压或调停行动的相关经验。”
+“在血峰战役失利之后，他痛定思痛，于‘大叛乱’时期带队脱离第六集团军向帝国议会投诚，为后期的反击战争取了关键时间......”
+[Dialog]
+[charslot(slot="m",name="avg_188_helage_1#3$1",duration=1.5)]
+[Delay(time=2.5)]
+[name="赫拉格"]......
+[Dialog]
+[charslot]
+[PlaySound(key="$dooropenquite",channel="D",volume=1)]
+[charslot(slot="m",name="avg_1051_headb2_1#1$1",duration=1.5)]
+[Delay(time=1.5)]
+[name="凛冬"]干什么呢，将军？
+[charslot(slot="m",name="avg_188_helage_1#2$1",focus="m")]
+[name="赫拉格"]没什么，只是看看书。
+[charslot(slot="m",name="avg_1051_headb2_1#1$1",focus="m")]
+[name="凛冬"]什么书？
+[charslot(slot="m",name="avg_188_helage_1#2$1",focus="m")]
+[name="赫拉格"]朋友归还的书。你感兴趣吗？
+[charslot(slot="m",name="avg_1051_headb2_1#10$1",focus="m")]
+[name="凛冬"]也没有很感兴趣......我还记得你有本谁都不许动的线装书呢，这本看起来比那本还破。
+[charslot(slot="m",name="avg_188_helage_1#2$1",focus="m")]
+[name="赫拉格"]它们记载了相似的内容。
+[name="赫拉格"]想看的话，可以把这本拿去。
+[Dialog]
+[charslot]
+话语间，赫拉格动作轻巧地抬起书本，向女孩展示封面的同时，悄无声息地把刚才阅读的页面从书上撕了下来，在掌中揉作一团。
+已经脆弱不堪的线装书，在他迅捷的动作中也只是颤抖了一下，并未直接散开。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Background(image="72_g1_sjbstreet_d", screenadapt="coverall", block=true)]
+[charslot(slot="l",name="avg_npc_1966_1#3$1",focus="all")]
+[charslot(slot="r",name="avg_188_helage_1#1$1",focus="all")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="l",name="avg_npc_1966_1#3$1",focus="l")]
+[name="阿洛伊泽"]......就当我是还没死心吧，将军。
+[name="阿洛伊泽"]事情暂时告一段落，但后面还有更大的浪潮，正在滚滚而来。
+[charslot(slot="l",name="avg_npc_1966_1#20$1",focus="l")]
+[name="阿洛伊泽"]我必须再问一次。即使这些日子里您看到了更多，却也仍然不愿回到我们当中吗？
+[charslot(slot="r",name="avg_188_helage_1#9$1",focus="r")]
+[name="赫拉格"]不。
+[charslot(slot="l",name="avg_npc_1966_1#20$1",focus="l")]
+[name="阿洛伊泽"]那如果——如果是在一个崭新的乌萨斯呢？
+[charslot(slot="r",name="avg_188_helage_1#3$1",focus="r")]
+[name="赫拉格"]这都不是症结所在，阿洛伊泽。
+[name="赫拉格"]我拒绝，只是因为知道无论如何，这里都已经不再是我的归处了。
+[charslot(slot="l",name="avg_npc_1966_1#9$1",focus="l")]
+[name="阿洛伊泽"]......
+[charslot(slot="l",name="avg_npc_1966_1#9$1",focus="l")]
+[name="阿洛伊泽"]那么，请您至少收下这本书吧。
+[name="阿洛伊泽"]这是我父亲......这是副议长书房中的收藏之一。他一直想要“物归原主”。
+[charslot(slot="l",name="avg_npc_1966_1#1$1",focus="l")]
+[name="阿洛伊泽"]当然，也为了感谢您对我的帮助。
+[name="阿洛伊泽"]感谢您那时挺身而出，赫拉格先生。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[Background(image="31_g2_luo_reception", screenadapt="coverall", block=true)]
+[charslot(slot="m",name="avg_1051_headb2_1#4$1",focus="m")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="凛冬"]《不息的行军》......？看上去是小说？还是军事史？
+[charslot(slot="m",name="avg_188_helage_1#2$1",focus="m")]
+[name="赫拉格"]你可以有自己的解读。
+[charslot(slot="m",name="avg_1051_headb2_1#5$1",focus="m")]
+[name="凛冬"]但它都快散架了。我真能借走吗？
+[charslot(slot="m",name="avg_188_helage_1#2$1",focus="m")]
+[name="赫拉格"]当然。
+[charslot(slot="m",name="avg_1051_headb2_1#2$1",focus="m")]
+[name="凛冬"]那行......谢啦。
+[charslot(slot="m",name="avg_1051_headb2_1#2$1",focus="m")]
+[name="凛冬"]对了，差点忘了正事。博士他们从泽尔格勒回来了，离开乌萨斯之前想在办事处简单聚一下，你来吗？
+[charslot(slot="m",name="avg_188_helage_1#2$1",focus="m")]
+[name="赫拉格"]什么时候？
+[charslot(slot="m",name="avg_1051_headb2_1#2$1",focus="m")]
+[name="凛冬"]今天晚上。
+[charslot(slot="m",name="avg_188_helage_1#2$1",focus="m")]
+[name="赫拉格"]好，我会到的。
+[Dialog]
+[charslot(slot="m",name="avg_1051_headb2_1#2$1",focus="m")]
+[Delay(time=1)]
+[PlaySound(key="$dooropenquite",channel="D",volume=1)]
+[charslot(duration=1.5)]
+[Delay(time=3.5)]
+[name="外面的声音"]......你找谁？
+[name="外面的声音"]直接进去问......
+[Dialog]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2248_1#1$1",duration=1.5)]
+[Delay(time=1.5)]
+[name="温和的青年"]请问......
+[name="温和的青年"]那个在公民大会上出现的矿工，别乔克，现在是在这里吗？
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="赫拉格"]我见过你。你是？
+[charslot(slot="m",name="avg_npc_2248_1#5$1",focus="m")]
+[name="温和的青年"]啊，我是......
+[charslot(slot="m",name="avg_npc_2248_1#3$1",focus="m")]
+[name="温和的青年"]（低声）其实我也是幸存的远北矿工。
+[charslot(slot="m",name="avg_188_helage_1#3$1",focus="m")]
+[name="赫拉格"]......
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g13_nobleroom", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[playMusic(key="$m_avg_ursusdaily_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]......又下雪了。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="none")]
+[name="门后的声音"]不知道圣骏堡又会有多少人冻毙于这场雪。
+[charslot(slot="m",name="avg_npc_2162_1#3$1",focus="m")]
+[name="瓦西里"]可无论如何，他们也不会因为你莽撞的行为而获救。
+[charslot(slot="m",name="avg_npc_2162_1#3$1",focus="none")]
+[name="门后的声音"]......
+[charslot(slot="m",name="avg_npc_2162_1#4$1",focus="m")]
+[name="瓦西里"]我应该想到的，你向来是个骄傲的孩子，我也永远将你视作骄傲，阿洛达。
+[name="瓦西里"]你是那样地优秀，以至于我都忘了教给你一个最基本的道理。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]这片大地本身拥有秩序，任何人都不能凭自己的意志去改变它。
+[name="瓦西里"]先皇失败了，我们如今的陛下，还有维特......等待他们的也只有失败。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="none")]
+[name="门后的声音"]我是否要理解为，您乐于见到他们的失败？
+[name="门后的声音"]而只有他们失败，您才能保护属于您的那一份利益。您拥护的秩序，究竟在保护谁的利益？
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]你一定是忘了，就是你嗤之以鼻的“得利者”，在保护你从远北带回的那些感染者，在保护你。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="none")]
+[name="门后的声音"]您觉得这是一种施舍，而不是他们与生俱来的权利？
+[charslot(slot="m",name="avg_npc_2162_1#4$1",focus="m")]
+[name="瓦西里"]这是一句除了正确一无所有的口号。
+[charslot(slot="m",name="avg_npc_2162_1#4$1",focus="none")]
+[name="门后的声音"]不......我一点也不正确，正确的是您才对——一个止步不前的人是永远不会犯错的。
+[name="门后的声音"]维特议长他们会犯错，因为他们还在主动地做些什么，试图改变什么，试图阻止什么。
+[name="门后的声音"]不必将妥协绥靖说得那样睿智，停步不前从来不是一个困难的选择。
+[charslot(slot="m",name="avg_npc_2162_1#3$1",focus="m")]
+[name="瓦西里"]你依然在试图用天真的论调去对抗现实......这是你习惯性会犯的错误，也是我的错误。
+[name="瓦西里"]明天我会送你出城。在这之前，你就先在这里冷静一下吧。
+[name="瓦西里"]也反省一下自己莽撞的行动，究竟给家族、给你侍奉的君主，带去了怎样灾难性的后果。
+[charslot(slot="m",name="avg_npc_2162_1#3$1",focus="none")]
+[name="门后的声音"]父亲。
+[name="门后的声音"]难道你还认为我是从前那个只要一提到“禁闭”“反省”，就会吓得浑身发抖的孩子吗？
+[charslot(slot="m",name="avg_npc_2162_1#5$1",focus="m")]
+[name="瓦西里"]......
+[charslot(slot="m",name="avg_npc_2162_1#5$1",focus="none")]
+[name="门后的声音"]你自己也知道，我早就不是了。
+[name="门后的声音"]我选择回来，再见你一面，是因为我愿意。而现在......
+[name="门后的声音"]既然你执迷不悟，那有些事，就只能我去做了。
+[Dialog]
+[PlaySound(key="$d_avg_phntsmglsbrek",channel="D",volume=1)]
+[CameraShake(duration=1, xstrength=15, ystrength=28, vibrato=30, randomness=90, fadeout=true, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2162_1#6$1",focus="m")]
+[name="瓦西里"]——阿洛达！
+[Dialog]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$dooropenquite",channel="D",volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[image]
+[charslot]
+[Image(image="cg_moon", screenadapt="coverall", fadetime=0)]
+[Delay(time=3.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+晚风将撕破的窗帘吹起，窗栏上，留有脚印，和崭新的血迹。
+从破损的窗户看出去，双月高悬于天空，恒久如常。
+可下一刻，一些改变，令人惊讶的改变，悄然发生了。
+[Dialog]
+[playMusic(key="$desolate_loop", volume=0.7)]
+[Blocker(a=0.1, r=0.953, g=0.82, b=0.639, fadetime=3.5, block=true)]
+被寒夜遮蔽的街道上，路灯逐渐亮了起来。
+[Dialog]
+[Image(image="73_i20", screenadapt="coverall", xScale=1.3, yScale=1.3, x=100, y=50, fadetime=1.5, fadetime=4)]
+[ImageTween(xFrom=100, xTo=0,yFrom=50, yTo=0, xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1, yScaleTo=1, duration=60, block=false)]
+[Delay(time=4.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3.5, block=true)]
+先是路灯，紧接着，是居民室内的灯光。
+暖色的灯一盏盏亮起，逐渐铺满多数城区。像是被画满了亮色的涂色板，也像是被重新唤起的心跳。
+[name="激动的孩子"]妈妈，有光了！
+[name="激动的孩子"]树上那些新年灯饰也亮起来了——
+[name="欣慰的市民"]傻孩子......不仅是这些灯光，听说连电暖也恢复了。
+[name="欣慰的市民"]别跑来跑去了，面包也买到了，我们快回去看看吧。
+[name="激动的孩子"]这下就算下雪也不会冷了！
+[name="欣慰的市民"]就算是化雪的时候，也不会再冷了。
+熙攘的欢笑声，伴随着灯光的亮起，环绕在寒夜之中。
+只有那伟岸的琥珀宫，在黑暗中长久静默着。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[image]
+[charslot]
+[Background(image="bg_coldforest", screenadapt="coverall", block=true)]
+[Delay(time=3.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_npc_2242_1#1$1",duration=1.5)]
+[Delay(time=2.5)]
+[name="克利姆"]......艾丽塔。
+[name="克利姆"]我完成了，你要做的事吗？
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Background(image="73_g9_reactor_s", screenadapt="coverall", block=true)]
+[Delay(time=3)]
+[playMusic(intro="$newhope01_intro",key="$newhope01_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot(slot="m",name="avg_1052_kalts2_1#1$2",duration=1.5)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_1052_kalts2_1#1$2",focus="none")]
+[Decision(options="你确定要这么做吗？", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_1052_kalts2_1#3$2",focus="m")]
+[name="凯尔希"]为什么不呢？
+[name="凯尔希"]你们虽然暂时解决了石棺失控的危机，但想要将它作为一个稳定的能量源，还需要一些助力。
+[name="凯尔希"]AMa-10的核心代码，可以作为管理程序永远存放在这里。
+[charslot(slot="m",name="avg_1052_kalts2_1#7$2",focus="m")]
+[name="凯尔希"]从另一种角度讲，石棺很适合将“AMa-10”这个名字埋葬。
+[Dialog]
+[charslot(slot="m",name="avg_1052_kalts2_1#7$2",focus="none")]
+[Decision(options="像是某种巧合。", values="1")]
+[Predicate(references="1")]
+[Decision(options="新的故事总是从这里开始的。", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_1052_kalts2_1#4$2",focus="m")]
+[name="凯尔希"]博士，在过往的岁月里，我与这座石棺的联系颇多，我曾多次向这片大地上的文明掩盖这座石棺的存在。
+[name="凯尔希"]直到上一次我选择信任他人......你知道的，那一次的结果并不理想。
+[name="凯尔希"]我还记得，最后一次，与你一同封锁这座石棺时我说过。
+[charslot(slot="m",name="avg_1052_kalts2_1#8$2",focus="m")]
+[name="凯尔希"]要是他们真的能重新启动它......我愿意相信，它必定只会由善良之人的手重启。
+[name="凯尔希"]那些真正渴望改变这片大地的人，未来会在他们手中。
+[charslot(slot="m",name="avg_1052_kalts2_1#1$2",focus="m")]
+[name="凯尔希"]现在，我们的确再次面临选择——与这片大地上所有文明共同合作，或是单打独斗。
+[name="凯尔希"]我不否认如今的选择像是绝望的押注，我无法从理性上判断，但我们的确已经没有时间。
+[name="凯尔希"]不是一味地保守......而是选择站在“希望”的这一边。
+[Dialog]
+[charslot(slot="m",name="avg_1052_kalts2_1#1$2",focus="none")]
+[Decision(options="听上去你像是放下了一些担子。", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_1052_kalts2_1#3$2",focus="m")]
+[name="凯尔希"]......
+[name="凯尔希"]从我听到的消息来看，你应该也做出了一样的选择。
+[Dialog]
+[charslot(slot="m",name="avg_1052_kalts2_1#3$2",focus="none")]
+[Decision(options="可是这也意味着......;你不会再拥有下一次“生命”。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_1052_kalts2_1#7$2",focus="m")]
+[name="凯尔希"]那不是很好吗。
+[name="凯尔希"]仅有一次的，能够真正作为“人”度过的一生，这何尝不是命运的馈赠。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[Image(image="73_i24_1", screenadapt="coverall", xScale=1.1, yScale=1.1,fadetime=3)]
+[ImageTween(xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, duration=80, block=false)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+远处的炮声停止了，硝烟渐渐散去，夕阳为脚下破碎的城市又披上了一层红。
+你们听到了多方军队暂且罢兵的消息，这意味着至少在当下，居住在这里的人得到了撤离的时间。
+于是，你们踏上归途。
+[name="可露希尔"]也就是说，从今往后石棺真的能稳定输出能源了？乌萨斯的能源危机可以有些缓解了吧。
+[name="可露希尔"]这下我们对圣骏堡也算有个交代了，这一行的任务，应该算是完美完成了吧？
+[name="Mon3tr"]哪怕是得到了石棺的能源，恐怕也只够乌萨斯中央几座移动城市勉强渡过这个冬天。
+[name="Mon3tr"]长期来看，乌萨斯的处境还是很艰难。
+[name="阿米娅"]我们只能期待，封存在这里的石棺，不会再次引发不必要的争端......
+[name="阿米娅"]不过，凯尔希医生回来了，我们所有人都在。这一次任务很成功。
+[name="Mon3tr"]说得对！我们带回了凯尔希！这是罗德岛完完全全的胜利！
+[Dialog]
+[Decision(options="我们做了自己能做的事。;从结果来看，也不错。", values="1;2")]
+[Predicate(references="1;2")]
+你看向了走在后面的凯尔希。
+[Dialog]
+[Decision(options="凯尔希？", values="1")]
+[Predicate(references="1")]
+[Decision(options="你还好吗？", values="1")]
+[Predicate(references="1")]
+[name="凯尔希"]我好像，想起了很久远的事，许多事。
+[name="凯尔希"]关于这座石棺，还有许多与它有关的人和事......直到现在，那些事情才能算有了一个结果。
+[name="凯尔希"]有些记忆太遥远，它们好像正在从我的脑海中淡去，这是我之前从未有过的感觉。
+[name="凯尔希"]突然觉得，这样呼吸的感觉......很陌生。
+[name="Mon3tr"]凯尔希！如果你还是感觉不太好，我可以抱着你，就和原来一样——
+[Dialog]
+[PlaySound(key="$d_avg_walk_Kaltsit_loop", volume=1,channel="1")]
+[Image(image="73_i24_2", screenadapt="coverall", xScale=1, yScale=1,fadetime=3)]
+[ImageTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=80, block=false)]
+[Delay(time=3.5)]
+[stopsound(channel="1",fadetime=2)]
+[name="凯尔希"]不......谢谢，我没事。
+[name="凯尔希"]就像现在这样......我应该会习惯的。
+[name="凯尔希"]......像这样活着。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Image]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[Background(image="bg_black", screenadapt="coverall", block=true)]
+[Delay(time=3)]
+[PlaySound(key="$d_avg_walk_Kaltsit_loop", volume=1,loop=true,channel="1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[Image(image="73_i25_3", screenadapt="coverall", xScale=1.2, yScale=1.2, x=-100, y=0,  fadetime=3)]
+[ImageTween(xFrom=-100, xTo=0, yTo=0, xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, duration=60, block=false)]
+[stopsound(channel="1",fadetime=2)]
+[Delay(time=4.5)]
+[name="凯尔希"]博士，我需要你尽快告知你要求我来这里的目的。
+[Dialog]
+[Decision(options="耐心一点。;马上就到了。", values="1;2")]
+[Predicate(references="1;2")]
+[Decision(options="可露希尔为这次重逢准备了很久。;希望能给你一个惊喜。", values="1;2")]
+[Predicate(references="1;2")]
+[PlaySound(key="$d_avg_metaldoorclose", volume=1)]
+[Image(image="73_i25_1", screenadapt="coverall", fadetime=3.5)]
+[Delay(time=6.5)]
+[playMusic(key="$resurrection_loop", volume=0.6)]
+[image(image="49_i15",screenadapt="coverall", fadetime=3)]
+[Delay(time=7.5)]
+[Delay(time=2)]
+[CameraEffect(effect="Grayscale", fadetime=4, keep=true, initamount=0, amount=1, block=false)]
+[Delay(time=1)]
+[bgeffect(name="$eb_blackmask",layer=2)]
+[Image(image="49_i16_1", screenadapt="coverall", fadetime=3)]
+[Delay(time=4.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=4, block=true)]
+[Delay(time=1.3)]
+[bgeffect]
+[PlaySound(key="$d_gen_dooropen",volume=1)]
+[Image(image="73_i25_2", screenadapt="coverall", fadetime=3)]
+[CameraEffect(effect="Grayscale", fadetime=0,amount=0,block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3.5, block=true)]
+[Delay(time=2.5)]
+[Decision(options="欢迎回到罗德岛。", values="1")]
+[Predicate(references="1")]
+[Image(image="73_i25_4", screenadapt="coverall", fadetime=3)]
+[Delay(time=3.5)]
+[name="凯尔希"]......
+[Dialog]
+[Decision(options="被震惊到说不出话了？", values="1")]
+[Predicate(references="1")]
+[name="凯尔希"]的确比我想象的要壮观不少。
+[name="凯尔希"]......你们做到了。
+[Dialog]
+[Decision(options="就像你说的，罗德岛不会因为某人的离开而停下。", values="1")]
+[Predicate(references="1")]
+[Decision(options="但我们也由衷地希望，每个人都不会离开。", values="1")]
+[Predicate(references="1")]
+[Image(image="73_i25_2", screenadapt="coverall", fadetime=3)]
+[Delay(time=3.5)]
+[name="凯尔希"]这里的装置......区域性源石静滞装置？
+[name="凯尔希"]这是罗德岛最新的研究？
+[Dialog]
+[Decision(options="花了不少功夫。;为了防备上一次的意外再度发生。", values="1;2")]
+[Predicate(references="1;2")]
+[name="凯尔希"]令人赞叹的结果......但是恐怕这还不足以与她完全对抗。
+[Dialog]
+[Decision(options="我们依然不知道她真正的目的......", values="1")]
+[Predicate(references="1")]
+[Image(image="73_i25_4", screenadapt="coverall", xScale=1.2, yScale=1.2, x=-100, y=0,fadetime=3)]
+[ImageTween(xFrom=-100, xTo=0, yTo=0, xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, duration=60, block=false)]
+[Delay(time=3.5)]
+[name="凯尔希"]博士，我想到另一些事。
+[name="凯尔希"]你们在泽尔格勒的石棺控制程序中，找到了AMa-10的核心代码。
+[name="凯尔希"]虽然AMa-10在设计之初，的确拥有管理前文明诸多设备的权限，但是最终未能完全执行这一功能。
+[name="凯尔希"]也就是说......石棺中的代码，是她在苏醒后植入其中的。
+[Dialog]
+[Decision(options="她为什么要这么做？", values="1")]
+[Predicate(references="1")]
+[name="凯尔希"]一个合理的猜想，是她的下一步计划，指向了更多前文明留下的遗产。
+[name="凯尔希"]虽然不知道她具体的谋划，但我们有理由相信，如果她想要对如今的泰拉文明造成毁灭性的打击，她能做到的事远不止于此。
+[name="凯尔希"]你们所经历的事情更加证实了，她对如今的泰拉，更像是持旁观的态度。
+[Dialog]
+[Decision(options="其实，在远北矿场，我听到了她的声音。", values="1")]
+[Predicate(references="1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[image(image="66_i06",screenadapt="coverall", fadetime=0)]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[Image(image="73_i25_4", screenadapt="coverall", fadetime=0)]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="凯尔希"]这是文明自身，持续了万年的辩题。
+[name="凯尔希"]现在，要做的事只有一件......
+[name="凯尔希"]向她证明——如今的泰拉文明，有存续下去的可能，以及价值。
+[Dialog]
+[Decision(options="我们选择接受这个邀请。", values="1")]
+[Predicate(references="1")]
+[Delay(time=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Background]
+[Image(image="avg_ep17", screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[stopmusic(fadetime=3.5)]
+[Delay(time=3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="bg_snowfield_1", screenadapt="coverall", block=true)]
+[Delay(time=3.5)]
+[playMusic(key="$gardener_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[PlaySound(key="$d_avg_snowbootwalk")]
+[charslot(slot="m",name="avg_npc_2260_1#1$1",duration=1.5)]
+[Delay(time=2.5)]
+[name="巴尔斯"]希尔达......现在我们该去哪？
+[name="巴尔斯"]许多同伴都很害怕，在泽尔格勒经历了那么多可怕的事，大家都不是很好，我们是不是应该离开乌萨斯......
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2246_1#2$1",duration=1.5)]
+[Delay(time=1.5)]
+[name="希尔达"]我们......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Image(image="73_i06",screenadapt="coverall", xScale=1.0, yScale=1.0,fadetime=0)]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[name="阿米娅"]我不相信有什么苦难是理所应当的，那些被施加的痛苦，是我们应当竭尽全力去对抗的东西。
+[name="阿米娅"]去帮助受苦的人，去战胜施害的人......这才是我们应该去做的事。
+......
+[name="阿米娅"]有人将她的理想告诉了我，她向我描绘了这片大地的另一番样貌......人们可以跨过隔阂，这片大地可以成为所有人共同的家。
+[name="阿米娅"]苦难无法被终结，可是希望也同样会延续下去。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[Image]
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2246_1#2$1",focus="m")]
+[name="希尔达"]......
+[name="希尔达"]不......我们暂时不会离开乌萨斯。
+[name="希尔达"]这里还有许多在忍受苦难的同胞等待解救，我们不能放弃他们。
+[Dialog]
+[charslot]
+[PlaySound(key="$bodyfalldown1",volume=1)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2260_1#1$1",focus="m")]
+[name="巴尔斯"]彼得！你怎么——
+[name="巴尔斯"]这些斑点！你，你也感染那种病了！
+[Dialog]
+[charslot]
+[name="绝望的感染者"]是啊......咳咳......结果还是没躲过。
+[name="绝望的感染者"]算了......不要再管我了......反正都是死——
+[charslot(slot="m",name="avg_npc_2246_1#1$1",focus="m")]
+[name="希尔达"]放心吧......我们不会抛下任何一个同伴。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[PlaySound(key="$d_avg_magicshimmer",channel="D",volume=1)]
+[PlaySound(key="$d_avg_branchesgrow",volume=1)]
+[Blocker(a=0.2, r=1, g=1, b=0, fadetime=0.05, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+希尔达伸出手，一枚纯净的源石晶簇就这样凭空出现在她的手中。
+[Dialog]
+[PlaySound(key="$d_avg_stonegrowing",volume=1)]
+[Delay(time=2.5)]
+接着，她将源石晶簇插入了感染者的心脏。
+[Dialog]
+[CameraShake(duration=1, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=true)]
+[name="绝望的感染者"]呃——！
+[name="巴尔斯"]希尔达！你这是做什么——
+[Dialog]
+[PlaySound(key="$d_avg_spurtblood",volume=1)]
+[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=true)]
+鲜血从创口处喷涌而出，但那也仅仅是一瞬间的事。
+很快，源石覆盖了他的伤口，从伤口处向全身蔓延，他的身体从源石中长出了新的血肉。
+他的身躯焕然一新。
+[name="不再绝望的感染者"]我......我好像，不再痛了。
+[name="不再绝望的感染者"]这是......新生？
+这是神迹！希尔达再一次向我们施展了神迹！
+人们欢呼着，在少女面前匍匐跪下。
+少女也跪了下来。她对着渺远的天空，双手握紧，做出祈祷的动作。
+[charslot(slot="m",name="avg_npc_2246_1#10$1",focus="m")]
+[name="希尔达"]神明啊......请告诉我......
+[name="希尔达"]难道痛苦，真的是这个世界上唯一的法则？
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="32_RL2_cliffnight", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[playsound(key="$d_avg_sea",volume=1, loop=true, channel="a")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[name="普瑞赛斯"]可怜的孩子......我又该如何告诉你呢？
+[name="普瑞赛斯"]所有精神上的痛苦，都来源于对现实错误的认知。
+[name="普瑞赛斯"]可这是个体生命与这个宇宙之间永恒的鸿沟，也是文明必经的歧路，没有人可以超脱其外。
+[name="普瑞赛斯"]不过，不会太久了。
+[name="普瑞赛斯"]我会为你们带来答案。
+她沐浴在双月皎洁的光辉下，将目光投向了大海的深处。
+[Dialog]
+[PlaySound(key="$d_avg_systemstart_weird", volume=1)]
+[bgeffect(name="$eb_signalInterference",fade = true, fadetime = 1.5,layer=1)]
+[delay(time=0.5)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[Image(image="73_i26", screenadapt="coverall", fadetime=8)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[delay(time=0.5)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[Image]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[stopsound(channel="a", fadetime=0.5)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=0, block=true)]
+[Delay(time=2.5)]
+[stopmusic]
+[charslot]
+[Image]

@@ -1,0 +1,934 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_warehouse",screenadapt="coverall", block=true)]
+[bgeffect(name="$eb_blacksmoke_01",fade = true, fadetime = 0.01,layer=1)]
+[Delay(time=1)]
+[PlayMusic(intro="$shatterpoint_01_intro", key="$shatterpoint_01_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_1966_1#5$1",focus="m")]
+[name="阿洛伊泽"]......什么叛国者？你在说什么？
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]伪装成感染者收容所的情报接头处，用物资交换代替实际的金钱往来......
+[name="“皇帝的利刃”"]所有线索，都指向这个格格不入的地方。
+[name="“皇帝的利刃”"]你们在这里藏匿了什么，又包庇了谁？
+[name="“皇帝的利刃”"]......嘶。甚至眼前就有。一个来自过去的幽灵，一个可疑人物。
+[charslot(slot="m",name="avg_188_helage_1#9$1",focus="m")]
+[name="赫拉格"]......
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]是你吗？是你带着旧日未完的使命回来，又要再次半途而废了吗？
+[name="“皇帝的利刃”"]可你带着的，甚至是一把假刀。
+[charslot(slot="m",name="avg_npc_1966_1#7$1",focus="m")]
+[name="阿洛伊泽"]别纠缠他！内卫现在的首要任务难道不应该是追查刺客——
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_swordexsheath",volume=1)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_1966_1#11$1",focus="m")]
+[name="阿洛伊泽"]啊。
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]转移话题恐怕不是合宜的战术，中尉。
+[name="“皇帝的利刃”"]交出间谍。
+[charslot(slot="m",name="avg_npc_1966_1#9$1",focus="m")]
+[name="阿洛伊泽"]所以，是有线索让你们认为，把刺客放进宫里的间谍就在这里。
+[charslot(slot="m",name="avg_npc_1966_1#4$1",focus="m")]
+[name="阿洛伊泽"]好吧。可我也的确不知道你要的间谍是谁。再给我一些时间，我一定能弄清楚——
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]呼......但我的时间有限，中尉。
+[name="“皇帝的利刃”"]如果你无法给出我需要的答案，我就只能按照最便捷的办法，干净地行事。
+[name="“皇帝的利刃”"]要把这地方完全抹除，甚至不用花费太多力气。
+[charslot(slot="m",name="avg_npc_1966_1#11$1",focus="m")]
+[name="阿洛伊泽"]......“抹除”？就像第四集团军抹除那些矿工们一样吗？
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]你是在将正当与不义混为一谈。
+[charslot(slot="m",name="avg_npc_1966_1#5$1",focus="m")]
+[name="阿洛伊泽"]没人质疑你们的初衷，可你们能保证自己行为的正当性，保证信息的来源没有受到任何人的误导吗？
+[charslot(slot="m",name="avg_npc_1966_1#7$1",focus="m")]
+[name="阿洛伊泽"]你蔑视和怀疑的对象中不仅有弱势的外来者、感染者，同样也有足以指控女大公罪行的幸存者和证人！
+[name="阿洛伊泽"]事关重大，你却要一意孤行，怎么保证你们没有受到蒙蔽，没有做出错误的决策？
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]......
+[name="“皇帝的利刃”"]因为，我们不会。
+[name="“皇帝的利刃”"]我们只是武器，只是陛下双手的延伸。
+[Dialog]
+[charslot]
+武器不衡量价值，不判断错对。在内卫手中，已经种下的因从不会有果，滋生的，仅有无言的血腥。
+阿洛伊泽意识到自己犯下了最严重的错误：竟然将眼前的邪魔造物当作有理智与情感的个体去对待——
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]而你......
+[name="“皇帝的利刃”"]告诉我，中尉。
+[name="“皇帝的利刃”"]你在质疑的，究竟是什么？
+[charslot]
+[Dialog]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$e_skill_blackexplo",volume=1)]
+[bgeffect(name="$eb_073_smoke_01",fade = true, fadetime = 1,layer=2)]
+[delay(time=2.5)]
+属于“国度”的气息陡然释放，迅速铺洒在整个封闭的空间之中。
+它即将如往常一样散播绝望，带来恐惧——
+[Dialog]
+[bgeffect(name="$eb_blacksmoke_02",fade = true, fadetime = 2,layer=3)]
+[delay(time=3)]
+[playMusic(intro="$exciting_intro", key="$exciting_loop", volume=0.6)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]
+[Image(image="73_i08",screenadapt="coverall",fadetime=0, xScale=1.5, yScale=1.5,y=170)]
+[ImageTween(xFrom=0, xTo=100, duration=0, block=false)]
+[PlaySound(key="$d_avg_swordsplitair",volume=1)]
+[Effect(name="$e_073_slash_01",layer = 1)]
+[bgeffect] 
+[delay(time=1)]
+[ImageTween(xFrom=100, xTo=-100, duration=30, block=false)]
+[delay(time=0.5)]
+年轻人在有人突然挡到身前的下一刻，才意识到自己腰间的剑鞘空了。
+夺剑者移动的速度快得肉眼难以捕捉。只见身形一错，空气中寒光闪过，就挥退了四周不断蔓延的黑色。
+[name="阿洛伊泽"]什么——
+她几乎没有感觉到源石技艺的流动。这意味着仅是拔剑后握住剑身所带来的冲击，就足以产生能短暂威慑内卫的力量。
+即使他使用的只是一柄聊胜于无的仪仗剑。
+[dialog]
+[Image(image="73_i08",screenadapt="coverall",fadetime=1.5, xScale=1, yScale=1)]
+[delay(time=1)]
+[name="赫拉格"]看来近来事态的严重程度，已经将你们也逼至绝境了。
+[name="赫拉格"]否则你们不会直接在圣骏堡城内采取行动，浪费时间追查不确定的线索。
+[name="赫拉格"]至少，这样的事在大叛乱以来的几十年内，应该都没再发生过。
+[name="“皇帝的利刃”"]......你割开了“国度”。你——
+[name="赫拉格"]各个集团军从未真正与内卫站在同一阵线之上。看起来，他们曾经研习的那些应对邪魔与精怪的办法......到现在依然有效。
+[name="“皇帝的利刃”"]垂死挣扎罢了。
+[name="赫拉格"]你们又何尝不是？距离上一个内卫因在圣骏堡城中擅自行动而获罪已经过去很久了。
+[name="赫拉格"]即使事后证明那只是单独的个体出于对陛下安危的担忧而产生了误判，将他放逐极北的决定依然没有撤销。
+[name="赫拉格"]就我所知，他没能再回到圣骏堡。也许他如今依旧都还在萨米的风雪中游荡，被昔日的战友当作灾异追杀——
+[name="“皇帝的利刃”"]失败者不被接纳，是我们做出将他驱逐的决定，而非陛下！
+[name="赫拉格"]无论如何，猜忌已经形成。许多人都期待陛下对你们的疏离能维持长久，唯独你们自己......无法在明面上做出任何反应。
+[name="赫拉格"]你们无法因遭受忌惮就将剑指向皇帝，所以，屡出下策。塞梦珂、切尔诺伯格......又或是更多不为人所知的类似惨剧。
+[name="“皇帝的利刃”"]你又知道什么——
+[name="赫拉格"]告诉我，“利刃”......
+[name="赫拉格"]你的同僚，都知晓你决定再度铤而走险吗？
+[name="“皇帝的利刃”"]......上一个玩弄词句的小丑，已经在火中灰飞烟灭。
+[name="“皇帝的利刃”"]你难道想步他的后尘？
+[name="赫拉格"]很遗憾，威胁对我恐怕不起作用。
+[name="赫拉格"]你已经分辨出我只是一个来自旧日的幽灵。我无意主动现身，不代表不会在必要时脱离“幽灵”的本分。
+[name="赫拉格"]我会为所有此刻身处这栋建筑中，受到罗德岛庇护的人......像这样拔出刀剑。
+[name="赫拉格"]一千次，一万次，无数次。
+[name="赫拉格"]直到像你们这样的人退却，或直到我再也无法站起。
+[name="“皇帝的利刃”"]你分明早已背弃乌萨斯，此刻却对她的子民宣誓忠诚与守护。
+[multiline(name="“皇帝的利刃”")]虚伪、可笑......
+[CameraShake(duration=0.3, xstrength=40, ystrength=40, vibrato=60, randomness=80, fadeout=true, block=false)]
+[multiline(name="“皇帝的利刃”")]狂悖！
+[name="赫拉格"]你可以不承认我说的一切，但退一万步......我认为你不会赌。
+[name="赫拉格"]哪怕只是赌一个能在我杀死你之前将这里清剿干净的机会。
+[name="赫拉格"]你不会想让乌萨斯再失去一柄“利刃”。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[bgeffect]
+[Image]
+[Background(image="bg_warehouse",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="黑暗中的声音"]那就让我看看，你的决绝，能坚持到几时吧。
+[charslot(slot="m",name="avg_188_helage_1#9$1",focus="m")]
+[name="赫拉格"]......
+[charslot]
+[name="黑暗中的声音"]中尉。
+恐怖散去，年轻的近卫军终于艰难地找回自己的声音。
+[charslot(slot="m",name="avg_npc_1966_1#4$1",focus="m")]
+[name="阿洛伊泽"]......说。
+[charslot]
+[name="黑暗中的声音"]我给你时间。但......
+[name="黑暗中的声音"]是选择与乌萨斯站在一边，还是继续与乌萨斯的叛徒和敌人们为伍......
+[name="黑暗中的声音"]下次，我要看到你的答案。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="66_g2_farnorthgovernment",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$doorknockquite",volume=1)]
+[delay(time=1)]
+[name="门外的声音"]殿下，信使已经返回，比预计的时间早了三天。
+[name="门外的声音"]要让她现在就进来吗？
+[name="叶莉莎女大公"]先请她进来吧。
+[charslot]
+叶莉萨维塔从桌前站起，习惯性地将尚未阅览的简报轻轻推向一旁。
+手边的茶水已经泛凉，沉淀着苦涩的深棕。她屈起指节碰了碰杯壁，却像敲了实心的物件似的，没有任何声音从那里发出。
+[dialog]
+[charslot(slot="m",name="avg_npc_1962_1#2$1",duration=1)]
+[delay(time=2)]
+[name="叶莉莎女大公"]......
+[charslot]
+门外，近侍似乎仍在与什么人交谈着。但内容却大都模糊，与刚才的清晰相去甚远。
+她抬脚，开始往大门的方向走去。
+[Dialog]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[delay(time=1)]
+室内石砌的黑色火炉中，苹果木依旧燃烧，却再也没有噼啪的响声。甚至很快那火的颜色也逐渐暗淡下来，与包围它的黑色融为了一体。
+[Dialog]
+[bgeffect(name="$eb_blacksmoke_01",fade = true, fadetime = 2.5,layer=1)]
+[delay(time=2.5)]
+[PlayMusic(intro="$nervous_intro", key="$nervous_loop", volume=0.6)]
+这黑色流淌向叶莉萨维塔，也流淌向整个房间，与四面墙壁。
+[charslot(slot="m",name="avg_npc_1962_1#1$1")]
+[name="叶莉莎女大公"]伊廖沙。
+[charslot]
+[name="门外的声音"]殿下，我在。
+[charslot(slot="m",name="avg_npc_1962_1#1$1")]
+[name="叶莉莎女大公"]如果信使有什么顾虑，可以请她明日再来。
+[name="叶莉莎女大公"]另外，茶凉了，帮我再上一杯淡茶吧。加上椴树蜜，柠檬片......就像以前那样。
+[charslot]
+[name="门外的声音"]......
+[name="门外的声音"]是。
+[Dialog]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_1962_1#1$1")]
+[name="叶莉莎女大公"]地图上指向圣骏堡的皲裂，还有蠕动着的边境线......
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉莎女大公"]您又在提醒我什么呢？
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_077",afrom=0, ato=1,duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]叶甫根尼将被问责，他败势已显。
+[charslot(slot="m",name="avg_npc_1962_1#2$1")]
+[name="叶莉莎女大公"]哦？那或许他还是太过年轻，才愿意把手头的一切都投入一场不知胜率的赌局中。在等待中耗尽了时日和筹码，也理所应当。
+[charslot(slot="m",name="avg_npc_1962_1#1$1")]
+[name="叶莉莎女大公"]不过，这与我有什么关系吗？
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]你对内卫死在领地内一事知情不报，并协助第四集团军假借剿灭叛乱感染者之名，前往中央区，胁迫圣骏堡。
+[name="“皇帝的利刃”"]你完整参与了整件事。
+[name="“皇帝的利刃”"]你那位信使已经回答了所有我需要的内容。我甚至知道你总共给叶甫根尼提供了多少军备物资和钱粮。
+[charslot(slot="m",name="avg_npc_1962_1#1$1")]
+[name="叶莉莎女大公"]而我听闻，你们所有的这些招数——或者说恐吓，都只是加深群体印象的一环。为使自己变成孩童的恐怖故事，成人的头顶之剑。
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]拖延时间是无用的，叶莉萨维塔·康斯坦丁诺夫娜。
+[charslot(slot="m",name="avg_npc_1962_1#2$1")]
+[name="叶莉莎女大公"]到这时候，你便不称我的姓了，那个与当今陛下同源的姓氏。
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]即使你是陛下如今仅存的亲族之一，也不会影响帝国要审判你的事实。
+[name="“皇帝的利刃”"]你曾经在大叛乱中站对了位置，没错。但这不代表那个决策，还能从这件事中保护你。
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉莎女大公"]我从没这么想过。我庇护那时还年幼的陛下，只是因为这样做是正确的。我并不希求回报，或是任何事后的利益交换。
+[name="叶莉莎女大公"]时至今日，我都仍然只是远北的女大公，从未为自己争取什么。
+[charslot(slot="m",name="avg_npc_1962_1#1$1")]
+[name="叶莉莎女大公"]说起来，远北的战士们也曾无数次与你们在对抗邪魔的战斗中通力合作，可直到现在，我才真正见到你们其中的一员。
+[name="叶莉莎女大公"]“皇帝的利刃”......内卫。
+[charslot(slot="m",name="avg_npc_1962_1#2$1")]
+[name="叶莉莎女大公"]告诉我，像你们这样的存在，怎么会轻易死于那些孱弱可怜的感染者之手呢？
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]......
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_open_door",volume=1)]
+[charslot(slot="m",name="avg_npc_2169_1#1$1",afrom=0, ato=1,duration=1.5)]
+[delay(time=2)]
+[name="沉默的近侍"]殿下，您的茶。
+[name="沉默的近侍"]滚水三分钟，柠檬和椴树蜜都已经在茶里了。
+[charslot(slot="m",name="avg_npc_1962_1#3$1")]
+[name="叶莉莎女大公"]啊，谢谢你，伊廖沙。
+[name="叶莉莎女大公"]你做事总是这么完美无缺，让我想起你的姐姐......
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]叶莉萨维塔。
+[charslot(slot="m",name="avg_npc_1962_1#1$1")]
+[name="叶莉莎女大公"]哦，抱歉。我们刚刚说到哪儿了？关于您那个死在我辖区之中的同僚——
+[charslot(slot="m",name="avg_npc_2169_1#1$1")]
+[name="沉默的近侍"]恕我冒昧。如果两位谈论的是这件事，以及由它引发的后续，那么......
+[charslot(slot="m",name="avg_npc_1962_1#2$1")]
+[name="叶莉莎女大公"]......伊廖沙？
+[charslot(slot="m",name="avg_npc_2169_1#1$1")]
+[name="沉默的近侍"]我想，我应该对此负主要责任。
+[name="沉默的近侍"]出于对我的信任，殿下给予了我自由出入这里的权限，是我选择越过她，将封锁消息的政令先一步发往各级政府。
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉莎女大公"]伊廖沙。
+[charslot(slot="m",name="avg_npc_2169_1#1$1")]
+[name="沉默的近侍"]对第四集团军行动的默许，也在我与使者的交谈中定下。
+[name="沉默的近侍"]至于那些来自圣骏堡的、从未回复的信件，也都经由您眼前的这双手销毁。
+[name="沉默的近侍"]殿下什么都不知道。
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉莎女大公"]我已经说过，不用这个方法——
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]......你觉得，陛下会相信这番说辞？
+[name="“皇帝的利刃”"]竟然将罪责都推到一个仆人身上，倒是高估你了，叶莉萨维塔。
+[name="“皇帝的利刃”"]不过，你仍被允许选择用一种方式消失。在这里自戕，或是由圣骏堡裁决。
+[name="“皇帝的利刃”"]时间很短——
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_exsheath",volume=1)]
+[Delay(time=1)]
+看似文弱的近侍突然从身侧拔出一柄短剑。
+他将剑锋对准眼前不为所动的存在，而后——
+[charslot(slot="m",name="avg_npc_2169_1#1$1")]
+[name="沉默的近侍"]我说过了，殿下什么都不知道。
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]不自量力。
+[Dialog]
+[charslot]
+[bgeffect(name="$eb_073_smoke_01",fade = true, fadetime = 0.5,layer=2)]
+[delay(time=2)]
+[PlaySound(key="$d_avg_piercechest",volume=1,channel="blood")]
+[delay(time=1)]
+[PlaySound(key="$bodyfalldown2",volume=1,channel="down1")]
+[delay(time=1)]
+在黑色轻易将这整个人都侵蚀之前，侍从突然将剑调转方向，用力刺进了自己的心口。
+[name="微弱的声音"]我会......证明......
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉莎女大公"]......
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉莎女大公"]伊廖沙......
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]愚蠢。这不能证明任何东西。
+[charslot]
+女大公的神情没有丝毫变化，只有颊边流下的泪水暴露了部分心绪。
+她往前走去，替死者合上双眼。
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉莎女大公"]......您说得对，他只是个傻孩子。
+[name="叶莉莎女大公"]他太心急了。明明我说过还有其他的办法，他却连等一等也不愿意。
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]叶莉萨维塔。
+[charslot(slot="m",name="avg_npc_1962_1#1$1")]
+[name="叶莉莎女大公"]嘘......
+[name="叶莉莎女大公"]我先前的问题，您还没有回答。
+[charslot(slot="m",name="avg_npc_1962_1#2$1")]
+[name="叶莉莎女大公"]不过，已经无所谓了。就让我来替您回答吧，关于是什么东西才能那样轻易地杀死一名内卫，抹去他像抹去一片尘埃......
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]你果然知道圣愚——
+[charslot(slot="m",name="avg_npc_1962_1#2$1")]
+[name="叶莉莎女大公"]“巫怪啊，时机已经到了。”
+[charslot]
+[Dialog]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$d_avg_monocycle_bell",volume=1)]
+[charslot(slot="m",name="avg_npc_2257_1#1$1",afrom=0, ato=1,duration=1.5,bstart=0.2,bend=0.5,focus="m")]
+[delay(time=1.6)]
+[name="？？？"]（古老的萨米方言）“彼方的恩主——”
+[charslot(slot="m",name="avg_npc_2257_1#1$1",bstart=0.2,bend=0.5,focus="m")]
+[name="？？？"]（古老的萨米方言）“从混沌中撕扯而下的、祂的意志！”
+[charslot(slot="m",name="avg_npc_2257_1#1$1",bstart=0.2,bend=0.5,focus="m")]
+[name="？？？"]（古老的萨米方言）“我向你索求——毫无保留。”
+[charslot]
+[charslot(slot="m",name="avg_npc_077")]
+[CameraShake(duration=0.3, xstrength=40, ystrength=40, vibrato=60, randomness=80, fadeout=true, block=false)]
+[name="“皇帝的利刃”"]——！
+[name="“皇帝的利刃”"]叶莉萨维塔，你为了掌控圣愚，竟不惜与萨米人勾结——
+[Dialog]
+[PlaySound(key="$d_avg_erthshkng",volume=1)]
+[CameraShake(duration=2, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[bgeffect]
+[Background(image="bg_black",screenadapt="coverall")]
+[PlaySound(key="$d_avg_dkmgcvlspd", channel="xiemo",volume=1)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Effect(name="$e_demoninfect" ,layer = 1)]
+[Delay(time=3)]
+[playMusic(intro="$calamity_intro",key="$calamity_loop", volume=0.8)]
+[Delay(time=1.5)]
+[Image(image="73_i07",screenadapt="coverall",fadetime=3, xScale=1.4, yScale=1.4)]
+[ImageTween(xFrom=150, xTo=-100, duration=40, block=false)]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_OriginiumArts_ice_loop",loop=true, channel="ice",volume=0.4)]
+[spellsticker(id="spell1", action="show", style="sami", x=-130, y=0, xScale=1.3, yScale=1.3, angle=0, alpha=1,block=true)]<p=1>命运啊，张口！</><p=2>Ó Urðr, opna munn!</>
+[spellsticker(id="spell1", action="show", style="sami", x=-130, y=0, xScale=1.3, yScale=1.3, angle=0, alpha=1,block=true)]<p=1>来将献祭全数吞下!</><p=2>Gleyptu allar fórnir!</>
+[spellsticker(id="spell1", action="show", style="sami", x=-130, y=0, xScale=1.3, yScale=1.3, angle=0, alpha=1,block=true)]<p=1>记住：那遮蔽天日的，</><p=2>Minnstu: þat er himin hylr,</>
+[spellsticker(id="spell1", action="show", style="sami", x=-130, y=0, xScale=1.3, yScale=1.3, angle=0, alpha=1,block=true)]<p=1>不是灾异，而是目光。</><p=2>er eigi ógæfa, heldr augna máttur.</>
+[spellsticker(id="spell1", action="show", style="sami", x=-130, y=0, xScale=1.3, yScale=1.3, angle=0, alpha=1,block=true)]<p=1>它刺穿我，</><p=2>Sá máttur stingr mik,</>
+[spellsticker(id="spell1", action="show", style="sami", x=-130, y=0, xScale=1.3, yScale=1.3, angle=0, alpha=1,block=true)]<p=1>也刺穿世间万物。</><p=2>ok stingr alla hluti.</>
+[stopsound(channel="ice",fadetime=1)]
+[ImageTween]
+[Image(image="73_i07",screenadapt="coverall",fadetime=1, xScale=1, yScale=1)]
+从呼唤中，从血腥中，从寒冷的虚空中，一个奇诡的幻影，自纯白向深红迸裂，掌控了整个空间。
+千万张面孔交错，千万双眼睛注视。
+圣愚，迦弗里伊尔。
+[name="“皇帝的利刃”"]......
+[name="“皇帝的利刃”"]果然......
+[Dialog]
+[bgeffect]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Image]
+[Background(image="66_g2_farnorthgovernment",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[bgeffect]
+[charslot(slot="m",name="avg_npc_1965_1#1$1",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[name="圣愚"]■......■■■？
+刺耳的低频啸声在空气中盘旋。那似乎是某种语言，现实却缺少理解它的方式。
+[charslot(slot="m",name="avg_npc_1962_1#2$1")]
+[name="叶莉莎女大公"]你，真的是——
+[charslot(slot="m",name="avg_npc_1962_1#1$1")]
+[name="叶莉莎女大公"]（低声）终于......成功了。
+[charslot]
+[Dialog]
+[charslot(slot="l",name="avg_npc_077",afrom=0, ato=1,duration=1.5)]
+[charslot(slot="r",name="avg_npc_077",afrom=0, ato=1,duration=1.5)]
+[Delay(time=3)]
+[charslot]
+室内没有风灌进来，唯一的入口也依然保持着关闭，然而两个漆黑的身影，却突然出现在苍白怪物的两侧。
+[Dialog]
+[bgeffect(name="$eb_073_smoke_01",fade = true, fadetime = 0,layer=2)]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉莎女大公"]——？
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]把它拿下。
+[charslot]
+[Dialog]
+[charslot(slot="l",name="avg_npc_077")]
+[charslot(slot="r",name="avg_npc_077")]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_groundcrack_tree", volume=1,channel="crack1")]
+[stopsound(channel="crack1",fadetime=2)]
+[Delay(time=0.5)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[CameraShake(duration=0.3, xstrength=40, ystrength=40, vibrato=70, randomness=90, fadeout=true, block=false)]
+[charslot(slot="l",afrom=1, ato=0,duration=0)]
+[charslot(slot="r",afrom=1, ato=0,duration=0)]
+[charslot]
+[Delay(time=0.5)]
+他们袭向目标的瞬间，它脚下的地板立刻开始塌陷，又或者说是融化——
+圣愚站着，仿佛对威胁毫无知觉。
+[charslot(slot="m",name="avg_npc_1965_1#1$1")]
+[name="圣愚"]■■。
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]圣愚，迦弗里伊尔。
+[name="“皇帝的利刃”"]乌萨斯已经不再需要你。
+[name="“皇帝的利刃”"]我们，也不需要你！
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]
+[name="叶莉莎女大公"]不——！
+[Dialog]
+[charslot]
+[PlaySound(key="$e_skill_blackexplo",volume=1)]
+[delay(time=0.8)]
+[charslot(slot="m",name="avg_npc_1965_1#1$1")]
+[CameraShake(duration=0.3, xstrength=60, ystrength=60, vibrato=80, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[charslot(slot="m",afrom=1, ato=0.6,duration=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[Delay(time=2)]
+被称为“圣愚”的存在开始模糊。并不是消失，而是身影开始分裂成无数个重叠的轮廓。
+它呢喃着，向这里唯一活着的、并非邪魔造物的存在——
+向女大公伸出手去。
+[charslot(slot="m",afrom=1, ato=0.6,duration=0)]
+[name="圣愚"]■，■■■■。
+[charslot(slot="m",afrom=1, ato=0.6,duration=0)]
+[name="圣愚"]■■■......
+[charslot]
+[Dialog]
+[charslot(slot="m",name="avg_npc_077")]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_groundcrack_tree", volume=1,channel="crack2")]
+[stopsound(channel="crack2",fadetime=2)]
+[Delay(time=0.5)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]
+[CameraShake(duration=0.3, xstrength=40, ystrength=40, vibrato=70, randomness=90, fadeout=true, block=false)]
+[charslot(slot="m",afrom=1, ato=0,duration=0)]
+[charslot]
+[Delay(time=0.5)]
+见第一次冲击无效，内卫立刻变换了位置。
+[Dialog]
+[stopmusic(fadetime=1)]
+[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[PlaySound(key="$d_avg_piercechest", channel="1",volume=1)]
+[Delay(time=0.5)]
+[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[PlaySound(key="$d_avg_piercechest", channel="2",volume=1)]
+[Delay(time=0.5)]
+[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[PlaySound(key="$d_avg_piercechest", channel="3",volume=1)]
+[Delay(time=0.5)]
+数柄黑色汇聚成的利剑穿过圣愚不断闪动和扭曲的胸腔，白色和红色片片剥落，露出一个透明的、深邃的圆。
+那啸声仍未停止。
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉莎女大公"]不，不......
+[Dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[bgeffect]
+[Delay(time=0.5)]
+[Background(image="72_g13_nobleroom",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[PlayMusic(intro="$loneliness_intro", key="$loneliness_loop", volume=0.4)]
+[charslot(slot="m",name="avg_npc_2169_1#1$1")]
+[name="沉默的近侍"]......怀疑圣愚曾以其中一个矿工的亲属身份被锚定下来......
+[name="沉默的近侍"]......矿工的孩子......一家四口，父母死刑，奶奶自杀，在1096年之后，户籍上就只有她一个人了。
+[name="沉默的近侍"]她也在逃离矿区的矿工之中。只有可能是那个孩子。
+[name="沉默的近侍"]看起来，对创伤的极端反应，或是对某种情感的强烈渴求，就足以将圣愚锚定在我们这层现实之中。
+[Dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="73_g17_exurbforest_in",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[name="？？？"]叶莉莎姑母——叶莉莎姑母！
+[name="？？？"]我的苹果树都去哪里了？为什么不能留着它们，要换成其他的树？
+[name="？？？"]费佳还没过来。他总是对着母亲的卧室发呆，或者躲起来哭。如果再让他发现苹果树都没了——
+[name="叶莉萨维塔"]哦，我的小纳斯佳。
+[name="叶莉萨维塔"]那是因为苹果树生了很可怕的病，只有其他树才有可能在那样的环境中活下来......
+[name="？？？"]你是说“锈病”？就像母亲一样？
+[name="叶莉萨维塔"]......不，不一样。无论如何，你母亲都会好起来的。
+[name="叶莉萨维塔"]人不会得“锈病”，那只是寻常的风寒，她会好起来的。
+[charslot(slot="m",name="avg_npc_2230_1#1$1",bstart=0.2,bend=0.5,focus="m")]
+[name="？？？"]“只是寻常的风寒”？
+[charslot]
+[name="叶莉萨维塔"]......什么？
+[Dialog]
+[charslot(slot="m",name="avg_npc_2230_1#1$1",bstart=0.2,bend=0.5,afrom=1, ato=0,duration=1.5,focus="m")]
+[Delay(time=1.8)]
+[charslot(slot="m",name="avg_npc_1965_1#1$1",bstart=0.2,bend=0.5,afrom=0, ato=1,duration=1.5,focus="m")]
+[Delay(time=2)]
+[name="？？？"]如果只是寻常的风寒......
+[name="？？？"]为什么她变得那么憔悴，为什么她再也没有醒来？
+[charslot]
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉萨维塔"]你是谁——
+[name="叶莉萨维塔"]你究竟在说什么？
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="66_g2_farnorthgovernment",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[bgeffect(name="$eb_073_smoke_01",fade = true, fadetime = 0,layer=2)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]消失吧。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_1965_1#2$1",afrom=1, ato=0.4,duration=0.5)]
+[Delay(time=0.51)]
+[charslot(slot="m",afrom=0.4, ato=1,duration=0.5)]
+[Delay(time=0.51)]
+[charslot(slot="m",afrom=1, ato=0.4,duration=0.5)]
+[Delay(time=0.51)]
+[name="圣愚"]■■■■■，■■■——
+[charslot]
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉莎女大公"]不。
+[CameraShake(duration=0.3, xstrength=40, ystrength=40, vibrato=60, randomness=80, fadeout=true, block=false)]
+[name="叶莉莎女大公"]不、不、不！我不允许！
+[name="叶莉莎女大公"]那只是纳斯佳——是那个可怜的、不被期待的孩子！
+[name="叶莉莎女大公"]你们利用她，却又转瞬将她抛弃。这次，我绝不允许——
+[CameraShake(duration=0.3, xstrength=40, ystrength=40, vibrato=60, randomness=80, fadeout=true, block=false)]
+[name="叶莉莎女大公"]回来，纳斯塔霞！回到我的身边，永远都不要再离开！
+[name="叶莉莎女大公"]纳斯塔霞——
+[Dialog]
+[charslot]
+[stopmusic(fadetime=1)]
+[PlaySound(key="$d_avg_monocycle_bell",volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2257_1#1$1",bstart=0.2,bend=0.5,focus="m")]
+[name="？？？"]（古老的萨米方言）“火与血，承载我愿。”
+[Dialog]
+[charslot]
+[PlayMusic(intro="$satellitescty_intro", key="$satellitescty_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_1965_1#1$1")]
+[charslot(slot="m",afrom=1, ato=0.4,duration=0.5)]
+[Delay(time=0.51)]
+[charslot(slot="m",afrom=0.4, ato=1,duration=0.5)]
+[Delay(time=0.51)]
+[charslot(slot="m",afrom=1, ato=0.4,duration=0.5)]
+[Delay(time=0.51)]
+[charslot(slot="m",afrom=0.4, ato=1,duration=0.5)]
+[Delay(time=0.51)]
+[bgeffect]
+[Effect(name="$e_demoninfect" ,layer = 1)]
+[Effect(name="$e_demoninfect" , flip = 2,layer = 1)]
+[PlaySound(key="$d_avg_shdwblwvr",volume=1)]
+[charslot(slot="m",afrom=1, ato=0.6,duration=1)]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_npc_2230_1#17$1",bstart=0.2,bend=0.5,afrom=0, ato=1,duration=2)]
+[Delay(time=2.2)]
+[name="纳斯塔霞？"]......
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]——叶莉萨维塔，你——你们！你们做了什么！
+[name="“皇帝的利刃”"]错了......失败。后退，全部后退！
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2230_1#17$1")]
+[charslot(slot="r",name="avg_npc_2230_1#17$1",bstart=0.2,bend=0.5,posfrom="0,0", posto="-200,0",duration=0)]
+[charslot(slot="r",afrom=1, ato=0,duration=4)]
+[Delay(time=4.5)]
+[charslot]
+[charslot(slot="m",name="avg_npc_1962_1#2$1")]
+[name="叶莉莎女大公"]......你是，纳斯塔霞？还是......
+[charslot]
+你看上去几乎和你的母亲一模一样，甚至连身上带着的苦杏仁气息都别无二致。她想这样说，却无论如何也无法继续开口。
+喉咙已经被涌上的腥甜呛住，叶莉萨维塔哑然注视着这堪称奇迹的一幕，完全忘记了呼吸。
+时间一分一秒流逝，没人敢于先一步动作。
+[bgeffect]
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]乌萨斯......
+[name="“皇帝的利刃”"]不需要不驯服的圣愚，也不需要一个本不存在的皇女。
+[name="“皇帝的利刃”"]叶莉萨维塔，你这样做，是在公开与整个乌萨斯为敌。
+[charslot(slot="m",name="avg_npc_2230_1#2$1")]
+[name="纳斯塔霞？"]......
+[charslot(slot="m",name="avg_npc_1962_1#1$1")]
+[name="叶莉莎女大公"]......纳斯塔霞。
+[name="叶莉莎女大公"]我们帮帮他们，好不好？
+[charslot(slot="m",name="avg_npc_1962_1#4$1")]
+[name="叶莉莎女大公"]帮帮这些可悲的狂人，将痛苦赐给他们，赐给这些想要伤害你、控制你、不许你留下的人！
+[name="叶莉莎女大公"]赐给他们，直到他们不再挣扎。如此，他们就会醒悟——
+[charslot(slot="m",name="avg_npc_2230_1#4$1")]
+[name="纳斯塔霞？"]姑母......
+[charslot(slot="m",name="avg_npc_1962_1#3$1")]
+[name="叶莉莎女大公"]我在，我在！孩子，我的纳斯佳。
+[charslot(slot="m",name="avg_npc_2230_1#4$1")]
+[name="纳斯塔霞"]......姑母。
+[charslot(slot="m",name="avg_npc_2230_1#1$1")]
+[name="纳斯塔霞"]如您所愿。
+[charslot]
+她抬眼，热切地注视着一切。似乎在她眼中并不存在任何令自身欣喜的事物，那笑容只是伪饰。
+曾是怪物，如今却被称为纳斯塔霞的女人缓缓抬手，指向叶莉萨维塔的身后。
+[charslot(slot="m",name="avg_npc_2230_1#2$1")]
+[name="纳斯塔霞"]我赐给你们生机。
+[name="纳斯塔霞"]也赐给你们死亡。
+[charslot(slot="m",name="avg_npc_077")]
+[name="“皇帝的利刃”"]迦弗里伊尔，你的职责——
+[charslot(slot="m",name="avg_npc_2230_1#2$1")]
+[name="纳斯塔霞"]接受它。
+[Dialog]
+[charslot]
+[CameraEffect(effect="Chaos",from = "chaos_none", to = "chaos_hard", fadetime =3, keep=true)]
+[PlaySound(key="$d_avg_atmosphere_horror",channel="horror",loop=true,volume=1)]
+[PlaySound(key="$d_avg_bone_rub", volume=0.9)]
+[Delay(time=2)]
+内卫毫不畏惧。他们没有试图躲闪，也没有试图逃离，而是任由自身被非对称的阴影结构完全占据，把原有的人形撕扯开来——
+在那中间，唯有黑色在滴落，在被不断揉碎，而后重组......
+直至某种崭新的存在将其填充和取代。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=4, block=true)]
+[CameraEffect(effect="Chaos", keep= false)]
+[stopsound(channel="horror",fadetime=1.5)]
+[charslot]
+[Delay(time=1.5)]
+[Background(image="bg_black",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[name="可露希尔"]“零号油罐”，再演算一次吧。
+[name="可露希尔"]把生命体征紊乱度调到最低......对，先不管那么多了，只用模拟最理想的状态。
+[Dialog]
+[PlaySound(key="$d_avg_heartratemonitor", channel="heart1",volume=1)]
+[stopsound(channel="heart1",fadetime=2)]
+[Delay(time=2)]
+......
+拟合失败。
+[name="可露希尔"]......连这样都不行吗......
+[name="可露希尔"]“零号油罐”，记录数据......
+[name="可露希尔"]第2068次......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_deluxeroom",screenadapt="coverall")]
+[PlayMusic(intro="$distressed_intro", key="$distressed_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_4228_closur_1#5$1",focus="m")]
+[name="可露希尔"]还是......无法成功。
+[charslot(slot="m",name="avg_4228_closur_1#6$1",focus="m")]
+[name="可露希尔"]凯尔希，我们到底该怎么办......
+[charslot(slot="m",name="avg_4228_closur_1#16$1",focus="m")]
+[name="可露希尔"]还说什么罗德岛不会离不开你......
+[name="可露希尔"]......大骗子。
+[Dialog]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=true)]
+[charslot]
+[Background(image="bg_bridge",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_1723_1#11$1",focus="m")]
+[name="可露希尔"]凯尔希！凯尔希——站住！
+[name="可露希尔"]你藏起来的那些我压根看不懂的秘密资料，都是什么意思？
+[charslot(slot="m",name="avg_003_kalts_1#1$1",focus="m")]
+[name="凯尔希"]原来你已经看到了。
+[charslot(slot="m",name="avg_003_kalts_1#2$1",focus="m")]
+[name="凯尔希"]只是一些可以在适当的时候解封的资料，暂且不必额外在意，你还有的是时间去研究。
+[charslot(slot="m",name="avg_npc_1723_1#11$1",focus="m")]
+[name="可露希尔"]等等，别跟我打马虎眼，那移交给我的罗德岛的全部权限又是怎么回事？
+[charslot(slot="m",name="avg_003_kalts_1#1$1",focus="m")]
+[name="凯尔希"]我想正式拜托你。
+[charslot(slot="m",name="avg_003_kalts_1#5$1",focus="m")]
+[name="凯尔希"]在罗德岛今后面临困难时，你一定是博士和阿米娅身边至关重要的助力——不只是作为罗德岛的总工程师。
+[charslot(slot="m",name="avg_npc_1723_1#8$1",focus="m")]
+[name="可露希尔"]不作为工程师？那我还能做什么？
+[charslot(slot="m",name="avg_npc_1723_1#4$1",focus="m")]
+[name="可露希尔"]你已经看到阿米娅现在有多么厉害，博士也很聪明，我该怎么帮忙——
+[charslot(slot="m",name="avg_003_kalts_1#1$1",focus="m")]
+[name="凯尔希"]我丝毫不怀疑阿米娅是出色的领袖，博士的决策同样值得信任。还有精英干员们，他们都是杰出的人。
+[charslot(slot="m",name="avg_003_kalts_1#2$1",focus="m")]
+[name="凯尔希"]可是如果罗德岛想要成为一处港湾，成为对许多人来说都可以称为归宿的地方，这些还是不够的。
+[charslot(slot="m",name="avg_003_kalts_1#1$1",focus="m")]
+[name="凯尔希"]在大家都背负着沉重的责任的时候，罗德岛还需要有一个能给他人带来力量的人。
+[name="凯尔希"]目光长远固然是稀缺的能力，可不会受挫于眼前困境的乐观也是一种力量。
+[charslot(slot="m",name="avg_003_kalts_1#11$1",focus="m")]
+[name="凯尔希"]可露希尔，这是你的天赋。没有人能在这方面比你做得更好。
+[charslot(slot="m",name="avg_npc_1723_1#3$1",focus="m")]
+[multiline(name="可露希尔")]唔......
+[charslot(slot="m",name="avg_npc_1723_1#8$1",focus="m")]
+[multiline(name="可露希尔")]啊，不对！我听明白了！你在绕着弯地骂我想得少缺心眼儿对不对！
+[charslot(slot="m",name="avg_003_kalts_1#1$1",focus="m")]
+[name="凯尔希"]......
+[charslot(slot="m",name="avg_npc_1723_1#11$1",focus="m")]
+[name="可露希尔"]可你也不能看我好欺负就准备把工作都丢给我！
+[charslot(slot="m",name="avg_npc_1723_1#3$1",focus="m")]
+[name="可露希尔"]我可不能保证，我接过很多工作以后，不会也变成和你一样坏脾气的人。
+[charslot(slot="m",name="avg_003_kalts_1#2$1",focus="m")]
+[name="凯尔希"]如果你不愿意接受这份责任，我也只能另外准备预案——
+[charslot(slot="m",name="avg_npc_1723_1#8$1",focus="m")]
+[name="可露希尔"]停停，等一下！
+[charslot(slot="m",name="avg_npc_1723_1#3$1",focus="m")]
+[name="可露希尔"]凯尔希，我可以答应你，我一定会尽我最大的努力去帮助博士和阿米娅......
+[charslot(slot="m",name="avg_npc_1723_1#4$1",focus="m")]
+[name="可露希尔"]但是你能不能和我说实话——你从伦蒂尼姆回来以后状态一直很不对劲，大家都看得出来。
+[name="可露希尔"]你要是真的累了，就去给自己放一个长长长长的假，但你不可以再用“我马上就要永远消失了”的口气说话。
+[name="可露希尔"]你能不能老实告诉我，你到底在为什么样的将来做打算？
+[charslot(slot="m",name="avg_003_kalts_1#1$1",focus="m")]
+[name="凯尔希"]我并非是出于对未来悲观的态度而作准备，我只是希望罗德岛有应对任何状况的余裕。
+[name="凯尔希"]我相信，罗德岛不会因为任何一个人的缺位而停下。
+[Dialog]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=true)]
+[charslot]
+[Background(image="bg_deluxeroom",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_4228_closur_1#5$1",focus="m")]
+[name="可露希尔"]总是冷冰冰的像个机器人，现在这种时候我倒是希望你真的是个机器人，“复活”你应该也不会像现在这么困难吧？
+[charslot(slot="m",name="avg_4228_closur_1#16$1",focus="m")]
+[name="可露希尔"]可是我要怎么用这堆数据，拼出一个完整的你啊。
+[name="可露希尔"]凯尔希，你再不回来的话，我真的不知道，自己还能坚持多久了......
+[charslot(slot="m",name="avg_4228_closur_1#13$1",focus="m")]
+[name="可露希尔"]啊啊啊啊好烦躁！
+[charslot(slot="m",name="avg_4228_closur_1#6$1",focus="m")]
+[name="可露希尔"]好饿，去搞点吃的吧......
+[charslot(slot="m",name="avg_4228_closur_1#7$1",focus="m")]
+[name="可露希尔"]对了，其他人都休息了吗？没有人在偷偷加班吧......
+[Dialog]
+[charslot(slot="m",posfrom="0,0", posto="-200,0",duration=1.5,focus="m")]
+[Delay(time=1.6)]
+[charslot(slot="m",name="avg_4228_closur_1#9$1",focus="m")]
+[multiline(name="可露希尔")]Raidian的房间有好好锁着......
+[charslot(slot="m",name="avg_4228_closur_1#7$1",focus="m")]
+[multiline(name="可露希尔")]Mon3tr忘记关门了？
+[charslot(slot="m",name="avg_4228_closur_1#2$1",focus="m")]
+[multiline(name="可露希尔")]哇......这睡相也太夸张了。
+[charslot(slot="m",name="avg_4228_closur_1#7$1",focus="m")]
+[name="可露希尔"]阿米娅......博士？
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[Background(image="73_g2_exurbstreet_n",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="m")]
+[name="阿米娅"]......
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="n")]
+[Dialog]
+[Decision(options="睡不着吗？", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_1037_amiya3_1#3$1",focus="m")]
+[name="阿米娅"]......
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="m")]
+[name="阿米娅"]（轻轻点头）
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="n")]
+[Dialog]
+[Decision(options="阿米娅今晚见到了很可怕的景象。;害怕做噩梦吗？", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="m")]
+[multiline(name="阿米娅")]博士不用把我当作小孩啦......
+[charslot(slot="m",name="avg_1037_amiya3_1#14$1",focus="m")]
+[multiline(name="阿米娅")]唔，我知道博士是在开玩笑。
+[charslot(slot="m",name="avg_1037_amiya3_1#9$1",focus="m")]
+[name="阿米娅"]其实......这段时间，我还是会常常梦到凯尔希医生、特蕾西娅小姐......那一定不是噩梦。
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="m")]
+[name="阿米娅"]博士，你也不去休息吗？
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="n")]
+[Dialog]
+[Decision(options="我不放心阿米娅。;我担忧接下来的行动。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_1037_amiya3_1#12$1",focus="m")]
+[name="阿米娅"]啊......现在该我安慰博士了。
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="m")]
+[name="阿米娅"]没关系的博士，睡不着的话，我们就一起聊聊天吧......好像很久都没有机会，像这样静下来和博士说话了。
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="n")]
+[Dialog]
+[Decision(options="这段时间过于忙乱了。;阿米娅一直都很辛苦。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_1037_amiya3_1#1$1",focus="m")]
+[name="阿米娅"]不......其实比起我自己，我还是更担心罗德岛许多其他干员。
+[name="阿米娅"]我们还没有完全从本舰的事故中恢复过来，又接连遭遇了许多变故。直到现在......又是一个难解的局面。
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]我担心许多干员无法从这样艰难的状态中坚持过来。我也想过，自己理应为大家多做一些事，可是我不知道，到底该怎么做......
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="n")]
+[Dialog]
+[Decision(options="阿米娅已经做了足够多的事情。;许多干员已经将阿米娅当作了可以信赖的领袖。", values="1;2")]
+[Predicate(references="1;2")]
+[Decision(options="阿米娅给了很多人力量。", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="m")]
+[name="阿米娅"]真的吗？我就当博士不是在哄我开心了......
+[charslot(slot="m",name="avg_1037_amiya3_1#9$1",focus="m")]
+[name="阿米娅"]不过......我愿意相信，自己至少可以成为博士的依靠。
+[charslot(slot="m",name="avg_1037_amiya3_1#14$1",focus="m")]
+[name="阿米娅"]......
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]博士......你觉得，我们可以信任维特议长吗？
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="n")]
+[Dialog]
+[Decision(options="我信任他。;我不确定。;我不信任。", values="1;2;3")]
+[Predicate(references="1;2")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]嗯......我还记得，五年前，维特议长的立场同样是维护和平。
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="m")]
+[name="阿米娅"]可是就连他，也无法阻止发生在远北矿区的惨案......没有人知道，这样的惨剧还会不会再次发生。
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="n")]
+[Dialog]
+[Predicate(references="2")]
+[charslot(slot="m",name="avg_1037_amiya3_1#1$1",focus="m")]
+[name="阿米娅"]很明显，他对我们保留了很多信息。
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]虽然也能理解他的立场，可是泽尔格勒隐藏的谜团还是让人很不放心。
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="n")]
+[Dialog]
+[Predicate(references="3")]
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="m")]
+[name="阿米娅"]可即便如此，博士还是有信心与他达成各取所需的合作。
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="n")]
+[Dialog]
+[Predicate(references="1;2;3")]
+[Decision(options="乌萨斯的局势十分复杂。", values="1")]
+[Predicate(references="1")]
+[Decision(options="泽尔格勒的石棺是其中的关键。", values="1")]
+[Predicate(references="1")]
+[Decision(options="这里正在进行的研究，恐怕会影响到这个国家之外。", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]我能够意识到，我们现在处理的问题非常关键。
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]每当这种时候，我还是会想起......凯尔希医生，是不是面对过许多次这样的难题？
+[charslot(slot="m",name="avg_1037_amiya3_1#3$1",focus="m")]
+[name="阿米娅"]她每次面临这种抉择的时候，又会想些什么呢......
+[charslot(slot="m",name="avg_1037_amiya3_1#3$1",focus="n")]
+[Dialog]
+[Decision(options="她一定非常辛苦。;她一定非常坚强。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="m")]
+[name="阿米娅"]嗯......
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="m")]
+[name="阿米娅"]博士，我在努力担起责任，可总有些时候，我还是会忍不住想，如果凯尔希医生还在就好了......
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="m")]
+[name="阿米娅"]博士......其实，我开始有些困惑。
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]不论是在切尔诺伯格，还是在伦蒂尼姆，我们都有明确的目标，要战胜的敌人......可是现在，我们又是在与谁为敌呢？
+[name="阿米娅"]我们没有办法阻止源石枯竭带来的灾难，也无法阻止人们内部自相敌对带来的杀戮，人们彼此仇恨的原因，也远不止矿石病，或者种族。
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]我甚至有一种感觉......我们要对抗的是这片大地本身。
+[Dialog]
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="n")]
+[Decision(options="也许，这正是罗德岛一直以来都在做的事。;理想主义本身，就是在与这片大地为敌。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_1037_amiya3_1#7$1",focus="m")]
+[name="阿米娅"]其实和博士说起这些，是因为我今晚遇到了一位......很奇特的女孩。她也是一位卡特斯，看上去年纪比我还要小。
+[charslot(slot="m",name="avg_1037_amiya3_1#6$1",focus="m")]
+[name="阿米娅"]她问我，如果明知道无法救下所有人，那我们的所作所为，还有意义吗？
+[charslot(slot="m",name="avg_1037_amiya3_1#2$1",focus="m")]
+[name="阿米娅"]虽然我给出了肯定的回答，可我也必须承认......有些时候，我也会因为觉得理想过于遥远而感到焦躁不安。
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="m")]
+[name="阿米娅"]这段时间以来，这种时候仿佛变多了......
+[Dialog]
+[charslot(slot="m",name="avg_1037_amiya3_1#16$1",focus="n")]
+[Decision(options="我们无法将自己行为的意义寄托在一个遥远的结果上。;相信自己的理想是正确的，这就是我们行动的理由。", values="1;2")]
+[Predicate(references="1;2")]
+[Decision(options="害怕失败的确是难以避免的情绪——;但不会是让我们不作为的理由。", values="1;2")]
+[Predicate(references="1;2")]
+[Decision(options="无论如何......", values="1")]
+[Predicate(references="1")]
+[Decision(options="我选择相信希望。;我相信泰拉会有未来。", values="1;2")]
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_1037_amiya3_1#8$1",focus="m")]
+[name="阿米娅"]的确像是博士会做出的回答呢。
+[charslot(slot="m",name="avg_1037_amiya3_1#9$1",focus="m")]
+[name="阿米娅"]就像很久以前，博士对我讲过的那些童话。虽然每个故事里奇幻的想象都不一样，但是最后都——
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",focus="m")]
+[name="阿米娅"]唔......可是博士已经不记得了......
+[charslot(slot="m",name="avg_1037_amiya3_1#10$1",focus="n")]
+[Dialog]
+[Decision(options="那就等阿米娅以后再给我讲一遍吧。", values="1")]
+[Predicate(references="1")]
+[charslot(slot="m",name="avg_1037_amiya3_1#11$1",focus="m")]
+[name="阿米娅"]嗯......！
+[Dialog]
+[charslot]
+[Delay(time=1)]
+夜晚的天气有些冷，阿米娅向你的方向靠近了一点。
+[name="阿米娅"]——！
+[Dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=true)]
+[charslot]
+[Background(image="bg_bridge",screenadapt="coverall")]
+[Image(image="avg_ac8mi_Pre",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+我明白，我都明白的。
+你热爱生命，相信希望，这是你的本性，是将我们紧密联系在一起的本性。
+可是，你又怎么能忘了......
+[Dialog]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="bg_white",screenadapt="coverall")]
+[Sticker(id="st1",text="<color=#000000>没有可能实现的希望，只是一种谎言。</color>", x=300, y=350,alignment="center",size=24, delay=0.1, width=700,block=true,duration=2)]
+[Dialog]
+[Delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[Sticker(id="st1")]
+[gridbg]
+[stopmusic(fadetime=2)]
+[Image]
+[charslot]

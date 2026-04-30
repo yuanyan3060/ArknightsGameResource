@@ -1,0 +1,756 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="bg_black",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_continuouswrite",volume=0.6)]
+[Sticker(id="st1", multi = true, text="在结晶时代之前，甚至是更久远的时候，", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n乌萨斯流传的神话中有一位名为吉伊哈克的巨人。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1",duration=1.3)]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_continuouswrite",volume=0.6)]
+[Sticker(id="st1", multi = true, text="巨人身形之庞大远远超出了人们的认知，他举手投足间塑造了这片大地的形状，", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n巴顿平原是他步伐踏过的痕迹，远无边际的鲁多卡缅尼山脉堪堪够他枕眠。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n神话中巨人的形象难以用善神或者恶神来定义，他就是这样巨大而单纯，只可供人们仰望的存在。", x=380,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1",duration=1.3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Image(image="73_i01_1", xScale=1, yScale=1,screenadapt="coverall",fadetime=2)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_continuouswrite",volume=0.6)]
+[Sticker(id="st1", multi = true, text="难以用巧合解释的是，这片大地上不同文化地区的神话中，往往都存在类似于吉伊哈克这样的“庞然巨物”。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n这些相似的神话似乎反映着人类潜意识中的某些共性——", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n无论何时，人们总会发自内心地呼唤某种伟力，某种与自身代表的一切渺小相对立的、抽象或具体的巨大存在。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1",duration=1.3)]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_continuouswrite",volume=0.6)]
+[Sticker(id="st1", multi = true, text="人们习惯对想象中的巨物顶礼膜拜，并且在现实中寻找它的投影。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n可是当它的确以某种形式于人们视线中彰显时——", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n它必将压垮一切温和的幻想。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[PlaySound(key="$d_avg_paper1",volume=1)]
+[Sticker(id="st1",duration=1.3)]
+[delay(time=1.5)]
+[stopmusic(fadetime=1.5)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image]
+[curtain(direction = 2,fillfrom = 1,fillto = 1, fadetime=0)]
+[curtain(direction = 6,fillfrom = 1,fillto = 1, fadetime=0)]
+[playsound(key="$d_avg_rapidbreath_female",channel="2",loop=true,volume=0.5)]
+[PlaySound(key="$d_avg_openftstprun",channel="3",volume=1)]
+[Delay(time=3.5)]
+[PlaySound(key="$dooropenquite",channel="D",volume=1)]
+[Delay(time=1.5)]
+[PlaySound(key="$d_avg_clothmovement",channel="4",volume=1)]
+[PlaySound(key="$d_avg_close_glasscabinet",channel="5",volume=1)]
+[Delay(time=1.5)]
+[playsound(key="$d_avg_rainheavy_loop",channel="r",loop=true,volume=0)]
+[PlaySound(key="$d_avg_atmosphere_horror",channel="K",loop=true,volume=0)]
+[Background(image="66_g10_instituteinterior", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[focusout(duration=0, type="bg", from=0, to=1, block=true)]
+[SoundVolume(volume=0.3,channel="2", fadetime=2)]
+[SoundVolume(volume=1,channel="r", fadetime=2)]
+[SoundVolume(volume=0.2,channel="K", fadetime=2)]
+[curtain(direction = 2,fillfrom = 1,fillto = 0.4, fadetime=4.5)]
+[curtain(direction = 6,fillfrom = 1,fillto = 0.4, fadetime=4.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_opencabinet",channel="1",volume=0.3)]
+[Delay(time=2.5)]
+[PlaySound(key="$d_avg_dullthunderclap",channel="T",volume=1)]
+[Delay(time=2.5)]
+[SoundVolume(volume=0,channel="2", fadetime=3)]
+[PlaySound(key="$dooropenquite",channel="D",volume=1)]
+[PlaySound(key="$d_avg_woodfloor_fts",volume=1)]
+[Delay(time=2.5)]
+[stopsound(channel="2")]
+[focusout(duration=1, type="char", from=0, to=1, block=true)]
+[charslot(slot="l",name="avg_npc_082",afrom=0,ato=0,posfrom="200,0",posto="200,0")]
+[Delay(time=0.5)]
+[PlaySound(key="$d_avg_woodfloor_fts",volume=1)]
+[charslot(slot="l",afrom=0,ato=1,posfrom="200,0",posto="300,0",duration=1.5)]
+[Delay(time=2.5)]
+[name="不满的声音"]说起来，我觉得鲍里斯一定是个疯子。
+[name="不满的声音"]你看到他面见元帅的时候那副傲慢丑陋的表情了，不过是这些年赚到了一点金币，他就敢这样骄横。
+[name="不满的声音"]如果他再富有些，我猜他甚至敢不向陛下行礼。
+[Dialog]
+[PlaySound(key="$d_avg_woodfloor_fts",volume=1)]
+[charslot(slot="l",afrom=1,ato=0,posfrom="300,0",posto="400,0",duration=1.5)]
+[Delay(time=2.5)]
+[charslot]
+[name="急躁的声音"]说到底，在他看来元帅根本不敢对他怎么样，甚至只要元帅开出的价码不符合他的心意，他随时可以转身投向第三集团军。
+[name="急躁的声音"]呵，有退路的人永远都是这样。
+[name="不满的声音"]目光短浅的商人，坐拥这样的宝贝也只会考虑怎么用它来填满自己的钱袋子，根本没想过它真正的价值！
+[name="不满的声音"]也难怪他缺少对乌萨斯军人应有的尊重，他们根本不明白乌萨斯的土地是建立在什么之上的——许多人都缺少对我们的尊重！
+[name="不满的声音"]如果我是元帅，我会直接划开那个懦夫的喉咙，用他的血在协议上摁手印。
+[name="不满的声音"]呵，如果我是元帅......我应该指挥军队战斗到底，直到每一个乌萨斯人都学会尊重我们。而不是像现在这样......被扣上失败者的帽子。
+[name="急躁的声音"]哦......别再说那些蠢话了！
+[name="急躁的声音"]你真的相信，元帅打心底里支持过六、八那两个集团军的白痴？
+[name="急躁的声音"]他们的行为从一开始就注定是要失败的，凭他们手里那一点火炮和战舰还撬动不了乌萨斯，多十倍都不行。
+[name="急躁的声音"]他们和那些商人本质上没有区别，他们都不知道乌萨斯的威严来自何处——但元帅早就看清了这一点。
+[name="急躁的声音"]所以庆幸吧，现在你还能在任务中发牢骚，而不是被送去远北和感染者一起变成石头。
+[Dialog]
+[PlaySound(key="$d_avg_crossbowbolts_fire",volume=1)]
+[Delay(time=0.5)]
+[PlaySound(key="$d_avg_crossbow_hit",volume=1)]
+[Delay(time=0.2)]
+[PlaySound(key="$d_avg_bodyhitwall",volume=1)]
+[CameraShake(duration=0.5, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=0.5)]
+[name="不满的声音"]你这是干什么？
+[name="急躁的声音"]执行命令，确保没有活口。
+[name="不满的声音"]你至少可以问问他！让他帮我们把剩下的人找出来！
+[name="急躁的声音"]没必要再浪费时间了，如果这些穿白大褂的愿意配合，我们今天不会在这里。
+[name="急躁的声音"]我看到了，那边桌子下面还藏着一个。
+[Dialog]
+[PlaySound(key="$d_avg_sundries",volume=0.6)]
+[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=1.5)]
+[PlaySound(key="$d_avg_dragbody",volume=0.6)]
+[CameraShake(duration=0.5, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="极度恐慌的声音"]放过我，放过我——！！
+[CameraShake(duration=0.5, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="极度恐慌的声音"]求求你不要杀我！你们想问什么都可以——
+[Dialog]
+[PlaySound(key="$d_avg_throatslitting",volume=1)]
+[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_bodyhitwall",volume=1)]
+[CameraShake(duration=0.5, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=0.5)]
+[focusout(duration=0, type="char", from=1, to=0, block=true)]
+[name="不满的声音"]他可是说了愿意配合了。
+[name="急躁的声音"]相信我，自己动手更快。
+[name="急躁的声音"]接着找，不会只有这么点人的。
+[name="急躁的声音"]清点好人数，确保不会有人活着出去，这很重要。
+[name="不满的声音"]我开始有点烦躁了，这里一点都不通风，血真臭，我的靴子都要黏住了。
+[Dialog]
+[PlaySound(key="$d_avg_woodfloor_fts",volume=1)]
+[Delay(time=2.5)]
+[PlaySound(key="$d_avg_opencabinet",channel="1",volume=0.5)]
+[Delay(time=2.5)]
+[PlaySound(key="$dooropenquite",channel="D",volume=1)]
+[Delay(time=1.5)]
+[PlaySound(key="$d_avg_opencabinet",channel="4",volume=0.8)]
+[curtain(direction = 2,fillfrom = 0.4,fillto = 0.35, fadetime=3.5)]
+[curtain(direction = 6,fillfrom = 0.4,fillto = 0.35, fadetime=3.5)]
+[playsound(key="$d_avg_femaleexhale",channel="2",volume=0.5)]
+[Delay(time=3.5)]
+[charslot(slot="m",afrom=0,ato=0,posfrom="200,0",posto="300,0",duration=0)]
+[charslot(slot="m",name="avg_npc_082",posfrom="0,-650",posto="0,-650",afrom=0,ato=0)]
+[charslot(slot="m",action="zoom",poszoom="0.5,0.5",scale=2.5,duration=0,afrom=0,ato=0)]
+[PlaySound(key="$d_gen_thunders_amb",volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=5.5, block=false)]
+[Delay(time=0.5)]
+[charslot(slot="m",afrom=0,ato=1,duration=0.4)]
+[PlaySound(key="$d_avg_jumpscare",channel="D",volume=1)]
+[Delay(time=2)]
+[name="不满的声音"]啊......找到了。
+[name="不满的声音"]这里还有一个。
+[Dialog]
+[stopsound(channel="r")]
+[stopsound(channel="K")]
+[stopmusic(fadetime=1.5)]
+[PlaySound(key="$d_avg_sundries",volume=0.6)]
+[CameraShake(duration=1.5, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]
+[focusout(duration=0, type="bg", from=1, to=0, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[curtain(direction = 2,fillfrom = 0.3,fillto = 0, fadetime=0.5)]
+[curtain(direction = 6,fillfrom = 0.3,fillto = 0, fadetime=0.5)]
+[charslot]
+[image]
+[Image(image="73_i01_1", xScale=1, yScale=1,screenadapt="coverall",fadetime=0)]
+[Delay(time=4.5)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_continuouswrite",volume=0.6)]
+[Sticker(id="st1", multi = true, text="米诺斯古早的哲人认为，创造是人类的特权，亦是本能。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n人们从劳动中总结经验，继而转变为具体或抽象的造物，用以应对自身存在面临的难题。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1",duration=1.3)]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_continuouswrite",volume=0.6)]
+[Sticker(id="st1", multi = true, text="造物满足人们的需求，抚慰人们的恐惧，同时也反映人们的审美、道德。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n人类的任何一点创造，都是其自身特性的体现——", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n或许造物主对人类的创造也不外乎此理。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1",duration=1.3)]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_continuouswrite",volume=0.6)]
+[Sticker(id="st1", multi = true, text="而在人们创造过的，最能反映人类自身善恶本性的造物当中......", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n“国家”，这个巨大的概念，一定有一席之地。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n......", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1",duration=1.3)]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_paper1",volume=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image]
+[Background(image="bg_graduatecore", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[playMusic(intro="$cherimp_intro", key="$cherimp_loop", volume=0.6)]
+[playsound(key="$d_avg_chaoticinstitute_amb_loop",channel="a",loop=true,volume=0)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>乌萨斯，切尔诺伯格研究所</><p=2>1077年 春</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[SoundVolume(volume=1,channel="a", fadetime=2)]
+[PlaySound(key="$rungeneral",volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_1975_1#1$1",duration=1)]
+[Delay(time=2)]
+[name="畏缩的研究员"]所长，他们已经闯到D区了！
+[name="畏缩的研究员"]我听到了......有武器的声音......他们在杀人......他们是在杀人吗？
+[Dialog]
+[charslot(slot="m",name="avg_npc_2224_1#3$1",focus="m")]
+[name="凯尔希"]伊利亚，还有多长时间？
+[Dialog]
+[charslot]
+[name="伊利亚"]......四十分钟。
+[name="伊利亚"]已经尽力了，封锁程序完成，还要四十分钟。
+[charslot(slot="m",name="avg_npc_1975_1#1$1",focus="m")]
+[name="畏缩的研究员"]可是我们一定要等到它完全关闭吗......
+[Dialog]
+[charslot]
+[name="伊利亚"]不然呢？！把这个东西完完整整地留给军队，交到那些屠夫的手里，好让他们可以去轻而易举地制造更多屠杀？  
+[name="伊利亚"]*激烈的乌萨斯粗口*！我活着度过的这一生已经够失败了，我不想在死后还变成一个杀人者的帮凶！
+[name="伊利亚"]都太迟了......
+[name="伊利亚"]可这群该死的刽子手怎么能反应得这么快，他们怎么可能这么快摸清研究所内部的情报......
+[name="伊利亚"]有叛徒......所长，一定有人出卖了研究所的情报。
+[name="伊利亚"]是谢尔盖吗......早在他试探我的时候我就该意识到的。
+[name="伊利亚"]*乌萨斯粗口*，一定是他......怎么偏偏是他，他原本可以做一个好人的......
+[charslot(slot="m",name="avg_npc_2224_1#1$1",focus="m")]
+[name="凯尔希"]冷静点，伊利亚。这个时候去想这些事没有任何益处。
+[name="凯尔希"]专注眼前的事，我们都还有机会再挽回一点什么。
+[Dialog]
+[charslot]
+[name="伊利亚"]所长......我们是不是......真的来不及了。
+[name="伊利亚"]您收到了我的警告，不该回来的，即使您回来了，也还是来不及——
+[charslot(slot="m",name="avg_npc_2224_1#2$1",focus="m")]
+[name="凯尔希"]......
+[name="凯尔希"]伊利亚，你带大家离开。
+[Dialog]
+[charslot]
+[name="伊利亚"]离开？我们还能去哪？
+[charslot(slot="m",name="avg_npc_2224_1#2$1",focus="m")]
+[name="凯尔希"]往北去，去泰梅尔，那里临近第三集团军的驻地，安德里安无论如何也不敢直接在那里展开搜捕。
+[name="凯尔希"]你们可以先躲藏起来，远离城市，避免与任何政府势力接触，也不要相信第三集团军可能给出的保护你们的承诺。
+[name="凯尔希"]快走吧，我留下来。
+[Dialog]
+[charslot]
+[name="伊利亚"]......
+[charslot(slot="m",name="avg_npc_2224_1#1$1",focus="m")]
+[name="凯尔希"]伊利亚？
+[Dialog]
+[charslot]
+[name="伊利亚"]......不，我留下来。
+[charslot(slot="m",name="avg_npc_2224_1#1$1",focus="m")]
+[name="凯尔希"]伊利亚。
+[Dialog]
+[charslot]
+[name="伊利亚"]我不会逃跑，我做不到，您不该把这些同僚的性命都托付给我！
+[name="伊利亚"]凯尔希所长......老师，这片大地需要您远甚于我，该走的是您才对。您本来就不该在这时候回来！
+[name="伊利亚"]就算您现在想办法藏住了体表的源石，那些家伙也会发现您其实是感染者这件事，您会遭受比痛快的死亡更恶劣百倍的对待——
+[name="伊利亚"]何况现在也只有您能带这些无辜的同僚找到生路，您不能推辞。
+[charslot(slot="m",name="avg_npc_2224_1#9$1",focus="m")]
+[name="凯尔希"]可你也有必须要活下去的理由......柳德米拉，你的女儿——
+[Dialog]
+[charslot]
+[name="伊利亚"]我希望能够拜托您。
+[name="伊利亚"]请您带她离开，离开这个国家，越远越好......呵，我原本还期待过您可以教育她一段时间的，不过，算了。
+[name="伊利亚"]您不用把今天发生在这里的事情告诉她，不会有好处的，让她用自己喜欢的方式探索这片大地吧。
+[charslot(slot="m",name="avg_npc_2224_1#3$1",focus="m")]
+[name="凯尔希"]我向你保证，会让她远离乌萨斯。在她有能力为自己的行为负责之前，她都会是安全的。
+[name="凯尔希"]我也向你保证，你们在这里所做的一切，都不会白费。
+[Dialog]
+[charslot]
+[name="伊利亚"]那就够了......
+[name="伊利亚"]......真有意思，我们之前开启这个石棺的选择，现在保留它的选择，到底哪一个才算得上正确。
+[charslot(slot="m",name="avg_npc_2224_1#3$1",focus="m")]
+[name="凯尔希"]我们做了自己认为正确的事，这个答案，也许得柳德米拉，甚至是她的孩子才能够回答。
+[Dialog]
+[charslot]
+[name="伊利亚"]说的也是......走吧。
+[charslot(slot="m",name="avg_npc_2224_1#8$1",focus="m")]
+[name="凯尔希"]......
+[name="凯尔希"]再见，伊利亚。
+[Dialog]
+[SoundVolume(volume=0,channel="a", fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[stopsound(channel="a")]
+[Background(image="bg_graduatecore", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_gen_soldiersrun",volume=1)]
+[Delay(time=3.5)]
+[charslot(slot="m",name="avg_npc_1976_1#1$1",duration=1.5)]
+[PlaySound(key="$d_gen_walk_n",volume=0.6)]
+[Delay(time=2.5)]
+[name="第四集团军士兵"]你就是最后一个了？
+[Dialog]
+[charslot]
+[name="伊利亚"]你是说最后一个什么？
+[name="伊利亚"]研究所里的最后一个活人？是的；这个国家最后一个鄙视暴力的人？未必。
+[charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
+[name="第四集团军士兵"]你留在这里，你对石棺做了什么？
+[Dialog]
+[charslot]
+[name="伊利亚"]哦，大约在十秒前，这座石棺的核心功能装置已经被完全封锁起来了。凭你们的本事，想要再启动它得花上一百年。
+[name="伊利亚"]你们——第四集团军的先锋刽子手？你们可以回去告诉安德里安了，他想要把这个大家伙变成开疆拓土的武器的计划破产了。
+[name="伊利亚"]很可惜，威名赫赫的安德里安元帅又一次失败了。他的军队没能征服一个小小的研究所，甚至是一个可悲的研究员。
+[name="伊利亚"]好了，现在你们可以行使剥夺我的性命的权力了。
+[charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
+[name="第四集团军士兵"]哼，了不起的硬骨头......
+[name="第四集团军士兵"]如你所愿。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[PlaySound(key="$d_avg_piercechest",volume=1)]
+[Delay(time=3.5)]
+[Image(image="73_i01_1", xScale=1.08, yScale=1.08,screenadapt="coverall",fadetime=2)]
+[Delay(time=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1, block=true)]
+[playMusic(intro="$dignified_intro", key="$dignified_loop", volume=0.6)]
+[PlaySound(key="$d_avg_continuouswrite",volume=0.6)]
+[Sticker(id="st1", multi = true, text="对乌萨斯这个国家，乃至于这片大地而言，“石棺”都是超越这个时代的发现，", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n我也曾对它寄予过不合时宜的期待，最终发生在我面前的惨剧即是对我的惩罚。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1",duration=1.3)]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_continuouswrite",volume=0.6)]
+[Sticker(id="st1", multi = true, text="但是研究所中那些杰出学者的无辜牺牲，", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n一定是对这个国家野心的惩罚，", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n即使惩罚的结果或许在很长时间以后才会被察觉。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1",duration=1.3)]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_continuouswrite",volume=0.6)]
+[Sticker(id="st1", multi = true, text="在此时此刻，我只能给予您一些忠告。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n如果您不愿意再卷入无休止的政治纠纷或是遭遇幸存者的报复，", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n如果您认为这片大地上依然有一些值得我们从裂兽的爪牙下竭力保护的珍贵事物——", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n请您保留这封信件，也请阻止集团军对研究所幸存者的追杀。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1",duration=1.3)]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_continuouswrite",volume=0.6)]
+[Sticker(id="st1", multi = true, text="这并非威胁，也非无助的请求。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n我希望您能基于对自身利益的考量，以及内心的良知，做出正确的选择。", x=180,y=170, alignment="left", size=24, delay=0.04, width=700,duration=1.3,block = true)]
+[Sticker(id="st2", multi = true, text="致  谢列梅捷沃·鲍里斯侯爵阁下", x=180,y=500, alignment="center", size=24, delay=0.04, width=700,duration=0.5,block = true)]
+[PlaySound(key="$d_avg_paper1",volume=1)]
+[Sticker(id="st1",duration=1.3)]
+[Sticker(id="st2",duration=1.3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2.5, block=true)]
+[Delay(time=1.5)]
+[PlaySound(key="$d_avg_writerub",volume=1)]
+[Image(image="73_i01_2", xScale=1, yScale=1,screenadapt="coverall",fadetime=2.5)]
+[Delay(time=4.5)]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image]
+[Background(image="bg_black", screenadapt="coverall", block=true)]
+[Delay(time=3)]
+[playMusic(intro="$loneliness_intro", key="$loneliness_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Sticker(id="st1", multi = true, text="1077年，在乌萨斯的东南一隅，发生了这样一起流血事件。对于刚刚经历过严重内乱的帝国，这甚至算不上一场多么引人注意的风波。", x=300,y=300, alignment="center", size=24, delay=0.0001, width=720,duration=1.3,block = true)]
+[Sticker(id="st1",duration=1.3)]
+[Delay(time=2)]
+[Sticker(id="st3", multi = true, text="也许直到百年后，历史学者再从故纸堆中重新审视那段波澜壮阔的历史时才会发现，发生在切尔诺伯格研究所中的事，是一个时代的缩影，也是一颗种子。", x=300,y=300, alignment="center", size=24, delay=0.0001, width=720,duration=1.3,block = true)]
+[Sticker(id="st3",duration=1.3)]
+[Delay(time=2)]
+[Sticker(id="st5", multi = true, text="尽管此刻，它还深埋在乌萨斯的冻土之下，以待发芽。", x=300,y=300, alignment="center", size=24, delay=0.0001, width=700,duration=1.3,block = true)]
+[Sticker(id="st5",duration=1.3)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_cellroomB", screenadapt="coverall", block=true)]
+[Delay(time=3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_prisongate_open",volume=1)]
+[Delay(time=2.5)]
+[name="年轻的声音"]......这是哪儿？
+[name="年轻的声音"]军事法庭呢？审判呢？
+[name="年轻的声音"]为什么你们要领我来这里？我的部下又在哪里？
+[name="不耐烦的声音"]闭嘴。
+[name="年轻的声音"]除非你杀了我。
+[name="不耐烦的声音"]你是死刑犯。无论是现在杀你还是之后杀你，都没什么区别。
+[name="不耐烦的声音"]可上面的大人好像暂时腾不出手来处理你这个叛乱头子，所以......
+[name="不耐烦的声音"]你就先待在这里，听着其他房间，听着你那些部下，都是怎么一个个沉默下去的吧。
+[name="年轻的声音"]我是军人，不是罪犯。我的部下也不是！
+[name="不耐烦的声音"]从你狂妄到决定对元帅举起反旗的那一刻起，你们整个兵团就已经不再属于光荣的第四集团军了。
+[name="年轻的声音"]我做了正确的事。那些被你们蔑为叛军的战士都知道，每一个拥有良知的乌萨斯人都会知道，这是正确的事。
+[name="不耐烦的声音"]不。雅科夫·彼得洛夫上尉。
+[name="不耐烦的声音"]你只是做了蠢事，还要将你的亲人和战友也连累。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_deluxeroom", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="沉默的男孩"]......
+[name="沉默的男孩"]妈妈，请先坐下来吧......您在发抖。
+[name="沉默的男孩"]那些军队的人都已经离开了。
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="m")]
+[name="恍惚的女性"]军队，雅科夫......
+[name="恍惚的女性"]是你吗，雅科夫？
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="none")]
+[name="沉默的男孩"]......
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="m")]
+[name="恍惚的女性"]你回来了？
+[name="恍惚的女性"]可现在苹果花都还没开，远不到夏休的时候。
+[name="恍惚的女性"]安德里安元帅待你如何？是不是常常把你带在身边？那些我托人带给你的衣裳鞋袜，穿着都还合身吗？
+[name="恍惚的女性"]我的眼睛实在看不清了，没法亲手给它们绣上名字......但索菲亚帮了忙。你从前最喜欢她的手艺——
+[name="恍惚的女性"]......索菲亚？
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="none")]
+[name="沉默的男孩"]妈妈。
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="m")]
+[name="恍惚的女性"]你不是索菲亚。
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="none")]
+[name="沉默的男孩"]我也不是雅科夫。我既不是兄长，也不是姐姐。
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="m")]
+[name="恍惚的女性"]你是谁？你为什么在我的家里？来人——
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="none")]
+[name="沉默的男孩"]妈妈，我是图林，您久未归家的小儿子。您还记得我的，对吗？
+[name="沉默的男孩"]佣人都已经被遣散了。管家也已经离开了。
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="m")]
+[name="恍惚的女性"]你说什么？
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="none")]
+[name="沉默的男孩"]雅科夫兄长入狱，索菲亚姐姐已经出嫁，却还是为了救他在圣骏堡奔走。她需要用金钱去疏通那些滞塞的关卡，我们必须帮忙。
+[name="沉默的男孩"]况且，我们也不能令无辜的人，被迫负担与我们相同的惩罚，不是吗？
+[name="沉默的男孩"]......唉。
+[name="沉默的男孩"]无论如何，请听听我说的话吧，妈妈。即使您从前从未听过，但这是雅科夫兄长从狱中写来的信。
+[name="沉默的男孩"]一起听听看吧......
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_paper1",volume=1)]
+[Delay(time=1)]
+男孩说着，展开手中的信件，却只看到一张白纸。
+刹那间，他的面色就变得和手中的纸张一样苍白。
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="none")]
+[name="沉默的男孩"]......
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="m")]
+[name="恍惚的女性"]雅科夫......雅科夫不是在军队里吗？
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="none")]
+[name="沉默的男孩"]军队来过了，妈妈。
+[Dialog]
+[charslot]
+男孩把白纸一点点对折，当作一个缓慢的、思索的过程。
+而后，他将一枚窄小而整齐的方块，塞入胸前原本应该放着手帕的位置，紧贴着心脏。
+[charslot(slot="m",name="avg_npc_2172_1#1$1",focus="none")]
+[name="沉默的男孩"]他们说，因为雅科夫兄长在第四集团军军队哗变事件中所处的位置......
+[name="沉默的男孩"]彼得洛夫家族已经被判剥夺世袭爵位，贬为庶民，流放到北原矿区第九矿场。
+[name="沉默的男孩"]明天我们就必须动身了。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_wilderness_1", screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="m",name="avg_npc_094",focus="m")]
+[name="绝望的感染者"]埋了老彼得，我们又该上路了。
+[name="绝望的感染者"]埋葬了孩子，埋葬了妻子，埋葬了父母......之后还要这样埋葬多少人？
+[name="绝望的感染者"]你在做什么，写信？给你母亲的？
+[charslot(slot="m",name="avg_npc_094",focus="none")]
+[name="沉默的男孩"]不......不是信。只是把我所见所想的记下来，有机会的话，我希望有更多人看到。
+[charslot(slot="m",name="avg_npc_094",focus="m")]
+[name="绝望的感染者"]真羡慕你还有这样的闲力气。
+[name="绝望的感染者"]我走不动了。我们甚至都还没能走到北原的范围以内。
+[charslot(slot="m",name="avg_npc_094",focus="none")]
+[name="沉默的男孩"]从奥姆斯卡出发，我们才走了三个月。
+[name="沉默的男孩"]等我们抵达北原的矿场，应该已经是第二年的春天了。
+[charslot(slot="m",name="avg_npc_094",focus="m")]
+[name="绝望的感染者"]春天......哈哈！春天！
+[name="绝望的感染者"]你这小子，竟然说北原有春天......
+[charslot(slot="m",name="avg_npc_094",focus="none")]
+[name="沉默的男孩"]是的，春天。只要我们能够抵达。
+[charslot(slot="m",name="avg_npc_094",focus="m")]
+[name="绝望的感染者"]只是因为你母亲是个瞎子，头脑也不清楚，逃过了一劫。
+[name="绝望的感染者"]她不用吃这流放的苦楚，你也不用把她像个无名之人一样埋葬，你才能乐观得像个疯子一样。
+[name="绝望的感染者"]但是，凭什么......
+[name="绝望的感染者"]究竟凭什么？
+[name="绝望的感染者"]凭什么就算同样是被流放的罪犯，像你这样的家伙就能受到优待，不用眼睁睁看着亲人一点点失去呼吸，一点点变得冰凉？
+[name="绝望的感染者"]就因为我在变成感染者之前，只是个随处可见的搬运工吗？
+[name="绝望的感染者"]我究竟做错了什么——你们又究竟做对了什么？
+[Dialog]
+[charslot]
+感染者低声呢喃着。他比任何人都想大声将这些话语喊出，却困于不远处那些押送者的残酷目光。
+少年摇了摇头，往感染者的方向走得更近了些。
+[charslot(slot="m",name="avg_npc_094",focus="none")]
+[name="沉默的少年"]......我享有优待，的确，而这甚至并非出自我自身的努力，实在惭愧。
+[name="沉默的少年"]但你提出的，也正是我想知道答案的问题。
+[charslot(slot="m",name="avg_npc_094",focus="m")]
+[name="绝望的感染者"]什么......？
+[charslot(slot="m",name="avg_npc_094",focus="none")]
+[name="沉默的少年"]为何有人生来优越，有人生来卑贱？究竟是什么使同为人类的存在彼此对立至此？要怎样做才能改变这样的现状？
+[name="沉默的少年"]我不知道。
+[name="沉默的少年"]但直觉告诉我，至少，我们应该先活下来，站起来。
+[name="沉默的少年"]站在一起，有了力气，才能继续思考问题所在，才能想出办法去改变些什么。
+[charslot(slot="m",name="avg_npc_094",focus="m")]
+[name="绝望的感染者"]你到底在说什么——
+[Dialog]
+[charslot]
+男孩突然抬起头，对上感染者惶惑的眼神。
+[charslot(slot="m",name="avg_npc_094",focus="none")]
+[name="沉默的少年"]您就当我是在说胡话吧。
+[name="沉默的少年"]我认为，像你们这样一无所有的人，其实才是这片大地真正的主人。
+[charslot(slot="m",name="avg_npc_094",focus="m")]
+[name="绝望的感染者"]......
+[charslot(slot="m",name="avg_npc_094",focus="none")]
+[name="沉默的少年"]至于现在，请来我的背上吧，先生。至少我还有力气，还能背着您走一段路。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_snow_2", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>乌萨斯，北原矿区第九矿场</><p=2>1099年 冬</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[Blocker(a=0.3, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_paper1",volume=1)]
+[delay(time=1.5)]
+[Subtitle(text="“......在伊比利亚，人们几乎从不将视线投向彼此，仿佛连眼神接触都是一种罪过，这样做便会背叛他们赖以维生的信条。", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“这种情形，我也曾在乌萨斯的矿区中见到，在莱塔尼亚的贫民窟里见到，在维多利亚的地下工厂内见到......", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“起初，我猜想他们或许是畏惧在那些黝黑憔悴的面容上看到与自己心中相似的绝望，后来，我发现只是因为除了生存的紧迫，他们眼中已经容不下更多。", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“既然是这样，那又有谁能责怪他们沉默，责怪他们看不见身边的同伴和更远的未来，无法站到一起，去对加害者的阶层挥起拳来呢？”", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="......", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“大地茫远，我走遍了乌萨斯，又走向其他地方。一路上，我仍然在对那些失去一切，或从不曾真正拥有什么的人说：‘你是这片大地真正的主人。’", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“在一切都尚未得到改变的如今，这与嘲笑别无二致，可我仍必须这样做。因为唯有先将种子种下，他们才有可能意识到这句话的真实，并使之在胸中萌芽。", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“因为一无所有，意味着再无可失去。无可失去带来最决绝的勇敢，我们之中的每个人，都具有这样的品质。”", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[PlaySound(key="$d_avg_paper1",volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$rungeneral",volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_1970_1#1$1",duration=1.5)]
+[Delay(time=2)]
+[name="利索的矿工"]头儿！
+[name="利索的矿工"]我们都收拾好了，随时可以启程。
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="none")]
+[name="若有所思的青年"]......唔。
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="m")]
+[name="利索的矿工"]头儿？
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="none")]
+[name="若有所思的青年"]啊——哦！对，我们要出发了。
+[name="若有所思的青年"]谢谢你来叫我，我也已经打包好——
+[name="若有所思的青年"]呃。
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="m")]
+[name="利索的矿工"]您又把这些东西翻出来看了？乱糟糟的，这可不行。我来帮您收拾吧。
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="none")]
+[name="若有所思的青年"]谢谢！
+[Dialog]
+[PlaySound(key="$d_avg_clothmovement",volume=1)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="m")]
+[name="利索的矿工"]我到矿区晚，从没见到过给你寄信的这个人。他真的都离开矿区了，还一直写信过来吗？
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="none")]
+[name="若有所思的青年"]是的。
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="m")]
+[name="利索的矿工"]我第一次听说有人这么眷恋矿区生活的。
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="none")]
+[name="若有所思的青年"]也许，他眷恋的不是矿区，而是在这里生活的人们。
+[name="若有所思的青年"]我记得，当赦免政治犯的消息传到北原时，他的第一反应不是欣喜，而是担忧。
+[name="若有所思的青年"]担忧我们这些人无法同他一起离开，担忧自己的想法还没能得到验证......
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="m")]
+[name="利索的矿工"]但最后他还是走了。
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="none")]
+[name="若有所思的青年"]当然。他说他要走遍乌萨斯，我们如今也要离开这里了，不是吗？
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="m")]
+[name="利索的矿工"]那我们就快出发吧，头儿。
+[name="利索的矿工"]对了，我一直听他们这样叫你，也就跟着叫了。但我总想着，您得有个自己的别的名字，是不是？
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="none")]
+[name="若有所思的青年"]原来我没有告诉过你吗？
+[name="若有所思的青年"]嗯......图林。你可以叫我图林。
+[charslot(slot="m",name="avg_npc_1970_1#1$1",focus="m")]
+[name="利索的矿工"]行啊，“图林”，这名字好听。来，我拉你起来。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_clothmovement",volume=1)]
+[Delay(time=1.5)]
+[name="图林"]谢谢......
+[name="图林"]嗯，我们还是快些动身吧。
+[name="图林"]趁雪还没下大，也趁那些坐在暖和房子里的大人物们还没改变主意。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="72_g10_hallway", screenadapt="coverall", block=true)]
+[Delay(time=2)]
+[playMusic(key="$darkness_03_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_both", pos = "-400,-200", block = false)]<p=1>乌萨斯，圣骏堡，帝国议会大厅外走廊</><p=2>1102年初 冬</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[Blocker(a=0.3, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_paper1",volume=1)]
+[Subtitle(text="“......据考证，闹事者在议会大厅中留下的、具有恶劣煽动性质的语句，皆出自雅科夫·彼得洛夫，一个在大叛乱中自食其果的战犯。", x=300, y=300, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“他于死刑囚牢中写下遗书......”", x=300, y=300, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“......卡托加区动乱始末：谁之过？怎么办？如何拯救这些一味反叛的年轻人？”", x=300, y=300, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="......", x=300, y=300, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“目前，议长已脱离生命危险，但刺杀事件凶手依旧在逃。", x=300, y=300, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“圣骏堡警察厅在此呼吁，请广大市民尽量减少在入夜后出门的频率，以免造成误解，给卫队的搜捕工作带来不便。”", x=300, y=300, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_188_helage_1#1$1",duration=1.5)]
+[Delay(time=2)]
+[name="严肃的军人"]（翻阅报纸）
+[charslot(slot="m",name="avg_npc_2169_1#1$1",focus="m")]
+[name="紧张的近侍"]......
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="严肃的军人"]（合上报纸）
+[charslot(slot="m",name="avg_npc_2169_1#1$1",focus="m")]
+[name="紧张的近侍"]......！
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="严肃的军人"]您好，先生。请问可以给我一份日期更新些的报纸吗？
+[charslot(slot="m",name="avg_npc_2169_1#1$1",focus="m")]
+[name="紧张的近侍"]呃，这——这可能需要申请。
+[name="紧张的近侍"]休憩处的报纸和书籍都是每日由专人负责更新维护的，我没办法从随便什么地方变一份出来给你。
+[name="紧张的近侍"]而且你是感染者，虽然被放进来了，但我不确定你是否被允许阅读这些东西——
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral",volume=1)]
+[Delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_2162_1#1$1",duration=1)]
+[Delay(time=1.5)]
+[name="匆忙的贵族"]咳！
+[charslot(slot="m",name="avg_npc_2169_1#1$1",focus="m")]
+[name="紧张的近侍"]瓦西里先生——将军阁下？
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="匆忙的贵族"]......在这里叫我副议长就好。感谢你的帮助，接下来这里由我负责。
+[charslot(slot="m",name="avg_npc_2169_1#1$1",focus="m")]
+[name="紧张的近侍"]什么？这位先生——这位先生难道是您的客人？
+[name="紧张的近侍"]天、天哪，我可真该死！对不起，尊敬的先生，我刚才竟然对您说了那样的话——
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="严肃的军人"]无妨，你说的是事实。
+[name="严肃的军人"]我的确是感染者。
+[charslot(slot="m",name="avg_npc_2169_1#1$1",focus="m")]
+[name="紧张的近侍"]那报纸，您，我、我——
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="匆忙的贵族"]唉，你就听我的，把这里交给我来负责吧！
+[Dialog]
+[charslot(slot="m",name="avg_npc_2169_1#1$1",focus="m")]
+[Delay(time=0.5)]
+[charslot(duration=1.5)]
+[PlaySound(key="$rungeneral",volume=1)]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_188_helage_1#3$1",focus="m")]
+[name="严肃的军人"]......
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="匆忙的贵族"]......
+[charslot(slot="m",name="avg_188_helage_1#2$1",focus="m")]
+[name="严肃的军人"]“将军阁下”？
+[charslot(slot="m",name="avg_npc_2162_1#4$1",focus="m")]
+[name="匆忙的贵族"]可别用它来笑话我啦......我能不能当上将军，您还不清楚吗？
+[charslot(slot="m",name="avg_188_helage_1#2$1",focus="m")]
+[name="严肃的军人"]你从前不是这样妄自菲薄的性格，瓦西里。
+[charslot(slot="m",name="avg_npc_2162_1#2$1",focus="m")]
+[name="瓦西里"]您从前也不像现在这样好说话呀，“长官”。
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="严肃的军人"]......现在站在你面前的，只有一个感染者，一介武夫，再没有近卫军的教官了。
+[name="严肃的军人"]你应该还记得我的名字，叫我赫拉格吧。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]好吧，赫拉格先生。再次回到圣骏堡的感觉怎么样？虽然现在的确不是一个旅游的好时候。
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="赫拉格"]这里比我想象的要安静些。许多事都变了，甚至看不到太多上个时代的痕迹。
+[charslot(slot="m",name="avg_npc_2162_1#3$1",focus="m")]
+[name="瓦西里"]是啊，很多事都变了。谁又能轻言这样的变化是好是坏呢。
+[name="瓦西里"]商人们变得更富有，城市都跟着变得漂亮了。可人们也越来越不重视谦逊，还有别的什么美德了。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]您或许听说了，我们的陛下最近还要组建“公民大会”，把政策的决定权交到圣骏堡随便哪个市民的手里去。
+[name="瓦西里"]现在人们可以说，贵族们终于连最后一点工作都不用做，要交给平民了。
+[charslot(slot="m",name="avg_188_helage_1#9$1",focus="m")]
+[name="赫拉格"]看来你对此事是不赞同的。
+[charslot(slot="m",name="avg_npc_2162_1#4$1",focus="m")]
+[name="瓦西里"]赞不赞同又能有什么用呢，如果有人，能解决摆在眼前一桩桩一件件的难题，无论是谁都好啊。
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="赫拉格"]这可不像是实权在握的副议长会说的话。
+[charslot(slot="m",name="avg_npc_2162_1#3$1",focus="m")]
+[name="瓦西里"]我从来也不是什么锋芒毕露的人，您是知道的呀。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]说起来，进城的时候，他们竟然没有把您的刀收缴起来？
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="赫拉格"]哦，这个。只是记录在册了，没有受到太多额外的“关照”。也许因为它只是个仿制品，并未开刃，就连废铁也算不上。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]真刀呢？
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="赫拉格"]托付给我信任的人了。
+[charslot(slot="m",name="avg_npc_2162_1#3$1",focus="m")]
+[name="瓦西里"]信任的人吗......
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="赫拉格"]我听说你也有一个女儿。
+[charslot(slot="m",name="avg_npc_2162_1#2$1",focus="m")]
+[name="瓦西里"]是啊，一会儿有机会的话，我会介绍她给您认识。她听过您的事迹，对您很崇敬。
+[name="瓦西里"]应该说，不止是她，如今的近卫军里还有不少人记得您的名字。
+[name="瓦西里"]我们安定了有些年头，但那些故事依然像一面旗帜。等您方便的时候，我可以请您去近卫军的军校里坐坐。
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="赫拉格"]我为你对那些牺牲的铭记表示感谢，可我的确无意再被视作什么旗帜。
+[name="赫拉格"]我此行另有目的，想必你已经对罗德岛驻圣骏堡办事处的建立有所耳闻。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]我知道，我还替议长签署了好些文件呢。
+[charslot(slot="m",name="avg_npc_2162_1#4$1",focus="m")]
+[name="瓦西里"]唉......就算我们对感染者的政策有所松动，现下关于感染者的矛盾依然尖锐。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]不过，关于您——我很乐意借此机会，在圣骏堡为您恢复名誉。
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="赫拉格"]我并不需要乌萨斯恢复我的身份和名誉。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]那您需要什么呢？
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="赫拉格"]就当下而言，罗德岛的需要，就是我的需要。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]更具体的，您的意思是——
+[charslot(slot="m",name="avg_188_helage_1#3$1",focus="m")]
+[name="赫拉格"]“请转告维特议长，罗德岛的指定人员已应约前往圣骏堡。”
+[name="赫拉格"]算算时间，他们应该已经到办事处了。
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]啊......
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral",volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_082",duration=1.5)]
+[Delay(time=2)]
+[name="慌张的士兵"]议长——
+[name="慌张的士兵"]议长在这里吗？！
+[charslot(slot="m",name="avg_npc_2162_1#1$1",focus="m")]
+[name="瓦西里"]我是副议长，你要做什么？
+[charslot(slot="m",name="avg_npc_082",focus="m")]
+[name="慌张的士兵"]我有、我有报告！
+[name="慌张的士兵"]第、第一集团军——
+[Dialog]
+[charslot]
+士兵磕磕绊绊地说出一个名词，却在眼神扫向一旁的赫拉格时猛地怔住了。
+瓦西里摇了摇头，向他示意无事。
+[charslot(slot="m",name="avg_npc_2162_1#9$1",focus="m")]
+[name="瓦西里"]第一集团军怎么了？
+[charslot(slot="m",name="avg_npc_082",focus="m")]
+[name="慌张的士兵"]第一集团军研发的新型大规模杀伤性武器，试、试爆成功了！
+[charslot(slot="m",name="avg_npc_2162_1#9$1",focus="m")]
+[name="瓦西里"]这有什么问题？
+[charslot(slot="m",name="avg_npc_082",focus="m")]
+[name="慌张的士兵"]问题是，这武器没有使用源石，或者之前我们使用过的任何能源作为动力！
+[charslot(slot="m",name="avg_npc_2162_1#5$1",focus="m")]
+[name="瓦西里"]......你说什么？
+[charslot(slot="m",name="avg_188_helage_1#1$1",focus="m")]
+[name="赫拉格"]......
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Image]

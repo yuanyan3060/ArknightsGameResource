@@ -1,0 +1,695 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_black",screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[playMusic(key="$wasteland_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[Sticker(id="st1", multi = true, text="如果你有机会，为之后兴起的文明留下一点可以解读的语言，你会留下什么？", x=180,y=200,  alignment="left", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1")]
+[Sticker(id="st1", multi = true, text="为什么突然问起这个，这是你最近看到的性格测试吗？", x=500,y=350,  alignment="left", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1")]
+[Sticker(id="st1", multi = true, text="让我认真想想......思衡托原理怎么样？一套完整通用的语言或许是文明通往下个阶段最好的阶梯。", x=500,y=350,  alignment="left", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1")]
+[Sticker(id="st1", multi = true, text="那么，你呢？", x=500,y=350,  alignment="left", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1")]
+[Sticker(id="st1", multi = true, text="也许......是一首诗......", x=180,y=200,  alignment="left", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="60_g2_rhodeslivingroom_bc",screenadapt="showall")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=0.5)]
+[charslot(slot = "l", name = "avg_npc_1360_1#1$1", duration=0.7)]
+[charslot(slot = "r", name = "avg_npc_1718_1#1$1", duration=0.7)]
+[Delay(time=1)]
+[charslot(slot = "r", name = "avg_npc_1718_1#1$1", focus="r")]
+[name="普瑞赛斯"]AMa-10的环境适应性测试成果很不错，也许很快我们就可以带这个小家伙去地面上走一走了。
+[name="普瑞赛斯"]{@nickname}......啊，原来你在挑选要导入储存模块中的诗集？
+[charslot(slot = "l", name = "avg_npc_1360_1#1$1", focus="l")]
+[name="预言家"]我想这也许是那个经历过寂静的时代最需要的东西，后来的生命需要一些助力陪伴他们度过文明初肇时期的困苦。
+[name="预言家"]我也想过将万亿颗星球组成的星图装在AMa-10的储存模块中，提醒他们这片星空原本应有的样子。
+[name="预言家"]但是那太庞大，也太遥远，再辽阔的星空也不能慰藉近在眼前的孤独。
+[name="预言家"]我希望他们能够从这些语言中看到世界的美，听到生命本能发出的呼喊......也希望他们能够认同，这些的确是美的。
+[charslot(slot = "r", name = "avg_npc_1718_1#1$1", focus="r")]
+[name="普瑞赛斯"]虽然这原本不在AMa-10的预期功能之内，但我也很喜欢这样浪漫的小设计。
+[name="普瑞赛斯"]我知道，你从来不掩饰自己在一众研究项目中对AMa-10的偏爱，因为它最接近生命的形态，对吗？
+[charslot(slot = "l", name = "avg_npc_1360_1#1$1", focus="l")]
+[name="预言家"]我不确定......这是否是生命应有的形态。
+[charslot(slot = "r", name = "avg_npc_1718_1#10$1", focus="r")]
+[name="普瑞赛斯"]你对AMa-10，还有遥远的未来，都怀有期许。这样的期许又何尝不是一份沉重的馈赠呢？
+[charslot(slot = "l", name = "avg_npc_1360_1#1$1", focus="l")]
+[name="预言家"]也许我们永远没有资格向之后的人们馈赠什么，我们不曾拥有这个宇宙，只是时间的过客。
+[name="预言家"]我们倾尽所有时间与智识，所能做到的也不过是试图向后来者论证，生命有存续的价值。
+[charslot(slot = "r", name = "avg_npc_1718_1#10$1", focus="r")]
+[name="普瑞赛斯"]我们已经找到了自己的答案，希望这个小家伙足够聪明，可以理解这一份使命。
+[charslot(slot = "r", name = "avg_npc_1718_1#9$1", focus="r")]
+[name="普瑞赛斯"]我也很期待，在那个遥远的将来，它又会以怎样的方式对下一个文明传颂我们的诗篇呢？
+[charslot(slot = "r", name = "avg_npc_1718_1#1$1", focus="r")]
+[name="普瑞赛斯"]AMa-10，能够理解这些诗歌吗？
+[charslot(slot = "l", name = "avg_npc_1360_1#1$1", focus="l")]
+[name="预言家"]我相信，你会理解的，对吗？
+[Dialog]
+[bgeffect(name="$eb_073_blink_02",layer = 1)]
+[delay(time=0.5)]
+[charslot]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_1360_1#1$1", focus="m")]
+[PlaySound(key="$d_avg_microrobot", volume=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=false)]
+[bgeffect(name="$eb_073_blink_01",layer = 1)]
+[delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_1360_1#1$1", focus="m")]
+[name="预言家"]AMa-10，带着希望活下去，这是我能送给你最好的祝愿。
+[name="预言家"]我们穷尽了自己的极限，但依然无法揭开这个宇宙中最深邃的帷幕，关于“生命”的谜团。
+[name="预言家"]我们不知它为何会在茫茫宇宙中诞生，又为何会如同烛火般轻易被熄灭。
+[name="预言家"]可你们也许能够做到，揭开那道令人绝望的帷幕，就如同人第一次发现火。
+[name="预言家"]活下去......你会见到那个未来的。
+[Dialog]
+[charslot(duration=0.7)]
+[delay(time=1.5)]
+[Background(image="bg_black", screenadapt="coverall", fadetime=5,block=false)]
+[delay(time=1.5)]
+舷窗外，数万颗同轨卫星的矩阵还在闪烁着光芒，那是永夜降临前文明最后的信标。在这艘仅剩的方舟上，学者们依然谈论着希望。
+可是那些星星的确在逐渐凋零，没有人可以改变这一事实。
+随后，黑暗的潮汐如期而至。仅仅是一点浪花，就足以熄灭这个曾经辉煌过的文明的余晖。
+[Dialog]
+[stopmusic(fadetime=2)]
+[delay(time=2)]
+[charslot]
+[delay(time=2)]
+[PlaySound(key="$d_avg_sand_lp", volume=0, loop=true, channel="sa")]
+[PlaySound(key="$d_avg_wind_howling", volume=0, loop=true, channel="wi")]
+[SoundVolume(volume=0.3, channel="sa",fadetime=2)]
+[SoundVolume(volume=0.3, channel="wi",fadetime=2)]
+[playMusic(key="$m_sys_act15main_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[SoundVolume(channel="wi",volume=0,fadetime=3)]
+[SoundVolume(channel="sa",volume=0,fadetime=3)]
+[Delay(time=2)]
+......漫长的等待。
+[Dialog]
+[name="预言家"]你还在这里，AMa-10。
+[name="预言家"]正好，陪我走走吧......
+[name="预言家"]现在，只剩下我一个了，对吗？
+[Dialog]
+[stopsound(channel="wi", fadetime=1)]
+[stopsound(channel="sa", fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[bgeffect(name="$eb_073_blink_02",layer = 1)]
+[charslot]
+[Background(image="60_g5_rhodesabyss_c",screenadapt="coverall")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_microrobot", volume=1)]
+[bgeffect(name="$eb_073_blink_01",layer = 1)]
+[Delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_1360_1#1$1", focus="m")]
+[name="预言家"]“灰质销钉”......
+[name="预言家"]我又如何能否认......我的所作所为的确是一种背叛。
+[name="预言家"]如果这就是你对我背叛的惩罚。我很遗憾......但我也会接受。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_mechalockthree", volume=1)]
+[Delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_1360_1#1$1", focus="m")]
+[name="预言家"]我应该出去看看，观测这颗星球现在的状态，也许还能找到一些意料之外的发现。
+[name="预言家"]恐怕我很难再回到这里了，可是为了让这副躯体还有足够的时间去探索......
+[name="预言家"]也许......我还能找到......另一个石棺......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_desert03_d",screenadapt="coverall")]
+[delay(time=1)]
+[PlaySound(key="$d_avg_footstepaway_sand", volume=1, loop=true, channel="sd")]
+[SoundVolume(volume=1, fadetime=2,channel="sd")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+学者踏上了不知尽头的旅途。
+学者不习惯于开口，或许是因为身边同样沉默的机械实在算不上一个理想的交谈对象。
+学者总是默然观察这片大地上的一切，时而因一些微小的发现而欣喜若狂。
+有些时候，学者会习惯性地呼喊，对着山谷呼喊，对着雪原呼喊，声嘶力竭。
+语言已经失去了意义，这里不存在可以交流的对象，自然没有人可以理解这样出于绝望的行为。
+这片大地也从未回应学者的热情，它寂静得如宇宙本身。
+[Dialog]
+[StopSound(channel="sd", fadetime=2)]
+[Background(image="bg_desert03_n", screenadapt="coverall", fadetime=2,block=true)]
+[Delay(time=1.5)]
+而更多时候，学者只是对着夜晚的星空沉默。
+学者也许叫得出目之所及每一颗闪烁着的星星的名字，那些没来得及存放在AMa-10的储存模块中的星图清晰地存在于学者的脑海。
+“看啊，那些死亡与新生的星星，或许我们可以从中解读宇宙的诗篇。”
+学者伸出一根手指，在夜空中描摹着自己与她曾经在群星间进行的每一次旅途，这或许不失为一种消磨时间的游戏。
+可是时间也已经失去了意义。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2.5, block=true)]
+[delay(time=0.5)]
+[charslot]
+[Background]
+[Image(image="73_i27",screenadapt="coverall",fadetime=0,block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+直到某一天，或许是在这颗星球上经历了上万个夜晚之后。
+一颗流星，划过了西北方向的夜空，在群星间留下了一道刺眼的灼痕。
+[Dialog]
+[Delay(time=1)]
+[name="预言家"]啊......啊......！
+学者嗫嚅着，满是沧桑的面颊上流下兴奋的泪水。
+[Dialog]
+[PlaySound(key="$d_avg_openftstprun", volume=1, loop=true, channel="a")]
+[StopSound(channel="a", fadetime=2.5)]
+[Delay(time=2)]
+[PlaySound(key="$bodyfalldown2", volume=1)]
+[delay(time=1)]
+学者欣喜若狂，颤抖着爬起，拔足向流星坠落的方向狂奔而去，可是没有跑出去几步路，就跌倒在地。
+学者已经没有更多的力气完成这一趟旅行了。
+[name="预言家"]AMa-10......拉我一把吧。
+[Dialog]
+[PlaySound(key="$d_avg_machineactive", volume=1, loop=true, channel="ma")]
+[StopSound(channel="ma", fadetime=2)]
+[Delay(time=1.5)]
+[name="预言家"]是啊......我已经太疲惫了。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2.5, block=true)]
+[charslot]
+[image]
+[Background(image="49_g11_rhodesdeck_bc",screenadapt="coverall")]
+[charslot(slot = "m", name = "avg_npc_1360_1#1$1", focus="m")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_1360_1#1$1", focus="m")]
+[name="预言家"]......我们应该向后来的人论证生命有延续的价值，而非留下一块静滞的墓碑。
+[name="预言家"]我曾想过，“生命”，这一由我们创造的词语，在宇宙中或许存在别的定义。
+[name="预言家"]我们想要解开生命起源的谜团，意义不仅限于排解让我们无所适从的孤独......
+[name="预言家"]“生命”存在的意义，也许超过我们自身。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2.5, block=true)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+......
+[name="预言家"]我相信他们。相信你，凯尔希。
+[name="预言家"]凯尔希......我时间不多了。
+[name="预言家"]去寻找生命的痕迹，去寻找希望与未来。
+[name="预言家"]凯尔希......自己去得出答案吧。
+[name="预言家"]去找到你自己。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[bgeffect(name="$eb_073_blink_02",layer = 1)]
+[charslot]
+[Background(image="60_g5_rhodesabyss_c",screenadapt="coverall")]
+[BackgroundTween(xScaleFrom=1, xScaleTo=1.3, yScaleFrom=1, yScaleTo=1.3, duration=45, ease="OutQuad",block=false)]
+[delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_microrobot", volume=1)]
+[bgeffect(name="$eb_073_blink_01",layer = 1)]
+[Delay(time=1.5)]
+于是，学者回到了那一方安静且坚硬的棺柩。
+[Dialog]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=20, block=false)]
+[PlaySound(key="$d_avg_mechalockthree", volume=1)]
+[Delay(time=1.5)]
+精巧的机械造物停留在石棺旁，它需要一点时间，来慢慢消化学者留下的话语。
+它等待了与上次同样长的时间，甚至更久，直到它终于相信，躺在这方石棺中的人在“短时间”内不会再醒来。
+它想到了学者留下的嘱托。
+于是，它只能选择出发。
+[Dialog]
+[playsound(key="$d_avg_mechalock", volume=0.8)]
+[playsound(key="$d_avg_robotwalk", volume=1,delay=1)]
+[delay(time=2)]
+[Dialog]
+[stopmusic(fadetime=2)]
+[Background(image="bg_black", screenadapt="coverall", fadetime=3,block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background]
+[Background(image="bg_wilderness_m",screenadapt="coverall")]
+[bgeffect(name="$eb_073_blink_02",layer = 1)]
+[delay(time=2)]
+[playMusic(intro="$act18d0d0_intro",key="$act18d0d0_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_microrobot", volume=1)]
+[bgeffect(name="$eb_073_blink_01",layer = 1)]
+[Delay(time=1.5)]
+在它等待的漫长时间里，源石已然遍布这颗星球的每一处，眼前的景象再次变得陌生起来。
+它从这颗星球的南方出发，一路向北方走去。
+它要去追寻那颗带来希望的流星的痕迹。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_snowfield_1",screenadapt="coverall")]
+[delay(time=1)]
+[PlaySound(key="$d_avg_snowstormflp", volume=0, loop=true, channel="sn")]
+[SoundVolume(volume=1, channel="sn",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=0.5)]
+终于，几乎是在大地北方的尽头，它发现了植物的种子被收集起来的迹象。
+那是生命的痕迹。
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="（未知语言）你好。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[name="懵懂的生物"]（模仿的声音）
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="（未知语言）我可以带你们，去找最近的水源。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[name="懵懂的生物"]（困惑的声音）
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="不用害怕，这是属于你们的家园。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="这里是泰拉。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=1.5)]
+[Dialog]
+[StopSound(channel="sn", fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2.5, block=true)]
+[charslot]
+[Background(image="bg_iceforest_2",screenadapt="coverall")]
+[delay(time=2)]
+[PlaySound(key="$d_avg_snowfall", volume=0.7)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_hencrow", volume=1)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",duration=1)]
+[Delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="聒噪的鸟类"]凯尔希！凯尔希！
+[name="聒噪的鸟类"]我帮你找来了这些，你应该帮我们消灭那些爬行族的长毛兽！
+[name="聒噪的鸟类"]它们抢占了树林里大部分水源，还有果实！
+[name="聒噪的鸟类"]你应该立即消灭它们！
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="我不会这么做。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="聒噪的鸟类"]为什么！
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="外部力量的强行干预会使文明发展变得扭曲，这不符合我的使命。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="聒噪的鸟类"]可是我帮你找了很多你“研究”需要的虫子！
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="谢谢你，但我很抱歉。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="聒噪的鸟类"]我一点也听不明白！什么叫“使命”，你说的“文明”是什么，凯尔希？
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="也许......是一种秩序。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="它存在的形式多样，无法被简单定义。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="它是生命自然行为规律化产生的客观结果，文明这个词语，只是对过往现象的总结。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="它是一切生命族群持续存在所必需的，它可以为生命提供保护，但其自身又十分脆弱。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="聒噪的鸟类"]就像是风一吹就倒的巢。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="的确如此。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="聒噪的鸟类"]可你难道不觉得，即使要搭建这样的巢，也应该是我们这样飞在天上的种群来做？这可是我们的长项！
+[name="聒噪的鸟类"]我答应你！只要你帮我们赶跑那些长毛兽，让我们占领这一片树林，我们就帮你搭建你想要的“巢”！
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="生命是平等的，我不会剥夺任何一个族群繁衍壮大的机会。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="聒噪的鸟类"]可是那些丑陋的东西难道与我们平等？它们可没有学会你的语言！
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="恐怕我无法仅凭此做出判断。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="聒噪的鸟类"]你真是一个蠢笨的动物。
+[name="聒噪的鸟类"]等一下......这是什么？山里面居然埋着这样黑乎乎的石头，我可从来没有见过这样黑乎乎的石头！
+[name="聒噪的鸟类"]凯尔希，这是什么？
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="......", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=1.5)]
+[Dialog]
+[PlaySound(key="$d_avg_microrobot", volume=1)]
+[bgeffect(name="$eb_073_blink_02",layer = 1)]
+[delay(time=2)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+那是预言家陷入沉睡两千多年后的某一天。
+这颗星球上新生的生命，在大地北方的一隅，发现了预言家最终都未能找到的......
+另一座石棺。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[charslot]
+[Background(image="bg_snowfield_1",screenadapt="coverall")]
+[delay(time=1)]
+[bgeffect(name="$eb_blizzard",layer=1)]
+[PlaySound(key="$d_avg_snowstormlp",volume=0, loop=true, channel="wdd")]
+[SoundVolume(volume=0.7,channel="wdd", fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3)]
+[curtain(direction = 0,fillfrom =0.9,fillto =0.4,grad=true,fadetime=2)]
+[curtain(direction = 4,fillfrom =0.9,fillto =0.4,grad=true,fadetime=2)]
+[delay(time=2.5)]
+[curtain(direction = 0,fillfrom =0.4,fillto =0,grad=true,fadetime=1.5)]
+[curtain(direction = 4,fillfrom =0.4,fillto =0,grad=true,fadetime=1.5)]
+[delay(time=2.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="疲惫的鸟类"]就到这吧，凯尔希。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="为什么？", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="我们约定好了，要借助石棺，治好你的伤。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="我们已经很近了。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="疲惫的鸟类"]就算治好了我的伤，我也是一只很老的鸡了。我可从来没有见过活得和我一样长的鸡。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="至少在这个时间，你的族群还需要你。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="我需要你向它们发出预警，否则这个寒冷的冬天会杀死你所有的同族。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="疲惫的鸟类"]这难道就是......我的“使命”？
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="我没有办法强迫你去做这件事。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="疲惫的鸟类"]算了吧，凯尔希......
+[name="疲惫的鸟类"]我不想，变得和你一样。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="......", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="疲惫的鸟类"]别误会，凯尔希......我很喜欢你，虽然我不喜欢你变成四足毛兽的样子。
+[name="疲惫的鸟类"]可是......我真的很累，身上的每一根羽毛都难受极了，我再也不想飞了。
+[name="疲惫的鸟类"]我希望你永远都不懂这种感觉......
+[name="疲惫的鸟类"]凯尔希......你有找到你的“巢”吗？
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="我不确定。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="这片大地如今已经有了许多生命的足迹，可它们的行为还没有完全超越生命最原始的本能。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="疲惫的鸟类"]真没有巢的话，你又该怎么度过这个冬天呢？
+[name="疲惫的鸟类"]真是冷起来了......凯尔希，你还有什么能做的，能让我好受一点吗？
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="我可以为你念一首诗。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2258_1#1$1",focus="m")]
+[name="疲惫的鸟类"]你又要提起那些我听不明白的“咒语”了。
+[name="疲惫的鸟类"]好吧，念吧......你的声音总比冷风呼啸的声音好听。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Sticker(id="st1", multi = true, text="<i>人们总会对生命倾注爱意，也渴求从希望或恐惧中获得解脱。以至于他们选择向目所未睹的神明祈祷......</i>", x=300,y=290, alignment="center", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n<i>——祈祷生命永不陨落。</i>",block = true)]
+[Sticker(id="st1")]
+[Sticker(id="st1", multi = true, text="<i>但这又如何能够如愿呢？连最疲惫的河流也终将汇入大海。</i>", x=300,y=290, alignment="center", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n<i>最后的时刻到来那天，连日月星辰的光芒都会变得黯淡......不再有水波摇曳的声音，一切的声响与景色都已消失。</i>",block = true)]
+[Sticker(id="st1")]
+[Sticker(id="st1", multi = true, text="<i>不再有冬叶或春色，日与夜的界限也就此模糊——</i>", x=300,y=290, alignment="center", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n<i>唯独剩下了永恒长夜中无尽的沉睡。</i>",block = true)]
+[Sticker(id="st1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[Dialog]
+[curtain(direction = 0,fillfrom =0.01,fillto =0.9,grad=true,fadetime=4)]
+[curtain(direction = 4,fillfrom =0.01,fillto =0.9,grad=true,fadetime=4)]
+[StopSound(channel="wdd", fadetime=2)]
+[delay(time=4)]
+[charslot]
+[bgeffect]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=1)]
+[curtain]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="疲惫的鸟类"]再见，凯尔希。
+鸟类停下了它未竟的征途，她只好将这位同行多年的同伴埋葬在了距离石棺不远处的冻土下。
+她没能在属于它的族群中找到另一个可以沟通的个体，所以未能及时发出警告，而那个族群也没有走出那个冬天。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="40_g6_mountaincave",screenadapt="coverall")]
+[focusout(duration=0.1, type="bg", from=0, to=1, block=true)]
+[delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[focusout(duration=1.5, type="bg", from=1, to=0, block=true)]
+[delay(time=1)]
+又过了很久很久......
+再一次发现这一处遗迹的，是一支已经学会手持长矛的部族。
+率先发现此处的先民部族将其视作神迹，对其日夜祷告叩拜。而神迹的消息不胫而走，立即吸引来了其他几支部落。
+[Dialog]
+[PlaySound(key="$d_avg_battlefield_environment",volume=0, loop=true, channel="ft")]
+[SoundVolume(volume=0.6,channel="ft", fadetime=2)]
+[delay(time=1.5)]
+人们将这不知用处的神迹当作比水源更珍惜的资源，各方用着彼此都听不懂的言语争论不休，冲突很快演变为杀戮，乃至屠杀。
+最先发现此处的部落最先被驱逐出了这里，仅剩不足一成人带着族群中的孩子远走别处。
+[Dialog]
+[StopSound(channel="ft", fadetime=2)]
+[delay(time=1.5)]
+最终占据这里的部落同样付出了惨痛的代价，不及他们为胜利庆祝，遍地尸体引发的瘟疫很快杀死了每一个幸存的人。
+这一切本不该发生......可是该如何阻止这一切？
+这就是，自己应该去保护的文明？
+也许他们并不低劣，他们无法凭仅有的知识对眼前的状况做出理性的抉择。
+也许他们离那个辉煌的文明只是隔着时间，自己不该得出眼前年轻的文明应当被放弃的结论。
+可是为什么......自己会为这一切感到悲伤？
+[Dialog]
+[delay(time=1)]
+也许应该试着......把关于这座石棺的一切知识都写在岩壁上。
+[Dialog]
+[playsound(key="$d_avg_stnecrve")]
+[playsound(key="$d_avg_stnecrve",channel="a",delay=1.5)]
+[delay(time=2.5)]
+从最基本的数理知识，到这个宇宙间能量流动的法则......不，还应当从最基本的符号学开始写起。
+她想要将这些蕴含知识的文字尽数刻在这方岩壁上。
+当再有后来者发现这一处遗迹时，就理应知晓自己该做的事是学习，而非无意义的杀戮。
+......可是这一座山太小了。
+它太过渺小，根本放不下那么长的时间。
+她无可奈何，只好将这份来自上一个文明沉重的馈赠，再次深埋地下。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Background(image="bg_snow_2",screenadapt="coverall")]
+[focusout(duration=0.1, type="bg", from=0, to=1, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[focusout(duration=1.5, type="bg", from=1, to=0, block=true)]
+[delay(time=1)]
+[name="骏鹰的国王"]就在这附近了吧。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="你确定要这么做？", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[name="骏鹰的国王"]当然，当然......我曾经坐拥万物，如今却一无所有。我仅剩的，也只有这一点无可隐瞒的真心。
+[name="骏鹰的国王"]我想我已经明白，这片大地上没有永恒的王权，我但求足够长久的生命，让我有足够的时间思考，关于这片大地的真理。
+[name="骏鹰的国王"]伟大的先知，永恒的智者，我至爱的星星......请你告诉我......
+[name="骏鹰的国王"]我已经征服了辽阔的土地，掠夺来一辈子也消耗不尽的粮食与财富，王国往后千秋万代的子民都会传颂我的名。
+[name="骏鹰的国王"]......可是为何，我还是会感到如此地迷惘。难道除了这些，我们的生命依然有别的目的？
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="对不起，我也不知道这个问题的答案。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[name="骏鹰的国王"]就连你也无法给出答案，这片大地上恐怕没有人能够回答这个问题了。
+[name="骏鹰的国王"]那么，如果我走入这座棺柩，是否就能得到这个答案？
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="如果你进入了这里，不一定能得到你想要的答案。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="但你一定会失去你所拥有的一切，你会斩断与这世上一切的联系。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="你将无法再作为一个“人”而活着。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[name="骏鹰的国王"]也许，那正是我需要的。
+没有任何犹豫，国王走入了棺柩。
+[Dialog]
+[PlaySound(key="$d_avg_mechwarrior", volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2.5, block=true)]
+[charslot]
+[Background(image="bg_snow_2",screenadapt="coverall")]
+[focusout(duration=0.1, type="bg", from=0, to=1, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[focusout(duration=1.5, type="bg", from=1, to=0, block=true)]
+[delay(time=1)]
+[playsound(key="$d_avg_wing", volume=0.6)]
+[delay(time=1.5)]
+不多时，石棺再次打开，从中飞出一只长有健壮的双翅的生物，那是生命数千年前的模样。
+[Dialog]
+[PlaySound(key="$d_avg_falcon", volume=1)]
+[delay(time=1)]
+已经得到解脱的神民盘旋在空中，久久注视着它脚下的土地，终于，它发出一声嘹亮的啼鸣，冲上了云霄中，消失不见。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Image(image="pic_rogue_3_28", screenadapt="coverall",fadetime=0, block=true)]
+[focusout(duration=0.1, type="bg", from=0, to=1, block=true)]
+[delay(time=1)]
+[playsound(key="$d_avg_snowstormlp", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.8, channel="bgs",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[focusout(duration=2, type="bg", from=1, to=0, block=true)]
+[delay(time=1)]
+[name="萨米的意志"]许久不见了，凯尔希。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="我来寻求您的帮助。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="北方星门逸散的污染日益严重，这是现在的人们还无法处理的棘手难题。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="如果没有您的帮助，这些来自域外的威胁会是终结这片大地上所有生灵的灾难。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[name="萨米的意志"]你的确是变了，凯尔希。
+[name="萨米的意志"]曾经的你不会如此迫切地插手这些年轻的族群的生存。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="这片大地算得上残忍，它对这些拙稚的文明从来没有丝毫仁慈。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="泰拉的生命，需要一些帮助。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[name="萨米的意志"]凯尔希，我听到的，是一个文明守护者的邀请，还是一个来自泰拉的生灵的请求？
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="我只是代替一个摇摇欲坠的文明向你发出求助的信号。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="在这个尺度下，我是谁并不重要。", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[name="萨米的意志"]你总是习惯将自己排除在外，凯尔希......我还记得在数千年前，你第一次踏足这片土地时的模样，与现在大不相同。
+[name="萨米的意志"]凯尔希......看看你现在的模样......时间将你塑造成了现在的模样。
+[Dialog]
+[StopSound(channel="bgs", fadetime=3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[image]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+长生的漂泊之人垂下头，镜子般的湖泊中倒映出漫天繁星，还有一副略显疲惫的面容。
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[image]

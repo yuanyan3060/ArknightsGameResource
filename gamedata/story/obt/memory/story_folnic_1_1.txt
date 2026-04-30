@@ -1,0 +1,659 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_rhodeslounge",screenadapt="coverall")]
+[Delay(time=1)]
+[playMusic(key="$normal_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......小心。
+[charslot(slot = "m", name = "char_345_folnic_1#3")]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=15, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[name="亚叶"]哇！
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]呼......谢谢。这堆报告太多了，怎么都放不好。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]欸？是泥岩啊，你刚回来？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]这次外勤去了多久，快一个月了吧？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]嗯，这次还挺久的，不过接下来可以休息了。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]亚叶医生，你看起来......状态不太好。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]有吗？大概是这两天咖啡喝多了，气色不太好。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你又在勉强自己了。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]没有啦，只是最近确实有点忙。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]我们组织了一支前往乌萨斯的队伍，本舰的人现在都忙得不可开交呢。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]啊，现在得叫总部才对......不过反正你也能理解，对吧？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]嗯。乌萨斯？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]很快就会正式公布了，直接告诉你也没关系。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]阿米娅和博士打算组织一支精锐队伍前往乌萨斯。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......难怪我回来的时候感觉大家都很忙。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]那我就——
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]等一下，泥岩。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]？
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]那个......你现在有空吗？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]怎么了？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]帮我个忙吧。我想在食堂举办一场派对。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]派对？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]对，我想邀请几个马上要前往乌萨斯的朋友。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]这和我有什么关系？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]我需要一些帮手。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......亚叶医生，我想你应该知道，以我们之间的关系......
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我是那个合适的人选吗？我可以帮你筹办派对吗？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]在沃伦姆德发生的事情......
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]我记得，我都记得。那时候我甚至想过要用药剂......
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......你说话还是很直接。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]现在也一样。虽然你那时并没有做出伤人的举动，但如果你的源石技艺失控威胁到罗德岛，我还是会毫不犹豫地对你采取措施。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我相信你会的。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]所以，为什么......？
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]正因为我们不那么熟，甚至可以说......正因为我们曾经立场不同，我想，现在才是最好的机会。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......好吧。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="bg_rhodescorner",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......要找什么来着？
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]一个箱子，上面应该写了我的名字......说起来，真不可思议。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]什么？
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]我们就这么在同一个地方工作了几年。
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......是你劝我留下的。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]我也犹豫过。我问过自己，我能不能忍受跟你们在同一个地方生活。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]没想到都过了这么久了。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]那你得出答案了吗？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]还没有，不过至少我刚才邀请你的时候，没有觉得怎么样。
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[delay(time=1.5)]
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]找到了，在这。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我来吧。
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_dragsofa", volume=1)]
+[delay(time=6)]
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]这是什么？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]一些我来到罗德岛时带的行李，先前外派到办事处，离开本舰时，我把它们都带走了。现在想起来，好像是某种预兆。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]......
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]我是不是没跟你说过，我是怎么来到罗德岛的？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]好像说过一次，你只提到是凯尔希医生派人去乌萨斯把你接过来的。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]嗯，那时候，罗德岛才刚刚成立呢，距离后来的切尔诺伯格行动也还有一段时间。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]听说凯尔希老师要带我走，我还以为要去什么地方，就一股脑地准备了许多根本派不上用场的东西，比如这个——
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]这是......乌萨斯的便携式源石炉？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]帮我把它拆开，我要看看里面的喷嘴还能不能用。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]这种型号很老旧了。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]现在罗德岛配备的源石电能加热模块，体积只有它的三分之一，加热效率却是它的两倍。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]我要用它给大家煮一锅汤。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]为什么非要用这个？
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]泥岩，你去过乌萨斯的冻原吗？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我只是听说过。那是连源石技艺都会被冻结的死地。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]没错。在真正的极寒面前，那些精密的器械并不可靠。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]当气温降到零下五十度，当源石风暴切断了所有电路的时候......
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]只有这种丑陋的、笨重的、燃烧着液化源石的东西，才能救你的命。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]小时候，我觉得这股气味很难闻，熏得人流眼泪。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]但现在......我觉得它很让人安心。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]只要这团火还能被点燃，就意味着我还没被那片白色的地狱吞噬。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你对这个炉子这么执着，不仅仅是为了煮汤吧。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]当然。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]我要确保它能一次就点燃，没有任何故障。
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_lighter", volume=0.7)]
+[delay(time=3)]
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]看，它还很有活力。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]就像我母亲当年一样。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]可惜我没有我母亲那么勇敢。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......至少，在沃伦姆德，你敢于直面那些暴徒。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]那是鲁莽。老师说过，只有活下来的人才有资格谈勇敢。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]泥岩，你知道吗？罗德岛的加热器虽然高效，但煮出来的东西总是少了一点味道。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]那种带着一点点烟熏味，汤汁在猛火下翻滚，把肉香完全逼出来的味道......
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]那是“家”的味道。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]阿米娅他们要去的地方很冷，是真正的苦寒之地。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]我希望他们在野外宿营的时候，能喝到一口用这种炉火煮出来的热汤。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]我想让他们觉得，即便是在暴风雪里，家也还在身边。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......家的味道。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]（为了让阿米娅他们在野外也能喝到热汤......？）
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]（不。你要确保它在“不可能生存”的环境下也能工作。）
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]（你是为那支出行的队伍准备的吗？还是说，你是为你自己准备的？）
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]怎么了，泥岩？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]没什么。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]好了，火试过了，没问题。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]走吧，我们去下一站。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]除了准备吃的，我们还得给今晚的客人们准备一些“惊喜”。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="bg_room_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你的房间，比我想的要杂乱许多。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]没办法，我实在没力气收拾。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我可以帮你收拾。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]算了，每次我努力收拾过房间之后，就会更加找不到东西。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......
+[dialog]
+[charslot]
+[playsound(key="$d_avg_groundcrack_tree")]  
+[delay(time=3)]
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]这些土偶......你在帮我打扫卫生？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我不喜欢杂乱的地方。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]......唉。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]嗯？
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]我只是再次觉得，我跟你确实不怎么合得来。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]不过，还是谢谢你。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]如果你还需要打扫卫生，可以找我。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]算了，还是让你的土偶来帮我打包吧。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]打包？这些是......礼物盒？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]算是吧。我打算在今晚的派对上设一个抽奖环节。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]抽奖？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]对啊。既然是派对，总得有点让人期待的环节吧？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]而且这次派对邀请的对象是即将外出的大家，阿米娅、博士，还有其他干员们。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]我想给他们准备一些真正有用的礼物，但是直接送的话......
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]你知道的，阿米娅肯定会推辞，说“亚叶姐姐留着自己用就好”，博士也肯定会说什么“物资要优先分配给有需要的人”之类的话。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]所以，你打算用抽奖的方式送出去？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]没错。如果是凭运气抽到的“奖品”，他们就不好意思拒绝了吧？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]泥岩，帮我把桌上那些扎着彩带的盒子递给我。对，就是那些。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]这些盒子包得很精致。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]帮我看看，这个蝴蝶结打得怎么样？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]很漂亮。但这里面装的是什么？感觉很沉。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]你打开最上面那个看看。那里面是今晚的特等奖。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......这是，笔记本？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]《源石技艺与草药学研究笔记》......还有《针对乌萨斯极寒环境的急救手册》？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]这是你的手稿？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]嗯。这上面记录了我跟随凯尔希老师这几年所有的学习心得，还有我对沃伦姆德地区特殊病例的研究。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]里面还有一些......在我母亲的研究基础上展开的东西。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]这是你作为医生最宝贵的东西。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]对于医生来说，这些笔记就是武器，就是生命。你要把它们作为......抽奖的奖品？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]是啊。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]可是，如果你把它们送人了，你自己怎么办？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你还要继续研究，继续治病救人。没有了这些笔记，你会很不方便。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]没关系。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]接下来的很长一段时间，我恐怕......用不上它们了。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]我也没精力再去搞这些细致的研究了。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]放在我这里是浪费，给去乌萨斯的大家更有用。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]用不上......了？
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]是啊。我要去做别的事了。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]泥岩，你看这满屋子的东西。我这几天一直在想，其实人活着真正需要的东西并不多。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]像这些书、这些仪器，还有这件我已经穿习惯了的旧大衣......
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]如果不能带走，留着也只是徒增牵挂。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]不如送给需要它们的人。这样，就算我不在了，这些东西还能继续发挥作用。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]怎么了？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]不，没什么，开始打包吧。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Delay(time=2)]
+[Background(image="bg_room_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]这样就好了。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]多亏了你帮忙，泥岩。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]没什么。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你的准备都完成了吗？如果都完成了，那——
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]等等。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]......
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]泥岩，我有件事想拜托你。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]你能不能......帮我送一份请柬？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]请柬？给谁的？
+[charslot(slot = "m", name = "char_345_folnic_1#2")] 
+[name="亚叶"]给你，还有和你一起留在罗德岛上的你的同伴们。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......！
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你从一开始就打算邀请我们，才会喊上我，是吗？
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]算是吧。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]你愿意吗？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我们过去几年一起出任务的次数也不算少了。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]即使是那时，我也并不讨厌你。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]但他们，在沃伦姆德，他们是你的敌人。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]哪怕是现在，在罗德岛上，他们也一直很自觉地避开你，怕和你起冲突。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]我知道。我当然知道。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]那段记忆......充满了火光和愤怒。我曾经恨不得将他们全部驱逐。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]但是，正因如此，我才希望他们能够出席。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]因为我要宣布的事情，和他们也有关。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]泥岩，这次行动很多情报不明，大家不知道什么时候才能回来。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]我想在大家出发前，和他们也聊一聊。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]我想......不留遗憾。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]不留遗憾......
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]是啊。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]如果我现在不说，也许以后就再也没机会说了。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]如果我们之间的仇恨已经可以放下，那么，我希望我们能够坦诚面对这一点。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]这里有一瓶莱塔尼亚的红酒，是我珍藏了很久的。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]本来是想等凯尔希老师回来，庆祝的时候一起喝的。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]但现在，我觉得它有更好的去处。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]告诉他们，今晚的派对，我希望他们能来，我为他们准备了好酒。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]亚叶医生......
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你把最珍贵的东西都拿出来了。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]因为值得啊。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]好了，快去吧。我也该去食堂做最后的准备了。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]那锅汤，还得我亲自去看着火候呢。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="bg_room_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]点燃那炉火，是为了在极寒的死地中寻找最后的生存希望。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你不是为了煮汤，而是为了在那片冻土上独自活下去。你要背着那个沉重的炉子，走上你母亲曾经走过的逃亡之路。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]把那些笔记打包成奖品是为了和过去做个告别。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你放弃了医生的身份，把毕生的心血都送了出去。你甚至在担心直接送大家不会收，所以才费尽心思搞什么抽奖。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]而这瓶酒，这份给昔日敌人的请柬......
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]是为了清空所有的恩怨与遗憾。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]医生，我猜到你想要宣布的消息是什么了......
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]既然你决定了要走这条路，那我也该为你做点什么。
+[dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Delay(time=2)]
+[Background(image="bg_canteen",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[PlayMusic(key="$calm_loop", volume=0.6)]
+灯光被调成了温暖的橘色，简单的彩带装饰着墙壁。
+几口大锅里正冒着热气，红菜汤的香味弥漫在整个空间。
+干员们三三两两地聚在一起，虽然脸上带着疲惫，但热食让他们放松了不少。
+[charslot(slot = "m", name = "avg_1037_amiya3_1#12$1")]
+[name="阿米娅"]谢谢你，亚叶姐姐......这汤真好喝。感觉身体都暖和起来了。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]喜欢就好。多喝点，阿米娅。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]乌萨斯的冬天可是很漫长的。要记住这个味道啊，这就是罗德岛的味道。
+[dialog]
+[charslot]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot = "r", name = "avg_npc_053",duration=1)]
+[charslot(slot = "l", name = "avg_npc_053",duration=1)]
+[delay(time=2)]
+[charslot]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m",duration=2)]
+[delay(time=2)]
+[name="泥岩"]......亚叶医生。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]嗯？泥岩，你来了。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]你的朋友们也来了，他们看起来很高兴。谢谢你。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]你怎么了？看起来有点犹豫。你也来一碗吗？我特意给你留了肉多的一碗，就在锅里，用那个炉子一直温着呢。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]好。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]好了，既然你来了，那我也该宣布我要说的事了。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]让我来说吧。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]欸？
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]你要说什么？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我明白你的意思了。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你把所有人都安排好了，唯独没有安排你自己。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]泥岩？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你准备了在极地也可以用的炉具，却说效率不重要，只是为了“怀念母亲”。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你把所有笔记当做奖品送人，是为了“切断牵挂”。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你邀请昔日的敌人，甚至送出珍藏的酒，是为了“不留遗憾”。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你是在交代后事。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]交代后事？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我知道你想去乌萨斯。你想去复仇，想用自己的命把凯尔希医生换回来。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我都看到了。你做的那些准备，那根本不是为了生存，是为了毁灭。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你不想拖累任何人，所以你把一切都送了出去。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]但我不能接受。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]既然你已经决定了，那我不会阻止你。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]但是，那些东西太重了，你一个人背不动。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我会替你守着那些你放不下的东西。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我会替你看着如今的罗德岛。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你尽管去吧。去做你想做的事。
+[charslot(slot = "m", name = "avg_1037_amiya3_1#15$1")]
+[name="阿米娅"]......泥岩小姐，你是不是误会了什么？
+[charslot(slot = "m", name = "char_345_folnic_1#5")]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=15, randomness=90, fadeout=true, block=false)]
+[stopmusic(fadetime=2)]
+[name="亚叶"]停！打住！
+[charslot(slot = "m", name = "char_345_folnic_1#3")]
+[name="亚叶"]抱歉，大家，没事。只是我和泥岩的一点......小小的沟通问题。
+[charslot(slot = "m", name = "char_345_folnic_1#3")]
+[name="亚叶"]泥岩，跟我出来一下。立刻，马上。
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="bg_room_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]呼......这里应该没人了。泥岩，你真的......想太多了！
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]天啊，你们萨卡兹的想象力都这么丰富的吗？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]想太多？可是你的准备......那些东西......还有你说的那些话......
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]听我说，泥岩。深呼吸，听我解释。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]第一，那个炉子，是给阿米娅他们准备的！
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[playMusic(key="$normal_loop", volume=0.6)]
+[name="亚叶"]他们要在野外宿营，罗德岛的电热设备在极寒下不可靠，我不希望他们冻死在半路上！
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]我把它找出来，是为了让阿米娅晚上能喝上一口热汤！是为了让他们能感受到家的温暖！
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......是给阿米娅的？不是你要背着去？
+[charslot(slot = "m", name = "char_345_folnic_1#5")]
+[name="亚叶"]我背那个干什么？背着它我都跑不动！
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]第二，把笔记当奖品送人......
+[charslot(slot = "m", name = "char_345_folnic_1#5")]
+[name="亚叶"]泥岩，那是因为华法琳医生给我升职了！
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]接下来我要面对的是无尽的行政报表和全舰医疗人员调配，我暂时没有时间做研究了！
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]所以我就趁这个机会把自己目前学到的知识做了个阶段性的整理，正好可以交给要出发的人。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]......
+[charslot(slot = "m", name = "char_345_folnic_1#5")]
+[name="亚叶"]第三，我邀请你的那些朋友，不是为了什么临终和解！
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]不是吗？
+[charslot(slot = "m", name = "char_345_folnic_1#5")]
+[name="亚叶"]当然不是！
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]我要负责留守！基地的防御力量被抽调了不少。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]阿米娅要走，好几位精英干员要走，凯尔希老师也不在。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]那时的罗德岛，会很脆弱。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]你和你的小队，将是基地防御体系里重要的一环。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]我要和你们并肩作战，守住这个家。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]如果我还端着架子，对他们冷眼相待，万一敌人来了，我们怎么配合？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]可是......
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]可是，你不去吗？
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]阿米娅他们都去了，你是凯尔希医生的学生，你比任何人都更有理由去。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]你那么恨乌萨斯，那么想念你的母亲......
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]......
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]其实，阿米娅邀请过我。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]在商定名单的时候，她问我愿不愿意一起去。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]那你......
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]我拒绝了。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]拒绝了？为什么？
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]我有自知之明，泥岩。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]我的源石技艺，我的战斗能力，在那种级别的战场上，能发挥的作用很有限。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]如果我去了，只会成为阿米娅他们的负担。我不想让大家在执行任务的时候，还要分心来保护我。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]亚叶......你这是在看低自己。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]不，这是客观判断。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]我恨乌萨斯。这一点永远不会变。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]以前我觉得，只要杀回去，把仇人杀光就是复仇。但是凯尔希老师教会了我，仇恨不是驱动双脚的唯一燃料。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]在罗德岛生活的时间越久，我越能感受到凯尔希老师对罗德岛倾注的心血。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]我希望，等她回来的时候，她见到的罗德岛，和她离开之前的没有任何区别。
+[charslot(slot = "m", name = "char_345_folnic_1#4")]
+[name="亚叶"]到那时，我会骄傲地走到她的身边，告诉她，这里面有我的一份功劳。
+[charslot(slot = "m", name = "char_345_folnic_1#2")]
+[name="亚叶"]也有你的。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]好。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]好了，误会解除了吗？
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]食堂里的人还在等着我们呢。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]既然你要守护这里，做这罗德岛的“锚”。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]那我也留下来。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我会做一面盾。罗德岛的安保，交给我。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]我会让那些小子听话的。他们会是最坚固的防线。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]噗......
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]那就拜托你了，泥岩。有你在，我确实安心多了。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]走吧，回去喝汤。汤要凉了。
+[charslot(slot="m",name="avg_npc_942_1#1$1",focus="m")]
+[name="泥岩"]嗯。
+[charslot(slot = "m", name = "char_345_folnic_1#1")]
+[name="亚叶"]今晚，就让我们好好为他们送行吧。作为留守者，作为罗德岛的后盾。
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]
+[stopmusic(fadetime=1)]
+[Character]
+[charslot]
+[Image]
