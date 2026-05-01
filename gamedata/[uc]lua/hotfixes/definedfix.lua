@@ -11,6 +11,7 @@ local list =
   "HotFixes/SandboxV3DungeonHotfixer",
   "HotFixes/EnemyDualHotfixer",
   "HotFixes/NameCardSkinParticleScalerHotfixer",
+  "HotFixes/RoguelikeDeifyGameModeHotfixer",
 };
 
 return list;
