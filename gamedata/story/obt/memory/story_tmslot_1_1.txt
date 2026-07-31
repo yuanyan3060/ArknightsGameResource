@@ -1,0 +1,910 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="bg_bar_1",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[playMusic(key="$normal_loop", volume=0.6)]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_4236_tmslot_1#13$1",duration=2)]
+[Delay(time=3.5)]
+[name="阿梅利亚"]我看看......没想到忙到了这个时候，再过十分钟就是十二点了，干脆在生日当天买蛋糕好了，嘉辛塔不是说这种就算是“幸运蛋糕”嘛。
+[name="阿梅利亚"]唔，上次去竞标之前紧张得吃不下早饭，讲到一半肚子一直叫，顺便再买几个面包早上垫一下吧。
+[charslot(slot="m",name="avg_4236_tmslot_1#13$1",focus="m")]
+[name="阿梅利亚"]蛋糕还剩最后一个，那就买那个好了。面包买哪个呢......还有五分钟，唔......
+[charslot(slot="m",name="avg_npc_2352_1#1$1",focus="m")]
+[name="老板"]哈哈，不着急小阿梅，这个点也不会来人了，你慢慢选。
+[charslot(slot="m",name="avg_4236_tmslot_1#4$1",focus="m")]
+[name="阿梅利亚"]嗯！
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1")]
+[charslot(slot="l",name="avg_npc_2354_1#1$1",afrom=0,ato=1,duration=1)]
+[charslot(slot="l",posfrom="-100,0",posto="0,0",duration=2)]
+[delay(time=2.5)]
+[playsound(key="$d_avg_punch")]
+[charslot(slot="l",posfrom="0,0",posto="100,0",duration=0.5)]
+[charslot(slot="m",posfrom="0,0",posto="150,0",duration=0.5)]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=0.5)]
+[playsound(key="$d_avg_punch")]
+[charslot(slot="m",name="avg_4236_tmslot_1#3$1",focus="m")]
+[charslot(slot="m",afrom=1,ato=0,duration=0.5)]
+[charslot(slot="l",posfrom="100,0",posto="200,0",duration=0.5)]
+[charslot(slot="m",posfrom="150,0",posto="200,0",duration=0.5)]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=0.5)]
+[charslot(slot="l",name="avg_npc_2354_1#1$1",posfrom="200,0",posto="200,0")]
+[name="态度强硬的家伙"]可算让我找到一个还在营业的店了！嘿老板，这最后一个蛋糕给我包上！
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2352_1#1$1",focus="m")]
+[name="老板"]等等，最后一个蛋糕是给......
+[charslot(slot="m",name="avg_npc_2354_1#1$1",focus="m")]
+[name="态度强硬的家伙"]给什么？这蛋糕就放在这里难道不能买吗？
+[charslot(slot="m",name="avg_npc_2352_1#1$1",focus="m")]
+[name="老板"]是可以的，只是......
+[Dialog]
+[charslot]
+[playsound(key="$d_avg_clothmovement")]
+[charslot(slot="m",name="avg_4236_tmslot_1#2$1",afrom=0,ato=1,duration=1)]
+[charslot(slot="m",posfrom="0,-50",posto="0,0",duration=2)]
+[delay(time=2.5)]
+[name="阿梅利亚"]是、是因为我准备买这个蛋糕......
+[charslot(slot="m",name="avg_npc_2354_1#1$1",focus="m")]
+[name="态度强硬的家伙"]“准备”？你站在那边一直不动，我怎么知道你买不买？
+[charslot(slot="m",name="avg_4236_tmslot_1#16$1",focus="m")]
+[name="阿梅利亚"]那能不能......
+[charslot(slot="m",name="avg_npc_2354_1#1$1",focus="m")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="态度强硬的家伙"]不能！我好不容易找到的，给你了我吃什么？
+[name="态度强硬的家伙"]快点啊，我赶时间！
+[charslot(slot="m",name="avg_npc_2352_1#1$1",focus="m")]
+[name="老板"]......这位客人——
+[Dialog]
+[charslot]
+见老板没动，态度强硬的卡特斯直接挤进柜台内侧，把蛋糕拿了出来，又往柜台上甩了几枚硬币。
+[charslot(slot="m",name="avg_npc_2354_1#1$1",focus="m")]
+[name="态度强硬的家伙"]钱货两清！走了！
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_npc_2354_1#1$1",afrom=1,ato=0,duration=1)]
+[charslot(slot="m",posfrom="0,0",posto="-100,0",duration=2)]
+[delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1",focus="m")]
+[name="阿梅利亚"]呜......
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_ltroom",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",duration=2)]
+[charslot(slot="r",name="avg_4236_tmslot_1#1$1",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[name="嘉辛塔"]什么？所以你的幸运蛋糕就这样被那个人抢走了？
+[charslot(slot="r",name="avg_4236_tmslot_1#1$1",focus="r")]
+[name="阿梅利亚"]他太凶了，我争不过他......
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[name="嘉辛塔"]哼，没关系的阿梅，那个人就算抢走再多蛋糕也比不上你眼前的这个——
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[name="嘉辛塔"]你的好朋友兼投资人给你买的生日蛋糕！
+[name="嘉辛塔"]插上蜡烛，它就是庆祝你的生日和预祝我们竞标成功的双重幸运蛋糕，怎么样？
+[charslot(slot="r",name="avg_4236_tmslot_1#7$1",focus="r")]
+[name="阿梅利亚"]嗯......！
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[name="阿梅利亚"]唔，我要许愿！
+[Dialog]
+[playsound(key="$d_avg_button")]
+[Blocker(a=0.6, r=0,g=0, b=0, fadetime=0.2, block=true)]
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="none")]
+啪！嘉辛塔关上了灯，周围暗了下来，只剩下蜡烛闪烁着荧荧的光辉。
+阿梅利亚双手合十，闭上了眼睛。
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_4236_tmslot_1#10$1",focus="r")]
+[name="阿梅利亚"]（小声）我的生日愿望就是......我希望自己再也不要这样软弱了，我要变得强硬起来......
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[name="嘉辛塔"]不行不行，阿梅，你的声音太小了，这样愿望是实现不了的！
+[name="嘉辛塔"]你把手给我，我们一起再大声喊一遍，大声喊出来愿望就能被听见了！
+[charslot(slot="r",name="avg_4236_tmslot_1#17$1",focus="r")]
+[name="阿梅利亚"]嗯......！
+[charslot(slot="l",name="avg_4237_jcinta_1#9$1",focus="l")]
+[name="嘉辛塔"]（吸气）
+[charslot(slot="r",name="avg_4236_tmslot_1#10$1",focus="r")]
+[name="阿梅利亚"]（深深吸气）
+[charslot(slot="l",name="avg_4237_jcinta_1#4$1",focus="l")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="嘉辛塔"]——我们阿梅要变得强硬起来！
+[charslot(slot="r",name="avg_4236_tmslot_1#14$1",focus="r")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]强硬起来——！！
+[Dialog]
+[charslot]
+噼啪！
+蜡烛爆出了一朵小小的火花。
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_4236_tmslot_1#14$1",focus="l")]
+[name="嘉辛塔"]哇！阿梅你看到没？
+[charslot(slot="l",name="avg_4237_jcinta_1#4$1",focus="l")]
+[name="嘉辛塔"]这说明愿望被听到啦，这样的话就真的会实现哦！
+[Dialog]
+[playsound(key="$d_avg_button")]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0.2, block=true)]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[name="嘉辛塔"]来来来，我们把这个蛋糕全部吃掉，你的愿望一定会成真的！
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[name="阿梅利亚"]——啊呜！
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_ltroom",screenadapt="coverall")]
+[Delay(time=3.5)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$phone")]
+[Delay(time=3.5)]
+[name="阿梅利亚"]哈欠......
+[Dialog]
+[playsound(key="$phone")]
+[Delay(time=3.5)]
+[playsound(key="$d_avg_clothmovement")]
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1",afrom=0,ato=1,duration=1)]
+[charslot(slot="m",posfrom="0,-50",posto="0,0",duration=2)]
+[delay(time=2.5)]
+[playMusic(intro="$farce_intro",key="$farce_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1",focus="m")]
+[multiline(name="阿梅利亚")]坏了嗝！好像起......晚了——
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1",focus="m")]
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[multiline(name="阿梅利亚")]嗝！
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1",focus="m")]
+[multiline(name="阿梅利亚")]嗝！
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[multiline(name="阿梅利亚")]......嗝、嗝嗝！！
+[charslot(slot="m",name="avg_4237_jcinta_1#6$1",focus="m")]
+[name="嘉辛塔"]阿梅，你怎么了？
+[charslot(slot="m",name="avg_4236_tmslot_1#12$1",focus="m")]
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[multiline(name="阿梅利亚")]我、我嗝！
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[multiline(name="阿梅利亚")]我完蛋嗝！我说不出......嗝！
+[charslot(slot="m",name="avg_4237_jcinta_1#11$1",focus="m")]
+[name="嘉辛塔"]别着急慢慢说，你怎么了？
+[charslot(slot="m",name="avg_4236_tmslot_1#3$1",focus="m")]
+[multiline(name="阿梅利亚")]我嗦卟粗——我——怎末八——
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[multiline(name="阿梅利亚")]嗝！！
+怎么办怎么办？阿梅利亚在心里大喊起来。
+今天可是要和一个缠了甲方好久的对手一起竞标，可现在自己不但起得有些晚，还不停地打嗝说不出来话！
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1",focus="m")]
+[multiline(name="阿梅利亚")]呜......
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[multiline(name="阿梅利亚")]嗝！
+[charslot(slot="m",name="avg_4237_jcinta_1#3$1",focus="m")]
+[name="嘉辛塔"]来阿梅，我给你拍拍背，你深呼吸一下！
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1",focus="m")]
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[multiline(name="阿梅利亚")]嗝！......
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[multiline(name="阿梅利亚")]嗝！
+阿梅利亚急得快要哭出来了，但越想开口哭诉她就越想要打嗝，一打嗝胸口那里就好像聚起了一团沉重的气。
+她按照嘉辛塔的话想要深呼吸，但胸口那团气反而越来越沉。
+她头脑昏沉，嘴巴干涩，大汗淋漓，忍不住张嘴大喊起来——
+[charslot(slot="m",name="avg_4236_tmslot_1#9$1",focus="m")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]——我要把昨天那个抢我蛋糕的人屁股打成八瓣让他把我的幸运蛋糕还给我！
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1",focus="m")]
+[name="阿梅利亚"]啊！
+[charslot(slot="m",name="avg_4237_jcinta_1#6$1",focus="m")]
+[name="嘉辛塔"]——！
+[charslot(slot="m",name="avg_4237_jcinta_1#4$1",focus="m")]
+[name="嘉辛塔"]天啊阿梅，你的生日愿望成真了，你变得强硬起来了！
+[charslot(slot="m",name="avg_4236_tmslot_1#6$1",focus="m")]
+[name="阿梅利亚"]胡说！我哪里强硬了！
+[charslot(slot="m",name="avg_4236_tmslot_1#9$1",focus="m")]
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[name="阿梅利亚"]唔！
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1",focus="m")]
+[name="嘉辛塔"]对就是这个气势，阿梅你看你连打嗝都止住了！嘿嘿，就这样！你一定可以赢下竞标的！
+[charslot(slot="m",name="avg_4236_tmslot_1#11$1",focus="m")]
+[name="阿梅利亚"]哼！除了我还能有谁！
+[charslot(slot="m",name="avg_4236_tmslot_1#2$1",focus="m")]
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[name="阿梅利亚"]呃！
+[charslot(slot="m",name="avg_4237_jcinta_1#8$1",focus="m")]
+[name="嘉辛塔"]好啦阿梅快点收拾，保持这个劲头，我们出发吧！
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1",focus="m")]
+[multiline(name="阿梅利亚")]等、等等——
+[charslot(slot="m",name="avg_4236_tmslot_1#2$1",focus="m")]
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[multiline(name="阿梅利亚")]嗝！！
+[Dialog]
+[charslot]
+我好像不太对劲啊！！阿梅利亚在心中大喊着，被开心的嘉辛塔一路小跑拉去了车上。
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="46_g3_rmbttown",screenadapt="coverall")]
+[Delay(time=3.5)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_npc_1255_1#1$1",focus="m")]
+[name="和善的老人"]哎呀，小阿梅还有嘉辛塔，这么早你们两个急急忙忙的，是要去哪里啊？
+[Dialog]
+[charslot]
+[playsound(key="$rungeneral")]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",duration=2)]
+[charslot(slot="r",name="avg_4236_tmslot_1#5$1",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="r",name="avg_4236_tmslot_1#5$1",focus="r")]
+[multiline(name="阿梅利亚")]我、我我——
+[charslot(slot="r",name="avg_4236_tmslot_1#2$1",focus="r")]
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[multiline(name="阿梅利亚")]嗝！
+[charslot(slot="r",name="avg_4236_tmslot_1#2$1",focus="r")]
+呜！好想说自己要去竞标好紧张，但是一开口就止不住地打嗝，怎么办啊——
+不回答吗？但这是经常在早上给我吃她亲手做的胡萝卜甜糕的奶奶，这样多不礼貌！快想想办法，快想想办法......
+起码要说点什么！
+[charslot(slot="l",name="avg_4237_jcinta_1#6$1",focus="r")]
+[charslot(slot="r",name="avg_4236_tmslot_1#14$1",focus="r")]
+[name="阿梅利亚"]——知道吗，我这技术一出手，今天就能让奶奶您和您远在萨米的女儿打上电话！
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_1255_1#1$1",focus="m")]
+[name="和善的老人"]哦哟，小姑娘这么有出息的哟！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_npc_2356_1#1$1",focus="m")]
+[name="起早的邻居"]阿梅，听说今天好像是你的生日呢，给，这些甜萝卜条送给你！
+[Dialog]
+[charslot]
+[playsound(key="$rungeneral")]
+[charslot(slot="l",name="avg_4237_jcinta_1#4$1",duration=2)]
+[charslot(slot="r",name="avg_4236_tmslot_1#5$1",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="r",name="avg_4236_tmslot_1#14$1",focus="r")]
+[name="阿梅利亚"]就应该给我！到时候我的技术成果落地了，你第一个月的远程通讯费，我给你免了！
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2356_1#1$1",focus="m")]
+[name="起早的邻居"]哈哈哈哈，阿梅你可真会开玩笑！那可就说定咯？
+[charslot(slot="m",name="avg_npc_1185_1#1$1",focus="m")]
+[name="散步的邻居"]这就是有自信的孩子啊。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#4$1",focus="r")]
+[charslot(slot="r",name="avg_4236_tmslot_1#14$1",focus="r")]
+[name="阿梅利亚"]自信？我本来就有能力，和自不自信没关系！
+[charslot(slot="r",name="avg_4236_tmslot_1#15$1",focus="r")]
+[multiline(name="阿梅利亚")]呜呜——
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3)]
+[charslot(slot="r",name="avg_4236_tmslot_1#3$1",focus="r")]
+[multiline(name="阿梅利亚")]嗝！！
+[charslot(slot="r",name="avg_4236_tmslot_1#15$1",focus="r")]
+[multiline(name="阿梅利亚")]我都说了......
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3)]
+[charslot(slot="r",name="avg_4236_tmslot_1#3$1",focus="r")]
+[multiline(name="阿梅利亚")]嗝！
+[charslot(slot="r",name="avg_4236_tmslot_1#15$1",focus="r")]
+[multiline(name="阿梅利亚")]些什么......？
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[name="嘉辛塔"]阿梅阿梅，在这里！
+[name="嘉辛塔"]快上车吧，系好安全带，我们上路！
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$d_avg_cardoorc")]
+[Delay(time=1.5)]
+[playsound(key="$d_avg_drivestop")]
+[Delay(time=1.5)]
+[charslot]
+[Background(image="46_g3_rmbttown",screenadapt="coverall")]
+[curtain(direction = 0,fillfrom = 0.1,fillto = 0.15, fadetime=0.01)]
+[curtain(direction = 4,fillfrom = 0.1,fillto = 0.15, fadetime=0.01)]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",focus="r")]
+[Delay(time=3.5)]
+[playsound(key="$d_avg_carhorn")]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",focus="r")]
+[multiline(name="阿梅利亚")]嘉......嗝辛塔......
+[charslot(slot="r",name="avg_4236_tmslot_1#3$1",focus="r")]
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[multiline(name="阿梅利亚")]嗝！
+[multiline(name="阿梅利亚")]等等......！
+[charslot(slot="r",name="avg_4236_tmslot_1#3$1",focus="r")]
+[multiline(name="阿梅利亚")]我好像不......
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[multiline(name="阿梅利亚")]嗝！
+[multiline(name="阿梅利亚")]对劲嗝！
+[charslot(slot="r",name="avg_4236_tmslot_1#3$1",focus="r")]
+[name="阿梅利亚"]我说不出嗝！来......话！
+[multiline(name="阿梅利亚")]说——出来的......
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[multiline(name="阿梅利亚")]嗝！
+[multiline(name="阿梅利亚")]都是......态度很......坏的嗝！
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[multiline(name="阿梅利亚")]话！不然......就——打嗝！
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[multiline(name="阿梅利亚")]嗝！
+[charslot(slot="r",name="avg_4236_tmslot_1#2$1",focus="r")]
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[name="阿梅利亚"]——嗝！！
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",focus="l")]
+[name="嘉辛塔"]等等阿梅，这里太吵了，车也多，我听不清你在说什么......这边有个空位！先让我把车开进去......！
+[Dialog]
+[playsound(key="$d_avg_carhorn")]
+[Delay(time=1)]
+[playsound(key="$drift")]
+[charslot(slot="l",name="avg_4237_jcinta_1#7$1",focus="l")]
+[CameraShake(duration=1.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=1.5)]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[name="嘉辛塔"]呼，还好挤进来了，不然今天可能就要迟到了！
+[name="嘉辛塔"]不好意思阿梅，你刚才说什么？
+[charslot(slot="r",name="avg_4236_tmslot_1#2$1",focus="r")]
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[name="阿梅利亚"]——嗝！
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",focus="l")]
+[name="嘉辛塔"]奇怪，你怎么又开始打嗝了？我的包里有温水，阿梅你再喝一点试试——啊！前面又堵住了！
+[Dialog]
+[playsound(key="$d_avg_carhorn")]
+[Delay(time=1)]
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",focus="l")]
+[name="嘉辛塔"]唉......怎么今天路上有这么多人？
+[charslot(slot="l",name="avg_4237_jcinta_1#6$1",focus="l")]
+[name="嘉辛塔"]转弯的路被堵住了，后面也都是车......再等下去就真的要来不及了！
+[Dialog]
+[playsound(key="$d_avg_carhorn")]
+[Delay(time=1)]
+[charslot(slot="l",name="avg_4237_jcinta_1#11$1",focus="l")]
+[name="嘉辛塔"]您好，拜托可以让我们先转弯过去吗？我们有点急事......
+[charslot(slot="l",name="avg_4237_jcinta_1#11$1",focus="none")]
+[name="吵嚷的司机"]小姑娘，谁没有急事啊，我直行也很急！
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",focus="r")]
+[name="阿梅利亚"]堵住了吗......嗝！
+[name="阿梅利亚"]拜......嗝！托了！能不能让——嗝！——让我们......？
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",focus="none")]
+[name="着急的乘客"]喂快快快！前面的车动了，赶紧跟上，别和她们搭话了，赶紧开进去！
+[charslot(slot="l",name="avg_4237_jcinta_1#6$1",focus="l")]
+[name="嘉辛塔"]欸！
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",focus="r")]
+[name="阿梅利亚"]嗝，我们明明......嗝！转个——嗝！弯......就好......嗝！
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",focus="none")]
+[name="兴奋的司机"]哈哈哈！话都说不清楚就别上路和人吵架了，等在后面吃灰尘吧！
+[charslot(slot="r",name="avg_4236_tmslot_1#11$1",focus="r")]
+[name="阿梅利亚"]你——嗝！
+[charslot(slot="l",name="avg_4237_jcinta_1#11$1",focus="l")]
+[name="嘉辛塔"]阿梅，你还好吗？喝温水不管用的话，要不要我吓你一下，说不定打嗝就能止住了......！
+[charslot(slot="l",name="avg_4237_jcinta_1#6$1",focus="l")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[multiline(name="嘉辛塔")]——哈！！
+[charslot(slot="l",name="avg_4237_jcinta_1#11$1",focus="l")]
+[multiline(name="嘉辛塔")]怎么样阿梅，有效果吗？
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",focus="r")]
+[name="阿梅利亚"]唔......嗝......嗝！
+阿梅利亚胸口沉闷的感觉愈发严重，她止不住地打嗝，嘉辛塔手忙脚乱地轻拍她的后背，但起不到任何一点作用。
+她越来越慌，再不喊出来她的胸口就要爆炸了，再不宣泄出来她的喉咙就要裂开了！
+她想要流动的空气，想要把头探出车窗外——
+[charslot(slot="r",name="avg_4236_tmslot_1#6$1",focus="r")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]嘿！你们这帮家伙！
+感受着车窗外吹过的清爽的风，阿梅利亚深吸一口气。
+[charslot(slot="r",name="avg_4236_tmslot_1#6$1",focus="r")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]全都给我停下，还不快给未来的通讯帝王让路！！
+[Dialog]
+[playsound(key="$drift",channel="a")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=0.5)]
+[playsound(key="$drift",channel="b")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=0.5)]
+[playsound(key="$drift",channel="c")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=2)]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_23_G09",screenadapt="coverall")]
+[curtain(direction = 0,fillfrom = 0,fillto = 0, fadetime=0.01)]
+[curtain(direction = 4,fillfrom = 0,fillto = 0, fadetime=0.01)]
+[charslot(slot="l",name="avg_4237_jcinta_1#11$1",focus="l")]
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[Delay(time=2)]
+[playMusic(intro="$holiday_intro",key="$holiday_loop", volume=0.6)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[name="阿梅利亚"]完蛋......嗝......了......
+[name="阿梅利亚"]我都嗦......嗝！了些什......么嗝......！
+[charslot(slot="l",name="avg_4237_jcinta_1#11$1",focus="l")]
+[name="嘉辛塔"]快快快阿梅你先坐下来，是不是因为我刚才车开得太快了，所以你还在打嗝？
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[name="阿梅利亚"]不是的......我只是觉得我......嗝！一直在......说大话——嗝！要完蛋了，我做不到......
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[name="嘉辛塔"]“做不到”？不会的啦，我们阿梅本来就是很厉害的人，怎么会做不到呢？
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[name="阿梅利亚"]没、没——嗝！
+[charslot(slot="r",name="avg_4236_tmslot_1#14$1",focus="r")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]我——我做不到的话还有谁能做到？全都交给我好了！
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",focus="l")]
+[name="嘉辛塔"]唔......阿梅你的士气是很棒啦，不过你这么一直打嗝还是让人有点担心。
+[name="嘉辛塔"]你还是先坐在这里休息一下，我去问问他们这里有没有配备医务人员......
+[Dialog]
+[charslot]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_npc_2355_1#1$1",duration=1)]
+[delay(time=2.5)]
+[name="竞争对手"]嗯？这不是阿梅利亚小姐和她的投资人吗？
+[name="竞争对手"]阿梅利亚小姐，您今天做好准备了吗？这次不会又要像上次那样在讲台上抹眼泪吧？
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[charslot(slot="r",name="avg_4236_tmslot_1#14$1",focus="l")]
+[name="嘉辛塔"]......先生，你如果再这样，我会联系我的安保人员的。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2355_1#1$1",focus="m")]
+[name="竞争对手"]别这么严肃，我只是关心一下她嘛。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="r")]
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",focus="r")]
+[name="阿梅利亚"]唔......
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[name="嘉辛塔"]（小声）阿梅，你不舒服可以不用说话，这里交给我就好了。
+[charslot(slot="r",name="avg_4236_tmslot_1#12$1",focus="r")]
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[name="阿梅利亚"]......
+[charslot(slot="r",name="avg_4236_tmslot_1#9$1",focus="r")]
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[name="阿梅利亚"]............
+[Dialog]
+[charslot]
+阿梅利亚嚯的一下站起身。
+[charslot(slot="m",name="avg_4236_tmslot_1#14$1",focus="m")]
+[name="阿梅利亚"]等我在合同上签字的时候记得叫我阿梅利亚奶奶！
+[Dialog]
+[charslot(slot="m",name="avg_4237_jcinta_1#6$1",focus="m")]
+[delay(time=2.5)]
+[charslot(slot="m",name="avg_4236_tmslot_1#15$1",focus="m")]
+[delay(time=2.5)]
+[charslot(slot="m",name="avg_npc_2355_1#1$1",focus="m")]
+[name="竞争对手"]什么？你——
+[name="竞争对手"]哼！场上见！
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[charslot(duration=1)]
+[delay(time=2.5)]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#11$1",duration=1.5)]
+[charslot(slot="r",name="avg_4236_tmslot_1#15$1",duration=1.5)]
+[delay(time=2.5)]
+[charslot(slot="r",name="avg_4236_tmslot_1#15$1",focus="r")]
+[name="阿梅利亚"]呜......！
+[charslot(slot="l",name="avg_4237_jcinta_1#11$1",focus="l")]
+[name="嘉辛塔"]阿梅，你的状态真的不太对劲......
+[name="嘉辛塔"]等等，我去给你找一下他们这里的医务人员，你就坐在这里别动，我很快就回来！
+[Dialog]
+[playsound(key="$rungeneral")]
+[charslot(slot="l",afrom=1,ato=0,duration=1)]
+[charslot(slot="l",posfrom="0,0",posto="-100,0",duration=2)]
+[delay(time=2.5)]
+[charslot(slot="r",name="avg_4236_tmslot_1#7$1",focus="r")]
+[name="阿梅利亚"]呜......我今天怎么，嗝！一直在说......大话......
+[charslot(slot="r",name="avg_4236_tmslot_1#7$1",focus="r")]
+[multiline(name="阿梅利亚")]我......我，怎么了？
+[charslot(slot="r",name="avg_4236_tmslot_1#9$1",focus="r")]
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3)]
+[multiline(name="阿梅利亚")]嗝！呕——
+[Dialog]
+[playsound(key="$rungeneral")]
+[charslot(slot="r",afrom=1,ato=0,duration=1)]
+[charslot(slot="r",posfrom="0,0",posto="-100,0",duration=2)]
+[delay(time=2.5)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_23_G09",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$rungeneral")]
+[charslot(slot="m",name="avg_4236_tmslot_1#2$1",duration=1)]
+[delay(time=2.5)]
+[name="阿梅利亚"]（厕所在哪里，厕所在哪里？）
+[multiline(name="阿梅利亚")]我真的不——
+[charslot(slot="m",name="avg_4236_tmslot_1#9$1",focus="m")]
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[multiline(name="阿梅利亚")]嗝！
+阿梅利亚有很多话想说。
+但她觉得自己现在好像有些撑不住了。
+[charslot(slot="m",name="avg_4236_tmslot_1#8$1",focus="m")]
+[name="阿梅利亚"]呜......为什么今天嗝！会这样......？想说的话......嗝！说不——呃......
+[name="阿梅利亚"]说出来的......话，嗝！都不是......我的本意......
+[name="阿梅利亚"]我肯定要搞......嗝！砸......呜......
+[name="阿梅利亚"]完......嗝！完......了......
+[Dialog]
+[playsound(key="$rungeneral")]
+[charslot(slot="m",afrom=1,ato=0,duration=1)]
+[charslot(slot="m",posfrom="0,0",posto="-100,0",duration=2)]
+[delay(time=2.5)]
+[charslot]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_npc_2355_1#1$1",duration=1)]
+[delay(time=2.5)]
+[name="竞争对手"]哼，这样啊......
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_23_G09",screenadapt="coverall")]
+[Delay(time=3)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1",duration=1)]
+[delay(time=2.5)]
+[name="阿梅利亚"]（呜，不能再哭了，先去找嘉辛塔说明情况吧，我们准备了这么久，不能就这样......）
+[name="阿梅利亚"]（不行的话我把稿子给她，拜托她上去帮我讲......！）
+[Dialog]
+[charslot]
+[name="拐角处的声音"]啊，招标人先生，很荣幸能得到这次机会。
+[name="拐角处的声音"]您说阿梅利亚小姐？她好像就在这附近。啊哈哈，是因为我们刚刚在走廊里遇见了，不如我叫她过来，我们这就开始吧？
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="l",name="avg_npc_2355_1#1$1",duration=1.5)]
+[charslot(slot="r",name="avg_npc_1256_1#1$1",duration=1.5)]
+[delay(time=2.5)]
+[charslot(slot="l",name="avg_npc_2355_1#1$1",focus="l")]
+[name="竞争对手"]您看，阿梅利亚小姐她不就在这里嘛。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1",focus="m")]
+[name="阿梅利亚"]——！
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="45_g4_luxurywarminterior",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$dooropenquite")]
+[charslot(slot="m",name="avg_npc_2355_1#1$1",duration=2)]
+[Delay(time=2.5)]
+[name="竞争对手"]哈哈，阿梅利亚小姐，女士优先。
+[Dialog]
+[charslot]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1",duration=1)]
+[delay(time=2.5)]
+[name="阿梅利亚"]......
+[name="阿梅利亚"]我......呜......
+[charslot(slot="m",name="avg_npc_1256_1#1$1",focus="m")]
+[name="招标人"]......？
+[charslot(slot="m",name="avg_npc_2355_1#1$1",focus="m")]
+[name="竞争对手"]（看好戏的眼神）
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1",focus="m")]
+[name="阿梅利亚"]......
+[charslot(slot="m",name="avg_npc_2355_1#1$1",focus="m")]
+[name="竞争对手"]（整理领带，准备开始自己的演讲）
+[name="竞争对手"]阿梅利亚小姐，您要是一直不开口的话，那么我就要开始了？
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1",focus="m")]
+[name="阿梅利亚"]我......！
+[Dialog]
+[charslot]
+在崩溃之前，阿梅利亚听到自己的声音冲出了喉咙，在安静的会议室里响起。
+[charslot(slot="m",name="avg_4236_tmslot_1#14$1",focus="m")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]不、不行！——我是说，想都别想！在听了我的方案之后，不会再有人能听得进去别人的东西了！我不会让你的方案出现在这里的！
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]那些只是在基础上做了一点点改良的通讯技术，那些没有动脑子只是改了几个硬件的设备？哼！
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]只有我的方案有资格在这里被讲出来，有资格提升整个泰拉的远程通讯技术水平！
+[charslot(slot="m",name="avg_4236_tmslot_1#15$1",focus="m")]
+[name="阿梅利亚"]呼......呼......！
+[charslot(slot="m",name="avg_npc_2355_1#1$1",focus="m")]
+[name="竞争对手"]呃——
+[charslot(slot="m",name="avg_npc_1256_1#1$1",focus="m")]
+[name="招标人"]......
+[name="招标人"]............
+[name="招标人"]哈哈哈哈哈！
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1",focus="m")]
+[name="阿梅利亚"]欸？
+[charslot(slot="m",name="avg_npc_1256_1#1$1",focus="m")]
+[name="招标人"]其实你们两个人的方案我都已经看过了，不论是具体的设计、方案创新、细致程度，还是和我们公司未来发展方向的契合度......
+[name="招标人"]阿梅利亚小姐的方案确实更胜一筹。不过在来之前我还在犹豫你是否是一个有能力领头新项目的人。
+[name="招标人"]只是没想到阿梅利亚小姐竟然给了我一个这么大的惊喜！
+[name="招标人"]我需要的就是这样一个有魄力的人，这样的人才能够支撑起远程通讯技术的推广与革新！
+[charslot(slot="m",name="avg_4236_tmslot_1#9$1",focus="m")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]欸？？
+[charslot(slot="m",name="avg_npc_1256_1#1$1",focus="m")]
+[name="招标人"]阿梅利亚小姐，请再和我说说，如果在执行阶段遇到了困难，有人提出了刁钻的问题，你会怎么处理？
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1",focus="m")]
+[name="阿梅利亚"]我......
+[charslot(slot="m",name="avg_4236_tmslot_1#6$1",focus="m")]
+[name="阿梅利亚"]抓着那人的领子让他知道什么才是引领时代的新技术！赶紧给我说通过！！
+[charslot(slot="m",name="avg_npc_1256_1#1$1",focus="m")]
+[name="招标人"]呃......
+[name="招标人"]那如果客户临时提了很多不可能实现的荒诞需求，你会怎么办？
+[charslot(slot="m",name="avg_4236_tmslot_1#6$1",focus="m")]
+[name="阿梅利亚"]把我的证书全都拍在他的脸上告诉他听我这个专业人士的话就行了！！
+[charslot(slot="m",name="avg_npc_1256_1#1$1",focus="m")]
+[name="招标人"]那如果你需要来负责一个你从来没有做过的项目，你要怎么入手？
+[charslot(slot="m",name="avg_4236_tmslot_1#6$1",focus="m")]
+[name="阿梅利亚"]远程通讯最开始就是一个从来没有人做过的项目，我从一开始就在做没有人尝试过的东西了！
+[name="阿梅利亚"]之前在上一家公司，大家都不相信我真的能够做到，最后是我一个人想出来的解决方法......！
+[name="阿梅利亚"]因为这是我一直以来都想做的事，我小的时候没有办法和妈妈随时联络，所以我才想要联通整个雷姆必拓，甚至整个泰拉！
+[charslot(slot="m",name="avg_4236_tmslot_1#14$1",focus="m")]
+[name="阿梅利亚"]我就是想要任何人在任何时候，只要有想和对方说的话，就能立马传达出去，不用再等待，不会再错过......这就是我的梦想！
+[name="阿梅利亚"]所以我相信没有人比我更能胜任这次的工作，也没有人会比我更擅长做这件事了！
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]——没有人！！
+[Dialog]
+[charslot(slot="m",name="avg_4236_tmslot_1#12$1",focus="m")]
+会议室陷入了一片安静。阿梅利亚突然有些紧张。
+[charslot(slot="m",name="avg_npc_1256_1#1$1",focus="m")]
+[name="招标人"]阿梅利亚小姐，如果是其他人像你这样说话，我可能早就把他轰出去了。
+[name="招标人"]但看了你的方案之后，我觉得你的能力和技术配得上这份态度——当然，以后说话稍微客气些就更好啦。
+[charslot(slot="m",name="avg_4236_tmslot_1#9$1",focus="m")]
+[charslot(slot = "m", action="jump",random=true, power=20, times=1,duration=0.3)]
+[name="阿梅利亚"]唔！
+[charslot(slot="m",name="avg_npc_1256_1#1$1",focus="m")]
+[name="招标人"]阿梅利亚小姐，跟我来这边商讨后续合作吧。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="46_g3_rmbttown",screenadapt="coverall")]
+[Delay(time=2)]
+[playMusic(key="$normal_loop", volume=0.6)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",duration=1.5)]
+[charslot(slot="r",name="avg_4236_tmslot_1#4$1",duration=1.5)]
+[delay(time=2.5)]
+[charslot(slot="r",name="avg_4236_tmslot_1#4$1",focus="r")]
+[name="阿梅利亚"]没想到这么顺利！
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[name="嘉辛塔"]哼，顺利是很顺利啦，但你真的吓死我了！
+[name="嘉辛塔"]我带着医务人员再去找你的时候你已经不在了，问了好几个人才知道你们都进会议室了！你知道吗，我走的时候你看起来都要晕过去了！
+[charslot(slot="r",name="avg_4236_tmslot_1#4$1",focus="r")]
+[name="阿梅利亚"]嘿嘿......我也不知道我这是怎么了，不过现在应该已经完全没有问题啦。
+[name="阿梅利亚"]不如我们再去昨天那家店，买一个蛋糕来庆祝一下？
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",focus="l")]
+[name="嘉辛塔"]好吧好吧，只要你现在一切都恢复正常了就好。阿梅，你现在真的不会再不停地打嗝了对吗？
+[charslot(slot="r",name="avg_4236_tmslot_1#4$1",focus="r")]
+[name="阿梅利亚"]嗯！
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[name="嘉辛塔"]我觉得就是你许的愿实现啦！
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_bar_1",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$dooropenquite")]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",duration=1.5)]
+[charslot(slot="r",name="avg_4236_tmslot_1#4$1",duration=1.5)]
+[delay(time=2.5)]
+[charslot(slot="r",name="avg_4236_tmslot_1#4$1",focus="r")]
+[name="阿梅利亚"]嘿嘿，老板，我今天又来啦！
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2352_1#1$1",focus="m")]
+[name="老板"]哎呀，这么巧？你看，蛋糕正好还剩最后一个！
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_4236_tmslot_1#4$1",focus="r")]
+[name="阿梅利亚"]真的吗？那我想买——
+[Dialog]
+[charslot]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_npc_2354_1#1$1",duration=1.5)]
+[delay(time=2.5)]
+[name="态度强硬的家伙"]喂，又是你啊，小家伙——老板，我买蛋糕！
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#7$1",focus="l")]
+[charslot(slot="r",name="avg_4236_tmslot_1#5$1",focus="l")]
+[name="嘉辛塔"]等一下，是我们先来的！
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2354_1#1$1",focus="m")]
+[name="态度强硬的家伙"]先来的？那在我开口之前，你们也没说要买啊？
+[name="态度强硬的家伙"]赶紧让开，别挡了我的路！
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#6$1",focus="r")]
+[charslot(slot="r",name="avg_4236_tmslot_1#6$1",focus="r")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]喂！安静点吧，难道你真的以为自己嗓门大就很厉害吗？
+[name="阿梅利亚"]自以为是蛮不讲理的家伙！你现在的行为就是插队，就是仗势欺人，要是没人告诉你这样做不对的话，我就来教教你什么叫礼貌！
+[charslot(slot="l",name="avg_4237_jcinta_1#6$1",focus="l")]
+[name="嘉辛塔"]喔——阿梅，你好像确实变了！
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2354_1#1$1",focus="m")]
+[name="态度强硬的家伙"]你——
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_4236_tmslot_1#6$1",focus="r")]
+[name="阿梅利亚"]你什么你！做错了事情就安静地在一边反省就好了，别在这里开口说话了！
+[name="阿梅利亚"]老板，还有——
+[charslot(slot="r",name="avg_4236_tmslot_1#5$1",focus="r")]
+话刚说到一半，阿梅利亚突然哽住了。
+胸口的那团沉闷的气再次出现，她觉得自己继续说出那些强硬的话简直轻而易举。
+她很有把握自己的气势可以盖过这个强硬的家伙让他闭嘴，她也很有把握自己能够用气势镇住老板，让她把最后那个蛋糕卖给她。
+[charslot(slot="r",name="avg_4236_tmslot_1#17$1",focus="r")]
+今天的种种经历似乎都在告诉她，态度强硬，她就能得到自己想要的。
+如果再强硬一点，如果再蛮横一点......阿梅利亚张了张嘴。
+[charslot(slot="r",name="avg_4236_tmslot_1#11$1",focus="r")]
+[name="阿梅利亚"]你......
+但那句强硬的话阿梅利亚并没能说出口。
+[charslot(slot="r",name="avg_4236_tmslot_1#7$1",focus="r")]
+相反，泪水渐渐地从她的眼眶中涌出。
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[name="阿梅利亚"]我......可我不想......嗝！这样对老板......
+[charslot(slot="l",name="avg_4237_jcinta_1#11$1",focus="l")]
+[name="嘉辛塔"]怎、怎么了阿梅？你别哭呀......！
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[name="阿梅利亚"]嗝......呜！老板是一个好人......难道我也要用这样的态度对待她吗？
+[name="阿梅利亚"]呜！还有嘉辛塔你，难道我以后也要这样对待你吗？还有安洁莉娜，还有塔妮......嗝！
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+“就按照我说的来做！”“我不管你有什么困难，达到我的要求！”“他不行，你交给我，我肯定能让你满意！”
+之前那家公司里，很多人都这样说话，摆出一副很厉害的样子，假装自己拥有过人的能力，争夺项目、权力。
+阿梅利亚知道他们确实能拿到自己想要的，就像今天，甚至是之前她第一次和嘉辛塔她们相遇时，她也用这种方法得到了信任。
+“没错，我就是公司派来的工程总监！”“凭我的经验，修理通讯塔只是小事一桩！”“你们满意就好！”
+但......她知道这其实算是某种欺骗，她真的需要这样做吗？
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[name="阿梅利亚"]这样......嗝！真的是我吗？
+[Dialog]
+[charslot]
+一个蛋糕被递到了阿梅利亚面前。
+[charslot(slot="m",name="avg_npc_2352_1#1$1",focus="m")]
+[name="老板"]小阿梅，别哭呀。
+[name="老板"]给，蛋糕给你。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#11$1",focus="r")]
+[charslot(slot="r",name="avg_4236_tmslot_1#7$1",focus="r")]
+[name="阿梅利亚"]......欸？
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2354_1#1$1",focus="m")]
+[name="态度强硬的家伙"]喂，为什么！
+[charslot(slot="m",name="avg_npc_2352_1#1$1",focus="m")]
+[name="老板"]小伙子，昨天那个蛋糕我卖给了你，今天总该给这个小姑娘了。
+[name="老板"]你要是真的想吃，这里还有几款面包，味道也是很不错的。
+[charslot(slot="m",name="avg_npc_2354_1#1$1",focus="m")]
+[name="态度强硬的家伙"]哼，也行吧......
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[name="阿梅利亚"]呜！！
+[name="阿梅利亚"]我、我没有强硬地继续争下去，也可以得到这个蛋糕吗？
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2352_1#1$1",focus="m")]
+[name="老板"]当然可以了。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[name="阿梅利亚"]呜、呜！
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[multiline(name="阿梅利亚")]真、真的吗？
+[charslot(slot="l",name="avg_4237_jcinta_1#6$1",focus="r")]
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="r")]
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[multiline(name="阿梅利亚")]嗝！
+[charslot(slot="r",name="avg_4236_tmslot_1#9$1",focus="r")]
+[charslot(slot = "r", action="jump",random=true, power=20, times=1,duration=0.3,focus="r")]
+[name="阿梅利亚"]嗝——！！
+[Dialog]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[charslot(slot="r",afrom=1,ato=0,duration=1)]
+[charslot(slot="r",posfrom="0,0",posto="0,-40",duration=2)]
+[delay(time=2.5)]
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2352_1#1$1",focus="m")]
+[name="老板"]哎呀小阿梅，你怎么呛住了！
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_4237_jcinta_1#11$1",focus="l")]
+[name="嘉辛塔"]阿梅，阿梅？快快快，我带你去找医生！
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="28_g4_embassy",screenadapt="coverall")]
+[Delay(time=2)]
+[playMusic(key="$comedy_loop", volume=0.6)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_npc_501_1#1$1",focus="m")]
+[name="医疗部干员"]......
+[name="医疗部干员"]你看，胃里面全都是蛋糕呢，把胃撑大了，挤压到了横膈膜——就是这里。
+[name="医疗部干员"]原本的空隙被挤压没了，你一想哭就抽噎，吸进来了更多的气，但体内已经没有地方了，就会一直打嗝。
+[name="医疗部干员"]所以......你昨晚吃了多少蛋糕？
+[charslot(slot="m",name="avg_4236_tmslot_1#7$1",focus="m")]
+[name="阿梅利亚"]没多少......就一个......
+[name="阿梅利亚"]一个大概篮球那么大的......因为是我的幸运蛋糕来着......
+[charslot(slot="m",name="avg_npc_501_1#1$1",focus="m")]
+[name="医疗部干员"]那大概是因为你吃下去没多久就睡了，再加上你紧张竞标所以消化不良，最终变成了现在这样。我给你开一些促进消化的药好了。
+[charslot(slot="m",name="avg_4236_tmslot_1#8$1",focus="m")]
+[name="阿梅利亚"]所以嗝！不是我的生日愿望成真了吗？......嗝！呜......我还以为，我真的变成一个很强硬的人了呢......嗝！
+[name="阿梅利亚"]呜......虽然今天我确实有点太过了，但我也希望自己能够再厉害一点，不要让嘉辛塔一直为我担心，我也能做到些什么的......嗝！
+[name="阿梅利亚"]呜......这个药吃下去要多久我才能不打嗝呢？......嗝！
+[Dialog]
+[charslot]
+[playsound(key="$rungeneral")]
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1",duration=1)]
+[delay(time=2.5)]
+[name="嘉辛塔"]阿梅！这边有一个医生说他可以帮你快速治好打嗝！
+[Dialog]
+[charslot]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_npc_070",duration=1.5)]
+[delay(time=2.5)]
+[charslot]
+[charslot(slot="l",name="avg_npc_070",focus="l")]
+[charslot(slot="r",name="avg_4236_tmslot_1#8$1",focus="l")]
+[name="医生"]让我来看看，这不简单？——看我从嘉维尔前辈那里学来的招数！嘿！
+[Dialog]
+[charslot(slot="r",name="avg_4236_tmslot_1#9$1")]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$fightgeneral", volume=1)]
+[charslot(slot="r",afrom=1,ato=0,duration=1)]
+[charslot(slot="r",posfrom="0,0",posto="-50,-40",duration=2)]
+[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]
+[Dialog]
+[delay(time=0.51)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[delay(time=1.5)]
+[charslot(slot="l",name="avg_npc_070",focus="none")]
+[name="阿梅利亚"]呜......
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1",afrom=0,ato=1,duration=1)]
+[charslot(slot="m",posfrom="0,-40",posto="0,0",duration=2)]
+[delay(time=2.5)]
+[name="阿梅利亚"]呜！脖子好痛......呜呜......
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1",focus="m")]
+[name="阿梅利亚"]——欸？
+[charslot(slot="m",name="avg_4236_tmslot_1#8$1",focus="m")]
+[name="阿梅利亚"]我好像真的不打嗝了！
+[charslot(slot="m",name="avg_npc_501_1#1$1",focus="m")]
+[name="医疗部干员"]但你怎么又开始哭了......？
+[Dialog]
+[charslot]
+阿梅利亚又哭又笑，抹了一把眼泪。
+[charslot(slot="m",name="avg_4236_tmslot_1#7$1",focus="m")]
+[name="阿梅利亚"]这、这才是我嘛！
+[name="阿梅利亚"]要强硬一点，也要真实一点，最后再少哭一点......这就是我的生日愿望......！
+[charslot(slot="m",name="avg_4236_tmslot_1#8$1",focus="m")]
+[name="阿梅利亚"]呜！
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[image]
+[charslot]

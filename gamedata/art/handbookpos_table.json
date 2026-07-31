@@ -64,6 +64,7 @@
             "char_4227_gallus",
             "char_4228_closur",
             "char_1052_kalts2",
+            "char_1015_aglna2",
             "char_003_kalts"
           ],
           "forceId": "rhodes",
@@ -273,7 +274,10 @@
         {
           "color": "524eff",
           "charList": [
-            "char_230_savage"
+            "char_230_savage",
+            "char_4235_thumpy",
+            "char_4237_jcinta",
+            "char_4236_tmslot"
           ],
           "forceId": "rim",
           "pos": {
@@ -283,8 +287,8 @@
           "isThisGroup": false,
           "connectPos": 5,
           "focusPos": {
-            "x": 319.62616,
-            "y": -573.4087
+            "x": -447.5617,
+            "y": -601.2021
           },
           "colorBlocks": []
         },
@@ -301,8 +305,8 @@
           "isThisGroup": false,
           "connectPos": 3,
           "focusPos": {
-            "x": -303.3699,
-            "y": 85.0263
+            "x": 1805.333,
+            "y": 1051.70679
           },
           "colorBlocks": []
         },
@@ -322,6 +326,24 @@
           "focusPos": {
             "x": 327.5734,
             "y": -582.2293
+          },
+          "colorBlocks": []
+        },
+        {
+          "color": "536177",
+          "charList": [
+            "char_291_aglina"
+          ],
+          "forceId": "siracusa",
+          "pos": {
+            "x": -150.0,
+            "y": 1125.833
+          },
+          "isThisGroup": false,
+          "connectPos": 3,
+          "focusPos": {
+            "x": 135.727921,
+            "y": -1100.644
           },
           "colorBlocks": []
         }
@@ -2254,7 +2276,13 @@
             "x": 450.0,
             "y": 606.2178
           },
-          "connectionList": [],
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4236_tmslot",
+              "forceId": null
+            }
+          ],
           "haveOutLine": true
         },
         {
@@ -3502,6 +3530,95 @@
           "haveOutLine": true
         },
         {
+          "charId": "char_4235_thumpy",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": 866.0254
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4237_jcinta",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_4236_tmslot",
+              "forceId": null
+            },
+            {
+              "direction": 5,
+              "charId": "char_1015_aglna2",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4237_jcinta",
+          "scale": 1.0,
+          "pos": {
+            "x": 300.0,
+            "y": 1039.23047
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": "char_4235_thumpy",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4236_tmslot",
+          "scale": 1.0,
+          "pos": {
+            "x": 450.0,
+            "y": 779.422852
+          },
+          "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4235_thumpy",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_230_savage",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_1015_aglna2",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": 779.422852
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_4235_thumpy",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_291_aglina",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 1039.23047
+          },
+          "connectionList": [],
+          "haveOutLine": true
+        },
+        {
           "charId": "char_003_kalts",
           "scale": 1.2,
           "pos": {
@@ -3796,61 +3913,103 @@
           "char2": "char_1052_kalts2"
         },
         {
-          "index": 321,
+          "index": 108,
+          "lineType": 0,
+          "char1": "char_4235_thumpy",
+          "char2": "char_4236_tmslot"
+        },
+        {
+          "index": 109,
+          "lineType": 0,
+          "char1": "char_4235_thumpy",
+          "char2": "char_4237_jcinta"
+        },
+        {
+          "index": 110,
+          "lineType": 0,
+          "char1": "char_4236_tmslot",
+          "char2": "char_4237_jcinta"
+        },
+        {
+          "index": 111,
+          "lineType": 0,
+          "char1": "char_4236_tmslot",
+          "char2": "char_1015_aglna2"
+        },
+        {
+          "index": 112,
+          "lineType": 0,
+          "char1": "char_4235_thumpy",
+          "char2": "char_1015_aglna2"
+        },
+        {
+          "index": 113,
+          "lineType": 0,
+          "char1": "char_4237_jcinta",
+          "char2": "char_1015_aglna2"
+        },
+        {
+          "index": 114,
+          "lineType": 0,
+          "char1": "char_291_aglina",
+          "char2": "char_1015_aglna2"
+        },
+        {
+          "index": 215,
           "lineType": 0,
           "char1": "char_002_amiya",
           "char2": "char_003_kalts"
         },
         {
-          "index": 322,
+          "index": 216,
           "lineType": 0,
           "char1": "char_003_kalts",
           "char2": "npc_001_doctor"
         },
         {
-          "index": 323,
+          "index": 217,
           "lineType": 0,
           "char1": "char_003_kalts",
           "char2": "char_345_folnic"
         },
         {
-          "index": 324,
+          "index": 218,
           "lineType": 0,
           "char1": "char_144_red",
           "char2": "char_003_kalts"
         },
         {
-          "index": 325,
+          "index": 219,
           "lineType": 0,
           "char1": "npc_010_chen",
           "char2": "char_002_amiya"
         },
         {
-          "index": 326,
+          "index": 220,
           "lineType": 0,
           "char1": "npc_010_chen",
           "char2": "char_1013_chen2"
         },
         {
-          "index": 327,
+          "index": 221,
           "lineType": 0,
           "char1": "char_4179_monstr",
           "char2": "char_003_kalts"
         },
         {
-          "index": 328,
+          "index": 222,
           "lineType": 0,
           "char1": "char_1050_chen3",
           "char2": "npc_010_chen"
         },
         {
-          "index": 329,
+          "index": 223,
           "lineType": 0,
           "char1": "char_4228_closur",
           "char2": "char_003_kalts"
         },
         {
-          "index": 330,
+          "index": 224,
           "lineType": 0,
           "char1": "char_003_kalts",
           "char2": "char_1052_kalts2"
@@ -5836,49 +5995,49 @@
           "char2": "char_1013_chen2"
         },
         {
-          "index": 331,
+          "index": 225,
           "lineType": 0,
           "char1": "npc_2005_wywu",
           "char2": "npc_010_chen"
         },
         {
-          "index": 332,
+          "index": 226,
           "lineType": 0,
           "char1": "char_136_hsguma",
           "char2": "npc_010_chen"
         },
         {
-          "index": 333,
+          "index": 227,
           "lineType": 0,
           "char1": "char_308_swire",
           "char2": "npc_010_chen"
         },
         {
-          "index": 334,
+          "index": 228,
           "lineType": 0,
           "char1": "npc_010_chen",
           "char2": "char_002_amiya"
         },
         {
-          "index": 335,
+          "index": 229,
           "lineType": 0,
           "char1": "char_1013_chen2",
           "char2": "npc_010_chen"
         },
         {
-          "index": 336,
+          "index": 230,
           "lineType": 0,
           "char1": "char_4080_lin",
           "char2": "npc_010_chen"
         },
         {
-          "index": 337,
+          "index": 231,
           "lineType": 0,
           "char1": "char_1044_hsgma2",
           "char2": "npc_010_chen"
         },
         {
-          "index": 338,
+          "index": 232,
           "lineType": 0,
           "char1": "char_1050_chen3",
           "char2": "npc_010_chen"
@@ -8257,12 +8416,15 @@
             "char_464_cement",
             "char_4117_ray",
             "char_4081_warmy",
-            "char_4178_alanna"
+            "char_4178_alanna",
+            "char_4235_thumpy",
+            "char_4237_jcinta",
+            "char_4236_tmslot"
           ],
           "forceId": "rim",
           "pos": {
-            "x": -149.999924,
-            "y": 259.8075
+            "x": -150.0,
+            "y": 259.807617
           },
           "isThisGroup": true,
           "connectPos": 3,
@@ -8302,7 +8464,8 @@
         {
           "color": "0098dc",
           "charList": [
-            "char_002_amiya"
+            "char_002_amiya",
+            "char_1015_aglna2"
           ],
           "forceId": "rhodes",
           "pos": {
@@ -8315,7 +8478,50 @@
             "x": 831.6188,
             "y": 6.21425772
           },
-          "colorBlocks": []
+          "colorBlocks": [
+            {
+              "id": "rhodes0",
+              "forceId": "rhodes",
+              "pos": {
+                "x": -900.0,
+                "y": 173.205078
+              },
+              "color": "0098dc",
+              "connectionList": [
+                {
+                  "direction": 1,
+                  "charId": null,
+                  "forceId": "rhodes"
+                },
+                {
+                  "direction": 4,
+                  "charId": "char_002_amiya",
+                  "forceId": null
+                }
+              ]
+            },
+            {
+              "id": "rhodes1",
+              "forceId": "rhodes",
+              "pos": {
+                "x": -900.0,
+                "y": 346.410156
+              },
+              "color": "0098dc",
+              "connectionList": [
+                {
+                  "direction": 1,
+                  "charId": "char_1015_aglna2",
+                  "forceId": null
+                },
+                {
+                  "direction": 4,
+                  "charId": null,
+                  "forceId": "rhodes"
+                }
+              ]
+            }
+          ]
         }
       ],
       "charList": [
@@ -8379,6 +8585,11 @@
             "y": 259.8075
           },
           "connectionList": [
+            {
+              "direction": 0,
+              "charId": "char_4235_thumpy",
+              "forceId": null
+            },
             {
               "direction": 2,
               "charId": "char_476_blkngt",
@@ -8452,6 +8663,11 @@
           },
           "connectionList": [
             {
+              "direction": 1,
+              "charId": "char_4235_thumpy",
+              "forceId": null
+            },
+            {
               "direction": 2,
               "charId": "char_378_asbest",
               "forceId": null
@@ -8481,7 +8697,13 @@
             "x": -899.9996,
             "y": 0.0
           },
-          "connectionList": [],
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": null,
+              "forceId": "rhodes"
+            }
+          ],
           "haveOutLine": true
         },
         {
@@ -8675,6 +8897,85 @@
             }
           ],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_1015_aglna2",
+          "scale": 1.0,
+          "pos": {
+            "x": -900.0,
+            "y": 519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 4,
+              "charId": null,
+              "forceId": "rhodes"
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4235_thumpy",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 346.410156
+          },
+          "connectionList": [
+            {
+              "direction": 1,
+              "charId": "char_4237_jcinta",
+              "forceId": null
+            },
+            {
+              "direction": 3,
+              "charId": "char_378_asbest",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_365_aprl",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4237_jcinta",
+          "scale": 1.0,
+          "pos": {
+            "x": 0.0,
+            "y": 519.615234
+          },
+          "connectionList": [
+            {
+              "direction": 2,
+              "charId": "char_4236_tmslot",
+              "forceId": null
+            },
+            {
+              "direction": 4,
+              "charId": "char_4235_thumpy",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
+        },
+        {
+          "charId": "char_4236_tmslot",
+          "scale": 1.0,
+          "pos": {
+            "x": 150.0,
+            "y": 606.2178
+          },
+          "connectionList": [
+            {
+              "direction": 5,
+              "charId": "char_4237_jcinta",
+              "forceId": null
+            }
+          ],
+          "haveOutLine": true
         }
       ],
       "lineList": [
@@ -8695,6 +8996,42 @@
           "lineType": 0,
           "char1": "char_4178_alanna",
           "char2": "char_4081_warmy"
+        },
+        {
+          "index": 3,
+          "lineType": 0,
+          "char1": "char_4237_jcinta",
+          "char2": "char_4236_tmslot"
+        },
+        {
+          "index": 4,
+          "lineType": 0,
+          "char1": "char_4235_thumpy",
+          "char2": "char_4236_tmslot"
+        },
+        {
+          "index": 5,
+          "lineType": 0,
+          "char1": "char_4237_jcinta",
+          "char2": "char_4235_thumpy"
+        },
+        {
+          "index": 6,
+          "lineType": 0,
+          "char1": "char_1015_aglna2",
+          "char2": "char_4236_tmslot"
+        },
+        {
+          "index": 7,
+          "lineType": 0,
+          "char1": "char_1015_aglna2",
+          "char2": "char_4237_jcinta"
+        },
+        {
+          "index": 8,
+          "lineType": 0,
+          "char1": "char_4235_thumpy",
+          "char2": "char_1015_aglna2"
         }
       ],
       "minScale": 0.75,
@@ -12181,23 +12518,18 @@
               "forceId": "siracusa",
               "pos": {
                 "x": 0.0,
-                "y": 173.205
+                "y": 346.410156
               },
               "color": "536177",
               "connectionList": [
                 {
-                  "direction": 0,
-                  "charId": "char_4065_judge",
-                  "forceId": null
-                },
-                {
-                  "direction": 2,
+                  "direction": 3,
                   "charId": "char_140_whitew",
                   "forceId": null
                 },
                 {
                   "direction": 5,
-                  "charId": "char_358_lisa",
+                  "charId": "char_4065_judge",
                   "forceId": null
                 }
               ]
@@ -12242,6 +12574,24 @@
             "y": -471.587433
           },
           "colorBlocks": []
+        },
+        {
+          "color": "0098dc",
+          "charList": [
+            "char_1015_aglna2"
+          ],
+          "forceId": "rhodes",
+          "pos": {
+            "x": -150.0,
+            "y": -606.2178
+          },
+          "isThisGroup": false,
+          "connectPos": 0,
+          "focusPos": {
+            "x": 137.006943,
+            "y": 606.0963
+          },
+          "colorBlocks": []
         }
       ],
       "charList": [
@@ -12254,14 +12604,14 @@
           },
           "connectionList": [
             {
+              "direction": 0,
+              "charId": null,
+              "forceId": "siracusa"
+            },
+            {
               "direction": 2,
               "charId": "char_1038_whitw2",
               "forceId": null
-            },
-            {
-              "direction": 5,
-              "charId": null,
-              "forceId": "siracusa"
             }
           ],
           "haveOutLine": true
@@ -12414,11 +12764,6 @@
               "forceId": null
             },
             {
-              "direction": 2,
-              "charId": null,
-              "forceId": "siracusa"
-            },
-            {
               "direction": 4,
               "charId": "char_254_vodfox",
               "forceId": null
@@ -12550,7 +12895,7 @@
               "forceId": null
             },
             {
-              "direction": 3,
+              "direction": 2,
               "charId": null,
               "forceId": "siracusa"
             },
@@ -12759,6 +13104,16 @@
             }
           ],
           "haveOutLine": true
+        },
+        {
+          "charId": "char_1015_aglna2",
+          "scale": 1.0,
+          "pos": {
+            "x": -300.0,
+            "y": -519.615234
+          },
+          "connectionList": [],
+          "haveOutLine": true
         }
       ],
       "lineList": [
@@ -12821,6 +13176,12 @@
           "lineType": 0,
           "char1": "char_427_vigil",
           "char2": "char_4065_judge"
+        },
+        {
+          "index": 142,
+          "lineType": 0,
+          "char1": "char_1015_aglna2",
+          "char2": "char_291_aglina"
         }
       ],
       "minScale": 0.75,
@@ -13741,13 +14102,13 @@
           "char2": "char_1050_chen3"
         },
         {
-          "index": 339,
+          "index": 233,
           "lineType": 0,
           "char1": "npc_010_chen",
           "char2": "char_1013_chen2"
         },
         {
-          "index": 340,
+          "index": 234,
           "lineType": 0,
           "char1": "npc_010_chen",
           "char2": "char_1050_chen3"

@@ -1,0 +1,478 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[image(image="cg_letter",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[playsound(key="$d_avg_paper2")]
+[Sticker(id="st1", text="\n信写到这里，感觉也应该要结束了。好像一直是我自己在说些不着边际的话......真的非常抱歉。", multi = true, x=200,y=260, alignment="left", size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st1", text="\n我希望这封信能顺利寄到你手里，但好像又希望......这封信就这样消失在信使和信使的传递之中，不要被任何人看见。", x=300,y=300, alignment="left", multi = true, size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st1", duration=0.5)]
+[Delay(time=1)]
+[Sticker(id="st1", text="\n但我还是决定把它寄出去，寄给你。希望你能收到这封信，这至少说明你一切都好。", multi = true, x=200,y=260, alignment="left", size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st1", text="\n祝你一切顺利。", x=300,y=300, alignment="left", multi = true, size=24, delay=0.04, width=900,block = true)]
+[Sticker(id="st2", text="爱你的安洁莉娜", x=450,y=500, alignment="right", size=24, delay=0.04, width=600, multi = true,block = true)]
+[Sticker(id="st1", duration=1)]
+[Sticker(id="st2", duration=1)]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background]
+[image]
+[bgeffect(name="$eb_sand02",layer=1)]
+[playsound(key="$d_avg_sandstorm", loop=true, channel="f",volume=0)]
+[Image(image="76_i11",screenadapt="coverall", xScale=1.3, yScale=1.3,x=100,y=30)]
+[ImageTween(xTo=0,yTo=0, duration=60, block=false,xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1, yScaleTo=1)]
+[SoundVolume(volume=0.3, channel="f",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playMusic(intro="$sjoyasorrow_intro", key="$sjoyasorrow_loop", volume=0.6)]
+[Delay(time=1)]
+[name="安洁莉娜"]呼叫大铁屯塔台，呼叫大铁屯塔台！这里是安洁莉娜！请确认我和大铁屯的相对位置！
+[PlaySound(key="$d_avg_signlntrfrnc", volume=1)]
+[name="塔台"]这里是塔台，你们正在持续往东南方向移动，目前正处于沙暴区边缘，和大铁屯的相对位置是——滋滋......
+[name="阿梅利亚"]信号越来越不稳定了......
+[name="安洁莉娜"]塔台，再确认一次，我们现在和大铁屯距离多远？
+[name="塔台"]安洁——滋滋......距离大铁屯二十公里！你们面前沙暴......滋滋......七公里左右！只是预估数据，沙暴范围随时可能变动......
+[name="安洁莉娜"]塔台——
+[PlaySound(key="$d_avg_signlntrfrnc", volume=1)]
+[name="塔台"]......滋滋......滋滋......
+[name="塔台"]......通过！快速通过！源石浓度正在上升——滋滋——活性源石潮从东偏南方向——滋滋——
+[name="塔妮"]活性源石潮？！
+[name="安洁莉娜"]塔台，请求确认活性源石潮到达时间！
+[name="安洁莉娜"]请求确认活性源石潮到达时间！
+[Dialog]
+[PlaySound(key="$transmission", volume=1)]
+[Delay(time=1.5)]
+[name="塔妮"]塔台的连接断了？！
+[name="阿梅利亚"]糟糕......再稳定的系统也禁不起活性源石潮的干扰啊！
+[name="安洁莉娜"]......阿梅利亚，麻烦看看车上的源石浓度检测系统！
+[name="阿梅利亚"]......按雷姆必拓标准，比安全阈值低四分之一左右！
+[name="安洁莉娜"]也就是说已经超过罗德岛的安全标准了！各位——
+[name="塔妮"]——安洁，不许搞征求意见那一套！没人想走回头路！
+[name="安洁莉娜"]我有说过要走回头路吗？
+[name="安洁莉娜"]我是说，请各位做好防护准备，我要加速了！
+[name="安洁莉娜"]塔妮，竖起耳朵，不要放过任何可疑的声音！
+[name="塔妮"]交给我！
+[name="安洁莉娜"]阿梅利亚，虽然有点可惜，麻烦你再放飞两只“小飞虫”，随时报告周围的异常情况！
+[name="阿梅利亚"]好、好的！
+[name="安洁莉娜"]嘉辛塔，如果不晕车，麻烦帮我观察我们身后的情况！
+[name="嘉辛塔"]这种生死攸关的场合谁要晕车啊！
+[name="安洁莉娜"]那我要加速了——
+[name="塔妮"]等等，我听见有什么在车窗外......
+[Dialog]
+[delay(time=1)]
+[interlude(maskid = "ui_cutin_mask_vertical" ,size = "590,760", style=0 , offset = "0,0" ,channel = 1,tsfrom = "1,1", tsto="1,1",tsduration = 0.5)]
+[interlude(channel = 1, type = 2, name = "bg_desert_1",aduration = 1,afrom=0,ato=0,sfrom = "1.2,1.2", sto = "1.2,1.2,", pfrom = "0,-70", pto="0,-70")]
+[interlude(channel = 1, type = 3, slot = "r", name = "avg_npc_2349_1#1$5",aduration = 1,sfrom = "0.7,0.7", sto = "0.7,0.7",sduration = 0)]
+[interlude(channel = 1, type = 3, slot = "r", pfrom = "200,100", pto="50,140", duration = 2)]
+[delay(time=2)]
+[interlude(channel = 1, type = 3, slot = "r", name = "avg_npc_2349_1#1$5",pfrom = "50,140", pto="50,140", duration = 0,aduration = 1,afrom=1,ato=0)]
+[delay(time=2)]
+[interlude(channel = 1, clear = true)]
+[name="塔妮"]是一撮毛......不对，是有袋鼷兽？！
+[name="塔妮"]它怎么在跟着我们，难道我们之前真的遇见过它——不，难道我们一路遇见的都是它？
+[name="嘉辛塔"]它为什么在这个当口现身？！
+[name="阿梅利亚"]这、这、这种时候还要偷我想说的话吗？！
+[name="嘉辛塔＆阿梅利亚"]......
+[name="塔妮"]安洁，有袋鼷兽飞得好像很吃力的样子......而且好像也在往南飞！怎么办？
+[name="安洁莉娜"]不管怎么说，趁活性源石浓度还没太高，得让它进车里来！
+其余三个人纷纷点头。
+[PlaySound(key="$d_avg_carwindow", volume=1)]
+安洁莉娜一手稳住方向，一手摇下车窗，和风暴中挣扎的小小生物对了一个眼神。
+[PlaySound(key="$d_avg_rodentsqueak_normal", volume=1)]
+[name="有袋鼷兽"]叽......？
+[name="安洁莉娜"]进来吧，小家伙！
+[PlaySound(key="$d_avg_rodentsqueak_excited", volume=1)]
+[name="有袋鼷兽"]叽叽！
+[SoundVolume(volume=0.15, channel="f",fadetime=1)]
+和小生物进入车厢几乎同时，安洁莉娜关紧车窗，两手紧紧握住方向盘。施术单元在她身侧微微发光。
+[name="塔妮"]辛苦你了，一撮毛......
+[name="嘉辛塔"]欸？它叫一撮毛吗？
+[name="塔妮"]可你看它头上那一撮毛，真的很显眼......安洁，你觉得呢？
+[name="安洁莉娜"]有袋鼷兽头顶的绒毛不是被那个勇敢的雷姆必拓人打了一下之后长出来的吗？
+[name="塔妮"]哦，你说那个故事？
+[name="安洁莉娜"]如果真是这样，所有的有袋鼷兽头顶应该都有毛，管它叫一撮毛和给驮兽起名叫大眼睛也没什么区别了吧。
+[name="塔妮"]......我不管！它就叫一撮毛好不好！
+[name="安洁莉娜"]如果你非要坚持，那也不是不行......
+[name="安洁莉娜"]......因为这次我们真的要加速了！
+[Dialog]
+[CameraShake(duration=3, xstrength=2, ystrength=2, vibrato=50, randomness=90, fadeout=false, block=false)]
+[PlaySound(key="$d_avg_carspeedup", volume=1)]
+[effect(name="$e_sand_transition", layer=1)]
+[Delay(time=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[Delay(time=1)]
+[image]
+[Background(image="bg_light",screenadapt="coverall")]
+[CameraShake(duration=3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[name="塔妮&嘉辛塔&阿梅利亚"]哇啊啊啊啊啊啊啊啊啊！
+[PlaySound(key="$d_avg_rodentsqueak_excited", volume=1)]
+[PlaySound(key="$d_avg_rodentsqueak_excited", volume=1,channel="2",delay=0.3)]
+[name="一撮毛"]叽叽叽叽叽叽叽？！
+[Dialog]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[bgeffect(name="$eb_sand02",layer=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="嘉辛塔"]咳、咳！安洁，外面已经什么都看不清了......
+[name="阿梅利亚"]放飞的“小飞虫”已经全部失联......需要我再放一批吗？
+[name="安洁莉娜"]塔妮，你那边呢，有没有听见什么不一样的声音？
+[name="塔妮"]听不见！风沙声太响了，其他的我什么都——
+[name="塔妮"]......？
+[name="安洁莉娜"]塔妮？
+[name="塔妮"]我在听......是不一样的声音，是......
+[Dialog]
+[PlaySound(key="$d_avg_carskid", volume=1)]
+[Delay(time=1.5)]
+[name="安洁莉娜"]车打滑了？！
+[name="塔妮"]是水！
+[name="嘉辛塔＆阿梅利亚"]水？！
+[name="安洁莉娜"]是的，是水，车轮正在打滑！路面突然变得光滑了！
+[StopSound(channel="f", fadetime=3)]
+[stopmusic(fadetime=3)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[Delay(time=0.25)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[name="塔妮"]风沙声停了！是、是——！
+塔妮组织语言的当口，车子终于穿破了最后的阻隔。此前从未想象过的景色在她们眼前延伸开来。
+车里的四个人好一会儿说不出话。
+直到有袋鼷兽兴奋地叫起来，安洁莉娜才如梦初醒，缓缓将车停下，打开车门。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="76_g12_skymirror",screenadapt="coverall")]
+[bgeffect(name="$eb_sunlight_l",layer=1,y=200,x=-300)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playMusic(intro="$skydome2_intro", key="$skydome2_loop", volume=0.6)]
+[Delay(time=2)]
+看着眼前的景象，她陷入短暂的失语之中。
+在原地站了好一会儿之后，她选择张开双臂，迎接纯净的风。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_4235_thumpy_1#7$2",duration=1.5)]
+[Delay(time=2)]
+[name="塔妮"]这就是......南境......？
+[charslot(slot="m",name="avg_4235_thumpy_1#6$2")]
+[name="塔妮"]雨季过后澄澈的天空，地面镜子一样的积水，晶体中间探出头的小花......
+[name="塔妮"]和奶奶说的一模一样！所以我真的到了，这里就是......
+[Dialog]
+[charslot]
+[playsound(key="$d_avg_shallowsrun", loop=true, channel="c")]
+[Delay(time=0.3)]
+[StopSound(channel="c", fadetime=0.2)]
+塔妮下意识地用脚轻拍地面，不是因为急躁，而是不知该如何抒发胸中的思绪。
+轻盈的水花在她脚下绽开，打湿了她的鞋尖。潮湿的凉意让她打了个激灵。
+她忽然猛地一跺脚。
+[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[multiline(name="塔妮")]奶奶——
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[multiline(name="塔妮")]我们到南境来了——
+卡特斯逆着风，但她分明觉得自己的声音传了很远很远——
+[Dialog]
+[charslot(slot="m",name="avg_1015_aglna2_1#1$1",duration=1)]
+[Delay(time=2)]
+[name="安洁莉娜"]我们到了——
+[charslot(slot="m",name="avg_1015_aglna2_1#21$1")]
+[name="安洁莉娜"]我们终于到了——
+[charslot(slot = "m", focus = "n")]
+刚刚还神经紧绷，此刻的呼喊让沃尔珀略微觉得有些缺氧。
+她知道自己正在眩晕，双脚也站不稳，但此时她宁愿相信，这是大地正在邀她跳一支轻巧的舞。
+[dialog]
+[charslot(slot="m",name="avg_1015_aglna2_1#21$1")]
+[Delay(time=0.3)]
+[charslot(slot="m",posfrom = "0,0", posto = "0,-30",duration=0.3)]
+[CameraShake(duration=0.3, xstrength=5, ystrength=10, vibrato=5, randomness=90, fadeout=true, block=false)]
+[playsound(key="$d_avg_animalswaterfsfast", loop=true, channel="c")]
+[charslot(duration=0.3)]
+[Delay(time=0.3)]
+[StopSound(channel="c", fadetime=0.3)]
+于是她连着转了几个圈，放任眩晕让自己失去重心，一跤坐倒在水中。
+[name="安洁莉娜"]呼啊......
+[charslot]
+她看向嘉辛塔和阿梅利亚，两人也被眼前的景象震撼，久久不能说出话来。
+[Dialog]
+[charslot(slot = "l",duration = 1,name="avg_4237_jcinta_1#6$1")]
+[charslot(slot = "r",duration = 1,name="avg_4236_tmslot_1#4$1")]
+[delay(time=2)]
+[charslot(slot = "l",focus="l",name="avg_4237_jcinta_1#6$1")]
+[name="嘉辛塔"]我......我没想过这里居然是这样......
+[charslot(slot = "l",focus="l",name="avg_4237_jcinta_1#8$1")]
+[name="嘉辛塔"]和我去过的任何地方都不一样，像一面映照着天空的镜子......
+[charslot(slot = "l",focus="l",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]阿梅，我——
+[charslot(slot = "m", focus = "n")]
+阿梅利亚的脸因兴奋而涨得通红。
+听见嘉辛塔的话，阿梅利亚把头转向她的方向，和她对上眼神。
+[charslot(slot = "l",focus="l",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]我......
+[charslot(slot = "r",focus="r",name="avg_4236_tmslot_1#4$1")]
+[name="阿梅利亚"]......
+[charslot]
+[charslot(slot="m",name="avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]好了好了，阿梅利亚，你不是还有设备想在南境测试吗？
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]我自己的设备随时都能测试，倒是没什么关系，但根据“小飞虫”的探测，南境现在并没有信号源......
+[charslot(slot="m",name="avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]你的意思是说，罗德岛的设备也坏掉了？
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]是的......
+[name="阿梅利亚"]按说这种设备在远程通讯系统修好后就该自动连接上的，就算连不上，也应该隔一段时间就重连一次，不该连信号都没有。
+[name="阿梅利亚"]现在还没连上，说明设备本身可能也在断连时出了问题......
+[charslot(slot="m",name="avg_4237_jcinta_1#6$1")]
+[name="嘉辛塔"]对哦！这里明明就没有通讯塔，为什么罗德岛的设备能连上远程通讯系统？
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]罗德岛的设备上应该有一个专门的大功率发射装置，单向把数据传输到大铁屯的通讯塔——
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1")]
+[name="阿梅利亚"]但我在纵贯的时候不负责客制化设备的维护——说不定连客制化设备都不是，是罗德岛自己开发的设备......我没信心修好啊！
+[charslot(slot="m",name="avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]——没关系！我可以直接把存储数据的硬盘带回大涌泉镇解密的。
+[charslot(slot="m",name="avg_4235_thumpy_1#5$2")]
+[name="塔妮"]等等，我光顾着高兴了......南境就是旅途的尽头了呀！
+[charslot(slot="m",name="avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]......所以？
+[charslot(slot="m",name="avg_4235_thumpy_1#13$2")]
+[name="塔妮"]所以这种水平如镜的地方......不是一眼就看出有没有怀表了吗？
+[charslot(duration=1)]
+几人纷纷四处张望，几乎没有起伏的地面上空无一物。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]
+[Background(image="65_g9_warmrabbitnest",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[playMusic(key="$saferoom_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4235_thumpy_1#1$1",duration=0.5)]
+[Delay(time=1)]
+[name="塔妮"]茴香......烤防风根？防风根是什么？
+[charslot(slot = "m", focus = "n")]
+[name="伊娜拉"]那是格林梅多自治州盛产的蔬菜，和胡萝卜长得很像，但味道完全不同。
+[charslot(slot="m",name="avg_4235_thumpy_1#1$1")]
+[name="塔妮"]大涌泉镇有卖吗？有的话我买回来，明天让妈妈做？
+[charslot(slot = "m", focus = "n")]
+[name="伊娜拉"]哈哈，不用啦，我的小珊比。奶奶喝点胡萝卜汤就足够了。
+[Dialog]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Subtitle(text="我十六岁时，手臂上刚刚冒出源石结晶。恰好也在那个时候，奶奶的食量越来越小。", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="尽管奶奶在大涌泉镇算是当之无愧的高寿，这两件事仍然为当时的家里蒙上了一层阴影。", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="奶奶显然意识到了这些。", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="父亲当时迁怒于镇子上的感染者温泉疗养生意，被她训了一顿；母亲病急乱投医差点被骗，也是奶奶稳住了她。", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="而对随着年纪增长，心事越来越多，过了十六岁却仍然被困在大涌泉镇的我，她重又把最多的时间花在了我身上。", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="她会像我幼时记忆中的她一样，花上几个小时，慢慢跟我讲旅途中的见闻和趣事。", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="但离家的渴盼，却总让我有意无意把话题偏转到一些特定的事情上。", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot(slot="m",name="avg_4235_thumpy_1#1$1")]
+[name="塔妮"]奶奶，所以你的怀表有没有可能其实丢在格林梅多？
+[charslot(slot = "m", focus = "n")] 
+[name="伊娜拉"]去格林梅多时，奶奶脸上的皱纹还没有去南境时一半多呢。
+[charslot(slot="m",name="avg_4235_thumpy_1#15$1")]
+[name="塔妮"]唔......可南境好远啊。
+[name="塔妮"]想要变得像奶奶这么厉害，不跑一趟南境真的不行吗......
+[charslot(slot="m",name="avg_4235_thumpy_1#5$1")]
+[name="塔妮"]不对不对，奶奶，你是不是说过，怀表不一定是丢在南境了，也可能是落在零号公路上的什么地方了？
+[charslot(slot = "m", focus = "n")]
+[name="伊娜拉"]......
+[name="伊娜拉"]是呀。
+[Dialog]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Subtitle(text="现在想来，她那时的微笑看起来有些复杂，她也许是想告诉我什么的。", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="也许怀表只是坏了所以被丢掉了，也许怀表在奶奶走投无路时被拿去换了能救命的物资，也许怀表被送给了帮助过奶奶的人，也许......", x=300, y=330, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[name="塔妮"]......也许我就算拿到怀表，也成不了像奶奶一样的源石技艺大师？
+[name="塔妮"]她只是为了不让我失望，所以才一直跟我说......怀表一定躺在从大涌泉镇到南境中间的某个地方，等着我去发现？
+[name="塔妮"]......
+[name="塔妮"]......！
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[curtain(direction = 0,fillfrom = 0.2,fillto = 0.2, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.2,fillto = 0.2, fadetime=0.1)]
+[Delay(time=1)]
+[focusout(duration=0, type="bg", from=1, to=1, block=true)]
+[Background(image="76_g13_worldend",screenadapt="coverall",xScale=1.2,yScale=1.2,x=70,y=-80)]
+[BackgroundTween(xFrom=70, xTo=-110, duration=15,block=false)]
+[focusout(duration=2, type="bg", from=1, to=0)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic( intro="$skydome_intro",key="$skydome_loop", volume=0.6)]
+[name="塔妮"]安洁、嘉辛塔、阿梅，快看，这里是......
+[name="塔妮"]是海！是大海！
+[name="安洁莉娜"]海......？
+[name="安洁莉娜"]南境的尽头......是海？
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[curtain]
+[Delay(time=0.25)]
+[Background(image="76_g13_worldend",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+她在地上摊开雷姆必拓地图，这才发现，这里并非南境的尽头，但自己的确已经来到了雷姆必拓东南巨大的峡湾面前。
+结晶不再平坦，变得崎岖不平。落差中间显示出令人目眩的精细纹理，直到结晶在海的开端处断裂，成为陡峭的崖壁。
+更远处，阳光倾泻在冷色调的海面上，宣告着大地已至尽头，为视野中的一切镀上一层不真实的光晕。
+正是风平浪静的时刻，和缓的浪花轻抚崖壁，浪声宛如每个人梦中都曾听过的轻柔呼唤。
+[Dialog]
+[charslot(slot="m",name="avg_4235_thumpy_1#5$2",duration=1)]
+[Delay(time=2)]
+[name="塔妮"]......奶奶从来没说过南境还有这样的地方。
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]别气馁，也许她只是忘记告诉你了——
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]不，我不是那个意思。
+[charslot(slot = "m", focus = "n")]
+塔妮用手搭在眼前，望着被海雾蒙上一层面纱的太阳。
+[charslot(slot="m",name="avg_4235_thumpy_1#3$2")]
+[name="塔妮"]只是现在，只是此时此地，我忽然觉得......
+[charslot(slot="m",name="avg_4235_thumpy_1#18$2")]
+[name="塔妮"]......就算找不到怀表，这里仍然很美，我仍然走过了一趟很好很好的旅程。
+[charslot(slot="m",name="avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]嗯。
+[dialog]
+[charslot]
+[playsound(key="$d_avg_strongwind")]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1")]
+[name="阿梅利亚"]好冷！
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]确实好冷！好想长出一撮毛那样厚厚的毛啊......它还好吗？
+[charslot(slot="m",name="avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]应该是刚刚在沙暴中用尽了力气，又在车里受了惊吓，一直都在我肩上睡觉。
+[name="安洁莉娜"]我刚刚还怕倒在水里的时候把它浸湿呢，看来是没关系......
+[charslot(slot="m",name="avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]......嗯？
+[charslot(slot="m",name="avg_4235_thumpy_1#13$2")]
+[name="塔妮"]怎么了？
+[charslot(slot="m",name="avg_1015_aglna2_1#4$1")]
+[name="安洁莉娜"]你看崖壁边上......是不是有个小东西正在发亮？
+[charslot(slot="m",name="avg_4235_thumpy_1#7$2")]
+[name="塔妮"]......
+[name="塔妮"]......真的！
+[charslot(slot = "m", focus = "n")]
+崖壁边上，不知什么东西正在阳光的照射下闪闪发光。
+[charslot(slot="m",name="avg_4235_thumpy_1#7$2")]
+[name="塔妮"]难道......难道奶奶真的把她的怀表......丢在了这里？
+[charslot(duration=1)]
+[dialog]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[BackgroundTween(xFrom=0, xTo=40, duration=4,block=false, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1)]
+[Delay(time=2)]
+塔妮如同在梦中一般，摇摇晃晃地朝着崖边那点剔透的反光走去。
+安洁莉娜想叫住她，但那毕竟是塔妮一路以来的愿望，所以安洁莉娜只是小心翼翼地跟在塔妮身后。
+[charslot(slot="m",name="avg_4235_thumpy_1#6$2")]
+[name="塔妮"]好漂亮的闪光......
+[charslot(slot = "m", focus = "n")]
+那点晶莹的光就在那里一动不动，仿佛正等待着塔妮前来唤醒一般。
+[stopmusic(fadetime=2)]
+[charslot(slot="m",name="avg_4235_thumpy_1#2$2")]
+[name="塔妮"]......？
+[charslot(slot="m",name="avg_4235_thumpy_1#13$2")]
+[name="塔妮"]不对，不是怀表，是......有袋鼷兽的眼睛？
+[charslot]
+[Dialog]
+[charslot(slot="m",name="avg_npc_2348_1#1$1",duration=1)]
+[Delay(time=2)]
+[playMusic(key="$farce_n_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4237_jcinta_1#6$1")]
+[name="嘉辛塔"]还有更多——这里有好多有袋鼷兽！
+[charslot(slot="m",name="avg_4236_tmslot_1#4$1")]
+[name="阿梅利亚"]毛茸茸的......好可爱......
+[charslot]
+岩壁后、礁石下、结晶旁......四人此前并未注意到的地方，有袋鼷兽纷纷露出身形。
+它们的袋中有的装着野果，有的装着花草，也有一些装着亮晶晶的小物件，仿佛真的要将这些送至某处一般。
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]它们是来欢迎我们的？
+[charslot(slot="m",name="avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]仔细想想，它们迎接的应该是一撮毛吧。
+[name="安洁莉娜"]如果进大涌泉镇之前是一撮毛弄松了我绑的行李，那它也赶了很远的路，才回到了家呀。
+[name="安洁莉娜"]一撮毛，我们回家了呢——嗯？
+[playsound(key="$d_avg_rodentsqueak_scared")]
+[charslot(slot="m",name="avg_npc_2349_1#2$1")]
+[name="一撮毛"]（畏惧的嘶嘶声）
+[dialog]
+[charslot(slot="l",name="avg_1015_aglna2_1#1$1",duration=0.5)]
+[Delay(time=0.5)]
+[charslot(slot = "m",posfrom = "0,0", posto = "-50,0",duration = 1)]
+[charslot(slot="l",name="avg_1015_aglna2_1#1$1")]
+[Delay(time=1.5)]
+[charslot(slot = "m", focus = "n")]
+不知为何，一撮毛看起来并不放松，反而畏缩起来，直往安洁莉娜的背后躲。
+[charslot(duration=0.5)]
+与此同时，毛茸茸的生物们也朝着四人的方向飞了过来——
+[dialog]
+[charslot]
+[playsound(key="$d_avg_rodentsqueak_normal")]
+[playsound(key="$d_avg_rodentsqueak_normal",channel="2",delay=0.5)]
+[playsound(key="$d_avg_rodentsqueak_normal",channel="3",delay=1)]
+[playsound(key="$d_avg_rodentsqueak_normal",channel="4",delay=1.1)]
+[charslot(slot = "left",action="zoom", poszoom = "0.5,0.5", scale=0.8,duration = 0, block=true)]
+[charslot(slot="l",name="avg_npc_2349_1#1$6",duration=0.3,bstart=0.5,bend=0.8)]
+[charslot(slot = "left",action="zoom", poszoom = "0.5,0.5", scale=1,duration = 0.5)]
+[charslot(slot = "l",posfrom = "-150,200", posto = "0,0",duration = 0.5)]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=15, randomness=90, fadeout=true, block=false)]
+[Delay(time=0.5)]
+[charslot(slot="l",afrom=1,ato=0,duration=0.3)]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=0.8,duration = 0, block=true)]
+[charslot(slot="r",name="avg_npc_2349_1#1$5",duration=0.3,bstart=0.5,bend=0.8)]
+[charslot(slot = "r",action="zoom", poszoom = "0.5,0.5", scale=1,duration = 0.5)]
+[charslot(slot = "r",posfrom = "250,200", posto = "100,0",duration = 0.5)]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=15, randomness=90, fadeout=true, block=false)]
+[Delay(time=0.5)]
+[charslot(slot="r",afrom=1,ato=0,duration=0.3)]
+[charslot(slot="m",name="avg_npc_2348_1#1$3",duration=0.3)]
+[charslot(slot = "m",action="zoom", poszoom = "0.5,0.5", scale=1.1,duration = 0.5)]
+[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=25, randomness=90, fadeout=true, block=false)]
+[Delay(time=0.5)]
+[charslot(slot="m",afrom=1,ato=0,duration=0.3)]
+[Delay(time=1)]
+[charslot]
+[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]
+[effect(name = "$e_emoji_blackline" ,layer = 1,x=70,y=260)]
+[charslot(slot="m",name="avg_1015_aglna2_1#8$1")]
+[name="安洁莉娜"]我的车钥匙！
+[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]
+[effect(name = "$e_emoji_matter" ,layer = 1,x=70,y=120)]
+[charslot(slot="m",name="avg_4235_thumpy_1#11$2")]
+[name="塔妮"]我的喷雾罐！
+[effect(name = "$e_emoji_question" ,layer = 1,x=70,y=200)]
+[charslot(slot="m",name="avg_4237_jcinta_1#6$1")]
+[name="嘉辛塔"]这......这这这，阿梅利亚，你刚刚是不是还有话要对我说？要不你现在说说看？
+[effect(name = "$e_emoji_sweat02" ,layer = 1,x=30,y=120)]
+[charslot(slot="m",name="avg_4236_tmslot_1#3$1")]
+[name="阿梅利亚"]这种时候怎么可能想得起来啦啊啊啊——
+[charslot(slot="m",name="avg_4235_thumpy_1#12$4")]
+[name="塔妮"]难道传说是真的，它们真要把我们的话全偷走吗？！
+[Dialog]
+[charslot(duration=1)]
+[delay(time=2)]
+[bgeffect(name="$eb_sunshine_upperedge", layer=2,x=300,y=300,xto=100,yto=100,movetime = 5)]
+[focusout(duration=2, type="bg", from=0, to=0.5)]
+[delay(time=2)]
+“怎么可能啊！”
+一边在心里这样否认，一边又为此惴惴不安。
+行至大地尽头的她们举起手里称得上武器的东西，准备夺回那些还未讲完的故事。
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

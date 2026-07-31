@@ -877,7 +877,7 @@
   "reMax": 100.0,
   "diamondToShdRate": 180,
   "requestSameFriendCD": 14400,
-  "baseMaxFriendNum": 90,
+  "baseMaxFriendNum": 115,
   "maxStarFriendNum": 5,
   "maxSquadAssistDisplayNum": 9,
   "friendStarEditTrackTs": 1756958400,
@@ -1075,6 +1075,7 @@
     "lv.pycitem": "<color=#D14631>{0}</color>",
     "lv.pyctx": "<color=#1B1B1B>{0}</color>",
     "lv.pycfs": "<color=#D14631>{0}</color>",
+    "arkodcact53side.lv": "<color=#2FA29B>{0}</color>",
     "vc.text": "<color=#898989>{0}</color>",
     "vc.endtime": "<color=#ff0327>{0}</color>",
     "firework.animal": "<color=#0098dc>{0}</color>",
@@ -1103,7 +1104,7 @@
   "commonPotentialLvlUpCount": 4,
   "weeklyOverrideDesc": "",
   "voucherDiv": 5,
-  "recruitPoolVersion": 22,
+  "recruitPoolVersion": 23,
   "v006RecruitTimeStep1Refresh": 1577172600,
   "v006RecruitTimeStep2Check": 1577154600,
   "v006RecruitTimeStep2Flush": 1577649600,
@@ -1496,6 +1497,16 @@
       "termId": "ba.dt.rampage",
       "termName": "狂躁损伤",
       "description": "狂躁损伤累计至1000时，15秒内攻击速度+50，但每秒受到100点真实伤害（每次攻击时提升50，最多600）"
+    },
+    "ba.groundbind": {
+      "termId": "ba.groundbind",
+      "termName": "缚地",
+      "description": "目标变为地面单位，无法移动；使部分近地悬浮敌人掉落；对重量大于3的单位持续时间减半"
+    },
+    "ba.airprotect": {
+      "termId": "ba.airprotect",
+      "termName": "对空庇护",
+      "description": "受到来自空中的物理和法术伤害降低相应比例（同名效果取最高）"
     },
     "cc.bd_A_1": {
       "termId": "cc.bd_A_1",
@@ -1904,13 +1915,13 @@
     }
   },
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
-  "dataVersion": "75.2.0",
-  "resPrefVersion": "75d2d0",
+  "dataVersion": "76.0.0",
+  "resPrefVersion": "76d0d0",
   "announceWebBusType": "ak_announcement",
   "videoPlayerWebBusType": "ak_video_player",
   "gachaLogBusType": "ak_gacha_log",
   "defaultMinMultipleBattleTimes": 1,
-  "defaultMaxMultipleBattleTimes": 6,
+  "defaultMaxMultipleBattleTimes": 10,
   "multipleActionOpen": true,
   "subProfessionDamageTypePairs": {
     "notchar1": 0,

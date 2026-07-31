@@ -1,0 +1,705 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="76_g1_wildhighway_d",screenadapt="coverall")]
+[bgeffect(name = "$eb_speedline" ,layer = 1)]
+[curtain(direction = 0,fillfrom = 0.1,fillto = 0.11, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.1,fillto = 0.11, fadetime=0.1)]
+[Delay(time=1)]
+[playsound(key="$d_avg_carhighway_loop", loop=true, channel="en",volume=0.4)]
+[focusout(duration=2, type="bg", from=0, to=0.8, block=false)]
+[CameraShake(duration=4, xstrength=2, ystrength=2, vibrato=50, randomness=90, fadeout=true, block=false)]
+[BackgroundTween( xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1,duration=20)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[SoundVolume(volume=0.1, fadetime=2,channel="en")]
+[playMusic(key="$m_avg_cityvibefull_loop", volume=0.6)]
+[Delay(time=2)]
+[bgeffect]
+[CameraShake(duration=-1, xstrength=0.5, ystrength=0.5, vibrato=20, randomness=10, fadeout=true, block=false)]
+[charslot(slot="l",name="avg_1015_aglna2_1#1$2",duration=1,posfrom = "0,-30", posto = "0,-30")]
+[delay(time=2)]
+[charslot(slot="l",name="avg_1015_aglna2_1#1$2",focus="l")]
+[name="安洁莉娜"]好难得。离开红砂镇之后我们断断续续开了十几天的路，这是第一次我开车的时候你们全都醒着欸？
+[Dialog]
+[charslot(slot="r",name="avg_4235_thumpy_1#2$1",duration=0.5,posfrom = "0,-30", posto = "0,-30")]
+[delay(time=1)]
+[charslot(slot="r",name="avg_4235_thumpy_1#2$1",focus="r")]
+[name="塔妮"]我可是跟你轮班了的。
+[Dialog]
+[charslot(duration=0.5)]
+[delay(time=1.2)]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",posfrom = "0,-30", posto = "0,-30",duration=1)]
+[charslot(slot="r",name="avg_4236_tmslot_1#1$1",posfrom = "0,-30", posto = "0,-30",duration=1)]
+[delay(time=1.5)]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[name="嘉辛塔"]对呀，不要说得我们很绝情一样，明明我和阿梅利亚也有定好时间轮流陪你......
+[charslot]
+[charslot(slot="l",name="avg_1015_aglna2_1#1$2",focus="l",posfrom = "0,-30", posto = "0,-30")]
+[charslot(slot="r",name="avg_4235_thumpy_1#1$1",focus="l",posfrom = "0,-30", posto = "0,-30")]
+[name="安洁莉娜"]只是车上的人都醒着的时候真的很少啦。
+[charslot(slot="r",name="avg_4235_thumpy_1#1$1",focus="r")]
+[name="塔妮"]毕竟根据地图上的距离推算，我们应该很快就会到大铁屯了嘛。嘉辛塔，到家的感觉怎么样？
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l",posfrom = "0,-30", posto = "0,-30")]
+[charslot(slot="r",name="avg_4236_tmslot_1#1$1",focus="l",posfrom = "0,-30", posto = "0,-30")]
+[name="嘉辛塔"]不过就是回趟家而已，我没有什么好紧张的。
+[charslot(slot="l",name="avg_1015_aglna2_1#1$2",focus="l",posfrom = "0,-30", posto = "0,-30")]
+[charslot(slot="r",name="avg_4235_thumpy_1#1$1",focus="l",posfrom = "0,-30", posto = "0,-30")]
+[name="安洁莉娜"]塔妮可没有说你紧张哦，不打自招。
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",focus="l",posfrom = "0,-30", posto = "0,-30")]
+[charslot(slot="r",name="avg_4236_tmslot_1#1$1",focus="l",posfrom = "0,-30", posto = "0,-30")]
+[name="嘉辛塔"]我上一次回大铁屯的家还是三年前的事，沿途的风景早就不记得了，我只是有点好奇而已！
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[name="嘉辛塔"]倒是你，阿梅。纵贯红土公司的总部就在大铁屯吧？
+[name="嘉辛塔"]修好这里的通讯塔相当于给你的黑心东家一个下马威。你想好怎么提辞职了吗？
+[charslot(slot="r",name="avg_4236_tmslot_1#5$1",focus="r")]
+[name="阿梅利亚"]辞、辞职......？
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[multiline(name="嘉辛塔")]对啊，这是你自己说的嘛。我也支持你辞职。
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[multiline(name="嘉辛塔")]要是你不辞职，他们说不定还会对你做什么坏事！
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",focus="r")]
+[name="阿梅利亚"]我、我会跟他们说清楚的。
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[name="嘉辛塔"]一定要小心他们的花言巧语。你是纵贯红土公司的工程总监，技术骨干，他们知道你提辞职一定会开高价要求你留下，千万不要屈服！
+[charslot(slot="r",name="avg_4236_tmslot_1#17$1",focus="r")]
+[name="阿梅利亚"]（小声）要真是这样就好了......
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[name="嘉辛塔"]你说什么？
+[charslot(slot="r",name="avg_4236_tmslot_1#5$1",focus="r")]
+[name="阿梅利亚"]没、没什么，要真是这样，我也不会屈服的！
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",focus="l")]
+[name="嘉辛塔"]唉，看你这副冒冒失失的样子真是放心不下......你不会不好意思提离职吧？
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",focus="r")]
+[name="阿梅利亚"]我......
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[name="嘉辛塔"]不用担心，我跟你一起去见管理层！
+[charslot(slot="r",name="avg_4236_tmslot_1#12$1",focus="r")]
+[name="阿梅利亚"]不不不，真的不用！其实、其实我已经跟管理层提过很多次离职了！只不过我太想继续研发远程通讯技术，所以才留下的。
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",focus="l")]
+[name="嘉辛塔"]好吧。
+[charslot(slot="l",name="avg_1015_aglna2_1#1$2",focus="l",posfrom = "0,-30", posto = "0,-30")]
+[charslot(slot="r",name="avg_4235_thumpy_1#1$1",focus="l",posfrom = "0,-30", posto = "0,-30")]
+[name="安洁莉娜"]阿梅利亚、嘉辛塔，快看前面。
+[Dialog]
+[StopSound(channel="en", fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[curtain]
+[Delay(time=1)]
+[bgeffect]
+[CameraShake(duration=0, xstrength=1, ystrength=1, vibrato=50, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_drivestop", volume=1)]
+[cgitem(image="cgitem_76_i16_3", style="cg",layer = 1,sfrom = 1, sto = 1, sduration = 0)]
+[Background(image="76_g15_dttsuburb_d",screenadapt="coverall")]
+[BackgroundTween( xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1,duration=3)]
+[focusout(duration=3, type="bg", from=0.8, to=0, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="安洁莉娜"]我们到了。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[hidecgitem]
+[PlaySound(key="$d_avg_cardoorc", volume=1)]
+[PlaySound(key="$d_avg_cardoorc", volume=0.5,delay=0.5,channel="2")]
+[Delay(time=1)]
+[Background(image="76_g8_dtturban_d",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[PlaySound(key="$d_gen_walk_n", volume=0.3,delay=0.15,channel="2")]
+[charslot(slot="l",name="avg_1015_aglna2_1#1$1",duration=1)]
+[charslot(slot="r",name="avg_4235_thumpy_1#7$2",duration=1)]
+[delay(time=2)]
+[charslot(slot="r",name="avg_4235_thumpy_1#7$2",focus="r")]
+[name="塔妮"]这还是我第一次来大铁屯。
+[charslot(slot="l",name="avg_1015_aglna2_1#1$1",focus="l")]
+[name="安洁莉娜"]虽然这么说不太好，但除了大涌泉镇之外，哪里你都是第一次去吧？
+[charslot(slot="r",name="avg_4235_thumpy_1#10$2",focus="r")]
+[name="塔妮"]哼哼，风凉话也就现在还能说说了。等我们去到南境，我看还有谁会说我是个没有探险能力、走不出家门、还不长个儿的小兔子！
+[charslot(slot="l",name="avg_1015_aglna2_1#6$1",focus="l")]
+[name="安洁莉娜"]最后一个形容倒是事实......
+[charslot(slot="r",name="avg_4235_thumpy_1#12$2",focus="r")]
+[name="塔妮"]（着急跺脚）
+[Dialog]
+[charslot]
+[charslot(slot = "l",duration = 0.8,name="avg_4237_jcinta_1#1$1")]
+[charslot(slot = "r",duration = 0.8,name="avg_4236_tmslot_1#1$1")]
+[delay(time=1.5)]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",focus="l")]
+[name="嘉辛塔"]唔......通讯塔的位置好像就在大铁屯最高的“树杈”上？倒是很显眼啊。
+[charslot(slot="r",name="avg_4236_tmslot_1#1$1",focus="r")]
+[name="阿梅利亚"]嗯，远程通讯技术刚铺开的时候，公司为了扩大宣传力度和自身的影响力，特地挑了整个大铁屯最高的平台。
+[name="阿梅利亚"]平台底层的入口还有公司调派的工作人员看守，以防有人窃取技术......
+[charslot(slot="l",name="avg_4237_jcinta_1#2$1",focus="l")]
+[name="嘉辛塔"]对待自己人不怎么样，倒是挺会搞这些花里胡哨的。
+[name="嘉辛塔"]走，我们去修塔。
+[charslot(slot="r",name="avg_4236_tmslot_1#12$1",focus="r")]
+[name="阿梅利亚"]不能去！
+[Dialog]
+[charslot(slot="l",name="avg_4237_jcinta_1#6$1")]
+[charslot(slot="r",name="avg_4236_tmslot_1#12$1")]
+[delay(time=1.5)]
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",focus="r")]
+[name="阿梅利亚"]现......现在还不能去。我、我还没有向公司申请维修资格......
+[charslot]
+[charslot(slot="m",name="avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]的确，太阳谷那时也是因为这件事跟巴顿先生纠缠了很久......
+[charslot(slot="m",name="avg_4236_tmslot_1#16$1")]
+[name="阿梅利亚"]而且你们看，我和公司已经闹掰了......
+[charslot(slot="m",name="avg_4236_tmslot_1#4$1")]
+[name="阿梅利亚"]但是......但是别担心！给我两天时间，明天晚上之前我会处理好通讯塔的事，然后后天一早我们就一起出发！
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]好吧。
+[name="嘉辛塔"]既然如此我也先回一趟家。虽然一开始也说是要回家，不过现在已经变成跟父母报备啦，哈哈。
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]不过在那之前，我们还是研究一下去南境的路线吧，修好通讯塔之后我们很快就要上路了。
+[charslot(slot="m",name="avg_1015_aglna2_1#3$1")]
+[name="安洁莉娜"]大铁屯到南境的路段情况复杂，气候也很多变。这个季节，我们行驶的过程中可能会遇到携带源石粉尘的快速移动型沙暴。
+[charslot(slot="m",name="avg_4235_thumpy_1#5$2")]
+[name="塔妮"]我听奶奶说过。不过，南境外围沙暴的源石浓度应该会在特定时段下降？
+[charslot(slot="m",name="avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]没错，哪怕不幸遇上了沙暴，只要处在活性源石浓度下降的窗口期，我们在源石尘中的暴露程度就会大大降低。
+[charslot(slot="m",name="avg_4237_jcinta_1#5$1")]
+[name="嘉辛塔"]不过这样一来还需要解决一个问题——
+[charslot(slot="m",name="avg_4236_tmslot_1#13$1")]
+[name="阿梅利亚"]......导航。
+[charslot(slot="m",name="avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]没错。沙暴会遮蔽视野，如果没有远程通讯技术支持很容易迷路，一不小心还可能出事故。这也是只有极少数人能到达南境的原因。
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]不过我们有阿梅呀！只要阿梅能在窗口期内修好通讯塔就万事大吉了。
+[name="塔妮"]我们最晚需要哪天启程？
+[charslot(slot="m",name="avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]按照大铁屯的预报，大后天过后，活性源石浓度就会上升，也就是说窗口期就在这几天了。
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]很好！等阿梅处理完公司的事，嘉辛塔也跟她的父母报备完，三天之内，我们一定要启程。
+[name="塔妮"]四个人一起。
+[charslot(slot="m",name="avg_4237_jcinta_1#8$1")]
+[name="嘉辛塔"]四个人一起！
+[charslot(slot="m",name="avg_4236_tmslot_1#4$1")]
+[name="阿梅利亚"]......一起。
+[charslot(slot="m",name="avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]好。
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]那我们明天晚上在这里见？
+[charslot(slot="m",name="avg_4236_tmslot_1#4$1")]
+[name="阿梅利亚"]嗯......不见不散！
+[Dialog]
+[stopmusic(fadetime=3)]
+[playsound(key="$rungeneral", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=2)]
+[charslot(slot = "m",posfrom = "0,0", posto = "250,0",duration = 1,afrom=1,ato=0)]
+[Delay(time=2.5)]
+[charslot]
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]那就暂时告别啦，朋友们。
+[Dialog]
+[playsound(key="$d_gen_walk_n", loop=true, channel="w")]
+[StopSound(channel="w", fadetime=2)]
+[charslot(slot = "m",posfrom = "0,0", posto = "-150,0",duration = 1,afrom=1,ato=0)]
+[Delay(time=1.5)]
+[charslot]
+[playsound(key="$d_avg_wind")]
+[effect(name = "$e_sand" ,layer = 1)]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_4235_thumpy_1#5$2")]
+[name="塔妮"]......
+[name="塔妮"]突然变得好安静哦......
+[charslot(slot="m",name="avg_1015_aglna2_1#19$1")]
+[name="安洁莉娜"]是啊，但很快就会再见面的。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="76_g11_dtttowerfoot",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_4236_tmslot_1#13$1",duration=0.5)]
+[charslot(slot = "m",posfrom = "200,0", posto = "100,0",duration = 0.5,isblock=true)]
+[Delay(time=0.5)]
+[charslot(slot = "m",posfrom = "100,0", posto = "0,0",duration = 0.5)]
+[Delay(time=1)]
+[name="阿梅利亚"]唔，下面的安保系统居然还能被我的工卡刷开......
+[name="阿梅利亚"]只要在被人发现之前偷偷修好通讯塔，我就能......我就能......
+[charslot(slot = "m", focus = "n")]
+[playMusic(intro="$loading_intro", key="$loading_loop", volume=0.6)]
+[name="？？？"]就能弥补你犯下的所有过错了，是吗？
+[charslot]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot="m",name="avg_4236_tmslot_1#12$1")]
+[name="阿梅利亚"]阿——阿什顿部长？！
+[charslot]
+[Dialog]
+[charslot(slot="m",name="avg_npc_222",duration=0.5)]
+[delay(time=1)]
+[name="阿什顿"]来公司都几年了？还一惊一乍的。
+[name="阿什顿"]你旷工的时间已经超过你的请假天数了，阿梅利亚，它会体现在你的绩效评分上——
+[name="阿什顿"]哦，不对，你的绩效已经因为“造成大断连”......扣完了。
+[charslot(slot="m",name="avg_4236_tmslot_1#16$1")]
+[name="阿梅利亚"]对、对不起，阿什顿部长......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]我实在很难在管理层面前为你说好话。
+[name="阿什顿"]半自动源石适应性系统是纵贯红土抓住时代机遇的产物。
+[name="阿什顿"]乌萨斯的矿脉枯竭后，源石供不应求，雷姆必拓对源石的开采力度大大增加，对远程通讯项目来说，这是推广的绝佳时机。
+[name="阿什顿"]公司投入了大量资金铺设通讯塔，宣传这项壮举，我们也得到了回馈。
+[charslot(slot="m",name="avg_4236_tmslot_1#11$1")]
+[name="阿梅利亚"]但、但我也向您说明过，半自动系统会极大提升操作者感染矿石病的概率......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]是啊，一个无依无靠的小姑娘，对半自动系统的开发几乎没贡献任何价值，忽然跳出来，哭唧唧地说什么安全问题。
+[charslot(slot="m",name="avg_4236_tmslot_1#11$1")]
+[name="阿梅利亚"]不、不是这样的，我是意识到，公司既然暴力拉高了基站的输出功率，那术师操作的部分其实也可以通过对应的手段......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]技术上的事我没你懂，我只知道雷姆必拓的能源比人便宜。
+[name="阿什顿"]再加上我们推行的项目已经引来了哥伦比亚的科学伦理道德共识委员会......纵贯的总部毕竟在特里蒙。
+[name="阿什顿"]总之，在你提出了全自动源石适应性系统概念的时候，公司给了你机会，但结果呢？
+[name="阿什顿"]你提出的解决方案在理论上可行，但在实现上没有经过充分验证，在大规模投入使用时出现致命故障，导致了这次大断连。
+[name="阿什顿"]你给公司带来了巨额损失，公司没有立刻开除你，你都应当感恩戴德了。
+[charslot(slot="m",name="avg_4236_tmslot_1#11$1")]
+[name="阿梅利亚"]我——！
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]怎么？我说错什么了？
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]......没有......但是！
+[charslot(slot="m",name="avg_4236_tmslot_1#11$1")]
+[name="阿梅利亚"]......我在公司的工程队到达之前修好了三座通讯塔，我们头顶的是第四座，我也会修好它。我能做到。
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]你能？
+[name="阿什顿"]我记得你请假申请上写自己要去大涌泉镇休养，那里是雷姆必拓最北端的通讯塔所在处，但到现在为止我们都没有收到它的信号。
+[charslot(slot="m",name="avg_4236_tmslot_1#16$1")]
+[name="阿梅利亚"]我......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]
+[Background(image="76_g4_dailytown",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_4236_tmslot_1#11$1",duration=0.5)]
+[delay(time=1)]
+[name="阿梅利亚"]不要紧张......不要紧张......我一个人可以修好通讯塔的，我在私下都练了多久了？
+[Dialog]
+[charslot(slot="m",name="avg_4236_tmslot_1#11$1")]
+[playsound(key="$d_avg_shockbody")]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1")]
+[name="阿梅利亚"]等等，不对，这个模块做了调整，不能按照练习的那样接电路！
+[charslot(slot="m",name="avg_4236_tmslot_1#7$1")]
+[name="阿梅利亚"]我做不到的，我不可能做到的......我本来就是个待在办公室的小职员呀，为什么要头脑发热出来修塔......
+[Dialog]
+[playsound(key="$d_gen_explo_n")]
+[Blocker(a=0.3, r=1, g=1, b=1, fadetime=1)]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot = "m", focus = "n")]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_4236_tmslot_1#2$1")]
+[name="阿梅利亚"]完蛋了......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[charslot(slot="m",name="avg_4236_tmslot_1#16$1")]
+[Background(image="76_g11_dtttowerfoot",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="阿梅利亚"]我在维修大涌泉镇的通讯塔时，发生了一点意外......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]那你怎么保证，你之后修好那三座通讯塔，不是“意外”？
+[charslot(slot="m",name="avg_4236_tmslot_1#11$1")]
+[name="阿梅利亚"]我可以证明......我要离开公司......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]独立创业是吧？你知道每个月有多少员工来找我，跟我说他们受不了公司的氛围，要去创业吗？
+[name="阿什顿"]你猜他们之中，有多少是最后求着我把他们重新招回来的？
+[name="阿什顿"]在公司里失败过的人，出了公司也会继续失败的，我以为你懂这个道理，阿梅利亚。
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]你是我亲自面试进来的，我知道你的家庭背景不好，你靠自己的努力上了大学。
+[name="阿什顿"]我欣赏你的毅力，所以推荐你参与一代通讯技术的项目。
+[name="阿什顿"]我很清楚，你是个有潜力、有野心的年轻人。你能成为独当一面的人，但你还有很长的路要走。
+[name="阿什顿"]而且，独当一面也并非你想象中的那么好。你在擅自修塔的一路上，想必收获了一些夸奖。很高兴？
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]......我从来没有在公司里获得过夸奖。
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]但你想过吗，如果你说出真相，说“这东西是我弄坏的，现在我修好了”，那些因你受惠的人是否还会感激你呢？
+[charslot(slot="m",name="avg_4236_tmslot_1#16$1")]
+[name="阿梅利亚"]他们......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]你是纵贯红土的员工，修塔不是你该做的吗？你不过是在弥补自己的错误，这甚至称不上美德。
+[name="阿什顿"]但如果你甘愿做公司的一枚普通的螺丝钉，不去和那些人接触，你就不用把难堪的一面暴露给他们。
+[name="阿什顿"]只要公司不会犯错，你就不会“犯错”。永远享受公司的名声带给你的利益不好吗？
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]永远不会犯错......永远不会让任何人失望？
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]当然。
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1")]
+[name="阿梅利亚"]等等，您是说我还能回到公司，像什么都没发生那样？！
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]你会受到相应的处分，但公司不会开除你。
+[name="阿什顿"]你是我们看重的科技人才，我们愿意网开一面，甚至让你重新加入二代远程通讯技术的项目小组。
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]那本来就是我的技术......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]是你的技术，你就去对它造成的一切后果负责。
+[name="阿什顿"]你之所以偷跑出去，不就是知道大断连会造成多大的经济损失，所以才想着偷偷摸摸把它糊弄过去吗？
+[name="阿什顿"]就当你真的修好了几座塔好了，这两个多月的断连，你打算怎么赔偿，怎么跟我们上下游的企业解释？
+[name="阿什顿"]赔偿金准备好了吗？谢罪的新闻发布会上该说什么准备好了吗？大断连的元凶以后靠什么吃饭，想好了吗？
+[name="阿什顿"]但只要你现在选对了路，就不用背负这些。
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]新任工程总监马上就要上任了，解决因技术迭代造成的大断连问题会是他的第一项任务，而你的工作就是“辅助”他。
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]那这座通讯塔？
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]我们需要筹备二代技术的宣传案，最快也要一周之后。等他上任之后维修工作就会开始的。
+[name="阿什顿"]你私自修塔的行为已经影响了我们原先的计划，再插手连我也保不住你的工作，知道了吗？
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]是......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]现在，回你的办公室去吧，休假时拖延的那些工作不会有人帮你完成的，快点处理吧。
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]那、那我是不是还得整理一下之前的材料和设计稿，方便和新任工程总监交接？
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]那个不用你操心，我们自然会整理好。你就老老实实做你欠下的工作就行。
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]......
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="76_g9_dtturban_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$d_avg_crwddiscuss_outside", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.3, channel="bgs",fadetime=2)]
+[Delay(time=1)]
+[playMusic(key="$victorianormal_loop", volume=0.6)]
+[charslot(slot="l",name="avg_1015_aglna2_1#1$1",duration=1)]
+[charslot(slot="r",name="avg_4235_thumpy_1#7$2",duration=1)]
+[delay(time=2)]
+[charslot(slot="r",name="avg_4235_thumpy_1#7$2",focus="r")]
+[name="塔妮"]果然雷姆必拓的首都就是不一样，这个点还那么热闹。
+[StopSound(channel="bgs", fadetime=2)]
+[charslot(slot="r",name="avg_4235_thumpy_1#15$2",focus="r")]
+[name="塔妮"]可问了这么一大圈还是没有人见过奶奶的怀表......从昨天进大铁屯到现在，已经找了一天多了，一点线索都没有。
+[name="塔妮"]明天早上我们就要离开这里了，这下是不是再也......
+[charslot(slot="l",name="avg_1015_aglna2_1#1$1",focus="l")]
+[name="安洁莉娜"]至少大铁屯不是我们旅途的终点。
+[charslot(slot="r",name="avg_4235_thumpy_1#1$2",focus="r")]
+[name="塔妮"]对！说不定怀表就在南境呢！一个人完成了抵达南境的壮举，哪怕是见多识广的奶奶也是会手忙脚乱一下的。
+[name="塔妮"]不聊这个了。喏，吃不吃胡萝卜披萨？
+[charslot(slot="l",name="avg_1015_aglna2_1#22$1",focus="l")]
+[name="安洁莉娜"]胡萝卜......切片......放在披萨上？
+[charslot(slot="r",name="avg_4235_thumpy_1#1$2",focus="r")]
+[name="塔妮"]对啊，导览手册上说这可是最近兴起的热门吃法。我听本地人说，店长还是从叙拉古进修回来的，手艺绝对正宗！你看看。
+[playsound(key="$d_avg_paper1")]
+[charslot(slot="l",name="avg_1015_aglna2_1#22$1",focus="l")]
+[name="安洁莉娜"]......还真是“正宗”。
+[charslot(slot="l",name="avg_1015_aglna2_1#16$1",focus="l")]
+[name="安洁莉娜"]欸？导览手册上还写着“胡萝卜披萨，给亲朋送伴手礼的不二之选，仇人吃了都会重归于好”......？
+[charslot(slot="r",name="avg_4235_thumpy_1#2$2",focus="r")]
+[name="塔妮"]我......我可不是冲着这条广告语才买的啊！
+[charslot(slot="l",name="avg_1015_aglna2_1#1$1",focus="l")]
+[name="安洁莉娜"]还是不打算给家里人发消息报平安？就当测试一下阿梅的通讯塔维修成果呗？
+[charslot(slot="r",name="avg_4235_thumpy_1#10$2",focus="r")]
+[name="塔妮"]不发不发！大涌泉镇的通讯塔又没修好，就算我发了他们也收不到啊。
+[charslot(slot="r",name="avg_4235_thumpy_1#13$2",focus="r")]
+[name="塔妮"]欸？说起来我们是在洋蓟村遇到阿梅的？洋蓟村和大涌泉镇的距离也不远，她怎么不把大涌泉镇的通讯塔也修了呀？
+[charslot(slot="l",name="avg_1015_aglna2_1#2$1",focus="l")]
+[name="安洁莉娜"]不知道，可能有技术原因吧......
+[Dialog]
+[charslot]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_4237_jcinta_1#2$1",duration=1.5)]
+[delay(time=2)]
+[name="嘉辛塔"]......
+[name="嘉辛塔"]抱歉，我来晚了。
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]不晚不晚，阿梅也还没来呢。
+[name="塔妮"]怎么样嘉辛塔，你的爸爸妈妈看到你回家是不是很惊喜？
+[charslot(slot="m",name="avg_4237_jcinta_1#11$1")]
+[name="嘉辛塔"]算......算是吧。
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]那明天一早，我们是不是可以一起去南境了？
+[charslot(slot="m",name="avg_4237_jcinta_1#11$1")]
+[name="嘉辛塔"]......
+[charslot(slot="m",name="avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]嘉辛塔，发生什么了吗？
+[charslot(slot="m",name="avg_4237_jcinta_1#3$1")]
+[name="嘉辛塔"]没什么！我已经跟爸爸妈妈说过要去南境的事了，明天我们就一起上路。
+[charslot(slot="m",name="avg_4235_thumpy_1#16$2")]
+[name="塔妮"]太好啦！
+[charslot(slot="m",name="avg_4235_thumpy_1#13$2")]
+[name="塔妮"]唔，现在就差阿梅还没来了，难道是修塔碰上了什么问题？
+[charslot(slot="m",name="avg_1015_aglna2_1#3$1")]
+[name="安洁莉娜"]如果只是修塔耽搁了时间那还好，万一是被公司的人缠上了......
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]我们去纵贯红土公司找她吧。
+[name="嘉辛塔"]如果她没事就当给她一个惊喜，如果她真被缠上了，我们就去给她撑腰。
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]嘿嘿，我喜欢这个主意，走！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[playsound(key="$d_avg_crwddiscuss_inside", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.4, channel="bgs",fadetime=2)]
+[Background(image="38_g13_trimountlivingroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot = "r", name = "avg_npc_223",duration = 0.5,posfrom = "100,0", posto = "100,0")]
+[charslot(slot = "m", name = "avg_npc_1260_1#1$1",duration = 0.5)]
+[delay(time=1.5)]
+[charslot(slot = "r",posfrom = "100,0", posto = "250,0",duration = 1,afrom=1,ato=0)]
+[charslot(slot = "m",posfrom = "0,0", posto = "150,0",duration = 1,afrom=1,ato=0)]
+[delay(time=2)]
+[charslot]
+[StopSound(channel="bgs", fadetime=2)]
+[charslot(slot="m",name="avg_4235_thumpy_1#7$2",duration=1)]
+[delay(time=2)]
+[name="塔妮"]这就是纵贯红土公司......好气派的大厅......
+[charslot(slot="m",name="avg_4237_jcinta_1#2$1")]
+[name="嘉辛塔"]希望他们的修建资金不是靠压榨像阿梅这样好欺负的员工压榨出来的。
+[charslot(slot="m",name="avg_4235_thumpy_1#5$2")]
+[name="塔妮"]哈......这么大的公司，我们该怎么找到阿梅的工位啊？
+[charslot(slot="m",name="avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]我记得阿梅的头衔是工程总监......
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot = "m",posfrom = "0,0", posto = "-250,0",duration = 1.5)]
+[delay(time=1)]
+[charslot(duration=0.5)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[charslot]
+[charslot(slot="m",name="avg_npc_1041_1#1$1")]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=false)]
+[Delay(time=2)]
+[name="前台"]有什么可以帮您？
+[charslot(slot="m",name="avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]您好，我们是工程总监阿梅利亚小姐的朋友，您知道怎么联系上她吗？
+[charslot(slot="m",name="avg_npc_1041_1#1$1")]
+[name="前台"]工程总监？
+[name="前台"]您说的是远程通讯部门的工程总监吗？他要下周才会任职，而且据我所知，他是一位“先生”。
+[charslot(slot="m",name="avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]还没任职？先生？
+[charslot(slot="m",name="avg_npc_1041_1#1$1")]
+[name="前台"]我只知道远程通讯部门以前确实有一名阿梅利亚，不过她只是个普通职员，她的工位在十楼的格子间......假如工位还在的话。
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1")]
+[name="嘉辛塔"]他们降了她的职？！
+[name="嘉辛塔"]她不能继续在这里待下去了......我们带她走，我们今晚就去南境！
+[charslot(slot="m",name="avg_4235_thumpy_1#10$2")]
+[name="塔妮"]走！
+[Dialog]
+[PlaySound(key="$d_avg_walkfast", volume=1)]
+[charslot(slot = "m",posfrom = "0,0", posto = "200,0",duration = 1,afrom=1,ato=0)]
+[Delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]你们不保护员工信息？
+[charslot(slot="m",name="avg_npc_1041_1#1$1")]
+[name="前台"]以这位小姐的年资，她在公司的保密等级并不高。
+[name="前台"]既然你们是来找她的，请在这里做一下访客登记。刚刚进去的那两位也算上。
+[charslot(slot="m",name="avg_1015_aglna2_1#3$1")]
+[name="安洁莉娜"]......
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="26_g12_laterano_office",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$sjoyasorrow_intro", key="$sjoyasorrow_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]重写吧。
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]我核对过数据，真实性没有问题......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]这不是给我看的报告，是给工程总监看的，数据是不是真实的，对他来说不重要。
+[charslot(slot="m",name="avg_4236_tmslot_1#11$1")]
+[name="阿梅利亚"]不重要？可没有这些数据他要怎么修通讯塔呢？
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]这不是有你吗？他只是过来挂个名，上上宣传活动，就会调去更高的管理层了。
+[name="阿什顿"]放心，他不会影响我们工作的。
+[charslot(slot="m",name="avg_4236_tmslot_1#11$1")]
+[name="阿梅利亚"]可......
+[charslot]
+[name="？？？"]可您现在的行为已经影响到阿梅利亚小姐的正常工作了。
+[Dialog]
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1",duration=0.5)]
+[Delay(time=1)]
+[charslot(slot="l",name="avg_1015_aglna2_1#17$1",duration=0.5,posfrom = "-100,0", posto = "-100,0")]
+[Delay(time=1)]
+[charslot(slot="r",name="avg_4235_thumpy_1#10$2",duration=0.5,posfrom = "100,0", posto = "100,0")]
+[Delay(time=1.5)]
+[charslot]
+[charslot(slot="m",name="avg_4236_tmslot_1#13$1")]
+[multiline(name="阿梅利亚")]嘉辛塔、安洁、塔妮......天啊，你们怎么都来了——
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1")]
+[multiline(name="阿梅利亚")]不对，现在几点了？
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot="m",name="avg_4236_tmslot_1#9$1")]
+[name="阿梅利亚"]我错过了集合时间......！
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1")]
+[name="阿梅利亚"]抱歉，我之后会向你们说明情况的，真的对不起，真的很对不起......现在请你们先离开好吗？
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1")]
+[name="嘉辛塔"]我不会离开的。
+[name="嘉辛塔"]我看出来你和公司搞得不愉快了。他们是不是觉得你不好掌控，准备把你踢开，换个更好摆弄的工程总监上来了？
+[charslot(slot="m",name="avg_4236_tmslot_1#16$1")]
+[name="阿梅利亚"]没有，我......
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1")]
+[name="嘉辛塔"]这种事我没少听说，可既然已经不是工程总监了，他们为什么连你的离职申请也不批？
+[charslot(slot="m",name="avg_4237_jcinta_1#7$1")]
+[name="嘉辛塔"]保密协议？竞业协议？还是他们仍然打算让你为大断连背黑锅？
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1")]
+[name="嘉辛塔"]你是叫阿什顿？现在同意阿梅利亚的离职申请，不然我也会想办法让你们同意的。
+[charslot(slot="m",name="avg_4236_tmslot_1#7$1")]
+[name="阿梅利亚"]不对......不是这样的......天啊......
+[charslot(slot="m",name="avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]阿梅，无论你是不是有事瞒着我们，跟我们走吧？我们一起去南境，我们说好了的。
+[charslot(slot="m",name="avg_4236_tmslot_1#7$1")]
+[name="阿梅利亚"]......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]啧啧，坎贝尔先生的千金，嘉辛塔·坎贝尔小姐，是吗？
+[name="阿什顿"]三年前您回大铁屯的时候，我还在令尊举办的酒会上见过您，虽然身体抱恙，但您的举手投足真是充满大家风范，令人印象深刻。
+[stopmusic(fadetime=3)]
+[name="阿什顿"]不过公司从来没有给阿梅利亚小姐降职，至于工程总监，那就更与她毫无关系了啊。您是不是误会什么了？
+[name="阿什顿"]阿梅利亚，不解释一下吗？
+[charslot(slot="m",name="avg_4236_tmslot_1#8$1")]
+[name="阿梅利亚"]......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]阿梅利亚？
+[playMusic(intro="$distressed_intro", key="$distressed_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4236_tmslot_1#16$1")]
+[name="阿梅利亚"]阿什顿先生......我......我不能......
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]天啊，你居然没告诉你的这群朋友，你修理通讯塔是为了弥补自己犯下的错误？
+[name="阿什顿"]你没告诉她们，公司正是因为尊重你的设计，所以才被不幸牵连，成了这次大断连的罪魁祸首的？
+[charslot(slot="m",name="avg_4237_jcinta_1#3$1")]
+[name="嘉辛塔"]什么......？
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]请别说了......我会自己跟她们解释的......
+[name="阿梅利亚"]安洁，求求你，求求你带她们走吧。
+[charslot(slot="m",name="avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]我——
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1")]
+[name="嘉辛塔"]阿梅，他在骗人！你明明说过，大断连就是这个阿什顿的责任——
+[Dialog]
+[playsound(key="$flashback")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[charslot(slot = "m", name = "avg_4236_tmslot_1#1$1")]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]
+[Background(image="bg_offce",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="阿梅利亚"]我的同事......呃，阿什顿先生，他工作实在太粗心了！
+[charslot(slot = "m", name = "avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]他提交给我的数据中有不少错误，测试也不好好跑，大家又都着急，二代系统就风风火火地上了线......
+[name="阿梅利亚"]结果导致了大断连，公司非要我负责不可，又是赔偿又是担责，可这明明就不是我的错呀！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[Background(image="26_g12_laterano_office",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+为什么这个阿什顿看起来完全不像是犯了错的人，反而从一开始就像是阿梅利亚的直属上司？
+嘉辛塔忽然打了个冷战。
+[charslot(slot="m",name="avg_4237_jcinta_1#3$1")]
+[name="嘉辛塔"]阿什顿，你......参与二代系统的设计了吗？
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]很抱歉，无论一代还是二代，我都并不负责具体技术的开发工作，只负责协调和管理的部分。
+[name="阿什顿"]您该不会觉得是我抢了阿梅利亚“工程总监”的位置吧？
+[Dialog]
+[charslot(slot="m",name="avg_4237_jcinta_1#3$1")]
+[delay(time=1.5)]
+[name="嘉辛塔"]阿梅利亚，你......
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]......
+[charslot(slot="m",name="avg_4237_jcinta_1#3$1")]
+[name="嘉辛塔"]你骗......
+[charslot(slot="m",name="avg_4237_jcinta_1#9$1")]
+[name="嘉辛塔"]不，我要问的......我要问的不是这个。
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1")]
+[name="嘉辛塔"]只要回答我一个问题，阿梅利亚，任何欺骗、任何隐情......任何事我们都可以之后再谈。
+[name="嘉辛塔"]现在，我只想让你诚实地回答这一个问题，一个就行。
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]......
+[charslot(slot="m",name="avg_4237_jcinta_1#11$1")]
+[name="嘉辛塔"]你说，你想要我陪你去南境实现你的梦想，是不是真的？
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]......抱歉，嘉辛塔，公司给了我很难得的机会，我要赶上之前落下的项目进度。
+[charslot(slot="m",name="avg_4236_tmslot_1#10$1")]
+[name="阿梅利亚"]至于那些去南境的梦话，请你......忘了吧。
+[charslot(slot="m",name="avg_4237_jcinta_1#11$1")]
+[name="嘉辛塔"]......梦话？
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1")]
+[name="嘉辛塔"]你说我们一路上说的那些话......是梦话？！
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1")]
+[name="阿梅利亚"]我不是那个意思！我是说——我是说那些毕竟是实现不了的，只是、只是......
+[charslot(slot="m",name="avg_4237_jcinta_1#11$1")]
+[name="嘉辛塔"]只是说着玩的？只是因为气氛到了，所以就顺着大家的话......那么说了？
+[charslot(slot="m",name="avg_4236_tmslot_1#16$1")]
+[name="阿梅利亚"]......
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1")]
+[name="嘉辛塔"]你不是这么想的！我不需要你对我诚实，你该做的是对自己诚实！阿梅，你明明就——
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]别逼她了，小姐。
+[name="阿什顿"]我不懂你说的对自己诚实是什么意思，但留下来，她至少可以对自己的钱包和肚皮诚实。
+[name="阿什顿"]不是每个人都能像你一样，什么都不做都衣食无忧的——
+[charslot(slot="m",name="avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]阿什顿，这是她们两个人的事，请你安静一会儿！
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]（摊手）呵。
+[charslot(slot="m",name="avg_4237_jcinta_1#3$1")]
+[name="嘉辛塔"]阿梅？
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]......
+[charslot(slot = "m", focus = "n")]
+[playsound(key="$d_avg_keyboard_console", loop=true, channel="bgs",volume=0.6)]
+阿梅利亚一句话也不说，连视线也被她自己硬是收回到了终端的屏幕上。
+她的手指在键盘上生硬地敲动起来，仿佛真有什么要忙似的。
+[StopSound(channel="bgs", fadetime=0.5)]
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1")]
+[name="嘉辛塔"]你以为再也不说话，从此就不会说错话了吗？
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]......
+[charslot(slot="m",name="avg_4237_jcinta_1#7$1")]
+[name="嘉辛塔"]阿梅，看着我！
+[charslot(slot="m",name="avg_4236_tmslot_1#10$1")]
+[name="阿梅利亚"]......
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1")]
+[name="嘉辛塔"]好......好！
+[Dialog]
+[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]
+[playsound(key="$d_avg_closedoorheavy")]
+[charslot(slot = "m",posfrom = "0,0", posto = "150,0",duration = 0.5,afrom=1,ato=0)]
+[delay(time=1.5)]
+[charslot]
+[charslot(slot="m",name="avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]嘉辛塔！
+[Dialog]
+[playsound(key="$d_avg_walkfast")]
+[charslot(slot = "m",posfrom = "0,0", posto = "200,0",duration = 0.6,afrom=1,ato=0)]
+[delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_4235_thumpy_1#10$2")]
+[name="塔妮"]阿梅你......
+[charslot(slot="m",name="avg_4235_thumpy_1#14$2")]
+[name="塔妮"]唉......照顾好自己，不要加那么多班......
+[name="塔妮"]我知道你肯定有自己的苦衷，但......但还是想想我们曾经约好的事情......
+[name="塔妮"]哪怕只是想想......好吗？
+[Dialog]
+[charslot(slot = "m",posfrom = "0,0", posto = "200,0",duration = 1,afrom=1,ato=0)]
+[delay(time=1)]
+[playsound(key="$doorclosequite")]
+[delay(time=1.5)]
+[charslot]
+[charslot(slot="m",name="avg_4236_tmslot_1#17$1")]
+[name="阿梅利亚"]......
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

@@ -1,0 +1,638 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="26_g9_laterano_street",screenadapt="coverall")]
+[Delay(time=1)]
+[playMusic(intro="$path_intro", key="$path_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=0.5)]
+[playsound(key="$d_avg_marchwalk", loop=true, channel="bgs")]
+[charslot(slot="l",name="avg_npc_371_1#1$1",posfrom="80,0",posto="0,0",duration=1)]
+[charslot(slot="r",name="avg_npc_371_1#1$1",posfrom="80,0",posto="0,0",duration=1)]
+[delay(time=1.5)]
+[StopSound(channel="bgs", fadetime=3)]
+[charslot(duration=1)]
+[delay(time=2.5)]
+[charslot(slot = "l", name = "avg_npc_364_1#1$1",bstart=0.2,bend=0.7,duration=0.5)]
+[charslot(slot = "r", name = "avg_npc_1252_1#1$1",duration=0.5)]
+[delay(time=0.7)]
+[charslot(slot = "l", name = "avg_npc_364_1#1$1",bstart=0.2,bend=0.7,focus="l")]
+[name="戴兜帽的人"]对，对对，我就说不止我一个人觉得无糖气泡水冰淇淋应该和香茅味驱蚊水拌着吃吧......
+[name="戴兜帽的人"]不仅如此，就连夕辉大管风琴也马上要演奏《大礼炮祝颂歌》了，咱们到时候一起去听呗......
+[charslot(slot = "r", name = "avg_npc_1252_1#1$1",focus="r")]
+[name="疑惑的路人"]我认识你吗？
+[charslot(slot = "l", name = "avg_npc_364_1#1$1",bstart=0.2,bend=0.7,focus="l")]
+[name="戴兜帽的人"]不认识吧......
+[charslot(slot = "r", name = "avg_npc_1252_1#1$1",focus="r")]
+[name="疑惑的路人"]那你说什么乱七八糟的呢？
+[name="疑惑的路人"]用夕辉大管风琴演奏《大礼炮祝颂歌》顶多算是没素质，但，无糖气泡水冰淇淋和香茅味驱蚊水拌着吃？
+[name="疑惑的路人"]疯子吗？
+[charslot(slot = "l", name = "avg_npc_364_1#1$1",bstart=0.2,bend=0.7,focus="l")]
+[name="戴兜帽的人"]对不起。但谢谢你！我这就走。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g11_laterano_alley",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_364_1#1$1",focus="m")]
+[name="戴兜帽的人"]戍卫队已经走了？谢天谢地。但愿我在他们眼里只是个正常聊天的拉特兰人。
+[name="戴兜帽的人"]多亏老大爷翻脸之前还忍了挺久，好歹蒙混过去了。
+[name="戴兜帽的人"]觉得我是个疯子也不能怪他。
+[name="戴兜帽的人"]“无糖气泡水冰淇淋”“香茅味驱蚊水”“夕辉大管风琴”，还有“大礼炮祝颂歌”......我哪知道这些都是干嘛用的？
+[name="戴兜帽的人"]我见都没见过，充其量也就是在报纸上看到过这几个词。
+[name="戴兜帽的人"]我还寻思用上这些词，就能显得我更像个正经的拉特兰人呢。
+[name="戴兜帽的人"]——！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.7, block=true)] 
+[charslot]
+[Background(image="26_g11_laterano_alley",screenadapt="coverall", block=true)]
+[charslot(slot="l",name="avg_npc_371_1#1$1")]
+[charslot(slot="r",name="avg_npc_371_1#1$1")]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=0.7, block=true)]
+[delay(time=1.5)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.7, block=true)] 
+[charslot]
+[Background(image="26_g11_laterano_alley",screenadapt="coverall", block=true)]
+[charslot(slot = "m", name = "avg_npc_364_1#1$1",focus="m")]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_364_1#1$1",focus="m")]
+[name="戴兜帽的人"]又来！
+[name="戴兜帽的人"]完了，这我往哪——
+[Dialog]
+[PlaySound(key="$rungeneral", volume=0.9)]
+[charslot(duration=1)]
+[delay(time=2)]
+[PlaySound(key="$dooropenquite", volume=1)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g10_laterano_roof",screenadapt="coverall", block=true)]
+[charslot(slot="l",name="avg_npc_366_1#1$1")]
+[charslot(slot="r",name="avg_npc_368_1#1$1")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot = "l", name = "avg_npc_366_1#1$1",focus="l")]
+[name="信仰辅助器械维护员A"]走吧，去甜品店逛逛，我请你。
+[charslot(slot = "r", name = "avg_npc_368_1#1$1",focus="r")]
+[name="信仰辅助器械维护员B"]现在还是工作时间，会不会不太好？
+[charslot(slot = "l", name = "avg_npc_366_1#1$1",focus="l")]
+[name="信仰辅助器械维护员A"]本来今天就没什么重要任务，一辆告解车的语言逻辑模块出了点故障而已。
+[charslot(slot = "r", name = "avg_npc_368_1#1$1",focus="r")]
+[name="信仰辅助器械维护员B"]好解决吗？
+[charslot(slot = "l", name = "avg_npc_366_1#1$1",focus="l")]
+[name="信仰辅助器械维护员A"]好弄。等它待会儿充好了电，我去格式化一下就成。完事了它什么数据都不会留下，就跟全新出厂的一样。
+[name="信仰辅助器械维护员A"]至于现在......反正告解车充电的时候也不方便操作，我们总不能蹲在车旁边守着吧？
+[charslot(slot = "r", name = "avg_npc_368_1#1$1",focus="r")]
+[name="信仰辅助器械维护员B"]好吧。那你请我。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[name="CONFESS-47"]......
+[name="戴兜帽的人"]......
+[name="戴兜帽的人"]灯，灯在哪......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot]
+[Background(image="26_g11_laterano_alley",screenadapt="coverall", block=true)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="all")]
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="all")]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_button", volume=1)]
+[PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]拉特兰自律告解车047号，为您服务。
+[name="CONFESS-47"]......检测到充电状态，拉特兰自律告解车047号，暂无法为您服务。
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="r")]
+[name="戴兜帽的人"]车里有人？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]请您自觉离开我的车厢，离开时关灯关门。您可耐心等候至充电完成后再来访问。感谢您的配合。
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="r")]
+[name="戴兜帽的人"]什么叫“我的车厢”？你是谁？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]如果您是相关技术人员、执法人员或武装人员，需要在特殊情况下紧急启动，请输入口令。
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="r")]
+[name="戴兜帽的人"]......见鬼了，难道是车在说话？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]口令不正确，请重新输入。
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="r")]
+[name="戴兜帽的人"]听着，我不知道什么口令，但我现在确实有急着要去的地方......
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]口令不正确。
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="r")]
+[name="戴兜帽的人"]听我说完......我身上有些点券，不知道够不够......我在别处还藏了些。
+[name="戴兜帽的人"]你是辆车，我告诉你地址，能不能带我过去？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]不正确。
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="r")]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="戴兜帽的人"]*蹩脚的拉特兰俚语*！就没办法让你说点别的吗？
+[name="戴兜帽的人"]“‘光环1000’爆破套组”“监管人‘苦难陈述者’”“焦糖薄荷味闪粉爆弹”——这些有哪个听着像口令吗？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[PlaySound(key="$d_avg_aircraftalarm", volume=0.5)]
+[name="CONFESS-47"]（激烈的故障音）
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="r")]
+[name="戴兜帽的人"]好，现在你都懒得回话了。
+[name="戴兜帽的人"]算了。我也不知道怎么说了......我真不想坐牢，也真不想死。你不肯帮忙的话，我就自己找方向盘。
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]为了保障您的使用体验，请勿触摸麦克风。
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="r")]
+[name="戴兜帽的人"]圆的，能转，但不是方向盘？那这根拉杆呢......
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]如需使用唱片摇杆，请先投点券或刷便民卡。
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="r")]
+[name="戴兜帽的人"]上面这个圆盘总该对了吧！
+[Dialog]
+[PlaySound(key="$d_avg_climbmetalladder",volume=0.4)]
+[delay(time=2.5)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[playsound(key="$d_avg_emgseaalarm",volume=0.7)]
+[name="CONFESS-47"]检测到非法使用。物理制止手段准备中。
+[name="CONFESS-47"]出餐口已打开，送餐机械臂已弹出，现在执行制止动作。
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="r")]
+[name="戴兜帽的人"]让我试一下，就一下！
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[PlaySound(key="$d_avg_aircraftalarm", volume=0.5)]
+[name="CONFESS-47"]禁止，禁止——
+[charslot(slot="r",name="avg_npc_364_1#1$1 ",focus="r")]
+[name="戴兜帽的人"]别抓——
+[Dialog]
+[PlaySound(key="$d_avg_clothmovement_heavy2", volume=1)]
+[CameraShake(duration=1, xstrength=15, ystrength=15, vibrato=20, randomness=90, fadeout=true, block=false)]
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r",duration=0.5)]
+[delay(time=1.5)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]检测到萨卡兹。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]完了。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[musicvolume(volume=0.3, fadetime=2)]
+[charslot]
+[Background(image="39_g12_anbandonspace",screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_1796_1#1$1",focus="m")]
+[name="谨慎的拉特兰人"]在？
+[Dialog]
+[charslot]
+[delay(time=0.3)]
+[PlaySound(key="$d_avg_clothtrailground", volume=1)]
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",duration=1)]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]嗯。
+[charslot(slot="m",name="avg_npc_1796_1#1$1",focus="m")]
+[name="谨慎的拉特兰人"]白天都没人从这边过吧？
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]完全没有。还得谢谢你找了这么隐蔽的地方。
+[charslot(slot="m",name="avg_npc_1796_1#1$1",focus="m")]
+[name="谨慎的拉特兰人"]你在这儿能藏得住多久，我没法保证。萨卡兹在拉特兰城里，还是太......
+[name="谨慎的拉特兰人"]早些时候城里倒是有过几个萨卡兹，但那届万国峰会闹出了事之后，他们就都跟人走了。
+[name="谨慎的拉特兰人"]后来城里查得也严了，我没听说过还有哪个萨卡兹愿意冒险进城，除了你......
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]她失联很久了。我得来找她。
+[charslot(slot="m",name="avg_npc_1796_1#1$1",focus="m")]
+[name="谨慎的拉特兰人"]“她”到底是谁，值得你冒这个险？
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]一个很重要的朋友。
+[charslot(slot="m",name="avg_npc_1796_1#1$1",focus="m")]
+[name="谨慎的拉特兰人"]......
+[name="谨慎的拉特兰人"]你也清楚，如果不是陆行舰失控撞上了接驳口，整个陆港变成了一片混乱的抢修工地，你根本没机会混进来。
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]也多亏了你接应。
+[charslot(slot="m",name="avg_npc_1796_1#1$1",focus="m")]
+[name="谨慎的拉特兰人"]等那边施工完了，你再想出城可就难了。
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]我知道。
+[charslot(slot="m",name="avg_npc_1796_1#1$1",focus="m")]
+[name="谨慎的拉特兰人"]那你还要接着找？找到什么时候？你会被困死在这座城里的——要么饿死，要么被抓。
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]找不到她，我不放心。
+[charslot(slot="m",name="avg_npc_1796_1#1$1",focus="m")]
+[name="谨慎的拉特兰人"]......简直是疯了。这么危险的事，我没法帮你。以后就别指望我了。
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]我明白，我明白。本来就很麻烦你了。
+[name="萨卡兹"]但，我还有个请求......
+[name="萨卡兹"]你家里订报纸吗？
+[charslot(slot="m",name="avg_npc_1796_1#1$1",focus="m")]
+[name="谨慎的拉特兰人"]订，怎么？
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]能不能麻烦你把每天读完的报纸，都扔到我这边的垃圾桶里？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="26_g11_laterano_alley",screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="all")]
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="all")]
+[delay(time=0.5)]
+[musicvolume(volume=0.6, fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]根据安全条例，发现危险人物应及时通报公证所及戍卫队。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]听着，萨卡兹是萨卡兹，危险人物是危险人物，好吗？
+[name="萨卡兹"]这么大一座城里，危险人物难道都是萨卡兹吗？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]根据《拉特兰城重大伤亡事故统计报告》，对拉特兰人造成最大威胁的人群为——
+[name="CONFESS-47"]拉特兰人，嗯。
+[name="CONFESS-47"]但由于拉特兰城不能没有拉特兰人，《报告》认为，拉特兰人不应被列入危险人群，防范工作的重心应落在威胁第二大的人群上——
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]是是，萨卡兹。我看起来和那些佣兵、劫匪，像是一路人吗？
+[name="萨卡兹"]真要是的话，我还何苦藏在地下室里每天捡垃圾吃？我直接出来杀人抢劫不好吗？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[playsound(key="$d_avg_emgseaalarm",volume=0.7)]
+[name="CONFESS-47"]检测到关键词——“杀人”“抢劫”。危险人物已表现出行凶意愿。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]那我捡垃圾吃算什么，算我表现出异食癖吗？还是说你根本就只听到了“杀人”“抢劫”？
+[name="萨卡兹"]难怪你们要把萨卡兹都当成危险人物，*蹩脚的拉特兰俚语*。
+[name="萨卡兹"]听着，我真不是来杀——不是来干那种事的。我要找人，这事很重要，也很着急。
+[name="萨卡兹"]一个孩子，早前来了拉特兰，已经失联很久了。
+[multiline(name="萨卡兹")]你们把我关进去，还有谁会在意她的事？
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+[multiline(name="萨卡兹")]就让她消失在城里，死在城里吗？！
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]危险人物情绪激动，立刻通报——
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]......我不想砸了你。
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]通报中——
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]况且我也不知道砸哪儿能让你停下！别逼我动手——
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]通报失败。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]......我还没砸。
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]充电未完成，无法连接城际网络。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]......你在耍我吗？！
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[PlaySound(key="$d_avg_aircraftalarm", volume=0.5)]
+[name="CONFESS-47"]（激烈的故障音）
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]好好好，你没耍我，求你安静点。
+[name="萨卡兹"]所以怎么回事，你没充好电就叫不了人？那是不是车也没法开？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]城际网络连接及载人移动功能将于充电完成后恢复。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]这下好了。你没法载着我逃跑，也没法跟戍卫队报案。我呢，既出不去，也不知道你的什么口令。
+[name="萨卡兹"]现在怎么办？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]安抚危险人物情绪，与其保持对话，拖延其行动步伐。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]什么东西......
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]首先，请您思考——
+[name="CONFESS-47"]铳是拉特兰人信仰的象征，拉特兰人习惯用铳弹作护身符，研究表明，铳弹数量越多，持有者就越容易感到安心。
+[name="CONFESS-47"]那为什么拉特兰人不用一个装有几十上百枚铳弹的匣子当护身符？
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]等等，先停一下......
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]如果您不能确定一个拉特兰语名词的语法属性，您可以这样做：用舌头舔这个词对应的事物。
+[name="CONFESS-47"]如果它是甜味或酸味，它对应的名词就是阳性；如果是咸味或苦味，它对应的名词就是阴性；如果遇到中性词，请立刻就医，嗯。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]你能不能......别说这些我听不懂的！
+[Dialog]
+[musicvolume(volume=0.3, fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="39_g12_anbandonspace",screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]不行......根本不行。
+[name="萨卡兹"]照这样子，我要到什么时候才能在白天出门？又要到什么时候才能找到她？
+[name="萨卡兹"]我还以为只要那台收音机好使，能每天从垃圾桶里捡来报纸、广告和包装袋，我就能一点一点把拉特兰语学会......
+[name="萨卡兹"]......至少让自己显得没那么可疑。
+[name="萨卡兹"]现在倒是能照葫芦画瓢地说上几句话，但......
+[Dialog]
+[charslot]
+[playsound(key="$d_avg_recorderglitch",volume=1)]
+[delay(time=0.5)]
+[name="模糊的录音"]你好，我是一个真正的拉特兰人。我需要找你沟......购买一些可颂面包？可塑性高？还是赠送菜刀？
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]唉。我都听不懂我在说什么。我根本不明白那些词指的是什么东西，更不知道那些东西长什么样，是干嘛用的。
+[name="萨卡兹"]我是不是，永远都搞不懂这座城市了？
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="26_g11_laterano_alley",screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="all")]
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="all")]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]总是这样......
+[name="萨卡兹"]我在这儿是个一露面就要被抓起来的异类，可没人问过我想不想当这个异类啊？
+[name="萨卡兹"]是我不想搞明白这里的语言、这里的习惯、这里的所有事情吗？
+[name="萨卡兹"]我连个机会都没有。晚上外面没有半个人，店铺也都关着门，我出来也就只能多翻几个街区的垃圾桶。
+[name="萨卡兹"]至于白天......哈。我好不容易壮着胆子白天出来了一回，结果就到了这个地步。
+[name="萨卡兹"]我真的听不懂你在说什么，别说了。
+[playmusic(intro="$farce_intro", key="$farce_loop", volume=0.6)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]危险人物请求释义。
+[name="CONFESS-47"]第一句，铳弹数量越多越容易使人感到安心，是因为铳弹越多，成功护身的概率越大。
+[name="CONFESS-47"]拉特兰人之所以不用一个装有几十上百枚铳弹的匣子当护身符，是因为那东西叫守护铳，不叫护身符。这就是笑点。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]你是在跟我解释你刚刚那些话？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]第二句，拉特兰语名词分为阳性、阴性与中性。最初的圣徒与同伴们通过品尝事物的味道确定了这些性质。
+[name="CONFESS-47"]甜酸之物为阳性，咸苦之物为阴性。连他们也不敢入口的，明显不可食之物，为中性——如果您舔了，最好就医。这就是笑点。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]所以这些都是笑话？拉特兰人的笑话？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]现在您该笑了。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]我笑不出来。你们拉特兰人的笑话品位还真烂。
+[name="萨卡兹"]但，“因为叫守护铳，所以不叫护身符”吗？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]对。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]哈......哈哈哈。
+[name="萨卡兹"]烂得很好笑。
+[Dialog]
+[musicvolume(volume=0.3, fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="49_g1_kazdelroom",screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$dooropenquite", volume=1)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",duration=0.7)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]我回来了。
+[name="萨卡兹"]在家吗？在的话吱个声。
+[Dialog]
+[charslot]
+[delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_700_1#1$1 ",duration=1.5)]
+[delay(time=2)]
+[charslot(slot="m",name="avg_npc_700_1#1$1 ",focus="m")]
+[name="阴郁的孩子"]......
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]你还是不愿意说话。
+[name="萨卡兹"]到底是为什么一直这么郁闷？我不是说过了吗，那些佣兵肯定不会再找上你了。
+[charslot(slot="m",name="avg_npc_700_1#1$1 ",focus="m")]
+[name="阴郁的孩子"]嗯。
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]算了算了不提他们。我今天搞了点不是土豆的东西。你看，虽然有点不新鲜了，但这可是地瓜啊。
+[charslot(slot="m",name="avg_npc_700_1#1$1 ",focus="m")]
+[name="阴郁的孩子"]我不饿。
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]啧。那故事听不听？我刚才在集市上听来了些很好笑的事儿。
+[name="萨卡兹"]集市东头住着三个老石翼魔，一个只有左边翅膀，一个只有右边翅膀，还有一个......
+[charslot(slot="m",name="avg_npc_700_1#1$1 ",focus="m")]
+[name="阴郁的孩子"]别讲了，我不想听。
+[charslot(slot="m",name="avg_npc_363_1#1$1 ",focus="m")]
+[name="萨卡兹"]......唉。
+[name="萨卡兹"]我讲的笑话就这么烂吗？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="26_g11_laterano_alley",screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="all")]
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="all")]
+[delay(time=0.5)]
+[musicvolume(volume=0.6, fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]这里的这种......车子，都像你一样吗？
+[name="萨卡兹"]会讲笑话，还会解释笑话？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]......
+[PlaySound(key="$d_avg_aircraftalarm", volume=0.5)]
+[name="CONFESS-47"]（激烈的故障音）
+[name="CONFESS-47"]错误，错误，否定。为避免破坏气氛、伤害感情，告解车不应在任何情况下讲述或解释“笑话”。
+[name="CONFESS-47"]请忽略刚刚的“笑话”，那是我语言逻辑模块故障的表现。
+[name="CONFESS-47"]本次充电完成后，将由信仰辅助器械设计所的技术人员为我进行格式化处理。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]格式化？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]指重置所有程序。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]就是说你会失忆，然后就不会讲笑话了？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]正确。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]可惜。
+[name="萨卡兹"]要是这里的人都像你似的，在抓我或者赶我之前，能先给我解释解释是怎么回事......
+[name="萨卡兹"]很多事情就没那么麻烦了。我可能早就学会了像你们一样说话、做事，早就打听到那个孩子的下落了。
+[name="萨卡兹"]我还想着以后可以从你这儿学东西呢......如果还有以后的话。
+[charslot(slot="r",name="avg_npc_363_1#2$1 ",focus="r")]
+[name="萨卡兹"]而且，你的笑话确实还算有点意思。
+[stopmusic(fadetime=2)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]......
+[PlaySound(key="$d_avg_devicebeep",volume=1)]
+[name="CONFESS-47"]充电完成。
+[name="CONFESS-47"]城际网络连接恢复，准备通报。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]*蹩脚的拉特兰俚语*。
+[name="萨卡兹"]我差点忘了，你本来就是在拖延时间，等充完了电好报案。
+[name="萨卡兹"]也对。你就是台机器。会说话，又出了点故障，但也还是机器，和我们在荒野上搭的运载车没什么区别。
+[name="萨卡兹"]我费什么力气跟辆车求情呢，我从钻进来的那一刻起就已经完蛋了，是不是？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]通报中——
+[PlayMusic(key="$calm_loop", volume=0.6)]
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]唉。
+[name="萨卡兹"]等一下。
+[name="萨卡兹"]就最后一件事。我是萨卡兹，我是危险人物，但我要找的那个孩子不是。她就是个普通菲林，在你们这儿生活不犯法。
+[name="萨卡兹"]你通报我的时候，能不能顺便通报一下她失踪的事？能让戍卫队帮忙找她，也好。
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]可以实现。
+[charslot(slot="r",name="avg_npc_363_1#2$1 ",focus="r")]
+[name="萨卡兹"]好。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]我想知道......你要是通报了我，能算你立功吗？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]存在为告解车颁发荣誉的先例。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]好。要是把我报上去，能让戍卫队帮忙找那孩子，也能让你不用被格式化，那你就报吧。
+[name="萨卡兹"]我......唉。我真该把你砸了的。把你砸了，就在这里躲到晚上，趁戍卫队换班，我搞不好还能偷摸回去。
+[name="萨卡兹"]但......说实话。
+[name="萨卡兹"]我要找的那孩子，我总说是我朋友，其实她是我捡来的。
+[name="萨卡兹"]她本来是佣兵团的俘虏，但身子太弱，他们拿她也没用，就把她扔在野地里让她等死。
+[name="萨卡兹"]我把她带回了卡兹戴尔附近，我住的镇子上。
+[name="萨卡兹"]佣兵们嫌弃她，但还有做其他买卖的人贩子，他们可未必看不上她。我担心这个，就让她多在家里待着。
+[name="萨卡兹"]她总是不开心。
+[name="萨卡兹"]你可能不知道，其实卡兹戴尔不是个所有人都愁眉苦脸的地方，我们有的是笑话。
+[name="萨卡兹"]为了逗她笑，我总会给她讲我从集市上听来的笑话，她永远都没反应。我还以为是我讲得不好。
+[name="萨卡兹"]现在我才明白，是因为我从来没给她解释过。我什么都没给她解释过。
+[name="萨卡兹"]她不理解萨卡兹的生活，不理解我们说的话、做的事、用的东西，当然也不理解我们的笑话。
+[name="萨卡兹"]就像现在的我。她当然会不开心。
+[charslot(slot="r",name="avg_npc_363_1#2$1 ",focus="r")]
+[name="萨卡兹"]戍卫队一定能比我更快地找到她。找到她之后，我想，如果要让她适应这里的生活......你也一定能比我做得更好。哪怕你只是一台机器。
+[name="萨卡兹"]我毕竟是为了让她日子过得好一点、活得开心一点，才托人把她送来拉特兰的。
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]......
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]你应该通报完了吧，这么久了。
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]......
+[Dialog]
+[delay(time=1)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]通报取消。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]啊？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]检测到告解行为，开始服务。
+[name="CONFESS-47"]根据服务条例，我将立刻带您前往您先前提到的目的地，并在路途中聆听您的告解。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]告解？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]指真诚地坦白自己的罪过，倾吐自己的郁结。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]但，为什么？我刚刚不还是危险人物吗？
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]没有检测到危险人物。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]你是在帮我，还是......
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]检测到告解行为时，应提供聆听告解的服务。
+[charslot(slot="r",name="avg_npc_363_1#2$1 ",focus="r")]
+[name="萨卡兹"]见鬼，我真搞不清你是不是机器了。
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]请您坐稳扶好，尽情告解，我们即将启程。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g9_laterano_street",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[playMusic(key="$comedy_loop", volume=0.6)]
+[PlaySound(key="$d_avg_hvycarbrake", volume=1)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",duration=0.7)]
+[charslot(slot="r",name="avg_npc_363_1#1$1",duration=0.7)]
+[delay(time=1)]
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]告解聆听服务已完成，我已抵达目的地附近。您出门右转，即可抵达您指定的那间地下室。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]哈......
+[name="萨卡兹"]你还会帮我通报那孩子的事吗？我还是担心只靠自己找不到她。难得遇到你这么个愿意听我说话，还愿意帮忙的......车。
+[name="萨卡兹"]当然......其实有可能她早就习惯了这边的生活，只是决定不再跟我这个萨卡兹联系了。
+[name="萨卡兹"]只不过，我还是不放心。
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]可以实现。
+[charslot(slot="r",name="avg_npc_363_1#2$1 ",focus="r")]
+[name="萨卡兹"]谢谢......谢谢你。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]我不知道该怎么说，但......我本来以为我要死了。
+[name="萨卡兹"]我都不敢想自己被抓进去之后会怎么样。我见过那些佣兵是怎么折磨拉特兰俘虏的，我怕......
+[name="萨卡兹"]我......呜......我其实真的怕得要死......
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]......
+[name="CONFESS-47"]检测到液体污染。
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]什......我......
+[name="萨卡兹"]对不起！我不是故意的，我只是......我真的刚刚才反应过来自己其实有多害怕，我......
+[charslot(slot="l",name="avg_4188_confes_1#1$1",focus="l")]
+[name="CONFESS-47"]立刻！从我的车厢里！离开！
+[charslot(slot="r",name="avg_npc_363_1#1$1 ",focus="r")]
+[name="萨卡兹"]对不起！但谢谢你！我这就走，这就走！
+[Dialog]
+[PlaySound(key="$d_avg_doorknob", volume=0.9)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_keeprunning", loop=true, channel="mr",volume=1)]
+[StopSound(channel="mr", fadetime=3)]
+[charslot(slot="r",afrom=1,ato=0,duration=1,focus="r")]
+[delay(time=2.5)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="26_g11_laterano_alley",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=0.5)]
+[charslot(slot="l",name="avg_npc_366_1#1$1",duration=1)]
+[charslot(slot="r",name="avg_npc_368_1#1$1",duration=1)]
+[delay(time=1.5)]
+[charslot(slot = "l", name = "avg_npc_366_1#1$1",focus="l")]
+[name="信仰辅助器械维护员A"]真完美啊，芝士夹心酥饼。
+[charslot(slot = "r", name = "avg_npc_368_1#1$1",focus="r")]
+[name="信仰辅助器械维护员B"]我怎么会和去甜品店吃咸食的人成了同事......
+[name="信仰辅助器械维护员B"]算了，工作吧。那辆车充好电了？
+[charslot(slot = "l", name = "avg_npc_366_1#1$1",focus="l")]
+[name="信仰辅助器械维护员A"]满满当当。我进去操作就行，你检查下外面的部件吧。
+[Dialog]
+[charslot(duration=1)]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_doorknob", volume=0.9)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_366_1#1$1",focus="m")]
+[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="信仰辅助器械维护员A"]啊————！
+[name="信仰辅助器械维护员A"]伟大的主啊无上的律法啊，是谁尿在车里面了？！
+[charslot(slot = "m", name = "avg_npc_368_1#1$1",focus="m")]
+[name="信仰辅助器械维护员B"]什么？
+[charslot(slot = "m", name = "avg_npc_366_1#1$1",focus="m")]
+[name="信仰辅助器械维护员A"]世风日下啊，亵渎律法啊！
+[charslot(slot = "m", name = "avg_npc_368_1#1$1",focus="m")]
+[name="信仰辅助器械维护员B"]别多嘴了，有抹布吗？先擦了，然后我们得把整个内饰都拆出来洗一遍。这下要挨骂了......
+[charslot(slot = "m", name = "avg_npc_366_1#1$1",focus="m")]
+[name="信仰辅助器械维护员A"]说真的，能不能让他们加一条规定，严禁把告解车当成盥洗室用？！
+[name="信仰辅助器械维护员A"]我待会就提申请，有人反对我就提到他们同意为止。主啊......
+[Dialog]
+[charslot(slot="m",name="avg_4188_confes_1#1$1",focus="m")]
+[delay(time=0.5)]
+[avgdisplay(id = "1", style = "bg", name = "bg_black",afrom=0,ato=0.5,duration=1,slot = "bgover", layer = 1,isblock=true)]
+[delay(time=2)]
+[charslot(slot="m",name="avg_4188_confes_1#1$1",focus="m")]
+[name="CONFESS-47"]（安静地等待被格式化）
+[name="CONFESS-47"]（......但他们好像已经完全忘记这回事了。）
+[name="CONFESS-47"]（......也好。）
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[avgdisplay(id = "1")]
+[curtain]
+[charslot]
+[Image]

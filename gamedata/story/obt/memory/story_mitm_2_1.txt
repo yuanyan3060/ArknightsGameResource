@@ -1,0 +1,814 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="52_mini01_katzdalesquare_d",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Delay(time=1)]
+[PlayMusic(key="$normal_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_932_1#1$1",duration=0.7)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_932_1#1$1",focus="m")]
+[name="焦躁的男性"]等等，顾问老大，我刚刚没听清。
+[name="焦躁的男性"]你是说，我被人抢劫了，不用带兄弟们去报仇，只需要在你这儿填个表说明情况就可以？
+[charslot(slot = "m", name = "avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]我这里、罗德岛办事处或者妮芙那里都可以。填了这张表，就会有人负责核实情况，帮你追回钱财。
+[charslot(slot = "m", name = "avg_npc_932_1#1$1",focus="m")]
+[name="焦躁的男性"]不用我动手，也不会被捅刀子？
+[charslot(slot = "m", name = "avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]没错。这些表格都会转交给城里管事儿的，让他们去处理。
+[charslot(slot = "m", name = "avg_npc_932_1#1$1",focus="m")]
+[name="焦躁的男性"]哦——
+[charslot(slot = "m", name = "avg_npc_934_1#1$1",focus="m")]
+[name="急切的女性"]该我了！顾问老大，你刚刚还说，没工作的人，也只需要填张表就给分配工作？那都是些什么工作呢？
+[charslot(slot = "m", name = "avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]你看，这家伙被抢了钱，要来填表说明情况，那总得有接待他的人吧？
+[name="渡桥"]填好了表格，还得交给军事委员会，总得有跑腿的人吧？
+[charslot(slot = "m", name = "avg_npc_934_1#1$1",focus="m")]
+[name="急切的女性"]那薪水？
+[charslot(slot = "m", name = "avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]附近的立体农场已经开始建设了，薪水会以粮食、建筑材料或者农场分红的形式发放。
+[charslot(slot = "m", name = "avg_4147_mitm_1#3$1",focus="m")]
+[name="渡桥"]别急，我知道肯定有人要问，那农场谁来经营呢？
+[charslot(slot = "m", name = "avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]你看，抢劫了别人的家伙，总得给他们点惩罚对吧？比起去挨刀子，让他们无偿种地不是轻松多了？
+[charslot(slot = "m", name = "avg_npc_932_1#1$1",focus="m")]
+[name="焦躁的男性"]全都连上了！
+[charslot(slot = "m", name = "avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]没错，这只是我设计的许多套系统之一，只要它们都能运转起来，大家的生活肯定会越来越方便的。
+[Dialog]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_4147_mitm_1#10$1",focus="m")]
+[name="渡桥"]等等，你带着这一大伙人准备到哪去？
+[charslot(slot = "m", name = "avg_npc_932_1#1$1",focus="m")]
+[name="焦躁的男性"]去揍那个抢劫了我的家伙！
+[charslot(slot = "m", name = "avg_4147_mitm_1#10$1",focus="m")]
+[name="渡桥"]我刚才说了那么多，你一点都没听进去吗？
+[charslot(slot = "m", name = "avg_npc_932_1#1$1",focus="m")]
+[name="焦躁的男性"]嘿嘿，听进去了，可那也太麻烦了！还不如把人揍一顿，回头再找你调解纠纷来得方便！
+[charslot(slot = "m", name = "avg_4147_mitm_1#3$1",focus="m")]
+[name="渡桥"]（叹气）可我跑东忙西，不就是为了让你们不必事事都来找我吗......
+[Dialog]
+[musicvolume(volume=0, fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[name="朦胧的声响"]......暖湿气流进一步向北移动，带来......
+[Dialog]
+[delay(time=1)]
+[Subtitle(text="要下雨了。污浊的雨，没过我的脚踝。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1.5)]
+[name="朦胧的声响"]......对天灾的影响......自然灾害的可能性。
+[Dialog]
+[delay(time=1)]
+[Subtitle(text="地面摇晃起来，开裂。黑色的雨水坠落，倒灌进来。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1.5)]
+[name="朦胧的声响"]......环境数据整体偏高......南部荒野地区......？
+[Dialog]
+[delay(time=1)]
+[Subtitle(text="卡兹戴尔。他们在哭泣，在呼喊我的名字。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1.5)]
+[name="朦胧的声响"]珀耳？
+[Dialog]
+[delay(time=1)]
+[Subtitle(text="可是我也被黑色的雨水淹没了。我连自己都救不了，我该怎么救更多人？", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[delay(time=1.5)]
+[name="不再朦胧的声响"]珀耳！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot]
+[Background(image="49_g1_kazdelroom",screenadapt="coverall", block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_clothmovementsp", volume=1)]
+[CameraShake(duration=1.3, xstrength=30, ystrength=30, vibrato=15, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[musicvolume(volume=0.6, fadetime=2)]
+[delay(time=1)]
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",duration=0.7)]
+[charslot(slot = "r", name = "avg_4147_mitm_1#10$1",duration=0.7)]
+[delay(time=1)]
+[charslot(slot = "r", name = "avg_4147_mitm_1#10$1",focus="r")]
+[name="渡桥"]发生什么了？怎么不继续念了，莉丝？
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",focus="l")]
+[name="莉丝"]你又睡着了！
+[charslot(slot = "r", name = "avg_4147_mitm_1#3$1",focus="r")]
+[name="渡桥"]我睡着了也听得见。你要是不念了，就把饼干还给我。
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",focus="l")]
+[name="莉丝"]咳咳，“以上内容由四城天灾信使联合会发布，并抄送卡”——
+[Dialog]
+[delay(time=1)]
+[charslot(slot = "r", name = "avg_4147_mitm_1#3$1",focus="r")]
+[name="渡桥"]卡西米尔。
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",focus="l")]
+[name="莉丝"]“并抄送卡西米尔监正会，以协助卡瓦莱”——
+[Dialog]
+[delay(time=1)]
+[charslot(slot = "r", name = "avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]卡瓦莱利亚基。昨天不是才教过你吗？这么快就忘啦？
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",focus="l")]
+[name="莉丝"]你这是什么破报纸呀，怎么这么多难念的词！
+[charslot(slot = "r", name = "avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]两年前的天灾信使预测简报，我从罗德岛带回来的。就算是这样过了期的废报纸，卡兹戴尔也没几张，足够换一大袋饼干了。
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",focus="l")]
+[name="莉丝"]就这么一张纸，真能换一大袋饼干？
+[charslot(slot = "r", name = "avg_4147_mitm_1#8$1",focus="r")]
+[name="渡桥"]（点头）所以你要好好学认字。等你长大了，你就能用学会的那些字去换更多饼干了。
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",focus="l")]
+[name="莉丝"]等我把所有的字都认完，就搬到卡西米尔去，到卡瓦莱利亚基去！住那儿多好啊，连天灾都有人预测！
+[charslot(slot = "r", name = "avg_4147_mitm_1#7$1",focus="r")]
+[name="渡桥"]其实卡西米尔也没那么好。
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",focus="l")]
+[name="莉丝"]那维多利亚呢？哥伦比亚呢？还有乌萨斯呢？
+[charslot(slot = "r", name = "avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]对于萨卡兹来说，卡兹戴尔就是最好的地方。
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",focus="l")]
+[name="莉丝"]真的吗？可是那些地方你都没去过。
+[name="莉丝"]你和我一样生下来就在卡兹戴尔，最远也就去过罗德岛总部，你也只能说这里最好啦！
+[Dialog]
+[charslot]
+渡桥下意识地想要开口反驳，却发现自己面对莉丝的诘问竟然无话可说。
+“城里的人一天都离不开我”？这也太自大了。
+“等我设计的那些系统运转起来，我就离开”？根据现实情况来看，基本不可能。
+[Dialog]
+[musicvolume(volume=0.3, fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot]
+[Background(image="52_mini01_katzdalesquare_d",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[charslot(slot = "m", name = "avg_npc_932_1#1$1",focus="m")]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_932_1#1$1",focus="m")]
+[name="焦躁的男性"]......可那也太麻烦了！还不如把人揍一顿，回头再找你调解纠纷来得方便！
+[Dialog]
+[charslot(slot = "m", name = "avg_4147_mitm_1#3$1",focus="m")]
+[delay(time=1)]
+[Dialog]
+[focusout(duration=0.5, type="bg", from=0, to=1, block=true)]
+[Background(image="bg_black",screenadapt="coverall",fadetime=1.5,block=false)]
+[CameraEffect(effect="Grayscale", fadetime=2, keep=true, initamount=0.8, amount=0, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_4147_mitm_1#3$1",focus="l")]
+[charslot(slot="l",name="avg_4147_mitm_1#7$1",action="zoom",poszoom="0.5,0.5",afrom = 0, ato = 0,scale=1.2,duration=0,focus="l")]
+[charslot(slot = "l", posfrom="50,-70",posto="-70,-70",afrom = 0, ato = 0.8,duration = 0.6,focus="l", end = true)]
+[name="渡桥"]卡兹戴尔不可能离了某个人就无法发展，我也不能一生都被困在这里，莉丝更不能听我讲一辈子那些我从未亲眼见过的事情......
+[name="渡桥"]如果不狠下心，给事情定一个期限，那么这件事就会被无止境地拖延下去，因为他们已经习惯了有一个“顾问”来解决所有问题。
+[name="渡桥"]但那个期限是——
+[Dialog]
+[charslot(slot="l",afrom=0.8,ato=0,duration=0.7,focus="l")]
+[Background(image="49_g1_kazdelroom",screenadapt="coverall",fadetime=1,block=false)]
+[Delay(time=1)]
+[focusout(duration=0.5, type="bg", from=1, to=0, block=true)]
+[Delay(time=0.5)]
+[musicvolume(volume=0.6, fadetime=1.5)]
+[charslot(slot = "m", name = "avg_4147_mitm_1#6$1",focus="m")]
+[name="渡桥"]明天！
+[name="渡桥"]不能再拖下去了，明天就要把《卡兹戴尔日报》办出来。
+[Dialog]
+[charslot]
+渡桥在一瞬间想通了很多事情，他现在觉得内心无比畅快。
+这句话、这个决定，早就该说出来了！
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]什么？
+[charslot(slot = "m", name = "avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]没什么，你先回去吧。我有些事要准备一下。
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[Delay(time=0.3)]
+[PlaySound(key="$d_avg_footstep_stonestep",volume=0.6,channel="step",loop=false)]
+[stopsound(channel="step",fadetime=3)]
+[charslot(duration=1)]
+[Delay(time=2)]
+[charslot(slot = "m", name = "avg_4147_mitm_1#7$1",focus="m")]
+[name="渡桥"]卡兹戴尔的识字率已经涨了不少，基本的市场调查我也做过了。可以先推销预售出去一批，用预售的收入雇佣工人、置办机器。
+[name="渡桥"]明天把报纸办出来，后天一早就发售。通过这么一场“突击测验”，我之前所做的一切都将得到检验。
+[name="渡桥"]莉丝是个好孩子，光是念报纸已经不够她发挥了，也是时候让她放开手脚去做一点“顾问的工作”了。
+[Dialog]
+[charslot]
+只是，还有一个问题：谁会订阅这样的报纸？
+[Dialog]
+[charslot(slot = "m", name = "avg_4146_nymph_1#9$1",focus="m")]
+[name="妮芙"]珀耳！罗德岛办事处里找不到你人，我就知道你肯定又溜到这里来睡午觉啦！
+[Dialog]
+[charslot(slot = "m", name = "avg_4147_mitm_1#1$1",focus="m")]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_4146_nymph_1#17$1",focus="m")]
+[name="妮芙"]欸，我脸上有什么脏东西吗？为什么要盯着我笑？
+[charslot(slot = "m", name = "avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]你来得正好，妮芙！你有没有兴趣做《卡兹戴尔日报》的第一位订阅者呀？
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="52_mini01_katzdalesquare_d",screenadapt="coverall")]
+[charslot(slot="l",name="avg_4146_nymph_1#17$1")]
+[charslot(slot="r",name="avg_4147_mitm_1#1$1")]
+[delay(time=1)]
+[PlayMusic(key="$chill_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[charslot(slot = "l", name = "avg_4146_nymph_1#17$1",focus="l")]
+[name="妮芙"]慢一点，珀耳！你还没有说清楚，为什么突然决定要办报纸了？
+[charslot(slot="r",name="avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]这可不是突然决定的，我认真想过了！
+[charslot(slot = "l", name = "avg_4146_nymph_1#17$1",focus="l")]
+[name="妮芙"]不不，我的意思是，为什么要这么仓促呢？我们连纸张和墨水都没搞定！
+[charslot(slot="r",name="avg_4147_mitm_1#8$1",focus="r")]
+[name="渡桥"]没有钱，我们就去筹钱；没有材料，我们就拿着筹来的钱去买。妮芙，作为《卡兹戴尔日报》的第一位订阅者，你可不能气馁。
+[charslot(slot = "l", name = "avg_4146_nymph_1#11$1",focus="l")]
+[name="妮芙"]是你自己在订阅表上填了我的名字，我还没答应呢！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_runstop", volume=1)]
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",duration=0.5)]
+[delay(time=0.7)]
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]顾、顾问老大，总算追上你了。
+[name="莉丝"]我跑了四个街区，终于找到了可以供应纸张和墨水的——
+[charslot(slot="m",name="avg_4147_mitm_1#8$1",focus="m")]
+[name="渡桥"]做得好，莉丝！那么，再去跑一趟吧！
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]可我还没说——
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]这些细节不用告诉我，你自己做决定就好！莉丝，我可是对你充满信心的。
+[charslot(slot="m",name="avg_4147_mitm_1#9$1",focus="m")]
+[name="渡桥"]你可以放心大胆地和他们谈买卖，如果有人敢质疑你——
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]就说“我可是顾问老大派来的”，嘿嘿！
+[Dialog]
+[PlaySound(key="$d_avg_walkfast", volume=0.7)]
+[charslot(duration=0.7)]
+[Delay(time=1.5)]
+[charslot(slot="l",name="avg_4146_nymph_1#17$1",focus="l")]
+[charslot(slot="r",name="avg_4147_mitm_1#1$1",focus="l")]
+[name="妮芙"]珀耳，你看起来有些奇怪。你不会又偷偷跑进大熔炉里去了吧？
+[charslot(slot="r",name="avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]放心，这不是“熔炉后遗症”。我只是想多锻炼一下莉丝谈生意的能力。
+[charslot(slot="l",name="avg_4146_nymph_1#13$1",focus="l")]
+[name="妮芙"]她还只是个孩子呢，又没有什么要紧的工作要干。
+[charslot(slot="r",name="avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]我刚接过“顾问”的名号时、你开始在卡兹戴尔帮助其他人的时候，也只是孩子呀。孩子也能把事情做好。
+[charslot(slot="r",name="avg_4147_mitm_1#8$1",focus="r")]
+[name="渡桥"]到啦，我们的第一站！就从这里开始推销我们的报纸吧！
+[Dialog]
+[charslot]
+[PlaySound(key="$doorknockquite", volume=1)]
+[delay(time=1)]
+[PlaySound(key="$dooropenquite", volume=1)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_935_1#1$1",duration=1)]
+[Delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_935_1#1$1",focus="m")]
+[name="不悦的居民"]......
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]抱歉这么晚打扰您了，女士，我是《卡兹戴尔日报》的主编兼销售经理，我旁边这位是我的高级合作伙伴。
+[Dialog]
+[charslot(slot="m",name="avg_4146_nymph_1#1$1",focus="m")]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_935_1#1$1",focus="m")]
+[name="不悦的居民"]我是刚睡着就被吵醒的人，你们到底有什么事？
+[charslot(slot="m",name="avg_4147_mitm_1#8$1",focus="m")]
+[name="渡桥"]那我就长话短说了，您有兴趣订阅第一期的《卡兹戴尔日报》吗？
+[charslot(slot = "m", name = "avg_npc_935_1#1$1",focus="m")]
+[name="不悦的居民"]如果它不能吃，那我就没兴趣。
+[charslot(slot="m",name="avg_4147_mitm_1#8$1",focus="m")]
+[multiline(name="渡桥")]实际上——
+[charslot(slot="m",name="avg_4147_mitm_1#10$1",focus="m")]
+[multiline(name="渡桥")]等等，别急着关门，女士——实际上它真的能吃。
+[charslot(slot="m",name="avg_4146_nymph_1#2$1",focus="m")]
+[name="妮芙"]啊？
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]这毕竟是卡兹戴尔发行的第一份报纸，也是卡兹戴尔期盼已久的超级信息综合媒介，对那些商贩来说，这可是不可错过的广告窗口。
+[name="渡桥"]为了回馈我们的城市，我决定在第一期设立专门的免费广告和优惠券版面，包括小吃尝鲜券、衣服半价券、蔬菜兑换券......
+[charslot(slot="m",name="avg_4147_mitm_1#8$1",focus="m")]
+[name="渡桥"]拿着报纸就可以把好吃的和物美价廉的衣服全部带回家！
+[charslot(slot = "m", name = "avg_npc_935_1#1$1",focus="m")]
+[name="不悦的居民"]有这种好事？
+[charslot(slot="m",name="avg_4147_mitm_1#8$1",focus="m")]
+[name="渡桥"]您可以信不过我，但罗德岛的名誉您总信得过吧？这套先进的商业逻辑可是我从罗德岛学来的，不信您可以问妮芙。
+[charslot(slot="m",name="avg_4146_nymph_1#13$1",focus="m")]
+[name="妮芙"]好像确实是这样，珀耳在罗德岛的时候就热衷于收集各种优惠券。
+[charslot(slot="m",name="avg_4147_mitm_1#8$1",focus="m")]
+[name="渡桥"]那么，订阅一份？只需要小小的一点订阅费，就可以在报纸发行后享受各种优惠，这简直太划算了！
+[charslot(slot = "m", name = "avg_npc_935_1#1$1",focus="m")]
+[name="不悦的居民"]好吧，听起来确实很诱人......
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]谢谢支持！
+[charslot(slot = "m", name = "avg_npc_935_1#1$1",focus="m")]
+[name="不悦的居民"]等等！我突然想起来，我不识字！
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]放心好了，报纸上也会附带识字班的免费课程体验券的！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="52_mini01_katzdalesquare_d",screenadapt="coverall")]
+[charslot(slot="l",name="avg_4146_nymph_1#17$1")]
+[charslot(slot="r",name="avg_4147_mitm_1#8$1")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot="r",name="avg_4147_mitm_1#8$1",focus="r")]
+[name="渡桥"]不到一会儿，就已经推销出去五十多份了！
+[charslot(slot="l",name="avg_4146_nymph_1#17$1",focus="l")]
+[name="妮芙"]可是你许诺的那些东西，真的能兑现吗？
+[charslot(slot="r",name="avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]我绝不会欺骗任何人。
+[charslot(slot="l",name="avg_4146_nymph_1#13$1",focus="l")]
+[name="妮芙"]所以，你已经搞定了那些优惠券什么的？
+[charslot(slot="r",name="avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]这个，还没有，不过......你来得正好，莉丝！
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",duration=1)]
+[delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]顾问老大，呼，呼！我已经，和供应商谈好了，我们——
+[charslot(slot="m",name="avg_4147_mitm_1#8$1",focus="m")]
+[name="渡桥"]太棒了，我就知道你一定能干成这些的！先喘口气，莉丝，我有新的任务要交给你！
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]可是我还没、没告诉你，那些交易！
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]重要的是你都谈妥了，不是吗？这是我们筹到的第一批订阅费，快去把那些交易落实吧！
+[name="渡桥"]另外，莉丝，我还需要你去和那些摊贩、店主还有教师聊一聊。
+[name="渡桥"]你要邀请他们在我们的第一期报纸上免费刊登广告，并且教他们怎么用优惠券和降价活动来吸引更多的人。
+[name="渡桥"]面对不同的人，具体的话该怎么说，我都教过你的，还记得吗？
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]记得！那我就再跑一趟好了。
+[charslot(slot="m",name="avg_4146_nymph_1#13$1",focus="m")]
+[name="妮芙"]珀耳，你为什么要给莉丝分配这么多活呢？
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]我原本打算慢慢教她的，但还是让她在实践中快速成长吧。抱歉了，小莉丝。
+[name="渡桥"]走吧，该去下一个街区继续推销啦。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="49_g1_kazdelroom",screenadapt="coverall")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_933_1#1$1",focus="m")]
+[name="萨卡兹工人"]你说这能行吗，莉丝？
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]我心里也没底，但说实话，我希望它能行。
+[name="莉丝"]比如谁家的小云兽走丢了，在报纸上发一条消息，读报的人看到就会帮忙留意；谁欠钱不还了，债主也可以在报纸上骂他——
+[charslot(slot = "m", name = "avg_npc_933_1#1$1",focus="m")]
+[name="萨卡兹工人"]呃，我说的是，你觉得这台机器能正常工作吗？你在说什么？
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]没什么！你拉一下拉杆试试！
+[Dialog]
+[charslot]
+[PlaySound(key="$factory_low_drone", volume=0, loop=true, channel="a")]
+[SoundVolume(volume=0.7, channel="a",fadetime=1)]
+[Delay(time=2.5)]
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]进料口正常，改装过的油印机也在正常运作！
+[charslot(slot = "m", name = "avg_npc_933_1#1$1",focus="m")]
+[name="萨卡兹工人"]喂！莉丝！这也太吵了！
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]那你就大点声说话！
+[charslot(slot = "m", name = "avg_npc_933_1#1$1",focus="m")]
+[name="萨卡兹工人"]你说！顾问老大！搞这些！图什么？！
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]他有！自己的！道理！
+[charslot(slot = "m", name = "avg_npc_933_1#1$1",focus="m")]
+[name="萨卡兹工人"]我觉得！他就是在胡闹！
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_933_1#1$1",focus="n")]
+[StopSound(channel="a", fadetime=2)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_933_1#1$1",focus="m")]
+[name="萨卡兹工人"]还要我们陪他一起胡闹！欸，机器怎么突然停了？
+[name="萨卡兹工人"]顾、顾问老大，您什么时候到的？
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]刚刚才到。莉丝，我把新一批的订阅费都带来了，你抽空去把交易款项都结清吧。
+[name="渡桥"]现在你先用我的书桌，把第一期报纸的正文誊抄一遍。头版头条的标题我还没想好，由你来拟定一个吧。
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]头版头条的标题？你以前不是说，这是最重要的内容吗？我还以为会是你或者妮芙姐姐来起呢。
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]妮芙还在帮忙寻找新的客户，我暂时也没什么好的想法，所以就要托付给你了。
+[charslot(slot = "m", name = "avg_npc_933_1#1$1",focus="m")]
+[name="萨卡兹工人"]抱歉，顾问老大。
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]嗯？你叫大眼对吧，我记得你以前是混断角帮的。
+[charslot(slot = "m", name = "avg_npc_933_1#1$1",focus="m")]
+[name="萨卡兹工人"]多亏了您前段日子解散了断角帮，还帮我们都安排了工作。
+[charslot(slot="m",name="avg_4147_mitm_1#6$1",focus="m")]
+[name="渡桥"]可你有没有想过，如果我没有及时从罗德岛总部回来，断角帮还要折磨你们多久？
+[charslot(slot="m",name="avg_4147_mitm_1#3$1",focus="m")]
+[name="渡桥"]如果工地上招不到合适的工人，你和你的家人又还要露宿街头多久？
+[charslot(slot = "m", name = "avg_npc_933_1#1$1",focus="m")]
+[name="萨卡兹工人"]但您最后还是回来了嘛。
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]大眼，这是不对的。我也只是一个普通人，我能做到的事情，任何人都能做到。
+[name="渡桥"]但问题在于，这些事情不该只让一个人做。
+[name="渡桥"]就像这台机器，进料口、印刷机、传送带，它们组合在一起，构成了一个系统。
+[name="渡桥"]这个系统发现了一张白纸，发现了一个亟待解决的问题，它们自己配合着解决了这个问题，于是我们就得到了——
+[Dialog]
+[PlaySound(key="$d_avg_paper1", volume=1)]
+[Delay(time=1.5)]
+[charslot]
+渡桥拿起那张用来测试的纸张。
+上面印满了莉丝从商贩那里谈来的优惠券、从识字班那里拿来的公益小短文，还有从军事委员会那里接到的市政通知。
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]优惠，好处，便利，福祉。
+[charslot(slot = "m", name = "avg_npc_933_1#1$1",focus="m")]
+[name="萨卡兹工人"]顾问老大，我听不懂！
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]但你已经在参与它了。
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]我誊抄好了，我们可以开始批量印刷啦！
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[multiline(name="渡桥")]让我看看你起了什么标题——
+[charslot(slot="m",name="avg_4147_mitm_1#8$1",focus="m")]
+[multiline(name="渡桥")]“新的起点”，不错嘛！
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]嘿嘿！等到明天早上，我们就可以把第一期报纸送到第一批客户的门前啦！
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="52_mini01_katzdalesquare_d",screenadapt="coverall")]
+[charslot(slot="l",name="avg_4146_nymph_1#1$1")]
+[charslot(slot="r",name="avg_4088_hodrer_1#9$1")]
+[delay(time=1)]
+[PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot="l",name="avg_4146_nymph_1#1$1",focus="l")]
+[name="妮芙"]在这里签字就好了，赫德雷先生。
+[name="妮芙"]等明天一早，我就把您订阅的五十份报纸带过来！
+[charslot(slot="r",name="avg_4088_hodrer_1#9$1",focus="r")]
+[name="赫德雷"]多谢，妮芙。也替我谢谢珀耳，他之前说要给卡兹戴尔办一份报纸，我没想到他真能做成。
+[charslot(slot="l",name="avg_4146_nymph_1#9$1",focus="l")]
+[name="妮芙"]是呀，他说了那么多年，大家都没当回事，结果他一直在自己做着准备呢。
+[charslot(slot="r",name="avg_4088_hodrer_1#9$1",focus="r")]
+[name="赫德雷"]把字印在纸上不难，但对卡兹戴尔来说，让人们觉得“报纸”有价值是很难的。
+[charslot(slot="l",name="avg_4146_nymph_1#1$1",focus="l")]
+[name="妮芙"]现在卡兹戴尔的居民们居然已经习惯了用“钱”去买东西，甚至愿意去买一些既不能吃也不能穿的东西，这放在几年前根本没办法想象。
+[charslot(slot="r",name="avg_4088_hodrer_1#9$1",focus="r")]
+[name="赫德雷"]你们为这座城市带来了许多改变。
+[charslot(slot="l",name="avg_4146_nymph_1#9$1",focus="l")]
+[name="妮芙"]您也一样，赫德雷先生！等报纸发行后，您的识字班估计又要迎来一大批新学生啦。
+[charslot(slot="l",name="avg_4146_nymph_1#1$1",focus="l")]
+[name="妮芙"]这么一想，珀耳通过办一份报纸，确实达到了很多不同的目的......
+[Dialog]
+[stopmusic(fadetime=3)]
+[charslot(slot="l",name="avg_4146_nymph_1#1$1",focus="n")]
+[playsound(key="$d_avg_dullthunderclap",channel="3",loop=true,volume=1)]
+[stopsound(channel="3",fadetime=4.5)]
+[delay(time=2)]
+[charslot(slot="r",name="avg_4088_hodrer_1#5$1",focus="r")]
+[name="赫德雷"]好像要下雨了。替我给珀耳带好，之后恐怕很长时间都不能见到他了。
+[charslot(slot="l",name="avg_4146_nymph_1#1$1",focus="l")]
+[multiline(name="妮芙")]没问题，等等——
+[charslot(slot="l",name="avg_4146_nymph_1#7$1",focus="l")]
+[multiline(name="妮芙")]您说什么？
+[charslot(slot="r",name="avg_4088_hodrer_1#1$1",focus="r")]
+[name="赫德雷"]他之前说，之后几个月有些自己的事情要忙，不能来给学生们上课了。
+[Dialog]
+[charslot(slot="r",name="avg_4088_hodrer_1#1$1",focus="n")]
+[PlaySound(key="$d_avg_rainlight_loop", volume=0, loop=true, channel="c")]
+[SoundVolume(volume=1, channel="c",fadetime=2)]
+[bgeffect(name="$eb_rain",layer=1)]
+[delay(time=1.5)]
+[charslot(slot="l",name="avg_4146_nymph_1#7$1",focus="l")]
+[name="妮芙"]啊，雨下大了，我得赶紧去找珀耳了！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[bgeffect]
+[charslot]
+[Background]
+[Image(image="cg_rainsplash",screenadapt="coverall",fadetime=0,block=true)]
+[Delay(time=1)]
+[PlayMusic(intro="$loneliness_intro", key="$loneliness_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="萨卡兹工人"]莉丝！防水布不见了！
+[name="莉丝"]我不是让他们都堆在库房里了吗？
+[name="萨卡兹工人"]可是库房是空的！要么是他们压根没送来，要么就是有人偷——
+[name="莉丝"]不管防水布了，先找来一切能挡雨的东西，不能再让雨淋坏更多报纸了！
+[name="萨卡兹工人"]莉丝，来不及了，最顶上和最底下的报纸已经全被泡烂了！
+[name="莉丝"]不行！能救多少救多少！
+[Dialog]
+[StopSound(channel="c", fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Image]
+[charslot]
+[Background(image="49_g1_kazdelroom",screenadapt="coverall")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4147_mitm_1#2$1",focus="m")]
+[name="渡桥"]停下吧，莉丝。
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]不行，珀耳，我还没——
+[charslot(slot="m",name="avg_4147_mitm_1#10$1",focus="m")]
+[name="渡桥"]已经来不及了，你要学会放弃！
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]可是，可是！
+[name="莉丝"]对不起！是我没做好！
+[charslot(slot="m",name="avg_4147_mitm_1#2$1",focus="m")]
+[name="渡桥"]这本来也不是你一个人的责任，莉丝。是我强行把这些任务甩给你的。
+[charslot(slot="m",name="avg_4147_mitm_1#7$1",focus="m")]
+[name="渡桥"]我之前甚至没有向你许诺过任何东西、任何好处，可你依然愿意替我做这些。
+[name="渡桥"]为什么？
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]那些报纸还在淋雨，你的这个问题有什么意义？这重要吗？
+[charslot(slot="m",name="avg_4147_mitm_1#6$1",focus="m")]
+[name="渡桥"]这很重要，莉丝，我需要知道你为什么愿意做这一切，又为什么会在此刻感到如此难过、愤怒。
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]因为我相信了你说的话，我相信了你说的，报纸能让卡兹戴尔变好！
+[name="莉丝"]我也希望卡兹戴尔变得更好！我希望这里的人也能从报纸上看到天灾的消息，也能从报纸上知道大地上其他地方正在发生什么！
+[Dialog]
+[charslot(slot="m",name="avg_4147_mitm_1#1$1",focus="m")]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_cloakmovement", volume=1)]
+[charslot(duration=1)]
+[delay(time=1.5)]
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]我明白了，莉丝。
+[name="渡桥"]可是，能够让卡兹戴尔变得更好的，从来都不是一张报纸。
+[name="渡桥"]是人，是人们。是你，还有你相信的那些东西。
+[name="渡桥"]报纸被雨淋坏是一个惨痛的教训，但我们现在也知道了，我们到底在哪些地方还有欠缺。
+[name="渡桥"]在这种时候，我们要学会放弃，放弃那些做得还不够好的，擦干眼泪，重新再来一次。下一次，要做得更好。
+[name="渡桥"]接下来该怎么做，莉丝？
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",focus="l")]
+[name="莉丝"]去召集大家，重新设计工作区域，做好防水措施，登门拜访客户，告诉他们第一期报纸延期发行的消息，给那些想要退款的人退款。
+[charslot(slot = "r", name = "avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]我们能让人们知道，做错了事是要道歉的，违背了承诺是要付出代价的。这些观念，是比报纸和钱更有可能让卡兹戴尔变好的东西。
+[charslot(slot = "l", name = "avg_npc_1457_1#1$1",focus="l")]
+[name="莉丝"]我明白了，珀耳。
+[Dialog]
+[PlaySound(key="$d_gen_walk_n",volume=0.6)]
+[charslot(slot="l",afrom=1,ato=0,duration=1,focus="l")]
+[delay(time=2.5)]
+[charslot(slot = "r", name = "avg_4147_mitm_1#2$1",focus="r")]
+[name="渡桥"]这是我最后能教给你的道理了，我相信之后，你能做得比我更好。
+[stopmusic(fadetime=2)]
+[Dialog]
+[charslot]
+他的身子不再紧绷，冷汗和眼泪一起流了下来，他低声地啜泣着，自己也说不清为什么。
+也许是心疼那些报纸，也许是难过于自己的脆弱，又或者——
+[charslot(slot = "m", name = "avg_4147_mitm_1#3$1",focus="m")]
+[name="渡桥"]还没到时候。再等等吧。
+[Dialog]
+[charslot]
+他擦干眼泪，整理好表情，然后对着门外说——
+[charslot(slot = "m", name = "avg_4147_mitm_1#1$1",focus="m")]
+[name="渡桥"]可以进来了，妮芙。
+[Dialog]
+[charslot]
+[delay(time=0.5)]
+[PlaySound(key="$dooropenquite", volume=1)]
+[Delay(time=1)]
+[PlayMusic(key="$calm_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4146_nymph_1#17$1",duration=1.5)]
+[delay(time=2)]
+[charslot(slot="m",name="avg_4146_nymph_1#17$1",focus="m")]
+[name="妮芙"]你知道我在？
+[Dialog]
+[charslot]
+妮芙赶到这里时，立刻就感受到了屋内传出的强烈的负面情绪。
+于是她停下了准备敲门的动作，隔着一道门板，等待着。
+[charslot(slot="l",name="avg_4146_nymph_1#13$1",focus="r")]
+[charslot(slot="r",name="avg_4147_mitm_1#10$1",focus="r")]
+[name="渡桥"]这不丢人，对吧？
+[charslot(slot="l",name="avg_4146_nymph_1#13$1",focus="l")]
+[name="妮芙"]哭鼻子从来都不丢人。
+[charslot(slot="r",name="avg_4147_mitm_1#2$1",focus="r")]
+[name="渡桥"]搞砸了一切才丢人，我还差点......我差点害小莉丝的精神也被压垮，我不该给她那么多的任务和压力。
+[charslot(slot="l",name="avg_4146_nymph_1#17$1",focus="l")]
+[name="妮芙"]这也正是我想问的，珀耳，你是准备离开吗？
+[name="妮芙"]你急着做这一切，是为了让莉丝赶紧成长，好接替你吗？
+[charslot(slot="r",name="avg_4147_mitm_1#7$1",focus="r")]
+[name="渡桥"]是，也不是。
+[name="渡桥"]在这么短的时间内把好多年都没办成的报纸一口气办出来，其实是一场考试。
+[charslot(slot="l",name="avg_4146_nymph_1#17$1",focus="l")]
+[name="妮芙"]考生是你自己，和莉丝？
+[charslot(slot="r",name="avg_4147_mitm_1#3$1",focus="r")]
+[name="渡桥"]是卡兹戴尔的所有人。
+[charslot(slot="r",name="avg_4147_mitm_1#7$1",focus="r")]
+[name="渡桥"]我想看看，之前几年，我努力维持的那些东西，那些勉强转起来的“系统”，是不是已经到了我不在也能自如运作下去的时候。
+[name="渡桥"]我想看看，城里的人们，他们是否愿意接受改变，是否也在期待着一些更好的东西。
+[name="渡桥"]我想看看，我自己是否做好了准备，我是不是一个自私的人，为了满足自己的一点期盼，就要扔下那些需要我的人。
+[charslot(slot="l",name="avg_4146_nymph_1#17$1",focus="l")]
+[name="妮芙"]那么，结果呢？
+[charslot(slot="r",name="avg_4147_mitm_1#2$1",focus="r")]
+[name="渡桥"]你也看到了，一场意料之外的大雨，就轻松毁掉了一切。
+[Dialog]
+[charslot(slot="l",name="avg_4146_nymph_1#1$1",focus="l")]
+[PlaySound(key="$d_avg_open_box", volume=0.7)]
+[Delay(time=1)]
+妮芙没有急着说话，而是从手提箱里掏出了一样又一样东西。
+[charslot(slot="r",name="avg_4147_mitm_1#10$1",focus="r")]
+[name="渡桥"]这些是什么？
+[charslot(slot="l",name="avg_4146_nymph_1#1$1",focus="l")]
+[name="妮芙"]一个机会。珀耳，我们之前承诺的发行日期，还有半个晚上才到呢。
+[name="妮芙"]其实，我们还远远没到要放弃的时候。
+[Dialog]
+[charslot(slot="l",name="avg_4146_nymph_1#1$1",focus="r")]
+[Delay(time=1)]
+渡桥看向那堆东西，他很快认出了其中一些。
+[charslot(slot="r",name="avg_4147_mitm_1#5$1",focus="r")]
+[name="渡桥"]这是，克伦妮设计的送报员制服，还有防水布料？
+[name="渡桥"]那是泥岩留下的，能够控制巨像帮忙修建房屋的装置？
+[charslot(slot="l",name="avg_4146_nymph_1#9$1",focus="l")]
+[name="妮芙"]还有赫德雷先生送来的铅活字、锡人先生从哥伦比亚寄来的国际新闻辑录、卡莱莎女士离开前留给我的草药茶包——
+[name="妮芙"]我们泡一壶热茶，让脑子清醒过来，然后一起重新制作第一期的《卡兹戴尔日报》吧，怎么样？
+[Dialog]
+[charslot]
+渡桥不知道该说些什么，他感觉有一万句话堵住了自己的喉咙。
+然后，门口出现了更多身影。
+[Dialog]
+[charslot(slot = "l", name = "avg_npc_1453_1#1$1",posfrom="-180,0",posto="-180,0",duration=1)]
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",duration=1)]
+[charslot(slot = "r", name = "avg_npc_869_1#1$1",posfrom="180,0",posto="180,0",duration=1)]
+[Delay(time=1.5)]
+[charslot(slot = "l", name = "avg_npc_1453_1#1$1",focus="l")]
+[name="克伦妮"]我没意见。哦，实际上，我有很多意见，我看过了你们的样张，字体设计简直是灾难。
+[charslot(slot = "r", name = "avg_npc_869_1#1$1",focus="r")]
+[name="埃芒加德"]妮妮拜托我制定了卡兹戴尔的发行物标准文件，这只是征求意见稿，但你可以参考一下——哦，不用给我倒茶了，我待会儿就走。
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]顾问老大，我遇见了赫德雷老师，他给了我一本小册子，还教了我怎么用那些铅活字，比改装油印机快多了！
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_4147_mitm_1#5$1",focus="m")]
+[name="渡桥"]......
+渡桥郑重地向身边的每个人都说了声谢谢。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_4146_nymph_1#9$1",focus="m")]
+[name="妮芙"]抓紧时间，大家，我们开工咯！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="49_g1_kazdelroom",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+“设计稿好了！”
+“测试样张没问题！开始批量印刷！”
+“记得检查成品质量哦。”
+“够了，够了！可以关掉机器啦！”
+“我们一组，往东边去送，剩下的人负责送西边的吧！”
+“拿好订阅名单，路上注意安全！”
+“一会儿见！”
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="49_g1_kazdelroom",screenadapt="coverall", block=true)]
+[delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_1457_1#1$1",focus="m")]
+[name="莉丝"]顾问老大！我送完这一批了！他们说你送完之后回来检查库存了，你不会又在偷懒吧？
+[name="莉丝"]怎么没剩下多少了，大家都送得这么快吗？
+[name="莉丝"]哇，居然有这么多人在续订表上签字了，这套东西好像真的自己运转起来了！
+[name="莉丝"]......顾问老大，你人呢？
+[Dialog]
+[charslot(duration=0.7)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_paper2", volume=1)]
+[delay(time=1)]
+莉丝在书桌上找到了一封信。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_wilderness_1",screenadapt="coverall", block=true)]
+[delay(time=1)]
+[playMusic(intro="$newhope01_intro", key="$newhope01_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="“莉丝，辛苦了。你做得很好。”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4147_mitm_1#7$1",focus="m")]
+[name="渡桥"]快到约定的时间了。那些商队收了我的赤金，应该不会食言吧？
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="“为了鼓励你以后做得更好，我擅作主张，在营业执照上签了你的名字，现在，你就是《卡兹戴尔日报》的总经理了！”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“每卖出一份报纸，都会有一点点利润归到你的名下，钱的数目并不多。”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“但我认为，更有价值的是，从此卡兹戴尔的人们，都会听说你的名字。信誉，比钱本身更值钱。”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[Dialog]
+[charslot]
+[name="？？？"]珀耳——
+[charslot(slot="m",name="avg_4147_mitm_1#10$1",focus="m")]
+[name="渡桥"]欸，是谁？
+[Dialog]
+[charslot]
+[delay(time=0.3)]
+[charslot(slot="m",name="avg_4146_nymph_1#11$1",duration=1)]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_4146_nymph_1#11$1",focus="m")]
+[name="妮芙"]珀耳！坏蛋！我就知道你会不辞而别！
+[charslot(slot="m",name="avg_4147_mitm_1#2$1",focus="m")]
+[name="渡桥"]抱歉了，妮芙，我实在不擅长告别。之前送别卡莱莎和锡人的时候，你也见过我不适应的样子。
+[charslot(slot="m",name="avg_4146_nymph_1#11$1",focus="m")]
+[name="妮芙"]那你也不能什么也不说就走了！你甚至没告诉我你要去哪儿！
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="“从今天起，你就是新的顾问老大了。遇上麻烦的人会来找你，有困难的人也会找你，你别想再睡一个好觉了。”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“你会害怕吗？会觉得讨厌吗？还是说，你仍像之前和我说的那样，怀揣着希望？”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“莉丝，如果你仍抱有希望，你就需要想想——对卡兹戴尔来说，‘顾问’这个名号，到底意味着什么？”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[Dialog]
+[charslot(slot="l",name="avg_4146_nymph_1#11$1",focus="r")]
+[charslot(slot="r",name="avg_4147_mitm_1#7$1",focus="r")]
+[name="渡桥"]我还没想好，我准备先跟着走南闯北的商队游历，炎国、维多利亚......走到哪算哪。
+[charslot(slot="l",name="avg_4146_nymph_1#11$1",focus="l")]
+[name="妮芙"]那你怎么不先问问我，万一我也想离开卡兹戴尔出门游历呢？
+[charslot(slot="r",name="avg_4147_mitm_1#5$1",focus="r")]
+[name="渡桥"]也是哦！你之前都把门上的牌子摘掉了，我怎么没想到？
+[charslot(slot="l",name="avg_4146_nymph_1#11$1",focus="l")]
+[name="妮芙"]哼，我可不像你那样没有责任心，我在卡兹戴尔还有没做完的事情呢！
+[charslot(slot="l",name="avg_4146_nymph_1#13$1",focus="l")]
+[name="妮芙"]我还得替你照看一阵子小莉丝......
+[charslot(slot="r",name="avg_4147_mitm_1#7$1",focus="r")]
+[name="渡桥"]给你添麻烦了。
+[Dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="“我之前想了很久，最后发现，顾问越不重要，说明顾问做得越好。”", x=300, y=350, alignment="center", size=24, delay=0.04, width=750)]
+[Subtitle(text="“卡兹戴尔需要的不是一个或两个顾问老大，卡兹戴尔需要的是一套离开某个人依然能正常运作的社会体系。”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“信用、承诺、货币、对未来的稳定预期......你发现了吗，莉丝？”", x=300, y=350, alignment="center", size=24, delay=0.04, width=750)]
+[Subtitle(text="“这正是我们办报纸时用到的一切。”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“现在，保护它、完善它的责任，交给你了。请原谅我的自私。”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="“珀耳留。”", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot="l",name="avg_4146_nymph_1#13$1",focus="r")]
+[charslot(slot="r",name="avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]有运载车开过来了，那应该是来接我的商队。
+[name="渡桥"]那么，妮芙，再见了。
+[charslot(slot="l",name="avg_4146_nymph_1#1$1",focus="l")]
+[name="妮芙"]给我一个地点吧，还有日期！
+[charslot(slot="r",name="avg_4147_mitm_1#5$1",focus="r")]
+[name="渡桥"]什么？
+[charslot(slot="l",name="avg_4146_nymph_1#1$1",focus="l")]
+[name="妮芙"]我说了，我有一天也会离开卡兹戴尔出门游历，认识新的朋友，经历一些新的故事。
+[name="妮芙"]但我也不想从此就把老朋友们扔下了。也许有一天，我们还会在各自的旅途中相见！
+[charslot(slot="l",name="avg_4146_nymph_1#9$1",focus="l")]
+[name="妮芙"]那会是什么时候，在哪里呢？
+[charslot(slot="r",name="avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]三年之后，卡瓦莱利亚基。
+[charslot(slot="l",name="avg_4146_nymph_1#7$1",focus="l")]
+[name="妮芙"]欸，为什么？那时候会有特别锦标赛吗？
+[charslot(slot="r",name="avg_4147_mitm_1#1$1",focus="r")]
+[name="渡桥"]不知道，不过......到时候就知道了。
+[charslot(slot="l",name="avg_4146_nymph_1#3$1",focus="l")]
+[name="妮芙"]一言为定。那么，三年后见，珀耳！
+[charslot(slot="r",name="avg_4147_mitm_1#8$1",focus="r")]
+[name="渡桥"]再见！
+[Dialog]
+[charslot(slot="r",afrom=1,ato=0,duration=1)]
+[Delay(time=1.5)]
+[charslot(duration=0.3)]
+[Delay(time=0.5)]
+渡桥登上运载车，热情的行商递给他一杯冰爽的麦酒，他毫不设防地饮下，被呛得连连咳嗽。
+运载车在荒漠上疾驰，扔下几道渺远的烟尘。
+他一边与新结识的朋友们畅聊欢笑，一边对那座城市和城市里的人们举起了酒杯。
+[name="渡桥"]敬我的起点，我的故乡，我命中注定将要回去的地方。
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Image]

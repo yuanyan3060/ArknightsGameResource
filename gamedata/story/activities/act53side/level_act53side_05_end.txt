@@ -1,0 +1,306 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="76_g6_deckdark",xScale=1.2, yScaleFrom=1.2,y=20,screenadapt="coverall")]
+[curtain(direction = 0,fillfrom = 0.5,fillto = 0.15, fadetime=0)]
+[curtain(direction = 4,fillfrom = 0.5,fillto = 0.15, fadetime=0)]
+[playMusic(key="$victorianormal_loop",volume=0.6)]
+[BackgroundTween(image="76_g6_deckdark", duration=5,yTo=-20,block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=3)]
+[curtain(direction = 0,fillfrom = 0.15,fillto = 0, fadetime=2)]
+[curtain(direction = 4,fillfrom = 0.15,fillto = 0, fadetime=2)]
+[Background(image="76_g6_deckdark",fadetime=2,screenadapt="coverall")]
+[Delay(time=3)]
+[charslot(slot = "m", name = "avg_npc_2358_1#1$1")]
+[name="太阳谷维修员"]今天真的好丢人，手臂其实伤得没那么重，却吓得魂飞魄散，给你添了这么多麻烦......
+[name="太阳谷维修员"]我听他们说你来找我其实是想问问当年你奶奶的事，唉，当年的事其实是这样的啦......
+[name="太阳谷维修员"]当时太阳谷内部不太和睦，虽然有家族的领头人出来说话，但大家明里暗里还是会争抢好矿脉的开采权。
+[name="太阳谷维修员"]那时我跟着妈妈去食堂吃饭，半路觉得矿场那边很有趣，我又很喜欢打洞，就趁着大人们说话，偷偷跑过去打了一个洞下去玩......
+[charslot(slot = "m", name = "avg_4235_thumpy_1#15$2")]
+[name="塔妮"]这也太危险了吧——
+[charslot(slot = "m", name = "avg_npc_2358_1#1$1")]
+[name="太阳谷维修员"]噗，你也是自己跑到井下去的，还好意思说这个。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2")]
+[name="塔妮"]嘿嘿。
+[charslot(slot = "m", name = "avg_npc_2358_1#1$1")]
+[name="太阳谷维修员"]反正下去以后我越挖越深，等回过神来觉得肚子很饿的时候，已经不知道自己在哪里了。
+[name="太阳谷维修员"]妈妈和我说，是伊娜拉女士听到了我的跺脚声，觉得不对劲，没有经过任何人同意，独自把我救了上来。
+[name="太阳谷维修员"]她是个很厉害的术师，因为情况紧急，用源石技艺在井下开了一条近路。
+[name="太阳谷维修员"]这个举动的动静太大，又牵扯到工人家属的安全问题，最终引来了上面的合规部门。
+[name="太阳谷维修员"]这样一来，争矿脉的两拨人都恨上了伊娜拉女士，觉得是对方派来捣乱的。
+[name="太阳谷维修员"]尤其是总部发现他们其实真的有点不择手段......造假、斗殴......
+[name="太阳谷维修员"]我被困不久，太阳谷的人就发现了，本来不应该等伊娜拉女士来救。
+[name="太阳谷维修员"]是他们相互推卸责任，想把我遭遇意外这件事包装成对方的过错，争得开采权，耽误了时间......
+[name="太阳谷维修员"]所以最后谁都没拿到开采权！
+[charslot(slot = "m", name = "avg_4235_thumpy_1#5$2")]
+[name="塔妮"]啊......原来是这样......
+[charslot(slot = "m", name = "avg_npc_2358_1#1$1")]
+[name="太阳谷维修员"]所以就只是我贪玩不小心把自己困住了......唉，丢人。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2")]
+[name="塔妮"]没有啦！我小时候也做过很多糗事，我第一次去泡澡的时候特别兴奋，一直在跺脚，结果把地漏踩坏了，一家人都没得泡了。
+[charslot(slot = "m", name = "avg_npc_2358_1#1$1")]
+[name="太阳谷维修员"]哈哈......
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2")]
+[name="塔妮"]这么一说，虽然我没有奶奶那样厉害的源石技艺——
+[charslot(slot = "m", name = "avg_4235_thumpy_1#7$2")]
+[name="塔妮"]——啊，对哦！维修员小姐，奶奶当时有没有在太阳谷落下什么东西？
+[charslot(slot = "m", name = "avg_npc_2358_1#1$1")]
+[name="太阳谷维修员"]留下的东西？伊娜拉女士确实落下了一个东西......
+[dialog]
+[charslot]
+塔妮的眼睛都亮了起来。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#6$2")]
+[name="塔妮"]真的？是什么！
+[charslot(slot = "m", name = "avg_npc_2358_1#1$1")]
+[name="太阳谷维修员"]就是这个啊。
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_slapcloth_light", volume=1)]
+维修员拍了拍她身后那个巨大的电钻。
+[charslot(slot = "m", name = "avg_npc_2358_1#1$1")]
+[name="太阳谷维修员"]我的幸运电钻！伊娜拉女士当时没拿走，后来也没来要，这个电钻就由我拿来用了！
+[name="太阳谷维修员"]为了能够熟练运用这个电钻，我辛辛苦苦练了好久的手臂肌肉呢！
+[name="太阳谷维修员"]伊娜拉女士当时说我小小年纪就能打那么长的洞很厉害，我以后肯定能成为一个很厉害的挖洞的人！
+[name="太阳谷维修员"]她果然没说错吧！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="76_g6_deckdark",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_4235_thumpy_1#16$2",duration=1)]
+[Delay(time=1)]
+[name="塔妮"]我们聊完啦！虽然还是没有找到奶奶的施术单元，但我知道了奶奶不是之前那些人说的“坏人”！
+[charslot(slot = "m", name = "avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]欸，什么奶奶不是坏人？你们在说什么？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#1$2")]
+[name="安洁莉娜"]对哦，我们今天一直忙到现在才有空聊天！
+[charslot(slot = "m", name = "avg_4236_tmslot_1#2$1")]
+[name="阿梅利亚"]累死我了啦......哦，已经晚上了！
+[dialog]
+[charslot]
+没有了太阳的照耀，雷姆必拓的夜晚一下子就冷了下来。
+一阵风吹过，嘉辛塔忍不住打了一个冷战。
+[stopmusic(fadetime=2)]
+[charslot(slot = "m", name = "avg_4237_jcinta_1#2$1")]
+[name="嘉辛塔"]唔......
+[dialog]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#16$2",posfrom="300,0",posto="100,0",duration=0.6)]
+[Delay(time=0.8)]
+[charslot(slot = "r",focus="r")]
+[name="塔妮"]很冷吗？来来来，我们挤一挤，卡特斯们最喜欢的取暖方式！
+[dialog]
+[charslot(slot = "l", name = "avg_4236_tmslot_1#4$1",posfrom="-300,0",posto="-100,0",duration=0.8)]
+[Delay(time=1)]
+[charslot(slot = "l",focus="l")]
+[name="阿梅利亚"]我也要我也要......
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#1$2")]
+[name="安洁莉娜"]哇，你们看——
+[charslot]
+安洁莉娜伸手指向甲板下方。
+[dialog]
+[playMusic(intro="$skydome_intro",key="$skydome_loop", volume=0.6)]
+[effect(name="$e_lightup",layer=1)]
+[Delay(time=1)]
+[Background(image="76_g7_deckbright",screenadapt="coverall",fadetime=2)]
+[Delay(time=2)]
+夜幕降临，而矿场中却越发明亮，仿佛真的有一轮太阳即将升起。少女们抱作一团，兴奋得大叫出声。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#17$2")]
+[name="塔妮"]开心，太开心了！我们今天一起做成了一件大事呢！
+[name="塔妮"]我救上来了人，阿梅修好了塔！
+[charslot(slot = "m", name = "avg_4236_tmslot_1#4$1")]
+[name="阿梅利亚"]嗯嗯！
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2")]
+[name="塔妮"]但说实话，还是阿梅更厉害。要是没有阿梅，我可能也得在巷道里哭着等人来救了。
+[charslot(slot = "m", name = "avg_4236_tmslot_1#14$1")]
+[name="阿梅利亚"]没有没有......我哪有那么厉害......
+[charslot(slot = "m", name = "avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]明明就是有的呀！
+[dialog]
+[charslot]
+几个人正说话的工夫，一小片又一小片的光芒在黑夜中亮起，很快，整个矿区都亮了起来。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]巴顿先生跟我说了，多亏远程通讯系统修好，明天就可以在矿区大规模排查各种问题和隐患了。
+[charslot(slot = "m", name = "avg_4236_tmslot_1#13$1")]
+[name="阿梅利亚"]那现在亮灯是为了......？
+[charslot(slot = "m", name = "avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]呃，可能是调试？或者就只是单纯想庆祝一下？
+[charslot(slot = "m", name = "avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]嗯......
+[charslot(slot = "m", name = "avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]你在做的事情明明就很厉害。
+[charslot(slot = "m", name = "avg_4236_tmslot_1#16$1")]
+[name="阿梅利亚"]是、是的......我也觉得......能让相隔很远的人交流......是件很厉害的事。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#8$1")]
+[name="嘉辛塔"]别像在说别人的事情似的，这不是你自己研究的东西吗？
+[charslot(slot = "m", name = "avg_4236_tmslot_1#16$1")]
+[name="阿梅利亚"]......嗯。是啊。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]等你帮纵贯红土公司把这些塔修好之后，有什么打算吗？
+[name="嘉辛塔"]我之前只想回家看看爸爸妈妈，但现在却觉得......我不想让旅途结束在大铁屯。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#2$1")]
+[name="嘉辛塔"]安洁，我能跟你和塔妮一起去南境吗？
+[dialog]
+[charslot]
+尽管夜色深沉，嘉辛塔的眼睛却闪闪发亮。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]我在路上听过南境的事了。我想去看看。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#4$2")]
+[name="安洁莉娜"]可......
+[charslot(slot = "m", name = "avg_4235_thumpy_1#2$2")]
+[name="塔妮"]安洁，当初你决定要去南境的时候皮塔小姐也劝过你的哦，你不也没听吗？
+[charslot(slot = "m", name = "avg_4237_jcinta_1#6$1")]
+[name="嘉辛塔"]原来还有这种事情？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$2")]
+[name="安洁莉娜"]......的确，去南境是我自己决定承担的责任。但你们毕竟不一样，你们没做错任何事......
+[charslot(slot = "m", name = "avg_4235_thumpy_1#3$2")]
+[name="塔妮"]没做错事就不能去南境吗？
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2")]
+[name="塔妮"]想想看，嘉辛塔陪阿梅解决了通讯塔的问题，你帮我救了人，还确认了奶奶的故事......我们配合得很默契啊！
+[name="塔妮"]我们会是你的助力，而不是阻碍的！
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_4237_jcinta_1#1$1",focus="l")]
+[charslot(slot = "r", name = "avg_4236_tmslot_1#1$1",focus="l")]
+[name="嘉辛塔"]对呀！想想塔妮，想想阿梅！阿梅的技术一定能帮到大家——
+[charslot(slot = "l", name = "avg_4237_jcinta_1#6$1",focus="l")]
+[name="嘉辛塔"]呃，抱歉，阿梅，我不是想强迫你去南境......
+[charslot(slot = "r", name = "avg_4236_tmslot_1#1$1",focus="r")]
+[name="阿梅利亚"]......不！
+[charslot(slot = "r", name = "avg_4236_tmslot_1#14$1",focus="r")]
+[name="阿梅利亚"]不，我、我也想去南境！
+[charslot(slot = "l", name = "avg_4237_jcinta_1#6$1",focus="l")]
+[name="嘉辛塔"]阿梅？
+[charslot(slot = "r", name = "avg_4236_tmslot_1#1$1",focus="r")]
+[name="阿梅利亚"]等......等我修好剩下的那些塔......我就不欠公司任何东西了！
+[name="阿梅利亚"]他们、他们对我那么坏，我也不想给他们打工了......我要去南境测试我的技术！
+[name="阿梅利亚"]我其实不光带了换修用的通讯核心，还带了一个小型化的便携式通讯站！
+[charslot(slot = "r", name = "avg_4236_tmslot_1#10$1",focus="r")]
+[name="阿梅利亚"]如果在南境和大铁屯中间那块危险区的阻隔下，我的技术都能稳定传输数据，那我......
+[charslot(slot = "r", name = "avg_4236_tmslot_1#14$1",focus="r")]
+[name="阿梅利亚"]那我，我就可以完全抛开公司......自己做了！
+[charslot(slot = "l", name = "avg_4237_jcinta_1#8$1",focus="l")]
+[name="嘉辛塔"]......是啊！
+[name="嘉辛塔"]阿梅，在巴顿先生的办公室里，我记得你说过你有一个理想——
+[charslot(slot = "r", name = "avg_4236_tmslot_1#1$1",focus="r")]
+[name="阿梅利亚"]是、是......
+[charslot(slot = "r", name = "avg_4236_tmslot_1#7$1",focus="r")]
+[name="阿梅利亚"]是用我的技术......连通整片大地......整个泰拉！
+[dialog]
+[charslot(slot = "l", name = "avg_4237_jcinta_1#8$1",posfrom="0,0",posto="150,0",afrom=1,ato=1,duration=0.8)]
+[Delay(time=0.8)]
+[PlaySound(key="$d_avg_clothmovement_heavy2", volume=0.6)]
+[charslot(slot = "l",focus="n")]
+嘉辛塔激动得一把抱住阿梅利亚。
+[charslot(slot = "l", name = "avg_4237_jcinta_1#8$1",focus="l")]
+[name="嘉辛塔"]阿梅利亚，我真替你高兴......真的！
+[charslot(slot = "l", name = "avg_4237_jcinta_1#10$1",focus="l")]
+[name="嘉辛塔"]那种只知道推卸责任的公司就见鬼去吧！我们的阿梅才是要连接整片大地的人！
+[charslot(slot = "r", name = "avg_4236_tmslot_1#8$1",focus="r")]
+[name="阿梅利亚"]是、是的！我会连接整片大地，我......我想要你，想要大家，陪我去南境实现我的理想！
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2")]
+[name="塔妮"]安洁......现在你觉得呢？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#1$2")]
+[name="安洁莉娜"]......
+[name="安洁莉娜"]那么，我们就说好了......一起去南境？
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_4235_thumpy_1#1$2",posfrom="-100,0",posto="-100,0",focus="all")]
+[charslot(slot = "m", name = "avg_4237_jcinta_1#1$1",focus="all")]
+[charslot(slot = "r", name = "avg_4236_tmslot_1#4$1",posfrom="100,0",posto="100,0",focus="all")]
+[name="塔妮&嘉辛塔&阿梅利亚"]我们一起去南境！
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(key="$comedy_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2363_1#8$1")]
+[name="太阳谷联络员"]什么意思......什么叫因为远程通讯修好了，为了庆祝连夜就开始击球比赛？
+[name="太阳谷联络员"]刚联系上客户，本来是打算趁着通讯恢复了连夜出去搞生意的，这下还得再提前点，而且必须躲着那些满脑子击球的——
+[Dialog]
+[charslot(slot = "l", name = "avg_npc_2354_1#1$1",posfrom="-150,0",posto="-50,0", duration=0.8)]
+[charslot(slot = "r", name = "avg_npc_2354_1#1$1",posfrom="150,0",posto="50,0", duration=0.8)]
+[delay(time=1)]
+[charslot(slot = "l",name = "avg_npc_2354_1#4$1",focus="l")]
+[name="强壮的矿工"]该赛前集训了，快来快来！
+[charslot(slot = "r",name = "avg_npc_2354_1#3$1",focus="r")]
+[name="健硕的矿工"]你上回的表现很不错，再来练几组，你肯定会有大进步的！
+[charslot(slot = "m",focus="m")]
+[name="太阳谷联络员"]哎呦呦，哎呦呦，我之前被车撞了的伤......
+[charslot(slot = "r",name = "avg_npc_2354_1#3$1",focus="r")]
+[name="健硕的矿工"]巴顿先生说你已经完全好了！你不是还在小姑娘救人的时候忙前忙后呢嘛！走啦！
+[charslot(slot = "m",name = "avg_npc_2363_1#6$1",focus="m")]
+[name="太阳谷联络员"]这就是我不喜欢回总部的原因啊！！！
+[dialog]
+[PlaySound(key="$d_avg_walkfast")]
+[charslot(slot = "l", name = "avg_npc_2354_1#3$1",posfrom="-50,0",posto="150,0",afrom=1,ato=0,duration=0.8)]
+[charslot(slot = "r", name = "avg_npc_2354_1#3$1",posfrom="50,0",posto="250,0",afrom=1,ato=0, duration=0.8)]
+[charslot(slot = "m", name = "avg_npc_2363_1#6$1",posfrom="0,0",posto="200,0",afrom=1,ato=0, duration=0.8)]
+[delay(time=1)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2353_1#1$1")]
+[name="严肃的负责人"]几位小姐，原来你们在这里！
+[name="严肃的负责人"]修好了远程通讯，救出了维修工的大功臣们！我们诚挚邀请几位，一起来参加我们的击球大赛怎么样！
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2354_1#3$1",posfrom="-180,0",posto="-180,0",afrom=1,ato=1,duration=0.8)]
+[charslot(slot = "r", name = "avg_npc_2354_1#3$1",posfrom="180,0",posto="180,0",afrom=1,ato=1,duration=0.8)]
+[charslot(slot = "m", name = "avg_npc_2354_1#3$1",afrom=1,ato=1,duration=0.8)]
+[delay(time=1)]
+[charslot(slot = "l",focus="l")]
+[name="高兴的矿工球员"]我们队还差几个人！
+[charslot(slot = "m",focus="m")]
+[name="激动的矿工球员"]一起来，一起来！
+[charslot(slot = "r",focus="r")]
+[name="急切的矿工球员"]就等各位来开球了！
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_4235_thumpy_1#16$2")]
+[name="塔妮"]哈哈，走吧，我们一起去！说不定我们能拿到第一呢！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[name="塔妮"]好、好快的投球？！
+[name="阿梅利亚"]哇啊啊！我跑不了那么快，对不起对不起对不起！
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="嘉辛塔"]噫呀！哪哪哪哪里来的球，差点打在我鼻子上！
+[name="安洁莉娜"]在球场上用源石技艺......果然还是不太好吧？
+[dialog]
+[charslot]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_gamewhistle", volume=1)]
+[Delay(time=1)]
+[name="中气十足的宣布声"]比赛结束！
+[charslot(slot = "m", name = "avg_4235_thumpy_1#19$1")]
+[name="塔妮"]呜......
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Background]
+[Image]

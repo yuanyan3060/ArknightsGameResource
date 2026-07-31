@@ -1,0 +1,800 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="76_g1_wildhighway_d",screenadapt="coverall")]
+[curtain(direction = 0,fillfrom = 0.01,fillto = 0.11, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.01,fillto = 0.11, fadetime=0.1)]
+[focusout(duration=0, type="bg", from=0, to=1, block=true)]
+[PlaySound(key="$d_avg_driveincar", volume=0, loop=true, channel="car")]
+[PlaySound(key="$d_avg_noisycitytraffic", volume=0, loop=true, channel="n")]
+[SoundVolume(volume=0.4, channel="car",fadetime=2)]
+[SoundVolume(volume=0.2, channel="n",fadetime=2)]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#1$2",posfrom="0,60",posto="0,60",focus="all")]
+[charslot(slot="l",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true)]
+[charslot(slot="r",name="avg_4235_thumpy_1#17$1",posfrom="30,60",posto="30,60",focus="all")]
+[charslot(slot="r",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true)]
+[playMusic(intro="$RimBillitonDaily_intro",key="$RimBillitonDaily_loop", volume=0.6)]
+[CameraShake(duration=-1, xstrength=0.4, ystrength=0.4, vibrato=10, randomness=10, fadeout=false, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[charslot]
+[charslot(slot = "l", name = "avg_4237_jcinta_1#10$1",posfrom="0,60",posto="0,60",focus="all")]
+[charslot(slot="l",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true)]
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",posfrom="30,60",posto="30,60",focus="all")]
+[charslot(slot="r",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true,focus="all")]
+[Delay(time=2)]
+[charslot]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#1$2",posfrom="0,60",posto="0,60",focus="r")]
+[charslot(slot="l",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true)]
+[charslot(slot="r",name="avg_4235_thumpy_1#1$1",posfrom="30,60",posto="30,60",focus="r")]
+[charslot(slot="r",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,focus="r",isblock=true)]
+[name="塔妮"]怎么啦，嘉辛塔？我们都离开太阳谷好几天了，还在为击球比赛没有夺冠的事儿不高兴？
+[charslot(slot = "l", name = "avg_4237_jcinta_1#10$1",posfrom="0,60",posto="0,60",focus="l")]
+[charslot(slot="l",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true)]
+[charslot(slot="r",name="avg_4236_tmslot_1#16$1",posfrom="30,60",posto="30,60",focus="l")]
+[charslot(slot="r",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true,focus="l")]
+[name="嘉辛塔"]我从没落下过一场击球大奖赛的转播，甚至还有击球教学的资格证明！竟然赢不过那几个用打击球逃避工作的业余爱好者......
+[charslot(slot = "r", name = "avg_4236_tmslot_1#5$1",action="zoom",poszoom="0.5,0.65",scale=1.1,focus="r")]
+[name="阿梅利亚"]可、可能因为那几个太阳谷的员工真的很不想工作......
+[charslot(slot = "l", name = "avg_1015_aglna2_1#1$2",posfrom="0,60",posto="0,60",focus="r")]
+[charslot(slot="l",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true)]
+[charslot(slot="r",name="avg_4235_thumpy_1#15$1",posfrom="30,60",posto="30,60",focus="r")]
+[charslot(slot="r",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,focus="r",isblock=true)]
+[name="塔妮"]也可能是因为嘉辛塔你身为守门手竟然站在门柱前一步都不动。
+[charslot(slot = "l", name = "avg_4237_jcinta_1#5$1",posfrom="0,60",posto="0,60",focus="l")]
+[charslot(slot="l",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true)]
+[charslot(slot="r",name="avg_4236_tmslot_1#5$1",posfrom="30,60",posto="30,60",focus="l")]
+[charslot(slot="r",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true,focus="l")]
+[name="嘉辛塔"]那是因为球场上的风太大了，我得小心我的裙摆——
+[charslot(slot = "l", name = "avg_1015_aglna2_1#21$2",posfrom="0,60",posto="0,60",focus="l")]
+[charslot(slot="l",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true)]
+[charslot(slot="r",name="avg_4235_thumpy_1#15$1",posfrom="30,60",posto="30,60",focus="l")]
+[charslot(slot="r",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,focus="l",isblock=true)]
+[name="安洁莉娜"]塔妮的意思是，我们拿到第四名其实已经很不错了。
+[charslot(slot="r",name="avg_4235_thumpy_1#16$1",posfrom="50,60",posto="50,60",action="zoom",poszoom="0.5,0.65",scale=1.1,focus="r")]
+[name="塔妮"]对啊。你在球场上愣住的时候，我还担心你是不是身体不舒服呢......现在知道你只是为了保持一贯的“淑女风范”，也算安心啦！
+[charslot(slot = "l", name = "avg_4237_jcinta_1#3$1",posfrom="0,60",posto="0,60",focus="l")]
+[charslot(slot="l",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true)]
+[charslot(slot="r",name="avg_4236_tmslot_1#5$1",posfrom="30,60",posto="30,60",focus="l")]
+[charslot(slot="r",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true,focus="l")]
+[name="嘉辛塔"]呃，嗯......
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2357_1#1$1",posfrom="-20,-80",posto="60,0",duration=0.8)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2357_1#1$2",posfrom="60,0",posto="60,0",duration=0.3)]
+[Delay(time=0.3)]
+[PlaySound(key="$transmission", volume=1)]
+[charslot(slot = "m", name = "avg_npc_2357_1#1$2",posfrom="60,0",posto="-80,-20",afrom=1,ato=1,duration=1.5)]
+[Delay(time=1.8)]
+[name="“小飞虫”"]滋滋......滋滋......
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_4237_jcinta_1#3$1",posfrom="0,60",posto="0,60",focus="r")]
+[charslot(slot="l",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true)]
+[charslot(slot="r",name="avg_4236_tmslot_1#4$1",posfrom="30,60",posto="30,60",focus="r")]
+[charslot(slot="r",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true,focus="r")]
+[name="阿梅利亚"]啊，接收到通讯塔的无序信号了，我们现在应该离目的地很近。
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#2$2",posfrom="0,60",posto="0,60",focus="l")]
+[charslot(slot="l",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,isblock=true)]
+[charslot(slot="r",name="avg_4235_thumpy_1#16$1",posfrom="30,60",posto="30,60",focus="l")]
+[charslot(slot="r",action="zoom",poszoom="0.5,0.65",scale=1.1,duration=0,focus="l",isblock=true)]
+[name="安洁莉娜"]这里......？
+[PlaySound(key="$d_avg_carstop", volume=1)]
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[curtain]
+[delay(time=1)]
+[cgitem(image="cgitem_76_i16_3")]
+[Background(image="76_g1_wildhighway_d",xScale=1.2,yScale=1.2,x=30,y=-10,screenadapt="coverall")]
+[focusout(duration=0, type="bg", from=1, to=0, block=true)]
+[charslot]
+[PlaySound(key="$d_avg_mudtire_loop",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.8, channel="f",fadetime=2)]
+[focusout(duration=2, type="bg", from=0, to=0.4, block=false)]
+[CameraShake(duration=1.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[PlaySound(key="$d_avg_turnsignal_car",volume=1)]
+[BackgroundTween(image="76_g1_wildhighway_d",duration=3,xTo=-30,yTo=10,block=false)]
+[Delay(time=4)]
+[StopSound(channel="f", fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[StopSound(channel="car", fadetime=1)]
+[StopSound(channel="n", fadetime=1)]
+[delay(time=1)]
+[focusout(duration=0, type="bg", from=1, to=0, block=true)]
+[charslot]
+[PlaySound(key="$d_avg_cardoorc")]
+[hidecgitem(image="cgitem_76_i16_3")]
+[Background(image="76_g1_wildhighway_d",screenadapt="coverall")]
+[delay(time=1)]
+[PlaySound(key="$blizzard", volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[playMusic(key="$darkness_03_loop", volume=0.6)]
+[Delay(time=1)]
+风声猎猎。
+她们试图用肉眼在荒野上寻找通讯塔的痕迹，入眼的却只有扎穿土地的巨大源石晶簇。
+[charslot(slot = "m", name = "avg_4236_tmslot_1#5$1")]
+[name="阿梅利亚"]什么都没有......难道是我的信号发射器出问题了？
+[charslot(slot = "m", name = "avg_4237_jcinta_1#2$1")]
+[name="嘉辛塔"]我认为不是“小飞虫”的问题。
+[name="嘉辛塔"]我记得路上你跟我们说过，纵贯红土公司建造通讯塔时考虑到了雷姆必拓的地理环境，在容易受灾的地区建塔时采用了特殊设计？
+[charslot(slot = "m", name = "avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]啊，是的......！为了避免天灾影响，通讯塔也可以建于地表之下，只要装上信号增强设备，就可以照常运行。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#4$2")]
+[name="塔妮"]既然如此，按照“小飞虫”接收到的无序信号的强度，加上地图指示的方位，通讯塔所在的位置应该就在——
+[charslot(slot = "m", name = "avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]那里。
+[Dialog]
+[charslot]
+一座不起眼的小镇停在沃尔珀的指尖。
+它周围遍布建筑物的残骸，过去它或许是城镇群中的一座，但如今只剩它裹满沙土，孤立在荒野之中。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#5$2")]
+[name="塔妮"]“红砂镇”......通讯塔很有可能就在那里。
+[name="塔妮"]不过，这座小镇似乎没有镇民活动的痕迹，安洁你是怎么一下子找到的？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#10$1")]
+[name="安洁莉娜"]我曾经跟罗德岛的其他干员来过这里，还跟镇里的人交换过物资，那已经是......大半年前的事了。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]但我记得当时的红砂镇还挺热闹的，怎么——
+[Dialog]
+[charslot]
+[PlaySound(key="$transmission", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2357_1#1$1",posfrom="-100,10",posto="-20,20",afrom=1,ato=1,duration=0.4)]
+[delay(time=0.5)]
+[name="“小飞虫”"]滋滋......跟随......我......滋滋......
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_2357_1#1$1",posfrom="-20,20",posto="80,-40",afrom=1,ato=1,duration=0.4)]
+[delay(time=0.5)]
+[name="“小飞虫”"]......源石带来......滋滋......死亡......？
+[Dialog]
+[PlaySound(key="$transmission", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2357_1#1$1",posfrom="80,-40",posto="0,60",afrom=1,ato=1,duration=0.4)]
+[delay(time=0.5)]
+[name="“小飞虫”"]......不......滋滋......是幸福......是......永生......
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#12$1",posfrom="0,0",posto="0,0")]
+[name="安洁莉娜"]有人在发射信号......透过“小飞虫”讲话？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="46_g3_rmbttown",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#3$1",duration=2)]
+[Delay(time=2)]
+[name="安洁莉娜"]唔，按照货架上的积灰判断，红砂镇的镇民可能刚搬走不久。
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_4236_tmslot_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#2$2",focus="r")]
+[name="塔妮"]搬走......所以这里真的一个人都没有了？那刚刚的通讯声是谁发出来的，难道......
+[charslot(slot = "l", name = "avg_4236_tmslot_1#3$1",focus="l")]
+[name="阿梅利亚"]呜呜，鬼魂在上......我不是故意听到您的悄悄话的，请您一定要原谅我啊，呜呜......
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_4237_jcinta_1#3$1")]
+[name="嘉辛塔"]塔妮，别吓阿梅了。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]要是“小飞虫”真的能接收到鬼魂所说的话，那你离开公司单干不是更有底气了？
+[name="嘉辛塔"]“连通往生与现世的沟通之桥”——我可以帮你做一整套宣传企划！
+[Dialog]
+[charslot]
+[name="？？？"]往生与现世......朋友，你们也想要追求幸福吗？
+[stopmusic(fadetime=2)]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]谁！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_oldman_walk", volume=1)]
+[charslot(slot = "m", name = "avg_npc_093#1",duration=2)]
+[Delay(time=3)]
+[charslot(slot = "m", name = "avg_4235_thumpy_1#5$2")]
+[name="塔妮"]老奶奶，您是这里的镇民吗？我们是来维修远程通讯的，您知道红砂镇的通讯塔——
+[charslot(slot = "m", name = "avg_npc_093#5")]
+[name="和善的老人"]孩子，你手腕上的是源石结晶？
+[charslot(slot = "m", name = "avg_4235_thumpy_1#10$2")]
+[name="塔妮"]没错，我是感染者，但我们只是来修通讯塔的，很快就走——
+[playMusic(intro="$humanity_g2_intro",key="$humanity_g2_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_093#5")]
+[name="和善的老人"]......会疼吗？
+[charslot(slot = "m", name = "avg_4235_thumpy_1#13$2")]
+[name="塔妮"]欸？
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2")]
+[name="塔妮"]还、还好，不经常疼，而且有药，就还好啦。
+[charslot(slot = "m", name = "avg_npc_093#3")]
+[name="和善的老人"]药......药怎么可能解决我们的问题呢。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#5$2")]
+[name="塔妮"]您......也是感染者？
+[charslot(slot = "m", name = "avg_npc_093#1")]
+[name="和善的老人"]与其说是感染者，不如说......我们其实是被源石选中的人。
+[name="和善的老人"]孩子，你其实不该强装成若无其事的样子的。成为感染者对我们来说自有意义，我希望你能理解。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#14$2")]
+[name="塔妮"]可感染就是得了很严重的病啊，得病又能有什么意义？
+[charslot(slot = "m", name = "avg_npc_093#1")]
+[name="和善的老人"]你愿意认真听我说两句吗？
+[charslot(slot = "m", name = "avg_4235_thumpy_1#14$2")]
+[name="塔妮"]呃......您、您稍等一下！
+[Dialog]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_4235_thumpy_1#14$2",posfrom="0,0",posto="-100,0",afrom=1,ato=0,duration=2)]
+[Delay(time=2)]
+[charslot]
+[Delay(time=0.3)]
+[charslot(slot = "l", name = "avg_4236_tmslot_1#11$1",posfrom="-100,0",posto="-100,0",focus="r")]
+[charslot(slot = "m", name = "avg_4237_jcinta_1#11$1",posfrom="10,0",posto="10,0",focus="r")]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#11$2",posfrom="120,0",posto="120,0",focus="r")]
+[name="塔妮"]（小声）这个老奶奶说的东西我半懂不懂的......
+[charslot(slot = "l", name = "avg_4236_tmslot_1#6$1",posfrom="-100,0",posto="-100,0",focus="l")]
+[name="阿梅利亚"]（小声）我倒觉得她是想用花言巧语把你拉入什么危险团伙。这方面我有经验的。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#11$1",posfrom="10,0",posto="10,0",focus="m")]
+[name="嘉辛塔"]（小声）这老奶奶看起来岁数挺大，别是被人骗了吧......安洁，你是信使，见多识广，你知道她是怎么回事吗？
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]我......
+[name="安洁莉娜"]......
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_mictest", volume=1)]
+[Delay(time=1)]
+[name="全镇广播"]......滋滋......跟随我......滋滋......
+[name="全镇广播"]......源石......天灾......追寻......
+[charslot(slot = "m", name = "avg_4236_tmslot_1#5$1")]
+[name="阿梅利亚"]鬼魂又在说话了！
+[charslot(slot = "m", name = "avg_npc_093#1")]
+[name="和善的老人"]不是鬼魂，这是“引领者”的声音。
+[name="和善的老人"]是她出现在这座空无一人的小镇，等待我们到来，给予我们指示。是她的存在让我相信，我离永恒的幸福已经很近很近......
+[charslot(slot = "m", name = "avg_1015_aglna2_1#24$1")]
+[name="安洁莉娜"]老奶奶......您是认真的？
+[charslot(slot = "m", name = "avg_npc_093#1")]
+[name="和善的老人"]我当然是认真的......孩子，你也是感染者，你应当能理解我们。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#24$1")]
+[name="安洁莉娜"]那您听说过“希尔达”这个名字吗？
+[charslot(slot = "m", name = "avg_npc_093#3")]
+[name="和善的老人"]原来你也听说过那位跋涉者的名字......太好了，真是太好了。来红砂镇果然是对的。
+[charslot(slot = "m", name = "avg_npc_093#5")]
+[name="和善的老人"]你见过她吗？能告诉我她长什么样吗？假如能面见她一次，我们是不是就都能得到真正的救赎？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]（小声）......塔妮，你们先在这里等我，前面很可能有危险。我不想把你们卷进来——
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2")]
+[name="塔妮"]可如果获得幸福真的有捷径，我和我的朋友们倒想看看它是什么样子。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]塔妮？
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2")]
+[name="塔妮"]老奶奶，请您带我们去见见那位“引领者”吧。 
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[curtain(direction = 0,fillfrom = 0.5,fillto = 0.15,grad=true, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.5,fillto = 0.15,grad=true, fadetime=0.1)]
+[Background(image="46_g6_rmbtmine",screenadapt="coverall")]
+[Delay(time=2)]
+[PlaySound(key="$d_avg_studentsexhausted_fts_loop",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.3, channel="f",fadetime=2)]
+[charslot(slot = "l", bstart=0.2,bend=0.7,posfrom="0,-50",posto="0,-50", name = "avg_npc_094",afrom = 0, ato = 0, duration=0)]
+[charslot(slot = "l", bstart=0.2,bend=0.7, action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0)]
+[focusout(type="bg", id="46_g6_rmbtmine", from=0, to=0.5, duration=3, block=false)]
+[BackgroundTween(image="46_g6_rmbtmine", duration=10, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.25, yScaleTo=1.25,ease="6",yFrom=0,yTo=-40,xFrom=0,yTo=-50,block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot = "l", bstart=0.2,bend=0.7, action="zoom", poszoom = "0.5,0.5", scale=1, duration =2,block=false)]
+[charslot(slot = "l", bstart=0.2,bend=0.7, afrom = 0, ato = 1, duration =2,block=false)]
+[Delay(time=1.5)]
+[charslot(slot = "r", bstart=0.2,bend=0.7, name = "avg_npc_626_1#1$1",posfrom="80,-50",posto="80,-50",afrom = 0,ato = 0,duration=0,block=true)]
+[charslot(slot = "r", bstart=0.2,bend=0.7, action="zoom", poszoom = "0.5,0.5", scale=0.9,duration=0,block=true)]
+[delay(time=0.1)]
+[charslot(slot = "r", bstart=0.2,bend=0.7, action="zoom", poszoom = "0.5,0.5", scale=1, duration =2,block=false)]
+[charslot(slot = "r", bstart=0.2,bend=0.7, afrom = 0, ato = 1, duration =2,block=false)]
+[Delay(time=0.7)]
+[charslot(slot = "l", bstart=0.2,bend=0.7, action="zoom", poszoom = "0.5,0.5", scale=1.05, duration =1,block=false)]
+[charslot(slot = "l", bstart=0.2,bend=0.7, afrom = 1, ato = 0, duration =1,block=false)]
+[Delay(time=1.3)]
+[charslot(slot = "r", bstart=0.2,bend=0.7, action="zoom", poszoom = "0.5,0.5", scale=1.05, duration =1,block=false)]
+[charslot(slot = "r", bstart=0.2,bend=0.7, afrom = 1, ato = 0, duration =1,block=false)]
+[Delay(time=0.5)]
+[charslot(slot = "l", bstart=0.2,bend=0.7, name = "avg_npc_1043_1#1$1",afrom =0, ato=0,posfrom="40,-50",posto="40,-50", duration=0,block=false)]
+[charslot(slot = "l", bstart=0.2,bend=0.7, action="zoom", poszoom = "0.5,0.5", scale=0.9,duration = 0,block=true)]
+[delay(time=0.1)]
+[charslot(slot = "l", bstart=0.2,bend=0.7, action="zoom", poszoom = "0.5,0.5", scale=1, duration =2,block=true)]
+[charslot(slot = "l", bstart=0.2,bend=0.7, afrom = 0, ato = 1, duration =2,block=false)]
+[Delay(time=2)]
+[StopSound(channel="f", fadetime=2)]
+[charslot(slot = "l", bstart=0.2,bend=0.7, action="zoom", poszoom = "0.5,0.5", scale=1.05, duration =1,block=false)]
+[charslot(slot = "l", bstart=0.2,bend=0.7, afrom = 1, ato = 0, duration =1,block=false)]
+[Delay(time=1.5)]
+[focusout(type="bg", id="46_g6_rmbtmine", from=0.8, to=0, duration=1, block=false)]
+[Delay(time=1.5)]
+[Dialog]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[curtain]
+[focusout(type="bg", id="46_g6_rmbtmine", from=0.5, to=0, duration=0, block=false)]
+[delay(time=1)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]塔妮，这样做很危险！
+[charslot(slot = "m", name = "avg_4235_thumpy_1#2$2")]
+[name="塔妮"]你以为我看不出来你想帮帮这群可能被骗的人？
+[name="塔妮"]你想的该不会是......把我们支走之后一个人把所有事情都解决吧？那才叫危险呢。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#5$2")]
+[name="塔妮"]再说老奶奶的确怪可怜的，看起来也不像是有什么恶意。
+[charslot(slot = "m", name = "avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]没错，而且......
+[name="阿梅利亚"]而且鬼、鬼魂小姐好像连通了镇内广播。
+[name="阿梅利亚"]我观察了红砂镇的线路，虽然广播设备和通讯塔运作的原理不同，但电缆走向基本是一致的，说不定——
+[charslot(slot = "m", name = "avg_4237_jcinta_1#1$1",focus="m")]
+[name="嘉辛塔"]说不定见到这位用广播恐吓众人的“引领者”小姐之后，既能帮助这群感染者，又能找到通讯塔的下落，一举多得啊。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]如果真的只是诈骗团伙，我倒不会这么担心了。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#24$1")]
+[name="安洁莉娜"]最近泰拉各地出现了一群信徒。他们相信源石能带来永生，身患矿石病可以不再痛苦。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#5$1")]
+[name="安洁莉娜"]他们把一位名叫希尔达的卡特斯视为拯救者，认为她所到之处都会引发神迹，被她“赐福”的矿石病患者不会再感到疼痛。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]而她的起点正是雷姆必拓。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#7$2")]
+[name="塔妮"]我们一会儿要见到的这位“引领者”......
+[charslot(slot = "m", name = "avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]刚刚那位老奶奶显然没见过希尔达本人，但这个“引领者”说不定和希尔达关系很深，绝不可以掉以轻心。
+[name="安洁莉娜"]我们之中没有专业的战斗人员。一旦出了问题，千万不要勉强，保护自己远离危险是第一位的。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#11$1",focus="m")]
+[name="嘉辛塔"]......
+[charslot(slot = "m", name = "avg_4236_tmslot_1#5$1")]
+[name="阿梅利亚"]（咽口水）
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_998_1#1$1", duration=1.5, block=true)]
+[Delay(time=2)]
+[name="平静的感染者"]新加入的朋友，你们在找“引领者”？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]是的。
+[charslot(slot = "m", name = "avg_npc_998_1#1$1")]
+[name="平静的感染者"]她正在工程平台上宣讲，喏，那里。
+[Dialog]
+[charslot]
+安洁莉娜一行顺着感染者手指的方向看去。
+[stopmusic(fadetime=2)]
+地下空洞仅用几盏矿灯照亮，工程平台后坐落着一座形态特异的通讯塔。
+十几个感染者围在平台之下，抬头望着坐在平台脚手架上的人。背着光，安洁莉娜一时看不清对方的模样，只是下意识握紧了法杖。
+接着，“引领者”站了起来，她们听到了出现在信号发射器和广播里的那个声音——
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot]
+[Background(image="46_g6_rmbtmine",screenadapt="coverall")]
+[BackgroundTween(image="46_g6_rmbtmine",xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1.3, yScaleTo=1.3, duration=4,xFrom=-40,xTo=30,ease="6",block=false)]
+[curtain(direction = 0,fillfrom = 0.15,fillto = 0.15,grad=true, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.55,fillto = 0.55,grad=true, fadetime=0.1,block=true)]
+[charslot(slot = "m", name = "avg_npc_2347_1#4$1",isblock=false)]
+[charslot(slot = "m", action="zoom", poszoom = "0.5,0.5",scale=1.5, duration=0,isblock=false)]
+[charslot(slot = "m", posfrom="-40,-280",posto="30,-280",duration=3,afrom=1,ato=1,isblock=false)]
+[playMusic(key="$kjerag02_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[name="“引领者”"]是你们找到了我。
+[Dialog]
+[charslot]
+[BackgroundTween(image="46_g6_rmbtmine",xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1.3, yScaleTo=1.3, duration=4,yFrom=20,yTo=20,xFrom=30,xTo=-40,ease="6",block=false)]
+[curtain(direction = 0,fillfrom = 0.25,fillto = 0.45,grad=true,fadetime=0)]
+[curtain(direction = 4,fillfrom = 0.45,fillto = 0.25,grad=true,fadetime=0,block=true)]
+[charslot(slot = "m", name = "avg_npc_2347_1#2$1",isblock=false)]
+[charslot(slot = "m", action="zoom", poszoom = "0.5,0.5",scale=1.5, duration=0,isblock=false)]
+[charslot(slot = "m", posfrom="30,70",posto="-40,70",duration=3,afrom=1,ato=1,isblock=false)]
+[Delay(time=3)]
+[name="“引领者”"]在一座无人问津的空城，替我架起钢筋和缆线，让我的声音重新萦绕在这里，不分日夜。
+[Dialog]
+[charslot]
+[BackgroundTween(image="46_g6_rmbtmine",xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1.3, yScaleTo=1.3, duration=4,yFrom=-30,yTo=20,ease="6",block=false)]
+[curtain(direction = 0,fillfrom = 0.45,fillto = 0.25,grad=true,fadetime=0)]
+[curtain(direction = 4,fillfrom = 0.25,fillto = 0.35,grad=true,fadetime=0,block=true)]
+[curtain(direction = 6,fillfrom = 0.55,fillto = 0.55,grad=true,fadetime=0)]
+[curtain(direction = 2,fillfrom = 0.15,fillto = 0.25,grad=true,fadetime=0,block=true)]
+[charslot(slot = "m", name = "avg_npc_2347_1#4$1",isblock=false)]
+[charslot(slot = "m", action="zoom", poszoom = "0.5,0.5",scale=1.5, duration=0,isblock=false)]
+[charslot(slot = "m", posfrom="-20,-60",posto="-20,30",duration=3,afrom=1,ato=1,isblock=false)]
+[Delay(time=3)]
+[name="“引领者”"]半年前我被驱逐离开，独自寻找新的乐土。过去我的声音遭人仇视和贬低，而如今你们则称它为“福音”。
+[name="“引领者”"]虔诚、善良的朋友们啊，我无以为报，只能为你们引路。
+[Dialog]
+[CameraShake(duration=1, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[BackgroundTween(image="46_g6_rmbtmine",xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1, yScaleTo=1,xTo=0,yTo=0,duration=1,ease="6",block=false)]
+[curtain(direction = 0,fillfrom = 0.25,fillto = 1,grad=true,fadetime=0)]
+[curtain(direction = 4,fillfrom = 0.35,fillto =1,grad=true,fadetime=0,block=true)]
+[curtain(direction = 6,fillfrom = 0.55,fillto =1,grad=true,fadetime=0)]
+[curtain(direction = 2,fillfrom = 0.25,fillto =1,grad=true,fadetime=0,block=true)]
+[curtain]
+[charslot(slot = "m",posto="0,0",duration=0.8,isblock=false)]
+[charslot(slot = "m",action="zoom", poszoom="0.5,0.5",scale=1,duration=0.8,isblock=false)]
+[Delay(time=1)]
+[name="“引领者”"]跟随我吧，我会带你们找到幸福。
+[Dialog]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2347_1#8$1")]
+[name="“引领者”"]（小声）氛围不错，瑞万，帮我切下一首歌。
+[charslot(slot = "m", name = "avg_npc_998_1#1$1")]
+[name="平静的感染者"]好。
+[Dialog]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_998_1#1$1",afrom=1,ato=0,duration=1)]
+[Delay(time=1)]
+[stopmusic(fadetime=2)]
+[Delay(time=1)]
+[playMusic(intro="$marketplace_intro",key="$marketplace_loop", volume=0.6)]
+[Delay(time=2.5)]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#8$1",focus="all")]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#7$2",focus="all")]
+[name="安洁莉娜&塔妮"]......
+[charslot(slot = "l", name = "avg_4237_jcinta_1#6$1",focus="all")]
+[charslot(slot = "r", name = "avg_4236_tmslot_1#5$1",focus="all")]
+[name="嘉辛塔&阿梅利亚"]......
+[charslot(slot = "l", name = "avg_npc_998_1#1$1",focus="l")]
+[charslot(slot = "r", name = "avg_npc_2347_1#10$1",focus="l")]
+[name="平静的感染者"]乌露露小姐，新加入的朋友到了。
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_4236_tmslot_1#5$1",posfrom="-100,0",posto="-100,0",focus="m")]
+[charslot(slot = "m", name = "avg_4237_jcinta_1#6$1",focus="m")]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#7$2",posfrom="100,0",posto="100,0",focus="m")]
+[name="嘉辛塔"]乌、乌露露？“引领者”的名字叫乌露露？
+[charslot(slot = "r", name = "avg_4235_thumpy_1#16$2",focus="r")]
+[name="塔妮"]（小声）好可爱的名字。
+[charslot(slot = "l", name = "avg_4236_tmslot_1#13$1",focus="l")]
+[name="阿梅利亚"]（用力点头）
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_998_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_2347_1#7$1",focus="r")]
+[name="乌露露"]我不都说了，不准再从公路上拉感染者了吗！
+[charslot(slot = "l", focus="l")]
+[name="平静的感染者"]可您说过追求幸福是美好的想法，那不应该让更多感染者加入我们的队伍吗？
+[name="平静的感染者"]我们的痛苦很快就会被带走，我们会去一个永恒宁静的源石之境。
+[charslot(slot = "r", name = "avg_npc_2347_1#3$1",focus="r")]
+[name="乌露露"]源石之境......源石之境......忘记那些道听途说好不好？
+[name="乌露露"]我在广播里都是怎么说的？如果你们认定我是“引领者”，那就跟我离开呀！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#2$1",posfrom="-100,0",posto="-100,0")]
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2")]
+[charslot(slot = "r", name = "avg_npc_2347_1#10$1",posfrom="300,0",posto="100,0",duration=1.5)]
+[Delay(time=1.8)]
+[charslot(slot = "r",focus="r")]
+[name="乌露露"]抱歉，怠慢各位了。你们也想追求幸福吗？
+[charslot(slot = "m", name = "avg_4235_thumpy_1#2$2",focus="m")]
+[name="塔妮"]是的，我——
+[charslot(slot = "l", name = "avg_1015_aglna2_1#2$1",focus="l")]
+[name="安洁莉娜"]我也是一名感染者。我想知道获取幸福的捷径是什么，不再被增生结晶折磨的感受又是什么样的。
+[charslot(slot = "r", name = "avg_npc_2347_1#9$1",focus="r")]
+[name="乌露露"]呃，我没有办法承诺你的病况不会加重......
+[charslot(slot = "l", name = "avg_1015_aglna2_1#17$1",focus="l")]
+[name="安洁莉娜"]所以我只能获得虚假的平静，在没有药物治疗的情况下，用对来世的期许忍受病情的痛苦？
+[charslot(slot = "r", name = "avg_npc_2347_1#13$1",focus="r")]
+[name="乌露露"]呃......
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "l", name = "avg_npc_094",posfrom="0,-60",posto="0,-60",duration=1.5)]
+[Delay(time=1.5)]
+[charslot(slot = "r", name = "avg_npc_626_1#1$1", duration=1.5)]
+[Delay(time=1.5)]
+面露不悦的感染者们围了过来。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2347_1#11$1",posfrom="-100,0",posto="0,0",duration=0.4)]
+[Delay(time=0.5)]
+[name="乌露露"]差、差点忘了，你们作为新人，还没有领过“幸福礼包”吧？
+[charslot(slot = "m", name = "avg_4235_thumpy_1#13$2")]
+[name="塔妮"]“幸福礼包”？
+[charslot(slot = "m", name = "avg_npc_2347_1#1$1")]
+[name="乌露露"]瑞万，带她们去吧，态度友好一点。
+[name="乌露露"]至于这位小姐——
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]我是安洁莉娜。
+[charslot(slot = "m", name = "avg_npc_2347_1#10$1")]
+[name="乌露露"]安洁莉娜，你的问题问得很好，等你也领完“幸福礼包”就跟我来吧，我会一一为你解答。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="46_g3_rmbttown",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2")]
+[name="塔妮"]“幸福礼包”里面装的是......
+[Dialog]
+[charslot(slot = "m",focus="n")]
+[PlaySound(key="$d_avg_rummagething_loop",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=1)]
+[Delay(time=2)]
+[StopSound(channel="f", fadetime=2)]
+[charslot(slot = "m", name = "avg_4235_thumpy_1#5$2",focus="m")]
+[name="塔妮"]一打羽兽蛋、两包仙人掌干、八只配不成对的袜子，还有一本《健身热身指南》......
+[name="塔妮"]这只是在给感染者散发物资吧。
+[charslot(slot = "m", name = "avg_4236_tmslot_1#4$1")]
+[name="阿梅利亚"]太好了，乌露露小姐不是鬼魂也不是坏人，只要她能答应协助，红砂镇的通讯塔很快就能修好！
+[charslot(slot = "m", name = "avg_4237_jcinta_1#3$1",focus="m")]
+[name="嘉辛塔"]也许吧，可......
+[Dialog]
+[charslot]
+[playMusic(key="$wasteland_loop", volume=0.6)]
+嘉辛塔不由得看向红砂镇的一角，不少感染者都在那里扎堆。
+他们啃着“幸福礼包”中的仙人掌干，皱着眉头。不知是被仙人掌干酸倒了牙，还是在借此忍耐结晶蔓延的疼痛。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#10$2",focus="m")]
+[name="塔妮"]难怪我们在镇外几乎看不到人活动的痕迹，大部分感染者就坐在这个角落，简直就好像......
+[charslot(slot = "m", name = "avg_4237_jcinta_1#10$1",focus="m")]
+[name="嘉辛塔"]没有什么好像，他们就是在欣然迎接自己的死亡。
+[name="嘉辛塔"]刚刚我向安洁要了一些治疗药物，想给那个叫瑞万的感染者，但他不要。他反问我，为什么要将他推离永生的幸福。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#11$2",focus="m")]
+[name="塔妮"]只有死去的人才会知道人死后究竟还能不能去往他处。即使知道了，那个地方也不一定会比现实更好。
+[name="塔妮"]为什么不珍惜自己的时间，反倒去相信那样的故事呢？
+[charslot(slot = "m", name = "avg_4237_jcinta_1#9$1",focus="m")]
+[name="嘉辛塔"]这倒也......不难理解吧。
+[charslot(slot = "m", name = "avg_4236_tmslot_1#11$1")]
+[name="阿梅利亚"]嘉辛塔？
+[charslot(slot = "m", name = "avg_4237_jcinta_1#11$1",focus="m")]
+[name="嘉辛塔"]有些人已经病得很重。源石结晶可能已经扩散到他们全身的骨缝之中，哪怕呼吸也会引起剧痛。
+[name="嘉辛塔"]对于这样的病人，故事和现实又有什么区别呢？
+[name="嘉辛塔"]能有个体面的道别就已经很幸福了。
+[charslot(slot = "m", name = "avg_4236_tmslot_1#11$1")]
+[name="阿梅利亚"]......
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_2347_1#10$1", duration=1.5, block=true)]
+[Delay(time=2)]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]“引领者”小姐，你来得正好，刚刚我的问题你还没有解答——
+[charslot(slot = "m", name = "avg_npc_2347_1#10$1")]
+[name="乌露露"]这没什么难的。跟我去镇外，我会告诉你一切的答案。你的同伴们也可以一起过来——
+[charslot(slot = "m", name = "avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]不，她们会留在这里。
+[charslot(slot = "m", name = "avg_4235_thumpy_1#5$2",focus="m")]
+[name="塔妮"]......安洁莉娜？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]我没问题。这里的感染者情况都比较危重，你们要是能帮帮他们，那就多帮一帮吧。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="46_g4_rmbtwild_d",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(key="$farce_n_loop", volume=0.6)]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_2347_1#1$1",duration=0.8)]
+[Delay(time=1)]
+[name="乌露露"]呼，这里是红砂镇外围，感染者们几乎不会到这儿来。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]“引领者”小姐......
+[charslot(slot = "m", name = "avg_npc_2347_1#15$1")]
+[name="乌露露"]别别别，这里没别人了，别这么叫我，尴尬死了。
+[charslot(slot = "m", name = "avg_npc_2347_1#12$1")]
+[name="乌露露"]这个称呼还是我的听众——啊，我是说那群感染者给我起的。
+[name="乌露露"]虽然我确实想做前卫一点的实验性质电台，但主持人叫“引领者”也太怪了，想象不到订阅这种频道的会是哪些怪人......
+[charslot(slot = "m", name = "avg_npc_2347_1#14$1")]
+[name="乌露露"]不过，说不定这样也能火一把？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]呃，乌露露？
+[charslot(slot = "m", name = "avg_npc_2347_1#5$1")]
+[name="乌露露"]别，别这么看着我。
+[name="乌露露"]这群听众就喜欢源石永生的理论，除此之外什么都听不进去。刚刚要不是我把你拉走了，他们会一言不发地围着你，直到你道歉的。
+[charslot(slot = "m", name = "avg_npc_2347_1#1$1")]
+[name="乌露露"]对了，你说我的电台名字叫“泰拉毁灭之前”怎么样？有感觉吗？你会订阅吗？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]......如果你愿意告诉我你成为“引领者”的来龙去脉的话，我保证，在通讯塔修好之后就会订阅。
+[charslot(slot = "m", name = "avg_npc_2347_1#11$1")]
+[name="乌露露"]好欸！那你就是我的第二十三个粉丝啦！
+[charslot(slot = "m", name = "avg_npc_2347_1#10$1")]
+[name="乌露露"]首先，我不是那群感染者的组织者，而是一个播客。
+[charslot(slot = "m", name = "avg_npc_2347_1#14$1")]
+[name="乌露露"]红砂镇是我的老家，在没有远程通讯技术之前，我只能在镇上的广播电台跟大家说说话，还要被嫌吵......
+[name="乌露露"]他们说我的耳朵天生缺了一块影响了听力，所以完全不知道自己的声音有多大。
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[charslot(slot = "m", name = "avg_npc_2347_1#3$1")]
+[name="乌露露"]荒唐！我声音大吗？我声音大吗？！
+[Dialog]
+[charslot]
+[name="荒地的回响"]声音大吗......音大吗......大吗......吗......
+[charslot(slot = "m", name = "avg_1015_aglna2_1#15$1")]
+[name="安洁莉娜"]咳咳，你接着说？
+[charslot(slot = "m", name = "avg_npc_2347_1#2$1")]
+[name="乌露露"]大半年前我的电台又被镇上的人投诉，所以我一赌气就走了，直到一周前才回来......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[Background(image="46_g3_rmbttown",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_paper1", volume=0.8)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2347_1#6$1")]
+[name="乌露露"]“以防你真的在这段时间良心发现，突然想回家看看我跟你爸。”
+[name="乌露露"]“为了躲避天灾，红砂镇的人和镇里大部分设施都搬上了移动平台，你喜欢的广播台除外......哦，还有地下那座坏掉的通讯塔。”
+[name="乌露露"]“信的背面有移动平台识别码，天灾信使会为你指路。你也可以继续在荒野当播客——搬家的时候有点匆忙，你的房间还没清理出来。”
+[name="乌露露"]“唉，不过你大概率也看不到这个纸条，在天灾到来之前我们能见一面就好了。——有点想你的妈妈”
+[charslot(slot = "m", name = "avg_npc_2347_1#9$1")]
+[name="乌露露"]有点想我......
+[name="乌露露"]“仓库里还有杂货店剩的一些物资，你可以拿去用，照顾好自己。”
+[Dialog]
+[PlaySound(key="$d_avg_paper1", volume=0.8)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2347_1#7$1")]
+[name="乌露露"]我当时不告而别，你们却还是给一个不知道会不会回家的孩子留了宝贵的物资......“有点想你”肯定是口是心非——
+[Dialog]
+[charslot(slot = "m",focus="n")]
+[PlaySound(key="$d_avg_rummagething_loop",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=1)]
+[Delay(time=2)]
+[StopSound(channel="f", fadetime=2)]
+[charslot(slot = "m", name = "avg_npc_2347_1#5$1",focus="m")]
+[name="乌露露"]配不成对的袜子？谁都不买的酸仙人掌干？《健身热身指南》？
+[name="乌露露"]......
+[charslot(slot = "m", name = "avg_npc_2347_1#3$1",focus="m")]
+[name="乌露露"]我要这些东西有什么用啊！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_snowbootwalk", volume=1)]
+[delay(time=1)]
+[charslot(slot = "l", name = "avg_npc_998_1#1$1", duration=1.5)]
+[charslot(slot = "r", name = "avg_npc_1043_1#1$1", duration=1.5)]
+[Delay(time=2)]
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2347_1#2$1")]
+[name="乌露露"]（还有没撤离的镇民？不对，他们好像是从别的地方来的感染者......）
+[charslot(slot = "m", name = "avg_npc_2347_1#6$1")]
+[name="乌露露"]各位，你们是来探亲的还是旅游的？天灾再过几周就要来了，红砂镇的人已经搬走啦。
+[stopmusic(fadetime=2)]
+[charslot(slot = "m", name = "avg_npc_093#1")]
+[name="欣慰的感染者"]红砂镇......天灾预测路径上的小城......太好了，我们没有走错。
+[name="欣慰的感染者"]真是动听的声音，小姐。您是希尔达安排的“引领者”，特地在这里等候我们吗？
+[charslot(slot = "m", name = "avg_npc_2347_1#1$1")]
+[name="乌露露"]你们......你们喜欢我的声音！我要告诉镇上投诉我的那些家伙们——
+[charslot(slot = "m", name = "avg_npc_2347_1#13$1")]
+[name="乌露露"]欸等等，你们知道天灾预测还来这里？那不相当于是......
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[Background(image="46_g4_rmbtwild_d",screenadapt="coverall")]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[playMusic(key="$wasteland_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]......求死。
+[charslot(slot = "m", name = "avg_npc_2347_1#15$1")]
+[name="乌露露"]......
+[name="乌露露"]一开始，我只是想劝一些人离开这里。我其实可以带他们去移动平台上的红砂镇落脚的。
+[charslot(slot = "m", name = "avg_npc_2347_1#2$1")]
+[name="乌露露"]我告诉他们让自己幸福的方法有很多，还把我的口播录下来放在广播台循环播放，日夜不停——
+[charslot(slot = "m", name = "avg_1015_aglna2_1#16$1")]
+[name="安洁莉娜"]呃，可能因为在你离开红砂镇之后没人保养扩音设备，所以你的口播听上去很可怕......
+[charslot(slot = "m", name = "avg_npc_2347_1#3$1")]
+[name="乌露露"]我是真的没有办法了！
+[name="乌露露"]天灾就快来了，他们还时不时会带回几个同样想要“追求幸福”的感染者，队伍越变越大，幸好这次他们截下的是你们。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]但有什么办法能让他们抛弃——甚至只是暂时忘记“只有求死才能获得幸福”的想法呢？
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "l", name = "avg_4236_tmslot_1#1$1",posfrom="-100,0",posto="-100,0",duration=1.5)]
+[charslot(slot = "m", name = "avg_4237_jcinta_1#3$1",duration=1.5)]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#5$2",posfrom="100,0",posto="100,0",duration=1.5)]
+[Delay(time=1.8)]
+[charslot(slot = "m", name = "avg_4237_jcinta_1#3$1",focus="m")]
+[name="嘉辛塔"]死了哪有什么幸福可言呢？
+[charslot(slot = "r", name = "avg_4235_thumpy_1#4$2",focus="r")]
+[name="塔妮"]这就是麻烦的地方啊。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#9$2",focus="r")]
+[name="塔妮"]安洁，我们刚刚和那些人聊了聊，他们都相信死了会比活着更幸福，可我们什么也说不出......
+[charslot(slot = "r", name = "avg_4235_thumpy_1#14$2",focus="r")]
+[name="塔妮"]光是看着那些源石结晶，就知道他们有多痛了。那个老奶奶还愿意来担心我......其实已经是很好的人了。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#9$1")]
+[name="安洁莉娜"]可罗德岛办事处可以提供药物，他们本来可以不用那么痛的。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#11$1",focus="m")]
+[name="嘉辛塔"]......会加入他们的，要么孑然一身，要么就是被家人当成累赘抛弃的人。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]罗德岛可以以他们负担得起的价格提供药物。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#2$1")]
+[name="嘉辛塔"]他们不相信了。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#10$1")]
+[name="嘉辛塔"]得病之后，他们遇到的要么是骗子，要么就是人贩子，本该隔在他们和那些坏人中间的家人......都不见了。
+[name="嘉辛塔"]至于他们那位希尔达展现的能力，似乎也不是凭空捏造的。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#9$1")]
+[name="嘉辛塔"]他们说雷姆必拓真有人接受过她的赐福，死得毫无痛苦，甚至看见了什么“源石之境”......
+[charslot(slot = "m", name = "avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]先不论那个希尔达究竟怎么样，她毕竟不在这里，他们根本就不可能安详地死去！
+[charslot(slot = "m", name = "avg_npc_2347_1#9$1")]
+[name="乌露露"]都怪我，要是我能再想出什么别的办法......
+[charslot(slot = "m", name = "avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]不，你至少愿意给他们物资，怪谁都不该怪你。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#25$1")]
+[name="安洁莉娜"]我们只是缺一个办法，一个告诉他们死亡并不可亲的办法......
+[charslot(slot = "m", name = "avg_4237_jcinta_1#2$1",focus="m")]
+[name="嘉辛塔"]......
+[name="嘉辛塔"]葬礼。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]葬礼？
+[charslot(slot = "m", name = "avg_4237_jcinta_1#11$1",focus="m")]
+[name="嘉辛塔"]安洁，我觉得我们说服不了他们。乌露露已经在他们耳边念叨这么长时间了。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#9$1")]
+[name="安洁莉娜"]所以你想让我们替他们的家人，做那些本该由家人做的事情？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#9$1")]
+[name="安洁莉娜"]可这不是相当于......见死不救吗？
+[charslot(slot = "m", name = "avg_4237_jcinta_1#5$1",focus="m")]
+[name="嘉辛塔"]不，我的意思不是照料他们的后事，而是在他们在世的时候，让他们参加自己的葬礼，说出自己最后想说的话。
+[charslot(slot = "m", name = "avg_npc_2347_1#14$1")]
+[name="乌露露"]参加自己的葬礼......
+[charslot(slot = "m", name = "avg_4237_jcinta_1#2$1",focus="m")]
+[name="嘉辛塔"]你想，葬礼不都是在家人的包围之下办的吗？可现在他们离开了自己亲近的人，来追寻某种“永生”和“幸福”。
+[name="嘉辛塔"]这些妄想让他们选择性忘却了死亡的恐惧，忘却了没有人哀悼的孤独......
+[charslot(slot = "m", name = "avg_4237_jcinta_1#5$1",focus="m")]
+[name="嘉辛塔"]他们只能......欺骗。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#11$1",focus="m")]
+[name="嘉辛塔"]欺骗同行者又欺骗自己。明明想要责怪什么、挽留什么，却为了装作已经接受死亡的结局，所以沉默。
+[charslot(slot = "m", name = "avg_npc_2347_1#9$1")]
+[name="乌露露"]我觉得嘉辛塔的办法有道理，随着天灾逼近，那些感染者确实已经很少提起自己过去的事，现在想来很有可能是害怕自己——
+[charslot(slot = "m", name = "avg_1015_aglna2_1#10$1")]
+[name="安洁莉娜"]后悔。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#9$1")]
+[name="安洁莉娜"]是个值得一试的方法。
+[name="安洁莉娜"]与其在天灾里被戳破幻想，绝望地死去，倒不如趁自己还能动的时候......做点自己想做的事情，哪怕是骂人。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]谢谢你，嘉辛塔。只要那些偏执的感染者们能在这场特殊的葬礼上直面内心，或许我们就能救下他们。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#3$1",focus="m")]
+[name="嘉辛塔"]直面内心吗......
+[charslot(slot = "m", name = "avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]嘉辛塔，怎么了？是我们误解了你的提议吗？
+[charslot(slot = "m", name = "avg_4237_jcinta_1#2$1",focus="m")]
+[name="嘉辛塔"]不，安洁说的完全正确，我们应该尽快准备起来。
+[charslot(slot = "m", name = "avg_4237_jcinta_1#9$1",focus="m")]
+[name="嘉辛塔"]（低声）只是......我其实也需要早点做好，直面内心的准备......
+[charslot(slot = "m", name = "avg_npc_2347_1#5$1")]
+[name="乌露露"]场地我可以安排，感染者我也会通知。
+[name="乌露露"]只不过他们大多都很孤僻，哪怕是以临终遗言的形式，可能也很难让他们主动开口回忆自己的生活。
+[charslot(slot = "m", name = "avg_npc_2347_1#14$1")]
+[name="乌露露"]要是有人能打个样儿，或者用真实的眼泪打动他们......
+[stopmusic(fadetime=2)]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$1")]
+[name="安洁莉娜"]眼泪？唔......
+[charslot(slot = "m", name = "avg_4237_jcinta_1#5$1",focus="m")]
+[name="嘉辛塔"]唔......
+[charslot(slot = "m", name = "avg_4235_thumpy_1#2$2")]
+[name="塔妮"]唔......
+[charslot(slot = "m", name = "avg_4236_tmslot_1#12$1")]
+[name="阿梅利亚"]欸，你们都看着我干嘛？
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background]
+[Image]

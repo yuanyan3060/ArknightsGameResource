@@ -1,0 +1,399 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="bg_deluxeroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playMusic(key="$wasteland_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2",duration=1)]
+[Delay(time=2)]
+[charslot(slot = "m", focus = "n")]
+[name="管家"]塔妮小姐，请稍等。我去通报一下坎贝尔先生，马上就来。
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]好。
+[Dialog]
+[charslot(slot = "m", focus = "n")]
+[playsound(key="$d_avg_carpet_normal_fts", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=2)]
+[Delay(time=2)]
+[charslot(slot = "m", focus = "m")]
+[Delay(time=0.5)]
+[charslot(slot = "m",posfrom = "0,0", posto = "150,0",duration = 1)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_4235_thumpy_1#2$2")]
+[name="塔妮"]好漂亮的房子......比我想象中的还离谱......
+[charslot(slot = "m", focus = "n")]
+[name="严厉的先生"]这样的房子都能让你惊叹？所以我才说比起跟你们跑来跑去，只有在我们这里，她才能得到最好的照顾。
+[Dialog]
+[charslot(slot = "m", focus = "m")]
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[charslot(slot = "m",posfrom = "150,0", posto = "0,0",duration = 0.8)]
+[Delay(time=1.2)]
+[name="塔妮"]您就是坎贝尔先生？我是来探望嘉辛塔的——
+[charslot(slot = "m", focus = "n")]
+[name="严厉的先生"]多谢关心，嘉辛塔现在很好，请回吧。
+[charslot(slot="m",name="avg_4235_thumpy_1#15$2")]
+[name="塔妮"]呃......探望可不是光知道她身体状况就行的呀。
+[charslot(slot = "m", focus = "n")]
+[name="严厉的先生"]那你还想知道什么？
+[name="严厉的先生"]塔妮小姐，你也感染了矿石病，难道你的家人就不担心你的身体状况吗？还是说，你其实也是从家里偷跑出来的？
+[charslot(slot="m",name="avg_4235_thumpy_1#5$2")]
+[name="塔妮"]我......
+[charslot(slot = "m", focus = "n")]
+[name="严厉的先生"]哼，不懂事的孩子。不珍惜眼前安稳的生活，还要往外跑。
+[name="严厉的先生"]你们永远不知道家人有多爱你们，把你们养这么大付出了多少代价！
+[charslot(slot="m",name="avg_4235_thumpy_1#10$2")]
+[name="塔妮"]那为了回报你们付出的代价，我们这些孩子又应该做什么呢？
+[charslot(slot = "m", focus = "n")]
+[name="严厉的先生"]听话，就这么一件事。
+[charslot(slot="m",name="avg_4235_thumpy_1#10$2")]
+[name="塔妮"]听话，像一件不该折损的财产一样待在家里，是吗？
+[charslot(slot = "m", focus = "n")]
+[name="严厉的先生"]财产......你在胡说些什么！
+[charslot(slot="m",name="avg_4235_thumpy_1#10$2")]
+[name="塔妮"]难道不是吗？按您说的，成本价越高的孩子就越应该听话，不是吗？
+[name="塔妮"]我不知道嘉辛塔对您的“付出”是怎么看的，但我知道我自己的感受。我很感激我的家人，我知道他们在关心我、保护我。
+[name="塔妮"]但随着我长大，我的追求总有跟他们的想法相悖的时候，我当然会难过——因为我爱他们，但也爱我自己规划的生活。
+[name="塔妮"]如果事事符合家人的心意才称得上一个合格的女儿，那我宁愿当一个坏孩子，宁愿得不到他们的认可！
+[charslot(slot="m",name="avg_4235_thumpy_1#11$2")]
+[name="塔妮"]坎贝尔先生，在您强调自己为嘉辛塔付出多少，多爱她的时候，您有思考过她与您争吵是为了什么吗？
+[charslot(slot = "m", focus = "n")]
+[name="严厉的先生"]你不必教训我。
+[charslot(slot="m",name="avg_4235_thumpy_1#11$2")]
+[name="塔妮"]她与您争吵是因为她想得到您的认可，因为她很在意您和坎贝尔夫人，她希望能从自己爱的人身上得到支持！
+[charslot(slot="m",name="avg_4235_thumpy_1#10$2")]
+[name="塔妮"]你们不愿支持她，但她总会遇到更多愿意给她支持的人，而那些人不必是她的家人。
+[charslot(slot = "m", focus = "n")]
+[name="严厉的先生"]......任性的年轻人迟早会付出代价。我不会让你见她的。送客。
+[Dialog]
+[charslot(slot = "m", focus = "n")]
+[playsound(key="$d_avg_carpet_normal_fts", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=2)]
+[Delay(time=2.5)]
+[charslot(slot="m",name="avg_4235_thumpy_1#13$2")]
+[name="塔妮"]......要不是安洁再三叮嘱我要注意礼貌，我本来也不需要得到您的同意啊，坎贝尔先生。
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot = "m", posfrom = "0,0", posto = "150,0",duration = 1.2,afrom=1,ato=0)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="bg_vipward",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_020",duration=0.5)]
+[delay(time=1)]
+[name="保镖"]嘉辛塔小姐，您不能下楼。
+[charslot(slot="m",name="avg_4237_jcinta_1#2$1")]
+[name="嘉辛塔"]我听到楼下有声音......
+[charslot(slot="m",name="avg_npc_020")]
+[name="保镖"]这么晚了，不会有人来的。您早点休息吧，已经是深夜了。
+[Dialog]
+[charslot(duration=0.5)]
+[playsound(key="$doorclosequite")]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_4237_jcinta_1#11$1")]
+[name="嘉辛塔"]......
+[name="嘉辛塔"]安洁......塔妮......还有......唉......
+[Dialog]
+[charslot]
+[stopmusic(fadetime=1)]
+[playsound(key="$d_avg_knockwindow")]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_4237_jcinta_1#3$1")]
+[name="嘉辛塔"]......谁？
+[charslot]
+[playMusic(intro="$warm_intro", key="$warm_loop", volume=0.6)]
+[name="？？？"]别唉声叹气啦，快来帮我开窗！
+[Dialog]
+[charslot(slot="m",name="avg_4237_jcinta_1#2$1")]
+[charslot(slot = "m",posfrom = "0,0", posto = "-200,0",duration = 1)]
+[Delay(time=1.5)]
+[playsound(key="$d_avg_openwindow")]
+[Delay(time=0.5)]
+[playsound(key="$d_avg_ftrub",channel="2")]
+[CameraShake(duration=0.2, xstrength=5, ystrength=15, vibrato=10, randomness=90, fadeout=true, block=false)]
+[charslot(slot="r",name="avg_4235_thumpy_1#1$2",posfrom = "0,60", posto = "0,0",duration=0.3)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_4237_jcinta_1#6$1",focus="m")]
+[name="嘉辛塔"]塔妮？！你怎么会跑到这里？
+[charslot(slot="r",name="avg_4235_thumpy_1#5$2",focus="r")]
+[name="塔妮"]哇，这是你的房间？完全是一间病房啊，怎么一丁点你自己的东西都没有？
+[charslot(slot="m",name="avg_4237_jcinta_1#11$1",focus="m")]
+[name="嘉辛塔"]......在我得病之后，这间房间就被改造成便于治疗的病房了。
+[charslot(slot="r",name="avg_4235_thumpy_1#1$2",focus="r")]
+[name="塔妮"]你的身体怎么样？
+[charslot(slot="m",name="avg_4237_jcinta_1#11$1",focus="m")]
+[name="嘉辛塔"]根本不是矿石病的事，医生说是因为昨天没吃饭，再加上被阿梅气到了......
+[charslot(slot="r",name="avg_4235_thumpy_1#14$2",focus="r")]
+[name="塔妮"]你......还在生阿梅的气啊。
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1",focus="m")]
+[name="嘉辛塔"]我当然生气！
+[charslot(slot="r",name="avg_4235_thumpy_1#10$2",focus="r")]
+[name="塔妮"]她确实骗了我们，让她写十封肉麻的道歉书再全城广播都不过分。
+[name="塔妮"]但你也看得出来，那个阿什顿部长肯定对阿梅说了什么，她本来就耳根软，还没什么自信——
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1",focus="m")]
+[name="嘉辛塔"]我不是气这个！
+[charslot(slot="r",name="avg_4235_thumpy_1#2$2",focus="r")]
+[name="塔妮"]欸？
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1",focus="m")]
+[name="嘉辛塔"]难道你真觉得她一路上说的那些话就只是为了骗我们？
+[name="嘉辛塔"]你没看她说那些话时的样子？哪个骗子骗人之后还会嘿嘿傻笑的？
+[name="嘉辛塔"]她明明就是在说自己想做却没胆量做的事情，而且她明明就做得到！鬼才信那个阿什顿的话！
+[name="嘉辛塔"]我之前还好奇她为什么总是这副唯唯诺诺的样子，现在我总算知道了，全是纵贯红土打压她的结果！
+[charslot(slot="r",name="avg_4235_thumpy_1#1$2",focus="r")]
+[name="塔妮"]那你生气的地方是......
+[charslot(slot="m",name="avg_4237_jcinta_1#11$1",focus="m")]
+[name="嘉辛塔"]她远比自己认为的更有担当，也更有野心，她甚至已经想好了要去南境收集数据，研发完全属于自己的尖端通讯技术！
+[name="嘉辛塔"]她不知道我有多......羡慕她......
+[charslot(slot="r",name="avg_4235_thumpy_1#13$2",focus="r")]
+[name="塔妮"]嘉辛塔？
+[charslot(slot="m",name="avg_4237_jcinta_1#5$1",focus="m")]
+[name="嘉辛塔"]得病之后，父母渐渐不再让我出门，后来更是把我送去了疗养中心。为了打发时间，我就开始学习各种技能。
+[charslot(slot="r",name="avg_4235_thumpy_1#1$2",focus="r")]
+[name="塔妮"]对啊，你在这种情况下还考了那么多资格证，已经很不容易了。
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1",focus="m")]
+[name="嘉辛塔"]可是我拥有的只是一沓证书，从来没有实践过！
+[charslot(slot="m",name="avg_4237_jcinta_1#2$1",focus="m")]
+[name="嘉辛塔"]驾驶证是用操作模拟器考的，学习驮兽驯养用的是木头做的机械驮兽，烘焙糕点的时候我不用自己亲手搅拌，也不被允许接近烤箱......
+[charslot(slot="m",name="avg_4237_jcinta_1#9$1",focus="m")]
+[name="嘉辛塔"]这些资格证只能用来作为父母开酒会时的谈资。或许父亲是了解我的，我最擅长的事情就是扮演坎贝尔家知书达理的小姐......
+[charslot(slot="r",name="avg_4235_thumpy_1#1$2",focus="r")]
+[name="塔妮"]打断一下。嘉辛塔，想开车吗？
+[charslot(slot="m",name="avg_4237_jcinta_1#6$1",focus="m")]
+[name="嘉辛塔"]欸？现在？
+[charslot(slot="r",name="avg_4235_thumpy_1#13$2",focus="r")]
+[name="塔妮"]因为好像有人发现我们了——
+[Dialog]
+[stopmusic(fadetime=1)]
+[playsound(key="$d_avg_walkfast",volume=0.5)]
+[Delay(time=1.5)]
+[charslot(slot="r",name="avg_4235_thumpy_1#1$2",focus="r")]
+[name="塔妮"]——不是现在也得是现在了！我们得去城外躲躲！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="76_g16_dttsuburb_n",screenadapt="coverall",xScale=1, yScale=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$holiday_intro", key="$holiday_loop", volume=0.6)]
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",duration=1)]
+[charslot(slot="r",name="avg_4235_thumpy_1#1$1",duration=1)]
+[Delay(time=1.5)]
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",focus="l")]
+[name="嘉辛塔"]你、你真的确定？我警告过你了，我完全没有摸过真的方向盘，我——
+[charslot(slot="r",name="avg_4235_thumpy_1#1$1",focus="r")]
+[name="塔妮"]我知道，我会陪着你，不用担心。
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",focus="l")]
+[name="嘉辛塔"]（咽口水）
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[PlaySound(key="$d_avg_cardoorc", volume=1)]
+[cgitem(image="cgitem_76_i16_3", style="cg",layer = 1,sfrom = 1, sto = 1, sduration = 0)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+她的目光一一扫过越野车上的每个零件，试图将它们与操作模拟器上显示的东西对应起来——说实话，几乎没有零件能对应上。
+但她闭着眼睛想了想。
+回忆安洁莉娜和塔妮开车时的样子，回忆自己想要亲手握上方向盘的渴望——
+[Dialog]
+[PlaySound(key="$sportscarstart", volume=1)]
+[CameraShake(duration=3, xstrength=2, ystrength=2, vibrato=50, randomness=90, fadeout=true, block=false)]
+[Delay(time=2)]
+[playsound(key="$d_avg_driveincar", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.5, channel="bgs",fadetime=2)]
+她的手在颤抖。整辆越野车都在颤抖。
+[Dialog]
+[backgroundTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1.15, yScaleTo=1.15, duration=3,block=false)]
+[Delay(time=2)]
+她深吸了一口气，踩下了油门。越野车缓慢地向前挪动，她不可置信地转头向塔妮确认。
+塔妮只是笑了，没有做任何进一步的指示，但她受到了鼓舞。
+[Dialog]
+[backgroundTween( xTo=-50, duration=1.5,block=false)]
+[Delay(time=0.5)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="76_g2_wildhighway_n",screenadapt="coverall")]
+[CameraShake(duration=-1, xstrength=1, ystrength=1, vibrato=50, randomness=90, fadeout=false, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[PlaySound(key="$d_avg_carspeedup", volume=1)]
+[bgeffect(name = "$eb_speedline" ,layer = 1)]
+[focusout(duration=3, type="bg", from=0, to=1)]
+[CameraShake(duration=3, xstrength=2, ystrength=2, vibrato=50, randomness=90, fadeout=false, block=true)]
+[CameraShake(duration=-1, xstrength=1, ystrength=1, vibrato=50, randomness=90, fadeout=false, block=false)]
+踩下离合，换挡，提速，再踩下离合，换挡，提速......
+嘉辛塔·坎贝尔行驶在路上，风吹翻了她的耳朵，她聆听着自己行驶在大地上的声音。
+她发出自己有生以来最疯狂、最开怀的笑声，然后由着它们被自己行驶的速度甩在身后。
+[dialog]
+[focusout(duration=1, type="bg", from=1, to=0)]
+[Delay(time=2)]
+[effect(name = "$e_emoji_kira" ,layer = 1,x=300)]
+[name="塔妮"]嘉辛塔——我就知道——你其实什么都能做得很好——！
+[effect(name = "$e_emoji_proud" ,layer = 1,x=-200,y=100)]
+[name="嘉辛塔"]现在——我也知道啦——哈哈哈哈——！
+[effect(name = "$e_emoji_question" ,layer = 1,x=300)]
+[name="塔妮"]接下来——你想——做什么——
+[effect(name = "$e_emoji_angry" ,layer = 1,x=-200,y=100)]
+[name="嘉辛塔"]我要——阿梅——跟我们道歉——！
+[effect(name = "$e_emoji_musicalnote" ,layer = 1,x=300)]
+[name="塔妮"]好——！
+[effect(name = "$e_emoji_matter" ,layer = 1,x=-200,y=80)]
+[name="嘉辛塔"]我要——去公司——把她从——无聊的办公室——抓出来——！
+[effect(name = "$e_emoji_musicalnote" ,layer = 1,x=300)]
+[name="塔妮"]好——！
+[effect(name = "$e_emoji_shy" ,layer = 1,x=-250)]
+[name="嘉辛塔"]我要——我要跟你们——一起去南境！
+[effect(name = "$e_emoji_cheer" ,layer = 1,x=200,y=-100)]
+[name="塔妮"]好——！
+[Dialog]
+[stopmusic(fadetime=3)]
+[StopSound(channel="bgs", fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[bgeffect]
+[CameraShake(duration=0, xstrength=1, ystrength=1, vibrato=50, randomness=90, fadeout=false, block=false)]
+[focusout(duration=0, type="bg", from=0, to=0)]
+[hidecgitem]
+[Delay(time=2)]
+[Background(image="38_g13_trimountlivingroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_1015_aglna2_1#2$1",duration=1)]
+[delay(time=2)]
+[name="安洁莉娜"]这个点了，不知道阿梅是不是还在加班......
+[charslot(slot="m",name="avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]欸，怎么这么多人？
+[Dialog]
+[PlaySound(key="$d_avg_crowdrun")]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=1.5, block=true)]
+[charslot]
+[charslot(slot="l",name="avg_npc_329_1#1$1")]
+[charslot(slot="r",name="avg_npc_1260_1#1$1")]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=1.5, block=true)]
+[playMusic(intro="$mist_intro", key="$mist_loop", volume=0.6)]
+[charslot(slot="l",focus="l")]
+[name="紧张的公司职员"]警报怎么没响？人都进通讯塔了！
+[charslot(slot="l",focus="r")]
+[name="无奈的公司职员"]天知道为什么！之前造成大断连给我们添了那么多乱子，现在还要逞能？
+[charslot(slot="l",focus="l")]
+[name="紧张的公司职员"]你没听说吗？私底下都在传，是阿什顿部长故意用那个小姑娘的技术试错，出事了也好推卸责任......
+[charslot(slot="l",focus="r")]
+[name="无奈的公司职员"]行了，阿什顿部长已经赶过去了，我们也赶紧叫人，别让那小姑娘在工程总监来之前把塔修好，不然宣传案可就白做了！
+[Dialog]
+[playsound(key="$rungeneral", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=2)]
+[charslot(slot = "r",posfrom = "0,0", posto = "200,0",duration = 0.7,afrom=1,ato=0)]
+[delay(time=0.3)]
+[charslot(slot = "l",posfrom = "0,0", posto = "250,0",duration = 0.8,afrom=1,ato=0)]
+[delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_1015_aglna2_1#7$1")]
+[name="安洁莉娜"]进通讯塔？......阿梅？
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="76_g10_dtttowertop",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+天色渐亮。
+本应坐在办公室里把一封邮件翻来覆去发几百遍的阿纳缇，此时坐在大铁屯通讯塔的上层通路，一心一意地看着眼前的电路板。
+大铁屯临近南境，大气源石浓度的变化复杂，她几乎在这里检测了一整夜的数据，抬起头的时候，她甚至没意识到太阳已经升了起来。
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]唔......好亮。终于调试完模块了，现在只需要把它连到通讯核心里，再放到——
+[charslot(slot = "m", focus = "n")]
+[name="急切的喊声"]阿梅利亚！你到底在做什么！你不想要自己的工作了吗！
+[name="急切的喊声"]现在立刻下来，不准动通讯塔，听见没！
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1")]
+[name="阿梅利亚"]阿、阿什顿部长！
+[charslot(slot="m",name="avg_4236_tmslot_1#11$1")]
+[name="阿梅利亚"]糟糕......我的动作还是太慢了，得趁他们上来抓我之前把该做的事做完。
+[name="阿梅利亚"]安洁她们可能很快就要启程了，再快一点，再快一点——
+[name="阿梅利亚"]不然就赶不上了，不然这么高的塔都白、白爬了！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[charslot(slot="m",name="avg_npc_222")]
+[Background(image="76_g11_dtttowerfoot",screenadapt="coverall",xScale=1.05, yScale=1.05,y=15)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="阿什顿"]啧，怎么安保部队还没来，都是吃干萝卜的吗！
+[name="阿什顿"]算了，我还对付不了一个动不动就哭的小姑娘吗？我自己去把她——
+[charslot]
+[name="？？？"]等一下。
+[Dialog]
+[charslot(slot="m",name="avg_1015_aglna2_1#17$1",duration=1)]
+[delay(time=2)]
+[name="安洁莉娜"]阿什顿部长，你要做什么？
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]我？我......唉，只是想阻止阿梅利亚做傻事啊！
+[charslot(slot="m",name="avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]傻事？
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]是啊。我好不容易从管理层手里保下她的工作，我是同情她母亲过世，父亲又在异地，她一个人来这里打拼不容易。
+[name="阿什顿"]结果倒好，她私自给自己开通了安保系统的权限，在通讯塔待了一夜，怕是要做不利于纵贯——不利于她前途的事啊......
+[name="阿什顿"]你是她的朋友，你应该知道阿梅利亚怕高，她现在一个人在塔上孤立无援，也是可怜。你快把她劝下来吧？
+[charslot(slot="m",name="avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]劝下来？
+[Dialog]
+[stopmusic(fadetime=2)]
+[charslot(duraiton=1)]
+[BackgroundTween(yFrom=15, yTo=-15, duration=2,block=false)]
+[delay(time=0.8)]
+[gridbg(imagegroup="53_g16_sunnyday_L1/53_g16_sunnyday_R1/53_g16_sunnyday_L2/53_g16_sunnyday_R2", solidwidth="1280/1280/1280/1280", solidheight="720/720/720/720",x=-900,fadetime=1.5)]
+[largebgtween(duration = 30,yFrom = 300, yTo = 250,block = false)]
+[backgroundTween( duration=15, yTo=0,block=false)]
+[delay(time=2)]
+[playMusic(intro="$newhope01_intro", key="$newhope01_loop", volume=0.6)]
+安洁莉娜抬头。
+刚升起的太阳照在阿梅利亚永远梳不直的头发上，显得她比安洁莉娜印象里的更加瘦小。
+她坐在通讯塔上层的通路上一动不动，或许真如阿什顿部长说的那样，阿梅利亚此刻正在害怕。
+但安洁莉娜了解她的朋友。
+这一路上，这个一直冒冒失失、慌慌张张的孩子，只在一个时候会呈现出这样坚定的、认真的背影——
+在她工作的时候。
+而这也意味着，安洁莉娜还没有向阿梅利亚问出的问题——阿梅利亚究竟还去不去南境——已经得到了答案。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[largebg]
+[charslot(slot="m",name="avg_1015_aglna2_1#24$1")]
+[Background(image="76_g11_dtttowerfoot",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[name="安洁莉娜"]我明白了。
+[charslot(slot="m",name="avg_npc_222")]
+[name="阿什顿"]太好了。放心，安保部队很快就会到了，只要你先把她劝下来——
+[Dialog]
+[charslot(slot ="m", action="shake", power=5, times=50, duration=0.3)]
+[delay(time=0.8)]
+[name="阿什顿"]嗯？我的腿......
+[Dialog]
+[charslot(slot ="m", action="shake", power=5, times=50, duration=0.6)]
+[delay(time=0.8)]
+[name="阿什顿"]连胳膊也......怎么突然这么重？中风？！
+[charslot]
+[Dialog]
+[playsound(key="$d_avg_groundrumbling", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.8, channel="bgs",fadetime=2)]
+[CameraShake(duration=-1, xstrength=2, ystrength=2, vibrato=50, randomness=90, fadeout=false, block=false)]
+[playMusic(intro="$wallemdtown_intro", key="$wallemdtown_loop", volume=0.6)]
+[delay(time=2)]
+阿什顿回头，发现不止是自己，连已经赶到现场的第一批职员和安保人员，也都被未知的力量牵绊住了手脚。
+而眼前的沃尔珀却轻盈地跳上了楼梯上的金属扶手，露出笑容。
+[charslot(slot="m",name="avg_1015_aglna2_1#1$1")]
+[name="安洁莉娜"]放心，阿什顿部长，你离中风还远着呢。
+[name="安洁莉娜"]不过，想必这些年你已经习惯在纵贯红土公司里，轻轻飘飘地走来走去了吧？
+[charslot(slot="m",name="avg_1015_aglna2_1#17$1")]
+[name="安洁莉娜"]感受一下重力真正的力量，如何？
+[Dialog]
+[delay(time=2)]
+[StopSound(channel="bgs", fadetime=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[CameraShake(duration=0, xstrength=1, ystrength=1, vibrato=50, randomness=90, fadeout=true, block=false)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

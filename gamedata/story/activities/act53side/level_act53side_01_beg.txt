@@ -1,0 +1,519 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="76_g4_dailytown",screenadapt="coverall")]
+[playMusic(intro="$relax_intro",key="$relax_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_1186_1#2$1", duration=1.5, block=true)]
+[Delay(time=2)]
+[name="奇怪的年轻人A"]嚯嚯，面生的小沃尔珀，第一次见你，新来送药的？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#22$1",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]呃，应该是......吧？
+[charslot(slot = "m", name = "avg_npc_1186_1#1$1")]
+[name="奇怪的年轻人A"]你说话怎么犹犹豫豫的！别小看我们，赶紧把勒柄嘘混拿出来！
+[charslot(slot = "m", name = "avg_1015_aglna2_1#12$1",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]勒柄嘘混？
+[dialog]
+[charslot]
+[charslot(slot = "r", name = "avg_npc_1186_1#1$1")]
+[name="奇怪的年轻人A"]哎呀，辣瓶树粉！我手里这种！看看姐手里这么纯的辣瓶树粉，一口下去天灵盖都爽飞上天！
+[dialog]
+[charslot(slot="l",name="avg_npc_1185_1#1$1",duration=1)]
+[delay(time=1)]
+[charslot(slot="l",name="avg_npc_1185_1#1$1",focus="l")]
+[name="奇怪的年轻人B"]嘿，小沃尔珀，你不怎么上道啊。从哪来的？叙拉古？
+[name="奇怪的年轻人B"]你们叙拉古有像我们这么厉害的人吗？身上有我们这样吓人的纹身吗？给你看看——我这满背的大牙兽，吓死你！
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#11$1")]
+[name="安洁莉娜"]抱歉，我......我想我可能走错地方了！
+[dialog]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#15$1",afrom=1,ato=1,posfrom = "0,0", posto = "80,0",duration = 0.6)]
+[Delay(time=0.8)]
+[charslot]
+[charslot(slot = "m",name = "avg_npc_1186_1#1$1",focus="m")]
+[name="奇怪的年轻人A"]欸——等等，刚来就走你是什么意思，我们要的东西还没给呢！
+[name="奇怪的年轻人A"]没听过我们的名号吗？我们可是头盔姐安珀和路障哥皮塔！
+[charslot(slot = "m", name = "avg_1015_aglna2_1#15$1",focus="m")]
+[name="安洁莉娜"]呃......不好意思，我真的有急事需要离开——
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_1185_1#1$1")]
+[name="奇怪的年轻人B"]——想走就走，看不起我们是吧！把辣瓶树粉交出来！
+[charslot(slot = "m", name = "avg_1015_aglna2_1#17$1",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]你们......
+[charslot(slot = "m",focus="n")]
+[name="？？？"]嘿！！
+[charslot(slot = "m", name = "avg_1015_aglna2_1#22$1",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]欸？
+[dialog]
+[charslot]
+[PlaySound(key="$rungeneral")]
+[charslot(slot="m",name="avg_4235_thumpy_1#11$1",posfrom="-200,0",posto="0,0",duration=1,isblock=true)]
+[delay(time=1)]
+[name="塔妮"]你......你......
+[charslot(slot="m",focus="n")]
+[PlaySound(key="$d_avg_stompfeet",volume=0.8)]
+疾跑而来的女孩一口气没顺上来，卡壳之后又不知该从何说起，急得忍不住开始跺脚。
+虽然气势一下子减弱了一大半，但她还是成功转移了那两个年轻人的注意力。
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_1185_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_1186_1#1$1",focus="r")]
+[name="奇怪的年轻人A"]嘿，塔妮，你过来干什么？这里可不是你这种乖孩子来的地——
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_4235_thumpy_1#2$1")]
+[name="塔妮"]停！
+[charslot(slot="m",name="avg_4235_thumpy_1#2$1")]
+[name="塔妮"]辣瓶树粉根本就不是药！你们每次吸到鼻子里挤眉弄眼又流眼泪的，那根本不是药效，是被辣的！
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_1185_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_1186_1#1$1",focus="r")]
+[name="奇怪的年轻人A"]胡说！
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_4235_thumpy_1#3$1")]
+[name="塔妮"]而且你们现在拿的也不是什么“超级纯的辣瓶树粉”，就是萝卜和辣椒放在一起磨成的粉——研磨机还是求爷爷告奶奶才弄来的二手货！
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_1185_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_1186_1#1$1",focus="r")]
+[charslot(slot = "r", action="shake", power=5, times=60,isblock=true,duration=0.2)]
+[delay(time=0.5)]
+[name="奇怪的年轻人A"]......呃！塔妮，这件事——
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_4235_thumpy_1#2$1")]
+[name="塔妮"]镇上所有人都知道！
+[name="塔妮"]还有你！你身上的也根本不是满背纹身，那是一卡列提能批发五百张的纹身贴！
+[dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_1185_1#1$1",focus="l")]
+[charslot(slot = "r", name = "avg_npc_1186_1#1$1",focus="l")]
+[charslot(slot = "l", action="shake", power=5, times=60,isblock=true,duration=0.2)]
+[delay(time=0.5)]
+[name="奇怪的年轻人B"]......啊！
+[dialog]
+[charslot(slot = "r",focus="all")]
+[charslot(slot = "l", action="shake", power=5, times=60,isblock=true,duration=0.2)]
+[charslot(slot = "r", action="shake", power=5, times=60,isblock=true,duration=0.2)]
+[delay(time=0.5)]
+[name="不再奇怪的年轻人们"]塔妮，给我等着！总有一天你会后悔的！
+[dialog]
+[PlaySound(key="$rungeneral")]
+[charslot(slot = "l",posfrom="0,0",posto="200,0",afrom=1,ato=0,duration=0.4)]
+[charslot(slot = "r",posfrom="0,0",posto="200,0",afrom=1,ato=0,duration=0.4)]
+[delay(time=1.5)]
+[dialog]
+[charslot]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#18$1")]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#21$1",posfrom="50,0",posto="50,0",duration=1)]
+[Delay(time=1.1)]
+[charslot(slot = "l", focus="l")]
+[name="安洁莉娜"]噗，他们怎么回事呀？
+[charslot(slot = "r", name = "avg_4235_thumpy_1#18$1",focus="r")]
+[name="塔妮"]......两个标新立异的怪家伙。可能是镇子上太无聊了吧，所以开始学叙拉古电影里的角色，搞得不伦不类的。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#16$1",focus="r")]
+[name="塔妮"]忘记自我介绍了，我是大涌泉镇的接线员塔妮！
+[charslot(slot = "r", name = "avg_4235_thumpy_1#14$1",focus="r")]
+[name="塔妮"]很抱歉给你添了麻烦......但这次的问题真的很奇怪，线路接对了，人却是错的，镇上的交换机从来没出现过这种问题......
+[name="塔妮"]抱歉，我回去一定会检修一下线路的。你——
+[charslot(slot = "r", name = "avg_4235_thumpy_1#7$1",focus="r")]
+[name="塔妮"]你是一名信使？
+[charslot(slot = "l", name = "avg_1015_aglna2_1#1$1",focus="l")]
+[name="安洁莉娜"]对呀。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#7$1",focus="r")]
+[name="塔妮"]那、那你是不是去过很多地方？雷姆必拓之外的地方？
+[charslot(slot = "l", name = "avg_1015_aglna2_1#3$1",focus="l")]
+[name="安洁莉娜"]唔......维多利亚、叙拉古、东国、炎国、莱塔尼亚......确实很多，而且不常来雷姆必拓。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#6$1",focus="r")]
+[name="塔妮"]（小声）这么多地方......哇哦！
+[charslot(slot = "l", name = "avg_1015_aglna2_1#1$1",focus="l")]
+[name="安洁莉娜"]能不能麻烦你帮我问问罗德岛办事处到底在哪？我有很重要的东西要送过去。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#4$1",focus="r")]
+[name="塔妮"]镇子上的矿石病疗养机构都在大涌泉镇的温泉广场扎堆，每隔一段时间就会换一批。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",focus="r")]
+[name="塔妮"]你人生地不熟的估计得找好长时间，还是我带你去——
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",focus="r")]
+[name="塔妮"]呃，我是说，我帮你一起找！
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="76_g3_bathhouse",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$tech_intro",key="$tech_loop", volume=0.6)]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#9$2",posfrom="50,0",posto="50,0",focus="l")]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",focus="l")]
+[name="安洁莉娜"]“泉愈园”“天然热疗馆”“养生水疗”“胜药温泉馆”......
+[name="安洁莉娜"]呃，罗德岛的办事处应该更正规才对，而且他们还要建一个数据分析站点......
+[charslot(slot = "r", name = "avg_4235_thumpy_1#13$1",focus="r")]
+[name="塔妮"]但和感染者相关的外来机构都在这里了。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#13$1",focus="r")]
+[name="塔妮"]虽然大涌泉镇不排斥做感染者的生意，但......
+[charslot(slot = "l", name = "avg_1015_aglna2_1#2$2",focus="l")]
+[name="安洁莉娜"]......嗯，我明白。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#7$1",focus="r")]
+[name="塔妮"]那边那个人，她手里拿着的袋子，上面是不是写着“罗德岛”？
+[charslot(slot = "l", name = "avg_1015_aglna2_1#22$2",focus="l")]
+[name="安洁莉娜"]袋子上的字我看不清——
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_088", duration=1.5, block=true)]
+[Delay(time=2)]
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#21$2",posfrom="50,0",posto="50,0",focus="l")]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#7$1",focus="l")]
+[name="安洁莉娜"]不对不对，她当然是罗德岛干员！
+[Dialog]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "l", posfrom="50,0",posto="150,0",duration=0.6,afrom=1,ato=0)]
+[Delay(time=1)]
+[Dialog]
+[charslot]
+[Delay(time=1)]
+[charslot(slot = "r", name = "avg_npc_088",posfrom="80,0",posto="80,0")]
+[charslot(slot="l",name="avg_1015_aglna2_1#1$2",posfrom="-180,0",posto="50,0",afrom=0,ato=1,duration=1)]
+[Delay(time=1.1)]
+[charslot(slot="l",focus="l")]
+[name="安洁莉娜"]您好，我是安洁莉娜！请问您认识大涌泉镇办事处的皮塔干员吗？我是罗德岛总部来的信使安洁莉娜！
+[charslot(slot = "r", name = "avg_npc_088",focus="r")]
+[name="皮塔"]我就是皮塔，你好你好。
+[charslot(slot="l",name="avg_1015_aglna2_1#10$2",focus="l")]
+[name="安洁莉娜"]之前是我弄丢了本应寄给您的解密器，导致您没有办法继续研究，真的非常抱歉！
+[charslot(slot = "r", name = "avg_npc_088",focus="r")]
+[name="皮塔"]解密器......没有办法继续研究？
+[name="皮塔"]哦......也对，你还不知道大断连的事啊。
+[name="皮塔"]因为大断连，零号公路沿线的远程通讯都断了，南境的数据根本发送不过来，就算你送来了十个解密器也没用。
+[charslot(slot="l",name="avg_1015_aglna2_1#2$2",focus="l")]
+[name="安洁莉娜"]所以“断连”的其实是零号公路沿线的远程通讯？
+[charslot(slot = "r", name = "avg_npc_088",focus="r")]
+[name="皮塔"]是啊，更确切地说，是“纵贯红土公司”设立的远程通讯系统。
+[charslot(slot="l",name="avg_1015_aglna2_1#22$2",focus="l")]
+[name="安洁莉娜"]我之前好像也听说过类似的名字，不过纵贯的好像不是红土......
+[charslot(slot = "r", name = "avg_npc_088",focus="r")]
+[name="皮塔"]嗯，这家公司是哥伦比亚特里蒙的，叫“纵贯公司”。他们每设一个国外分公司都会起不同的名字。
+[name="皮塔"]在玻利瓦尔的叫“纵贯树海”，在谢拉格的叫“纵贯险峰”，“纵贯红土”就是雷姆必拓了。
+[name="皮塔"]本来嘛，靠他们从这座大涌泉镇架设到雷姆必拓首都终极大铁屯的线路，一路上的人都是可以远程通讯的。
+[name="皮塔"]罗德岛当初也选择接入了纵贯红土公司的线路，数据可以从南境发送到大铁屯再发过来。
+[name="皮塔"]出于数据保密的要求，超出时限没有处理的数据会自动销毁，等待下一个发送周期。
+[name="皮塔"]但在我向罗德岛总部寄出没有收到解密器的回函之后，零号公路沿线的远程通讯全都断了......唔，应该是六月左右吧。
+[charslot(slot="l",name="avg_1015_aglna2_1#10$2",focus="l")]
+[name="安洁莉娜"]六月份......那如果我上次的包裹没有送错，您应该是来得及解密南境的数据的......？
+[stopmusic(fadetime=2)]
+[charslot(slot = "r", name = "avg_npc_088",focus="r")]
+[name="皮塔"]理论上是这样啦——不说这些不高兴的了。你不是还给我带药物了嘛，真是帮了大忙！让我看看——
+[multiline(name="皮塔")]矿石病急性发作抑制剂四十支、
+[multiline(name="皮塔")]源石粉尘防护套装十件、
+[multiline(name="皮塔")]“啊~致我的爱人~”手工巧克力一盒——
+[playMusic(key="$comedy_loop", volume=0.6)]
+[name="皮塔"]欸？我的爱人？
+[Dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[charslot]
+[Image(image="76_i01_2", screenadapt="coverall",fadetime=0)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Delay(time=2)]
+[Dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[charslot]
+[image]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#8$2",posfrom="50,0",posto="50,0",focus="l")]
+[charslot(slot = "r", name = "avg_npc_088",posfrom="80,0",posto="80,0",focus="l")]
+[name="安洁莉娜"]......是因为来的路上越野车载货区放着的信被风吹散了，打包的时候手忙脚乱，有些包裹的位置就放错了。
+[charslot(slot = "l", name = "avg_1015_aglna2_1#9$2",focus="l")]
+[name="安洁莉娜"]说起这件事，我记得出发的时候检查过，包裹都捆严实了才对......为什么偏偏在那个地方全都飞出去了呢？
+[charslot(slot = "r", name = "avg_npc_088",focus="r")]
+[name="皮塔"]这你就不知道啦。
+[name="皮塔"]相传在雷姆必拓的土地上，有一种生物会“偷走”人们没有说出口的话。
+[charslot(slot = "l", name = "avg_1015_aglna2_1#7$2",focus="l")]
+[name="安洁莉娜"]偷走......话语？这怎么可能？
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_4235_thumpy_1#16$1")]
+[name="塔妮"]皮塔小姐，您说的是有袋鼷兽的传说？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]有袋鼷兽？
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$1")]
+[name="塔妮"]嗯。在雷姆必拓，有袋鼷兽的故事是每一个孩子都听过的睡前故事。我奶奶告诉我的版本是这样的......
+[PlaySound(key="$d_avg_dream", volume=0.5)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[curtain(direction = 0,fillfrom = 0.5,fillto = 0.18,grad=true,fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.5,fillto = 0.18,grad=true,fadetime=0.1)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_wilderness_d",screenadapt="coverall")]
+[focusout(duration=0, type="bg", from=0, to=1, block=false)]
+[Blocker(a=0.2, r=0.2, g=0.2, b=0, fadetime=2, block=true)]
+[focusout(duration=0, type="bg", from=1, to=0.6, block=false)]
+[Delay(time=1)]
+[name="塔妮"]在雷姆必拓还没有移动平台，没有零号公路，甚至没有信使的时候......
+[name="塔妮"]荒地上天灾频发，冲散了很多原本住在一起的家人，令他们不得不生活在不同的村庄。
+[Dialog]
+[avgdisplay(id = "2", style = "bg", name = "bg_black", afrom = 1 ,ato = 0.5, duration = 2, slot = "bgover", layer = 2)]
+[avgdisplay(id = "1", style = "bgeffect", name = "$eb_spotlight_02",x=0,y=80,slot = "bgover", layer = 1)]
+[PlaySound(key="$d_avg_spotlight",volume=0.7)]
+[charslot(slot = "m", name = "avg_npc_2356_1#1$1",posfrom="50,-30",posto="50,-30",block=true)]
+[charslot(slot="m",action="zoom",poszoom="0.5,0.65",scale=1.45,duration=0,isblock=true)]
+[Delay(time=2)]
+[name="塔妮"]有一个勇敢的雷姆必拓人，她对人与人之间无法传递心意感到痛心，自发成为第一位信使，为相隔甚远的亲人、朋友、恋人们传递话语。
+[Dialog]
+[charslot(slot = "m", posfrom="50,-30",posto="-250,-30",duration=0.5,afrom=1,ato=0)]
+[charslot(slot = "r",name = "avg_npc_2349_1#1$1",afrom=0,ato=0)]
+[charslot(slot="r",action="zoom",poszoom="0.5,0.65",scale=1.55,duration=0,isblock=true)]
+[charslot(slot = "r",name = "avg_npc_2349_1#1$1",posfrom="100,0",posto="-150,0",duration=0.5,afrom=1,ato=1)]
+[Delay(time=1)]
+[name="塔妮"]与她一同上路的，是一只形似鼷兽，还会飞翔的聪慧生物。
+[name="塔妮"]因为它的胸前有一个口袋，又总喜欢把自己珍视的东西藏进口袋里，所以叫它有袋鼷兽。
+[name="塔妮"]她们的旅程一直非常愉快，直到有一天，有袋鼷兽无论如何不愿再替她送信。
+[name="塔妮"]勇敢的雷姆必拓人发现有袋鼷兽偷看了信件，信件变得空白一片，有袋鼷兽把信中的心意和话语全都占为己有。
+[Dialog]
+[PlaySound(key="$d_avg_knock_head", volume=1)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot = "r", name = "avg_npc_2349_1#1$4")]
+[name="塔妮"]在有袋鼷兽逃走之前，勇敢的雷姆必拓人用行路的手杖敲打了它的脑袋，让它忘记了听懂和阅读话语的能力。
+[Dialog]
+[PlaySound(key="$d_avg_bubble_cartoon_1", volume=1)]
+[Effect(name="$e_emoji_proud",layer=1,x=90,y=80)]
+[charslot(slot = "r", name = "avg_npc_2349_1#2$1",duration=0.3)]
+[Delay(time=1.5)]
+[avgdisplay(id = "2")]
+[avgdisplay(id = "1")]
+[PlaySound(key="$d_avg_wing", volume=1)]
+[charslot(slot = "r", name = "avg_npc_2349_1#1$6",duration=0.3)]
+[Delay(time=0.3)]
+[charslot(slot = "r", name = "avg_npc_2349_1#1$6",posfrom="-150,-30",posto="130,20",afrom=1,ato=1,duration=1)]
+[Delay(time=1)]
+[charslot(slot = "r",posfrom="130,-20",posto="300,100",afrom=1,ato=0,duration=1.5)]
+[Delay(time=1.5)]
+[name="塔妮"]有袋鼷兽受伤的地方长出了显眼的绒毛，在偷窃话语时再也无法完全隐匿身形，最后只能躲去南境生活。
+[Dialog]
+[charslot]
+[charslot(slot = "l",name = "avg_npc_2356_1#1$1", posfrom="-200,-60",posto="-80,-60",duration=1)]
+[charslot(slot = "m",name = "avg_npc_2355_1#1$1", posfrom="300,-60",posto="180,-60",duration=1)]
+[charslot(slot = "r",name = "avg_npc_2352_1#1$1", posfrom="280,-63",posto="160,-63",duration=1)]
+[Delay(time=1)]
+[name="塔妮"]勇敢的雷姆必拓人将这个故事告诉了她遇到的所有人，提醒他们要把未说出口的话和心意尽快向重要的人表达，以防被有袋鼷兽窃走。
+[Dialog]
+[Blocker(a=0.2, r=0.2, g=0.2, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[curtain]
+[Background(image="76_g3_bathhouse",screenadapt="coverall")]
+[focusout(duration=0, type="bg", from=0.6, to=0, block=false)]
+[delay(time=1)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#6$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]唔......塔妮很会讲故事欸，我都能想象到有袋鼷兽的样子了——
+[charslot(slot = "m", name = "avg_4235_thumpy_1#16$1")]
+[name="塔妮"]是我奶奶讲得好啦——
+[charslot(slot = "m", name = "avg_4235_thumpy_1#15$1")]
+[name="塔妮"]不不不，但这可不只是故事！
+[name="塔妮"]雷姆必拓的信使都知道，要在包裹上挂好驱赶有袋鼷兽的草药包，我的接线室门口也挂着“禁止有袋鼷兽入内”的警示牌！
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$1")]
+[name="塔妮"]不过警示牌上的有袋鼷兽其实都是乱画的，它们除了都长了个口袋，就没什么共同点了。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#22$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]咦，难道大部分雷姆必拓人没见过这种生物？
+[charslot(slot = "m", name = "avg_4235_thumpy_1#5$1")]
+[name="塔妮"]有袋鼷兽逃跑的速度非常快，只要它不愿意，就很少有人能看到它，如果你能看到它就说明它已经偷走了你的东西！
+[charslot(slot = "m", name = "avg_4235_thumpy_1#12$1")]
+[name="塔妮"]......不要这样看着我啦，安洁莉娜，这些都是奶奶告诉我的，奶奶从来不说假话的！
+[charslot(slot = "m", name = "avg_npc_088")]
+[name="皮塔"]好啦，现在数据全在南境的数据采集器的存储器里，只能等远程通讯塔修好了。你就好好放松一下，泡个温泉怎么样？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]那远程通讯塔什么时候能修好呢？
+[charslot(slot = "m", name = "avg_npc_088")]
+[name="皮塔"]这就不知道了。线路这么长，又不知道出了什么问题，可能纵贯红土公司的人也很挠头吧。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#3$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]......
+[charslot(slot = "m", name = "avg_1015_aglna2_1#1$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]我可以去南境，把数据带回来呀！
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_088",focus="all")]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#7$1",focus="all")]
+[name="皮塔&塔妮"]什么？！
+[charslot(slot = "l", name = "avg_npc_088",focus="l")]
+[name="皮塔"]不行！南境鲜有人涉足，因为通往南境的路实在太恶劣了！
+[name="皮塔"]零号公路你看到了吧？全是深坑和源石结晶，但只有沿着它才能到达南境。
+[name="皮塔"]之前罗德岛在南境设置采集装置的时候也频频受阻，光是抵达南境就花了好几个月。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#5$1",focus="r")]
+[name="塔妮"]好几个月？我记得奶奶说她没走这么久啊？
+[charslot(slot = "l", name = "avg_npc_088",focus="l")]
+[name="皮塔"]大铁屯和南境中间有一片环境非常恶劣的区域，一年中没有几天是能正常通过的。
+[name="皮塔"]首先，那片区域常年风沙大作，中间还会出现快速移动型沙暴，一般人进入沙暴范围后很快就会迷失方向，根本逃不出去。
+[name="皮塔"]其次，就算侥幸抓住了沙暴比较弱的时机，那边空气中的活性源石微粒浓度也非常高，去了和送死没什么区别！
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#1$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]可罗德岛的人还是穿过去了，对吗？
+[charslot(slot = "m", name = "avg_npc_088")]
+[name="皮塔"]按说正常想要抵达南境只能看天吃饭——找一个既没有沙暴，活性源石浓度也较低的日子......但这样的日子可太少了。
+[name="皮塔"]罗德岛工程队能过去是因为——
+[charslot(slot = "m", name = "avg_1015_aglna2_1#1$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]无论罗德岛原先的工程队是如何抵达南境的，我都会用自己的方式到达那里。
+[name="安洁莉娜"]我知道去南境非常困难，但犯了错就应该自己弥补，至少......让我试一试，好吗？
+[charslot(slot = "m", name = "avg_npc_088")]
+[name="皮塔"]......看来我是拦不住你了？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#6$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]嗯哼♪
+[charslot(slot = "m", name = "avg_npc_088")]
+[name="皮塔"]不过我倒是好奇起来了，你到底为什么这么坚持？
+[charslot(slot = "m", name = "avg_1015_aglna2_1#2$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]尽量减少我犯错给大家带来的麻烦。这是我本来就应该做的。
+[charslot(slot = "m", name = "avg_1015_aglna2_1#1$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]而且......这毕竟是我力所能及的事情啊。
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_088",focus="n")]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#6$1",focus="n")]
+安洁莉娜的声音尽管坚定，却带着一丝惆怅，不过另外两个人显然没听出来。
+尤其是塔妮，她看着安洁莉娜的眼神里全是憧憬。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_1015_aglna2_1#14$2",posfrom="50,0",posto="50,0")]
+[name="安洁莉娜"]就、就只是这么回事啦。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="76_g4_dailytown",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$path_intro", key="$path_loop", volume=0.6)]
+[PlaySound(key="$d_avg_paper2")]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",posfrom="50,0",posto="50,0",focus="l")]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#2$2",posfrom="80,0",posto="80,0",focus="l")]
+[name="安洁莉娜"]让我看看地图......
+[Dialog]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#3$2",posfrom="80,0",posto="-30,0",afrom=1,ato=1,duration=1.5)]
+[Delay(time=0.5)]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",posfrom="50,0",posto="-30,0",afrom=1,ato=1,duration=1.5)]
+[Delay(time=1.6)]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#1$2",focus="l")]
+[name="安洁莉娜"]大涌泉镇在这里，嗯，下一站先去这边的洋蓟村，我记得有信使提起过那边产的胡萝卜干很好吃，可以带一点在路上......
+[Dialog]
+[PlaySound(key="$d_avg_paper2")]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#4$2",posfrom="-30,0",posto="120,0",afrom=1,ato=1,duration=1.5)]
+[Delay(time=0.5)]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#7$1",posfrom="-30,0",posto="120,0",afrom=1,ato=1,duration=1.3)]
+[Delay(time=1.5)]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#5$2",focus="l")]
+[name="安洁莉娜"]去太阳谷的路线让我再想想......
+[Dialog]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#5$2",posfrom="120,0",posto="50,0",afrom=1,ato=1,duration=2)]
+[Delay(time=0.5)]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#6$1",posfrom="120,0",posto="0,0",afrom=1,ato=1,duration=1.5)]
+[Delay(time=1.8)]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#1$2",focus="l")]
+[name="安洁莉娜"]那个......塔妮，谢谢你一路帮我找到办事处，不过已经快到吃晚饭的时候了，你......不回家吗？
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",focus="r")]
+[name="塔妮"]我先不回家！安洁，我想问你一个问题......
+[charslot(slot = "r", name = "avg_4235_thumpy_1#6$1",focus="r")]
+[name="塔妮"]你能不能带我一起上路，去南境？
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot = "l", name = "avg_1015_aglna2_1#12$2",focus="l")]
+[name="安洁莉娜"]嗯？！
+[name="安洁莉娜"]等等，这可不是说说就行......
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",focus="r")]
+[name="塔妮"]是、是这样的！
+[Dialog]
+[charslot(slot = "r", posfrom="0,0",posto="-50,0",afrom=1,ato=1,duration=0.6)]
+[Delay(time=1)]
+[charslot(slot = "r",focus="n")]
+塔妮急忙从自己随身的红色小包里掏出一根糖胡萝卜条，递给安洁莉娜。
+安洁莉娜下意识地接了过去。
+[Dialog]
+[charslot(slot = "r", posfrom="-50,0",posto="0,0",afrom=1,ato=1,duration=0.6)]
+[Delay(time=1)]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#16$1",focus="r")]
+[name="塔妮"]今天是我的生日，今天一过我就满十八岁了，爸爸妈妈答应过，我成年以后就可以一个人出门远行了——像我的奶奶一样！
+[charslot(slot = "l", name = "avg_1015_aglna2_1#2$2",focus="l")]
+[name="安洁莉娜"]你的奶奶......？
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",focus="r")]
+[name="塔妮"]嗯！奶奶是一个很厉害的人。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#18$1",focus="r")]
+[name="塔妮"]她的身上总是挂着一块怀表，她说只要用时针对着太阳，就能辨别出南方。
+[name="塔妮"]不仅如此，这块怀表还是她的施术单元，奶奶的源石技艺天赋很高，总能轻轻松松地解决问题。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",focus="r")]
+[name="塔妮"]在雷姆必拓四处旅行的时候，奶奶用怀表做了很多很多厉害的事情，甚至还在六十岁时到达了南境！
+[charslot(slot = "r", name = "avg_4235_thumpy_1#5$1",focus="r")]
+[name="塔妮"]只可惜那块怀表在那趟旅行中丢了，之后她也回到了大涌泉镇，没有再踏上过旅途......
+[charslot(slot = "l", name = "avg_1015_aglna2_1#1$2",focus="l")]
+[name="安洁莉娜"]哇，她一个人去的南境？
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",focus="r")]
+[name="塔妮"]是啊，奶奶是个探险家，不过用我们的话来说，她是一名资深探路者。
+[charslot(slot = "l", name = "avg_1015_aglna2_1#2$2",focus="l")]
+[name="安洁莉娜"]探路者？
+[Dialog]
+[charslot(slot = "r", posfrom="0,0",posto="-50,0",afrom=1,ato=1,duration=0.6)]
+[Delay(time=1)]
+[charslot(slot = "r",focus="n")]
+塔妮在小包里翻了翻，又从里面掏出一块山楂糖，再次递给安洁莉娜。
+安洁莉娜迟疑了一下，还是接了过去。
+[Dialog]
+[charslot(slot = "r", posfrom="-50,0",posto="0,0",afrom=1,ato=1,duration=0.6)]
+[Delay(time=1)]
+[charslot(slot = "r", name = "avg_4235_thumpy_1#4$1",focus="r")]
+[name="塔妮"]在我们雷姆必拓，聚落经常因为人口太多，必须寻找新的落脚点。这个时候，探路者就会出发，走入荒野，寻找新的适合生活的地方。
+[name="塔妮"]奶奶当年从原来的聚落出发，顺着外面的零号公路一路向北走，找到了这里。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",focus="r")]
+[name="塔妮"]在我小时候，奶奶一直和我讲她一路上的见闻。
+[name="塔妮"]峡谷中的太阳、飞来飞去却几乎没人见过的有袋鼷兽、比山还要高的移动舰船、比裂谷还深的矿场......
+[name="塔妮"]我一直很想去看看奶奶说的那些事。
+[charslot(slot = "r", name = "avg_4235_thumpy_1#16$1",focus="r")]
+[name="塔妮"]所以我一直在为这次远行做准备，每天都在这个小包里放一点路上会用到的东西，晚上回去再放到大背包里。
+[name="塔妮"]现在我的大背包已经准备得非常完善，可以支持我随时出发——等跟家人过完生日，明天我就跟你一起去南境！
+[Dialog]
+[charslot]
+太阳渐渐落下。
+见安洁莉娜已经吃完了那颗山楂糖，塔妮又在小包里开始翻找，随后高兴地向安洁莉娜递来一块香甜樱桃糕。
+这次安洁莉娜克制住了接过来的冲动，不过面对塔妮热情的攻势，这点象征性的抵抗显然没什么用。
+[charslot(slot = "r",name = "avg_4235_thumpy_1#1$1",focus="l")]
+[charslot(slot = "l",posfrom="50,0",posto="50,0", name = "avg_1015_aglna2_1#1$2",focus="l")]
+[name="安洁莉娜"]多谢你的零食。塔妮，我想我得......
+[charslot(slot = "r", name = "avg_4235_thumpy_1#1$1",focus="r")]
+[name="塔妮"]嘿嘿，得找个地方落脚，还有好好吃点东西对不对？光是零食可填不饱肚子！
+[charslot(slot = "r", name = "avg_4235_thumpy_1#16$1",focus="r")]
+[name="塔妮"]我从来没有出过大涌泉镇，想听你讲讲外面的故事，要不来我家吃生日宴吧？
+[charslot(slot = "l", name = "avg_1015_aglna2_1#3$2",focus="l")]
+[name="安洁莉娜"]这个......
+[Dialog]
+[PlaySound(key="$d_avg_hungry")]
+[Delay(time=1)]
+[charslot(slot = "l",posfrom="50,0",posto="50,0", name = "avg_1015_aglna2_1#14$2",focus="l")]
+[name="安洁莉娜"]呃......
+[charslot(slot = "r", name = "avg_4235_thumpy_1#18$1",focus="r")]
+[name="塔妮"]嘿嘿~
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Background]
+[Image]

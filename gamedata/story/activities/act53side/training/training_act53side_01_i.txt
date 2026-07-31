@@ -1,0 +1,13 @@
+[header(is_skippable=false, is_tutorial=true)]
+[Battle.LockFunction(mask="SYSTEM_MENU_INTERACT")]
+[Battle.Pause]
+[inputblocker(blockInput=true, black=0.3)]
+
+[popupdialog(dialogHead="$avatar_aglna2")]呼，我的信件都送完啦！
+
+[popupdialog(dialogHead="$avatar_kroos", protectTime=0.5)]好~那我们现在是不是就可以参加冰淇淋争夺赛了？
+
+[popupdialog(dialogHead="$avatar_aglna2", protectTime=0.5)]嘿嘿，没错哦，看我的！
+
+[battle.unlockfunction(mask="SYSTEM_MENU_INTERACT")]
+[battle.pause(pause=false)]

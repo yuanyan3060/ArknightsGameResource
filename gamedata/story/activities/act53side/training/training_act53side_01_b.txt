@@ -1,0 +1,27 @@
+[header(is_skippable=false, is_tutorial=true)]
+[Battle.LockFunction(mask="SYSTEM_MENU_INTERACT")]
+[Battle.Pause]
+[inputblocker(blockInput=true, black=0.3)]
+
+[Tutorial(tileX=3, tileY=3, focusWidth=140, focusHeight=140, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_doberm", \
+          dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+安洁莉娜说她临时接到了派送任务，需要将<@tu.kw>浮空信件</>投进<@tu.kw>邮箱</>。我们先来协助她，忙完以后再一起放松吧。
+
+[Tutorial(tileX=8.5, tileY=4, focusWidth=140, focusHeight=140, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_doberm", \
+          dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+通过<@tu.kw>攻击浮空信件</>将它传递到干员所在位置，来缩短安洁莉娜的投递距离。
+
+[Tutorial(tileX=3, tileY=1, focusWidth=140, focusHeight=140, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_doberm", \
+          dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+或者是将干员部署到安洁莉娜的<@tu.kw>飞行路径</>上，为她加油，让她飞得更快些。
+
+[popupdialog(dialogHead="$avatar_red", protectTime=0.5)]红明白了。
+
+[battle.unlockfunction(mask="SYSTEM_MENU_INTERACT")]
+[battle.pause(pause=false)]

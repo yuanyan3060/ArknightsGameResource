@@ -1,0 +1,532 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[curtain(direction = 0,fillfrom = 0.1,fillto = 0.11, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.1,fillto = 0.11, fadetime=0.1)]
+[playsound(key="$d_avg_driveincar", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.5, channel="bgs",fadetime=2)]
+[CameraShake(duration=-1, xstrength=0.5, ystrength=0.5, vibrato=30, randomness=30, fadeout=false, block=false)]
+[Background(image="76_g15_dttsuburb_d",screenadapt="coverall",xScale=1.05, yScale=1.05,x=-15)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playMusic(intro="$relax_intro", key="$relax_loop", volume=0.6)]
+[charslot(slot="l",name="avg_4237_jcinta_1#2$1",duration=1,posfrom = "0,-30", posto = "0,-30")]
+[charslot(slot="r",name="avg_4235_thumpy_1#5$1",duration=1,posfrom = "0,-30", posto = "0,-30")]
+[Delay(time=1.5)]
+[charslot(slot="r",name="avg_4235_thumpy_1#5$1",focus="r")]
+[name="塔妮"]天都亮了，不知道安洁有没有说服阿梅......
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[name="嘉辛塔"]哼，要是我们之中最讲道理的安洁都拿阿梅没办法，你跟我就一人拽她的一只袖管，把整个人拖上我们的越野车！
+[charslot(slot="r",name="avg_4235_thumpy_1#16$1",focus="r")]
+[name="塔妮"]我喜欢这个点子！
+[Dialog]
+[charslot(slot = "m", focus = "n")]
+[PlaySound(key="$d_avg_carhorn")]
+[Delay(time=1.5)]
+[charslot(slot="l",name="avg_4237_jcinta_1#2$1",focus="l")]
+[name="嘉辛塔"]谁啊？比我们还着急？
+[Dialog]
+[charslot(slot = "m", focus = "all")]
+[backgroundTween( xTo=10,block=false,duration=1)]
+[Delay(time=1)]
+[playsound(key="$d_avg_carpassby")]
+[Delay(time=1.5)]
+[charslot(slot="r",name="avg_4235_thumpy_1#5$1",focus="r")]
+[name="塔妮"]看车尾的标识好像是纵贯红土公司的，他们要去的方向是......通讯塔？
+[charslot(slot="r",name="avg_4235_thumpy_1#13$1",focus="r")]
+[name="塔妮"]等等，你看通讯塔上层是不是有人？
+[charslot(slot="l",name="avg_4237_jcinta_1#6$1",focus="l")]
+[name="嘉辛塔"]阿梅？！
+[name="嘉辛塔"]没错，那个毛茸茸的大尾巴......是阿梅！
+[charslot(slot="r",name="avg_4235_thumpy_1#14$1",focus="r")]
+[name="塔妮"]她为什么会在这个时间去修塔？难道......
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[name="嘉辛塔"]没有什么难道！我才不管她为什么要修，但既然她在上面，纵贯红土公司的人又在往那里赶，就说明阿梅不是他们派过去的！
+[charslot(slot="r",name="avg_4235_thumpy_1#13$1",focus="r")]
+[name="塔妮"]那......前面那些赶去通讯塔的人，是找阿梅麻烦的？
+[charslot(slot="l",name="avg_4237_jcinta_1#3$1",focus="l")]
+[name="嘉辛塔"]找阿梅麻烦？
+[Dialog]
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1")]
+[bgeffect(name = "$eb_speedline" ,layer = 1)]
+[charslot(slot = "m", focus = "all")]
+[focusout(duration=1, type="bg", from=0, to=1)]
+[CameraShake(duration=3, xstrength=2, ystrength=2, vibrato=50, randomness=90, fadeout=false, block=false)]
+[PlaySound(key="$d_avg_carspeedup", volume=1)]
+[Delay(time=2)]
+[bgeffect]
+[CameraShake(duration=-1, xstrength=1, ystrength=1, vibrato=50, randomness=90, fadeout=false, block=false)]
+[charslot(slot="r",name="avg_4235_thumpy_1#20$1",focus="r")]
+[name="塔妮"]嘉嘉嘉嘉辛塔——！
+[name="塔妮"]你才刚开多长时间的车就敢这么踩油门？！
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[name="嘉辛塔"]放心吧塔妮，你都不知道我在梦里演练这个场景已经多少次了！
+[charslot(slot="r",name="avg_4235_thumpy_1#19$1",focus="r")]
+[name="塔妮"]梦里——梦里像话吗？！
+[Dialog]
+[charslot(duration=0.5)]
+[bgeffect(name = "$eb_speedline" ,layer = 1)]
+[PlaySound(key="$d_avg_carspeedup", volume=1)]
+[backgroundTween(xScaleFrom=1.05, yScaleFrom=1.05, xScaleTo=1.1, yScaleTo=1.1, duration=3,block=false)]
+[CameraShake(duration=-1, xstrength=1, ystrength=1, vibrato=50, randomness=90, fadeout=false, block=false)]
+橙色越野车不断加速，很快就跟到了安保车队后面。
+车队最后的那辆货车上的安保人员百无聊赖地打着哈欠，随后看到了窗外两张年轻明媚的笑脸。
+[dialog]
+[PlaySound(key="$d_avg_electricbicycle_speedup", volume=1)]
+[SoundVolume(volume=1, channel="bgs",fadetime=1)]
+[CameraShake(duration=1.5, xstrength=3, ystrength=3, vibrato=50, randomness=50, fadeout=false, block=true)]
+[CameraShake(duration=-1, xstrength=1, ystrength=1, vibrato=50, randomness=90, fadeout=false, block=false)]
+他还没回过神来，眼前忽然出现一辆橙色的越野车横在自己面前，还顺便喷了他一头的尾气。
+第二辆、第三辆、第四辆......橙色越野车像不祥的煞星，逼停了安保车队的所有用车。
+司机们最后记得的是一辆发出畅快笑声的橙色越野车，慢慢消失在他们叫苦连天的抱怨声里。
+[Dialog]
+[charslot(slot="l",name="avg_4237_jcinta_1#1$1",duration=0.5,posfrom = "0,-30", posto = "0,-30")]
+[charslot(slot="r",name="avg_4235_thumpy_1#7$1",duration=0.5,posfrom = "0,-30", posto = "0,-30")]
+[Delay(time=1)]
+[charslot(slot="r",name="avg_4235_thumpy_1#7$1",focus="r")]
+[name="塔妮"]嘉辛塔......你可能有赛车的天赋......
+[charslot(slot="l",name="avg_4237_jcinta_1#4$1",focus="l")]
+[name="嘉辛塔"]我也觉得！等去完南境我就要去专业的赛车场跑两圈试试！
+[charslot(slot="l",name="avg_4237_jcinta_1#10$1",focus="l")]
+[name="嘉辛塔"]但现在，我们赶紧去通讯塔！
+[stopmusic(fadetime=2)]
+[Dialog]
+[StopSound(channel="bgs", fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[curtain]
+[CameraShake(duration=0, xstrength=1, ystrength=1, vibrato=50, randomness=90, fadeout=false, block=false)]
+[focusout(duration=0, type="bg", from=0, to=0)]
+[Delay(time=1)]
+[Background(image="76_g10_dtttowertop",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$friend_intro", key="$friend_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1",duration=1)]
+[Delay(time=1.5)]
+[name="阿梅利亚"]安洁把阿什顿部长他们拖住了？
+[charslot(slot="m",name="avg_4236_tmslot_1#7$1")]
+[name="阿梅利亚"]我骗了她，她......她却还在帮我......呜......
+[charslot(slot="m",name="avg_4236_tmslot_1#10$1")]
+[name="阿梅利亚"]呼......好了，阿梅，现在不是哭的时候。
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]通讯核心已经换好了，全自动模块的工作看起来问题也不大......
+[Dialog]
+[charslot(slot = "m", focus = "n")]
+[playsound(key="$d_avg_warning", loop=true, channel="b")]
+[Delay(time=0.3)]
+[StopSound(channel="b", fadetime=0.2)]
+[Delay(time=0.5)]
+[charslot(slot="m",name="avg_4236_tmslot_1#5$1")]
+[name="阿梅利亚"]报错？！我把参数调错了？不可能啊？
+[charslot(slot="m",name="avg_4236_tmslot_1#13$1")]
+[name="阿梅利亚"]等等......这是最大的一座塔，断连烧毁的电路可能比我想象的更多......
+[charslot(slot = "m", focus = "n")]
+她望向通讯塔尖，一块黑灰色的面板证实了她的猜想。
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]还好，只要把感应器重新连接上，通讯塔就能运作了。
+[name="阿梅利亚"]但从这里到通讯塔尖......好像只有无保护的维修梯能用了......
+[charslot(slot="m",name="avg_4236_tmslot_1#2$1")]
+[name="阿梅利亚"]呜......别发抖啊阿梅，你可以的，你必须可以的！
+[Dialog]
+[charslot(duration=1)]
+[Delay(time=1)]
+[CameraShake(duration=0.3, xstrength=5, ystrength=10, vibrato=15, randomness=90, fadeout=false, block=false)]
+[playsound(key="$d_avg_climbmetalladder", loop=true, channel="c")]
+[Delay(time=0.6)]
+[StopSound(channel="c", fadetime=0.2)]
+[Delay(time=1)]
+小小的阿纳缇把工具调整到称手的地方，踩上了维修梯的第一阶。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="76_g11_dtttowerfoot",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="l",name="avg_4237_jcinta_1#2$1",duration=1)]
+[charslot(slot="r",name="avg_4235_thumpy_1#10$2",duration=1)]
+[Delay(time=1.5)]
+[charslot(slot="r",name="avg_4235_thumpy_1#10$2",focus="r")]
+[name="塔妮"]安洁！我接到嘉辛塔了！阿梅现在怎么样？
+[charslot]
+[charslot(slot="m",name="avg_1015_aglna2_1#3$1")]
+[name="安洁莉娜"]从塔底看不太清楚，我只知道刚刚她还在通讯塔的主电路板前面，照理来说只要更换通讯核心就搞定了。
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]按照之前我们修塔的经验来看，应该很快就好了。有了通讯塔的导航，去南境的路也能安全一些。
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]太好了，我们四个终于能一起上路了！
+[charslot(slot="m",name="avg_4237_jcinta_1#3$1")]
+[name="嘉辛塔"]不过在此之前我们是不是应该考虑一下，该怎么从纵贯红土公司的职员和安保部队的包围中逃出去......
+[charslot(slot="m",name="avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]我只能用重力暂时拖缓他们的脚步，希望阿梅能快一点，我还从来没有持续使用过这么长时间的源石技艺，我担心......
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]我们相信你安洁！你不是跟我们说过很多在罗德岛练习源石技艺的故事吗？
+[charslot(slot="m",name="avg_1015_aglna2_1#15$1")]
+[name="安洁莉娜"]你不记得我们从大涌泉镇逃出来的那次了吗！我的源石技艺是会失控的啊——
+[charslot]
+[name="？？？"]呜......呜呜......
+[charslot(slot="m",name="avg_4235_thumpy_1#13$2")]
+[name="塔妮"]等一下，我怎么好像听到谁的哭声......
+[charslot]
+[charslot(slot="l",name="avg_1015_aglna2_1#23$1")]
+[charslot(slot="r",name="avg_4237_jcinta_1#6$1")]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="安洁莉娜&嘉辛塔"]是阿梅！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background]
+[Image(image="76_i08",y=-70,screenadapt="coverall",xScale=1.3, yScale=1.3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+阿梅利亚哭的时间总比别人久那么一点点。
+四岁时她摔破膝盖，在河边哭了一个小时，当时她的父亲还在异国他乡打拼，她身边唯一的亲人——母亲，也在矿井工作，不能来扶她。
+她哭累了之后拍拍身上的灰，一瘸一拐地走回家。
+得知自己考上雷姆必拓工业大学之后，她在房间里哭了两个小时。
+妈妈开心地要给她做当时很流行的胡萝卜千层派，但她不想让妈妈破费，两个人在厨房分享了一碗糖水炖胡萝卜。
+妈妈离世的时候，她哭了一整天。
+她曾下决心要给妈妈看看自己出人头地的样子，她想让一直操心的妈妈放心——除了父亲，自己也能成为她的依靠。
+可惜她错过了机会。
+她开始将所有努力的成果和证明寄回家，害怕再次失去令家人骄傲的机会。
+她习惯性地加班、挨骂、再加班，研究她唯一擅长的东西，唯一能令她暂时忘却遗憾的东西。
+只要坚持下去，她本应做得很出色啊......可为什么现在她站在失去工作、失去朋友、失去自信、失去梦想的边缘？
+她手脚发软地往上爬，想挽回她所有做错的选择、做错的事，但她知道自己在发抖、在流泪。
+她觉得自己永远爬不到顶端，永远会让别人失望，然后——
+[ImageTween( xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1.2, yScaleTo=1.2,duration=0.3,yTo=-50)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="嘉辛塔"]阿梅利亚！
+[ImageTween( xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1,duration=40,yTo=0)]
+一个熟悉的声音在她下面很远很远的地方嘶吼着。
+[name="阿梅利亚"]嘉、嘉辛塔？
+[name="嘉辛塔"]别回头啊笨蛋，你会掉下去的！动作不要停，有什么话直接说出来，我会在这里听着！
+[name="阿梅利亚"]好、好......
+[name="阿梅利亚"]嘉辛塔......真的对不起！你告诉我我其实很厉害的时候，我一开始其实——
+[name="阿梅利亚"]其实不相信！
+[name="嘉辛塔"]我看出来了！
+[name="阿梅利亚"]公司里有太多前辈会说“你好厉害”！但其实那只是他们打招呼的一种方式！他们不会在意你做的任何东西！
+[name="嘉辛塔"]你别扯着嗓子！就喊这些！扫兴的东西！我们明明还有别的要说！
+[name="阿梅利亚"]我——当你，还有塔妮、安洁莉娜！你们一遍一遍鼓励我的时候！我真的开始觉得我可以做到很多事！
+[name="阿梅利亚"]所以我不小心把那些从来没有对任何人说过的想法和梦告诉了你们......但......呜......我现在还做不到这些......
+[name="嘉辛塔"]大点声！我听不见！
+[name="阿梅利亚"]我没办法笃定地告诉你们我真的很想跟你们一起去南境！我也没办法果断地递出辞呈离开公司，我甚至连爬通讯塔都会害怕，呜——
+[name="嘉辛塔"]不许哭，阿梅利亚！
+[name="阿梅利亚"]然后你现在连哭也不让我哭！
+[name="嘉辛塔"]......我是说！你睁开眼睛看看，你已经爬到！塔顶啦！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[image]
+[Background(image="53_g16_sunnyday_L1",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+阿梅利亚站在通讯塔尖，太阳好像在她触手可及的地方，整座大铁屯都在她的眼中。
+她研发的通讯技术从这里延伸向北，连通了一个又一个小镇，一座又一座移动采矿平台。
+让每个离家的人都有机会跟自己在意的人说几句话，让难以开口、却又想传达的心意不再有“距离”作为挡箭牌。
+阿梅利亚突然发现，站在这里的时候，纵贯红土公司的标志变得很小很小，而自己在地面上的投影很大很大。
+[name="阿梅利亚"]我要辞职......
+[name="嘉辛塔"]你说什么？
+[name="阿梅利亚"]我——说——
+[CameraShake(duration=0.1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[multiline(name="阿梅利亚")]我！
+[CameraShake(duration=0.1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[multiline(name="阿梅利亚")]要！
+[CameraShake(duration=0.1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[multiline(name="阿梅利亚")]辞！
+[CameraShake(duration=0.1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[multiline(name="阿梅利亚")]职！
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="阿梅利亚"]我要辞职，我要去南境！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background(image="76_g11_dtttowerfoot",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1",duration=1)]
+[Delay(time=1.5)]
+[name="嘉辛塔"]阿梅！通讯塔修好了没有啊！
+[charslot]
+[name="阿梅利亚"]感应器已经开始工作了，我修、修好啦——！
+[charslot(slot="m",name="avg_4237_jcinta_1#3$1")]
+[name="嘉辛塔"]那你怎么一动不动的！
+[charslot]
+[name="阿梅利亚"]我、我实在没有力气了，这里好高啊......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[PlaySound(key="$d_avg_crowdrun")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot(slot = "left", name = "avg_npc_329_1#1$1",duration = 0.5)]
+[delay(time=0.5)]
+[charslot(slot = "right", name = "avg_npc_329_1#1$1",duration = 0.5)]
+[delay(time=1.5)]
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[charslot(slot="m",name="avg_4235_thumpy_1#10$2")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[name="塔妮"]安保部队追上来了！快想想逃出去的方法，公司现在肯定不会放她走的！
+[charslot(slot="m",name="avg_4235_thumpy_1#14$2")]
+[name="塔妮"]唉，好不容易通讯塔修好了，我们还是没办法顺利去南境吗......
+[playMusic(intro="$counterstrike_intro", key="$counterstrike_loop", volume=0.6)]
+[charslot(slot="m",name="avg_1015_aglna2_1#25$1")]
+[name="安洁莉娜"]......
+[charslot]
+[name="阿梅利亚"]我......呜呜......我现在该怎么办......
+[charslot(slot="m",name="avg_4237_jcinta_1#6$1")]
+[name="嘉辛塔"]别哭啦，一会儿腿软了不小心站不住怎么办！
+[charslot(slot="m",name="avg_1015_aglna2_1#24$1")]
+[name="安洁莉娜"]那不如......
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
+[Background]
+[Image(image="76_i09_1",screenadapt="coverall")]
+[ImageTween( xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1,  yTo=-30, duration=20)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+安洁莉娜握着法杖的手在发烫，她回想每一次练习源石技艺时的感受，没有一次与现在相同。
+在训练室里，她花了无数个日夜控制源石技艺的施放方式，为自己制定了一套又一套训练方案，但她的源石技艺总是很不稳定。
+从刚上罗德岛那次严重的发作中好转之后，华法琳医生非常严肃地找了她一次。
+华法琳医生说，重力相关的源石技艺本来就极难操控，如果无法很好地控制，就尽量少使用它。
+哪怕能够完全依靠施术单元，感染者也应该时常记得这一点：
+没感染的人出错，消耗的是他人的信任，而感染者出错，燃烧的是自己的生命。
+[Dialog]
+[Image(image="76_i09_2",screenadapt="coverall",fadetime=1.5)]
+[ImageTween( xScaleFrom=1, yScaleFrom=1, xScaleTo=1, yScaleTo=1,  yTo=0, duration=0)]
+[Delay(time=2)]
+华法琳的话，安洁莉娜其实听进去了。
+但那句话，同样也在她心里种下了一颗小小的种子——有朝一日，她会成为那个会为一个人、一件事、一种理想，燃烧生命的人。
+一种理想，现在距离她略显遥远。
+但值得她拼尽全力的那件事，那些人，还有她自己，此刻就在眼前。
+她已经错过了一次燃烧的机会，她不愿再错过一次。
+[dialog]
+[Image(image="76_i09_2",screenadapt="coverall",fadetime=2, xScale=1.5, yScale=1.5)]
+[ImageTween( xScaleFrom=1, yScaleFrom=1, xScaleTo=1.05, yScaleTo=1.05,duration=1)]
+[PlaySound(key="$d_avg_OriginiumArts_wind_charge")]
+[Delay(time=1)]
+[playsound(key="$d_avg_OriginiumArts_wind_loop", loop=true, channel="l",volume=0)]
+[SoundVolume(volume=1, channel="l",fadetime=2)]
+[name="安洁莉娜"]......施术范围尽量做到最大，反重力程度尽量做到最高......
+[name="安洁莉娜"]（小声）没问题。不会有问题的。
+[name="安洁莉娜"]阿梅利亚！跳下来！
+[name="嘉辛塔&塔妮"]什么？！
+[name="安洁莉娜"]既然已经知道了我们每个人都想去南境，那就不应该停在这里！
+[name="安洁莉娜"]跳下来，阿梅利亚，不要害怕！我会接住你，接住你们每个人！
+[name="阿梅利亚"]我不害怕，安洁......我相信你！！
+[name="安洁莉娜"]好！
+[name="安洁莉娜"]塔妮、嘉辛塔，你们也准备好了吗？
+[name="嘉辛塔&塔妮"]嗯！
+[name="安洁莉娜"]听我的口令！
+[name="安洁莉娜"]三——
+[name="安洁莉娜"]二——
+[name="安洁莉娜"]一——
+[Dialog]
+[Image(image="76_i09_3",screenadapt="coverall",fadetime=0.3,xScale=1.05, yScale=1.05)]
+[CameraShake(duration=0.3, xstrength=15, ystrength=15, vibrato=35, randomness=90, fadeout=true, block=false)]
+[name="安洁莉娜"]跳——！
+[StopSound(channel="l", fadetime=1)]
+[Dialog]
+[Image(image="76_i09_1",screenadapt="coverall",fadetime=0.3,xScale=1, yScale=1)]
+[PlaySound(key="$d_avg_OriginiumArts_wind_burst")]
+[CameraShake(duration=5, xstrength=10, ystrength=5, vibrato=55, randomness=50, fadeout=true, block=false)]
+[Effect(name="$e_boostblow",layer = 1)]
+[Blocker(a=0.3, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[charslot]
+[PlaySound(key="$d_avg_chimerawings",channel="1")]
+[PlaySound(key="$d_avg_wind_howling",channel="2")]
+[Image(image="76_i10_1",screenadapt="coverall",fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3)]
+[Delay(time=1)]
+[Image(image="76_i10_1",screenadapt="coverall",fadetime=3,xScale=1.1, yScale=1.1)]
+[Delay(time=2)]
+[ImageTween( xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1.2, yScaleTo=1.2, duration=30)]
+[PlaySound(key="$d_avg_parachute_open")]
+木箱中摆放整齐的胡萝卜、还在加紧向上层汇报的职员、四个心意相通的女孩，全都轻盈地飘到了空中。
+阿什顿和安保人员感觉自己沉重的双脚失去束缚，又过于轻松地飘了起来，像是被人扔进水里的胡萝卜干。
+塔妮失去重力后一时间失去了方向，在空中打转；嘉辛塔笑得开怀，充满好奇地看着这片失序的区域。
+[Dialog]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]
+[avgdisplay(id="1", name="act53side_01", style="animekv", slot="cgover", scalex=1, scaley=1, entryfrom=0, entryto=1, duration=10,scalexto=1, scaleyto=1)]
+[Image(image="76_i10_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=5, block=true)]
+而安洁莉娜熟悉这种失重感。
+正是这种感觉，带她从叙拉古到罗德岛，再从罗德岛去往千千万万的城市和地区。
+她看着飘浮在身边的塔妮和嘉辛塔，看着在空中胡乱挥手的阿梅利亚，她从未像现在这样肯定，自己能成为她们最可靠的向导和朋友。
+在这一方小小的飘浮天地，安洁莉娜第一次忘记了自己在成长的过程中失去了什么。
+或许她错过了一些和父母相聚的时光，或许她错过了和重要的人说出心意的时机。
+或许她曾对罗德岛的灾难、对红砂镇的感染者无能为力......
+但此刻她手中沉甸甸的法杖在提醒她，她接住了自己的朋友，这个重量是她想要记住、想要保护的东西。
+她们会四个人一起去南境。
+[Dialog]
+[stopmusic(fadetime=3)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[image]
+[avgdisplay(id="1")]
+[Delay(time=2)]
+[Background(image="76_g15_dttsuburb_d",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$tech_intro", key="$tech_loop", volume=0.6)]
+[charslot(slot="m",name="avg_1015_aglna2_1#22$1")]
+[name="安洁莉娜"]呼......呼......好远。
+[charslot(slot="m",name="avg_4235_thumpy_1#5$2")]
+[name="塔妮"]因为来的时候塔下围着的都是纵贯红土公司的车嘛，我们就只能在这儿停车了。
+[charslot(slot="m",name="avg_4235_thumpy_1#16$2")]
+[name="塔妮"]终于到车前面了，我们走吧！
+[charslot(slot="m",name="avg_4235_thumpy_1#14$2")]
+[name="塔妮"]天......天还在转......
+[Dialog]
+[charslot]
+[playsound(key="$d_avg_messagenotification")]
+[CameraShake(duration=0.2, xstrength=5, ystrength=3, vibrato=10, randomness=90, fadeout=true, block=true)]
+[Delay(time=0.3)]
+[playsound(key="$d_avg_messagenotification")]
+[CameraShake(duration=0.2, xstrength=5, ystrength=3, vibrato=10, randomness=90, fadeout=true, block=true)]
+[Delay(time=0.5)]
+[charslot(slot="m",name="avg_4237_jcinta_1#2$1")]
+[name="嘉辛塔"]通讯果然恢复了......是谁的终端在响？
+[charslot(slot="m",name="avg_4236_tmslot_1#1$1")]
+[name="阿梅利亚"]我的。
+[Dialog]
+[playsound(key="$d_avg_phonetype")]
+[Delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_4237_jcinta_1#10$1")]
+[multiline(name="嘉辛塔")]是不是纵贯红土公司的人来找你麻烦！把终端给我，看我不骂那个阿什顿部长一顿——
+[charslot(slot="m",name="avg_4237_jcinta_1#6$1")]
+[multiline(name="嘉辛塔")]欸？怎么真把终端给我了？
+[charslot(slot="m",name="avg_4236_tmslot_1#4$1")]
+[name="阿梅利亚"]我已经回复完了。
+[charslot(slot="m",name="avg_4235_thumpy_1#1$2")]
+[name="塔妮"]我来看看，我来看看！
+[charslot(slot="m",name="avg_4235_thumpy_1#2$2")]
+[name="塔妮"]“辞呈在右手边最底下的抽屉里，锁已经提前打开了。”
+[charslot(slot="m",name="avg_4235_thumpy_1#16$2")]
+[name="塔妮"]“再也不见了，耽误我时间的垃圾们。”
+[charslot(slot="m",name="avg_1015_aglna2_1#16$1")]
+[name="安洁莉娜"]哇......这是不是阿梅第一次骂人？
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]这就对了！以后多练习练习，还是骂轻了！
+[charslot(slot="m",name="avg_4236_tmslot_1#14$1")]
+[name="阿梅利亚"]好啦，可以了吧！我也是有成长的......把终端还给我，我要把工作交流软件删了。
+[Dialog]
+[playsound(key="$d_avg_uninstallapp")]
+[Delay(time=0.5)]
+[charslot(slot="m",name="avg_4236_tmslot_1#4$1")]
+[name="阿梅利亚"]搞定！
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]好，那我们就上路吧——
+[charslot(slot = "m", focus = "n")]
+[name="优雅的夫人"]嘉辛塔。
+[charslot(slot="m",name="avg_4237_jcinta_1#3$1")]
+[name="嘉辛塔"]妈妈？
+[name="嘉辛塔"]是爸爸让你劝我回去的吗......
+[charslot(slot = "m", focus = "n")]
+[name="优雅的夫人"]不，我是来送你的。
+[charslot(slot="m",name="avg_4237_jcinta_1#6$1")]
+[name="嘉辛塔"]你们同意我去南境了？
+[charslot(slot = "m", focus = "n")]
+[name="优雅的夫人"]你本来也不打算征得我们的同意，不是吗？
+[charslot(slot="m",name="avg_4237_jcinta_1#5$1")]
+[name="嘉辛塔"]......
+[charslot(slot = "m", focus = "n")]
+[name="优雅的夫人"]我们还是会担心你，嘉辛塔。你的身体情况，让你人生的容错比很多人都要低。
+[name="优雅的夫人"]但我看见你的笑容了。
+[charslot(slot="m",name="avg_4237_jcinta_1#2$1")]
+[name="嘉辛塔"]......欸？
+[charslot(slot = "m", focus = "n")]
+[name="优雅的夫人"]你开车时的笑容，是自从你感染之后，我和你父亲就再也没在你脸上见到过的表情。
+[name="优雅的夫人"]正如你的朋友塔妮小姐所说的那样......
+[charslot(slot="m",name="avg_4235_thumpy_1#2$2")]
+[name="塔妮"]欸？我？
+[charslot(slot = "m", focus = "n")]
+[name="优雅的夫人"]我们虽然不认同你的决定，但我们终于明白了，你与我们分享你想做的事，是因为爱。
+[name="优雅的夫人"]我已经想通了。至于你的父亲......那天他说了些违心的气话。我替他向你道歉。你从来都不是坎贝尔家的污点，嘉辛塔。
+[name="优雅的夫人"]我觉得他是在后悔的，只是那个人在生意场上周旋了太久，甚至不愿意跟自己的女儿好好道个歉。
+[charslot(slot="m",name="avg_4237_jcinta_1#11$1")]
+[name="嘉辛塔"]妈妈......
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]不，没什么。如果等我从南境回来时他还没想通，你会站在我这边的，对吗？
+[charslot(slot = "m", focus = "n")]
+[name="优雅的夫人"]当然。
+[name="优雅的夫人"]上路吧孩子们。不用担心你们在纵贯红土公司闹出的那些小插曲，我们会想办法解决。
+[name="优雅的夫人"]没有什么应该牵绊住我的孩子上路的步伐，哪怕是我跟你的父亲。
+[charslot(slot="m",name="avg_4237_jcinta_1#1$1")]
+[name="嘉辛塔"]谢谢你们......
+[charslot(slot="m",name="avg_4235_thumpy_1#15$2")]
+[name="塔妮"]（小声）真好啊......
+[charslot(slot = "m", focus = "n")]
+塔妮忽然有种把终端从背包深处拿出来的冲动。
+但那太麻烦了，她想。
+现在最重要的是赶紧出发，前往南境，只要到了那里......
+[charslot]
+[charslot(slot="m",name="avg_1015_aglna2_1#6$1")]
+[name="安洁莉娜"]走，我们启程吧！
+[Dialog]
+[PlaySound(key="$d_avg_cardoorc", volume=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[PlaySound(key="$sportscarstart", volume=1)]
+[Delay(time=1)]
+[Background]
+[bgeffect(name="$eb_sand02",layer=1)]
+[playsound(key="$d_avg_sandstorm", loop=true, channel="f",volume=0)]
+[Image(image="76_i11",screenadapt="coverall", xScale=1.5, yScale=1.5,x=300,y=130)]
+[ImageTween(xTo=100,yTo=60, duration=60, block=false,xScaleFrom=1.5, yScaleFrom=1.5, xScaleTo=1.3, yScaleTo=1.3)]
+[SoundVolume(volume=0.5, channel="f",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="安洁莉娜"]通往南境的关口已经打开，沙暴正在向我们行进的路段移动......
+[name="塔妮"]方向没有问题，进入沙暴范围内，我就不能为大家提供导航了，全得靠阿梅修好的通讯塔啦。
+[name="安洁莉娜"]已经能看见沙暴的轮廓了。
+[name="安洁莉娜"]说起来，塔妮，你的奶奶当年是怎么穿越沙暴抵达南境的，她告诉过你吗？
+[name="塔妮"]她当然说过啦。
+[name="塔妮"]奶奶说，她挑了一个源石浓度低，风沙也没那么大的日子穿越这片区域。
+[name="塔妮"]幸运的是，她穿越危险区的过程中，源石浓度一直没有太大变化，但快速移动型沙暴也让她吃了不少苦头。
+[name="塔妮"]她最后是靠着怀表增强了自己的法术，才没有被沙暴吞没，看见了南境的风景！
+[name="安洁莉娜"]南境的风景是什么样的？
+[name="塔妮"]她说南境和大铁屯......和全雷姆必拓的风景都不一样！
+[name="塔妮"]那里的地面仿佛一面镜子，是大片大片的晶体！
+[name="安洁莉娜"]晶体？
+[name="塔妮"]奶奶只说那里很漂亮，有清透的天空，有地面晶体上的积水，有缝隙中的小花，但我后来也找了很多资料......
+[name="塔妮"]据说那些晶体其实是和源石伴生的矿物。南境的源石早已经全部活性化，成了危险区源石粉尘的一部分。
+[name="塔妮"]而那些剩下的矿物非常坚硬，硬到连源石活性化的能量也不能破坏它们原有的结构......
+[PlaySound(key="$d_avg_carjolt", volume=1)]
+[CameraShake(duration=0.2, xstrength=20, ystrength=20, vibrato=25, randomness=90, fadeout=true, block=false)]
+[name="塔妮"]——呜哇！刚才我们是撞到石头了吗？我的背包都差点飞出去了！
+[name="嘉辛塔"]吓死我了，再检查一下安全带有没有系好！
+[name="塔妮"]既然这样，在进入颠簸路段之前......给！
+[name="阿梅利亚"]胡萝卜披萨？
+[name="嘉辛塔"]据说这东西现在是大铁屯的新特产，可......为什么？
+[name="塔妮"]“胡萝卜披萨，给亲朋送伴手礼的不二之选，仇人吃了都会重归于好。”
+[name="塔妮"]这可是店长冲我打包票的。
+[name="塔妮"]一起吃完披萨，之后谁都不准再提阿梅被公司欺负的事，连开玩笑都不可以！
+[name="阿梅利亚"]你们......呜......对不起......谢谢......
+[name="嘉辛塔"]知道啦，吃完之后——不，就算没吃，我们也一直是最好的朋友啊。
+[name="安洁莉娜"]......
+[name="塔妮"]安洁，你怎么不吃！
+[name="安洁莉娜"]一定得吃胡萝卜披萨吗......
+[name="塔妮"]你不喜欢？店长说他手艺很正宗的，你一定能尝到家乡的味道！
+[name="安洁莉娜"]我......我开车不方便！
+[name="安洁莉娜"]我一会儿就得和大铁屯的塔台联络来规避危险了，没空吃东西的——
+[name="塔妮"]我可以喂你吃呀？
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=15, randomness=90, fadeout=true, block=false)]
+[name="安洁莉娜"]呜啊啊——
+[Dialog]
+[delay(time=2)]
+[StopSound(channel="f", fadetime=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

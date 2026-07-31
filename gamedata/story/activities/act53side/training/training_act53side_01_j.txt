@@ -1,0 +1,17 @@
+[header(is_skippable=false, is_tutorial=true)]
+[Battle.LockFunction(mask="SYSTEM_MENU_INTERACT")]
+[Battle.Pause]
+[inputblocker(blockInput=true, black=0.3)]
+
+[Tutorial(tileX=4, tileY=1, focusWidth=180, focusHeight=180, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_doberm", \
+          dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+安洁莉娜将<@tu.kw>邮箱投递满</>时，会立即使<@tu.kw>周围敌人浮空并停顿</>一段时间。
+
+[popupdialog(dialogHead="$avatar_doberm", protectTime=0.5)]并且之后她也会变得<@tu.kw>更加强大</>，对我方的增益效果和对敌方的减益效果也会变得更强。
+
+[popupdialog(dialogHead="$avatar_aglna2", protectTime=0.5)]一起来拿到第一吧！
+
+[battle.unlockfunction(mask="SYSTEM_MENU_INTERACT")]
+[battle.pause(pause=false)]

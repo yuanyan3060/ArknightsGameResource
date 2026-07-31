@@ -1,0 +1,11 @@
+[header(is_skippable=false, is_tutorial=true)]
+[Battle.LockFunction(mask="SYSTEM_MENU_INTERACT")]
+[Battle.Pause]
+[inputblocker(blockInput=true, black=0.3)]
+
+[popupdialog(dialogHead="$avatar_red")]到达，大涌泉镇的冰淇淋争夺赛。
+
+[popupdialog(dialogHead="$avatar_red")]安洁莉娜，邀请了大家，她怎么不见了？
+
+[battle.unlockfunction(mask="SYSTEM_MENU_INTERACT")]
+[battle.pause(pause=false)]
