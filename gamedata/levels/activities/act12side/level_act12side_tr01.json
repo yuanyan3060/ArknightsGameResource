@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -2662,15 +2664,15 @@
           "characterKey": "char_381_bubble",
           "level": 35,
           "phase": 0,
-          "favorBattlePhase": 20,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 20,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 4,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2687,15 +2689,15 @@
           "characterKey": "char_366_acdrop",
           "level": 40,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 4,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2712,15 +2714,15 @@
           "characterKey": "char_187_ccheal",
           "level": 40,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 4,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [
@@ -2739,9 +2741,8 @@
           "characterKey": "trap_042_tidectrl",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -2753,7 +2754,8 @@
             "value": 30.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2770,9 +2772,8 @@
           "characterKey": "trap_042_tidectrl",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -2784,7 +2785,8 @@
             "value": 40.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       }
     ],
     "characterCards": [
@@ -2798,15 +2800,15 @@
           "characterKey": "char_235_jesica",
           "level": 40,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 4,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": true,
@@ -2818,15 +2820,15 @@
           "characterKey": "char_122_beagle",
           "level": 40,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 4,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": true,
@@ -2838,15 +2840,15 @@
           "characterKey": "char_133_mm",
           "level": 40,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 4,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": [
@@ -2861,15 +2863,15 @@
           "characterKey": "trap_046_oxygen",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ]
   },

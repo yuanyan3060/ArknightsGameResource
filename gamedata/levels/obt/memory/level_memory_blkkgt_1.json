@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -2507,15 +2509,15 @@
           "characterKey": "char_172_svrash",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2532,15 +2534,15 @@
           "characterKey": "char_199_yak",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [],
@@ -2555,15 +2557,15 @@
           "characterKey": "char_4116_blkkgt",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 2,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

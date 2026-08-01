@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -1765,15 +1767,15 @@
           "characterKey": "char_202_demkni",
           "level": 50,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [
@@ -1792,9 +1794,8 @@
           "characterKey": "trap_075_bgarmn",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -1811,7 +1812,8 @@
             "value": 0.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -1828,9 +1830,8 @@
           "characterKey": "trap_077_rmtarmn",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -1847,7 +1848,8 @@
             "value": 0.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       }
     ],
     "characterCards": [
@@ -1861,15 +1863,15 @@
           "characterKey": "char_210_stward",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": true,
@@ -1881,15 +1883,15 @@
           "characterKey": "char_150_snakek",
           "level": 50,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": true,
@@ -1901,15 +1903,15 @@
           "characterKey": "char_108_silent",
           "level": 70,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 2,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 2
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

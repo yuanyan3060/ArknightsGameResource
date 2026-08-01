@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -3235,6 +3237,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -3731,15 +3741,15 @@
           "characterKey": "char_500_noirc",
           "level": 30,
           "phase": 0,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -3751,15 +3761,15 @@
           "characterKey": "char_212_ansel",
           "level": 30,
           "phase": 0,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -3771,15 +3781,15 @@
           "characterKey": "char_502_nblade",
           "level": 30,
           "phase": 0,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -3791,15 +3801,15 @@
           "characterKey": "char_503_rang",
           "level": 30,
           "phase": 0,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -3811,15 +3821,15 @@
           "characterKey": "char_501_durin",
           "level": 30,
           "phase": 0,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

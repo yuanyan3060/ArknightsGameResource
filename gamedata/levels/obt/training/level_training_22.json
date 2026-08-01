@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -688,7 +690,8 @@
       "professionMask": 0,
       "playerSideMask": 0,
       "useExtraData": false,
-      "extraRuntimeData": null
+      "extraRuntimeData": null,
+      "source": null
     }
   ],
   "routes": [
@@ -1784,15 +1787,15 @@
           "characterKey": "char_112_siege",
           "level": 50,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -1809,15 +1812,15 @@
           "characterKey": "char_278_orchid",
           "level": 35,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -1834,15 +1837,15 @@
           "characterKey": "char_124_kroos",
           "level": 35,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [],
@@ -1857,15 +1860,15 @@
           "characterKey": "char_150_snakek",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": true,
@@ -1877,15 +1880,15 @@
           "characterKey": "char_298_susuro",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": true,
@@ -1897,15 +1900,15 @@
           "characterKey": "char_141_nights",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

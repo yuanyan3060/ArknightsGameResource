@@ -150,7 +150,9 @@
         "valueStr": null
       }
     ],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -13876,6 +13878,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -14056,6 +14066,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -14234,6 +14252,14 @@
             "m_value": false
           },
           "attractImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -17765,15 +17791,15 @@
           "characterKey": "char_240_wyvern",
           "level": 50,
           "phase": 1,
-          "favorBattlePhase": 100,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -17790,15 +17816,15 @@
           "characterKey": "char_123_fang",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 100,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -17815,15 +17841,15 @@
           "characterKey": "char_504_rguard",
           "level": 30,
           "phase": 1,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -17840,15 +17866,15 @@
           "characterKey": "char_283_midn",
           "level": 30,
           "phase": 1,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [
@@ -17867,15 +17893,15 @@
           "characterKey": "trap_459_xblight",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -17892,9 +17918,8 @@
           "characterKey": "trap_413_hiddenstone",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -17911,7 +17936,8 @@
             "value": 1.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -17928,15 +17954,15 @@
           "characterKey": "trap_414_vegetation",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "characterCards": [],

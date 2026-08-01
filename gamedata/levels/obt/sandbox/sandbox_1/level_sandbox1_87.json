@@ -150,7 +150,9 @@
         "valueStr": null
       }
     ],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -18433,15 +18435,15 @@
           "characterKey": "char_4046_ebnhlz",
           "level": 1,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 2,
         "mainSkillLvl": 10,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18458,15 +18460,15 @@
           "characterKey": "char_469_indigo",
           "level": 1,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 10,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18483,15 +18485,15 @@
           "characterKey": "char_297_hamoni",
           "level": 1,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 10,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18508,15 +18510,15 @@
           "characterKey": "char_4036_forcer",
           "level": 1,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 10,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18533,15 +18535,15 @@
           "characterKey": "char_4036_forcer",
           "level": 1,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 10,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [
@@ -18560,9 +18562,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18584,7 +18585,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18601,9 +18603,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18625,7 +18626,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18642,9 +18644,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18666,7 +18667,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18683,9 +18685,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18707,7 +18708,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18724,9 +18726,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18748,7 +18749,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18765,9 +18767,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18779,7 +18780,8 @@
             "value": 0.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18796,9 +18798,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18810,7 +18811,8 @@
             "value": 0.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18827,9 +18829,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18841,7 +18842,8 @@
             "value": 0.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18858,9 +18860,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18872,7 +18873,8 @@
             "value": 0.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18889,9 +18891,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18903,7 +18904,8 @@
             "value": 1.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18920,9 +18922,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18934,7 +18935,8 @@
             "value": 1.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18951,9 +18953,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18965,7 +18966,8 @@
             "value": 1.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -18982,9 +18984,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -18996,7 +18997,8 @@
             "value": 1.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19013,9 +19015,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19027,7 +19028,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19044,9 +19046,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19058,7 +19059,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19075,9 +19077,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19089,7 +19090,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19106,9 +19108,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19120,7 +19121,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19137,9 +19139,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19151,7 +19152,8 @@
             "value": 3.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19168,9 +19170,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19182,7 +19183,8 @@
             "value": 3.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19199,9 +19201,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19213,7 +19214,8 @@
             "value": 3.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19230,9 +19232,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19244,7 +19245,8 @@
             "value": 4.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19261,9 +19263,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19275,7 +19276,8 @@
             "value": 4.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19292,9 +19294,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19306,7 +19307,8 @@
             "value": 4.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19323,9 +19325,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19337,7 +19338,8 @@
             "value": 4.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19354,9 +19356,8 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19398,7 +19399,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19415,9 +19417,8 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19459,7 +19460,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19476,9 +19478,8 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19520,7 +19521,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19537,9 +19539,8 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -19561,7 +19562,8 @@
             "value": 1.5,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19578,9 +19580,8 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -19602,7 +19603,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19619,9 +19621,8 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 1,
@@ -19663,7 +19664,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19680,9 +19682,8 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 1,
@@ -19724,7 +19725,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19741,9 +19743,8 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 1,
@@ -19785,7 +19786,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19802,9 +19804,8 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 1,
@@ -19846,7 +19847,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19863,9 +19865,8 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 1,
@@ -19907,7 +19908,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19924,9 +19926,8 @@
           "characterKey": "trap_423_bondtw",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19938,7 +19939,8 @@
             "value": 4.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19955,9 +19957,8 @@
           "characterKey": "trap_423_bondtw",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -19969,7 +19970,8 @@
             "value": 4.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -19986,9 +19988,8 @@
           "characterKey": "trap_423_bondtw",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -20000,7 +20001,8 @@
             "value": 4.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20017,9 +20019,8 @@
           "characterKey": "trap_423_bondtw",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -20031,7 +20032,8 @@
             "value": 4.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20048,15 +20050,15 @@
           "characterKey": "trap_009_battery",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20073,15 +20075,15 @@
           "characterKey": "trap_009_battery",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20098,15 +20100,15 @@
           "characterKey": "trap_009_battery",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 1,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20123,15 +20125,15 @@
           "characterKey": "trap_009_battery",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20148,9 +20150,8 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -20172,7 +20173,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20189,9 +20191,8 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -20213,7 +20214,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20230,15 +20232,15 @@
           "characterKey": "trap_009_battery",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20255,15 +20257,15 @@
           "characterKey": "trap_009_battery",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20280,9 +20282,8 @@
           "characterKey": "trap_486_xbspd",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
@@ -20304,7 +20305,8 @@
             "value": 2.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20321,9 +20323,8 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -20365,7 +20366,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20382,9 +20384,8 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -20426,7 +20427,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20443,9 +20445,8 @@
           "characterKey": "trap_485_xbrandprop",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -20487,7 +20488,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20504,9 +20506,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -20518,7 +20519,8 @@
             "value": 5.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20535,9 +20537,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -20549,7 +20550,8 @@
             "value": 5.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20566,9 +20568,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -20580,7 +20581,8 @@
             "value": 5.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20597,15 +20599,15 @@
           "characterKey": "trap_001_crate",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20622,9 +20624,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -20636,7 +20637,8 @@
             "value": 6.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20653,9 +20655,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -20667,7 +20668,8 @@
             "value": 6.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -20684,9 +20686,8 @@
           "characterKey": "trap_484_xbcp",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -20698,7 +20699,8 @@
             "value": 6.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       }
     ],
     "characterCards": [],

@@ -150,7 +150,9 @@
         "valueStr": null
       }
     ],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -2283,6 +2285,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -2946,15 +2956,15 @@
           "characterKey": "char_507_rsnipe",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2971,15 +2981,15 @@
           "characterKey": "char_416_zumama",
           "level": 80,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 10,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2996,15 +3006,15 @@
           "characterKey": "char_507_rsnipe",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3021,15 +3031,15 @@
           "characterKey": "char_507_rsnipe",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3046,15 +3056,15 @@
           "characterKey": "char_507_rsnipe",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 0,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [
@@ -3073,15 +3083,15 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3098,15 +3108,15 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3123,15 +3133,15 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3148,15 +3158,15 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3173,15 +3183,15 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3198,15 +3208,15 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3223,15 +3233,15 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3248,15 +3258,15 @@
           "characterKey": "trap_409_xbwood",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "characterCards": [],

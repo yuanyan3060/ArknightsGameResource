@@ -70,7 +70,9 @@
         "valueStr": null
       }
     ],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -847,7 +849,8 @@
       "professionMask": 0,
       "playerSideMask": 0,
       "useExtraData": false,
-      "extraRuntimeData": null
+      "extraRuntimeData": null,
+      "source": null
     }
   ],
   "routes": [
@@ -1189,6 +1192,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -1367,6 +1378,14 @@
             "m_value": false
           },
           "attractImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -1672,15 +1691,15 @@
           "characterKey": "char_149_scave",
           "level": 50,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [],
@@ -1700,15 +1719,15 @@
           "characterKey": "char_220_grani",
           "level": 50,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -1725,15 +1744,15 @@
           "characterKey": "char_263_skadi",
           "level": 50,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 2,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -1745,15 +1764,15 @@
           "characterKey": "char_311_mudrok",
           "level": 50,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -1770,15 +1789,15 @@
           "characterKey": "char_181_flower",
           "level": 50,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

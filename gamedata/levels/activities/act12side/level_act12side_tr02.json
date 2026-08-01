@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -2342,15 +2344,15 @@
           "characterKey": "char_258_podego",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 3,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 3
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2367,15 +2369,15 @@
           "characterKey": "char_195_glassb",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 3,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 3
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2392,15 +2394,15 @@
           "characterKey": "char_469_indigo",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [
@@ -2419,15 +2421,15 @@
           "characterKey": "trap_042_tidectrl",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 2,
         "mainSkillLvl": 1,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2444,15 +2446,15 @@
           "characterKey": "trap_040_canoe",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2469,15 +2471,15 @@
           "characterKey": "trap_040_canoe",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "characterCards": [
@@ -2491,15 +2493,15 @@
           "characterKey": "char_209_ardign",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 3,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 3
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": true,
@@ -2511,15 +2513,15 @@
           "characterKey": "char_185_frncat",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 40,
-          "potentialRank": 3,
-          "playerInstId": 0
+          "favorPoint": 40,
+          "potentialRank": 3
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": true,
@@ -2531,15 +2533,15 @@
           "characterKey": "char_210_stward",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 40,
-          "potentialRank": 3,
-          "playerInstId": 0
+          "favorPoint": 40,
+          "potentialRank": 3
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": [
@@ -2554,15 +2556,15 @@
           "characterKey": "trap_040_canoe",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "initialCnt": 0,
@@ -2575,15 +2577,15 @@
           "characterKey": "trap_046_oxygen",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ]
   },

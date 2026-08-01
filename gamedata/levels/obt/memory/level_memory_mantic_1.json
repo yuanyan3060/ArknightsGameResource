@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -1714,6 +1716,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -1894,6 +1904,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -2072,6 +2090,14 @@
             "m_value": false
           },
           "attractImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -2289,6 +2315,14 @@
             "m_value": false
           },
           "attractImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -2833,15 +2867,15 @@
           "characterKey": "char_150_snakek",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 20,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 20,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2858,15 +2892,15 @@
           "characterKey": "char_171_bldsk",
           "level": 20,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 6,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2883,15 +2917,15 @@
           "characterKey": "char_210_stward",
           "level": 30,
           "phase": 1,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [
@@ -2910,15 +2944,15 @@
           "characterKey": "trap_002_emp",
           "level": 10,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "characterCards": [
@@ -2932,15 +2966,15 @@
           "characterKey": "char_002_amiya",
           "level": 25,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -2952,15 +2986,15 @@
           "characterKey": "char_215_mantic",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 40,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 40,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -2972,15 +3006,15 @@
           "characterKey": "char_141_nights",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 50,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 50,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

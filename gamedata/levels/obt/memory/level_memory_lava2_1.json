@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -8023,6 +8025,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -8201,6 +8211,14 @@
             "m_value": false
           },
           "attractImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -10592,15 +10610,15 @@
           "characterKey": "char_4109_baslin",
           "level": 80,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 10,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -10622,15 +10640,15 @@
           "characterKey": "char_202_demkni",
           "level": 80,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 10,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -10647,15 +10665,15 @@
           "characterKey": "char_148_nearl",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 10,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -10672,15 +10690,15 @@
           "characterKey": "char_4025_aprot2",
           "level": 1,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -10702,15 +10720,15 @@
           "characterKey": "char_478_kirara",
           "level": 80,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [],
@@ -10725,15 +10743,15 @@
           "characterKey": "char_381_bubble",
           "level": 50,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -10745,15 +10763,15 @@
           "characterKey": "char_1011_lava2",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -10765,15 +10783,15 @@
           "characterKey": "char_128_plosis",
           "level": 50,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 1,
         "mainSkillLvl": 8,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -10785,15 +10803,15 @@
           "characterKey": "char_117_myrrh",
           "level": 50,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 8,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

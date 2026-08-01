@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -2695,6 +2697,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -3304,15 +3314,15 @@
           "characterKey": "char_196_sunbr",
           "level": 1,
           "phase": 2,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3329,15 +3339,15 @@
           "characterKey": "char_150_snakek",
           "level": 1,
           "phase": 2,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3354,15 +3364,15 @@
           "characterKey": "char_187_ccheal",
           "level": 60,
           "phase": 1,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3379,15 +3389,15 @@
           "characterKey": "char_235_jesica",
           "level": 60,
           "phase": 1,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [],
@@ -3402,15 +3412,15 @@
           "characterKey": "char_1502_crosly",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 2,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -5284,9 +5286,8 @@
           "characterKey": "trap_211_cjgtow",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -5298,7 +5299,8 @@
             "value": 0.0,
             "valueStr": "summon_cjglon1"
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -5315,9 +5317,8 @@
           "characterKey": "trap_212_cjbtow",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -5329,7 +5330,8 @@
             "value": 0.0,
             "valueStr": "summon_cjblon1"
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -5346,15 +5348,15 @@
           "characterKey": "trap_001_crate",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -5371,9 +5373,8 @@
           "characterKey": "trap_211_cjgtow",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -5385,7 +5386,8 @@
             "value": 0.0,
             "valueStr": "summon_cjglon2"
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -5402,9 +5404,8 @@
           "characterKey": "trap_212_cjbtow",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -5416,7 +5417,8 @@
             "value": 0.0,
             "valueStr": "summon_cjblon2"
           }
-        ]
+        ],
+        "overrideTalents": []
       }
     ],
     "characterCards": [],

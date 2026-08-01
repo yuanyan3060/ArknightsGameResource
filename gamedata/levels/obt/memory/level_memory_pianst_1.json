@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -909,7 +911,8 @@
       "professionMask": 0,
       "playerSideMask": 0,
       "useExtraData": false,
-      "extraRuntimeData": null
+      "extraRuntimeData": null,
+      "source": null
     }
   ],
   "routes": [
@@ -4072,15 +4075,15 @@
           "characterKey": "trap_062_magicstart",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": -1,
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "characterCards": [
@@ -4094,15 +4097,15 @@
           "characterKey": "char_4047_pianst",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 40,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 40,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -4114,15 +4117,15 @@
           "characterKey": "char_237_gravel",
           "level": 60,
           "phase": 1,
-          "favorBattlePhase": 40,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 40,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -4134,15 +4137,15 @@
           "characterKey": "char_122_beagle",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 40,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 40,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -4154,15 +4157,15 @@
           "characterKey": "char_123_fang",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 40,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 40,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -4174,15 +4177,15 @@
           "characterKey": "char_120_hibisc",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 40,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 40,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -4194,15 +4197,15 @@
           "characterKey": "char_124_kroos",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 40,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 40,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 4,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -4214,15 +4217,15 @@
           "characterKey": "char_211_adnach",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 40,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 40,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 4,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -3316,15 +3318,15 @@
           "characterKey": "char_347_jaksel",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -3336,15 +3338,15 @@
           "characterKey": "char_1012_skadi2",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 100,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 100,
+          "potentialRank": 0
         },
         "skillIndex": 1,
         "mainSkillLvl": 10,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

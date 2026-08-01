@@ -150,7 +150,9 @@
         "valueStr": null
       }
     ],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -5406,6 +5408,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -7399,9 +7409,8 @@
           "characterKey": "trap_413_hiddenstone",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -7423,7 +7432,8 @@
             "value": 0.0,
             "valueStr": "hiddenArea1"
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -7440,9 +7450,8 @@
           "characterKey": "trap_413_hiddenstone",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -7464,7 +7473,8 @@
             "value": 0.0,
             "valueStr": "hiddenArea1"
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -7481,9 +7491,8 @@
           "characterKey": "trap_413_hiddenstone",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -7505,7 +7514,8 @@
             "value": 0.0,
             "valueStr": "hiddenArea2"
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -7522,9 +7532,8 @@
           "characterKey": "trap_413_hiddenstone",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -7546,7 +7555,8 @@
             "value": 0.0,
             "valueStr": "hiddenArea2"
           }
-        ]
+        ],
+        "overrideTalents": []
       }
     ],
     "characterCards": [],

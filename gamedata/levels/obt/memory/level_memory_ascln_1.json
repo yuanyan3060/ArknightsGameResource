@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -2067,15 +2069,15 @@
           "characterKey": "char_4132_ascln",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 25,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 0
         },
         "skillIndex": 2,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -2087,15 +2089,15 @@
           "characterKey": "char_290_vigna",
           "level": 20,
           "phase": 2,
-          "favorBattlePhase": 25,
-          "potentialRank": 5,
-          "playerInstId": 0
+          "favorPoint": 25,
+          "potentialRank": 5
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

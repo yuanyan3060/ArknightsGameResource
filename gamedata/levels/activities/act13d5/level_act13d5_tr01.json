@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -1466,6 +1468,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -2035,15 +2045,15 @@
           "characterKey": "char_149_scave",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 30,
-          "potentialRank": 3,
-          "playerInstId": 0
+          "favorPoint": 30,
+          "potentialRank": 3
         },
         "skillIndex": 0,
         "mainSkillLvl": 4,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2060,15 +2070,15 @@
           "characterKey": "char_240_wyvern",
           "level": 55,
           "phase": 1,
-          "favorBattlePhase": 30,
-          "potentialRank": 3,
-          "playerInstId": 0
+          "favorPoint": 30,
+          "potentialRank": 3
         },
         "skillIndex": 0,
         "mainSkillLvl": 4,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2085,15 +2095,15 @@
           "characterKey": "char_193_frostl",
           "level": 30,
           "phase": 2,
-          "favorBattlePhase": 30,
-          "potentialRank": 3,
-          "playerInstId": 0
+          "favorPoint": 30,
+          "potentialRank": 3
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2110,15 +2120,15 @@
           "characterKey": "char_133_mm",
           "level": 60,
           "phase": 1,
-          "favorBattlePhase": 30,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 30,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -2135,15 +2145,15 @@
           "characterKey": "char_181_flower",
           "level": 60,
           "phase": 1,
-          "favorBattlePhase": 30,
-          "potentialRank": 3,
-          "playerInstId": 0
+          "favorPoint": 30,
+          "potentialRank": 3
         },
         "skillIndex": 0,
         "mainSkillLvl": 7,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [
@@ -2162,15 +2172,15 @@
           "characterKey": "trap_019_electric",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ],
     "characterCards": [],
@@ -2186,15 +2196,15 @@
           "characterKey": "trap_019_electric",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": []
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
       }
     ]
   },

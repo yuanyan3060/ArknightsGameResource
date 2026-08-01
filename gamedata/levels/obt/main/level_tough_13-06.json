@@ -14,7 +14,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -3353,9 +3355,8 @@
           "characterKey": "trap_126_outset",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -3367,7 +3368,8 @@
             "value": 0.0,
             "valueStr": "bmbcar1"
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -3384,9 +3386,8 @@
           "characterKey": "trap_125_bonore",
           "level": 1,
           "phase": 0,
-          "favorBattlePhase": 0,
-          "potentialRank": 0,
-          "playerInstId": 0
+          "favorPoint": 0,
+          "potentialRank": 0
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
@@ -3398,7 +3399,8 @@
             "value": 0.0,
             "valueStr": "bonore_dfello1"
           }
-        ]
+        ],
+        "overrideTalents": []
       }
     ],
     "characterCards": [],
