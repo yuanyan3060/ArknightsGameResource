@@ -2881,6 +2881,22 @@
         "limitDatas": []
       },
       {
+        "avatarId": "avatar_activity_AS",
+        "avatarType": 4,
+        "avatarDesc": "【太阳甩在身后】记录修复",
+        "isSecret": false,
+        "avatarStartTs": 1786737600,
+        "avatarLimit": false,
+        "avatarIdSort": 86,
+        "avatarIdDesc": "【太阳甩在身后】记录修复\\n“太阳甩在身后”",
+        "avatarItemName": "“太阳甩在身后”",
+        "avatarItemDesc": "立于黄沙之中，倾听历史的回声。",
+        "avatarItemUsage": "用来彰显个性的图案，能够将之设置为头像。",
+        "obtainApproach": "记录修复获得",
+        "dynAvatarId": null,
+        "limitDatas": []
+      },
+      {
         "avatarId": "avatar_special_93",
         "avatarType": 4,
         "avatarDesc": "夏日嘉年华特别活动中获得",
@@ -3453,6 +3469,7 @@
           "avatar_special_75",
           "avatar_activity_BP",
           "avatar_activity_SYS",
+          "avatar_activity_AS",
           "avatar_special_93"
         ]
       },
@@ -5042,6 +5059,13 @@
             "limitInfoId": "bg_volcano_1#1",
             "startTime": 1755158400,
             "endTime": 1756929599,
+            "invalidObtainDesc": "暂无获取途径",
+            "displayAfterEndTime": false
+          },
+          {
+            "limitInfoId": "bg_volcano_1#2",
+            "startTime": 1786176000,
+            "endTime": 1787947199,
             "invalidObtainDesc": "暂无获取途径",
             "displayAfterEndTime": false
           }
@@ -8428,6 +8452,24 @@
             "type": "VOUCHER_MGACHA"
           }
         ]
+      },
+      "mail_summer_2026_1": {
+        "id": "mail_summer_2026_1",
+        "type": 0,
+        "sortId": 92,
+        "displayReceiveTs": 1785556800,
+        "year": 0,
+        "dateDelta": -1,
+        "senderId": "char_1015_aglna2",
+        "title": "来自予愿安洁莉娜的快件",
+        "content": "博士，我正在从雷姆必拓回罗德岛的路上。这次外勤，我见到了难得一见的美景，遇到了许久不见的旧识，并且交到了三个很好很好的新朋友！\n我也正在给你写一封很长很长的信，信的内容......还没有写完，所以暂时保密！不过路上见到了这个实在太过可爱的背包，我忍不住，就买了下来快递给你，让它在我的信写完之前先一步去到你的身边......一定要等着我哦！",
+        "rewardList": [
+          {
+            "id": "randomMaterial_message4",
+            "count": 1,
+            "type": "VOUCHER_MGACHA"
+          }
+        ]
       }
     },
     "constData": {
@@ -9454,6 +9496,216 @@
         "sortId": 1065,
         "picId": "pic_foolwisdel_06_battle",
         "desc": null
+      },
+      "arkhub_room_basic_1": {
+        "id": "arkhub_room_basic_1",
+        "type": 8,
+        "sortId": 1001,
+        "picId": "pic_pet_cat",
+        "desc": null
+      },
+      "arkhub_room_basic_2": {
+        "id": "arkhub_room_basic_2",
+        "type": 8,
+        "sortId": 1002,
+        "picId": "pic_glamour",
+        "desc": null
+      },
+      "arkhub_room_basic_3": {
+        "id": "arkhub_room_basic_3",
+        "type": 8,
+        "sortId": 1003,
+        "picId": "pic_peek",
+        "desc": null
+      },
+      "arkhub_room_basic_4": {
+        "id": "arkhub_room_basic_4",
+        "type": 8,
+        "sortId": 1004,
+        "picId": "pic_left",
+        "desc": null
+      },
+      "arkhub_room_basic_5": {
+        "id": "arkhub_room_basic_5",
+        "type": 8,
+        "sortId": 1005,
+        "picId": "pic_right",
+        "desc": null
+      },
+      "arkhub_room_basic_6": {
+        "id": "arkhub_room_basic_6",
+        "type": 8,
+        "sortId": 1006,
+        "picId": "pic_battle",
+        "desc": null
+      },
+      "arkhub_slug_nice_work": {
+        "id": "arkhub_slug_nice_work",
+        "type": 8,
+        "sortId": 1007,
+        "picId": "pic_nice_work",
+        "desc": null
+      },
+      "arkhub_slug_thanks": {
+        "id": "arkhub_slug_thanks",
+        "type": 8,
+        "sortId": 1008,
+        "picId": "pic_thanks",
+        "desc": null
+      },
+      "arkhub_slug_sorry": {
+        "id": "arkhub_slug_sorry",
+        "type": 8,
+        "sortId": 1009,
+        "picId": "pic_sorry",
+        "desc": null
+      },
+      "arkhub_slug_bye": {
+        "id": "arkhub_slug_bye",
+        "type": 8,
+        "sortId": 1010,
+        "picId": "pic_bye",
+        "desc": null
+      },
+      "arkhub_slug_distrust": {
+        "id": "arkhub_slug_distrust",
+        "type": 8,
+        "sortId": 1011,
+        "picId": "pic_distrust",
+        "desc": null
+      },
+      "arkhub_slug_very_soon": {
+        "id": "arkhub_slug_very_soon",
+        "type": 8,
+        "sortId": 1012,
+        "picId": "pic_very_soon",
+        "desc": null
+      },
+      "arkhub_room_fooldoctor_01": {
+        "id": "arkhub_room_fooldoctor_01",
+        "type": 8,
+        "sortId": 1013,
+        "picId": "pic_fooldoctor_01_battle",
+        "desc": null
+      },
+      "arkhub_room_fooldoctor_02": {
+        "id": "arkhub_room_fooldoctor_02",
+        "type": 8,
+        "sortId": 1014,
+        "picId": "pic_fooldoctor_02_battle",
+        "desc": null
+      },
+      "arkhub_room_fooldoctor_03": {
+        "id": "arkhub_room_fooldoctor_03",
+        "type": 8,
+        "sortId": 1015,
+        "picId": "pic_fooldoctor_04_battle",
+        "desc": null
+      },
+      "arkhub_room_fooldoctor_04": {
+        "id": "arkhub_room_fooldoctor_04",
+        "type": 8,
+        "sortId": 1016,
+        "picId": "pic_fooldoctor_05_battle",
+        "desc": null
+      },
+      "arkhub_room_fooldoctor_05": {
+        "id": "arkhub_room_fooldoctor_05",
+        "type": 8,
+        "sortId": 1017,
+        "picId": "pic_fooldoctor_06_battle",
+        "desc": null
+      },
+      "arkhub_room_fooldoctor_06": {
+        "id": "arkhub_room_fooldoctor_06",
+        "type": 8,
+        "sortId": 1018,
+        "picId": "pic_fooldoctor_08_battle",
+        "desc": null
+      },
+      "arkhub_room_foolamiya_01": {
+        "id": "arkhub_room_foolamiya_01",
+        "type": 8,
+        "sortId": 1019,
+        "picId": "pic_foolamiya_01_battle",
+        "desc": null
+      },
+      "arkhub_room_foolamiya_02": {
+        "id": "arkhub_room_foolamiya_02",
+        "type": 8,
+        "sortId": 1020,
+        "picId": "pic_foolamiya_02_battle",
+        "desc": null
+      },
+      "arkhub_room_foolamiya_03": {
+        "id": "arkhub_room_foolamiya_03",
+        "type": 8,
+        "sortId": 1021,
+        "picId": "pic_foolamiya_03_battle",
+        "desc": null
+      },
+      "arkhub_room_foolamiya_04": {
+        "id": "arkhub_room_foolamiya_04",
+        "type": 8,
+        "sortId": 1022,
+        "picId": "pic_foolamiya_04_battle",
+        "desc": null
+      },
+      "arkhub_room_foolamiya_05": {
+        "id": "arkhub_room_foolamiya_05",
+        "type": 8,
+        "sortId": 1023,
+        "picId": "pic_foolamiya_05_battle",
+        "desc": null
+      },
+      "arkhub_room_foolamiya_06": {
+        "id": "arkhub_room_foolamiya_06",
+        "type": 8,
+        "sortId": 1024,
+        "picId": "pic_foolamiya_06_battle",
+        "desc": null
+      },
+      "arkhub_room_foolwisdel_01": {
+        "id": "arkhub_room_foolwisdel_01",
+        "type": 8,
+        "sortId": 1025,
+        "picId": "pic_foolwisdel_01_battle",
+        "desc": null
+      },
+      "arkhub_room_foolwisdel_02": {
+        "id": "arkhub_room_foolwisdel_02",
+        "type": 8,
+        "sortId": 1026,
+        "picId": "pic_foolwisdel_02_battle",
+        "desc": null
+      },
+      "arkhub_room_foolwisdel_03": {
+        "id": "arkhub_room_foolwisdel_03",
+        "type": 8,
+        "sortId": 1027,
+        "picId": "pic_foolwisdel_03_battle",
+        "desc": null
+      },
+      "arkhub_room_foolwisdel_04": {
+        "id": "arkhub_room_foolwisdel_04",
+        "type": 8,
+        "sortId": 1028,
+        "picId": "pic_foolwisdel_04_battle",
+        "desc": null
+      },
+      "arkhub_room_foolwisdel_05": {
+        "id": "arkhub_room_foolwisdel_05",
+        "type": 8,
+        "sortId": 1029,
+        "picId": "pic_foolwisdel_05_battle",
+        "desc": null
+      },
+      "arkhub_room_foolwisdel_06": {
+        "id": "arkhub_room_foolwisdel_06",
+        "type": 8,
+        "sortId": 1030,
+        "picId": "pic_foolwisdel_06_battle",
+        "desc": null
       }
     },
     "emoticonThemeDataDict": {
@@ -9518,6 +9770,12 @@
         "slug_duel_battle_bye",
         "slug_duel_battle_distrust",
         "slug_duel_battle_very_soon",
+        "arkhub_slug_nice_work",
+        "arkhub_slug_thanks",
+        "arkhub_slug_sorry",
+        "arkhub_slug_bye",
+        "arkhub_slug_distrust",
+        "arkhub_slug_very_soon",
         "building_slug_hello",
         "building_slug_nice_work",
         "building_slug_thanks",
@@ -9584,6 +9842,12 @@
         "duel_battle_fooldoctor_04",
         "duel_battle_fooldoctor_05",
         "duel_battle_fooldoctor_06",
+        "arkhub_room_fooldoctor_01",
+        "arkhub_room_fooldoctor_02",
+        "arkhub_room_fooldoctor_03",
+        "arkhub_room_fooldoctor_04",
+        "arkhub_room_fooldoctor_05",
+        "arkhub_room_fooldoctor_06",
         "building_fooldoctor_01",
         "building_fooldoctor_02",
         "building_fooldoctor_03",
@@ -9604,6 +9868,12 @@
         "duel_battle_foolamiya_04",
         "duel_battle_foolamiya_05",
         "duel_battle_foolamiya_06",
+        "arkhub_room_foolamiya_01",
+        "arkhub_room_foolamiya_02",
+        "arkhub_room_foolamiya_03",
+        "arkhub_room_foolamiya_04",
+        "arkhub_room_foolamiya_05",
+        "arkhub_room_foolamiya_06",
         "building_foolamiya_01",
         "building_foolamiya_02",
         "building_foolamiya_03",
@@ -9624,6 +9894,12 @@
         "duel_battle_foolwisdel_04",
         "duel_battle_foolwisdel_05",
         "duel_battle_foolwisdel_06",
+        "arkhub_room_foolwisdel_01",
+        "arkhub_room_foolwisdel_02",
+        "arkhub_room_foolwisdel_03",
+        "arkhub_room_foolwisdel_04",
+        "arkhub_room_foolwisdel_05",
+        "arkhub_room_foolwisdel_06",
         "building_foolwisdel_01",
         "building_foolwisdel_02",
         "building_foolwisdel_03",
@@ -9637,6 +9913,14 @@
         "building_basic_03",
         "building_basic_04",
         "building_basic_05"
+      ],
+      "emoticon_arkhub_basic": [
+        "arkhub_room_basic_1",
+        "arkhub_room_basic_2",
+        "arkhub_room_basic_3",
+        "arkhub_room_basic_4",
+        "arkhub_room_basic_5",
+        "arkhub_room_basic_6"
       ]
     },
     "emoticonThemeTypeDict": {
@@ -11557,6 +11841,35 @@
             "sortId": 6
           }
         ]
+      },
+      "pixelMap": {
+        "groupId": "pixelMap",
+        "name": "画像册",
+        "funcType": 1,
+        "keyEffectGroup": 1,
+        "isHidden": false,
+        "relatedActTypes": [
+          "ARK_HUB"
+        ],
+        "gameModeTag": null,
+        "sortId": 6,
+        "startTs": 1786176000,
+        "itemList": [
+          {
+            "funcId": "pixelMapPreviousStep",
+            "funcName": "撤销",
+            "canBeSet": true,
+            "defaultKeyId": "alphaZ",
+            "sortId": 1
+          },
+          {
+            "funcId": "pixelMapNextStep",
+            "funcName": "恢复",
+            "canBeSet": true,
+            "defaultKeyId": "alphaY",
+            "sortId": 2
+          }
+        ]
       }
     },
     "constData": {
@@ -13462,7 +13775,55 @@
     ]
   },
   "pixelMapData": {
-    "paramMap": {},
+    "paramMap": {
+      "pixelMap1": {
+        "width": 24,
+        "height": 24,
+        "initColor": "ffffff",
+        "htmlColors": [
+          "222222",
+          "b4b4b4",
+          "eae7df",
+          "ffffff",
+          "d32f36",
+          "9c0a00",
+          "d60c4a",
+          "e6968d",
+          "fe9875",
+          "f7d0c0",
+          "fcefea",
+          "fbf6e8",
+          "dcd2c8",
+          "e2ceab",
+          "d56322",
+          "d48c42",
+          "f29900",
+          "f9c933",
+          "fce499",
+          "b3b47a",
+          "c2da72",
+          "6c6e00",
+          "b19155",
+          "a98f74",
+          "aa9228",
+          "3f2b12",
+          "74491f",
+          "534658",
+          "2a2446",
+          "394599",
+          "5a459d",
+          "baa3d7",
+          "b6bcdf",
+          "a9acbe",
+          "63abb9",
+          "b4d2dc",
+          "91d8e6",
+          "47aea0",
+          "b6d3c8",
+          "273864"
+        ]
+      }
+    },
     "constData": {
       "uidWaterMark": true
     }

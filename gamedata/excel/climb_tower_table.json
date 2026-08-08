@@ -2388,6 +2388,151 @@
       ],
       "dangerDesc": "<color=#FF4200>危险等级效果：</color>\\n敌人的生命、攻击、防御力提升",
       "hardModeDesc": "<color=#EB2829>应急补给条件：</color>\\n敌人生命值额外随危险等级提升"
+    },
+    "tower_n_21": {
+      "id": "tower_n_21",
+      "sortId": 117,
+      "stageNum": 6,
+      "name": "日达诺夫园区",
+      "subName": "索罗科夫集团",
+      "desc": "在源石矿脉危机发生之后，位于乌萨斯的多数矿场生产都陷入了停滞，争夺余量逐渐减少的源石储备的战斗变得愈加残酷。而在索罗科夫集团留下的废弃园区之中，一群流亡暴徒找到了集团在撤出前未能清理的源石仓库，他们以此为据点，在乌萨斯忙于处理危机期间发展成了不可小觑的犯罪组织。为了阻止其势力进一步扩张，索罗科夫集团委托罗德岛清剿这群疯狂且危险的暴徒。",
+      "towerType": 1,
+      "levels": [
+        "lt_21_01",
+        "lt_21_02",
+        "lt_21_03",
+        "lt_21_04",
+        "lt_21_05",
+        "lt_21_06"
+      ],
+      "hardLevels": [
+        "lt_21_01_ex",
+        "lt_21_02_ex",
+        "lt_21_03_ex",
+        "lt_21_04_ex",
+        "lt_21_05_ex",
+        "lt_21_06_ex"
+      ],
+      "taskInfo": [
+        {
+          "levelNum": 1,
+          "rewards": [
+            {
+              "id": "mod_update_token_1",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          ]
+        },
+        {
+          "levelNum": 2,
+          "rewards": [
+            {
+              "id": "mod_update_token_1",
+              "count": 3,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_2",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          ]
+        },
+        {
+          "levelNum": 3,
+          "rewards": [
+            {
+              "id": "mod_update_token_1",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_2",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          ]
+        },
+        {
+          "levelNum": 4,
+          "rewards": [
+            {
+              "id": "mod_update_token_1",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_2",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          ]
+        },
+        {
+          "levelNum": 5,
+          "rewards": [
+            {
+              "id": "mod_update_token_1",
+              "count": 6,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_2",
+              "count": 3,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          ]
+        },
+        {
+          "levelNum": 6,
+          "rewards": [
+            {
+              "id": "mod_update_token_1",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_update_token_2",
+              "count": 3,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "mod_unlock_token",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          ]
+        }
+      ],
+      "preTowerId": null,
+      "medalId": "medal_tower_complete_21",
+      "hiddenMedalId": "medal_hidden_tower_21",
+      "hardModeMedalId": "medal_hardtower_complete_21",
+      "bossId": "enemy_6034_vampir",
+      "cardId": "card_tower_21",
+      "curseCardIds": [
+        "cursecard_01",
+        "cursecard_01",
+        "cursecard_01"
+      ],
+      "dangerDesc": "<color=#FF4200>危险等级效果：</color>\\n敌人的生命、攻击、防御力提升",
+      "hardModeDesc": "<color=#EB2829>应急补给条件：</color>\\n敌人生命值和受到治疗效果额外随危险等级提升"
     }
   },
   "levels": {
@@ -12265,6 +12410,620 @@
           }
         }
       }
+    },
+    "lt_21_01": {
+      "id": "lt_21_01",
+      "levelId": "Obt/Legion/LT21/level_lt21_01",
+      "towerId": "tower_n_21",
+      "layerNum": 1,
+      "code": "LT-1",
+      "name": "铁锈闸口",
+      "desc": "<color=#FF4200>初始危险等级：0\\n</color>废弃园区的入口已经看不出曾经的样貌，只有失去了理智的守卫，紧握着武器站在弥漫着铁锈味的污浊空气之中。只有战胜他们，才能开始对罪恶进行清算的征程。",
+      "levelType": 0,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 2,
+            "minCount": 2
+          }
+        }
+      }
+    },
+    "lt_21_02": {
+      "id": "lt_21_02",
+      "levelId": "Obt/Legion/LT21/level_lt21_02",
+      "towerId": "tower_n_21",
+      "layerNum": 2,
+      "code": "LT-2",
+      "name": "崩塌通道",
+      "desc": "<color=#FF4200>初始危险等级：1\\n</color>散布污染只是这个犯罪组织的初步防御手段，在源石浓度本就超标的废弃建筑之中，感染生物的存在为任务带来了更加棘手的挑战。",
+      "levelType": 0,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 3,
+            "minCount": 3
+          },
+          "mod_update_token_2": {
+            "itemId": "mod_update_token_2",
+            "type": 3,
+            "maxCount": 1,
+            "minCount": 1
+          }
+        }
+      }
+    },
+    "lt_21_03": {
+      "id": "lt_21_03",
+      "levelId": "Obt/Legion/LT21/level_lt21_03",
+      "towerId": "tower_n_21",
+      "layerNum": 3,
+      "code": "LT-3",
+      "name": "躁动阶梯",
+      "desc": "<color=#FF4200>初始危险等级：2\\n</color>加入了组织的暴徒不仅是维奇科的手下，更是其忠实的信徒。他们的思想，他们的渴望，都已经被疯狂染色。在进一步逼近核心之前，要小心这些人不计后果的反扑行动。",
+      "levelType": 1,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 3,
+            "minCount": 3
+          },
+          "mod_update_token_2": {
+            "itemId": "mod_update_token_2",
+            "type": 3,
+            "maxCount": 2,
+            "minCount": 2
+          }
+        }
+      }
+    },
+    "lt_21_04": {
+      "id": "lt_21_04",
+      "levelId": "Obt/Legion/LT21/level_lt21_04",
+      "towerId": "tower_n_21",
+      "layerNum": 4,
+      "code": "LT-4",
+      "name": "扭曲图腾",
+      "desc": "<color=#FF4200>初始危险等级：3\\n</color>首领依然潜藏在更靠近园区中心的区域内，但随着这些粗陋的源石图腾出现的频率越来越高，起码队员们能得出判断——自己和虚伪的领袖的距离正越来越近。",
+      "levelType": 0,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 4,
+            "minCount": 4
+          },
+          "mod_update_token_2": {
+            "itemId": "mod_update_token_2",
+            "type": 3,
+            "maxCount": 2,
+            "minCount": 2
+          }
+        }
+      }
+    },
+    "lt_21_05": {
+      "id": "lt_21_05",
+      "levelId": "Obt/Legion/LT21/level_lt21_05",
+      "towerId": "tower_n_21",
+      "layerNum": 5,
+      "code": "LT-5",
+      "name": "刺耳供礼",
+      "desc": "<color=#FF4200>初始危险等级：4\\n</color>血腥的气味即便在远处也能嗅到，含混不清的颂礼声逐渐增强。离罪孽最深重之处仅有一步之遥，现在的目标，就是跨越这些狂乱的废墟。",
+      "levelType": 0,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 4,
+            "minCount": 4
+          },
+          "mod_update_token_2": {
+            "itemId": "mod_update_token_2",
+            "type": 3,
+            "maxCount": 2,
+            "minCount": 2
+          }
+        }
+      }
+    },
+    "lt_21_06": {
+      "id": "lt_21_06",
+      "levelId": "Obt/Legion/LT21/level_lt21_06",
+      "towerId": "tower_n_21",
+      "layerNum": 6,
+      "code": "LT-6",
+      "name": "罪恶终局",
+      "desc": "<color=#FF4200>初始危险等级：5\\n</color>那对丑陋的翅膀投下恶意的影子，那张枯干的嘴中流出残暴的话语。无论这个首领做出怎样的抵抗，今天的唯一目标，就是将他的罪恶终结于此。",
+      "levelType": 2,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 4,
+            "minCount": 4
+          },
+          "mod_update_token_2": {
+            "itemId": "mod_update_token_2",
+            "type": 3,
+            "maxCount": 3,
+            "minCount": 3
+          }
+        }
+      }
+    },
+    "lt_21_01_ex": {
+      "id": "lt_21_01_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_01_ex",
+      "towerId": "tower_n_21",
+      "layerNum": 1,
+      "code": "LT-1",
+      "name": "铁锈闸口",
+      "desc": "<color=#FF4200>初始危险等级：2\\n</color>废弃园区的入口已经看不出曾经的样貌，只有失去了理智的守卫，紧握着武器站在弥漫着铁锈味的污浊空气之中。只有战胜他们，才能开始对罪恶进行清算的征程。",
+      "levelType": 0,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 4,
+            "minCount": 4
+          }
+        }
+      }
+    },
+    "lt_21_02_ex": {
+      "id": "lt_21_02_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_02_ex",
+      "towerId": "tower_n_21",
+      "layerNum": 2,
+      "code": "LT-2",
+      "name": "崩塌通道",
+      "desc": "<color=#FF4200>初始危险等级：3\\n</color>散布污染只是这个犯罪组织的初步防御手段，在源石浓度本就超标的废弃建筑之中，感染生物的存在为任务带来了更加棘手的挑战。",
+      "levelType": 0,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 6,
+            "minCount": 6
+          },
+          "mod_update_token_2": {
+            "itemId": "mod_update_token_2",
+            "type": 3,
+            "maxCount": 2,
+            "minCount": 2
+          }
+        }
+      }
+    },
+    "lt_21_03_ex": {
+      "id": "lt_21_03_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_03_ex",
+      "towerId": "tower_n_21",
+      "layerNum": 3,
+      "code": "LT-3",
+      "name": "躁动阶梯",
+      "desc": "<color=#FF4200>初始危险等级：4\\n</color>加入了组织的暴徒不仅是维奇科的手下，更是其忠实的信徒。他们的思想，他们的渴望，都已经被疯狂染色。在进一步逼近核心之前，要小心这些人不计后果的反扑行动。",
+      "levelType": 1,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 6,
+            "minCount": 6
+          },
+          "mod_update_token_2": {
+            "itemId": "mod_update_token_2",
+            "type": 3,
+            "maxCount": 4,
+            "minCount": 4
+          }
+        }
+      }
+    },
+    "lt_21_04_ex": {
+      "id": "lt_21_04_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_04_ex",
+      "towerId": "tower_n_21",
+      "layerNum": 4,
+      "code": "LT-4",
+      "name": "扭曲图腾",
+      "desc": "<color=#FF4200>初始危险等级：5\\n</color>首领依然潜藏在更靠近园区中心的区域内，但随着这些粗陋的源石图腾出现的频率越来越高，起码队员们能得出判断——自己和虚伪的领袖的距离正越来越近。",
+      "levelType": 0,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 8,
+            "minCount": 8
+          },
+          "mod_update_token_2": {
+            "itemId": "mod_update_token_2",
+            "type": 3,
+            "maxCount": 4,
+            "minCount": 4
+          }
+        }
+      }
+    },
+    "lt_21_05_ex": {
+      "id": "lt_21_05_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_05_ex",
+      "towerId": "tower_n_21",
+      "layerNum": 5,
+      "code": "LT-5",
+      "name": "刺耳供礼",
+      "desc": "<color=#FF4200>初始危险等级：6\\n</color>血腥的气味即便在远处也能嗅到，含混不清的颂礼声逐渐增强。离罪孽最深重之处仅有一步之遥，现在的目标，就是跨越这些狂乱的废墟。",
+      "levelType": 0,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 8,
+            "minCount": 8
+          },
+          "mod_update_token_2": {
+            "itemId": "mod_update_token_2",
+            "type": 3,
+            "maxCount": 4,
+            "minCount": 4
+          }
+        }
+      }
+    },
+    "lt_21_06_ex": {
+      "id": "lt_21_06_ex",
+      "levelId": "Obt/Legion/LT21/level_lt21_06_ex",
+      "towerId": "tower_n_21",
+      "layerNum": 6,
+      "code": "LT-6",
+      "name": "罪恶终局",
+      "desc": "<color=#FF4200>初始危险等级：7\\n</color>那对丑陋的翅膀投下恶意的影子，那张枯干的嘴中流出残暴的话语。无论这个首领做出怎样的抵抗，今天的唯一目标，就是将他的罪恶终结于此。",
+      "levelType": 2,
+      "loadingPicId": "loading_TW_SC",
+      "dropInfo": {
+        "passRewards": [],
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_1",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "mod_update_token_2",
+            "dropType": 2
+          }
+        ],
+        "displayDropInfo": {
+          "mod_update_token_1": {
+            "itemId": "mod_update_token_1",
+            "type": 3,
+            "maxCount": 8,
+            "minCount": 8
+          },
+          "mod_update_token_2": {
+            "itemId": "mod_update_token_2",
+            "type": 3,
+            "maxCount": 6,
+            "minCount": 6
+          }
+        }
+      }
     }
   },
   "tacticalBuffs": {
@@ -13940,6 +14699,74 @@
       },
       "trapIds": [
         "trap_787_supctl"
+      ]
+    },
+    "card_tower_21": {
+      "id": "card_tower_21",
+      "type": 1,
+      "linkedTowerId": "tower_n_21",
+      "sortId": 117,
+      "name": "“主动脉”支援系统",
+      "desc": "<color=#FF4200>被动效果：</color>我方干员每次攻击敌人时，偷取目标50点生命上限；最高偷取上限为自身非偷取生命上限的1倍\\n\\n<color=#FF4200>主动效果：</color>使面前一格干员的生命上限+100%",
+      "subCardIds": [
+        "subtowercard_21_01",
+        "subtowercard_21_02"
+      ],
+      "runeData": {
+        "id": "legion_tower_card_21",
+        "points": 0.0,
+        "mutexGroupKey": null,
+        "description": "我方干员每次攻击敌人时，偷取目标50点生命上限；最高偷取上限为自身非偷取生命上限的1倍",
+        "runes": [
+          {
+            "key": "char_dynamic_ability_new",
+            "selector": {
+              "professionMask": 639,
+              "buildableMask": 3,
+              "playerSideMask": 0,
+              "sideType": 7,
+              "charIdFilter": [],
+              "charIdExcludeFilter": [],
+              "enemyIdFilter": [],
+              "enemyIdExcludeFilter": [],
+              "enemyLevelTypeFilter": [],
+              "enemyActionHiddenGroupFilter": [],
+              "skillIdFilter": [],
+              "tileKeyFilter": [],
+              "groupTagFilter": [],
+              "filterTagFilter": [],
+              "filterTagExcludeFilter": [],
+              "subProfessionExcludeFilter": [],
+              "mapTagFilter": [],
+              "heightTypeMask": 3
+            },
+            "blackboard": [
+              {
+                "key": "key",
+                "value": 0.0,
+                "valueStr": "StealMaxHpAbility"
+              },
+              {
+                "key": "steal",
+                "value": 50.0,
+                "valueStr": null
+              },
+              {
+                "key": "steal_max_scale",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "at_root",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ]
+          }
+        ]
+      },
+      "trapIds": [
+        "trap_792_healbf"
       ]
     }
   },
@@ -17679,6 +18506,132 @@
       "trapIds": [
         "trap_789_supctlb"
       ]
+    },
+    "subtowercard_21_01": {
+      "id": "subtowercard_21_01",
+      "mainCardId": "card_tower_21",
+      "sortId": 1,
+      "name": "抑制解除模组",
+      "desc": "<color=#FF4200>被动效果升级：</color>我方干员造成伤害后，偷取目标100点生命上限；最高偷取上限为自身生命值上限的2倍",
+      "runeData": {
+        "id": "legion_tower_card_21_a",
+        "points": 0.0,
+        "mutexGroupKey": null,
+        "description": "我方干员每次攻击敌人时，偷取目标100点生命上限；最高偷取上限为自身非偷取生命上限的2倍",
+        "runes": [
+          {
+            "key": "char_dynamic_ability_new",
+            "selector": {
+              "professionMask": 639,
+              "buildableMask": 3,
+              "playerSideMask": 0,
+              "sideType": 7,
+              "charIdFilter": [],
+              "charIdExcludeFilter": [],
+              "enemyIdFilter": [],
+              "enemyIdExcludeFilter": [],
+              "enemyLevelTypeFilter": [],
+              "enemyActionHiddenGroupFilter": [],
+              "skillIdFilter": [],
+              "tileKeyFilter": [],
+              "groupTagFilter": [],
+              "filterTagFilter": [],
+              "filterTagExcludeFilter": [],
+              "subProfessionExcludeFilter": [],
+              "mapTagFilter": [],
+              "heightTypeMask": 3
+            },
+            "blackboard": [
+              {
+                "key": "key",
+                "value": 0.0,
+                "valueStr": "StealMaxHpAbility"
+              },
+              {
+                "key": "steal",
+                "value": 100.0,
+                "valueStr": null
+              },
+              {
+                "key": "steal_max_scale",
+                "value": 2.0,
+                "valueStr": null
+              },
+              {
+                "key": "at_root",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ]
+          }
+        ]
+      },
+      "trapIds": [
+        "trap_793_healbfa"
+      ]
+    },
+    "subtowercard_21_02": {
+      "id": "subtowercard_21_02",
+      "mainCardId": "card_tower_21",
+      "sortId": 1,
+      "name": "血浆活化模组",
+      "desc": "<color=#FF4200>主动效果升级：</color>使面前一格干员的生命上限+150%，并立即获得1件本职业的战术装备（部署效果无法触发）",
+      "runeData": {
+        "id": "legion_tower_card_21",
+        "points": 0.0,
+        "mutexGroupKey": null,
+        "description": "我方干员每次攻击敌人时，偷取目标50点生命上限；最高偷取上限为自身非偷取生命上限的1倍",
+        "runes": [
+          {
+            "key": "char_dynamic_ability_new",
+            "selector": {
+              "professionMask": 639,
+              "buildableMask": 3,
+              "playerSideMask": 0,
+              "sideType": 7,
+              "charIdFilter": [],
+              "charIdExcludeFilter": [],
+              "enemyIdFilter": [],
+              "enemyIdExcludeFilter": [],
+              "enemyLevelTypeFilter": [],
+              "enemyActionHiddenGroupFilter": [],
+              "skillIdFilter": [],
+              "tileKeyFilter": [],
+              "groupTagFilter": [],
+              "filterTagFilter": [],
+              "filterTagExcludeFilter": [],
+              "subProfessionExcludeFilter": [],
+              "mapTagFilter": [],
+              "heightTypeMask": 3
+            },
+            "blackboard": [
+              {
+                "key": "key",
+                "value": 0.0,
+                "valueStr": "StealMaxHpAbility"
+              },
+              {
+                "key": "steal",
+                "value": 50.0,
+                "valueStr": null
+              },
+              {
+                "key": "steal_max_scale",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "at_root",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ]
+          }
+        ]
+      },
+      "trapIds": [
+        "trap_794_healbfb"
+      ]
     }
   },
   "curseCards": {
@@ -17714,7 +18667,10 @@
         "tower_n_19",
         "tower_n_20",
         "tower_n_20",
-        "tower_n_20"
+        "tower_n_20",
+        "tower_n_21",
+        "tower_n_21",
+        "tower_n_21"
       ],
       "name": "超重绝缘水泥 ",
       "desc": "位于待部署区时，其他单位部署费用+2；部署后无法撤退",
@@ -17933,6 +18889,24 @@
       "replicatedTowers": [
         "tower_n_09",
         "tower_n_11"
+      ]
+    },
+    "tower_season_12": {
+      "id": "tower_season_12",
+      "name": "废都安保派驻",
+      "seasonNum": 12,
+      "startTs": 1786824000,
+      "endTs": 1797364799,
+      "towers": [
+        "tower_n_10",
+        "tower_n_21"
+      ],
+      "seasonCards": [
+        "card_05",
+        "card_06"
+      ],
+      "replicatedTowers": [
+        "tower_n_10"
       ]
     }
   },
@@ -21390,6 +22364,314 @@
       "foldId": null,
       "haveSubMissionToUnlock": false,
       "countEndTs": -1
+    },
+    "tower_season12_1": {
+      "bindGodCardId": null,
+      "bindTowerId": "tower_n_10",
+      "id": "tower_season12_1",
+      "sortId": 1,
+      "description": "通关荒废灯塔",
+      "type": "TOWERSEASON",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "TowerSettlePass",
+      "templateType": "0",
+      "param": [
+        "0",
+        "tower_n_10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "tower_season_12",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "30044",
+          "count": 2
+        },
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 20000
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    "tower_season12_2": {
+      "bindGodCardId": null,
+      "bindTowerId": "tower_n_21",
+      "id": "tower_season12_2",
+      "sortId": 2,
+      "description": "通关日达诺夫园区",
+      "type": "TOWERSEASON",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "TowerSettlePass",
+      "templateType": "0",
+      "param": [
+        "0",
+        "tower_n_21"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "tower_season_12",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "31094",
+          "count": 2
+        },
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 20000
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    "tower_season12_3": {
+      "bindGodCardId": null,
+      "bindTowerId": null,
+      "id": "tower_season12_3",
+      "sortId": 3,
+      "description": "进行任意保全作战，并且清理进度达到1层或以上2次",
+      "type": "TOWERSEASON",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "TowerSettleLayer",
+      "templateType": "0",
+      "param": [
+        "0",
+        "NORMAL,HARD",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "tower_season_12",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "31083",
+          "count": 5
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2004",
+          "count": 10
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    "tower_season12_4": {
+      "bindGodCardId": null,
+      "bindTowerId": null,
+      "id": "tower_season12_4",
+      "sortId": 4,
+      "description": "进行任意保全作战，并且清理进度达到3层或以上2次",
+      "type": "TOWERSEASON",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "TowerSettleLayer",
+      "templateType": "0",
+      "param": [
+        "0",
+        "NORMAL,HARD",
+        "3",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "tower_season_12",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "31034",
+          "count": 2
+        },
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 20000
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    "tower_season12_5": {
+      "bindGodCardId": null,
+      "bindTowerId": null,
+      "id": "tower_season12_5",
+      "sortId": 5,
+      "description": "进行任意保全作战，并且清理进度达到5层或以上2次",
+      "type": "TOWERSEASON",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "TowerSettleLayer",
+      "templateType": "0",
+      "param": [
+        "0",
+        "NORMAL,HARD",
+        "5",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "tower_season_12",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "30115",
+          "count": 1
+        },
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 60000
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    "tower_season12_6": {
+      "bindGodCardId": null,
+      "bindTowerId": null,
+      "id": "tower_season12_6",
+      "sortId": 6,
+      "description": "进行任意保全作战，并且清理进度达到1层或以上4次",
+      "type": "TOWERSEASON",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "TowerSettleLayer",
+      "templateType": "0",
+      "param": [
+        "0",
+        "NORMAL,HARD",
+        "1",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "tower_season_12",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "31053",
+          "count": 5
+        },
+        {
+          "type": "CARD_EXP",
+          "id": "2004",
+          "count": 10
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    "tower_season12_7": {
+      "bindGodCardId": null,
+      "bindTowerId": null,
+      "id": "tower_season12_7",
+      "sortId": 7,
+      "description": "进行任意保全作战，并且清理进度达到3层或以上4次",
+      "type": "TOWERSEASON",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "TowerSettleLayer",
+      "templateType": "0",
+      "param": [
+        "0",
+        "NORMAL,HARD",
+        "3",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "tower_season_12",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "31044",
+          "count": 2
+        },
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 20000
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    "tower_season12_8": {
+      "bindGodCardId": null,
+      "bindTowerId": null,
+      "id": "tower_season12_8",
+      "sortId": 8,
+      "description": "进行任意保全作战，并且清理进度达到5层或以上4次",
+      "type": "TOWERSEASON",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "TowerSettleLayer",
+      "templateType": "0",
+      "param": [
+        "0",
+        "NORMAL,HARD",
+        "5",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "tower_season_12",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "30145",
+          "count": 1
+        },
+        {
+          "type": "GOLD",
+          "id": "4001",
+          "count": 60000
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
     }
   },
   "missionGroup": {
@@ -21612,6 +22894,26 @@
       ],
       "startTs": 1776283200,
       "endTs": 1786823999
+    },
+    "tower_season_12": {
+      "id": "tower_season_12",
+      "title": null,
+      "type": "TOWERSEASON",
+      "preMissionGroup": null,
+      "period": [],
+      "rewards": [],
+      "missionIds": [
+        "tower_season12_1",
+        "tower_season12_2",
+        "tower_season12_3",
+        "tower_season12_4",
+        "tower_season12_5",
+        "tower_season12_6",
+        "tower_season12_7",
+        "tower_season12_8"
+      ],
+      "startTs": 1786824000,
+      "endTs": 1797364799
     }
   }
 }

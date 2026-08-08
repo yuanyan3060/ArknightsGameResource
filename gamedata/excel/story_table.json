@@ -13774,6 +13774,29 @@
     "setFlags": [],
     "completedRewards": []
   },
+  "activities/Arkhub/guide_actarkhub_entry": {
+    "id": "activities/Arkhub/guide_actarkhub_entry",
+    "needCommit": true,
+    "repeatable": false,
+    "disabled": false,
+    "videoResource": false,
+    "trigger": {
+      "type": "CUSTOM_OPERATION",
+      "key": "actarkhub_entry",
+      "useRegex": false
+    },
+    "condition": {
+      "minProgress": -1,
+      "maxProgress": -1,
+      "minPlayerLevel": 1,
+      "requiredFlags": [],
+      "excludedFlags": [],
+      "requiredStages": []
+    },
+    "setProgress": -1,
+    "setFlags": [],
+    "completedRewards": []
+  },
   "activities/act21mini/level_act21mini_st01": {
     "id": "activities/act21mini/level_act21mini_st01",
     "needCommit": false,

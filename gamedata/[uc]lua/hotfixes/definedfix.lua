@@ -5,8 +5,9 @@ local list =
   "HotFixes/TestStubHotfixer",
   "HotFixes/ArkventHotfixer",
   "HotFixes/ArkventDepthOfFieldHolderHotfixer",
-  "HotFixes/SceneDofControllerHotfixer",
+  "HotFixes/CopyDepthTextureHotfixer",
   "HotFixes/RL06ShopHotfixer",
+  "HotFixes/SandboxV3BattleSaveManagerHotfixer",
 };
 
 return list;

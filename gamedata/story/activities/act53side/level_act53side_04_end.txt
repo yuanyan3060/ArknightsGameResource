@@ -25,14 +25,16 @@
 [charslot(slot = "m", name = "avg_npc_2358_1#2$1")]
 [name="悠闲的矿工"]噗，你这小姑娘，当我多大，要用糖收买我？
 [dialog]
-[charslot(slot = "l", name = "avg_4235_thumpy_1#1$2",posfrom="-200,0",posto="-70,0",duration=0.8)]
-[Delay(time=1.2)]
-[charslot(slot = "l",focus="l")]
+[charslot]
+[delay(time=0.3)]
+[charslot(slot = "m", name = "avg_4235_thumpy_1#16$2")] 
+[charslot(slot = "m", name = "avg_4235_thumpy_1#1$2", action="jump",random=true, power=20, times=2, duration=0.3)]
+[PlaySound(key="$d_avg_bubble_cartoon_1")]
 [name="塔妮"]嘿嘿......
 [dialog]
-[charslot(slot = "l", name = "avg_4235_thumpy_1#1$2",posfrom="-70,0",posto="-200,0",afrom=1,ato=0,duration=0.8)]
-[Delay(time=0.8)]
 [charslot(slot = "m", name = "avg_npc_2358_1#2$1")]
+[charslot(slot = "m", name = "avg_npc_2358_1#2$1", action="shake",random=true, power=5, times=50, duration=0.3)]
+[Effect(name="$e_emoji_cheer",layer = 1,x=0,y=50)]
 [name="悠闲的矿工"]......啧啧，这胡萝卜糖口味真不错。
 [name="悠闲的矿工"]反正那个维修员也没下多深，就是里面的路不好认，我七八岁的时候就天天往里钻了。
 [name="悠闲的矿工"]看见那边的入口了吗？这个图上画红叉的地方就是她检修的位置。记得快进快出。
