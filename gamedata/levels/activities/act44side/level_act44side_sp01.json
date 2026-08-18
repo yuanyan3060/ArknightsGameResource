@@ -10,10 +10,13 @@
     "isTrainingLevel": true,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -1118,9 +1121,9 @@
           "valueStr": null
         },
         {
-          "key": "activity_dependent_ui_plugin_name",
+          "key": "ui_plugin_path",
           "value": 0.0,
-          "valueStr": "act44side"
+          "valueStr": "Arts/UI/[UC]BattleCommon/UI_BATTLE_PLUGIN/act44side_battle_ui_plugin.prefab"
         },
         {
           "key": "sp",
@@ -2999,6 +3002,14 @@
           "attractImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -3195,6 +3206,14 @@
             "m_value": false
           },
           "attractImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -4398,7 +4417,8 @@
             "value": 10.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4438,7 +4458,8 @@
             "value": 10.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       }
     ],
     "tokenInsts": [
@@ -4480,7 +4501,8 @@
             "value": 7.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4520,7 +4542,8 @@
             "value": 8.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4555,7 +4578,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4590,7 +4614,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4625,7 +4650,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4660,7 +4686,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4695,7 +4722,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4730,7 +4758,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4765,7 +4794,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4800,7 +4830,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4835,7 +4866,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4870,7 +4902,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4905,7 +4938,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4940,7 +4974,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -4975,7 +5010,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -5010,7 +5046,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -5045,7 +5082,8 @@
             "value": 999.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       }
     ],
     "characterCards": [
@@ -5082,7 +5120,8 @@
             "value": 10.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "hidden": false,
@@ -5117,7 +5156,8 @@
             "value": 10.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       }
     ],
     "tokenCards": []

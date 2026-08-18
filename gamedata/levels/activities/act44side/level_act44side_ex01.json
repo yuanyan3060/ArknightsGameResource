@@ -10,10 +10,13 @@
     "isTrainingLevel": false,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": [],
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -1202,9 +1205,9 @@
           "valueStr": null
         },
         {
-          "key": "activity_dependent_ui_plugin_name",
+          "key": "ui_plugin_path",
           "value": 0.0,
-          "valueStr": "act44side"
+          "valueStr": "Arts/UI/[UC]BattleCommon/UI_BATTLE_PLUGIN/act44side_battle_ui_plugin.prefab"
         },
         {
           "key": "sp",
@@ -1301,9 +1304,9 @@
           "valueStr": null
         },
         {
-          "key": "activity_dependent_ui_plugin_name",
+          "key": "ui_plugin_path",
           "value": 0.0,
-          "valueStr": "act44side"
+          "valueStr": "Arts/UI/[UC]BattleCommon/UI_BATTLE_PLUGIN/act44side_battle_ui_plugin.prefab"
         },
         {
           "key": "sp",
@@ -9522,7 +9525,8 @@
             "value": 10.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -9562,7 +9566,8 @@
             "value": 10.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -9602,7 +9607,8 @@
             "value": 10.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -9642,7 +9648,8 @@
             "value": 10.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       },
       {
         "position": {
@@ -9682,7 +9689,8 @@
             "value": 10.0,
             "valueStr": null
           }
-        ]
+        ],
+        "overrideTalents": []
       }
     ],
     "characterCards": [],

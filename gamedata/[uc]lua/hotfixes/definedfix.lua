@@ -8,6 +8,7 @@ local list =
   "HotFixes/CopyDepthTextureHotfixer",
   "HotFixes/RL06ShopHotfixer",
   "HotFixes/SandboxV3BattleSaveManagerHotfixer",
+  "HotFixes/ArkhubPixelShowLimitHotfixer",
 };
 
 return list;

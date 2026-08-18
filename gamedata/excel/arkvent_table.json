@@ -25856,6 +25856,108 @@
               "z": 0.0
             }
           },
+          "arkhub_main_shiane_02b": {
+            "actorId": "arkhub_main_shiane_02b",
+            "actorNameId": "arkvent_char_700_shiane",
+            "actorEnvLineId": "",
+            "sceneId": -1520665757,
+            "isGlobal": false,
+            "charId": "",
+            "skinId": "",
+            "arkventSpineId": "",
+            "npcSpineType": 0,
+            "overrideAnimConfig": {},
+            "furnitureAssetId": "",
+            "actorType": 1,
+            "actorPosition": {
+              "x": 0.25523,
+              "y": -0.00841,
+              "z": 8.51009
+            },
+            "actorYaw": 0.0,
+            "actorShowCondition": [
+              {
+                "conditionType": "VARSEQ",
+                "varSeqList": [
+                  "capture_catch_guide_01"
+                ],
+                "type": 4,
+                "value": 0
+              },
+              {
+                "conditionType": "VARSEQ",
+                "varSeqList": [
+                  "capture_catch_guide_02"
+                ],
+                "type": 4,
+                "value": 0
+              },
+              {
+                "conditionType": "VARSEQ",
+                "varSeqList": [
+                  "capture_update_guide"
+                ],
+                "type": 3,
+                "value": 0
+              }
+            ],
+            "actorTriggerType": 1,
+            "actorTriggerOperations": {
+              "0": [
+                {
+                  "operationId": null,
+                  "operationTemplate": "BranchOperation",
+                  "operationParams": {
+                    "__avgId__": "act1arkhub_shiane_avg_02b"
+                  },
+                  "finishOperation": false,
+                  "preserveBlackout": false
+                },
+                {
+                  "operationId": "get_reward",
+                  "operationTemplate": "ReceiveArkhubReward",
+                  "operationParams": {
+                    "awardId": "reward_guide_02"
+                  },
+                  "finishOperation": false,
+                  "preserveBlackout": false
+                }
+              ]
+            },
+            "triggerRange": null,
+            "colliderRange": null,
+            "interactRange": {
+              "type": 1,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "bounds": {
+                "x": 2.0,
+                "y": 10.0,
+                "z": 2.0
+              }
+            },
+            "triggerCameraConfig": "",
+            "interactCameraConfig": "",
+            "sceneStatusDriverId": null,
+            "sceneObjectStatus": null,
+            "effectId": null,
+            "effectOffsetY": 0.0,
+            "interactBtnStyleId": "npc_interact_normal",
+            "interactingBtnStyleId": "",
+            "interactSoundFx": "",
+            "headUpStyleId": "head_ui_talk",
+            "spineFace": 0,
+            "persistFaceWhenInteract": false,
+            "hasSafePos": false,
+            "safePos": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
           "arkhub_main_teleport_01": {
             "actorId": "arkhub_main_teleport_01",
             "actorNameId": "arkvent_002_portal_1",
