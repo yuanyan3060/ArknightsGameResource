@@ -6,6 +6,8 @@ local list =
   "HotFixes/UICharacterTabGroupHotfixer",
   "HotFixes/AVGStickerAutoClickHotfixer",
   "HotFixes/AVGDialogAutoClickHotfixer",
+  "HotFixes/DynNameCardSettingHotfixer",
+  "HotFixes/SchedulerHotfixer",
 };
 
 return list;

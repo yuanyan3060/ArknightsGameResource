@@ -13560,6 +13560,64 @@
     "setFlags": [],
     "completedRewards": []
   },
+  "activities/act54side/level/act54side_4_a": {
+    "id": "activities/act54side/level/act54side_4_a",
+    "needCommit": false,
+    "repeatable": true,
+    "disabled": false,
+    "videoResource": false,
+    "trigger": {
+      "type": "CUSTOM_OPERATION",
+      "key": null,
+      "useRegex": false
+    },
+    "condition": {
+      "minProgress": -1,
+      "maxProgress": -1,
+      "minPlayerLevel": 1,
+      "requiredFlags": [],
+      "excludedFlags": [],
+      "requiredStages": [
+        {
+          "stageId": "act54side_04",
+          "minState": 0,
+          "maxState": 1
+        }
+      ]
+    },
+    "setProgress": -1,
+    "setFlags": [],
+    "completedRewards": []
+  },
+  "activities/act54side/level/act54side_4_b": {
+    "id": "activities/act54side/level/act54side_4_b",
+    "needCommit": false,
+    "repeatable": true,
+    "disabled": false,
+    "videoResource": false,
+    "trigger": {
+      "type": "CUSTOM_OPERATION",
+      "key": null,
+      "useRegex": false
+    },
+    "condition": {
+      "minProgress": -1,
+      "maxProgress": -1,
+      "minPlayerLevel": 1,
+      "requiredFlags": [],
+      "excludedFlags": [],
+      "requiredStages": [
+        {
+          "stageId": "act54side_04",
+          "minState": 0,
+          "maxState": 1
+        }
+      ]
+    },
+    "setProgress": -1,
+    "setFlags": [],
+    "completedRewards": []
+  },
   "activities/act53side/level_act53side_st01": {
     "id": "activities/act53side/level_act53side_st01",
     "needCommit": true,
