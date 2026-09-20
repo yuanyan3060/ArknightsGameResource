@@ -1,0 +1,188 @@
+[header(is_tutorial=true, is_skippable=true)] act1dp tr01 逐影先导
+
+[inputblocker(blockInput=true)]
+[battle.lockVase(lockVaseClick=true, lockCountDown=true)]
+
+[popupdialog(dialogHead="$avatar_amiya")] 泡普卡小姐和刻俄柏小姐不见了……多利先生说的“捉迷藏”，应该就是把她们<@tu.kw>藏进了这些云团</>里。
+
+[battle.pause(pause=false)]
+[inputblocker(blockInput=true)]
+
+[battle.delay(time=0.6)]
+
+[inputblocker(blockInput=true)]
+
+[tutorial(tileX=5.5, tileY=3, focusWidth=520, focusHeight=260, \
+          animStyle="Highlight", focusStyle="HighlightRect", black="0.5", protectTime=0.5, dialogHead="$avatar_amiya")] \
+场地里出现的<@tu.kw>绒绒云团</>中藏着各种存在，可能是<@tu.kw>干员</>，也可能是多利先生准备的<@tu.kw>“惊吓敌人”</>。
+
+[tutorial(tileX=5.5, tileY=3, focusWidth=520, focusHeight=260, \
+          animStyle="Highlight", focusStyle="HighlightRect", black="0.5", protectTime=1.5, dialogHead="$avatar_dolly")] \
+在这个游乐场里，找到自己的朋友并不算结束，需要所有云团都被吹散，里面的<@tu.kw>敌人都被赶走</>才算获胜哦。
+
+[popupdialog(dialogHead="$avatar_amiya")] 那好吧，看起来得让多利先生开心才行！
+
+[popupdialog(dialogHead="$avatar_amiya")] 这场捉迷藏游戏<@tu.kw>不会自然回复部署费用</>。
+
+[popupdialog(dialogHead="$avatar_amiya")] 我们要选择<@tu.kw>开局时即可部署</>的干员，作为<@tu.kw>逐影先锋</>。
+
+[popupdialog(dialogHead="$avatar_amiya")] 而没有被选中的<@tu.kw>干员</>会被<@tu.kw>藏进云团中</>，直到所在的云团被吹散。
+[battle.lockFunction(mask="WITHDRAWABLE_PANEL")]
+[battle.pause(pause=false)]
+[inputblocker(blockInput=false)]
+[tutorial(cardIndex=0, rightStart=true, focusWidth=100, focusHeight=100, \
+          animStyle="Click", focusStyle="HighlightRect", black="0.5", protectTime=0.5, \
+          waitForSignal="vase_select_character_selected", charId="char_002_amiya", dialogHead="$avatar_amiya")] \
+博士可以先<@tu.kw>选择我</>。
+[battle.pause]
+[inputblocker(blockInput=true)]
+
+[battle.pause(pause=false)]
+[inputblocker(blockInput=true, target="vase_select_character_start_button", validWidth=100, validHeight=100)]
+[tutorial(target="vase_select_character_start_button", searchBtnInChildren=true, \
+          animStyle="Click", focusStyle="HighlightRect", black="0.5", protectTime=0.5, \
+          waitForSignal="vase_select_character_confirmed", dialogHead="$avatar_amiya")] \
+这样我就担当本次的<@tu.kw>逐影先锋</>，负责吹散这些云团。
+
+[inputblocker(blockInput=false)]
+[battle.delay(time=0.1)]
+[battle.lockFunction(mask="SYSTEM_MENU_INTERACT")]
+[battle.delay(time=0.2)]
+
+[tutorial(waitForSignal="put_down", charId="char_002_amiya", posX=3, posY=3, dialogHead="$avatar_amiya", animStyle="Drag", \
+          startCardIndex=0, startRightStart=true, endTileX=3, endTileY=3)] \
+我们的朋友已经被<@tu.kw>藏在</>多利先生的云团中了，让我来找找她们吧。
+
+[tutorial(waitForSignal="select_direction", dialogHead="$avatar_amiya", animStyle="Drag", \
+          startTileX=3, startTileY=3, endTileX=4, endTileY=3)] \
+博士，请指引我面向<@tu.kw>右侧</>，对着云团的方向。
+
+[battle.delay(time=0.6)]
+
+[battle.pause]
+[inputblocker(blockInput=true)]
+
+[tutorial(tileX=6, tileY=3, focusWidth=80, focusHeight=80, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="0.5", protectTime=0.5, dialogHead="$avatar_amiya")] \
+<@tu.kw>某些云团上会显现出提示</>，这个图标代表里面藏着的是多利先生准备的“惊吓”，也就是<@tu.kw>敌人</>。
+
+[tutorial(tileX=5, tileY=3, focusWidth=80, focusHeight=80, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="0.5", protectTime=0.5, dialogHead="$avatar_amiya")] \
+而<@tu.kw>这个图标</>代表着<@tu.kw>干员</>被藏进了云团里，我们要吹散云团来让里面的干员归队。
+
+[battle.unlockFunction(mask="WITHDRAWABLE_PANEL")]
+
+[tutorial(tileX=5, tileY=3, focusWidth=80, focusHeight=80, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="0.5", protectTime=0.5, dialogHead="$avatar_amiya")] \
+在平常状态下，这些云团被多利先生的法术保护着，是<@tu.kw>无法</>被吹动的。
+[battle.lockVase(lockVaseClick=false, lockCountDown=true)]
+
+[battle.pause(pause=false)]
+[inputblocker(blockInput=true, validWidth=80, validHeight=80, black=0, tileX=5, tileY=3)]
+[tutorial(tileX=5, tileY=3, focusWidth=80, focusHeight=80, \
+          animStyle="Click", focusStyle="HighlightCircle", black="0.5", protectTime=0.5, \
+          waitForSignal="vase_clicked", dialogHead="$avatar_amiya")] \
+但根据多利先生的游戏规则，只要我们<@tu.kw>点击</>其中一个云团，它就会变得<@tu.kw>松软</>——
+
+[inputblocker(blockInput=true)]
+
+[battle.pause(pause=false)]
+
+[battle.delay(time=0.6)]
+
+[battle.pause]
+
+
+[popupdialog(dialogHead="$avatar_amiya")] 就像这样，当云团变为<@tu.kw>粉色</>的时候，就代表它<@tu.kw>可以被吹散</>了。
+
+[battle.pause(pause=false)]
+
+[tutorial(waitForSignal="vase_opened")]
+
+[battle.delay(time=0.5)]
+
+[battle.pause]
+[inputblocker(blockInput=true)]
+
+[popupdialog(dialogHead="$avatar_popka", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] 啊，阿米娅，你找到我了！
+
+[tutorial(target="battle_cost_panel", searchBtnInChildren=true, \
+          animStyle="Highlight", focusStyle="HighlightRect", black="0.5", protectTime=0.5, \
+          dialogHead="$avatar_amiya", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+吹散云团之后，我们能获得<@tu.kw>部署费用</>，游戏的<@tu.kw>倒计时</>也会随之增加。
+
+[popupdialog(dialogHead="$avatar_popka", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] 倒计时？
+
+[tutorial(focusX=0, focusY=-88, focusWidth=640, focusHeight=110, anchor="Top", \
+          animStyle="Highlight", focusStyle="HighlightRect", black="0.5", protectTime=0.5, \
+          dialogHead="$avatar_amiya", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+没错，多利先生还准备了最终的惊喜。一旦<@tu.kw>倒计时结束</>，场上就会刮起一场大风暴，<@tu.kw>吹散所有的云团</>。
+
+[popupdialog(dialogHead="$avatar_amiya", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] 到时候虽然能找到被藏起来的干员，但干员将被<@tu.kw>直接部署到场上</>，且<@tu.kw>朝向是随机的</>，同时——
+
+[popupdialog(dialogHead="$avatar_popka", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] <@tu.kw>所有敌人会倾巢而出</>，一起涌向目标点——也就是游乐场的出口！
+
+[popupdialog(dialogHead="$avatar_popka", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] 可是，阿米娅，现在没有其他显露提示的云团了……
+
+[popupdialog(dialogHead="$avatar_popka", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] 难道，要将那只绒绒从云团里放出来吗？
+
+[popupdialog(dialogHead="$avatar_amiya", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] 不用着急，云团<@tu.kw>受到一定伤害</>，也就是被吹动之后，<@tu.kw>里面藏着的东西就会显现出来</>。我们可以观察信息后，再决定要不要吹散它。
+
+[battle.pause(pause=false)]
+[inputblocker(blockInput=true, validWidth=80, validHeight=80, black=0, tileX=5, tileY=4)]
+[tutorial(tileX=5, tileY=4, focusWidth=80, focusHeight=80, \
+          animStyle="Click", focusStyle="HighlightCircle", black="0.5", protectTime=0.5, \
+          waitForSignal="vase_clicked", dialogHead="$avatar_amiya")] \
+博士，我们现在试着吹动这个云团来看一看吧~
+
+[inputblocker(blockInput=true)]
+[battle.pause(pause=false)]
+
+[tutorial(waitForSignal="vase_info_revealed")]
+
+[battle.pause]
+[inputblocker(blockInput=true)]
+
+[tutorial(tileX=5, tileY=4, focusWidth=80, focusHeight=80, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="0.5", protectTime=0.5, \
+          dialogHead="$avatar_popka", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+啊，看起来藏着的不是干员，<@tu.kw>快停下</>！
+
+[popupdialog(dialogHead="$avatar_amiya", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] 别担心，在这个特殊游乐项目里，多利先生设置了场上<@tu.kw>同一时间仅有一个</>云团可以被吹动的规则。
+
+[battle.pause]
+[inputblocker(blockInput=true, validWidth=80, validHeight=80, black=0, tileX=5, tileY=2)]
+[tutorial(tileX=5, tileY=2, focusWidth=80, focusHeight=80, \
+          animStyle="Click", focusStyle="HighlightCircle", black="0.5", protectTime=0.5, \
+          waitForSignal="vase_target_clicked", dialogHead="$avatar_amiya")] \
+只需要<@tu.kw>点击另一个云团</>，就可以<@tu.kw>指挥干员更换</>要吹动的目标。
+
+[inputblocker(blockInput=true)]
+[battle.pause(pause=false)]
+
+[tutorial(waitForSignal="vase_opened")]
+
+[battle.delay(time=0.5)]
+
+[battle.pause]
+[inputblocker(blockInput=true)]
+
+[popupdialog(dialogHead="$avatar_cerber", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] 哇，刚才好像做了一个，被棉花糖困住的好甜好甜的梦……
+
+[popupdialog(dialogHead="$avatar_amiya", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] 我们找到刻俄柏小姐了！
+
+[popupdialog(dialogHead="$avatar_amiya", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] 如果需要的话，博士可以<@tu.kw>直接点击粉色云团</>，多利先生会立刻为它<@tu.kw>重新施加保护法术</>。
+
+[tutorial(target="vase_countdown_finish_button", searchBtnInChildren=true, \
+          animStyle="Highlight", focusStyle="HighlightRect", black="0.5", protectTime=0.5, \
+          dialogHead="$avatar_amiya", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+当然，假如博士想让多利先生<@tu.kw>直接开始最后的惊喜风暴</>，也可以点击这个按钮，<@tu.kw>不过要小心乱糟糟的后果哦</>！
+
+[popupdialog(dialogHead="$avatar_amiya", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] 好了，博士，现在和我们一起陪多利先生玩完这次的捉迷藏吧！
+
+[battle.pause(pause=false)]
+[inputblocker(blockInput=false)]
+[battle.lockVase(lockVaseClick=false, lockCountDown=false)]
+
+[battle.delay(time=1.5)]
+[battle.unlockFunction(mask="SYSTEM_MENU_INTERACT")]

@@ -1,5 +1,74 @@
 {
   "basicInfo": {
+    "act63sign": {
+      "id": "act63sign",
+      "type": "CHECKIN_ONLY",
+      "displayType": "NONE",
+      "name": "稳态测定签到活动",
+      "startTime": 1790539200,
+      "endTime": 1791403199,
+      "rewardEndTime": 1791403199,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": [],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 1,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act62sign": {
+      "id": "act62sign",
+      "type": "CHECKIN_ONLY",
+      "displayType": "NONE",
+      "name": "锦枫映月签到活动",
+      "startTime": 1790107200,
+      "endTime": 1790711999,
+      "rewardEndTime": 1790711999,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": [],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 1,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act1dp": {
+      "id": "act1dp",
+      "type": "ACT_DP",
+      "displayType": "NONE",
+      "name": "逐影集趣",
+      "startTime": 1789891200,
+      "endTime": 1790711999,
+      "rewardEndTime": 1790971199,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_ac1dp_01",
+        "medal_activity_ac1dp_02"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 0,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act54side": {
       "id": "act54side",
       "type": "TYPE_ACT54SIDE",
@@ -7225,6 +7294,20 @@
     }
   },
   "homeActConfig": {
+    "act63sign": {
+      "actId": "act63sign",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "21c8c2",
+      "actTopBarText": "稳态测定签到活动"
+    },
+    "act62sign": {
+      "actId": "act62sign",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "ff6801",
+      "actTopBarText": "锦枫映月签到活动"
+    },
     "act61sign": {
       "actId": "act61sign",
       "isPopupAfterCheckin": false,
@@ -8368,6 +8451,8 @@
     }
   },
   "zoneToActivity": {
+    "act1dp_zone1": "act1dp",
+    "act1dp_zone2": "act1dp",
     "act54side_zone1": "act54side",
     "act54side_zone2": "act54side",
     "act44sre_zone1": "act44sre",
@@ -131041,6 +131126,463 @@
       }
     },
     "CHECKIN_ONLY": {
+      "act63sign": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "voucher_skill_specialLevelMax_4",
+                "count": 1,
+                "type": "VOUCHER_SKILL_SPECIALLEVELMAX_4"
+              },
+              {
+                "id": "ap_supply_lt_120",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "order": 1,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 1,
+            "isDynItem": false
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "7001",
+                "count": 5,
+                "type": "TKT_RECRUIT"
+              }
+            ],
+            "order": 2,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "2": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "3301",
+                "count": 30,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 3,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "3302",
+                "count": 20,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "7002",
+                "count": 5,
+                "type": "TKT_INST_FIN"
+              }
+            ],
+            "order": 4,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "3401",
+                "count": 300,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 5,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "5": {
+            "itemList": [
+              {
+                "id": "mod_unlock_token",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3003",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 6,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "6": {
+            "itemList": [
+              {
+                "id": "furni_oct1st_barrier_01",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 7,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 2,
+            "isDynItem": false
+          }
+        },
+        "apSupplyOutOfDateDict": {
+          "ap_supply_lt_120": 1792353599
+        },
+        "dynCheckInData": null,
+        "extraCheckinList": []
+      },
+      "act62sign": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "furni_MA_mooncake_J_01",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 1,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "furni_MA_mooncake_S_04",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "7001",
+                "count": 5,
+                "type": "TKT_RECRUIT"
+              }
+            ],
+            "order": 2,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "2": {
+            "itemList": [],
+            "order": 3,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 1,
+            "isDynItem": true
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              },
+              {
+                "id": "3003",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 4,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "7002",
+                "count": 5,
+                "type": "TKT_INST_FIN"
+              }
+            ],
+            "order": 5,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          }
+        },
+        "apSupplyOutOfDateDict": {
+          "ap_supply_lt_120_2026_3": 1791748799,
+          "ap_supply_lt_120_2026_4": 1791748799,
+          "ap_supply_lt_120_2026_5": 1791748799,
+          "ap_supply_lt_120_2026_6": 1791748799
+        },
+        "dynCheckInData": {
+          "dynCheckInDict": {
+            "Options0": {
+              "questionDesc": "博士，饼皮原料已经调和好了，揉至柔软光滑即可！\n是否确认制作？",
+              "preOption": "Options0",
+              "optionList": [
+                "Options1",
+                "Options2"
+              ],
+              "showDay": 0,
+              "spOrderIconId": "num_1",
+              "spOrderDesc": "饼皮擀制",
+              "spOrderCompleteDesc": "饼皮擀制完毕"
+            },
+            "Options1": {
+              "questionDesc": "博士，分割馅料时可不要贪心，烤的时候容易露馅哦！\n选择放入的馅料",
+              "preOption": "Options1",
+              "optionList": [
+                "Options3",
+                "Options4"
+              ],
+              "showDay": 1,
+              "spOrderIconId": "num_2",
+              "spOrderDesc": "馅料调制",
+              "spOrderCompleteDesc": "馅料调制完毕"
+            },
+            "Options2": {
+              "questionDesc": "博士，分割馅料时可不要贪心，烤的时候容易露馅哦！\n选择放入的馅料",
+              "preOption": "Options2",
+              "optionList": [
+                "Options5",
+                "Options6"
+              ],
+              "showDay": 1,
+              "spOrderIconId": "num_2",
+              "spOrderDesc": "馅料调制",
+              "spOrderCompleteDesc": "馅料调制完毕"
+            },
+            "Options3": {
+              "questionDesc": "博士，让我们一起把月饼放进模具吧！",
+              "preOption": "Options3",
+              "optionList": [
+                "Options7"
+              ],
+              "showDay": 2,
+              "spOrderIconId": "num_3",
+              "spOrderDesc": "月饼制作",
+              "spOrderCompleteDesc": "月饼制作完成"
+            },
+            "Options4": {
+              "questionDesc": "博士，让我们一起把月饼放进模具吧！",
+              "preOption": "Options4",
+              "optionList": [
+                "Options8"
+              ],
+              "showDay": 2,
+              "spOrderIconId": "num_3",
+              "spOrderDesc": "月饼制作",
+              "spOrderCompleteDesc": "月饼制作完成"
+            },
+            "Options5": {
+              "questionDesc": "博士，让我们一起把月饼送入烤箱吧！",
+              "preOption": "Options5",
+              "optionList": [
+                "Options9"
+              ],
+              "showDay": 2,
+              "spOrderIconId": "num_3",
+              "spOrderDesc": "月饼烤制",
+              "spOrderCompleteDesc": "月饼烤制成功"
+            },
+            "Options6": {
+              "questionDesc": "博士，让我们一起把月饼送入烤箱吧！",
+              "preOption": "Options6",
+              "optionList": [
+                "Options10"
+              ],
+              "showDay": 2,
+              "spOrderIconId": "num_3",
+              "spOrderDesc": "月饼烤制",
+              "spOrderCompleteDesc": "月饼烤制成功"
+            }
+          },
+          "dynOptionDict": {
+            "Options0": {
+              "optionDesc": null,
+              "showImageId1": null,
+              "showImageId2": null,
+              "optionCompleteDesc": null,
+              "isStart": true
+            },
+            "Options1": {
+              "optionDesc": "冰皮月饼",
+              "showImageId1": "cake_1",
+              "showImageId2": "furni_MA_mooncake_B_05",
+              "optionCompleteDesc": "<color=#FF4200>冰皮月饼</color>饼皮擀制完毕",
+              "isStart": false
+            },
+            "Options2": {
+              "optionDesc": "水晶皮月饼",
+              "showImageId1": "cake_2",
+              "showImageId2": "furni_MA_mooncake_J_03",
+              "optionCompleteDesc": "<color=#FF4200>水晶皮月饼</color>饼皮擀制完毕",
+              "isStart": false
+            },
+            "Options3": {
+              "optionDesc": "青梅绿茶",
+              "showImageId1": "cake_1",
+              "showImageId2": "furni_MA_mooncake_B_05",
+              "optionCompleteDesc": "<color=#FF4200>青梅绿茶</color>馅料调制完毕",
+              "isStart": false
+            },
+            "Options4": {
+              "optionDesc": "黄油开心果",
+              "showImageId1": "cake_1",
+              "showImageId2": "furni_MA_mooncake_B_05",
+              "optionCompleteDesc": "<color=#FF4200>黄油开心果</color>馅料调制完毕",
+              "isStart": false
+            },
+            "Options5": {
+              "optionDesc": "芋泥奶酪",
+              "showImageId1": "cake_2",
+              "showImageId2": "furni_MA_mooncake_J_03",
+              "optionCompleteDesc": "<color=#FF4200>芋泥奶酪</color>馅料调制完毕",
+              "isStart": false
+            },
+            "Options6": {
+              "optionDesc": "酱汁鳞肉",
+              "showImageId1": "cake_2",
+              "showImageId2": "furni_MA_mooncake_J_03",
+              "optionCompleteDesc": "<color=#FF4200>酱汁鳞肉</color>馅料调制完毕",
+              "isStart": false
+            },
+            "Options7": {
+              "optionDesc": "确认制作",
+              "showImageId1": "cake_1",
+              "showImageId2": "furni_MA_mooncake_B_05",
+              "optionCompleteDesc": "月饼制作完成",
+              "isStart": false
+            },
+            "Options8": {
+              "optionDesc": "确认制作",
+              "showImageId1": "cake_1",
+              "showImageId2": "furni_MA_mooncake_B_05",
+              "optionCompleteDesc": "月饼制作完成",
+              "isStart": false
+            },
+            "Options9": {
+              "optionDesc": "确认制作",
+              "showImageId1": "cake_2",
+              "showImageId2": "furni_MA_mooncake_J_03",
+              "optionCompleteDesc": "月饼烤制成功",
+              "isStart": false
+            },
+            "Options10": {
+              "optionDesc": "确认制作",
+              "showImageId1": "cake_2",
+              "showImageId2": "furni_MA_mooncake_J_03",
+              "optionCompleteDesc": "月饼烤制成功",
+              "isStart": false
+            }
+          },
+          "dynItemDict": {
+            "Options7": [
+              {
+                "id": "furni_MA_mooncake_B_05",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "ap_supply_lt_120_2026_3",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "Options8": [
+              {
+                "id": "furni_MA_mooncake_B_06",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "ap_supply_lt_120_2026_4",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "Options9": [
+              {
+                "id": "furni_MA_mooncake_J_03",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "ap_supply_lt_120_2026_5",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "Options10": [
+              {
+                "id": "furni_MA_mooncake_J_04",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "ap_supply_lt_120_2026_6",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ]
+          },
+          "constData": {
+            "firstQuestionDesc": "博士来选你想要做的月饼吧！\n材料只够制作其中一款哦！",
+            "firstQuestionTipsDesc": "*未选择的月饼和家具将无法获得",
+            "expirationDesc": "本次活动中的月饼过期时间为 {0}",
+            "firstQuestionConfirmDesc": "确认制作"
+          },
+          "initOption": "Options0"
+        },
+        "extraCheckinList": []
+      },
       "act61sign": {
         "checkInList": {
           "0": {
@@ -399142,7 +399684,1026 @@
         }
       }
     },
-    "ACT_DP": {}
+    "ACT_DP": {
+      "act1dp": {
+        "zoneAdditionDataMap": {
+          "act1dp_zone1": {
+            "zoneId": "act1dp_zone1",
+            "unlockText": "尚未解锁"
+          },
+          "act1dp_zone2": {
+            "zoneId": "act1dp_zone2",
+            "unlockText": "完成「轻游」后解锁"
+          }
+        },
+        "stageAdditionDataMap": {
+          "act1dp_tr01": {
+            "stageId": "act1dp_tr01",
+            "firstCost": 40,
+            "formationMostNum": 4,
+            "formationLeastNum": 1
+          },
+          "act1dp_01": {
+            "stageId": "act1dp_01",
+            "firstCost": 30,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_02": {
+            "stageId": "act1dp_02",
+            "firstCost": 30,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_03": {
+            "stageId": "act1dp_03",
+            "firstCost": 30,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_04": {
+            "stageId": "act1dp_04",
+            "firstCost": 30,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_s01": {
+            "stageId": "act1dp_s01",
+            "firstCost": 40,
+            "formationMostNum": 4,
+            "formationLeastNum": 1
+          },
+          "act1dp_05": {
+            "stageId": "act1dp_05",
+            "firstCost": 20,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_06": {
+            "stageId": "act1dp_06",
+            "firstCost": 30,
+            "formationMostNum": 8,
+            "formationLeastNum": 1
+          },
+          "act1dp_ex01": {
+            "stageId": "act1dp_ex01",
+            "firstCost": 30,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_ex01#f#": {
+            "stageId": "act1dp_ex01#f#",
+            "firstCost": 30,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_ex02": {
+            "stageId": "act1dp_ex02",
+            "firstCost": 30,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_ex02#f#": {
+            "stageId": "act1dp_ex02#f#",
+            "firstCost": 30,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_ex03": {
+            "stageId": "act1dp_ex03",
+            "firstCost": 30,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_ex03#f#": {
+            "stageId": "act1dp_ex03#f#",
+            "firstCost": 30,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_ex04": {
+            "stageId": "act1dp_ex04",
+            "firstCost": 50,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_ex04#f#": {
+            "stageId": "act1dp_ex04#f#",
+            "firstCost": 50,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_s02": {
+            "stageId": "act1dp_s02",
+            "firstCost": 20,
+            "formationMostNum": 0,
+            "formationLeastNum": 0
+          },
+          "act1dp_ex05": {
+            "stageId": "act1dp_ex05",
+            "firstCost": 50,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_ex05#f#": {
+            "stageId": "act1dp_ex05#f#",
+            "firstCost": 50,
+            "formationMostNum": 7,
+            "formationLeastNum": 1
+          },
+          "act1dp_ex06": {
+            "stageId": "act1dp_ex06",
+            "firstCost": 35,
+            "formationMostNum": 9,
+            "formationLeastNum": 1
+          },
+          "act1dp_ex06#f#": {
+            "stageId": "act1dp_ex06#f#",
+            "firstCost": 35,
+            "formationMostNum": 9,
+            "formationLeastNum": 1
+          }
+        },
+        "stageUnlockToastMap": {
+          "act1dp_01": {
+            "stageId": "act1dp_01",
+            "unlockToast": "通关DP-TR-1解锁"
+          },
+          "act1dp_02": {
+            "stageId": "act1dp_02",
+            "unlockToast": "通关DP-1解锁"
+          },
+          "act1dp_03": {
+            "stageId": "act1dp_03",
+            "unlockToast": "通关DP-2解锁"
+          },
+          "act1dp_04": {
+            "stageId": "act1dp_04",
+            "unlockToast": "通关DP-3解锁"
+          },
+          "act1dp_s01": {
+            "stageId": "act1dp_s01",
+            "unlockToast": "通关DP-4解锁"
+          },
+          "act1dp_05": {
+            "stageId": "act1dp_05",
+            "unlockToast": "通关DP-4解锁"
+          },
+          "act1dp_06": {
+            "stageId": "act1dp_06",
+            "unlockToast": "通关DP-5解锁"
+          },
+          "act1dp_ex01": {
+            "stageId": "act1dp_ex01",
+            "unlockToast": "通关DP-6解锁"
+          },
+          "act1dp_ex02": {
+            "stageId": "act1dp_ex02",
+            "unlockToast": "通关DP-EX-1解锁"
+          },
+          "act1dp_ex03": {
+            "stageId": "act1dp_ex03",
+            "unlockToast": "通关DP-EX-2解锁"
+          },
+          "act1dp_ex04": {
+            "stageId": "act1dp_ex04",
+            "unlockToast": "通关DP-EX-3解锁"
+          },
+          "act1dp_s02": {
+            "stageId": "act1dp_s02",
+            "unlockToast": "通关DP-EX-4解锁"
+          },
+          "act1dp_ex05": {
+            "stageId": "act1dp_ex05",
+            "unlockToast": "通关DP-EX-4解锁"
+          },
+          "act1dp_ex06": {
+            "stageId": "act1dp_ex06",
+            "unlockToast": "通关DP-EX-5解锁"
+          }
+        },
+        "stageDropDataMap": {
+          "act1dp_01": {
+            "stageId": "act1dp_01",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 120,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_02": {
+            "stageId": "act1dp_02",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 120,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_03": {
+            "stageId": "act1dp_03",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 120,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_04": {
+            "stageId": "act1dp_04",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 120,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_s01": {
+            "stageId": "act1dp_s01",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 0,
+            "firstCount": 0,
+            "completeCount": 0,
+            "onceCompleteCount": 250,
+            "isDisplay": true
+          },
+          "act1dp_05": {
+            "stageId": "act1dp_05",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 120,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_06": {
+            "stageId": "act1dp_06",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 160,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_ex01": {
+            "stageId": "act1dp_ex01",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 80,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_ex01#f#": {
+            "stageId": "act1dp_ex01#f#",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 0,
+            "firstCount": 0,
+            "completeCount": 0,
+            "onceCompleteCount": 40,
+            "isDisplay": true
+          },
+          "act1dp_ex02": {
+            "stageId": "act1dp_ex02",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 80,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_ex02#f#": {
+            "stageId": "act1dp_ex02#f#",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 0,
+            "firstCount": 0,
+            "completeCount": 0,
+            "onceCompleteCount": 40,
+            "isDisplay": true
+          },
+          "act1dp_ex03": {
+            "stageId": "act1dp_ex03",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 80,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_ex03#f#": {
+            "stageId": "act1dp_ex03#f#",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 0,
+            "firstCount": 0,
+            "completeCount": 0,
+            "onceCompleteCount": 40,
+            "isDisplay": true
+          },
+          "act1dp_ex04": {
+            "stageId": "act1dp_ex04",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 80,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_ex04#f#": {
+            "stageId": "act1dp_ex04#f#",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 0,
+            "firstCount": 0,
+            "completeCount": 0,
+            "onceCompleteCount": 40,
+            "isDisplay": true
+          },
+          "act1dp_s02": {
+            "stageId": "act1dp_s02",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 0,
+            "firstCount": 0,
+            "completeCount": 0,
+            "onceCompleteCount": 250,
+            "isDisplay": true
+          },
+          "act1dp_ex05": {
+            "stageId": "act1dp_ex05",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 80,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_ex05#f#": {
+            "stageId": "act1dp_ex05#f#",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 0,
+            "firstCount": 0,
+            "completeCount": 0,
+            "onceCompleteCount": 40,
+            "isDisplay": true
+          },
+          "act1dp_ex06": {
+            "stageId": "act1dp_ex06",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 20,
+            "firstCount": 120,
+            "completeCount": 20,
+            "onceCompleteCount": 0,
+            "isDisplay": true
+          },
+          "act1dp_ex06#f#": {
+            "stageId": "act1dp_ex06#f#",
+            "itemType": 27,
+            "itemId": "act1dp_milestone_point",
+            "retryCount": 0,
+            "firstCount": 0,
+            "completeCount": 0,
+            "onceCompleteCount": 40,
+            "isDisplay": true
+          }
+        },
+        "milestoneList": [
+          {
+            "milestoneId": "mileStone_1",
+            "orderId": 1,
+            "tokenNum": 50,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_2",
+            "orderId": 2,
+            "tokenNum": 100,
+            "reward": {
+              "id": "31023",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_3",
+            "orderId": 3,
+            "tokenNum": 150,
+            "reward": {
+              "id": "31024",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_4",
+            "orderId": 4,
+            "tokenNum": 200,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_5",
+            "orderId": 5,
+            "tokenNum": 250,
+            "reward": {
+              "id": "30155",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_6",
+            "orderId": 6,
+            "tokenNum": 300,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_7",
+            "orderId": 7,
+            "tokenNum": 350,
+            "reward": {
+              "id": "31063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_8",
+            "orderId": 8,
+            "tokenNum": 400,
+            "reward": {
+              "id": "31054",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_9",
+            "orderId": 9,
+            "tokenNum": 450,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_10",
+            "orderId": 10,
+            "tokenNum": 500,
+            "reward": {
+              "id": "30155",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_11",
+            "orderId": 11,
+            "tokenNum": 550,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_12",
+            "orderId": 12,
+            "tokenNum": 600,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_13",
+            "orderId": 13,
+            "tokenNum": 650,
+            "reward": {
+              "id": "31084",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_14",
+            "orderId": 14,
+            "tokenNum": 700,
+            "reward": {
+              "id": "31023",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_15",
+            "orderId": 15,
+            "tokenNum": 750,
+            "reward": {
+              "id": "avatar_activity_dp1",
+              "count": 1,
+              "type": "PLAYER_AVATAR"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_16",
+            "orderId": 16,
+            "tokenNum": 800,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_17",
+            "orderId": 17,
+            "tokenNum": 850,
+            "reward": {
+              "id": "31063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_18",
+            "orderId": 18,
+            "tokenNum": 900,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_19",
+            "orderId": 19,
+            "tokenNum": 950,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_20",
+            "orderId": 20,
+            "tokenNum": 1000,
+            "reward": {
+              "id": "31024",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_21",
+            "orderId": 21,
+            "tokenNum": 1050,
+            "reward": {
+              "id": "31023",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_22",
+            "orderId": 22,
+            "tokenNum": 1100,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_23",
+            "orderId": 23,
+            "tokenNum": 1150,
+            "reward": {
+              "id": "31063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_24",
+            "orderId": 24,
+            "tokenNum": 1200,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_25",
+            "orderId": 25,
+            "tokenNum": 1250,
+            "reward": {
+              "id": "30155",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_26",
+            "orderId": 26,
+            "tokenNum": 1300,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_27",
+            "orderId": 27,
+            "tokenNum": 1350,
+            "reward": {
+              "id": "31023",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_28",
+            "orderId": 28,
+            "tokenNum": 1400,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_29",
+            "orderId": 29,
+            "tokenNum": 1450,
+            "reward": {
+              "id": "31063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_30",
+            "orderId": 30,
+            "tokenNum": 1500,
+            "reward": {
+              "id": "31054",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_31",
+            "orderId": 31,
+            "tokenNum": 1550,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_32",
+            "orderId": 32,
+            "tokenNum": 1600,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_33",
+            "orderId": 33,
+            "tokenNum": 1650,
+            "reward": {
+              "id": "31084",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_34",
+            "orderId": 34,
+            "tokenNum": 1700,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_35",
+            "orderId": 35,
+            "tokenNum": 1750,
+            "reward": {
+              "id": "furni_act1dp_frame_01",
+              "count": 1,
+              "type": "FURN"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_36",
+            "orderId": 36,
+            "tokenNum": 1800,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_37",
+            "orderId": 37,
+            "tokenNum": 1850,
+            "reward": {
+              "id": "31023",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_38",
+            "orderId": 38,
+            "tokenNum": 1900,
+            "reward": {
+              "id": "31024",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_39",
+            "orderId": 39,
+            "tokenNum": 1950,
+            "reward": {
+              "id": "31063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_40",
+            "orderId": 40,
+            "tokenNum": 2000,
+            "reward": {
+              "id": "30155",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_41",
+            "orderId": 41,
+            "tokenNum": 2050,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_42",
+            "orderId": 42,
+            "tokenNum": 2100,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_43",
+            "orderId": 43,
+            "tokenNum": 2150,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_44",
+            "orderId": 44,
+            "tokenNum": 2200,
+            "reward": {
+              "id": "31023",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_45",
+            "orderId": 45,
+            "tokenNum": 2250,
+            "reward": {
+              "id": "31054",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_46",
+            "orderId": 46,
+            "tokenNum": 2300,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_47",
+            "orderId": 47,
+            "tokenNum": 2350,
+            "reward": {
+              "id": "31063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_48",
+            "orderId": 48,
+            "tokenNum": 2400,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_49",
+            "orderId": 49,
+            "tokenNum": 2450,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          },
+          {
+            "milestoneId": "mileStone_50",
+            "orderId": 50,
+            "tokenNum": 2500,
+            "reward": {
+              "id": "31084",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1789891200
+          }
+        ],
+        "stickerList": [
+          {
+            "stickerId": "sticker_1",
+            "stickerIcon": "sticker_1",
+            "template": "PassStageSome",
+            "stickerName": "轻游体验者",
+            "param": [
+              "3",
+              "act1dp_01;act1dp_02;act1dp_03;act1dp_04;act1dp_05;act1dp_06",
+              "6"
+            ]
+          },
+          {
+            "stickerId": "sticker_2",
+            "stickerIcon": "sticker_2",
+            "template": "PassStageLessOperator",
+            "stickerName": "轻游挑战者",
+            "param": [
+              "3",
+              "act1dp_01;act1dp_02;act1dp_03;act1dp_04;act1dp_05;act1dp_06",
+              "3"
+            ]
+          },
+          {
+            "stickerId": "sticker_3",
+            "stickerIcon": "sticker_3",
+            "template": "PassStageSome",
+            "stickerName": "欢动体验者",
+            "param": [
+              "3",
+              "act1dp_ex01;act1dp_ex02;act1dp_ex03;act1dp_ex04;act1dp_ex05;act1dp_ex06",
+              "6"
+            ]
+          },
+          {
+            "stickerId": "sticker_4",
+            "stickerIcon": "sticker_4",
+            "template": "PassStageQuickAllVase",
+            "stickerName": "欢动追风者",
+            "param": [
+              "3",
+              "act1dp_ex01;act1dp_ex01#f#;act1dp_ex02;act1dp_ex02#f#;act1dp_ex03;act1dp_ex03#f#;act1dp_ex04;act1dp_ex04#f#;act1dp_ex05;act1dp_ex05#f#;act1dp_ex06;act1dp_ex06#f#",
+              "20"
+            ]
+          },
+          {
+            "stickerId": "sticker_5",
+            "stickerIcon": "sticker_5",
+            "template": "PassStageSome",
+            "stickerName": "欢动享受者",
+            "param": [
+              "3",
+              "act1dp_ex06#f#",
+              "1"
+            ]
+          }
+        ],
+        "constData": {
+          "milestonePointId": "act1dp_milestone_point",
+          "milestoneTrackId": null,
+          "levelEntranceText": "通关DP-6解锁",
+          "rewardFurnitureId": "furni_act1dp_frame_01",
+          "rewardFurnitureText": "逐影之礼等级达到<color=#ffb6cc>{0}</color>级领取",
+          "rewardAvatarId": "avatar_activity_dp1",
+          "rewardAvatarText": "逐影之礼等级达到<color=#ffb6cc>{0}</color>级领取"
+        }
+      }
+    }
   },
   "extraData": {
     "MAINLINE_BP": {
@@ -399163,6 +400724,9 @@
     }
   },
   "activityItems": {
+    "act1dp": [
+      "act1dp_milestone_point"
+    ],
     "act54side": [
       "act54side_token_tape"
     ],
@@ -408672,6 +410236,22 @@
       ],
       "picGroups": [],
       "startTs": 1788476400
+    },
+    {
+      "id": "dis_dp_1",
+      "type": 1,
+      "funcId": "act1dp",
+      "endTs": 1790711999,
+      "sortId": 162,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "<逐影集趣>活动已开放",
+          "ts": 1789891200
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1789891200
     }
   ],
   "actFunData": {

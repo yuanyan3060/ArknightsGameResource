@@ -53329,6 +53329,88 @@
       ],
       "invisibleDetail": false
     },
+    "enemy_17001_wmshp": {
+      "enemyId": "enemy_17001_wmshp",
+      "enemyIndex": "DPC01",
+      "enemyTags": [],
+      "sortId": 1732,
+      "name": "风情街“飘游客”",
+      "enemyLevel": "ELITE",
+      "description": "在游乐场里开心地四处闲逛的毛绒绒生物。对什么游乐项目都感兴趣，哪怕是标明闲人勿进的地方也要好奇地去看看，可别想掐灭它们的探索欲！",
+      "attackType": null,
+      "ability": null,
+      "isInvalidKilled": false,
+      "overrideKillCntInfos": {},
+      "hideInHandbook": false,
+      "hideInStage": true,
+      "abilityList": [
+        {
+          "text": "持续寻找距离自身最近的集趣之云并尝试将其击破；若其中是我方单位，则停止攻击",
+          "textFormat": 0
+        }
+      ],
+      "linkEnemies": [],
+      "damageType": [
+        "PHYSIC"
+      ],
+      "invisibleDetail": false
+    },
+    "enemy_17002_flgshp": {
+      "enemyId": "enemy_17002_flgshp",
+      "enemyIndex": "DPC02",
+      "enemyTags": [],
+      "sortId": 1733,
+      "name": "风情街“热情导游”",
+      "enemyLevel": "ELITE",
+      "description": "担任游乐场内导览工作的毛绒绒生物。听到它背上吵闹风扇发出的声音就得小心了，因为大批人流马上就要涌过来集合啦！",
+      "attackType": null,
+      "ability": null,
+      "isInvalidKilled": false,
+      "overrideKillCntInfos": {},
+      "hideInHandbook": false,
+      "hideInStage": true,
+      "abilityList": [
+        {
+          "text": "标记距离自身最近的目标点，使所有敌人的目的地改为该目标点",
+          "textFormat": 2
+        },
+        {
+          "text": "场上已有其他“热情导游”标记时，不会进行标记",
+          "textFormat": 0
+        }
+      ],
+      "linkEnemies": [],
+      "damageType": [
+        "PHYSIC"
+      ],
+      "invisibleDetail": false
+    },
+    "enemy_17003_sabshp": {
+      "enemyId": "enemy_17003_sabshp",
+      "enemyIndex": "DPC03",
+      "enemyTags": [],
+      "sortId": 1734,
+      "name": "云众演员",
+      "enemyLevel": "NORMAL",
+      "description": "在游乐场里举着粉色云团看板的毛绒绒生物。可别小看这些平常困困的绒绒，在闭园下班的时候它们离场的速度可是创造过纪录的哦！",
+      "attackType": null,
+      "ability": null,
+      "isInvalidKilled": false,
+      "overrideKillCntInfos": {},
+      "hideInHandbook": false,
+      "hideInStage": true,
+      "abilityList": [
+        {
+          "text": "若由惊喜风暴或风情街“飘游客”从集趣之云中吹出，最大生命值大幅提升且变为不可阻挡",
+          "textFormat": 0
+        }
+      ],
+      "linkEnemies": [],
+      "damageType": [
+        "PHYSIC"
+      ],
+      "invisibleDetail": false
+    },
     "enemy_18001_lhship": {
       "enemyId": "enemy_18001_lhship",
       "enemyIndex": "IL01",

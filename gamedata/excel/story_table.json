@@ -13195,6 +13195,52 @@
     "setFlags": [],
     "completedRewards": []
   },
+  "activities/act1dp/Guide/guide_act1dp_entry": {
+    "id": "activities/act1dp/Guide/guide_act1dp_entry",
+    "needCommit": true,
+    "repeatable": false,
+    "disabled": false,
+    "videoResource": false,
+    "trigger": {
+      "type": "CUSTOM_OPERATION",
+      "key": "act1dp_entry",
+      "useRegex": false
+    },
+    "condition": {
+      "minProgress": -1,
+      "maxProgress": -1,
+      "minPlayerLevel": 1,
+      "requiredFlags": [],
+      "excludedFlags": [],
+      "requiredStages": []
+    },
+    "setProgress": -1,
+    "setFlags": [],
+    "completedRewards": []
+  },
+  "activities/act1dp/Guide/guide_act1dp_squad": {
+    "id": "activities/act1dp/Guide/guide_act1dp_squad",
+    "needCommit": true,
+    "repeatable": false,
+    "disabled": false,
+    "videoResource": false,
+    "trigger": {
+      "type": "CUSTOM_OPERATION",
+      "key": "act1dp_squad",
+      "useRegex": false
+    },
+    "condition": {
+      "minProgress": -1,
+      "maxProgress": -1,
+      "minPlayerLevel": 1,
+      "requiredFlags": [],
+      "excludedFlags": [],
+      "requiredStages": []
+    },
+    "setProgress": -1,
+    "setFlags": [],
+    "completedRewards": []
+  },
   "activities/act54side/level_act54side_st01": {
     "id": "activities/act54side/level_act54side_st01",
     "needCommit": true,

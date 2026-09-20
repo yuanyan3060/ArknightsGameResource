@@ -1,0 +1,75 @@
+[header(actId="act1dp")]
+[uioperation(target="main", enable="False")]
+
+[summontrap(charId="char_002_amiya", dir="RIGHT", x="2", y="3", isChar="True")]
+[summontrap(charId="char_281_popka", dir="RIGHT", x="2", y="4", isChar="True")]
+[summontrap(charId="char_2013_cerber", dir="RIGHT", x="2", y="2", isChar="True")]
+[playanim(charId="char_002_amiya", anim="Idle", dir="RIGHT")]
+[playanim(charId="char_281_popka", anim="Idle", dir="RIGHT")]
+[playanim(charId="char_2013_cerber", anim="Idle", dir="RIGHT")]
+[camerafocusto(id="char_002_amiya", offsetX="0.8", scale="MID", time="1")]
+[delay(time="0.8")]
+
+[name="阿米娅"]按照那只可爱的绒绒导游的说法，最有趣的游乐项目应该就在这里。
+[name="泡普卡"]到底会是什么样的项目呢？
+[name="刻俄柏"]有没有好吃的奖品呀，想带很多奖品回去！
+[delay(time="0.3")]
+
+[summonenemy(enemyId="enemy_1545_shpkg",x="6",y="3",enemyAliasId="doli")]
+[playanim(enemyAliasId="doli", anim="Idle", dir="LEFT")]
+[camerafocusto(enemyAliasId="doli", offsetX="-0.8", scale="MID", time="1")]
+[delay(time="0.8")]
+
+[name="多利"]你们是来寻找快乐的吗？
+[emoji(emoji="common_bubble_happy", target="enemy_1545_shpkg")]
+[name="多利"]陪我一起玩个游戏吧~
+[summonenemy(enemyId="enemy_1007_slime_2",x="5",y="2",enemyAliasId="slug_intro")]
+[summonenemy(enemyId="enemy_17003_sabshp",x="5",y="4",enemyAliasId="sheep_intro")]
+[playanim(enemyAliasId="slug_intro", anim="Idle", dir="LEFT")]
+[playanim(enemyAliasId="sheep_intro", anim="Idle", dir="LEFT")]
+[delay(time="0.4")]
+[camerafocusto(enemyAliasId="doli", offsetX="-0.8", scale="MID", time="0.6")]
+[delay(time="0.4")]
+
+[name="多利"]规则非常简单，那就是——
+[playanim(enemyAliasId="doli", anim="Attack", dir="LEFT")]
+[delay(time="0.25")]
+[name="多利"]捉迷藏！
+
+[camerafocusto(id="char_2013_cerber", offsetX="0.8", scale="MID", time="0.5")]
+[delay(time="0.2")]
+[emoji(emoji="common_bubble_happy", target="char_2013_cerber")]
+[name="刻俄柏"]好呀！我最会找东西了！
+
+[camerafocusto(id="char_002_amiya", offsetX="0.8", scale="MID", time="0.8")]
+[delay(time="0.3")]
+[playanim(charId="char_002_amiya", anim="Attack", dir="RIGHT")]
+[name="阿米娅"]捉迷藏？可是这附近看不出有能躲藏的地方？
+
+[camerafocusto(enemyAliasId="doli", offsetX="-0.8", scale="MID", time="0.4")]
+[delay(time="0.15")]
+[name="多利"]准备好了吗，马上大家就都藏好了，可要认真找哦！
+[playanim(enemyAliasId="doli", anim="Attack", dir="LEFT")]
+[delay(time="0.45")]
+[createeffect(key="trap_shpvas_die_01", id="char_281_popka")]
+[createeffect(key="trap_shpvas_die_01", id="char_2013_cerber")]
+[createeffect(key="trap_shpvas_die_01", enemyAliasId="slug_intro")]
+[createeffect(key="trap_shpvas_die_01", enemyAliasId="sheep_intro")]
+[delay(time="0.25")]
+[withdraw(id="char_281_popka", withoutAnim="true")]
+[withdraw(id="char_2013_cerber", withoutAnim="true")]
+[withdraw(id="enemy_1007_slime_2", withoutAnim="true")]
+[withdraw(id="enemy_17003_sabshp", withoutAnim="true")]
+[delay(time="0.6")]
+[playanim(charId="char_002_amiya", anim="Idle", dir="RIGHT")]
+[camerafocusto(id="char_002_amiya", offsetX="0.8", scale="MID", time="0.6")]
+[delay(time="0.4")]
+[emoji(emoji="common_bubble_surprise", target="char_002_amiya")]
+[name="阿米娅"]泡普卡小姐？刻俄柏小姐？
+[name="阿米娅"]她们……去哪儿了？
+
+[delay(time="0.3")]
+[resetcamera(time="1")]
+[withdraw(id="char_002_amiya", withoutAnim="true")]
+[withdraw(id="enemy_1545_shpkg")]
+[end]

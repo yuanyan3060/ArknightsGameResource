@@ -2941,6 +2941,28 @@
         ]
       },
       {
+        "avatarId": "avatar_activity_dp1",
+        "avatarType": 4,
+        "avatarDesc": "【逐影集趣】逐影之礼",
+        "isSecret": true,
+        "avatarStartTs": 1789891200,
+        "avatarLimit": true,
+        "avatarIdSort": 89,
+        "avatarIdDesc": "【逐影集趣】逐影之礼\\n“云在看着你”",
+        "avatarItemName": "“云在看着你”",
+        "avatarItemDesc": "麻烦告诉我，我们现在是在云里，还是在云外？",
+        "avatarItemUsage": "用来彰显个性的图案，能够将之设置为头像。",
+        "obtainApproach": "在逐影集趣活动中获得",
+        "dynAvatarId": null,
+        "limitDatas": [
+          {
+            "avatarId": "avatar_activity_dp1",
+            "descShowTs": 1789891200,
+            "descHideTs": 1790971199
+          }
+        ]
+      },
+      {
         "avatarId": "avatar_dyn_01",
         "avatarType": 5,
         "avatarDesc": "【累计签到】奖励",
@@ -3539,7 +3561,8 @@
           "avatar_activity_SYS",
           "avatar_activity_AS",
           "avatar_special_93",
-          "avatar_special_94"
+          "avatar_special_94",
+          "avatar_activity_dp1"
         ]
       },
       "DEFAULT": {
@@ -6822,6 +6845,44 @@
             "availEndTime": 1790279999
           }
         }
+      },
+      "nc_dp_1": {
+        "id": "nc_dp_1",
+        "name": "飘游",
+        "type": 1,
+        "isSecret": true,
+        "sortId": 34,
+        "isSpTheme": false,
+        "defaultShowDetail": true,
+        "themeName": "飘游",
+        "themeEnName": "Keep Floating",
+        "skinStartTime": 1789891200,
+        "skinDesc": "跟着粉嘟嘟的绒绒们，一起在欢乐的风中飘舞嬉闹吧！",
+        "usageDesc": "在不变动功能的情况下，对prts进行了重新设计。",
+        "skinApproach": "飘游之粉组合包",
+        "unlockConditionCnt": 1,
+        "unlockDescList": [
+          "在[采购中心]中购买飘游之粉组合包获得"
+        ],
+        "fixedModuleList": [
+          "module_background",
+          "module_illust",
+          "module_collect",
+          "module_avatar",
+          "module_avatar_simple"
+        ],
+        "rarity": 4,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
+        "isTimeLimit": true,
+        "timeLimitInfoList": {
+          "nc_dp_1": {
+            "limitId": "nc_dp_1",
+            "id": "nc_dp_1",
+            "availStartTime": 1789891200,
+            "availEndTime": 1791057599
+          }
+        }
       }
     },
     "skinGroupDatas": [
@@ -7008,6 +7069,11 @@
             "id": "nc_sandbox2_1",
             "groupType": "BASE",
             "sortId": 30
+          },
+          {
+            "id": "nc_dp_1",
+            "groupType": "BASE",
+            "sortId": 34
           }
         ]
       }

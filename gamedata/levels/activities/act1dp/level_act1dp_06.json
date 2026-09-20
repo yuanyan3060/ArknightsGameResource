@@ -1,0 +1,2448 @@
+{
+  "options": {
+    "characterLimit": 8,
+    "maxLifePoint": 3,
+    "initialCost": 30,
+    "maxCost": 99,
+    "costIncreaseTime": 999.0,
+    "moveMultiplier": 0.5,
+    "steeringEnabled": true,
+    "reachableCheckIgnoreStartTile": false,
+    "isTrainingLevel": false,
+    "isHardTrainingLevel": false,
+    "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
+    "maxPlayTime": 70.0,
+    "functionDisableMask": 0,
+    "configBlackBoard": [
+      {
+        "key": "vase_start_character_count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "vase_character_vase_count",
+        "value": 7.0,
+        "valueStr": null
+      },
+      {
+        "key": "fallback_trap",
+        "value": 0.0,
+        "valueStr": "trap_031_sleep#1"
+      }
+    ],
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
+  },
+  "levelId": null,
+  "mapId": null,
+  "bgmEvent": "shpnight",
+  "environmentSe": null,
+  "mapData": {
+    "map": [
+      [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    ],
+    "tiles": [
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_end",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [
+          {
+            "key": "isChar",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "always_show_icon",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [
+          {
+            "key": "isChar",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "always_show_icon",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [
+          {
+            "key": "isEnemy",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "always_show_icon",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "enemyId",
+            "value": 0.0,
+            "valueStr": "enemy_17001_wmshp"
+          }
+        ],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [
+          {
+            "key": "isChar",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "always_show_icon",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_road",
+        "heightType": 0,
+        "buildableType": 3,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_end",
+        "heightType": 0,
+        "buildableType": 0,
+        "passableMask": 3,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      },
+      {
+        "tileKey": "tile_forbidden",
+        "heightType": 1,
+        "buildableType": 0,
+        "passableMask": 2,
+        "playerSideMask": 0,
+        "blackboard": [],
+        "effects": []
+      }
+    ],
+    "blockEdges": [],
+    "tags": [],
+    "effects": [],
+    "layerRects": []
+  },
+  "tilesDisallowToLocate": [],
+  "runes": [
+    {
+      "difficultyMask": 15,
+      "key": "env_system_new",
+      "professionMask": 1023,
+      "buildableMask": 3,
+      "blackboard": [
+        {
+          "key": "key",
+          "value": 0.0,
+          "valueStr": "env_042_act1vase"
+        },
+        {
+          "key": "cost",
+          "value": 15.0,
+          "valueStr": null
+        },
+        {
+          "key": "append_time",
+          "value": 15.0,
+          "valueStr": null
+        },
+        {
+          "key": "invincible_time",
+          "value": 1.0,
+          "valueStr": null
+        },
+        {
+          "key": "ui_plugin_name",
+          "value": 0.0,
+          "valueStr": "vase_ui_plugin"
+        }
+      ]
+    }
+  ],
+  "optionalRunes": {},
+  "globalBuffs": [],
+  "routes": [
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 1,
+        "col": 1
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 3,
+        "col": 7
+      },
+      "endPosition": {
+        "row": 6,
+        "col": 1
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [
+        {
+          "type": 1,
+          "time": 330.0,
+          "position": {
+            "row": 0,
+            "col": 1
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        }
+      ],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": true
+    },
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 3,
+        "col": 7
+      },
+      "endPosition": {
+        "row": 6,
+        "col": 1
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [
+        {
+          "type": 1,
+          "time": 330.0,
+          "position": {
+            "row": 0,
+            "col": 1
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        }
+      ],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": true
+    }
+  ],
+  "extraRoutes": [
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 5,
+        "col": 7
+      },
+      "endPosition": {
+        "row": 4,
+        "col": 1
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 5,
+        "col": 7
+      },
+      "endPosition": {
+        "row": 4,
+        "col": 1
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 5,
+        "col": 7
+      },
+      "endPosition": {
+        "row": 4,
+        "col": 1
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 5,
+        "col": 7
+      },
+      "endPosition": {
+        "row": 4,
+        "col": 1
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 5,
+        "col": 7
+      },
+      "endPosition": {
+        "row": 4,
+        "col": 1
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    }
+  ],
+  "enemies": [],
+  "enemyDbRefs": [
+    {
+      "useDb": true,
+      "id": "enemy_1059_buster",
+      "level": 0,
+      "overwrittenData": null
+    },
+    {
+      "useDb": true,
+      "id": "enemy_1059_buster_2",
+      "level": 0,
+      "overwrittenData": null
+    },
+    {
+      "useDb": true,
+      "id": "enemy_17003_sabshp",
+      "level": 0,
+      "overwrittenData": null
+    },
+    {
+      "useDb": true,
+      "id": "enemy_17001_wmshp",
+      "level": 0,
+      "overwrittenData": null
+    },
+    {
+      "useDb": true,
+      "id": "enemy_1501_demonk",
+      "level": 1,
+      "overwrittenData": {
+        "name": {
+          "m_defined": false,
+          "m_value": null
+        },
+        "description": {
+          "m_defined": false,
+          "m_value": null
+        },
+        "prefabKey": {
+          "m_defined": false,
+          "m_value": null
+        },
+        "attributes": {
+          "maxHp": {
+            "m_defined": true,
+            "m_value": 40000
+          },
+          "atk": {
+            "m_defined": false,
+            "m_value": 1100
+          },
+          "def": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "magicResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "cost": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "blockCnt": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "moveSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "attackSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "baseAttackTime": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "respawnTime": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "hpRecoveryPerSec": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "spRecoveryPerSec": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "maxDeployCount": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "massLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "baseForceLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "tauntLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "epDamageResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitratePhysical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "silenceImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "sleepImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "frozenImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "levitateImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "teleportImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "groundBoundImmune": {
+            "m_defined": false,
+            "m_value": false
+          }
+        },
+        "applyWay": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "motion": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "enemyTags": {
+          "m_defined": false,
+          "m_value": []
+        },
+        "lifePointReduce": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "levelType": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "rangeRadius": {
+          "m_defined": false,
+          "m_value": 0.0
+        },
+        "numOfExtraDrops": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "viewRadius": {
+          "m_defined": false,
+          "m_value": 0.0
+        },
+        "notCountInTotal": {
+          "m_defined": false,
+          "m_value": false
+        },
+        "talentBlackboard": [],
+        "skills": [],
+        "spData": null
+      }
+    },
+    {
+      "useDb": true,
+      "id": "enemy_1056_ganwar",
+      "level": 0,
+      "overwrittenData": null
+    }
+  ],
+  "waves": [
+    {
+      "preDelay": 0.0,
+      "postDelay": 0.0,
+      "maxTimeWaitingForNextWave": -1.0,
+      "fragments": [
+        {
+          "preDelay": 0.0,
+          "actions": [
+            {
+              "actionType": 7,
+              "managedByScheduler": true,
+              "key": "vase_select_character",
+              "count": 1,
+              "preDelay": 1.0,
+              "interval": 1.0,
+              "routeIndex": 0,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_1501_demonk",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 1,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 1,
+              "managedByScheduler": true,
+              "key": "enemy_1501_demonk",
+              "count": 1,
+              "preDelay": 1.0,
+              "interval": 1.0,
+              "routeIndex": 2,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            }
+          ]
+        }
+      ],
+      "advancedWaveTag": null
+    }
+  ],
+  "branches": {
+    "sequence": {
+      "phases": [
+        {
+          "preDelay": 0.0,
+          "actions": [
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_17003_sabshp",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 0,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": "random",
+              "randomSpawnGroupKey": "1",
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 4,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_17001_wmshp",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 1,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": "random",
+              "randomSpawnGroupKey": "1",
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 2,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_1059_buster",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 2,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": "random",
+              "randomSpawnGroupKey": "1",
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 4,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_1059_buster_2",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 3,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": "random",
+              "randomSpawnGroupKey": "1",
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 2,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_1056_ganwar",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 4,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": "random",
+              "randomSpawnGroupKey": "1",
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 5,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 6,
+              "managedByScheduler": true,
+              "key": "trap_031_sleep#1",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 6,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": "random",
+              "randomSpawnGroupKey": "1",
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 2,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_1056_ganwar",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 5,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": "random",
+              "randomSpawnGroupKey": "1",
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 99,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            }
+          ],
+          "m_randomActionGroups": {},
+          "m_actionWithRandomSpawn": [],
+          "m_validActionPackKeys": []
+        }
+      ]
+    },
+    "fixed": {
+      "phases": [
+        {
+          "preDelay": 0.0,
+          "actions": [
+            {
+              "actionType": 6,
+              "managedByScheduler": true,
+              "key": "trap_031_sleep#1",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 7,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": "random",
+              "randomSpawnGroupKey": "1",
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 1,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            }
+          ],
+          "m_randomActionGroups": {},
+          "m_actionWithRandomSpawn": [],
+          "m_validActionPackKeys": []
+        }
+      ]
+    }
+  },
+  "predefines": {
+    "characterInsts": [],
+    "tokenInsts": [
+      {
+        "position": {
+          "row": 4,
+          "col": 5
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 4,
+          "col": 9
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 3,
+          "col": 9
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 2,
+          "col": 9
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 2,
+          "col": 5
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 5,
+          "col": 4
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 1,
+          "col": 4
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 3,
+          "col": 5
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 3,
+          "col": 4
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 2,
+          "col": 4
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 1,
+          "col": 8
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 1,
+          "col": 3
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 5,
+          "col": 8
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 3,
+          "col": 2
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 5,
+          "col": 6
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 4,
+          "col": 4
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 5,
+          "col": 3
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 4,
+          "col": 3
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 2,
+          "col": 3
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 1,
+          "col": 6
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 1,
+          "col": 7
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 5,
+          "col": 5
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 5,
+          "col": 7
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 3,
+          "col": 3
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 1,
+          "col": 5
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 3,
+          "col": 6
+        },
+        "direction": 2,
+        "hidden": false,
+        "alias": null,
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_319_shpvas",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": -1,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      }
+    ],
+    "characterCards": [],
+    "tokenCards": [
+      {
+        "initialCnt": 99,
+        "hidden": false,
+        "alias": "trap_031_sleep#1",
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_031_sleep",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": 0,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      }
+    ]
+  },
+  "hardPredefines": {
+    "characterInsts": [],
+    "tokenInsts": [],
+    "characterCards": [],
+    "tokenCards": []
+  },
+  "excludeCharIdList": [],
+  "randomSeed": 1485054197,
+  "operaConfig": "act1dp",
+  "cameraPlugin": "",
+  "runtimeData": null
+}
