@@ -50785,6 +50785,120 @@
       ],
       "invisibleDetail": false
     },
+    "enemy_8019_pollut": {
+      "enemyId": "enemy_8019_pollut",
+      "enemyIndex": "SFR15",
+      "enemyTags": [],
+      "sortId": 1653,
+      "name": "“再灌注”",
+      "enemyLevel": "ELITE",
+      "description": "对生存的渴求，让它们从一片荒芜中复苏而起。\n",
+      "attackType": null,
+      "ability": null,
+      "isInvalidKilled": false,
+      "overrideKillCntInfos": {},
+      "hideInHandbook": false,
+      "hideInStage": true,
+      "abilityList": [
+        {
+          "text": "只能被阻挡数大于等于2的单位阻挡",
+          "textFormat": 0
+        }
+      ],
+      "linkEnemies": [],
+      "damageType": [
+        "PHYSIC"
+      ],
+      "invisibleDetail": false
+    },
+    "enemy_8019_pollut_2": {
+      "enemyId": "enemy_8019_pollut_2",
+      "enemyIndex": "SFR16",
+      "enemyTags": [],
+      "sortId": 1654,
+      "name": "“过灌注”",
+      "enemyLevel": "ELITE",
+      "description": "对死亡的抗拒，让它们从无边绝望里破土而出。\n",
+      "attackType": null,
+      "ability": null,
+      "isInvalidKilled": false,
+      "overrideKillCntInfos": {},
+      "hideInHandbook": false,
+      "hideInStage": true,
+      "abilityList": [
+        {
+          "text": "只能被阻挡数大于等于2的单位阻挡",
+          "textFormat": 0
+        },
+        {
+          "text": "被攻击时对伤害来源造成数点<$ba.dt.rampage>狂躁损伤</>",
+          "textFormat": 0
+        },
+        {
+          "text": "移动速度不会低于初始值",
+          "textFormat": 0
+        }
+      ],
+      "linkEnemies": [
+        "enemy_8018_etouch_3"
+      ],
+      "damageType": [
+        "PHYSIC"
+      ],
+      "invisibleDetail": false
+    },
+    "enemy_8020_tenaci": {
+      "enemyId": "enemy_8020_tenaci",
+      "enemyIndex": "SFR17",
+      "enemyTags": [],
+      "sortId": 1655,
+      "name": "“新绿”",
+      "enemyLevel": "ELITE",
+      "description": "由Touch负责设计和程序校准的园艺机器人，除了能完成播种、灌溉和土壤监测工作外，还有巡逻和保护区域的能力。\n",
+      "attackType": null,
+      "ability": null,
+      "isInvalidKilled": false,
+      "overrideKillCntInfos": {},
+      "hideInHandbook": false,
+      "hideInStage": true,
+      "abilityList": [
+        {
+          "text": "【内源代偿反应】受到可<$ba.buffres>抵抗</>的异常状态时间减少，数秒内受到相同异常状态的时间进一步减少（至多减至0）",
+          "textFormat": 0
+        }
+      ],
+      "linkEnemies": [],
+      "damageType": [
+        "PHYSIC"
+      ],
+      "invisibleDetail": false
+    },
+    "enemy_8021_tsilas": {
+      "enemyId": "enemy_8021_tsilas",
+      "enemyIndex": "SFR18",
+      "enemyTags": [],
+      "sortId": 1656,
+      "name": "管钳",
+      "enemyLevel": "ELITE",
+      "description": "跟随Mechanist从哥伦比亚而来的学徒，沉默寡言，打心底认同Mechanist的机械艺术。酒量极差，酒后被Mechanist玩得团团转是绝不能当着他的面提的事情。\n",
+      "attackType": null,
+      "ability": null,
+      "isInvalidKilled": false,
+      "overrideKillCntInfos": {},
+      "hideInHandbook": false,
+      "hideInStage": true,
+      "abilityList": [
+        {
+          "text": "周期性蓄力，期间受到物理和法术伤害大幅降低，若蓄力未被打断，对场上所有我方单位造成攻击力一定比例的物理伤害（对距离较近的目标伤害提升）",
+          "textFormat": 2
+        }
+      ],
+      "linkEnemies": [],
+      "damageType": [
+        "PHYSIC"
+      ],
+      "invisibleDetail": false
+    },
     "enemy_8001_flmlod": {
       "enemyId": "enemy_8001_flmlod",
       "enemyIndex": "SFR01",
@@ -51575,6 +51689,232 @@
       "linkEnemies": [],
       "damageType": [
         "PHYSIC",
+        "MAGIC"
+      ],
+      "invisibleDetail": false
+    },
+    "enemy_8018_etouch": {
+      "enemyId": "enemy_8018_etouch",
+      "enemyIndex": "SFR14",
+      "enemyTags": [],
+      "sortId": 1673,
+      "name": "“Touch”，再生之流",
+      "enemyLevel": "BOSS",
+      "description": "以Touch的战力极限为模本构拟的突破训练官。无论是躯体上的伤口与痛苦，还是精神上的不安与恐惧，都将在她的源石技艺之下消湮。对参与训练的你来说，也许这并不是一个好消息。",
+      "attackType": null,
+      "ability": null,
+      "isInvalidKilled": false,
+      "overrideKillCntInfos": {},
+      "hideInHandbook": false,
+      "hideInStage": true,
+      "abilityList": [
+        {
+          "text": "攻击附带一定比例的<$ba.dt.rampage>狂躁损伤</>",
+          "textFormat": 0
+        },
+        {
+          "text": "受到的物理和法术伤害降低，每当“再灌注”和“过灌注”被击倒时该减伤效果减弱",
+          "textFormat": 0
+        },
+        {
+          "text": "周期性选择一名我方干员及其周围4格生成<活性躁乱>",
+          "textFormat": 0
+        },
+        {
+          "text": "【内源代偿反应】移动速度不会低于初始值；受到可<$ba.buffres>抵抗</>的异常状态时间减少，数秒内受到相同异常状态的时间进一步减少（至多减至0）",
+          "textFormat": 0
+        },
+        {
+          "text": "每受到1种异常状态时，使场上所有<“过灌注”>及后续出现的<“过灌注”>免疫该状态",
+          "textFormat": 0
+        },
+        {
+          "text": "第一形态",
+          "textFormat": 1
+        },
+        {
+          "text": "【受体过度应答】持续引导，期间所有其他敌人移动速度提升且每数秒回复生命值；引导成功后使所有其他敌人在数秒内所需阻挡数+1；引导可被部分异常状态打断",
+          "textFormat": 0
+        },
+        {
+          "text": "生命值首次降为0时重生，随后选择所有我方干员及周围4格生成<活性躁乱>并进入第二形态",
+          "textFormat": 0
+        },
+        {
+          "text": "第二形态",
+          "textFormat": 1
+        },
+        {
+          "text": "【急性髓鞘溶解】从自身行进路径上一定距离内召唤1个受到物理和法术伤害大幅降低但持续流失生命值的<“过灌注”>向自身移动，接触时将其吸收并爆炸，对全部我方单位造成高额法术伤害",
+          "textFormat": 0
+        }
+      ],
+      "linkEnemies": [
+        "enemy_8019_pollut_2"
+      ],
+      "damageType": [
+        "MAGIC"
+      ],
+      "invisibleDetail": false
+    },
+    "enemy_8018_etouch_1": {
+      "enemyId": "enemy_8018_etouch_1",
+      "enemyIndex": "SFR14",
+      "enemyTags": [],
+      "sortId": 1674,
+      "name": "“Touch”，再生之流",
+      "enemyLevel": "BOSS",
+      "description": "以Touch的战力极限为模本构拟的突破训练官。无论是躯体上的伤口与痛苦，还是精神上的不安与恐惧，都将在她的源石技艺之下消湮。对参与训练的你来说，也许这并不是一个好消息。",
+      "attackType": null,
+      "ability": null,
+      "isInvalidKilled": false,
+      "overrideKillCntInfos": {},
+      "hideInHandbook": true,
+      "hideInStage": false,
+      "abilityList": [
+        {
+          "text": "攻击附带一定比例的<$ba.dt.rampage>狂躁损伤</>",
+          "textFormat": 0
+        },
+        {
+          "text": "受到的物理和法术伤害降低，每当“再灌注”和“过灌注”被击倒时该减伤效果减弱",
+          "textFormat": 0
+        },
+        {
+          "text": "【内源代偿反应】移动速度不会低于初始值；受到可<$ba.buffres>抵抗</>的异常状态时间减少，数秒内受到相同异常状态的时间进一步减少（至多减至0）",
+          "textFormat": 0
+        },
+        {
+          "text": "【受体过度应答】持续引导，期间所有其他敌人移动速度提升且每数秒回复生命值；引导成功后使所有敌人在数秒内占用阻挡数+1；引导可被部分异常状态打断",
+          "textFormat": 0
+        }
+      ],
+      "linkEnemies": [],
+      "damageType": [
+        "MAGIC"
+      ],
+      "invisibleDetail": false
+    },
+    "enemy_8018_etouch_2": {
+      "enemyId": "enemy_8018_etouch_2",
+      "enemyIndex": "SFR14",
+      "enemyTags": [],
+      "sortId": 1675,
+      "name": "“Touch”，再生之流",
+      "enemyLevel": "BOSS",
+      "description": "以Touch的战力极限为模本构拟的突破训练官。无论是躯体上的伤口与痛苦，还是精神上的不安与恐惧，都将在她的源石技艺之下消湮。对参与训练的你来说，也许这并不是一个好消息。",
+      "attackType": null,
+      "ability": null,
+      "isInvalidKilled": false,
+      "overrideKillCntInfos": {},
+      "hideInHandbook": true,
+      "hideInStage": false,
+      "abilityList": [
+        {
+          "text": "攻击附带一定比例的<$ba.dt.rampage>狂躁损伤</>",
+          "textFormat": 0
+        },
+        {
+          "text": "受到的物理和法术伤害降低，每当“再灌注”和“过灌注”被击倒时该减伤效果减弱",
+          "textFormat": 0
+        },
+        {
+          "text": "周期性选择一名我方干员及其周围4格生成<活性躁乱>",
+          "textFormat": 0
+        },
+        {
+          "text": "【内源代偿反应】移动速度不会低于初始值；受到可<$ba.buffres>抵抗</>的异常状态时间减少，数秒内受到相同异常状态的时间进一步减少（至多减至0）",
+          "textFormat": 0
+        },
+        {
+          "text": "第一形态",
+          "textFormat": 1
+        },
+        {
+          "text": "【受体过度应答】持续引导，期间所有其他敌人移动速度提升且每数秒回复生命值；引导成功后使所有其他敌人在数秒内所需阻挡数+1；引导可被部分异常状态打断",
+          "textFormat": 0
+        },
+        {
+          "text": "生命值首次降为0时重生，随后选择所有我方干员及周围4格生成<活性躁乱>并进入第二形态",
+          "textFormat": 0
+        },
+        {
+          "text": "第二形态",
+          "textFormat": 1
+        },
+        {
+          "text": "【急性髓鞘溶解】从自身行进路径上一定距离内召唤1个受到物理和法术伤害大幅降低但持续流失生命值的<“过灌注”>向自身移动，接触时将其吸收并爆炸，对全部我方单位造成高额法术伤害",
+          "textFormat": 0
+        }
+      ],
+      "linkEnemies": [
+        "enemy_8019_pollut_2"
+      ],
+      "damageType": [
+        "MAGIC"
+      ],
+      "invisibleDetail": false
+    },
+    "enemy_8018_etouch_3": {
+      "enemyId": "enemy_8018_etouch_3",
+      "enemyIndex": "SFR14",
+      "enemyTags": [],
+      "sortId": 1676,
+      "name": "“Touch”，再生之流",
+      "enemyLevel": "BOSS",
+      "description": "以Touch的战力极限为模本构拟的突破训练官。无论是躯体上的伤口与痛苦，还是精神上的不安与恐惧，都将在她的源石技艺之下消湮。对参与训练的你来说，也许这并不是一个好消息。",
+      "attackType": null,
+      "ability": null,
+      "isInvalidKilled": false,
+      "overrideKillCntInfos": {},
+      "hideInHandbook": true,
+      "hideInStage": false,
+      "abilityList": [
+        {
+          "text": "攻击附带一定比例的<$ba.dt.rampage>狂躁损伤</>",
+          "textFormat": 0
+        },
+        {
+          "text": "受到的物理和法术伤害降低，每当“再灌注”和“过灌注”被击倒时该减伤效果减弱",
+          "textFormat": 0
+        },
+        {
+          "text": "周期性选择一名我方干员及其周围4格生成<活性躁乱>",
+          "textFormat": 0
+        },
+        {
+          "text": "【内源代偿反应】移动速度不会低于初始值；受到可<$ba.buffres>抵抗</>的异常状态时间减少，数秒内受到相同异常状态的时间进一步减少（至多减至0）",
+          "textFormat": 0
+        },
+        {
+          "text": "每受到1种异常状态时，使场上所有<“过灌注”>及后续出现的<“过灌注”>免疫该状态",
+          "textFormat": 0
+        },
+        {
+          "text": "第一形态",
+          "textFormat": 1
+        },
+        {
+          "text": "【受体过度应答】持续引导，期间所有其他敌人移动速度提升且每数秒回复生命值；引导成功后使所有其他敌人在数秒内所需阻挡数+1；引导可被部分异常状态打断",
+          "textFormat": 0
+        },
+        {
+          "text": "生命值首次降为0时重生，随后选择所有我方干员及周围4格生成<活性躁乱>并进入第二形态",
+          "textFormat": 0
+        },
+        {
+          "text": "第二形态",
+          "textFormat": 1
+        },
+        {
+          "text": "【急性髓鞘溶解】从自身行进路径上一定距离内召唤1个受到物理和法术伤害大幅降低但持续流失生命值的<“过灌注”>向自身移动，接触时将其吸收并爆炸，对全部我方单位造成高额法术伤害",
+          "textFormat": 0
+        }
+      ],
+      "linkEnemies": [
+        "enemy_8019_pollut_2"
+      ],
+      "damageType": [
         "MAGIC"
       ],
       "invisibleDetail": false

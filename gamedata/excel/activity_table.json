@@ -1,5 +1,27 @@
 {
   "basicInfo": {
+    "act3break": {
+      "id": "act3break",
+      "type": "VEC_BREAK_V2",
+      "displayType": "NONE",
+      "name": "矢量突破#3 拟生态",
+      "startTime": 1790668800,
+      "endTime": 1792439999,
+      "rewardEndTime": 1792699199,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": null,
+      "medalGroupId": "medalGroupActivityAct3break",
+      "ungroupedMedalIds": [],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 0,
+      "isPageEntry": true,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act63sign": {
       "id": "act63sign",
       "type": "CHECKIN_ONLY",
@@ -8451,6 +8473,9 @@
     }
   },
   "zoneToActivity": {
+    "act3break_zone1": "act3break",
+    "act3break_zone2": "act3break",
+    "act3break_zone3": "act3break",
     "act1dp_zone1": "act1dp",
     "act1dp_zone2": "act1dp",
     "act54side_zone1": "act54side",
@@ -242658,6 +242683,2708 @@
       }
     },
     "VEC_BREAK_V2": {
+      "act3break": {
+        "offenseStageDict": {
+          "act3break_01": {
+            "stageId": "act3break_01",
+            "level": 1,
+            "levelLayout": "vecbv2_normal_1",
+            "storyDesc": "来者都坚信螺旋回廊的下一层就是出口，然而真相往往并不如他们所想。",
+            "particleType": 0,
+            "bossData": null
+          },
+          "act3break_02": {
+            "stageId": "act3break_02",
+            "level": 2,
+            "levelLayout": "vecbv2_normal_2",
+            "storyDesc": "即便是看起来坚不可摧的介质，能量波依然会在其中不断扩散。",
+            "particleType": 0,
+            "bossData": null
+          },
+          "act3break_03": {
+            "stageId": "act3break_03",
+            "level": 3,
+            "levelLayout": "vecbv2_normal_3",
+            "storyDesc": "不要挡在跑道中央，这条规则不仅是为了保证比赛顺利进行，更是为你的人身安全着想。",
+            "particleType": 0,
+            "bossData": null
+          },
+          "act3break_04": {
+            "stageId": "act3break_04",
+            "level": 4,
+            "levelLayout": "vecbv2_boss_1",
+            "storyDesc": "“突然失去力量的肌肉，无法传导信号的神经，还有随之而来的绝望感，不要让它们战胜你。”",
+            "particleType": 0,
+            "bossData": {
+              "enemyId": "enemy_8018_etouch_1",
+              "name": "“Touch”，再生之流",
+              "desc": "攻击附带狂躁损伤\\n【受体过度应答】持续引导使所有其他敌人移动速度提升且每数秒回复一次生命值；引导成功后使所有其他敌人在数秒内所需阻挡数+1；引导可被打断\\n【内源代偿反应】移动速度不会低于初始值；受到可抵抗的异常状态的时间减少，数秒内受到相同异常状态的时间进一步减少",
+              "level": 1,
+              "iconId": "vecbv2_offense_boss_etouch",
+              "levelDecoFigureId": "enemy_8018_etouch_deco_1",
+              "levelDecoSignId": "enemy_8018_etouch_deco_2",
+              "decoId": null
+            }
+          },
+          "act3break_05": {
+            "stageId": "act3break_05",
+            "level": 5,
+            "levelLayout": "vecbv2_normal_4",
+            "storyDesc": "对一些人而言，用铁锈和润滑油就能谱写出一部华丽的音乐剧。",
+            "particleType": 0,
+            "bossData": null
+          },
+          "act3break_06": {
+            "stageId": "act3break_06",
+            "level": 6,
+            "levelLayout": "vecbv2_normal_5",
+            "storyDesc": "能带来希望的地方，同样也能制造最深的恐慌，世间事物无不如此。\n",
+            "particleType": 0,
+            "bossData": null
+          },
+          "act3break_07": {
+            "stageId": "act3break_07",
+            "level": 7,
+            "levelLayout": "vecbv2_normal_6",
+            "storyDesc": "痛苦化为促人前进的力量，等到时机成熟，那些花儿就会在废墟上再次绽放。",
+            "particleType": 0,
+            "bossData": null
+          },
+          "act3break_08": {
+            "stageId": "act3break_08",
+            "level": 8,
+            "levelLayout": "vecbv2_boss_2",
+            "storyDesc": "“由内而生的凋亡，与从外部而来的刀剑一样，需要你提高警惕予以应对。”",
+            "particleType": 1,
+            "bossData": {
+              "enemyId": "enemy_8018_etouch_2",
+              "name": "“Touch”，再生之流",
+              "desc": "周期性选择一名我方干员及其周围4格生成<活性躁乱>；首次被击倒后重生，随后在所有干员及其周围4格生成<活性躁乱>\\n【急性髓鞘溶解】召唤1个特殊<“过灌注”>向自身移动，与其接触时将其吸收并爆炸，对全部我方单位造成高额法术伤害",
+              "level": 2,
+              "iconId": "vecbv2_offense_boss_etouch",
+              "levelDecoFigureId": "enemy_8018_etouch_deco_1",
+              "levelDecoSignId": "enemy_8018_etouch_deco_2",
+              "decoId": null
+            }
+          },
+          "act3break_09": {
+            "stageId": "act3break_09",
+            "level": 9,
+            "levelLayout": "vecbv2_normal_7",
+            "storyDesc": "你可能会好奇眼前的情况是否是一种特殊安排，但不要想太多，这就是忘记关水龙头导致的。",
+            "particleType": 1,
+            "bossData": null
+          },
+          "act3break_10": {
+            "stageId": "act3break_10",
+            "level": 10,
+            "levelLayout": "vecbv2_normal_8",
+            "storyDesc": "导演的要求有些模糊，编剧的安排非常奇妙，现在还说要追求临场发挥，这样的话出事了可别后悔。",
+            "particleType": 1,
+            "bossData": null
+          },
+          "act3break_11": {
+            "stageId": "act3break_11",
+            "level": 11,
+            "levelLayout": "vecbv2_normal_9",
+            "storyDesc": "空气里弥漫着一股刺激性的气味，而常识和经验告诉你，这种味道预示着的一般不是什么好事。",
+            "particleType": 1,
+            "bossData": null
+          },
+          "act3break_12": {
+            "stageId": "act3break_12",
+            "level": 12,
+            "levelLayout": "vecbv2_boss_3",
+            "storyDesc": "“哪怕是微小的生理构造，在被攻击时也可能造成致命伤害，切勿掉以轻心。”\n",
+            "particleType": 1,
+            "bossData": {
+              "enemyId": "enemy_8018_etouch_3",
+              "name": "“Touch”，再生之流",
+              "desc": "“Touch”，再生之流每受到1种异常状态，所有<“过灌注”>免疫该状态",
+              "level": 3,
+              "iconId": "vecbv2_offense_boss_etouch",
+              "levelDecoFigureId": "enemy_8018_etouch_deco_1",
+              "levelDecoSignId": "enemy_8018_etouch_deco_2",
+              "decoId": null
+            }
+          }
+        },
+        "hardStageDict": {
+          "act3break_h01": {
+            "stageId": "act3break_h01",
+            "orderType": 1,
+            "storyDesc": "身为探险家最担心的事情之一，就是好不容易发现一处秘境，却看到地上已经有前人的足迹了。",
+            "bossData": null
+          },
+          "act3break_h02": {
+            "stageId": "act3break_h02",
+            "orderType": 2,
+            "storyDesc": "城市规则里早就写好了，占用专用通道者会受到严厉惩罚，可惜有的人就是守法意识淡薄。",
+            "bossData": null
+          },
+          "act3break_h03": {
+            "stageId": "act3break_h03",
+            "orderType": 3,
+            "storyDesc": "外面的灯光越是炫目，就映衬得没有光源的地方越是昏暗，就算幕后放置着的可爱吉祥物，都能把人吓得魂飞魄散。",
+            "bossData": {
+              "enemyId": "enemy_8016_misery_3",
+              "name": "“Misery”，静默之刃",
+              "desc": null,
+              "level": 3,
+              "iconId": "vecbv2_offense_boss_misery",
+              "levelDecoFigureId": null,
+              "levelDecoSignId": null,
+              "decoId": "deco_misery"
+            }
+          },
+          "act3break_h04": {
+            "stageId": "act3break_h04",
+            "orderType": 4,
+            "storyDesc": "“你已经度过了最艰难的阶段，情况正在逐渐好转，以后也请不要放弃留存于心的希望……”\n",
+            "bossData": {
+              "enemyId": "enemy_8018_etouch_3",
+              "name": "“Touch”，再生之流",
+              "desc": null,
+              "level": 3,
+              "iconId": "vecbv2_offense_boss_etouch",
+              "levelDecoFigureId": null,
+              "levelDecoSignId": null,
+              "decoId": "deco_etouch"
+            }
+          }
+        },
+        "defenseBasicDict": {
+          "act3break_sp01": {
+            "stageId": "act3break_sp01",
+            "groupId": null,
+            "sortId": 1,
+            "startTs": 1790668800
+          },
+          "act3break_sp02": {
+            "stageId": "act3break_sp02",
+            "groupId": null,
+            "sortId": 2,
+            "startTs": 1790668800
+          },
+          "act3break_sp03": {
+            "stageId": "act3break_sp03",
+            "groupId": null,
+            "sortId": 3,
+            "startTs": 1790668800
+          },
+          "act3break_sp04": {
+            "stageId": "act3break_sp04",
+            "groupId": "spGroup01",
+            "sortId": 9,
+            "startTs": 1790668800
+          },
+          "act3break_sp05": {
+            "stageId": "act3break_sp05",
+            "groupId": "spGroup01",
+            "sortId": 10,
+            "startTs": 1790668800
+          },
+          "act3break_sp06": {
+            "stageId": "act3break_sp06",
+            "groupId": null,
+            "sortId": 4,
+            "startTs": 1790971200
+          },
+          "act3break_sp07": {
+            "stageId": "act3break_sp07",
+            "groupId": "spGroup02",
+            "sortId": 11,
+            "startTs": 1790971200
+          },
+          "act3break_sp08": {
+            "stageId": "act3break_sp08",
+            "groupId": "spGroup02",
+            "sortId": 12,
+            "startTs": 1790971200
+          },
+          "act3break_sp09": {
+            "stageId": "act3break_sp09",
+            "groupId": null,
+            "sortId": 5,
+            "startTs": 1791273600
+          },
+          "act3break_sp10": {
+            "stageId": "act3break_sp10",
+            "groupId": null,
+            "sortId": 6,
+            "startTs": 1791273600
+          },
+          "act3break_sp11": {
+            "stageId": "act3break_sp11",
+            "groupId": null,
+            "sortId": 7,
+            "startTs": 1791273600
+          },
+          "act3break_sp12": {
+            "stageId": "act3break_sp12",
+            "groupId": "spGroup03",
+            "sortId": 13,
+            "startTs": 1791273600
+          },
+          "act3break_sp13": {
+            "stageId": "act3break_sp13",
+            "groupId": "spGroup03",
+            "sortId": 14,
+            "startTs": 1791273600
+          },
+          "act3break_sp14": {
+            "stageId": "act3break_sp14",
+            "groupId": null,
+            "sortId": 8,
+            "startTs": 1791489600
+          },
+          "act3break_sp15": {
+            "stageId": "act3break_sp15",
+            "groupId": "spGroup04",
+            "sortId": 15,
+            "startTs": 1791489600
+          },
+          "act3break_sp16": {
+            "stageId": "act3break_sp16",
+            "groupId": "spGroup04",
+            "sortId": 16,
+            "startTs": 1791489600
+          }
+        },
+        "defenseDetailDict": {
+          "act3break_sp01": {
+            "stageId": "act3break_sp01",
+            "buffId": "act3break_rune01",
+            "defenseCharLimit": 1,
+            "bossIconId": "vec_act3break_defense_enemy_1"
+          },
+          "act3break_sp02": {
+            "stageId": "act3break_sp02",
+            "buffId": "act3break_rune02",
+            "defenseCharLimit": 1,
+            "bossIconId": "vec_act3break_defense_enemy_2"
+          },
+          "act3break_sp03": {
+            "stageId": "act3break_sp03",
+            "buffId": "act3break_rune03",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act3break_defense_enemy_3"
+          },
+          "act3break_sp04": {
+            "stageId": "act3break_sp04",
+            "buffId": "act3break_rune04",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act3break_defense_enemy_4"
+          },
+          "act3break_sp05": {
+            "stageId": "act3break_sp05",
+            "buffId": "act3break_rune05",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act3break_defense_enemy_5"
+          },
+          "act3break_sp06": {
+            "stageId": "act3break_sp06",
+            "buffId": "act3break_rune06",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act3break_defense_enemy_6"
+          },
+          "act3break_sp07": {
+            "stageId": "act3break_sp07",
+            "buffId": "act3break_rune07",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act3break_defense_enemy_7"
+          },
+          "act3break_sp08": {
+            "stageId": "act3break_sp08",
+            "buffId": "act3break_rune08",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act3break_defense_enemy_8"
+          },
+          "act3break_sp09": {
+            "stageId": "act3break_sp09",
+            "buffId": "act3break_rune09",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act3break_defense_enemy_9"
+          },
+          "act3break_sp10": {
+            "stageId": "act3break_sp10",
+            "buffId": "act3break_rune10",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act3break_defense_enemy_10"
+          },
+          "act3break_sp11": {
+            "stageId": "act3break_sp11",
+            "buffId": "act3break_rune11",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act3break_defense_enemy_11"
+          },
+          "act3break_sp12": {
+            "stageId": "act3break_sp12",
+            "buffId": "act3break_rune12",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act3break_defense_enemy_12"
+          },
+          "act3break_sp13": {
+            "stageId": "act3break_sp13",
+            "buffId": "act3break_rune13",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act3break_defense_enemy_13"
+          },
+          "act3break_sp14": {
+            "stageId": "act3break_sp14",
+            "buffId": "act3break_rune14",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act3break_defense_enemy_14"
+          },
+          "act3break_sp15": {
+            "stageId": "act3break_sp15",
+            "buffId": "act3break_rune15",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act3break_defense_enemy_15"
+          },
+          "act3break_sp16": {
+            "stageId": "act3break_sp16",
+            "buffId": "act3break_rune16",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act3break_defense_enemy_16"
+          }
+        },
+        "zoneDict": {
+          "act3break_zone1": {
+            "zoneId": "act3break_zone1",
+            "stageLockHint": null
+          },
+          "act3break_zone2": {
+            "zoneId": "act3break_zone2",
+            "stageLockHint": "完成核心突破后解锁"
+          },
+          "act3break_zone3": {
+            "zoneId": "act3break_zone3",
+            "stageLockHint": "突破第一层后解锁"
+          }
+        },
+        "defenseGroupDict": {
+          "spGroup01": {
+            "groupId": "spGroup01",
+            "sortId": 1,
+            "orderedStageList": [
+              "act3break_sp04",
+              "act3break_sp05"
+            ]
+          },
+          "spGroup02": {
+            "groupId": "spGroup02",
+            "sortId": 2,
+            "orderedStageList": [
+              "act3break_sp07",
+              "act3break_sp08"
+            ]
+          },
+          "spGroup03": {
+            "groupId": "spGroup03",
+            "sortId": 3,
+            "orderedStageList": [
+              "act3break_sp12",
+              "act3break_sp13"
+            ]
+          },
+          "spGroup04": {
+            "groupId": "spGroup04",
+            "sortId": 4,
+            "orderedStageList": [
+              "act3break_sp15",
+              "act3break_sp16"
+            ]
+          }
+        },
+        "battleBuffDict": {
+          "act3break_rune01": {
+            "buffId": "act3break_rune01",
+            "name": "急救程序",
+            "desc": "“再度绽放”的部署费用-10",
+            "iconId": "act3break_relic_01",
+            "runeData": {
+              "id": "act3break_relic_01",
+              "points": 1.0,
+              "mutexGroupKey": "首日",
+              "description": "快速启动：“净化射线”部署费用-10",
+              "runes": [
+                {
+                  "key": "char_cost_add",
+                  "selector": {
+                    "professionMask": 256,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": -10.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "char",
+                      "value": 0.0,
+                      "valueStr": "trap_339_tchray"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune02": {
+            "buffId": "act3break_rune02",
+            "name": "灵便装备",
+            "desc": "医疗、重装干员部署费用-35%",
+            "iconId": "act3break_relic_02",
+            "runeData": {
+              "id": "act3break_relic_02",
+              "points": 1.0,
+              "mutexGroupKey": "首日",
+              "description": "调配：医疗、重装部署费用-35%",
+              "runes": [
+                {
+                  "key": "char_cost_mul",
+                  "selector": {
+                    "professionMask": 12,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "scale",
+                      "value": 0.65,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune03": {
+            "buffId": "act3break_rune03",
+            "name": "蓄能装备",
+            "desc": "特种、辅助干员技力自然回复速度+0.5/秒",
+            "iconId": "act3break_relic_03",
+            "runeData": {
+              "id": "act3break_relic_03",
+              "points": 1.0,
+              "mutexGroupKey": "首日",
+              "description": "充能：特种、辅助技力自然回复速度+0.5/秒（特种缺专用prefab，暂用normal+with_verify，待测）",
+              "runes": [
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": 16,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "modify_sp_recover[support]"
+                    },
+                    {
+                      "key": "sp_recovery_per_sec",
+                      "value": 0.5,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 64,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "modify_sp_recover[normal]"
+                    },
+                    {
+                      "key": "sp_recovery_per_sec",
+                      "value": 0.5,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune04": {
+            "buffId": "act3break_rune04",
+            "name": "抵抗装备",
+            "desc": "“再灌注”和“过灌注”最大生命值-25%，每当“再灌注”和“过灌注”死亡时，场上的领袖敌人在10秒内受到的伤害提升20%（不叠加）",
+            "iconId": "act3break_relic_04",
+            "runeData": {
+              "id": "act3break_relic_04",
+              "points": 2.0,
+              "mutexGroupKey": "首日",
+              "description": "力量给养：【污染机体】最大生命值-25%，每当【污染机体】死亡时，场上的领袖敌人10秒期间受到的伤害提升20%（不叠加）",
+              "runes": [
+                {
+                  "key": "enemy_attribute_mul",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.75,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "enemy",
+                      "value": 0.0,
+                      "valueStr": "enemy_8019_pollut|enemy_8019_pollut_2|enemy_8019_pollut_3"
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "act3break_weak[boss]"
+                    },
+                    {
+                      "key": "enemy",
+                      "value": 0.0,
+                      "valueStr": "enemy_8019_pollut|enemy_8019_pollut_2|enemy_8019_pollut_3"
+                    },
+                    {
+                      "key": "duration",
+                      "value": 10.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.2,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune05": {
+            "buffId": "act3break_rune05",
+            "name": "拮抗装备",
+            "desc": "“再灌注”和“过灌注”最大生命值-50%，每当“再灌注”和“过灌注”死亡时，场上的领袖敌人在10秒内受到的伤害提升40%（不叠加）",
+            "iconId": "act3break_relic_05",
+            "runeData": {
+              "id": "act3break_relic_05",
+              "points": 3.0,
+              "mutexGroupKey": "首日",
+              "description": "力量给养+：【污染机体】最大生命值-50%，每当【污染机体】死亡时，场上的领袖敌人10秒期间受到的伤害提升40%（不叠加）",
+              "runes": [
+                {
+                  "key": "enemy_attribute_mul",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.5,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "enemy",
+                      "value": 0.0,
+                      "valueStr": "enemy_8019_pollut|enemy_8019_pollut_2|enemy_8019_pollut_3"
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "act3break_weak[boss]"
+                    },
+                    {
+                      "key": "enemy",
+                      "value": 0.0,
+                      "valueStr": "enemy_8019_pollut|enemy_8019_pollut_2|enemy_8019_pollut_3"
+                    },
+                    {
+                      "key": "duration",
+                      "value": 10.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.4,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune06": {
+            "buffId": "act3break_rune06",
+            "name": "凝神程序",
+            "desc": "“再度绽放”部署后，场上所有干员获得12点技力",
+            "iconId": "act3break_relic_06",
+            "runeData": {
+              "id": "act3break_relic_06",
+              "points": 1.0,
+              "mutexGroupKey": "第二轮",
+              "description": "沐浴：“净化射线”部署后，场上所有干员获得12点技力（globalbuff act3break_modify_sp[character] 挂载到净化射线，部署即触发）",
+              "runes": [
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 256,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "act3break_modify_sp[character]"
+                    },
+                    {
+                      "key": "char",
+                      "value": 0.0,
+                      "valueStr": "trap_339_tchray"
+                    },
+                    {
+                      "key": "sp",
+                      "value": 12.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune07": {
+            "buffId": "act3break_rune07",
+            "name": "活血装备",
+            "desc": "我方单位受到的元素损伤-25%，每秒回复1%生命",
+            "iconId": "act3break_relic_07",
+            "runeData": {
+              "id": "act3break_relic_07",
+              "points": 2.0,
+              "mutexGroupKey": "第二轮",
+              "description": "元素抵抗：我方单位受到的元素损伤-25%，每秒回复1%生命",
+              "runes": [
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "element_resistance"
+                    },
+                    {
+                      "key": "ep_damage_resistance",
+                      "value": 0.25,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "hp_recovery_per_sec_by_max_hp_ratio[add]"
+                    },
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.01,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune08": {
+            "buffId": "act3break_rune08",
+            "name": "净血装备",
+            "desc": "我方单位受到的元素损伤-40%，每秒回复2%生命",
+            "iconId": "act3break_relic_08",
+            "runeData": {
+              "id": "act3break_relic_08",
+              "points": 3.0,
+              "mutexGroupKey": "第二轮",
+              "description": "元素抵抗+：我方单位受到的元素损伤-40%，每秒回复2%生命",
+              "runes": [
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "element_resistance"
+                    },
+                    {
+                      "key": "ep_damage_resistance",
+                      "value": 0.4,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "hp_recovery_per_sec_by_max_hp_ratio[add]"
+                    },
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.02,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune09": {
+            "buffId": "act3break_rune09",
+            "name": "缴械装备",
+            "desc": "所有敌人重量-1，攻击力-20%",
+            "iconId": "act3break_relic_09",
+            "runeData": {
+              "id": "act3break_relic_09",
+              "points": 2.0,
+              "mutexGroupKey": "第三轮",
+              "description": "缩小化：所有敌人重量-1，攻击力-20%",
+              "runes": [
+                {
+                  "key": "enemy_attribute_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "mass_level",
+                      "value": -1.0,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "enemy_attribute_mul",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.8,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune10": {
+            "buffId": "act3break_rune10",
+            "name": "迟滞装备",
+            "desc": "可同时部署人数+1，所有敌人受到的晕眩、寒冷、冻结、恐惧、诱导的持续时间+50%",
+            "iconId": "act3break_relic_10",
+            "runeData": {
+              "id": "act3break_relic_10",
+              "points": 2.0,
+              "mutexGroupKey": "第三轮",
+              "description": "可同时部署人数+1，所有敌人受到的晕眩、冻结、恐惧、诱导的持续时间+50%",
+              "runes": [
+                {
+                  "key": "enemy_attribute_mul",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "one_minus_status_resistance",
+                      "value": 1.5,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "global_placable_char_num_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune11": {
+            "buffId": "act3break_rune11",
+            "name": "催化装备",
+            "desc": "关卡初始费用+20，所有干员初始技力+10",
+            "iconId": "act3break_relic_11",
+            "runeData": {
+              "id": "act3break_relic_11",
+              "points": 2.0,
+              "mutexGroupKey": "第三轮",
+              "description": "充沛（复用）：初始部署费用+20，所有干员初始技力+10",
+              "runes": [
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "modify_sp[born]"
+                    },
+                    {
+                      "key": "sp",
+                      "value": 10.0,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "global_initial_cost_add",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 20.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune12": {
+            "buffId": "act3break_rune12",
+            "name": "冷结程序",
+            "desc": "“再度绽放”的再部署时间减少15%；部署后使场上所有精英敌人移动速度-25%，持续20秒（不叠加）",
+            "iconId": "act3break_relic_12",
+            "runeData": {
+              "id": "act3break_relic_12",
+              "points": 2.0,
+              "mutexGroupKey": "第三轮",
+              "description": "凝滞：“净化射线”再部署时间减少15%，部署后，使场上所有精英敌人移动速度-25%，持续20秒（不叠加）（globalbuff act3break_move_speed[elite] 挂载到净化射线，部署即触发）",
+              "runes": [
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "act3break_move_speed[elite]"
+                    },
+                    {
+                      "key": "char",
+                      "value": 0.0,
+                      "valueStr": "trap_339_tchray"
+                    },
+                    {
+                      "key": "move_speed",
+                      "value": -0.25,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "duration",
+                      "value": 20.0,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_respawntime_mul",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "scale",
+                      "value": 0.85,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "char",
+                      "value": 0.0,
+                      "valueStr": "trap_339_tchray"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune13": {
+            "buffId": "act3break_rune13",
+            "name": "冻结程序",
+            "desc": "“再度绽放”的再部署时间减少35%；部署后使场上所有精英敌人移动速度-50%，持续20秒（不叠加）",
+            "iconId": "act3break_relic_13",
+            "runeData": {
+              "id": "act3break_relic_13",
+              "points": 3.0,
+              "mutexGroupKey": "第三轮",
+              "description": "凝滞+：“净化射线”再部署时间减少35%，部署后，使场上所有精英敌人移动速度-50%，持续20秒（不叠加）（globalbuff act3break_move_speed[elite] 挂载到净化射线，部署即触发）",
+              "runes": [
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "act3break_move_speed[elite]"
+                    },
+                    {
+                      "key": "char",
+                      "value": 0.0,
+                      "valueStr": "trap_339_tchray"
+                    },
+                    {
+                      "key": "move_speed",
+                      "value": -0.5,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "duration",
+                      "value": 20.0,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_respawntime_mul",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "scale",
+                      "value": 0.65,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "char",
+                      "value": 0.0,
+                      "valueStr": "trap_339_tchray"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune14": {
+            "buffId": "act3break_rune14",
+            "name": "消杀程序",
+            "desc": "“再度绽放”部署后会持续引导10秒，持续对其中的敌人停顿并每秒造成3500点真实伤害",
+            "iconId": "act3break_relic_14",
+            "runeData": {
+              "id": "act3break_relic_14",
+              "points": 3.0,
+              "mutexGroupKey": "第四轮",
+              "description": "领域灭杀：“净化射线”部署后会持续引导10秒，持续对其中的敌人停顿并每秒造成3500点真实伤害（保留用净化射线技能索引2实现）",
+              "runes": [
+                {
+                  "key": "level_predefines_skill_replace",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "char",
+                      "value": 0.0,
+                      "valueStr": "trap_339_tchray"
+                    },
+                    {
+                      "key": "skill",
+                      "value": 0.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune15": {
+            "buffId": "act3break_rune15",
+            "name": "纯化装备",
+            "desc": "我方单位攻击力+80%，最大生命值+80%，但可同时部署人数-1",
+            "iconId": "act3break_relic_15",
+            "runeData": {
+              "id": "act3break_relic_15",
+              "points": 3.0,
+              "mutexGroupKey": "第四轮",
+              "description": "终极集群：我方单位攻击力+80%，最大生命值+80%，但可同时部署人数-1",
+              "runes": [
+                {
+                  "key": "char_attribute_additive_mul",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.8,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "max_hp",
+                      "value": 0.8,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "global_placable_char_num_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 0
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": -1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3break_rune16": {
+            "buffId": "act3break_rune16",
+            "name": "极化装备",
+            "desc": "我方单位攻击力+80%，攻击速度+80，最大生命值+120%，但可同时部署人数-1",
+            "iconId": "act3break_relic_16",
+            "runeData": {
+              "id": "act3break_relic_16",
+              "points": 4.0,
+              "mutexGroupKey": "第四轮",
+              "description": "终极集群+：我方单位攻击力+80%，攻击速度+80，最大生命值+120%，但可同时部署人数-1",
+              "runes": [
+                {
+                  "key": "char_attribute_additive_mul",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.8,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "max_hp",
+                      "value": 1.2,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_attribute_add",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "attack_speed",
+                      "value": 80.0,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "global_placable_char_num_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": [],
+                    "charIdExcludeFilter": [],
+                    "enemyIdFilter": [],
+                    "enemyIdExcludeFilter": [],
+                    "enemyLevelTypeFilter": [],
+                    "enemyActionHiddenGroupFilter": [],
+                    "skillIdFilter": [],
+                    "tileKeyFilter": [],
+                    "groupTagFilter": [],
+                    "filterTagFilter": [],
+                    "filterTagExcludeFilter": [],
+                    "subProfessionExcludeFilter": [],
+                    "mapTagFilter": [],
+                    "heightTypeMask": 0
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": -1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "milestoneList": [
+          {
+            "milestoneId": "mileStone_1",
+            "orderId": 1,
+            "tokenNum": 40,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_2",
+            "orderId": 2,
+            "tokenNum": 80,
+            "reward": {
+              "id": "30063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_3",
+            "orderId": 3,
+            "tokenNum": 120,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_4",
+            "orderId": 4,
+            "tokenNum": 160,
+            "reward": {
+              "id": "31033",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_5",
+            "orderId": 5,
+            "tokenNum": 200,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_6",
+            "orderId": 6,
+            "tokenNum": 245,
+            "reward": {
+              "id": "30054",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_7",
+            "orderId": 7,
+            "tokenNum": 290,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_8",
+            "orderId": 8,
+            "tokenNum": 335,
+            "reward": {
+              "id": "30063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_9",
+            "orderId": 9,
+            "tokenNum": 380,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_10",
+            "orderId": 10,
+            "tokenNum": 425,
+            "reward": {
+              "id": "30165",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_11",
+            "orderId": 11,
+            "tokenNum": 475,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_12",
+            "orderId": 12,
+            "tokenNum": 525,
+            "reward": {
+              "id": "31033",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_13",
+            "orderId": 13,
+            "tokenNum": 575,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_14",
+            "orderId": 14,
+            "tokenNum": 625,
+            "reward": {
+              "id": "30063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_15",
+            "orderId": 15,
+            "tokenNum": 675,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_16",
+            "orderId": 16,
+            "tokenNum": 730,
+            "reward": {
+              "id": "31033",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_17",
+            "orderId": 17,
+            "tokenNum": 785,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_18",
+            "orderId": 18,
+            "tokenNum": 840,
+            "reward": {
+              "id": "31034",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_19",
+            "orderId": 19,
+            "tokenNum": 895,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_20",
+            "orderId": 20,
+            "tokenNum": 950,
+            "reward": {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_21",
+            "orderId": 21,
+            "tokenNum": 1005,
+            "reward": {
+              "id": "30063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_22",
+            "orderId": 22,
+            "tokenNum": 1060,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_23",
+            "orderId": 23,
+            "tokenNum": 1115,
+            "reward": {
+              "id": "31033",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_24",
+            "orderId": 24,
+            "tokenNum": 1170,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_25",
+            "orderId": 25,
+            "tokenNum": 1225,
+            "reward": {
+              "id": "31074",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_26",
+            "orderId": 26,
+            "tokenNum": 1280,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_27",
+            "orderId": 27,
+            "tokenNum": 1335,
+            "reward": {
+              "id": "30063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_28",
+            "orderId": 28,
+            "tokenNum": 1390,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_29",
+            "orderId": 29,
+            "tokenNum": 1445,
+            "reward": {
+              "id": "31033",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_30",
+            "orderId": 30,
+            "tokenNum": 1500,
+            "reward": {
+              "id": "char_4015_spuria@epoque#58",
+              "count": 1,
+              "type": "CHAR_SKIN"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_31",
+            "orderId": 31,
+            "tokenNum": 1560,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_32",
+            "orderId": 32,
+            "tokenNum": 1620,
+            "reward": {
+              "id": "30054",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_33",
+            "orderId": 33,
+            "tokenNum": 1680,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_34",
+            "orderId": 34,
+            "tokenNum": 1740,
+            "reward": {
+              "id": "30063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_35",
+            "orderId": 35,
+            "tokenNum": 1800,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_36",
+            "orderId": 36,
+            "tokenNum": 1860,
+            "reward": {
+              "id": "31033",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_37",
+            "orderId": 37,
+            "tokenNum": 1920,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_38",
+            "orderId": 38,
+            "tokenNum": 1980,
+            "reward": {
+              "id": "30063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_39",
+            "orderId": 39,
+            "tokenNum": 2040,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_40",
+            "orderId": 40,
+            "tokenNum": 2100,
+            "reward": {
+              "id": "30165",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1790668800
+          },
+          {
+            "milestoneId": "mileStone_41",
+            "orderId": 41,
+            "tokenNum": 2150,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_42",
+            "orderId": 42,
+            "tokenNum": 2200,
+            "reward": {
+              "id": "31033",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_43",
+            "orderId": 43,
+            "tokenNum": 2250,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_44",
+            "orderId": 44,
+            "tokenNum": 2300,
+            "reward": {
+              "id": "31034",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_45",
+            "orderId": 45,
+            "tokenNum": 2350,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_46",
+            "orderId": 46,
+            "tokenNum": 2405,
+            "reward": {
+              "id": "30063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_47",
+            "orderId": 47,
+            "tokenNum": 2460,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_48",
+            "orderId": 48,
+            "tokenNum": 2515,
+            "reward": {
+              "id": "31033",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_49",
+            "orderId": 49,
+            "tokenNum": 2570,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_50",
+            "orderId": 50,
+            "tokenNum": 2625,
+            "reward": {
+              "id": "furni_vector_S3_touch_01",
+              "count": 1,
+              "type": "FURN"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_51",
+            "orderId": 51,
+            "tokenNum": 2685,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_52",
+            "orderId": 52,
+            "tokenNum": 2745,
+            "reward": {
+              "id": "30063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_53",
+            "orderId": 53,
+            "tokenNum": 2805,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_54",
+            "orderId": 54,
+            "tokenNum": 2865,
+            "reward": {
+              "id": "31074",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_55",
+            "orderId": 55,
+            "tokenNum": 2925,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_56",
+            "orderId": 56,
+            "tokenNum": 2990,
+            "reward": {
+              "id": "31033",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_57",
+            "orderId": 57,
+            "tokenNum": 3055,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_58",
+            "orderId": 58,
+            "tokenNum": 3120,
+            "reward": {
+              "id": "30063",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_59",
+            "orderId": 59,
+            "tokenNum": 3185,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_60",
+            "orderId": 60,
+            "tokenNum": 3250,
+            "reward": {
+              "id": "30054",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_61",
+            "orderId": 61,
+            "tokenNum": 3320,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_62",
+            "orderId": 62,
+            "tokenNum": 3390,
+            "reward": {
+              "id": "31033",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_63",
+            "orderId": 63,
+            "tokenNum": 3460,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_64",
+            "orderId": 64,
+            "tokenNum": 3530,
+            "reward": {
+              "id": "31034",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1791273600
+          },
+          {
+            "milestoneId": "mileStone_65",
+            "orderId": 65,
+            "tokenNum": 3600,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1791273600
+          }
+        ],
+        "stageRewardDict": {
+          "act3break_01": {
+            "stageId": "act3break_01",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act3break_02": {
+            "stageId": "act3break_02",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act3break_03": {
+            "stageId": "act3break_03",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act3break_04": {
+            "stageId": "act3break_04",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act3break_05": {
+            "stageId": "act3break_05",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act3break_06": {
+            "stageId": "act3break_06",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act3break_07": {
+            "stageId": "act3break_07",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act3break_08": {
+            "stageId": "act3break_08",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act3break_09": {
+            "stageId": "act3break_09",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act3break_10": {
+            "stageId": "act3break_10",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act3break_11": {
+            "stageId": "act3break_11",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act3break_12": {
+            "stageId": "act3break_12",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act3break_h01": {
+            "stageId": "act3break_h01",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act3break_h02": {
+            "stageId": "act3break_h02",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act3break_h03": {
+            "stageId": "act3break_h03",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act3break_h04": {
+            "stageId": "act3break_h04",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act3break_sp01": {
+            "stageId": "act3break_sp01",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1790668800,
+              "endTs": 1790971199,
+              "rewardCnt": 20
+            }
+          },
+          "act3break_sp02": {
+            "stageId": "act3break_sp02",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1790668800,
+              "endTs": 1790971199,
+              "rewardCnt": 20
+            }
+          },
+          "act3break_sp03": {
+            "stageId": "act3break_sp03",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1790668800,
+              "endTs": 1790971199,
+              "rewardCnt": 20
+            }
+          },
+          "act3break_sp04": {
+            "stageId": "act3break_sp04",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1790668800,
+              "endTs": 1790971199,
+              "rewardCnt": 20
+            }
+          },
+          "act3break_sp05": {
+            "stageId": "act3break_sp05",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1790668800,
+              "endTs": 1790971199,
+              "rewardCnt": 20
+            }
+          },
+          "act3break_sp06": {
+            "stageId": "act3break_sp06",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1790971200,
+              "endTs": 1791273599,
+              "rewardCnt": 20
+            }
+          },
+          "act3break_sp07": {
+            "stageId": "act3break_sp07",
+            "completeRewardCnt": 30,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1790971200,
+              "endTs": 1791273599,
+              "rewardCnt": 30
+            }
+          },
+          "act3break_sp08": {
+            "stageId": "act3break_sp08",
+            "completeRewardCnt": 30,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1790971200,
+              "endTs": 1791273599,
+              "rewardCnt": 30
+            }
+          },
+          "act3break_sp09": {
+            "stageId": "act3break_sp09",
+            "completeRewardCnt": 40,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1791273600,
+              "endTs": 1791489599,
+              "rewardCnt": 40
+            }
+          },
+          "act3break_sp10": {
+            "stageId": "act3break_sp10",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1791273600,
+              "endTs": 1791489599,
+              "rewardCnt": 35
+            }
+          },
+          "act3break_sp11": {
+            "stageId": "act3break_sp11",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1791273600,
+              "endTs": 1791489599,
+              "rewardCnt": 35
+            }
+          },
+          "act3break_sp12": {
+            "stageId": "act3break_sp12",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1791273600,
+              "endTs": 1791489599,
+              "rewardCnt": 35
+            }
+          },
+          "act3break_sp13": {
+            "stageId": "act3break_sp13",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1791273600,
+              "endTs": 1791489599,
+              "rewardCnt": 35
+            }
+          },
+          "act3break_sp14": {
+            "stageId": "act3break_sp14",
+            "completeRewardCnt": 40,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1791489600,
+              "endTs": 1791835199,
+              "rewardCnt": 40
+            }
+          },
+          "act3break_sp15": {
+            "stageId": "act3break_sp15",
+            "completeRewardCnt": 40,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1791489600,
+              "endTs": 1791835199,
+              "rewardCnt": 40
+            }
+          },
+          "act3break_sp16": {
+            "stageId": "act3break_sp16",
+            "completeRewardCnt": 50,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1791489600,
+              "endTs": 1791835199,
+              "rewardCnt": 50
+            }
+          }
+        },
+        "constData": {
+          "defenseDesc": "同时可以激活六个补给",
+          "defenseOverviewName": null,
+          "milestoneName": "突破里程碑",
+          "milestoneItemId": "act3break_milestone_point",
+          "bossDescTitle": "考官强化",
+          "defenseUnlockRequireStageId": "act3break_sp01",
+          "offenseNavLockToastStageId": "act3break_01",
+          "offenseNavLockToastStr": "通关当前关卡后解锁",
+          "offenseHardUnlockToast": "全力以赴区域已解锁",
+          "hardUnlockStageId": "act3break_h01",
+          "defenseRetreatSingleText": "撤离驻防后，对应补给将无法激活。确认撤离吗？",
+          "defenseRetreatMultipleText": "撤离驻防后，对应高级补给“{0}”也将失效。确认撤离吗？",
+          "defenseReplaceText": "是否使用新阵容替换原驻防阵容？",
+          "defenseEquipBuffLimit": 6,
+          "displayMedalId": "medal_activity_act3break_01",
+          "defenseAddBuffToast": "补给已启用",
+          "defenseRemoveBuffToast": "补给已关闭",
+          "defenseReplaceBuffToast": "补给已替换",
+          "defenseBuffExceedToast": "补给启用数量已达上限，请调整",
+          "defendSameGroupHint": "同组关卡驻防中",
+          "defendOtherHint": "特别战线驻防中",
+          "defenseBuffLockToast": "请前往特别战线激活增益",
+          "offenseBuffSelectUnsaveHint": "当前页面有未保存的设置，确认返回吗？",
+          "defenceBattleFinishEquipText": "{0}已启用",
+          "defenceBattleFinishActivateText": "{0}已激活",
+          "defenceBattleFinishSquadText": "驻防阵容已更新",
+          "milestoneTrackId": "milestone_expand",
+          "themeColor": "#17c5cb",
+          "subTitleName": "拟生态"
+        },
+        "squadBuffAvailStageList": [
+          "act3break_01",
+          "act3break_02",
+          "act3break_03",
+          "act3break_04",
+          "act3break_05",
+          "act3break_06",
+          "act3break_07",
+          "act3break_08",
+          "act3break_09",
+          "act3break_10",
+          "act3break_11",
+          "act3break_12",
+          "act3break_h01",
+          "act3break_h02",
+          "act3break_h03",
+          "act3break_h04"
+        ],
+        "scheduleBlockList": [
+          {
+            "startTs": 1790668800,
+            "endTs": 1790971199
+          },
+          {
+            "startTs": 1790971200,
+            "endTs": 1791273599
+          },
+          {
+            "startTs": 1791273600,
+            "endTs": 1791489599
+          },
+          {
+            "startTs": 1791489600,
+            "endTs": 1791835199
+          }
+        ],
+        "defenseZoneId": "act3break_zone3",
+        "offenseZoneId": "act3break_zone1",
+        "hardZoneId": "act3break_zone2",
+        "firstDefenseStageId": "act3break_sp01"
+      },
       "act2break": {
         "offenseStageDict": {
           "act2break_01": {
@@ -400724,6 +403451,9 @@
     }
   },
   "activityItems": {
+    "act3break": [
+      "act3break_milestone_point"
+    ],
     "act1dp": [
       "act1dp_milestone_point"
     ],
@@ -410252,6 +412982,34 @@
       ],
       "picGroups": [],
       "startTs": 1789891200
+    },
+    {
+      "id": "dis_break_3",
+      "type": 1,
+      "funcId": "act3break",
+      "endTs": 1792439999,
+      "sortId": 163,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "<矢量突破#3 拟生态>活动已开放",
+          "ts": 1790668800
+        },
+        {
+          "title": "开放\"特别战线\"新关卡",
+          "ts": 1790971200
+        },
+        {
+          "title": "开放\"全力以赴\"和\"特别战线\"新关卡",
+          "ts": 1791273600
+        },
+        {
+          "title": "开放\"特别战线\"新关卡",
+          "ts": 1791489600
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1790668800
     }
   ],
   "actFunData": {
@@ -446913,6 +449671,17 @@
     }
   },
   "activityCrossDayTrackTypeDataDict": {
+    "act3break_milestone_expand": {
+      "type": "act3break_milestone_expand",
+      "startTs": 1791273599,
+      "expireTs": 1792699199,
+      "dataDict": {
+        "milestone_expand": {
+          "updateEndTs": 1791316799,
+          "id": "milestone_expand"
+        }
+      }
+    },
     "act1football_milestone_expand": {
       "type": "act1football_milestone_expand",
       "startTs": 1781510400,
@@ -447399,6 +450168,9 @@
     }
   },
   "activityCrossDayTrackTypeMap": {
+    "act3break": [
+      "act3break_milestone_expand"
+    ],
     "act1football": [
       "act1football_milestone_expand"
     ],

@@ -388851,6 +388851,37 @@
       }
     ]
   },
+  "sktok_tchray": {
+    "skillId": "sktok_tchray",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "消杀程序",
+        "rangeId": "x-4",
+        "description": "“再度绽放”部署后会持续引导10秒，持续使其中的敌人停顿并每秒造成3500点真实伤害",
+        "skillType": 0,
+        "durationType": 0,
+        "spData": {
+          "spType": 8,
+          "levelUpCost": [],
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_tchray",
+        "duration": 10.0,
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 3500.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
   "sktok_akbtst": {
     "skillId": "sktok_akbtst",
     "iconId": "sktok_crate",
