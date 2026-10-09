@@ -94,3 +94,7 @@ require "Feature/Activity/BlessOnly/BlessOnlyMainDlg"
 
 require "Feature/Activity/RecruitOnly/RecruitOnlyDlg"
 require "Feature/Activity/RecruitOnly/RecruitOnlyUtil"
+
+require "Feature/Activity/RewardOnly/RewardOnlyDefine";
+require "Feature/Activity/RewardOnly/RewardOnlyUtil";
+require "Feature/Activity/RewardOnly/RewardOnlyDlg";

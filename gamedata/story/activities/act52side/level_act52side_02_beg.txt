@@ -1,0 +1,406 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="74_g11_clmsoffice",screenadapt="coverall")]
+[Delay(time=2)]
+[playsound(key="$d_gen_transmissionget")]
+[Delay(time=2)]
+[playMusic(intro="$darkness01_intro",key="$darkness01_loop", volume=0.6)]
+[name="？？？"]我或许该谢谢你。
+[name="克莱门莎"]为什么？
+[name="？？？"]为你在接通全息影像之前还问了我的意见，以及，为你没那么喜欢那种无趣的“触感模拟模块”。
+[name="克莱门莎"]我毕竟不是赫拉提娅。想拥抱你的话，我会当面这样做。
+[Dialog]
+[interlude(maskid = "group_interclude_vertical_common" ,size = "290,760", style=0 , offset = "200,0" ,channel = 3,tsfrom = "0,1", tsto="1,1",tsduration = 0)]
+[interlude(channel = 3, type = 3, slot = "r", pfrom = "200,0", pto="200,0", name = "avgnew_474_gladiia_1#1$2")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[charslot(slot = "l", name = "avg_4231_clemnt_1#5$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot = "m", focus = "n")]
+[name="歌蕾蒂娅"]也别了。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#5$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]猎人们还好吗？
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]劳伦缇娜在梦中也会向飘来血腥味的方向伸手，而斯卡蒂对屠杀海嗣的态度堪称“热情”，我不清楚这是玛利图斯还是那位博士的影响。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#4$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]这算好事，还是坏事？
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]我没法判断。就像我也没法判断，乌尔比安那些反常的行为，是他理智尚存的证据，还是他彻底堕落的征兆。
+[name="歌蕾蒂娅"]有关他的全部消息，都来源于那些还试图与猎人对话的海嗣。它们介绍乌尔比安的动向，如同介绍同伴。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#4$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]他仍打算前往深蓝之树？
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]我会用槊迎接他……无论他是否带回答案。
+[name="歌蕾蒂娅"]你也不比他清醒多少，克莱门莎。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#7$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]嗯？
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]数月前，你本应该成为凯尔希和那位博士在本境的向导，却临时向科学发展规划所提出了与伊比利亚合作的后续计划。
+[name="歌蕾蒂娅"]打捞雷亚-伊比利亚，第一次听到的时候我以为你疯了。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#5$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]赫拉提娅也那么觉得。
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]……
+[charslot(slot = "l", name = "avg_4231_clemnt_1#4$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]航道开通后，我本该陪博士和凯尔希医生前往本境，但赫拉提娅很快代发展规划所出具了一份评估报告，声称我“不适合”陪同工作。
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]她发现了你隐瞒的事？还是说，他们此行可能会揭开更大的秘密，不容你知晓？
+[charslot(slot = "l", name = "avg_4231_clemnt_1#4$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]都有可能。最终我只能留在岸边，继续以航道计划负责人的身份工作。
+[name="克莱门莎"]所幸，此前我就已经与博士和凯尔希医生针对一些问题达成了共识，打捞港都、重建伊比利亚的港口是我们共同的决定。
+[name="克莱门莎"]——但不是阿戈尔会喜欢的方案。显然，你也不太喜欢。
+[name="克莱门莎"]不过在我临行前赫拉提娅似乎理解了，哪怕是对陆地上的人，也该至少保持一点尊重，而同意打捞计划就是她的“尊重”。
+[name="克莱门莎"]只不过在打捞计划——无论成功与否——结束之后，科学发展规划所将重新评估有关伊比利亚发展的下一步计划。
+[name="克莱门莎"]——听上去好像“伊比利亚”只是地图上的一个坐标，而不是别人的家一样。
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]以你自讨麻烦的性格，想必你并不想让这一切发生。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#4$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]是，但并非出于某种……同情。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#10$1")]
+[name="克莱门莎"]在阿戈尔人的普遍认知中，伊比利亚在遭遇大静谧之后，无疑蒙受了惨痛的打击。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#11$1")]
+[name="克莱门莎"]在面对海嗣的战争中，它虽然还在挣扎，其实已经失败了。
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]猎人跟审判庭合作过多次，他们的士兵有足够坚韧的意志，但战争的手段还是太简单。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#4$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]这样一个在生存战争中已然“失败”的国家，在阿戈尔的教科书上属于过去的一部分……
+[name="克莱门莎"]但我却认为，我们可以在这里发现未来。
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]你是指即将回归的雷亚-伊比利亚？
+[charslot(slot = "l", name = "avg_4231_clemnt_1#4$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]不全是。
+[name="克莱门莎"]我认为在伊比利亚，在伊比利亚人身上，我可以找到应对……并不美好的未来的方法。
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]我不明白你的意思。
+[name="歌蕾蒂娅"]我只知道为了这些我不明白的想法，你跟赫拉提娅打了赌。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#4$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]是。在她用“高效”的手段将伊比利亚建成一个陆上阿戈尔之前，我需要向她证明，伊比利亚值得也必须以它自己的方式存在。
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]不过这一次你一旦失败，代价会是永久失去执政官和荣誉军团长这两重身份。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#5$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]把自己放上赌桌，总比不得不把深海猎人和罗德岛当作筹码，要划算得多。关于你们，我很吝啬。
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[name="歌蕾蒂娅"]……我们的合作关系还在，深海猎人会站在你这边。
+[name="歌蕾蒂娅"]至少在你输掉赌约之前。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#5$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="克莱门莎"]冷酷，但令人安心。多谢，歌蕾蒂娅。
+[dialog]
+[playsound(key="$transmission")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[interlude(channel = 3, clear = true,tsfrom = "1,1", tsto="0,1",tsduration = 0.5)]
+[Delay(time=1.5)]
+[name="克莱门莎"]我听到你写字的声音了，你可以直接进来的，塔西塔。
+[dialog]
+[playsound(key="$d_avg_glassdooropen")]
+[delay(time=1)]
+[charslot(slot="r",name="avg_npc_2268_1#2$1",duration=1)]
+[delay(time=2)]
+[charslot(slot="r",name="avg_npc_2268_1#2$1",focus="r")]
+[name="塔西塔"]您与深海猎人队长歌蕾蒂娅的通讯在保密等级上属于机密，我不该了解，也不该打断。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#5$1",focus="l")]
+[name="克莱门莎"]可是当你知道我的通讯对象是谁时，心里已经形成了猜测，大多数时候，让人行动的正是猜测。
+[name="克莱门莎"]请到这里来，科学发展规划所的执政官助理，塔西塔。
+[charslot(slot="r",name="avg_npc_2268_1#1$1",focus="r")]
+[name="塔西塔"]我知道您与赫拉提娅女士政见不合，所以我不明白，当她提出您必须带一名科学发展规划所的成员上岸时，您为什么会选我？
+[charslot(slot="r",name="avg_npc_2268_1#4$1",focus="r")]
+[name="塔西塔"]是因为您想让赫拉提娅女士放心？是因为您知道我对您的提案投了反对票？还是因为您想故意刁难一个资历不深的新人？又或者——
+[charslot(slot = "m", focus = "n")]
+塔西塔一边说话一边向前走，一连串提问没有让克莱门莎的笑容动摇半分。
+突然，她止住了话头。
+正在遭她言语“攻伐”的前执政官毫不在意地俯下身，替她打理起手提箱上的丝带，这时塔西塔才发现之前打的结已经散开了。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#5$1",focus="l")]
+[name="克莱门莎"]选你的原因很简单，当时你箱子上的丝带结散了，而我记得我的小帮手存储了一种模仿系带鳞尾部的、很漂亮的打结方式。
+[name="克莱门莎"]我完全不了解赫拉提娅带来的几十位成员，只有你让我明白，我可以为你做些什么。
+[charslot(slot="r",name="avg_npc_2268_1#5$1",focus="r")]
+[name="塔西塔"]……就因为这个？
+[charslot(slot = "l", name = "avg_4231_clemnt_1#5$1",focus="l")]
+[name="克莱门莎"]嗯。而且，我能看出你十分关心阿戈尔，这足以成为我信任你的理由。
+[name="克莱门莎"]还有什么疑问吗？虽然我们与审判庭已然达成合作，但在施工时依旧会遇到不少麻烦，我得尽快处理。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#10$1",focus="l")]
+[name="克莱门莎"]技术工的换班频次太低，不能以消耗他们的身体健康为代价推进后续工作。
+[name="克莱门莎"]阿奎拉的事情需要跟进，在调查出结果之前，如果审判庭介入很有可能得不偿失。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#10$1",focus="l")]
+[name="克莱门莎"]啊，还有纳乔，他的假肢需要处理，那枚弄丢的螺栓……
+[charslot(slot="r",name="avg_npc_2268_1#1$1",focus="r")]
+[name="塔西塔"]克莱门莎女士。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#7$1",focus="l")]
+[name="克莱门莎"]嗯？
+[charslot(slot="r",name="avg_npc_2268_1#1$1",focus="r")]
+[name="塔西塔"]我很尊敬您事无巨细的工作方式以及对打捞计划的热忱。
+[name="塔西塔"]但我必须要说，我重新阅读了六遍您的策划书，直到现在我依旧觉得与伊比利亚平等合作会带来很大的风险，而它无益于阿戈尔的发展。
+[charslot(slot = "l", name = "avg_4231_clemnt_1#5$1",focus="l")]
+[name="克莱门莎"]我明白你的担忧，塔西塔。
+[name="克莱门莎"]我会小心，我也必须成功。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g4_seasidest_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$mist_intro",key="$mist_loop", volume=0.6)]
+[charslot(slot = "left", name = "avg_npc_2267_1#1$1",duration = 1)]
+[charslot(slot = "right", name = "avg_npc_2277_1#1$1",duration = 1)]
+[delay(time=2)]
+[charslot(slot = "right", focus="r")]
+[name="惩戒军士官"]胡闹！
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#1$1")]
+[name="德鲁莎"]……
+[charslot(slot = "right", focus="r")]
+[name="惩戒军士官"]打捞中心是克莱门莎监事负责，现在又是我们与阿戈尔合作的重要阶段。无论如何都不该直接闯进打捞中心，逮着怀疑对象就审。
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#10$1")]
+[name="德鲁莎"]我——
+[charslot(slot = "right", focus="r")]
+[name="惩戒军士官"]行了，安心在巡逻组干活，不要再插手对岛民的调查工作了。
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#10$1")]
+[name="德鲁莎"]……是。
+[dialog]
+[playsound(key="$d_avg_armour")]
+[charslot(slot = "r",duration = 1, posfrom = "0,0", posto = "200,0",afrom=1,ato=0)]
+[delay(time=2)]
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#3$1")]
+[name="德鲁莎"]……
+[dialog]
+[charslot(slot = "right", name = "avg_npc_1401_1#1$1",duration = 0.5, posfrom = "0,0", posto = "0,0")]
+[delay(time=1)]
+[charslot(slot = "m", focus = "r")]
+[name="小帮手"]……
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#10$1")]
+[name="德鲁莎"]嗯？这是什么东西？
+[charslot(slot = "m", focus = "n")]
+[name="？？？"]阿戈尔的综合辅助机械，在打捞中心随处可见。之前德鲁莎教官急于破案，可能没有注意。
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#1$1")]
+[name="德鲁莎"]抱歉抱歉，刚刚你也听见了，我保证之后不再去打扰各位工作。
+[dialog]
+[charslot(slot = "right", afrom=1,ato=0,duration = 0.5)]
+[delay(time=1)]
+[charslot(slot = "right", name = "avg_4231_clemnt_1#5$1",duration = 1)]
+[delay(time=1.5)]
+[charslot(slot = "right", name = "avg_4231_clemnt_1#5$1",focus="r")]
+[name="克莱门莎"]你还会来的。
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#10$1")]
+[name="德鲁莎"]……这台机器人会测谎？
+[charslot(slot = "right", name = "avg_4231_clemnt_1#5$1",focus="r")]
+[name="克莱门莎"]猜测人心不需要精密的技术支持，只需要胆子够大。
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#2$1")]
+[name="德鲁莎"]哈哈，现在倒是你在套我话了，在打捞中心的时候，我还以为你是个正直到刻板的好上司呢。
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#1$1")]
+[name="德鲁莎"]好吧，我确实不能保证停手不干，不过你也不用担心，我想调查和我身为惩戒军教官的立场无关。
+[name="德鲁莎"]我也是岛民，我知道我的同胞对审判庭、对伊比利亚有多少积怨，有些时候我甚至会睁一只眼闭一只眼。
+[name="德鲁莎"]可惜，我脑袋里已经形成了一套模糊的推论，在查到些许线索之后，我已经没办法放下了。
+[name="德鲁莎"]我不想与你作对，克莱门莎监事，可你无法消除一个人的好奇。
+[charslot(slot = "right", name = "avg_4231_clemnt_1#5$1",focus="r")]
+[name="克莱门莎"]我想要的就是你的“好奇”。
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#5$1")]
+[name="德鲁莎"]等等，你不是来阻止我的，你是来跟我合作的？
+[charslot(slot = "right", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]你说过，这里是伊比利亚，我需要用伊比利亚的方式解决问题。
+[name="克莱门莎"]我理解，因为打捞计划需要大量技术工参与，审判庭召回了许多有能力的岛民，也承担着十足的风险。
+[name="克莱门莎"]于我，于伊比利亚阁下，打捞计划都必须成功。现在进行大规模的搜查，只会闹得人心惶惶，但这不代表我们只能见招拆招。
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#2$1")]
+[name="德鲁莎"]所以你就找上了我……我的报酬怎么算？
+[charslot(slot = "right", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]一条线索——阿奎拉加入了一个岛民互助会。
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#2$1")]
+[name="德鲁莎"]是个很方便的掩护……就这么一条线索？
+[charslot(slot = "right", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]对你来说应该足够了。你选择直接找上阿奎拉，本来就不是想要追查线索，而是想施加压力让他们急于行动。
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#2$1")]
+[name="德鲁莎"]啧，什么都让你说了。我会尽快查清楚，如果阿奎拉真的有所谋划，或许她近期就会行动。
+[charslot(slot = "right", name = "avg_4231_clemnt_1#5$1",focus="r")]
+[name="克莱门莎"]在调查出一些眉目之前，我没办法在明面上给你任何支援，但如果你需要，小帮手可以借给你帮忙。
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_microrobot", volume=1)]
+[charslot(slot = "m", name = "avg_npc_1401_1#1$1")]
+[name="小帮手"]小帮手竭诚为您服务，为了我们更好的明天——
+[charslot]
+[charslot(slot = "right", name = "avg_4231_clemnt_1#5$1",focus="l")]
+[charslot(slot = "left", focus="l", name = "avg_npc_2267_1#10$1")]
+[name="德鲁莎"]这东西怎么关……
+[charslot(slot = "right", name = "avg_4231_clemnt_1#1$1",focus="r")]
+[name="克莱门莎"]你们会相处融洽的。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g2_courtprison",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$plot_intro",key="$plot_loop", volume=0.6)]
+[charslot(slot="r",name="avg_npc_2277_1#1$1",duration=0.5)]
+[charslot(slot="l",name="avg_npc_454_1#1$1",duration=0.5)]
+[delay(time=1)]
+[charslot(slot="r",focus= "r")]
+[name="惩戒军老兵"]还是不说？
+[charslot(slot="r",focus= "l")]
+[name="被捕的教徒"]没……没什么好说的，破坏启动仪式就是我们三个人策划的，想问出同伙？你在做无用功。
+[charslot(slot="r",focus= "r")]
+[name="惩戒军老兵"]无用功？只是讯问的方法不对。
+[name="惩戒军老兵"]那边那个新兵，别盯着墙看了，把刺剑拿给我。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2276_1#1$1")]
+[name="惩戒军新兵"]刺、刺剑？您难道是想……
+[name="惩戒军新兵"]不，不能用这种方式讯问嫌疑人，甚至根据港都外围城区的新规，我们其实都不应该在地牢中佩带武器。
+[charslot]
+[charslot(slot="r",name="avg_npc_2277_1#1$1",focus= "r")]
+[charslot(slot="l",name="avg_npc_454_1#1$1",focus= "r")]
+[name="惩戒军老兵"]别说那些，你加入审判庭难道是为了给不法分子做人道主义关怀的吗？
+[charslot]
+[charslot(slot="m",name="avg_npc_2276_1#1$1")]
+[name="惩戒军新兵"]我加入审判庭是为了保护我的家人，让他们看到伊比利亚的明天，长官。
+[charslot]
+[charslot(slot="r",name="avg_npc_2277_1#1$1",focus= "r")]
+[charslot(slot="l",name="avg_npc_454_1#1$1",focus= "r")]
+[name="惩戒军老兵"]好。你的家人搬到外围城区了吗，士兵？
+[charslot]
+[charslot(slot="m",name="avg_npc_2276_1#1$1")]
+[name="惩戒军新兵"]都搬来了，他们也想看看雷亚-伊比利亚中心城区升起的样子，以前父亲偷偷跟我说了很多关于港都的故事——
+[name="惩戒军新兵"]啊，绝不是出于险恶的目的，只是哄小孩的睡前故事。
+[charslot]
+[charslot(slot="r",name="avg_npc_2277_1#1$1",focus= "r")]
+[charslot(slot="l",name="avg_npc_454_1#1$1",focus= "r")]
+[name="惩戒军老兵"]如果被引爆的建筑砸中的是你的家人，恶心的恐鱼上岸后占据的是你的家呢？
+[charslot]
+[charslot(slot="m",name="avg_npc_2276_1#1$1")]
+[name="惩戒军新兵"]这……
+[charslot]
+[charslot(slot="r",name="avg_npc_2277_1#1$1",focus= "r")]
+[charslot(slot="l",name="avg_npc_454_1#1$1",focus= "r")]
+[name="惩戒军老兵"]我们无从得知在这次计划前这些穷凶极恶的异教徒还犯下过多少恶行，哪怕是为了他们伤害过的伊比利亚家庭，你也下不去手吗？
+[charslot]
+[charslot(slot="m",name="avg_npc_2276_1#1$1")]
+[name="惩戒军新兵"]……
+[charslot(slot="m",focus="n")]
+年轻的惩戒军看向腰间的武器。在训练所中他曾想象过用手中的提灯照亮人们的道路，用刺剑剿灭海嗣，用手炮轰击浪潮的画面。
+但他没有想过，那些用意志点亮的提灯会摇摇晃晃地挂在地牢的墙上，映出自己扭曲的影子。
+使刺剑生锈的不仅有恐鱼的黏液，还有审讯时的鲜血，而他的手炮还未曾击发过。
+[charslot(slot="m",name="avg_npc_2276_1#1$1")]
+[name="惩戒军新兵"]我——
+[charslot(slot="m",focus="n")]
+[name="？？？"]放下刺剑，士兵。
+[charslot(slot="m",name="avg_npc_2276_1#1$1")]
+[name="惩戒军新兵"]大审判官阁下！
+[dialog]
+[charslot]
+[playsound(key="$d_avg_fsmummy", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=1.8)]
+[charslot(slot="m",name="avg_npc_2270_1#1$1",duration=1)]
+[delay(time=2)]
+[name="斐戴拉"]我说过，你们来这里是为了远离战争，无论是关于海嗣的，还是关于岛民的。
+[charslot(slot="m",name="avg_npc_2277_1#1$1")]
+[name="惩戒军老兵"]斐戴拉大审判官，您还未去船厂赴任的时候说过这几个深海教徒交由您来审，我不该擅作主张。
+[name="惩戒军老兵"]但我一直跟随您的指挥，我知道自从达里奥大审判官牺牲后，您再也没有睡过一个好觉，难得现在您被调去了船厂休养……
+[name="惩戒军老兵"]而且，在我跟随您的漫长的时间里，您从不让我们参与对岛民的讯问。难道我们真的无法获得您的信任吗？
+[charslot(slot="m",name="avg_npc_2270_1#1$1")]
+[name="斐戴拉"]不，我愿意在战场上把后背交给你们中的任何一个人，海嗣是我们一致的敌人。
+[name="斐戴拉"]但这些走向歧路的深海教徒和岛民并不一样。
+[name="斐戴拉"]我没有向圣徒阁下报告我仍在参与讯问。就当是我自己放心不下吧，我不希望你们在黎明到来的前夜，还要钻研在黑暗中生存的法则。
+[charslot(slot="m",name="avg_npc_2277_1#1$1")]
+[name="惩戒军老兵"]……
+[charslot(slot="m",name="avg_npc_2270_1#1$1")]
+[name="斐戴拉"]年轻的士兵，你永远不需要在自己不想伤害别人的时候拔出武器，我相信伊比利亚的明天会是这样的。
+[name="斐戴拉"]请交给我处理吧，我会以体面的方式讯问这名深海教徒。
+[charslot(slot="m",name="avg_npc_2276_1#1$1")]
+[name="惩戒军新兵"]抱歉长官，我还没有办法那么成熟……但谢谢您。
+[dialog]
+[charslot]
+[charslot(slot="l",name="avg_npc_2277_1#1$1")]
+[charslot(slot="r",name="avg_npc_2276_1#1$1")]
+[playsound(key="$d_avg_armour")]
+[charslot(slot="l",duration=1,posfrom="0,0",posto="-200,0",afrom=1,ato=0)]
+[charslot(slot="r",duration=1,posfrom="0,0",posto="-200,0",afrom=1,ato=0)]
+[delay(time=2.5)]
+[charslot]
+[charslot(slot="m",name="avg_npc_454_1#1$1")]
+[name="被捕的教徒"]呵……呵呵……真是动人的演讲啊，大审判官阁下。
+[name="被捕的教徒"]“伊比利亚的明天”……就是因为你们老把它挂在嘴边，它才不会到来的……
+[multiline(name="被捕的教徒")] 既然大审判官如此仁慈，那是否愿意帮我解下手上的铁链？毕竟雷亚-伊比利亚是个充满希望的、不该有血腥战争的地方不是吗——
+[playsound(key="$d_avg_knife")]
+[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.5, r=1, g=0, b=0, fadetime=0.05, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=false)]
+[multiline(name="被捕的教徒")] 啊！
+[charslot]
+教徒的意识被切断，同样被切断的还有他被铁链捆起来的双手。
+[charslot(slot="m",name="avg_npc_2270_1#1$1")]
+[name="斐戴拉"]嗯，是血。看来你还没有投入朝思暮想的“大海的怀抱”。帮你“解下”铁链了，不用谢。
+[name="斐戴拉"]你们总是长舌、险恶、满口谎言，但你们也很懦弱。
+[name="斐戴拉"]如果你们愿意冒着被逮捕的风险出现在启动仪式上，那就代表你们已经做好了牺牲的准备。
+[charslot(slot="m",focus="n")]
+[name="被捕的教徒"]（痛苦地呻吟）
+[charslot(slot="m",name="avg_npc_2270_1#1$1")]
+[name="斐戴拉"]我带着不少止血的特效药，它们可不是给我自己用的。
+[name="斐戴拉"]夜晚很长，我可以听你从你的家乡，或者把你抛弃的父母讲起，但你最后一定要给我一个答案，好吗？
+[name="斐戴拉"]你们的同伙到底是谁？
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g14_ibchurch_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_941_1#1$1",duration=1)]
+[delay(time=2)]
+[name="奥卢斯"]太阳还未跃出海面，迷茫的人也还在梦中。
+[name="奥卢斯"]失眠了？回到故乡令你如此激动吗？
+[charslot(slot = "m", focus = "n")]
+[name="？？？"]你再清楚不过，现在的我不再需要睡眠。
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]但你还做着梦，我也一样。这是我们能建立合作的原因。
+[name="奥卢斯"]这座教堂，与我跟你初遇时的那座几乎一样。
+[charslot(slot = "m", focus = "n")]
+[name="？？？"]我清楚你的目的、你的为人，你大可以收起那些障眼法。
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]要是一点点手段能让我们更快地达成心中夙愿，何乐而不为呢？
+[charslot(slot = "m", focus = "n")]
+[name="？？？"]计划不变？
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]是的。
+[name="奥卢斯"]不过，我的同胞们最近下定了决心，他们或许需要一些帮助。
+[charslot(slot = "m", focus = "n")]
+[name="？？？"]你要我做的事，我会做。那之后，你我两不相欠，也毫不相干。
+[dialog]
+[charslot(slot = "m", focus = "n")]
+[playsound(key="$d_gen_walk_n", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=2)]
+[delay(time=2.5)]
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]两不相欠……我明明说过，我不需要他偿还什么。
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

@@ -1,0 +1,525 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g6_gdsquare_n",screenadapt="coverall")]
+[playMusic(intro="$loading_intro",key="$loading_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_walkfast")]
+[charslot(slot= "l", name = "avg_4231_clemnt_1#2$1")]
+[charslot(slot = "r", name = "avg_npc_2268_1#1$1",posfrom="150,0",posto="0,0",duration=1.5)]
+[Delay(time=1.8)]
+[charslot(slot = "r", name = "avg_npc_2268_1#1$1",focus="r")]
+[name="塔西塔"]克莱门莎监事！
+[charslot(slot= "l", name = "avg_4231_clemnt_1#2$1",focus="l")]
+[name="克莱门莎"]塔西塔，打捞中心情况如何？
+[charslot(slot = "r", name = "avg_npc_2268_1#5$1",focus="r")]
+[name="塔西塔"]打捞中心的所有权限都被封锁了，所有工作人员都无法进入。
+[charslot(slot = "r", name = "avg_npc_2268_1#8$1",focus="r")]
+[name="塔西塔"]封锁不是通过阿戈尔为打捞中心设计的系统实现的，而是借由一种更古老、更基础的指令，或许只有港都的设计者才会使用。
+[charslot(slot= "l", name = "avg_4231_clemnt_1#10$1",focus="l")]
+[name="克莱门莎"]奥卢斯……
+[charslot(slot= "l", name = "avg_4231_clemnt_1#2$1",focus="l")]
+[name="克莱门莎"]灯塔遇袭之前，我在系统里留过后门，或许我有办法覆写指令，恢复权限，解除对打捞中心的封锁。
+[charslot(slot= "l", name = "avg_4231_clemnt_1#4$1",focus="l")]
+[name="克莱门莎"]我会立刻赶往打捞中心，但岸上的情况也不乐观。审判庭抓捕岛民的行动必然受到了阻碍，纳乔已经去找他四散的岛民同胞了，你——
+[charslot(slot = "r", name = "avg_npc_2268_1#1$1",focus="r")]
+[name="塔西塔"]我也会去安抚我们的同胞。
+[charslot(slot= "l", name = "avg_4231_clemnt_1#1$1",focus="l")]
+[name="克莱门莎"]看来旁听审问让你的思考得出了结论。
+[charslot(slot = "r", name = "avg_npc_2268_1#4$1",focus="r")]
+[name="塔西塔"]其实现在还没有……但如果我理解得没错，参与互助会的岛民们的诉求本就不尽相同。
+[charslot(slot = "r", name = "avg_npc_2268_1#1$1",focus="r")]
+[name="塔西塔"]哪怕他们现在挟持了港都中心城区，但承认国民身份、对冤假错案公开道歉，真的就能满足所有岛民吗？
+[charslot(slot = "r", name = "avg_npc_2268_1#1$1",focus="r")]
+[name="塔西塔"]在阿戈尔的通识教育里，岛民是一个整体，在伊比利亚的认知中或许也是如此。
+[charslot(slot = "r", name = "avg_npc_2268_1#1$1",focus="r")]
+[name="塔西塔"]但我见过阿奎拉，见过纳乔，哪怕我只认识打捞中心的几十名岛民，我也明白他们每个人都是不同的，每个人都有自己的选择。
+[charslot(slot = "r", name = "avg_npc_2268_1#3$1",focus="r")]
+[name="塔西塔"]我无法像您一样下定决心去帮助他们，但我也有自己的课题。
+[charslot(slot = "r", name = "avg_npc_2268_1#1$1",focus="r")]
+[name="塔西塔"]而且说不定这样，能从他们口中得知关于中心城区去向的线索。
+[charslot(slot= "l", name = "avg_4231_clemnt_1#5$1",focus="l")]
+[name="克莱门莎"]我很期待听到你的结论，塔西塔，去做吧。
+[charslot(slot = "r", name = "avg_npc_2268_1#1$1",focus="r")]
+[name="塔西塔"]是！
+[Dialog]
+[PlaySound(key="$d_avg_walkfast")]
+[charslot(slot = "r", name = "avg_npc_2268_1#1$1",posfrom="0,0",posto="150,0",afrom=1,ato=0,duration=1.2)]
+[Delay(time=2)]
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g4_seasidest_n",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$m_bat_act17side_03_intro", key="$m_bat_act17side_03_loop", volume=0.6)]
+[PlaySound(key="$d_avg_seabornbacklair", volume=1)]
+[charslot(slot = "l", name = "avg_npc_1389_1#1$1",posfrom="-80,-100",posto="20,0", duration=1.5,block=false)]
+[charslot(slot = "r", name = "avg_npc_1389_1#1$1",posfrom="80,-50",posto="-10,50", duration=1.5)]
+[Delay(time=1.5)]
+[charslot(slot = "l", name = "avg_npc_1389_1#1$1",posfrom="20,0",posto="-100,60", afrom=1,ato=0, duration=1.5,block=false)]
+[charslot(slot = "r", name = "avg_npc_1389_1#1$1",posfrom="-10,50",posto="110,100",afrom=1,ato=0, duration=1.5)]
+[Delay(time=1.6)]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_1388_1#1$1",posfrom="-80,-10",posto="20,0", duration=1.5)]
+[charslot(slot = "r", name = "avg_npc_1388_1#1$1",posfrom="80,-10",posto="-20,0", duration=1.5)]
+[Delay(time=1.5)]
+[charslot]
+[charslot(slot = "M", name = "avg_npc_2277_1#1$1",posfrom="60,0",posto="60,0")]
+[charslot(slot = "L", name = "avg_npc_1388_1#1$1", duration=0.1)]
+[charslot(slot = "L", action="jump", posto="200,0", power=0, times=1, duration=0.5)]
+[delay(time=0.3)]
+[PlaySound(key="$d_avg_attack_heavy", volume=1)]
+[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[PlaySound(key="$fightgeneral",volume=1)] 
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]
+[charslot(slot = "L", action="jump", posto="-100,0", power=5, times=1, duration=0.4)]
+[dialog]
+[Delay(time=0.4)]
+[PlaySound(key="$d_avg_broadswordblood",volume=1)] 
+[charslot(slot = "M", action="jump", posto="-100,0", power=5, times=1, duration=0.3)]
+[Delay(time=0.2)]
+[charslot(slot = "L", action="jump", posto="-150,0", power=5, times=1, duration=0.4)]
+[Delay(time=0.5)]
+[PlaySound(key="$d_avg_seabornactivity_intense", volume=1)]
+[characteraction(name="left", type="shake", power=10, times=100, fadetime=0.3, block=false)]
+[charslot(slot = "L",afrom=1,ato=0,duration=0.3)]
+[name="惩戒军士官"]*伊比利亚粗口*没完没了……
+[name="惩戒军士官"]那边的小子！别站着发愣！
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2276_1#1$1")]
+[charslot(slot = "m", action="shake", power=5, times=60,isblock=true,duration=0.2)]
+[Delay(time=0.5)]
+[name="惩戒军新兵"]队长，我已经挥不动手里的戟了……
+[name="惩戒军新兵"]它们源源不断地从城区的缝隙里爬出来，我们需要审判官的灯火！
+[name="惩戒军新兵"]现在我看不清自己的脚下，我不知道自己踩着的是恐鱼的触手还是……
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[charslot(slot = "left", name = "avg_4009_irene_1#1$1", action="jump", posto="150,0", power=5, times=1, duration=0.05)]
+[charslot(slot = "R", name = "avg_npc_457_1#2$1", action="jump", posto="-80,0", power=5, times=1, duration=0.05)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[PlaySound(key="$swordtsing1", volume=1)]
+[CameraShake(duration=100, xstrength=30, ystrength=5, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=1)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[PlaySound(key="$d_avg_attack_heavy", volume=1)]
+[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]
+[charslot(slot = "left", name = "avg_4009_irene_1#1$1", action="jump", posto="-100,0", power=5, times=1, duration=0.05)]
+[charslot(slot = "R", name = "avg_npc_457_1#2$1", action="jump", posto="0,0", power=5, times=1, duration=0.05)]
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_4009_irene_1#4$1",posfrom="20,20",posto="0,0",duration=0.2)]
+[Delay(time=0.2)]
+[name="艾丽妮"]清醒一点，士兵！
+[charslot(slot = "m", name = "avg_npc_2276_1#1$1")]
+[name="惩戒军新兵"]艾丽妮，谢谢……
+[charslot(slot = "m", name = "avg_4009_irene_1#4$1")]
+[name="艾丽妮"]看那些恐鱼，不要看我和审判官们手中的提灯，一直盯着灯火只会让你越来越无法适应黑暗。
+[charslot(slot = "m", name = "avg_4009_irene_1#1$1")]
+[name="艾丽妮"]十秒，凝视这片黑暗十秒，相信我，你不会成为这些孽物的目标。
+[dialog]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.9, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[PlaySound(key="$d_avg_seabornattack", volume=1,channel="1")]
+[Delay(time=1.2)]
+[PlaySound(key="$d_avg_attack_heavy", volume=1,channel="2")]
+[Delay(time=0.5)]
+[multiline(name="惩戒军新兵")]……三、二、一……
+[bgeffect(name="$eb_dim_openeye",layer=1)]
+[delay(time=1)]
+[Blocker(a=0.7, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[multiline(name="惩戒军新兵")]我、我看见了！
+[charslot(slot = "m", name = "avg_npc_2276_1#1$1")]
+[name="惩戒军新兵"]天，这么多恐鱼的尸体，都是您……
+[dialog]
+[charslot]
+[PlaySound(key="$d_avg_attack_heavy", volume=1)]
+[charslot(slot = "m", name = "avg_4009_irene_1#4$1",posfrom="30,0",posto="0,0",duration=0.3)]
+[charslot(slot = "r", name = "avg_npc_457_1#2$1",posfrom="-230,0",posto="-200,-50",afrom=1,ato=0,duration=0.3)]
+[Delay(time=0.2)]
+[PlaySound(key="$d_avg_seaborndead", volume=1)]
+[Delay(time=0.3)]
+[charslot(slot = "m", name = "avg_4009_irene_1#6$1")]
+[name="艾丽妮"]恭喜你适应了黑暗，士兵。你的同僚足以保护你短短十秒，相信我们。
+[charslot(slot = "m", name = "avg_4009_irene_1#4$1")]
+[name="艾丽妮"]现在，轮到你为其他人做同样的事了。
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2276_1#1$1")]
+[charslot(slot = "m", posfrom="0,0",afrom=1,ato=1,posto="230,0", duration=0.4)]
+[delay(time=0.25)]
+[PlaySound(key="$d_avg_broadswordblood", volume=1)]
+[charslot(slot = "r",afrom=1,ato=1,name = "avg_npc_1388_1#1$1",posfrom="200,20",posto="0,0",duration=0.15)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[CameraShake(duration=0.5, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[charslot(slot = "m", posfrom="230,0",afrom=1,ato=1,posto="250,0",duration=0.3)]
+[charslot(slot = "r",afrom=1,ato=0,name = "avg_npc_1388_1#1$1",posfrom="0,0",posto="-200,0",duration=0.5)]
+[delay(time=0.2)]
+[PlaySound(key="$d_avg_seabornf_pain", volume=1)]
+[delay(time=1)]
+[name="惩戒军新兵"]明白！
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g6_gdsquare_n",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(key="$wasteland_loop", volume=0.6)]
+[PlaySound(key="$rungeneral")]
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1", duration=1.5)]
+[Delay(time=1.5)]
+[name="特菲"]……从船厂跑出来的这一路上，全是恐鱼……
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1")]
+[name="特菲"]我到底帮瓦列里奥做了什么……我原本只是想点亮港都的坐标，只是想让萨尔瓦多相信我，我……
+[charslot(slot = "m", name = "avg_393_toledo_1#14$1")]
+[name="特菲"]我怎么跑到这儿来了……
+[Dialog]
+[charslot]
+[BackgroundTween(image="74_g6_gdsquare_n", duration=8, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.15, yScaleTo=1.15, xFrom=0, xTo=80,yFrom=0,yTo=-30,block=false)]
+[Delay(time=2)]
+[Image(image="74_i04", screenadapt="coverall", xScale=1.05, yScale=1.05,fadetime=4,block=false)]
+[ImageTween(xScaleFrom=1,yScaleFrom=1,xScaleTo=1.1,yScaleTo=1.1,xTo=-60,yTo=-30,duration=20,block=false)]
+[Delay(time=1)]
+她对眼前的广场再熟悉不过。
+两周前，她刚刚来到港都的外围城区，与一座根本不认识的雕像勾肩搭背，像以前那样骗取拥护者的信任，赚取一夜住宿、几顿饱饭。
+她曾认为自己与瓦列里奥是最佳搭档，他知道许多大静谧之前的知识，也会为她纠正故事里的漏洞，还会在她做得过火时拉她一把。
+她以为瓦列里奥只是思念自己的家乡，所以才向她提议来到港都，所以才一次次让她唱起那首被封禁的船歌，露出怀念的表情。
+[Dialog]
+[image(fadetime=3)]
+[Delay(time=3.2)]
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1")]
+[name="特菲"]今天有一艘船出航……♪
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1")]
+[name="特菲"]越过灯塔……越过……教堂……♪
+[charslot(slot = "m", name = "avg_393_toledo_1#13$1")]
+[name="特菲"]……水汽……吹向海岸……♪
+[charslot(slot = "m", name = "avg_393_toledo_1#13$1")]
+[name="特菲"]扬帆……扬帆……♪
+[charslot(slot = "m", name = "avg_393_toledo_1#13$1")]
+[name="特菲"]……
+[charslot(slot = "m", focus="n")]
+[name="沉稳的男声"]舵不在风的手上♪
+[charslot(slot = "m", name = "avg_393_toledo_1#2$1")]
+[name="特菲"]瓦列里奥！不，您是——
+[charslot(slot = "m", name = "avg_393_toledo_1#15$1")]
+[name="特菲"]圣徒阁下……您怎么会出现在这里！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_447_1#1$1", duration=1.5, block=true)]
+[Delay(time=2)]
+[charslot]
+[charslot(slot = "m", name = "avg_393_toledo_1#9$1")]
+[name="特菲"]虽然知道您就在外围城区，但这还是我在启动仪式后第一次见到您——当然！作为一名品行端正的公民我本不应该见到您……
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="圣徒卡门"]我出现在这里，证明已然出现了变故。
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1")]
+[name="特菲"]变故，您难道是指船厂的……
+[charslot(slot = "m", name = "avg_npc_447_1#8$1")]
+[name="圣徒卡门"]我认识你。
+[charslot(slot = "m", name = "avg_npc_447_1#8$1")]
+[name="圣徒卡门"]两周前的打捞启动仪式上，你领头唱了这支船歌。百年前，它的作者也在这座广场做过一模一样的举动。
+[charslot(slot = "m", name = "avg_npc_447_1#9$1")]
+[name="圣徒卡门"]自那之后，每当有船只出航，码头上的伊比利亚人就会在岸边唱起这支歌，我有一个已故的同僚很是喜欢。
+[charslot(slot = "m", name = "avg_393_toledo_1#2$1")]
+[name="特菲"]圣徒阁下……
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="圣徒卡门"]我向你的歌声致敬，年轻人。它是伊比利亚不可争辩又正在消亡的历史。
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="圣徒卡门"]告诉我，你眼中的伊比利亚如今正在发生什么？
+[charslot(slot = "m", name = "avg_393_toledo_1#13$1")]
+[name="特菲"]灾难……
+[charslot(slot = "m", name = "avg_npc_447_1#5$1")]
+[name="圣徒卡门"]与六十三年前相比，不值一提。
+[charslot(slot = "m", name = "avg_393_toledo_1#7$1")]
+[name="特菲"]可恐惧是没法比较的！
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1")]
+[name="特菲"]恐鱼爬上街道，港都的坐标消失，而造成这一切的元凶正是……正是……
+[charslot(slot = "m", name = "avg_393_toledo_1#13$1")]
+[name="特菲"]（深吸一口气）
+[charslot(slot = "m", name = "avg_393_toledo_1#6$1")]
+[name="特菲"]圣徒阁下，我、我本就打算去审判庭自首！是我恢复了海图系统的功能，是我看着港都的坐标消失！
+[charslot(slot = "m", name = "avg_393_toledo_1#14$1")]
+[name="特菲"]成为“大人物”……我怎么就轻易相信了他的话……
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1")]
+[name="特菲"]我原本就是以欺骗为生的人，哪怕是此刻我对您说的话，我都无法辨认它们到底是真心实意的坦陈，还是为了博得同情的辩解，我——
+[charslot(slot = "m", name = "avg_npc_447_1#7$1")]
+[name="圣徒卡门"]你只需要告诉我，你的同行者是谁。
+[charslot(slot = "m", name = "avg_393_toledo_1#15$1")]
+[name="特菲"]您、您相信我？
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="圣徒卡门"]连自己都怀疑的人，已经骗不了别人了。
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="圣徒卡门"]你们在哪里相识？
+[charslot(slot = "m", name = "avg_393_toledo_1#12$1")]
+[name="特菲"]鳞脊镇的一家小酒馆。
+[charslot(slot = "m", name = "avg_393_toledo_1#2$1")]
+[name="特菲"]当时我唱着模糊、残缺的船歌，想从客人手里讨一点住宿费，所有人都走了，只有他还在，我看他可怜，请他吃了顿饭。
+[charslot(slot = "m", name = "avg_393_toledo_1#2$1")]
+[name="特菲"]他告诉我，他的家乡是雷亚-伊比利亚，但我知道这座城市早在六十多年前就沉没了，想着或许他是周边城镇的住民。
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1")]
+[name="特菲"]在我们同行的路上，他极少说起自己的事，我只知道他为了帮一个朋友纵身跳入火海，还有……
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1")]
+[name="特菲"]他对我唱的船歌很了解，是他填上了被人遗忘的歌词，也是他纠正我的发音和曲调。
+[charslot(slot = "m", name = "avg_npc_447_1#4$1")]
+[name="圣徒卡门"]……
+[charslot(slot = "m", name = "avg_npc_447_1#2$1")]
+[name="圣徒卡门"]唉……
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="圣徒卡门"]我早该想到的。你演绎的曲调，就好像是他曾唱的。
+[charslot(slot = "m", name = "avg_393_toledo_1#13$1")]
+[name="特菲"]圣徒阁下……我会面临审判吗？
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="圣徒卡门"]每个人都逃不过，我亦如此，但，“审判的目的从来不是为了彰显权能”——
+[charslot(slot = "m", name = "avg_393_toledo_1#7$1")]
+[name="特菲"]“而是为了赎罪”。
+[charslot(slot = "m", name = "avg_npc_447_1#8$1")]
+[name="圣徒卡门"]去践行你阐释的经义吧，伊比利亚人。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g13_underseahall_n",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$m_bat_act17side_01_intro", key="$m_bat_act17side_01_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_941_1#7$1")]
+[name="奥卢斯"]基质，显像。
+[Dialog]
+[charslot]
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_illusionmagic", volume=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[bgeffect(name="$eb_signalInterference", layer=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="bg_ibbar",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]太阴森，不合适。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_illusionmagic", volume=1)]
+[bgeffect(name="$eb_signalInterference", layer=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="27_g17_lighthouse_alley",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]又太明媚。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_illusionmagic", volume=1)]
+[bgeffect(name="$eb_signalInterference", layer=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="74_g14_ibchurch_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[name="？？？"]岛民们说，允许他们倾吐离经叛道之言的“互助会”，总在一座老教堂举办，但港都不该还有属于深海教会的教堂。
+[name="？？？"]现在看来，所谓的老教堂，不过是你用炼金术炮制的幻景。
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]……我很好奇，他们之中是谁如此好心地邀请了你，克莱门莎执政官？
+[Dialog]
+[charslot]
+[Effect(name="$e_bladeline_01_large", x=0, y=-26, rox = 0, roy = 0, roz = -58, layer =2)]
+[bgeffect(name="$eb_sound_wave_01",layer =1)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[PlaySound(key="$d_avg_swordsplitair", volume=1)]
+[Background(image="74_g13_underseahall_n",screenadapt="coverall")]
+[CameraShake(duration=2, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[bgeffect(name="$eb_sound_wave_01",layer=2,y=-80)]
+[Delay(time=0.5)]
+[PlaySound(key="$d_avg_higheldshosfts", volume=1)]
+[charslot(slot = "m", name = "avg_4231_clemnt_1#4$1",duration=1.5)]
+[Delay(time=1.6)]
+[name="克莱门莎"]总得有人自觉给这场已经空无一人的“互助会”捧个场。
+[charslot(slot = "m", name = "avg_npc_941_1#6$1")]
+[name="奥卢斯"]……
+[charslot(slot = "m", name = "avg_4231_clemnt_1#1$1")]
+[name="克莱门莎"]我也很好奇，你刚刚在试验的其他那些幻景，又是为谁准备的？
+[charslot(slot = "m", name = "avg_4231_clemnt_1#5$1")]
+[name="克莱门莎"]不如说，港都中心城区已经不在此处，你还留在这里，是要等谁？
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]中心城区正在驶向一处绝对安全的港湾，它会作为筹码在那儿等待，直到审判庭同意满足岛民的诉求。
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]我留下来，自然是为了给这场谈判作见证。
+[name="奥卢斯"]毕竟，如果只是教人吐些苦水，我怎么敢大言不惭地称自己组织的是“互助会”？
+[charslot(slot = "m", name = "avg_4231_clemnt_1#2$1")]
+[name="克莱门莎"]袭击灯塔、挟持中心城区，就是所谓的“互助”？
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]我还以为你身为阿戈尔人，最能理解这些事。
+[name="奥卢斯"]你应该也在港都见过不少炼金设施的残骸了。说实话，见到它们的时候，我几乎没能认出那是我自己的作品。
+[name="奥卢斯"]我不习惯它们七零八落地躺在地上。最开始设计的时候我就无数次设想过它们落成时的模样，但从没想象过它们损毁之后的事。
+[charslot(slot = "m", name = "avg_4231_clemnt_1#2$1")]
+[name="克莱门莎"]阿戈尔人总是太珍爱自己的作品。
+[charslot(slot = "m", name = "avg_npc_941_1#6$1")]
+[name="奥卢斯"]但岛民同胞们袭击的灯塔，乃至他们袭击的每一处设施，都是由他们的父辈亲手建造，又由他们自己亲手打捞上来的。
+[name="奥卢斯"]那也是他们自己的作品。
+[name="奥卢斯"]除了绝望，我想不到别的解释。
+[charslot(slot = "m", name = "avg_4231_clemnt_1#2$1")]
+[name="克莱门莎"]通过摧毁自己的价值来证明自己的价值，本就是个伪命题。
+[charslot(slot = "m", name = "avg_4231_clemnt_1#4$1")]
+[name="克莱门莎"]袭击自己亲手修复的灯塔，挟持自己亲身参与打捞的港都中心城区，也不会让伊比利亚人意识到他们有多重要。
+[charslot(slot = "m", name = "avg_4231_clemnt_1#4$1")]
+[name="克莱门莎"]就好像一个自杀的人，证明不了自己能掌控自己的生死。
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]当然，当然。但要求一群走投无路的人选择最理智最有效的办法，是不是太高高在上了，执政官？
+[charslot(slot = "m", name = "avg_4231_clemnt_1#11$1")]
+[name="克莱门莎"]够了，奥卢斯，不是所有人都有耐心陪你玩文字游戏。那些岛民同胞确实已经走投无路，但你不是。
+[name="克莱门莎"]你从最开始就知道，一如袭击灯塔就只能换来大规模的追捕，挟持港都中心城区，也不可能换来一次谈判的机会。
+[charslot(slot = "m", name = "avg_4231_clemnt_1#2$1")]
+[name="克莱门莎"]但你还是推着他们走到了这一步。
+[name="克莱门莎"]所谓的“帮助岛民”，就是让他们为了一场你知道不可能成立的谈判，挟持一座只有你知道会驶向哪里的城市？
+[name="克莱门莎"]这是在帮他们，还是在帮你自己？
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]有什么区别呢？港都只有在我手里，才能重新成为那座包容万物的庇护所，这才是它存在的意义。
+[name="奥卢斯"]当初给这座城市设计炼金能源管线的时候，我就时常会想起自己原本是个源石技艺适应性极差的阿戈尔人。
+[name="奥卢斯"]我能掌握伊比利亚最艰深的炼金秘术，本就堪称一种奇迹。
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]有时候，路过造船厂的巨型展缸，看到里面那只海嗣好奇地模仿着我的动作，我也会有同样的感受。
+[name="奥卢斯"]那是一种奇迹，只属于那个时代的一种奇迹。
+[name="奥卢斯"]无所谓种族、国别，甚至无所谓物种，所有生命都可以在这里互相学习。
+[charslot(slot = "m", name = "avg_npc_941_1#5$1")]
+[name="奥卢斯"]港都沉没之后，我再也没见过那样的景象。
+[charslot(slot = "m", name = "avg_4231_clemnt_1#10$1")]
+[name="克莱门莎"]所有这些周折，连带阿奎拉的死，和盖乌斯他们的变异，都只是为了取回一件令你引以为傲的作品？
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]那可确实是件好作品啊。
+[charslot(slot = "m", name = "avg_4231_clemnt_1#4$1")]
+[name="克莱门莎"]你要把它带去哪里？
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]很遗憾，我实在不希望在港都中心城区的终点迎接它的，是一支全副武装的军团舰队。不论你有多么想找回它，我都爱莫能助。
+[name="奥卢斯"]不过，你总是可以请求弥利亚留姆执行全域扫描的，克莱门莎执政官。
+[charslot(slot = "m", name = "avg_4231_clemnt_1#4$1")]
+[name="克莱门莎"]……如果只是想夸耀自己办事有多周全，你选错了场合。
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]但你确实联系不上弥利亚留姆了，不是吗？
+[charslot(slot = "m", name = "avg_4231_clemnt_1#2$1")]
+[name="克莱门莎"]……
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]阿戈尔的防线固然坚不可摧，但不知是因为他们太信任你，还是太不在乎你……那道防线与陆地之间的信号网，脆弱无比。
+[name="奥卢斯"]只有寥寥几个无人机矩阵在维系着它，同胞们甚至没费多大力气，就将它切断了。
+[name="奥卢斯"]直到港都中心城区顺利抵达它的终点，都不会有人知晓它的所在。那个终点位处何方，也只有我一人清楚。
+[charslot(slot = "m", name = "avg_npc_941_1#7$1")]
+[name="奥卢斯"]而我没有理由告诉你，不是吗？
+[charslot(slot = "m", name = "avg_npc_941_1#6$1")]
+[name="奥卢斯"]这场毫无意义的审问，我也配合得够久了，而你也知道得太多了。
+[Dialog]
+[charslot(slot = "m", focus="n")]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$d_avg_seabornbacklair",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.8, channel="f",fadetime=1.5)]
+[Delay(time=3)]
+[charslot]
+[charslot(slot = "m", name = "avg_4231_clemnt_1#2$1")]
+[name="克莱门莎"]……大约三十只软体海嗣，就在我身后的廊道里。盖乌斯也在其中吗？
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]如果我说是，会让你挣扎的时候，多一分犹疑吗？
+[Dialog]
+[charslot]
+克莱门莎没有答话。有那么一瞬间，奥卢斯瞥到她的手指在细微地颤动。
+[StopSound(channel="f", fadetime=2)]
+一声震响。
+[Dialog]
+[PlaySound(key="$d_avg_controlmetal_Clementia")]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_tear")]
+[Delay(time=0.5)]
+[PlaySound(key="$blooddrop",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.9, channel="f",fadetime=2)]
+[Delay(time=2)]
+滴答、滴答、滴答。
+厚重的海水隔绝了廊道之外的一切，萦绕在两人耳边的只有海嗣组织液滴落的声音。
+[Dialog]
+[PlaySound(key="$d_avg_exsheath")]
+[Image(image="74_i10", screenadapt="coverall", xScale=1.15, yScale=1.15,x=-80,y=-40,fadetime=0)]
+[ImageTween(xTo=80,yTo=-40, duration=30, block=false)]
+[StopSound(channel="f", fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$m_bat_act52side_intro", key="$m_bat_act52side_loop", volume=0.6)]
+刚刚还有十几只海嗣爬行着的位置，连接观测厅与外界的唯一一处通道口，被凭空出现的金属巨构彻底封死。
+[name="克莱门莎"]我为什么要犹疑？仁慈是分对象的，盖乌斯已经被你杀了，说我刚刚碾碎的是他的遗骸，都是对他的亵渎。
+奥卢斯抬起头。他看见克莱门莎手上连接着神经缆线的指套几乎有些变形。
+他忽然意识到，自己已经无路可退。
+[name="奥卢斯"]……靠神经信号操控工程舰船的重型设备，要达到这样的速度和力度……难以想象这会给你带来怎样的负担。
+[name="奥卢斯"]我还以为你只是急于找回港都中心城区，没想到，你会为了困住我而这么拼命。
+[name="克莱门莎"]你或许没有说错，我当下确实没有办法定位它，更妄谈把它找回来。
+[name="克莱门莎"]如果站在我面前的是玛利图斯，我或许会感到绝望，他的计划一定在中心城区消失的那一刻就已经完成。
+[name="克莱门莎"]不论我再做什么，他都还会有万千同胞，在别处推动着他的“伟业”。
+[name="克莱门莎"]所幸，我面前是你，奥卢斯。
+[name="克莱门莎"]你以一副处处为岛民着想的面貌现身，但你甚至不愿多费一点力气去维护这副面貌。
+[name="克莱门莎"]我提起岛民的死时，你甚至不愿稍稍收敛一下自己的笑容，那副陶醉于自己的理想和杰作的笑容。
+[name="克莱门莎"]“那可确实是件好作品啊。”你说。好像岛民此时此刻的处境，全然无关紧要。
+[name="奥卢斯"]实事求是罢了。
+[Dialog]
+[Image(image="74_i10_1",screenadapt="coverall", xScale=1.02, yScale=1.02, x=-10, y=5, fadetime=1.5)]
+[ImageTween(yTo=-25,xTo=40, xScaleFrom=1.01, yScaleFrom=1.01, xScaleTo=1.08, yScaleTo=1.08, duration=20, block=false)]
+[Delay(time=2)]
+[name="克莱门莎"]我听过很多岛民说起那些曾经属于他们，本该属于他们的事物。他们听起来或是遗憾，或是欣慰。
+[name="克莱门莎"]但没有谁像你这样，言语间满是自傲。
+[name="克莱门莎"]像你这般看重自己的人，我想，不论酝酿着怎样的宏图，都一定把自己放在了至关重要的位置。
+[name="克莱门莎"]所以，不论你要用港都中心城区做什么，想必都只会是由你亲手操作，也只能由你亲自完成。
+[name="奥卢斯"]这不是什么值得大肆批判的事吧？
+[name="克莱门莎"]当然。我只是很想知道——
+[name="克莱门莎"]如果我在这里杀死你，会怎样？
+[name="奥卢斯"]克莱门莎执政官……我得提醒你。
+[name="奥卢斯"]好好想想，自己上次入睡，是几天之前？上次注射过量的神经活性剂，又是几小时前？
+[name="奥卢斯"]你真的认为自己在这样的状态下，可以取胜？
+[name="克莱门莎"]我可以死在这里。
+[name="克莱门莎"]而你呢？
+[name="奥卢斯"]……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[Image]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_swordsheath")]
+奥卢斯沉默地将剑收入鞘中。
+[charslot(slot = "m", name = "avg_4231_clemnt_1#4$1")]
+[name="克莱门莎"]知晓港都中心城区去向的，仍然只有你一人。
+[charslot(slot = "m", name = "avg_4231_clemnt_1#4$1")]
+[name="克莱门莎"]但现在，我相信，我们终于可以平等地对话了。
+[charslot(slot = "m", name = "avg_4231_clemnt_1#2$1")]
+[name="克莱门莎"]而奥卢斯，你会开口。
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Background]
+[Image]

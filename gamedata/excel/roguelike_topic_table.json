@@ -2930,6 +2930,24 @@
         "canBeFree": false,
         "uniEquipId": null,
         "recruitType": 4
+      },
+      "char_393_toledo": {
+        "charId": "char_393_toledo",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_toledo",
+        "recruitType": 4
+      },
+      "char_4231_clemnt": {
+        "charId": "char_4231_clemnt",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": 4
+      },
+      "char_4232_hbound": {
+        "charId": "char_4232_hbound",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_hbound",
+        "recruitType": 4
       }
     }
   },
@@ -375113,7 +375131,14 @@
           "topicEndTime": 1793476800
         }
       ],
-      "enrolls": {},
+      "enrolls": {
+        "rogue_6_enroll_1": {
+          "enrollId": "rogue_6_enroll_1",
+          "enrollTime": 1792137600,
+          "enrollType": 0,
+          "enrollNoticeEndTime": -1
+        }
+      },
       "milestones": [
         {
           "id": "bp_level_1",
@@ -376422,7 +376447,7 @@
           "acquireTitle": "可获取主题家具包",
           "purchaseTitle": "主题家具包",
           "displayName": "黑流印象家具收藏包一",
-          "displayDiscription": "黑流树海里流淌的记忆不会停滞。\n生命在此诞生、断裂，又被封存。\n时间沿着根脉爬上沉沦者的额头，\n在林叶与泥土间，长成新的年轮。",
+          "displayDiscription": "黑流树海里流淌的记忆不会停滞。\n生命在此诞生，断裂，又被封存。\n时间沿着根脉爬上沉沦者的额头，\n在林叶与泥土间，长成新的年轮。",
           "bpLevelId": "bp_level_73",
           "itemBundle": null,
           "detailAnnounceTime": null,
@@ -376795,7 +376820,7 @@
           "template": "KillCerternEnemy",
           "paramList": [
             "4",
-            "enemy_2145_cadejo,enemy_2148_shorbb,enemy_2150_shchmr,enemy_2138_shdbjg,enemy_2140_shsgzd,enemy_2141_shsgz2,enemy_2143_shwksc,enemy_2139_shdbj2,enemy_2144_shwks2"
+            "enemy_2145_cadejo,enemy_2148_shorbb,enemy_2150_shchmr,enemy_2138_shdbjg,enemy_2140_shsgzd,enemy_2141_shsgz2,enemy_2143_shwksc,enemy_2139_shdbj2,enemy_2144_shwks2,enemy_2157_shadvr"
           ],
           "desc": "在险路恶敌中，累计击败4次领袖",
           "tokenRewardNum": 250
@@ -376909,7 +376934,7 @@
           "template": "PassBattleStage",
           "paramList": [
             "3",
-            "ro6_c_1,ro6_c_1_b,ro6_c_1_c,ro6_c_2,ro6_c_3,ro6_c_4,ro6_c_5,ro6_c_6,ro6_c_7,ro6_b_1_b,ro6_b_2_b,ro6_b_3_b,ro6_b_4_b,ro6_b_6"
+            "ro6_c_1,ro6_c_1_b,ro6_c_1_c,ro6_c_2,ro6_c_3,ro6_c_4,ro6_c_5,ro6_c_6,ro6_c_7,ro6_b_1_b,ro6_b_2_b,ro6_b_3_b,ro6_b_4_b,ro6_b_6,ro6_c_8,ro6_c_9,ro6_b_7,ro6_b_7_b,ro6_b_1_b_dlc1,ro6_b_1_dlc1,ro6_b_2_b_dlc1,ro6_b_2_dlc1,ro6_b_3_b_dlc1,ro6_b_3_dlc1"
           ],
           "desc": "累计摆脱3次追猎",
           "tokenRewardNum": 500
@@ -379321,57 +379346,57 @@
             },
             "rogue_6_relic_artifact_1": {
               "relicId": "rogue_6_relic_artifact_1",
-              "relicSortId": 24,
+              "relicSortId": 32,
               "relicGroupId": 5,
-              "orderId": "212",
+              "orderId": "220",
               "isSpRelic": true,
               "enrollId": null
             },
             "rogue_6_relic_artifact_2": {
               "relicId": "rogue_6_relic_artifact_2",
-              "relicSortId": 25,
+              "relicSortId": 33,
               "relicGroupId": 5,
-              "orderId": "213",
+              "orderId": "221",
               "isSpRelic": true,
               "enrollId": null
             },
             "rogue_6_relic_artifact_3": {
               "relicId": "rogue_6_relic_artifact_3",
-              "relicSortId": 26,
+              "relicSortId": 34,
               "relicGroupId": 5,
-              "orderId": "214",
+              "orderId": "222",
               "isSpRelic": true,
               "enrollId": null
             },
             "rogue_6_relic_artifact_4": {
               "relicId": "rogue_6_relic_artifact_4",
-              "relicSortId": 27,
+              "relicSortId": 35,
               "relicGroupId": 5,
-              "orderId": "215",
+              "orderId": "223",
               "isSpRelic": true,
               "enrollId": null
             },
             "rogue_6_relic_artifact_5": {
               "relicId": "rogue_6_relic_artifact_5",
-              "relicSortId": 28,
+              "relicSortId": 36,
               "relicGroupId": 5,
-              "orderId": "216",
+              "orderId": "224",
               "isSpRelic": true,
               "enrollId": null
             },
             "rogue_6_relic_artifact_6": {
               "relicId": "rogue_6_relic_artifact_6",
-              "relicSortId": 29,
+              "relicSortId": 37,
               "relicGroupId": 5,
-              "orderId": "217",
+              "orderId": "225",
               "isSpRelic": true,
               "enrollId": null
             },
             "rogue_6_relic_artifact_7": {
               "relicId": "rogue_6_relic_artifact_7",
-              "relicSortId": 30,
+              "relicSortId": 38,
               "relicGroupId": 5,
-              "orderId": "218",
+              "orderId": "226",
               "isSpRelic": true,
               "enrollId": null
             },
@@ -379379,7 +379404,7 @@
               "relicId": "rogue_6_active_tool_1",
               "relicSortId": 1,
               "relicGroupId": 6,
-              "orderId": "219",
+              "orderId": "227",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379387,7 +379412,7 @@
               "relicId": "rogue_6_active_tool_2",
               "relicSortId": 2,
               "relicGroupId": 6,
-              "orderId": "220",
+              "orderId": "228",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379395,7 +379420,7 @@
               "relicId": "rogue_6_active_tool_3",
               "relicSortId": 3,
               "relicGroupId": 6,
-              "orderId": "221",
+              "orderId": "229",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379403,7 +379428,7 @@
               "relicId": "rogue_6_active_tool_4",
               "relicSortId": 4,
               "relicGroupId": 6,
-              "orderId": "222",
+              "orderId": "230",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379411,7 +379436,7 @@
               "relicId": "rogue_6_active_tool_5",
               "relicSortId": 5,
               "relicGroupId": 6,
-              "orderId": "223",
+              "orderId": "231",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379419,7 +379444,7 @@
               "relicId": "rogue_6_active_tool_6",
               "relicSortId": 6,
               "relicGroupId": 6,
-              "orderId": "224",
+              "orderId": "232",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379427,7 +379452,7 @@
               "relicId": "rogue_6_relic_final_1",
               "relicSortId": 1,
               "relicGroupId": 7,
-              "orderId": "225",
+              "orderId": "233",
               "isSpRelic": true,
               "enrollId": null
             },
@@ -379435,7 +379460,7 @@
               "relicId": "rogue_6_relic_final_2",
               "relicSortId": 2,
               "relicGroupId": 7,
-              "orderId": "226",
+              "orderId": "234",
               "isSpRelic": true,
               "enrollId": null
             },
@@ -379443,7 +379468,7 @@
               "relicId": "rogue_6_relic_final_3",
               "relicSortId": 3,
               "relicGroupId": 7,
-              "orderId": "227",
+              "orderId": "235",
               "isSpRelic": true,
               "enrollId": null
             },
@@ -379451,7 +379476,7 @@
               "relicId": "rogue_6_relic_final_4",
               "relicSortId": 4,
               "relicGroupId": 7,
-              "orderId": "228",
+              "orderId": "236",
               "isSpRelic": true,
               "enrollId": null
             },
@@ -379459,7 +379484,7 @@
               "relicId": "rogue_6_relic_final_5",
               "relicSortId": 5,
               "relicGroupId": 7,
-              "orderId": "229",
+              "orderId": "237",
               "isSpRelic": true,
               "enrollId": null
             },
@@ -379467,7 +379492,7 @@
               "relicId": "rogue_6_relic_final_6",
               "relicSortId": 6,
               "relicGroupId": 7,
-              "orderId": "230",
+              "orderId": "238",
               "isSpRelic": true,
               "enrollId": null
             },
@@ -379475,7 +379500,7 @@
               "relicId": "rogue_6_relic_legacy_11",
               "relicSortId": 1,
               "relicGroupId": 8,
-              "orderId": "231",
+              "orderId": "243",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379483,7 +379508,7 @@
               "relicId": "rogue_6_relic_legacy_51",
               "relicSortId": 2,
               "relicGroupId": 8,
-              "orderId": "232",
+              "orderId": "244",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379491,7 +379516,7 @@
               "relicId": "rogue_6_relic_legacy_94",
               "relicSortId": 3,
               "relicGroupId": 8,
-              "orderId": "233",
+              "orderId": "245",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379499,7 +379524,7 @@
               "relicId": "rogue_6_relic_legacy_116",
               "relicSortId": 4,
               "relicGroupId": 8,
-              "orderId": "234",
+              "orderId": "246",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379507,7 +379532,7 @@
               "relicId": "rogue_6_relic_legacy_117",
               "relicSortId": 5,
               "relicGroupId": 8,
-              "orderId": "235",
+              "orderId": "247",
               "isSpRelic": true,
               "enrollId": null
             },
@@ -379515,7 +379540,7 @@
               "relicId": "rogue_6_relic_legacy_132",
               "relicSortId": 6,
               "relicGroupId": 8,
-              "orderId": "236",
+              "orderId": "248",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379523,7 +379548,7 @@
               "relicId": "rogue_6_relic_legacy_133",
               "relicSortId": 7,
               "relicGroupId": 8,
-              "orderId": "237",
+              "orderId": "249",
               "isSpRelic": true,
               "enrollId": null
             },
@@ -379531,7 +379556,7 @@
               "relicId": "rogue_6_relic_legacy_135",
               "relicSortId": 8,
               "relicGroupId": 8,
-              "orderId": "238",
+              "orderId": "250",
               "isSpRelic": false,
               "enrollId": null
             },
@@ -379539,7 +379564,7 @@
               "relicId": "rogue_6_relic_legacy_141",
               "relicSortId": 9,
               "relicGroupId": 8,
-              "orderId": "239",
+              "orderId": "251",
               "isSpRelic": true,
               "enrollId": null
             }
@@ -379842,92 +379867,92 @@
             },
             "rogue_6_scrap_G_01": {
               "scrapId": "rogue_6_scrap_G_01",
-              "sortId": 13,
+              "sortId": 17,
               "enrollConditionId": null
             },
             "rogue_6_scrap_G_02": {
               "scrapId": "rogue_6_scrap_G_02",
-              "sortId": 14,
+              "sortId": 18,
               "enrollConditionId": null
             },
             "rogue_6_scrap_G_03": {
               "scrapId": "rogue_6_scrap_G_03",
-              "sortId": 15,
+              "sortId": 19,
               "enrollConditionId": null
             },
             "rogue_6_scrap_G_04": {
               "scrapId": "rogue_6_scrap_G_04",
-              "sortId": 16,
+              "sortId": 20,
               "enrollConditionId": null
             },
             "rogue_6_scrap_G_05": {
               "scrapId": "rogue_6_scrap_G_05",
-              "sortId": 17,
+              "sortId": 21,
               "enrollConditionId": null
             },
             "rogue_6_scrap_G_06": {
               "scrapId": "rogue_6_scrap_G_06",
-              "sortId": 18,
+              "sortId": 22,
               "enrollConditionId": null
             },
             "rogue_6_scrap_G_07": {
               "scrapId": "rogue_6_scrap_G_07",
-              "sortId": 19,
+              "sortId": 23,
               "enrollConditionId": null
             },
             "rogue_6_scrap_G_08": {
               "scrapId": "rogue_6_scrap_G_08",
-              "sortId": 20,
+              "sortId": 24,
               "enrollConditionId": null
             },
             "rogue_6_scrap_G_09": {
               "scrapId": "rogue_6_scrap_G_09",
-              "sortId": 21,
+              "sortId": 25,
               "enrollConditionId": null
             },
             "rogue_6_scrap_G_10": {
               "scrapId": "rogue_6_scrap_G_10",
-              "sortId": 22,
+              "sortId": 26,
               "enrollConditionId": null
             },
             "rogue_6_scrap_G_11": {
               "scrapId": "rogue_6_scrap_G_11",
-              "sortId": 23,
+              "sortId": 27,
               "enrollConditionId": null
             },
             "rogue_6_scrap_G_12": {
               "scrapId": "rogue_6_scrap_G_12",
-              "sortId": 24,
+              "sortId": 28,
               "enrollConditionId": null
             },
             "rogue_6_scrap_P_01": {
               "scrapId": "rogue_6_scrap_P_01",
-              "sortId": 25,
+              "sortId": 36,
               "enrollConditionId": null
             },
             "rogue_6_scrap_P_02": {
               "scrapId": "rogue_6_scrap_P_02",
-              "sortId": 26,
+              "sortId": 37,
               "enrollConditionId": null
             },
             "rogue_6_scrap_P_03": {
               "scrapId": "rogue_6_scrap_P_03",
-              "sortId": 27,
+              "sortId": 38,
               "enrollConditionId": null
             },
             "rogue_6_scrap_P_04": {
               "scrapId": "rogue_6_scrap_P_04",
-              "sortId": 28,
+              "sortId": 39,
               "enrollConditionId": null
             },
             "rogue_6_scrap_P_05": {
               "scrapId": "rogue_6_scrap_P_05",
-              "sortId": 29,
+              "sortId": 40,
               "enrollConditionId": null
             },
             "rogue_6_scrap_P_06": {
               "scrapId": "rogue_6_scrap_P_06",
-              "sortId": 30,
+              "sortId": 41,
               "enrollConditionId": null
             }
           }
@@ -380741,7 +380766,7 @@
         "tipButtonName": "快速参考",
         "collectButtonName": "黑流数据库",
         "bpSystemName": "源流堆栈",
-        "autoSetKV": "pic_rogue_6_KV1",
+        "autoSetKV": "pic_rogue_6_KV2",
         "bpPurchaseActiveEnroll": null,
         "defaultExpeditionSelectDesc": "干员{0}将会在进入新区域时归来，并带回一些物资。",
         "gotCharMutationBuffToast": null,
@@ -380759,7 +380784,7 @@
         "challengeTaskRewardName": "探索奖励",
         "challengeTaskModeName": "深入探索",
         "challengeTaskName": "探索条目",
-        "outerBuffTokenSum": 131,
+        "outerBuffTokenSum": 161,
         "needAllFrontNode": false,
         "showBlurBack": true,
         "endingIconBorderDifficulty": 10,
@@ -380795,7 +380820,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -380837,7 +380867,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -380879,7 +380914,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -380904,7 +380944,6 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
             "rogue_6_band_6",
@@ -380922,7 +380961,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -380947,7 +380991,6 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
             "rogue_6_band_6",
@@ -380965,7 +381008,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -380990,7 +381038,6 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
             "rogue_6_band_6",
@@ -381008,7 +381055,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -381033,10 +381085,8 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
-            "rogue_6_band_5",
             "rogue_6_band_6",
             "rogue_6_band_8",
             "rogue_6_band_9",
@@ -381052,7 +381102,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -381077,10 +381132,8 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
-            "rogue_6_band_5",
             "rogue_6_band_6",
             "rogue_6_band_8",
             "rogue_6_band_9",
@@ -381096,7 +381149,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -381121,10 +381179,8 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
-            "rogue_6_band_5",
             "rogue_6_band_6",
             "rogue_6_band_8",
             "rogue_6_band_9",
@@ -381140,7 +381196,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -381165,12 +381226,9 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
-            "rogue_6_band_5",
             "rogue_6_band_6",
-            "rogue_6_band_7",
             "rogue_6_band_8",
             "rogue_6_band_9",
             "rogue_6_band_10",
@@ -381185,7 +381243,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -381210,12 +381273,9 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
-            "rogue_6_band_5",
             "rogue_6_band_6",
-            "rogue_6_band_7",
             "rogue_6_band_8",
             "rogue_6_band_9",
             "rogue_6_band_10",
@@ -381230,7 +381290,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -381255,12 +381320,9 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
-            "rogue_6_band_5",
             "rogue_6_band_6",
-            "rogue_6_band_7",
             "rogue_6_band_8",
             "rogue_6_band_9",
             "rogue_6_band_10",
@@ -381275,7 +381337,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -381300,12 +381367,9 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
-            "rogue_6_band_5",
             "rogue_6_band_6",
-            "rogue_6_band_7",
             "rogue_6_band_8",
             "rogue_6_band_9",
             "rogue_6_band_10",
@@ -381320,7 +381384,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -381345,12 +381414,9 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
-            "rogue_6_band_5",
             "rogue_6_band_6",
-            "rogue_6_band_7",
             "rogue_6_band_8",
             "rogue_6_band_9",
             "rogue_6_band_10",
@@ -381365,7 +381431,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -381390,12 +381461,9 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
-            "rogue_6_band_5",
             "rogue_6_band_6",
-            "rogue_6_band_7",
             "rogue_6_band_8",
             "rogue_6_band_9",
             "rogue_6_band_10",
@@ -381410,7 +381478,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -381435,12 +381508,9 @@
           "predefinedStyle": "rogue_6_style_default",
           "initialBandRelic": [
             "rogue_6_band_1",
-            "rogue_6_band_2",
             "rogue_6_band_3",
             "rogue_6_band_4",
-            "rogue_6_band_5",
             "rogue_6_band_6",
-            "rogue_6_band_7",
             "rogue_6_band_8",
             "rogue_6_band_9",
             "rogue_6_band_10",
@@ -381455,7 +381525,12 @@
             "rogue_6_band_19",
             "rogue_6_band_20",
             "rogue_6_band_21",
-            "rogue_6_band_22"
+            "rogue_6_band_22",
+            "rogue_6_band_23",
+            "rogue_6_band_24",
+            "rogue_6_band_25",
+            "rogue_6_band_26",
+            "rogue_6_band_27"
           ],
           "initialRecruitGroup": [
             "recruit_group_1",
@@ -383568,7 +383643,7 @@
           "name": "辟路行进",
           "loadingPicId": "loading_HLSH_RL",
           "description": "一些玻利瓦尔本土的居民第一次从行商那里见到了冰块这种东西，商人说它来自北方的国度。而那里还有另一样特产——可以荡平一切的军队。\\n<@lv.item><@rolv.rem>场地中有可以阻挡敌人行进路线的<碎石></>",
-          "eliteDesc": "敌人的攻击力、生命值提升,“爆破攻坚手”的攻击力大幅提升，出现新的敌人",
+          "eliteDesc": "敌人的攻击力、生命值提升，“爆破攻坚手”的攻击力大幅提升，出现新的敌人",
           "isBoss": 0,
           "isElite": 1,
           "difficulty": "FOUR_STAR",
@@ -384210,13 +384285,28 @@
           "displayTime": null,
           "description": "兽主们欢迎你的到来。",
           "buffDescription": null,
-          "endingDescription": "祂们很喜欢你，如果你能再多坚持一会就好了。\n",
+          "endingDescription": "祂们很喜欢你，如果你能再多坚持一会就好了。",
           "backgroundId": "rogue_6_map_6",
           "zoneIconId": "zone_6",
           "isHiddenZone": false,
           "bgmSignal": "ON_ROGUELIKE_MAPBOSS",
           "bgmSignalWithLowSan": null,
           "transitionEffectId": "main_transition_view_06"
+        },
+        "zone_7": {
+          "id": "zone_7",
+          "name": "盲目者所见",
+          "clockPerformance": null,
+          "displayTime": null,
+          "description": "在此处，光与影所及之物皆是幻想。",
+          "buffDescription": null,
+          "endingDescription": "无论面对辉煌或深渊，都不应当长久地直视。",
+          "backgroundId": "rogue_6_map_7",
+          "zoneIconId": "zone_7",
+          "isHiddenZone": false,
+          "bgmSignal": "ON_ROGUELIKE_MAPBOSS4",
+          "bgmSignalWithLowSan": null,
+          "transitionEffectId": "main_transition_view_07"
         },
         "zone_portal_normal_1_1": {
           "id": "zone_portal_normal_1_1",
@@ -388653,6 +388743,26 @@
                   "key": "zone",
                   "value": 0.0,
                   "valueStr": "zone_6"
+                }
+              ]
+            },
+            {
+              "key": "zone_into_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "value": 0.0,
+                  "valueStr": "rogue_6_ap"
+                },
+                {
+                  "key": "count",
+                  "value": 5.0,
+                  "valueStr": null
+                },
+                {
+                  "key": "zone",
+                  "value": 0.0,
+                  "valueStr": "zone_7"
                 }
               ]
             },
@@ -396836,7 +396946,7 @@
                 {
                   "key": "stage_ids",
                   "value": 0.0,
-                  "valueStr": "ro6_c_1,ro6_c_1_b,ro6_c_1_c,ro6_c_2,ro6_c_3,ro6_c_4,ro6_c_5,ro6_c_6,ro6_c_7,ro6_b_1_b,ro6_b_2_b,ro6_b_3_b,ro6_b_4_b"
+                  "valueStr": "ro6_c_1,ro6_c_1_b,ro6_c_1_c,ro6_c_2,ro6_c_3,ro6_c_4,ro6_c_5,ro6_c_6,ro6_c_7,ro6_c_8,ro6_c_9,ro6_b_1_b,ro6_b_2_b,ro6_b_3_b,ro6_b_4_b,ro6_b_1_b_dlc1,ro6_b_2_b_dlc1,ro6_b_3_b_dlc1"
                 },
                 {
                   "key": "max",
@@ -397932,6 +398042,26 @@
                   "key": "zone",
                   "value": 0.0,
                   "valueStr": "zone_6"
+                }
+              ]
+            },
+            {
+              "key": "zone_into_reward",
+              "blackboard": [
+                {
+                  "key": "id",
+                  "value": 0.0,
+                  "valueStr": "rogue_6_ap"
+                },
+                {
+                  "key": "count",
+                  "value": 1.0,
+                  "valueStr": null
+                },
+                {
+                  "key": "zone",
+                  "value": 0.0,
+                  "valueStr": "zone_7"
                 }
               ]
             }
@@ -401612,6 +401742,52 @@
           "isHiddenChoice": false,
           "sortId": 0
         },
+        "choice_ro6_sacrifice1_20": {
+          "id": "choice_ro6_sacrifice1_20",
+          "title": "接过零件",
+          "description": "获得<@ro6.get>1件</>零件",
+          "lockedCoverDesc": null,
+          "type": 10,
+          "leftDecoType": 0,
+          "nextSceneId": "scene_ro6_sacrifice1_13",
+          "icon": null,
+          "displayData": {
+            "type": 1,
+            "costHintType": 0,
+            "effectHintType": 0,
+            "funcIconId": "unknown",
+            "itemId": null,
+            "difficultyUpgradeRelicGroupId": null,
+            "taskId": null,
+            "instId": null
+          },
+          "forceShowWhenOnlyLeave": false,
+          "isHiddenChoice": false,
+          "sortId": 0
+        },
+        "choice_ro6_sacrifice1_21": {
+          "id": "choice_ro6_sacrifice1_21",
+          "title": "接过零件",
+          "description": "获得<@ro6.get>1件</>零件",
+          "lockedCoverDesc": null,
+          "type": 10,
+          "leftDecoType": 0,
+          "nextSceneId": "scene_ro6_sacrifice1_16",
+          "icon": null,
+          "displayData": {
+            "type": 1,
+            "costHintType": 0,
+            "effectHintType": 0,
+            "funcIconId": "unknown",
+            "itemId": null,
+            "difficultyUpgradeRelicGroupId": null,
+            "taskId": null,
+            "instId": null
+          },
+          "forceShowWhenOnlyLeave": false,
+          "isHiddenChoice": false,
+          "sortId": 0
+        },
         "choice_ro6_wish_1": {
           "id": "choice_ro6_wish_1",
           "title": "搬一个大桶",
@@ -405158,6 +405334,52 @@
           "id": "choice_ro6_final1_5",
           "title": "说服同伴",
           "description": "获得<@ro6.get>1件</>加工品，消耗全部行动力，转化为等量希望，进入下一区域",
+          "lockedCoverDesc": null,
+          "type": 4,
+          "leftDecoType": 0,
+          "nextSceneId": "scene_ro6_final1_3",
+          "icon": "zone_end",
+          "displayData": {
+            "type": 1,
+            "costHintType": 0,
+            "effectHintType": 19,
+            "funcIconId": "zone_end",
+            "itemId": "rogue_6_hpmax",
+            "difficultyUpgradeRelicGroupId": null,
+            "taskId": null,
+            "instId": null
+          },
+          "forceShowWhenOnlyLeave": false,
+          "isHiddenChoice": false,
+          "sortId": 0
+        },
+        "choice_ro6_final1_6": {
+          "id": "choice_ro6_final1_6",
+          "title": "说服同伴",
+          "description": "消耗全部行动力，转化为等量希望，进入下一区域",
+          "lockedCoverDesc": null,
+          "type": 2,
+          "leftDecoType": 0,
+          "nextSceneId": "scene_ro6_final1_3",
+          "icon": "zone_end",
+          "displayData": {
+            "type": 1,
+            "costHintType": 0,
+            "effectHintType": 19,
+            "funcIconId": "zone_end",
+            "itemId": null,
+            "difficultyUpgradeRelicGroupId": null,
+            "taskId": null,
+            "instId": null
+          },
+          "forceShowWhenOnlyLeave": true,
+          "isHiddenChoice": false,
+          "sortId": 0
+        },
+        "choice_ro6_final1_7": {
+          "id": "choice_ro6_final1_7",
+          "title": "说服同伴",
+          "description": "消耗全部行动力，转化为等量希望，进入下一区域",
           "lockedCoverDesc": null,
           "type": 4,
           "leftDecoType": 0,
@@ -409662,6 +409884,52 @@
           "isHiddenChoice": false,
           "sortId": 0
         },
+        "choice_ro6_sacrifice2_22": {
+          "id": "choice_ro6_sacrifice2_22",
+          "title": "接过零件",
+          "description": "获得<@ro6.get>1件</>零件",
+          "lockedCoverDesc": null,
+          "type": 10,
+          "leftDecoType": 0,
+          "nextSceneId": "scene_ro6_sacrifice2_13",
+          "icon": null,
+          "displayData": {
+            "type": 1,
+            "costHintType": 0,
+            "effectHintType": 0,
+            "funcIconId": "unknown",
+            "itemId": null,
+            "difficultyUpgradeRelicGroupId": null,
+            "taskId": null,
+            "instId": null
+          },
+          "forceShowWhenOnlyLeave": false,
+          "isHiddenChoice": false,
+          "sortId": 0
+        },
+        "choice_ro6_sacrifice2_23": {
+          "id": "choice_ro6_sacrifice2_23",
+          "title": "接过零件",
+          "description": "获得<@ro6.get>1件</>零件",
+          "lockedCoverDesc": null,
+          "type": 10,
+          "leftDecoType": 0,
+          "nextSceneId": "scene_ro6_sacrifice2_16",
+          "icon": null,
+          "displayData": {
+            "type": 1,
+            "costHintType": 0,
+            "effectHintType": 0,
+            "funcIconId": "unknown",
+            "itemId": null,
+            "difficultyUpgradeRelicGroupId": null,
+            "taskId": null,
+            "instId": null
+          },
+          "forceShowWhenOnlyLeave": false,
+          "isHiddenChoice": false,
+          "sortId": 0
+        },
         "choice_ro6_bat6b_1": {
           "id": "choice_ro6_bat6b_1",
           "title": "树洞里肯定有好东西",
@@ -410381,6 +410649,24 @@
           "id": "scene_ro6_sacrifice1_19",
           "title": "回滚文明",
           "description": "这一次源石技艺的光芒没有亮起，你交给它的东西散作了灰烬，旋即又重塑成了一个和先前体积质量完全不对等的物件。“这个公式的关键在于，质量和能量并不是万物维持平衡的唯二因素。”它的笑容似乎有些疯癫。",
+          "background": "pic_rogue_6_24",
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
+        "scene_ro6_sacrifice1_20": {
+          "id": "scene_ro6_sacrifice1_20",
+          "title": "回滚文明",
+          "description": "它高举施术单元，在一团明亮的火光中，你交给它的东西竟然完全变成了另一件物品。“这是一次成功的尝试，我们又更接近‘文明’了。”它用狂热而充满期待的眼神望向你。这难道是某种障眼法......",
+          "background": "pic_rogue_6_24",
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
+        "scene_ro6_sacrifice1_21": {
+          "id": "scene_ro6_sacrifice1_21",
+          "title": "回滚文明",
+          "description": "它高举施术单元，在一团明亮的火光中，你交给它的东西竟然完全变成了另一件物品。“这是一次成功的尝试，我们又更接近‘文明’了。”它用狂热而充满期待的眼神望向你。这难道是某种障眼法......",
           "background": "pic_rogue_6_24",
           "titleIcon": null,
           "subTypeId": 0,
@@ -411718,6 +412004,15 @@
           "subTypeId": 0,
           "useHiddenMusic": false
         },
+        "scene_ro6_final1_4": {
+          "id": "scene_ro6_final1_4",
+          "title": "险路尽头",
+          "description": "这名学生气质的青年探险家感激地接过你递给他的干粮和水，稍息片刻后，他的脸色好多了。他向你解释道，自己的钱全都在黑市的拍卖会上花完了，如果不是你的帮助，恐怕他就只能乖乖跟着救援队离开了。现在他愿意与你分享他淘来的文物与线索，一同成为失落古代玻利瓦尔文明的首批发现者。",
+          "background": "pic_rogue_6_32",
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
         "scene_ro6_rest_enter": {
           "id": "scene_ro6_rest_enter",
           "title": "金色凝滞",
@@ -411776,6 +412071,15 @@
           "id": "scene_ro6_rest_6",
           "title": "金色凝滞",
           "description": "你把从树海中收集到的东西仔仔细细整理了一遍，为行囊腾出了更多空间。",
+          "background": "pic_rogue_6_33",
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
+        "scene_ro6_rest_7": {
+          "id": "scene_ro6_rest_7",
+          "title": "金色凝滞",
+          "description": "这里的信号状况极佳，你成功地发出信号，并引导增援的同伴们带着补给来到了此处。",
           "background": "pic_rogue_6_33",
           "titleIcon": null,
           "subTypeId": 0,
@@ -411974,6 +412278,15 @@
           "id": "scene_ro6_end2_2",
           "title": "窥视箱中",
           "description": "“你对它们的用途有一些猜测，对吗？”她对你露出了笑容，“不必紧张，它们并不会以你想象的方式运作。但即便我这么说，你仍会尝试阻止我，你也必须这么做。”",
+          "background": "pic_rogue_6_37",
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
+        "scene_ro6_end2_3": {
+          "id": "scene_ro6_end2_3",
+          "title": "窥视箱中",
+          "description": "之前探险家发掘出的那枚黑色石板变得冰冷无比，它似乎正在迅速地抽走周边的热量。你忙不迭地将它丢在一边，避免被它冻伤。石板却转而开始从四周的设备中夺取能量，又向周围投射出若干扭曲的幻影，并且越来越多。她似乎吃了一惊，向你质问：“你究竟是什么人？是来夺回权限的吗？这是你第几次来到这里？”",
           "background": "pic_rogue_6_37",
           "titleIcon": null,
           "subTypeId": 0,
@@ -413005,6 +413318,24 @@
           "subTypeId": 0,
           "useHiddenMusic": false
         },
+        "scene_ro6_sacrifice2_22": {
+          "id": "scene_ro6_sacrifice2_22",
+          "title": "回滚文明",
+          "description": "它高举施术单元，在一团明亮的火光中，你交给它的东西竟然完全变成了另一件物品。“这是一次成功的尝试，我们又更接近‘文明’了。”它用狂热而充满期待的眼神望向你。这难道是某种障眼法......",
+          "background": "pic_rogue_6_24",
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
+        "scene_ro6_sacrifice2_23": {
+          "id": "scene_ro6_sacrifice2_23",
+          "title": "回滚文明",
+          "description": "它高举施术单元，在一团明亮的火光中，你交给它的东西竟然完全变成了另一件物品。“这是一次成功的尝试，我们又更接近‘文明’了。”它用狂热而充满期待的眼神望向你。这难道是某种障眼法......",
+          "background": "pic_rogue_6_24",
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
         "scene_ro6_bat6b_enter": {
           "id": "scene_ro6_bat6b_enter",
           "title": "洞中宝",
@@ -413878,7 +414209,8 @@
           "enemy_2148_shorbb",
           "enemy_2150_shchmr",
           "enemy_2151_shwolf",
-          "enemy_2153_shcan"
+          "enemy_2153_shcan",
+          "enemy_2157_shadvr"
         ],
         "goldChestTrapId": "trap_051_vultres",
         "normBoxTrapId": "trap_321_shnbox",
@@ -413912,7 +414244,8 @@
           "LOOP_CHIP": "备用零件",
           "STEP": "行动力转化",
           "GREED": "城中遗产",
-          "GOLDEN_AGE": "希望硕果"
+          "GOLDEN_AGE": "希望硕果",
+          "ADVENTURER_EXTRA": "出土文物？"
         },
         "shopRefreshCostId": "rogue_6_gold",
         "expeditionLeaveToastFormat": null,
@@ -425734,6 +426067,23 @@
           "usage": null,
           "obtainApproach": null,
           "iconId": "char_4235_thumpy",
+          "itemIconGroupId": null,
+          "type": 50,
+          "subType": 0,
+          "rarity": 4,
+          "sortId": 999,
+          "canSacrifice": false,
+          "tinyIconColor": null,
+          "unlockCondDesc": null,
+          "shortUsage": null
+        },
+        "char_4231_clemnt": {
+          "id": "char_4231_clemnt",
+          "name": "克莱门莎",
+          "description": "能够阻挡两个敌人，可以造成<@ba.kw>元素伤害</>",
+          "usage": null,
+          "obtainApproach": null,
+          "iconId": "char_4231_clemnt",
           "itemIconGroupId": null,
           "type": 50,
           "subType": 0,
@@ -481657,6 +482007,11 @@
             "zoneId": "zone_4_1",
             "bannerText": "目标：找到<color=#0f907f>险路尽头</color>节点进入下一区域",
             "bannerIcon": "zone_banner_goal_final"
+          },
+          "zone_7": {
+            "zoneId": "zone_7",
+            "bannerText": "目标：找到<color=#0f907f>险路恶敌</color>节点并取得胜利",
+            "bannerIcon": "zone_banner_goal_boss_5"
           }
         },
         "scrapSideBarStepZeroHintBannerData": {
@@ -481763,6 +482118,10 @@
           "zone_4_1": {
             "zoneId": "zone_4_1",
             "hintText": "行动力耗尽未抵达<color=#e4817e>险路尽头</color>\n将强制触发<color=#e4817e>追猎</color>"
+          },
+          "zone_7": {
+            "zoneId": "zone_7",
+            "hintText": "行动力耗尽未击败<color=#e4817e>险路恶敌</color>\n将强制触发<color=#e4817e>追猎</color>"
           }
         },
         "buoyItemDatas": {
@@ -481798,6 +482157,17 @@
         "moduleConsts": {
           "savageBubble": "rogue_6_bubble_01",
           "secretZoneDisableBuff": "battleEntranceDisableBuff",
+          "shadvrTrapIds": [
+            "trap_345_shadvt",
+            "trap_349_shadvt2"
+          ],
+          "shadvrFirstDieTrapIds": [
+            "trap_344_shadvr",
+            "trap_345_shadvt"
+          ],
+          "shadvrAliveEventId": "exit",
+          "shadvrDieEventId": "killed",
+          "shadvrFinalRelicId": "rogue_6_relic_final_8",
           "maxBannerDifficulty": 3,
           "focusViewBossHintStageId": {}
         }
@@ -481865,6 +482235,7 @@
             ],
             "step": 1,
             "isRandomMove": false,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_01",
             "scrapDesc": "装载后能够移动至<color=#20b4a1>直线2格内</color>任意节点（可移动1次）",
             "sellPrice": 1
@@ -481878,6 +482249,7 @@
             ],
             "step": 1,
             "isRandomMove": false,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_02",
             "scrapDesc": "装载后能够移动至<color=#20b4a1>相邻8格内</color>任意节点（可移动1次）",
             "sellPrice": 1
@@ -481891,6 +482263,7 @@
             ],
             "step": 1,
             "isRandomMove": false,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_03",
             "scrapDesc": "装载后能够移动至<color=#20b4a1>相邻8格内</color>任意节点（可移动3次）",
             "sellPrice": 1
@@ -481904,6 +482277,7 @@
             ],
             "step": 0,
             "isRandomMove": false,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_04",
             "scrapDesc": "装载后能够移动至<color=#20b4a1>周围12格内</color>任意节点，无需行动力，无法被携带至下一区域（可移动1次）",
             "sellPrice": 1
@@ -481917,6 +482291,7 @@
             ],
             "step": 1,
             "isRandomMove": false,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_05",
             "scrapDesc": "装载后能够移动至<color=#20b4a1>周围12格内</color>任意节点（可移动2次）",
             "sellPrice": 1
@@ -481930,6 +482305,7 @@
             ],
             "step": 1,
             "isRandomMove": false,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_06",
             "scrapDesc": "装载后能够移动至<color=#20b4a1>直线3格内</color>任意节点（可移动2次）",
             "sellPrice": 1
@@ -481944,6 +482320,7 @@
             ],
             "step": 0,
             "isRandomMove": true,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_07",
             "scrapDesc": "装载并使用后会被随机传送至任意<color=#20b4a1>非作战节点</color>，无需行动力，无法被携带至下一区域（可移动1次）",
             "sellPrice": 1
@@ -481957,6 +482334,7 @@
             ],
             "step": 0,
             "isRandomMove": false,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_08",
             "scrapDesc": "装载后能够移动至<color=#20b4a1>任意节点</color>，无需行动力（可移动1次）",
             "sellPrice": 1
@@ -481971,6 +482349,7 @@
             ],
             "step": 1,
             "isRandomMove": false,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_09",
             "scrapDesc": "装载后能够移动至任意<color=#20b4a1>非作战节点</color>，且移动后希望+2（可移动1次）",
             "sellPrice": 1
@@ -481985,6 +482364,7 @@
             ],
             "step": 1,
             "isRandomMove": false,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_10",
             "scrapDesc": "装载后能够移动至任意<color=#20b4a1>行商节点</color>，且每次移动后源石锭+4（可移动2次）",
             "sellPrice": 1
@@ -481998,6 +482378,7 @@
             ],
             "step": 1,
             "isRandomMove": false,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_11",
             "scrapDesc": "装载后能够移动至<color=#20b4a1>任意节点</color>（可移动3次）",
             "sellPrice": 1
@@ -482011,6 +482392,7 @@
             ],
             "step": 0,
             "isRandomMove": false,
+            "nodeChangeTargetType": 0,
             "scrapId": "rogue_6_scrap_M_12",
             "scrapDesc": "装载后能够移动至<color=#20b4a1>相邻8格内</color>任意节点，无需行动力，且移动后行动力+3（可移动1次）",
             "sellPrice": 1

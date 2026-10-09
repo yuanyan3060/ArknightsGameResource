@@ -1,0 +1,508 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g4_seasidest_n",screenadapt="coverall")]
+[playMusic(intro="$nervous_intro",key="$nervous_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot = "l", name = "avg_npc_2272_1#1$1", duration=1.5)]
+[charslot(slot = "r", name = "avg_npc_2273_1#1$1", duration=1.5)]
+[Delay(time=1.6)]
+[charslot(slot = "l", focus="l")]
+[name="紧张的岛民"]情况如何？
+[charslot(slot = "r", focus="r")]
+[name="虚弱的岛民"]伊比利亚人都聚集在广场。我们的伤员还是很多，没办法组织行动……
+[charslot(slot = "l", focus="l")]
+[name="紧张的岛民"]导师会帮助我们。
+[charslot(slot = "r", focus="r")]
+[name="虚弱的岛民"]奥卢斯先生还在工坊里？
+[charslot(slot = "l", focus="l")]
+[name="紧张的岛民"]嗯。
+[charslot(slot = "r", focus="r")]
+[name="虚弱的岛民"]真不知道他到底要怎么实行接下来的计划……
+[PlaySound(key="$d_gen_soldiersrun",channel="1",volume=0.4)]
+[charslot(slot = "l", focus="l")]
+[multiline(name="紧张的岛民")]等等，有脚步声——
+[PlaySound(key="$fightgeneral",channel="2",volume=1)]
+[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]
+[multiline(name="紧张的岛民")]呃……
+[multiline]
+[dialog]
+[charslot(slot = "l", action="shake", power=3, times=30, duration=0.3)]
+[delay(time=0.5)]
+[charslot(slot="l",posfrom="0,0",posto="0,-150",afrom="1",ato="0",duration=0.5)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[delay(time=0.5)]
+[charslot(slot="r",posfrom="0,0",posto="0,-150",afrom="1",ato="0",duration=0.5)]
+[PlaySound(key="$bodyfalldown1", volume=1)]
+[delay(time=1)]
+[charslot]
+[delay(time=1)]
+[charslot(slot = "r", name = "avg_npc_2277_1#1$1")]
+[charslot(slot = "l", name = "avg_npc_2276_1#1$1",posfrom="-150,0",posto="0,0",duration=0.8)]
+[delay(time=1)]
+[charslot(slot = "l", focus="l")]
+[name="惩戒军士兵"]街区清扫完毕，长官，刚刚岛民所说的奥卢斯就是……
+[charslot(slot = "r", focus="r")]
+[name="惩戒军士官"]我们要找的深海主教。
+[name="惩戒军士官"]推进，包围那座工坊！
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="27_g25_goldenboat_core",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(key="$wasteland_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1")]
+[name="特菲"]这个点就是港都，对吧？你的故乡。只不过它现在还暗着。
+[charslot(slot = "m", name = "avg_npc_2266_1#5$1")]
+[name="瓦列里奥"]每一个灰暗的坐标点，都是一座沉眠大海的城镇。伊比利亚到底失去了多少……清晰可见。
+[charslot(slot = "m", name = "avg_393_toledo_1#5$1")]
+[name="特菲"]我没经历过那个时代，其实想象不到你有多么怀念这里。但一想到我们马上就能亲手把它捞起来——我就忍不住浑身发抖。
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1")]
+[name="特菲"]说实话，你是不是就是为了这一刻，才特意让我进船厂工作的呀？
+[charslot(slot = "m", name = "avg_npc_2266_1#4$1")]
+[name="瓦列里奥"]……
+[charslot(slot = "m", name = "avg_393_toledo_1#4$1")]
+[name="特菲"]想家就直说嘛，你作为我的头号拥护者，一路上又帮我解了许多围，我肯定会帮你的啊！
+[charslot(slot = "m", name = "avg_npc_2266_1#12$1")]
+[name="瓦列里奥"]你已经帮我很多了，德·托莱多大人。这件事，确实是我没法单凭自己做到的。
+[charslot(slot = "m", name = "avg_npc_2266_1#13$1")]
+[name="瓦列里奥"]这几十年来，伊比利亚发生了太多变化。曾存在过的事物有一半已经被遗忘，而另一半不是变了模样，就是换了名字。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[name="瓦列里奥"]如果不是有雅隆这样名字和位置都不曾变过的地标作为参照，我们甚至没法把现在和过去的地图以任何方式对应起来。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[name="瓦列里奥"]要恢复海图系统的功能，需要操作者熟悉伊比利亚的每一寸土地，厘清错乱的地理信息，把过去与现在的每个坐标一一对应。
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1")]
+[name="特菲"]我能做到的，你看，我已经在做了！
+[charslot(slot = "m", name = "avg_393_toledo_1#12$1")]
+[name="特菲"]从我在家乡的小镇第一次对证裁官撒谎，到今天已经十年了。为了混口饭吃、有个地方住，我当了十年的骗子。
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1")]
+[name="特菲"]其实有好几次我都能感觉到，对方很清楚我只是一个图谋不轨的小人，但他们仍愿意继续“相信”我。
+[charslot(slot = "m", name = "avg_393_toledo_1#2$1")]
+[name="特菲"]他们会配合我演“德·托莱多”的戏，也会给我讲很多他们的故事——他们那已经沉入大海的故乡，已经尸骨无存的亲人。
+[charslot(slot = "m", name = "avg_393_toledo_1#2$1")]
+[name="特菲"]我其实一直都没想明白，他们为什么愿意相信我。我只能把骗到的东西多分给他们一些，偶尔也用不光彩的手段替他们解决些小问题。
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1")]
+[name="特菲"]但来到港都之后……相信我的人越来越多，我能为他们每个人做的，却越来越少了。
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1")]
+[name="特菲"]所以，那天你跟我说，我该成为一个真正的“大人物”时，我只恨你说得太晚。必须要这样，我才能为一些迷茫的人做到更多。
+[charslot(slot = "m", name = "avg_npc_2266_1#4$1")]
+[name="瓦列里奥"]不算晚，德·托莱多大人。只要你有足够的毅力和勇气去承担这个责任。
+[charslot(slot = "m", name = "avg_393_toledo_1#14$1")]
+[name="特菲"]责任？
+[charslot(slot = "m", name = "avg_npc_2266_1#9$1")]
+[name="瓦列里奥"]我告诉过你，我身上烧伤的瘢痕，是为了帮一个朋友才留下的。
+[charslot(slot = "m", name = "avg_393_toledo_1#2$1")]
+[name="特菲"]嗯，看上去很疼，你到现在还是整宿睡不着觉。
+[charslot(slot = "m", name = "avg_npc_2266_1#10$1")]
+[name="瓦列里奥"]我帮那位朋友变成了你口中的“大人物”，但很可惜，他毁了我们共同的心血，没有把事情做好。
+[charslot(slot = "m", name = "avg_393_toledo_1#14$1")]
+[name="特菲"]因为他没有承担责任？
+[charslot(slot = "m", name = "avg_npc_2266_1#11$1")]
+[name="瓦列里奥"]因为他不敢善始善终。
+[stopmusic(fadetime=2)]
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[name="瓦列里奥"]你呢，德·托莱多大人？
+[charslot(slot = "m", name = "avg_393_toledo_1#5$1")]
+[name="特菲"]喂，你还不了解我嘛！
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[name="瓦列里奥"]就是因为我太了解你了。
+[charslot(slot = "m", name = "avg_393_toledo_1#15$1")]
+[name="特菲"]欸？
+[playMusic(intro="$m_bat_act17side_02_intro",key="$m_bat_act17side_02_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[name="瓦列里奥"]你是个骗子，而谎言总是有始无终的。
+[charslot(slot = "m", name = "avg_npc_2266_1#4$1")]
+[name="瓦列里奥"]当然，你也是个很有天赋的人，记忆力好得出奇，对伊比利亚的了解也无人能及。多亏了你，海图系统的功能已经完全恢复。
+[charslot(slot = "m", name = "avg_npc_2266_1#4$1")]
+[name="瓦列里奥"]你开了个好头，而我可以替你善终——
+[charslot(slot = "m", name = "avg_npc_2266_1#10$1")]
+[name="瓦列里奥"]将雷亚-伊比利亚的坐标彻底从历史中抹去。
+[charslot(slot = "m", name = "avg_393_toledo_1#14$1")]
+[name="特菲"]我听不懂……瓦列里奥，为什么？如果是我弄错了，我们可以求斐戴拉大审判官想想办法，你不是说她很快就会来——
+[charslot(slot = "m", name = "avg_npc_2266_1#11$1")]
+[name="瓦列里奥"]斐戴拉不会来了。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_keyboard_console",volume=0.5, channel="f", loop=true)]
+[Delay(time=1.5)]
+[StopSound(channel="f", fadetime=1)]
+[PlaySound(key="$d_avg_keyboard_confirm",volume=1)]
+男人在特菲启动的海图系统界面上输入了一串密令。特菲心里涌现出一种不祥的预感，她想去阻止他，却已经来不及。
+男人将手指移到雷亚-伊比利亚灰色的坐标点上，按了下去。
+[Dialog]
+[PlaySound(key="$flashback", volume=0.8)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.5, block=true)]
+[charslot]
+[Background(image="74_g8_shipatelier", xScale=1.15, yScale=1.15,x=-50,screenadapt="coverall")]
+[BackgroundTween(image="74_g8_shipatelier",xFrom=-50,xTo=-50,block=false)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]你还是在用自己的遭遇替她求情。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[name="瓦列里奥"]不，我想说的是，那孩子帮了很多人，但她终归是个孩子，是个骗子。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[name="瓦列里奥"]伊比利亚的职责落到一个欺诈之徒的身上，证明了这个国家的堕落。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]……
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]单是用“堕落”来描述伊比利亚，就足够把你关入牢狱。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[name="瓦列里奥"]但几天前还被我的说辞打动的大审判官，如今也觉得这样的故事不够动人了，不是吗？
+[name="瓦列里奥"]几乎每个夜晚，船厂里都见不到您的身影，与此同时，那些带有危险气息的岛民正在悄无声息地消失……
+[name="瓦列里奥"]您很喜欢扮演两重截然不同的身份？
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]住口！
+[Dialog]
+[charslot]
+[charslot(slot = "l", name = "avg_npc_2266_1#1$1")]
+[PlaySound(key="$d_avg_bldwhoosh", volume=1)]
+[charslot(slot = "R", name = "avg_npc_2270_1#1$1", posfrom="200,100", posto="-250,0",duration=0.5)]
+[CameraShake(duration=0.5, xstrength=40, ystrength=10, vibrato=30, randomness=20, fadeout=true, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Delay(time=0.3)]
+[CameraShake(duration=1, xstrength=3, ystrength=3, vibrato=10, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_clothmovement_heavy2", volume=1)]
+[charslot(slot = "L",posfrom="0,0", posto="-250,50", afrom=1, ato=0, duration=0.4)]
+[Delay(time=0.1)]
+[BackgroundTween(image="74_g8_shipatelier", duration=0.4,xFrom=-50, xTo=50, block=false)]
+[Delay(time=0.2)]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1",posfrom="120,20",posto="0,0",duration=0.4)]
+[Delay(time=0.7)]
+[name="瓦列里奥"]看来继续说下去，您就不会给我开口的机会了。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]正因为你现在还能开口，所以我才会给予你一点尊重——你躲过了一名大审判官的剑，诡辩者。
+[name="斐戴拉"]你是谁？你来找我的目的究竟是什么？如果我卸掉你的一只胳膊，流出的会是人的血，还是恐鱼令人作呕的黏液？
+[charslot(slot = "m", name = "avg_npc_2266_1#10$1")]
+[name="瓦列里奥"]注意你的言辞，年轻人。
+[charslot(slot = "m", name = "avg_npc_2266_1#2$1")]
+[name="瓦列里奥"]况且，整座船厂中唯一会令你作呕的东西，就在几天前刚刚被送到你的手里。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]你说什么……
+[charslot(slot = "m", name = "avg_npc_2266_1#4$1")]
+[name="瓦列里奥"]你不知道？
+[name="瓦列里奥"]哈哈哈，卡门对他的学生真是太体贴了。
+[name="瓦列里奥"]那我想你也不知道，那把重启雷亚-伊比利亚的“钥匙”，让我们脚下的土地重回黄金时代的“希望”，是用审判庭过去的一切换来的。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]不！圣徒阁下不会向我隐瞒如此重要的事。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[name="瓦列里奥"]是他蓄意隐瞒，还是你刻意不去听呢？
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]我怎么可能刻意……难道圣徒阁下召我去审判庭临时中枢的那天，是想告诉我这一切……
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[name="瓦列里奥"]而那时你又在哪里？
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]我……
+[charslot(slot = "m", name = "avg_npc_2266_1#10$1")]
+[name="瓦列里奥"]你早就做出了选择。你害怕城区里欣欣向荣的景象，因为你知道伊比利亚的沉疴跟你身上的伤口一样，它们不会轻易在海风中愈合。
+[name="瓦列里奥"]那些乐观的说辞不过是在欺骗你自己罢了。
+[name="瓦列里奥"]而更可悲的是，当你打开那个铁匣子，直面审判庭过去的一切时，你会发现你无法接受它所承载的事实。
+[charslot(slot = "m", name = "avg_npc_2266_1#13$1")]
+[name="瓦列里奥"]你不是一名合格的大审判官，斐戴拉。看看你的提灯，火苗在晃动。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]！
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[name="瓦列里奥"]疲惫不堪了对吗？面对岛民和伊比利亚民众之间的矛盾，面对杀不完的恐鱼，面对希冀未来又对现状作呕的自己。
+[name="瓦列里奥"]你不让你手下的惩戒军审问岛民和教徒，是不想让他们沾染和你一样的恶习，不想让他们也对审判庭动摇，不是吗？
+[name="瓦列里奥"]但若是伊比利亚不给人无谓的希望，你本不用承受这些。你早已习惯忍受伤口的疼痛，但不擅长祈祷它痊愈。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]……
+[name="斐戴拉"]你到底是谁，为什么会知道那么多关于我的、关于审判庭的事？！
+[charslot(slot = "m", name = "avg_npc_2266_1#2$1")]
+[name="瓦列里奥"]直到这一刻你还在乎审判庭的安危，我简直像是见到了过去的自己……不过他已经死了。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]死了？
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_clothmovement", volume=0.8)]
+斐戴拉还想追问，但下一秒她看到了瓦列里奥斗篷下的瘢痕，从背部蔓延到脸颊。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[delay(time=1)]
+[charslot]
+[focusparam(effect="Grayscale", blur=false)]
+[focusout(duration=0.1,type="bg", from=0, to=1, block=true)]
+[Background(image="74_g8_shipatelier",xScale=1.3, yScale=1.3,screenadapt="coverall")]
+[BackgroundTween(image="74_g8_shipatelier",duration=8,xFrom=-50,xTo=30,yFrom=180,yTo=180,ease="6",block=false)]
+[curtain(direction = 0,fillfrom = 0.3,fillto = 0.32, grad=true, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.3,fillto = 0.22, grad=true, fadetime=0.1,block=true)]
+[charslot(slot = "m", name = "avg_npc_2266_1#4$2",isblock=false)]
+[charslot(slot = "m", action="zoom", poszoom = "0.5,0.5",scale=1.2,duration=0,isblock=false)]
+[charslot(slot = "m", posfrom="-80,280",posto="0,280",duration=8,isblock=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+而他的腰间有一把斐戴拉再熟悉不过的武器——审判庭的手炮，带着独属于圣徒的刻痕。
+斐戴拉刚成为卡门的学生不久，就听闻有两位圣徒在大火中与海嗣厮杀至最后一刻，尸骨无存。卡门说，他们是为伊比利亚的未来而死。
+为达里奥送行时，她曾在坟前默念那两个伟大的名字，而更擅长使用手炮的那位圣徒正是——
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[curtain]
+[Background]
+[Background(image="74_g8_shipatelier", xScale=1.15, yScale=1.15,screenadapt="coverall")]
+[delay(time=1)]
+[focusparam(blur=false)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2,block=true)]
+[Delay(time=1)]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[charslot(slot = "m", action="zoom", poszoom = "0.5,0.5",scale=1,duration=0,isblock=true)]
+[name="斐戴拉"]圣徒瓦列里奥……这怎么可能……
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2")]
+[name="瓦列里奥"]我也想死在那场大火中，死在石碑的铭文里，但我需要纠正伊比利亚的错误。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2")]
+[name="瓦列里奥"]而你知道那个错误是什么。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]我们的土地上仍遍布着恶行……哪怕是审判庭内部也并非洁净的圣所。
+[name="斐戴拉"]圣徒瓦列里奥，我想要消除它们，在太阳重新升起的明天，我希望它照亮的……是一个纯净的伊比利亚，一个令人骄傲的国家。
+[name="斐戴拉"]所以我用尽一切力气，独自进行审判，想让我手下的士兵远离战争的阴霾，逃脱仇恨的循环。
+[name="斐戴拉"]在阿奎拉死后，我又去翻阅了审判庭的档案——每一次审问或者处决岛民和深海教徒之后，我都会这样做。
+[name="斐戴拉"]我怕自己做了错误的决定，违背了圣徒教导的美德，但是……
+[name="斐戴拉"]四次。在我担任大审判官的二十年中，在几万名嫌疑人中，我清楚地记得，我犯过四次错误。
+[name="斐戴拉"]我无法坦坦荡荡地迎接伊比利亚的明天，它的光不会照耀到我身上……
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2")]
+[name="瓦列里奥"]你做得足够好了，大审判官，一切的根源是伊比利亚的黎明本就不该这么早到来。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]……
+[name="斐戴拉"]您有自己的计划。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2")]
+[name="瓦列里奥"]我说过，我是来纠正错误的。
+[name="瓦列里奥"]大审判官，你的灯火快熄灭了。
+[name="瓦列里奥"]我能将它再度点亮，以一名死而复生的圣徒的信念。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]……您需要我做什么？
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2")]
+[name="瓦列里奥"]在打捞庆典的那个夜晚，离开这里。
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=false)]
+[CameraEffect(effect="Grayscale",amount=0,fadetime=3,keep=true,block=false)]
+[Background(image="32_RL2_cliffnight",screenadapt="coverall",fadetime=3,block=false)]
+[Delay(time=3)]
+[PlaySound(key="$d_avg_sea",volume=0, channel="f", loop=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[SoundVolume(volume=1, channel="f",fadetime=1)]
+[Delay(time=2)]
+[charslot(slot = "m", focus="m")]
+[name="斐戴拉"]……
+[Dialog]
+[charslot]
+[BackgroundTween(image="32_RL2_cliffnight", duration=15, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.15, yScaleTo=1.15, yFrom=0, yTo=-40, xFrom=0, xTo=15, block=false)]
+人们庆贺的声响从远处的广场传来，训练有素的惩戒军披着夜色净化罪孽。
+船工们在码头忙碌，他们不敢完全踏入漆黑的大海，但眼里闪烁着好奇的光彩。
+斐戴拉看向手中的提灯，海风中的灯火沾染血色，它是整片海岸上除月光之外的唯一光源。
+它微弱地挣扎，它几近熄灭。
+[StopSound(channel="f", fadetime=2)]
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Background(image="74_g4_seasidest_n",screenadapt="coverall")]
+[delay(time=1)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(key="$act17side_loop", volume=0.6)]
+[charslot(slot = "l", name = "avg_npc_2274_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_npc_178",focus="r")]
+[name="城镇居民B"]是我喝多了吗？那些审判官和惩戒军怎么突然跑起来了？
+[charslot(slot = "l",focus="l")]
+[name="城镇居民A"]是打捞时间提前了？别挤，让我也看一眼——
+[Dialog]
+[charslot(slot = "l",posfrom="0,0",posto="20,0",afrom=1,ato=1,duration=0.3)]
+[Delay(time=0.5)]
+[charslot(slot = "r", focus="r")]
+[name="城镇居民B"]海图上……坐标，消失了……
+[charslot(slot = "l",focus="l")]
+[name="城镇居民A"]什么？
+[charslot(slot = "r", focus="r")]
+[name="城镇居民B"]海图！代表港都的那个坐标，没了，看不见了！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[curtain(direction = 0,fillfrom = 0.18,fillto = 0.18, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.18,fillto = 0.18, fadetime=0.1)]
+[Background(image="38_g21_skystarry_L2",screenadapt="coverall")]
+[BackgroundTween(image="70_g2_tjlibrary", duration=15, xScaleFrom=1.15, yScaleFrom=1.15, xScaleTo=1.15, yScaleTo=1.15, xFrom=-50, xTo=50, block=false)]
+[delay(time=1)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+黄金的海图仍旧投映在广场上空，但其中，有一个不起眼的灰暗的光点悄然消失了。
+与它一同消失的，是港都几十座灯塔的辉光。
+越来越多的人抬起头，他们徒劳地寻找着坐标，寻找着那个让他们欢聚在广场上庆贺的理由，却一无所获。
+那张海图对伊比利亚人失去了意义，似乎雷亚-伊比利亚永远不会再亮起，永远不会再……回来。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[curtain]
+[Background(image="27_g25_goldenboat_core",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[PlaySound(key="$alarmenter",volume=0.8)]
+[Blocker(a=0.4, r=0.2, g=0, b=0, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$alarmenter",volume=0.8)]
+[Blocker(a=0.6, r=0.15, g=0, b=0, fadetime=0.3, block=true)]
+[delay(time=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot(slot = "l", name = "avg_npc_2266_1#1$1",focus="r")]
+[charslot(slot = "r", name = "avg_393_toledo_1#7$1",focus="r")]
+[name="特菲"]你抹去了雷亚-伊比利亚的坐标？为什么……瓦列里奥你为什么这么做！
+[charslot(slot = "l", name = "avg_npc_2266_1#1$1",focus="l")]
+[name="瓦列里奥"]你还没有明白。于你，于我，进入中控室从来都是计划的一部分，最重要的那部分。
+[charslot(slot = "r", name = "avg_393_toledo_1#8$1",focus="r")]
+[name="特菲"]你……骗了我？
+[charslot(slot = "l", name = "avg_npc_2266_1#10$1",focus="l")]
+[name="瓦列里奥"]现在，你也算是成了一个“大人物”了……只不过不是点亮海图的那个。
+[charslot(slot = "r", name = "avg_393_toledo_1#6$1",focus="r")]
+[name="特菲"]你！
+[charslot(slot = "l", name = "avg_npc_2266_1#11$1",focus="l")]
+[name="瓦列里奥"]我们的旅途到此结束了，特菲。
+[charslot(slot = "l", name = "avg_npc_2266_1#13$1",focus="l")]
+[name="瓦列里奥"]惩戒军应该很快就会封锁这里，我还要去见一位很重要的朋友。
+[charslot(slot = "l", name = "avg_npc_2266_1#1$1",focus="l")]
+[name="瓦列里奥"]开心点，或者唱支歌。
+[charslot(slot = "l", name = "avg_npc_2266_1#1$1",focus="l")]
+[name="瓦列里奥"]至少，你没有让我这个“拥护者”失望，不是吗？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot]
+[Background(image="74_g4_seasidest_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot = "r", name = "avg_npc_2277_1#1$1",focus="r")]
+[charslot(slot = "l", name = "avg_npc_2276_1#1$1",focus="r")]
+[name="惩戒军士官"]北向侧门？南向两个地下室出入口？
+[charslot(slot = "l",focus="l")]
+[name="惩戒军士兵"]都已经封锁！
+[charslot(slot = "r", focus="r")]
+[name="惩戒军士官"]好。行动！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g7_alsatelier",xScale=1.1,yScale=1.1)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[Delay(time=1)]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_doorbreak",volume=0.8)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2277_1#1$1")]
+[name="惩戒军士官"]……没有人？
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_seaborn_wiggle", volume=1)]
+[charslot(slot = "l", name = "avg_npc_1389_1#1$1",duration=1.5)]
+[charslot(slot = "r", name = "avg_npc_1388_1#1$1",duration=1.5)]
+[Delay(time=1.8)]
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2277_1#1$1")]
+[name="惩戒军士官"]海嗣！所有人，警戒！
+[Dialog]
+[charslot]
+[charslot(slot = "R", name = "avg_4009_irene_1#1$1")]
+[charslot(slot = "L", name = "avg_npc_1389_1#1$1")]
+[charslot(slot = "R", name = "avg_4009_irene_1#1$1", action="jump", posto="-250,0", power=0, times=0.8, duration=0.1)]
+[CameraShake(duration=0.5, xstrength=40, ystrength=10, vibrato=30, randomness=20, fadeout=true, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[PlaySound(key="$p_imp_sword_n", volume=1)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Delay(time=0.7)]
+[CameraShake(duration=1, xstrength=3, ystrength=3, vibrato=10, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_seabornf_pain", volume=1)]
+[charslot(slot = "L",posfrom="0,0", posto="-100,20", afrom=1, ato=1, duration=0.7)]
+[charslot(slot = "R", posfrom="-250,0",posto="-180,0", power=0, times=0.8, duration=0.5)]
+[charslot(slot = "l", action="shake", power=5, times=60,isblock=true,duration=0.2)]
+[charslot(slot = "L",afrom=1, ato=0, duration=0.7)]
+[dialog]
+[Delay(time=1)]
+[charslot(slot = "R", name = "avg_4009_irene_1#4$1",focus="r")]
+[name="艾丽妮"]惩戒军，不要东张西望，优先清除海嗣威胁！
+[charslot(slot = "R", name = "avg_4009_irene_1#2$1",focus="r")]
+[name="艾丽妮"]奥卢斯不在，参与袭击的岛民数量跟我们预测的不同……不对，他们去哪里了？
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_broadcast_third", volume=1)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_broadcast_male",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.8, channel="f",fadetime=0.5)]
+[name="？？？"]惩戒军，审判官，所有伊比利亚人，听好了——
+[Dialog]
+[BackgroundTween(yFrom=0, yTo=-50, duration=8, ease="OutQuad",block=false)]
+[Background(image="74_g4_seasidest_n",xScale=1.1,yScale=1.1,y=50,fadetime=3,block=false)]
+[BackgroundTween(yFrom=50, yTo=-40, duration=8, ease="OutQuad",block=false)]
+[delay(time=1.5)]
+[name="岛民"]惩戒军，审判官，所有伊比利亚人，听好了——
+[name="岛民"]港都中心城区已经驶离了打捞区，现在正在向远海行进。
+[name="岛民"]港都的坐标——它的识别身份——都已经被彻底抹除，不论在伊比利亚还是阿戈尔的海图上，都不复存在。
+[name="岛民"]所有灯塔的定位和导航功能也都已经瘫痪，你们甚至不用去尝试修复。灯塔上用的每一种技术，都是我们的——岛民的。
+[name="岛民"]你们傲慢地以为那场袭击只是为了破坏港都，但港都从来不仅仅属于你们。伊比利亚，从来不仅仅属于你们。
+[name="岛民"]承认所有岛民的正当国民身份，公开过去几十年间与岛民相关的全部案卷，为其中所有的冤假错案正式道歉。
+[name="岛民"]做到这些，我们再谈港都何去何从。
+[StopSound(channel="f", fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[Delay(time=1.5)]
+[bgeffect(name="$eb_sea_bg",layer=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Sticker(id="st1",multi=true, text="\n\n玻璃幕墙之外，是浑浊、黑暗的海水。",x=240, y=150,alignment="left",delay=0.04,width=700,isblock=true)]
+[Sticker(id="st2",multi=true, text="\n\n那里本该有一座缀满旗帜的旗语塔。在这座万帆来朝之都，所有商人与使节唯一共通的语言，就是它打出的旗语。",x=240, y=260,delay=0.04,alignment="left",width=700,isblock=true)]
+[Sticker(id="st3",multi=true, text="\n\n但现在，它消失得无影无踪。",x=240, y=370, alignment="left",delay=0.04,width=700,isblock=true)]
+[Sticker(id="st1", duration=2, block=false)]
+[Sticker(id="st2", duration=2, block=false)]
+[Sticker(id="st3", duration=2, block=false)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="74_g13_underseahall_n",screenadapt="coverall",fadetime=2)]
+[Delay(time=2)]
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]如果你执意要把这件事当作你对我的偿还，那你还清了，瓦列里奥。
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]多亏你抹去了港都的坐标，遮住了审判庭的眼睛……
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]它才好延续那耽搁了六十多年的行程。
+[charslot(slot = "m", name = "avg_npc_941_1#7$1")]
+[name="奥卢斯"]真是好久不见了啊，雷亚-伊比利亚。
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Background]
+[Image]

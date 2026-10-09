@@ -1,5 +1,27 @@
 {
   "basicInfo": {
+    "act52side": {
+      "id": "act52side",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "昨日海",
+      "startTime": 1791500400,
+      "endTime": 1792699199,
+      "rewardEndTime": 1793303999,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act52side",
+      "medalGroupId": "medalGroupActivity52side",
+      "ungroupedMedalIds": [],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 0,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act3break": {
       "id": "act3break",
       "type": "VEC_BREAK_V2",
@@ -8473,6 +8495,8 @@
     }
   },
   "zoneToActivity": {
+    "act52side_zone1": "act52side",
+    "act52side_zone2": "act52side",
     "act3break_zone1": "act3break",
     "act3break_zone2": "act3break",
     "act3break_zone3": "act3break",
@@ -8784,6 +8808,785 @@
     "act2access": 1745674200
   },
   "missionData": [
+    {
+      "id": "52sideActivity_1",
+      "sortId": 1,
+      "description": "通关YW-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_2",
+      "sortId": 2,
+      "description": "通关YW-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 40
+        },
+        {
+          "type": "FURN",
+          "id": "furni_clmsRoom_lamp_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_3",
+      "sortId": 3,
+      "description": "通关YW-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 70
+        },
+        {
+          "type": "FURN",
+          "id": "furni_clmsRoom_pool_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_4",
+      "sortId": 4,
+      "description": "通关YW-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 70
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4232_hbound",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_5",
+      "sortId": 5,
+      "description": "通关YW-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 70
+        },
+        {
+          "type": "FURN",
+          "id": "furni_clmsRoom_stoneclock_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_6",
+      "sortId": 6,
+      "description": "以3星评价完成YW-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_05",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_7",
+      "sortId": 7,
+      "description": "通关YW-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_clmsRoom_carpet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_8",
+      "sortId": 8,
+      "description": "以3星评价完成YW-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_clmsRoom_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_9",
+      "sortId": 9,
+      "description": "通关YW-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_clmsRoom_chandelier_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_10",
+      "sortId": 10,
+      "description": "以3星评价完成YW-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_clmsRoom_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_11",
+      "sortId": 11,
+      "description": "通关YW-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_clmsRoom_equiplight_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_12",
+      "sortId": 12,
+      "description": "以3星评价完成YW-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_13",
+      "sortId": 13,
+      "description": "通关YW-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_14",
+      "sortId": 14,
+      "description": "通关YW-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_15",
+      "sortId": 15,
+      "description": "通关YW-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_16",
+      "sortId": 16,
+      "description": "通关YW-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_17",
+      "sortId": 17,
+      "description": "通关YW-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_18",
+      "sortId": 18,
+      "description": "通关YW-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_19",
+      "sortId": 19,
+      "description": "通关YW-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_20",
+      "sortId": 20,
+      "description": "通关YW-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_21",
+      "sortId": 21,
+      "description": "通关YW-EX-8突袭模式",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_ex08#f#",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terracommericials_rawPulp_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_22",
+      "sortId": 22,
+      "description": "通关活动关卡15次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_01^act52side_02^act52side_03^act52side_04^act52side_05^act52side_06^act52side_07^act52side_08^act52side_ex01^act52side_ex01#f#^act52side_ex02^act52side_ex02#f#^act52side_ex03^act52side_ex03#f#^act52side_ex04^act52side_ex04#f#^act52side_ex05^act52side_ex05#f#^act52side_ex06^act52side_ex06#f#^act52side_ex07^act52side_ex07#f#^act52side_ex08^act52side_ex08#f#",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_23",
+      "sortId": 23,
+      "description": "通关活动关卡45次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_01^act52side_02^act52side_03^act52side_04^act52side_05^act52side_06^act52side_07^act52side_08^act52side_ex01^act52side_ex01#f#^act52side_ex02^act52side_ex02#f#^act52side_ex03^act52side_ex03#f#^act52side_ex04^act52side_ex04#f#^act52side_ex05^act52side_ex05#f#^act52side_ex06^act52side_ex06#f#^act52side_ex07^act52side_ex07#f#^act52side_ex08^act52side_ex08#f#",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "52sideActivity_24",
+      "sortId": 24,
+      "description": "通关活动关卡85次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": [],
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act52side_01^act52side_02^act52side_03^act52side_04^act52side_05^act52side_06^act52side_07^act52side_08^act52side_ex01^act52side_ex01#f#^act52side_ex02^act52side_ex02#f#^act52side_ex03^act52side_ex03#f#^act52side_ex04^act52side_ex04#f#^act52side_ex05^act52side_ex05#f#^act52side_ex06^act52side_ex06#f#^act52side_ex07^act52side_ex07#f#^act52side_ex08^act52side_ex08#f#",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": [],
+      "missionGroup": "act52side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act52side_token_scope",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
     {
       "id": "54sideActivity_1",
       "sortId": 1,
@@ -125935,6 +126738,42 @@
   ],
   "missionGroup": [
     {
+      "id": "act52side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": [],
+      "rewards": [],
+      "missionIds": [
+        "52sideActivity_1",
+        "52sideActivity_2",
+        "52sideActivity_3",
+        "52sideActivity_4",
+        "52sideActivity_5",
+        "52sideActivity_6",
+        "52sideActivity_7",
+        "52sideActivity_8",
+        "52sideActivity_9",
+        "52sideActivity_10",
+        "52sideActivity_11",
+        "52sideActivity_12",
+        "52sideActivity_13",
+        "52sideActivity_14",
+        "52sideActivity_15",
+        "52sideActivity_16",
+        "52sideActivity_17",
+        "52sideActivity_18",
+        "52sideActivity_19",
+        "52sideActivity_20",
+        "52sideActivity_21",
+        "52sideActivity_22",
+        "52sideActivity_23",
+        "52sideActivity_24"
+      ],
+      "startTs": 1791500400,
+      "endTs": 1793303999
+    },
+    {
       "id": "act54side",
       "title": null,
       "type": "ACTIVITY",
@@ -159355,6 +160194,32 @@
       }
     },
     "TYPE_ACT9D0": {
+      "act52side": {
+        "tokenItemId": "act52side_token_scope",
+        "zoneDescList": {
+          "act52side_zone1": {
+            "zoneId": "act52side_zone1",
+            "unlockText": "尚未解锁",
+            "displayStartTime": 1791500400
+          },
+          "act52side_zone2": {
+            "zoneId": "act52side_zone2",
+            "unlockText": "完成「雷亚-伊比利亚」后解锁",
+            "displayStartTime": 1791500400
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": {},
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": {},
+        "newsServerInfoList": {},
+        "miscHub": {},
+        "constData": {
+          "campaignEnemyCnt": 0,
+          "campaignStageId": null
+        }
+      },
       "act43sre": {
         "tokenItemId": "act43side_token_phantom_rep_1",
         "zoneDescList": {
@@ -251789,8 +252654,6 @@
             "zoneId": "zone_1",
             "sortId": 1,
             "zoneName": "超级钩爪",
-            "zoneEntryPicId": "zone_1",
-            "stageInfoPrefabId": "zone_1",
             "startTs": 1735459200,
             "endTs": 1736625599,
             "stages": [
@@ -251805,8 +252668,6 @@
             "zoneId": "zone_2",
             "sortId": 2,
             "zoneName": "喷泉大战",
-            "zoneEntryPicId": "zone_2",
-            "stageInfoPrefabId": "zone_2",
             "startTs": 1735459200,
             "endTs": 1736625599,
             "stages": [
@@ -251821,8 +252682,6 @@
             "zoneId": "zone_3",
             "sortId": 3,
             "zoneName": "心连心",
-            "zoneEntryPicId": "zone_3",
-            "stageInfoPrefabId": "zone_3",
             "startTs": 1736020800,
             "endTs": 1736625599,
             "stages": [
@@ -251837,8 +252696,6 @@
             "zoneId": "zone_4",
             "sortId": 4,
             "zoneName": "障碍飞车",
-            "zoneEntryPicId": "zone_4",
-            "stageInfoPrefabId": "zone_4",
             "startTs": 1736020800,
             "endTs": 1736625599,
             "stages": [
@@ -251917,49 +252774,7 @@
                 "desc": "【钩爪】的技力需求降低",
                 "buffId": "arcade_miner_hook",
                 "unlockDesc": "超级钩爪项目内第一关达到A得分评级",
-                "runeData": {
-                  "id": "arcade_miner_hook",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "黄金矿工模式钩爪的sp消耗降低",
-                  "runes": [
-                    {
-                      "key": "char_skill_cd_add",
-                      "selector": {
-                        "professionMask": 256,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "value",
-                          "value": -2.0,
-                          "valueStr": null
-                        },
-                        {
-                          "key": "char",
-                          "value": 0.0,
-                          "valueStr": "trap_192_archook"
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               },
               "badge_zone_1_2": {
                 "badgeTierId": "badge_zone_1_2",
@@ -251971,59 +252786,7 @@
                 "desc": "出现带有星标的敌人，该敌人的关卡得分大幅增加",
                 "buffId": "arcade_miner_random",
                 "unlockDesc": "超级钩爪项目内所有关卡达到A得分评级",
-                "runeData": {
-                  "id": "arcade_miner_random",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "场上出现高分值星标敌人",
-                  "runes": [
-                    {
-                      "key": "env_gbuff_new_with_verify",
-                      "selector": {
-                        "professionMask": 1023,
-                        "buildableMask": 3,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "key",
-                          "value": 0.0,
-                          "valueStr": "gamecity_gbuff_miner_3"
-                        },
-                        {
-                          "key": "char",
-                          "value": 0.0,
-                          "valueStr": "trap_192_archook"
-                        },
-                        {
-                          "key": "scale",
-                          "value": 5.0,
-                          "valueStr": null
-                        },
-                        {
-                          "key": "interval",
-                          "value": 2.0,
-                          "valueStr": null
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               },
               "badge_zone_1_3": {
                 "badgeTierId": "badge_zone_1_3",
@@ -252035,49 +252798,7 @@
                 "desc": "敌人被阻挡时获得失重",
                 "buffId": "arcade_miner_mass",
                 "unlockDesc": "超级钩爪项目内所有关卡达到SS得分评级",
-                "runeData": {
-                  "id": "arcade_miner_mass",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "敌人被阻挡时失重",
-                  "runes": [
-                    {
-                      "key": "enemy_dynamic_ability_new",
-                      "selector": {
-                        "professionMask": 0,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "key",
-                          "value": 0.0,
-                          "valueStr": "gamecity_gbuff_miner_2"
-                        },
-                        {
-                          "key": "mass_level",
-                          "value": -1.0,
-                          "valueStr": null
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               }
             }
           },
@@ -252100,49 +252821,7 @@
                 "desc": "初始获得一瓶【口渴乐乐】",
                 "buffId": "arcade_turf_soda",
                 "unlockDesc": "喷泉大战项目内第一关达到A得分评级",
-                "runeData": {
-                  "id": "arcade_turf_soda",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "初始获得一瓶【单瓶汽水】",
-                  "runes": [
-                    {
-                      "key": "insert_token_card",
-                      "selector": {
-                        "professionMask": 0,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "token_key",
-                          "value": 0.0,
-                          "valueStr": "trap_194_arcsoda"
-                        },
-                        {
-                          "key": "cnt",
-                          "value": 1.0,
-                          "valueStr": null
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               },
               "badge_zone_2_2": {
                 "badgeTierId": "badge_zone_2_2",
@@ -252154,44 +252833,7 @@
                 "desc": "干员部署时在当前地块产生一个纯白水汽",
                 "buffId": "arcade_turf_white",
                 "unlockDesc": "喷泉大战项目内所有关卡达到A得分评级",
-                "runeData": {
-                  "id": "arcade_turf_white",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "干员部署时在所在的格子产生一个纯白水汽",
-                  "runes": [
-                    {
-                      "key": "env_gbuff_new",
-                      "selector": {
-                        "professionMask": 639,
-                        "buildableMask": 3,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "key",
-                          "value": 0.0,
-                          "valueStr": "gamecity_draw_buff_3"
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               },
               "badge_zone_2_3": {
                 "badgeTierId": "badge_zone_2_3",
@@ -252203,49 +252845,7 @@
                 "desc": "位于纯白水汽上的我方干员再部署时间减少",
                 "buffId": "arcade_turf_respawn",
                 "unlockDesc": "喷泉大战项目内所有关卡达到SS得分评级",
-                "runeData": {
-                  "id": "arcade_turf_respawn",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "位于纯白水汽上的我方干员再部署时间减少30%",
-                  "runes": [
-                    {
-                      "key": "env_gbuff_new",
-                      "selector": {
-                        "professionMask": 639,
-                        "buildableMask": 3,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "key",
-                          "value": 0.0,
-                          "valueStr": "gamecity_draw_buff_2"
-                        },
-                        {
-                          "key": "respawn_time",
-                          "value": -0.3,
-                          "valueStr": null
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               }
             }
           },
@@ -252268,49 +252868,7 @@
                 "desc": "初始获得一个【大力拳套】",
                 "buffId": "arcade_chain_extra_pw",
                 "unlockDesc": "心连心项目内第一关达到A得分评级",
-                "runeData": {
-                  "id": "arcade_chain_extra_pw",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "初始获得一个神力器",
-                  "runes": [
-                    {
-                      "key": "insert_token_card",
-                      "selector": {
-                        "professionMask": 0,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "token_key",
-                          "value": 0.0,
-                          "valueStr": "trap_195_arcpw"
-                        },
-                        {
-                          "key": "cnt",
-                          "value": 1.0,
-                          "valueStr": null
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               },
               "badge_zone_3_2": {
                 "badgeTierId": "badge_zone_3_2",
@@ -252322,49 +252880,7 @@
                 "desc": "稳固锁链的连接范围扩大",
                 "buffId": "arcade_chain_lgth",
                 "unlockDesc": "心连心项目内所有关卡达到A得分评级",
-                "runeData": {
-                  "id": "arcade_chain_lgth",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "直线连接干员时，最大范围延长1格",
-                  "runes": [
-                    {
-                      "key": "assign_other_rune_blackb",
-                      "selector": {
-                        "professionMask": 0,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "rune_alias",
-                          "value": 0.0,
-                          "valueStr": "gamecity"
-                        },
-                        {
-                          "key": "range_id",
-                          "value": 0.0,
-                          "valueStr": "x-3"
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               },
               "badge_zone_3_3": {
                 "badgeTierId": "badge_zone_3_3",
@@ -252376,49 +252892,7 @@
                 "desc": "干员在锁链中时技力自然回复速度提升（同类效果取最高）",
                 "buffId": "arcade_chain_sp",
                 "unlockDesc": "心连心项目内所有关卡达到SS得分评级",
-                "runeData": {
-                  "id": "arcade_chain_sp",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "干员在锁链中时技力自然回复速度+0.5/秒（和技力光环不叠加，取最高）",
-                  "runes": [
-                    {
-                      "key": "env_gbuff_new",
-                      "selector": {
-                        "professionMask": 639,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "key",
-                          "value": 0.0,
-                          "valueStr": "gamecity_line_buff_1"
-                        },
-                        {
-                          "key": "sp_recovery_per_sec",
-                          "value": 0.5,
-                          "valueStr": null
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               }
             }
           },
@@ -252441,49 +252915,7 @@
                 "desc": "初始获得一个【自走车转向器】",
                 "buffId": "arcade_taxi_turngear",
                 "unlockDesc": "障碍飞车项目内第一关达到A得分评级",
-                "runeData": {
-                  "id": "arcade_taxi_turngear",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "初始额外获得一个自走车转向器",
-                  "runes": [
-                    {
-                      "key": "insert_token_card",
-                      "selector": {
-                        "professionMask": 0,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "token_key",
-                          "value": 0.0,
-                          "valueStr": "trap_081_turngear"
-                        },
-                        {
-                          "key": "cnt",
-                          "value": 1.0,
-                          "valueStr": null
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               },
               "badge_zone_4_2": {
                 "badgeTierId": "badge_zone_4_2",
@@ -252495,44 +252927,7 @@
                 "desc": "场上出现额外的【两栖码头】",
                 "buffId": "arcade_taxi_grg",
                 "unlockDesc": "障碍飞车项目内所有关卡达到A得分评级",
-                "runeData": {
-                  "id": "arcade_taxi_grg",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "场上出现额外的自走车发射器",
-                  "runes": [
-                    {
-                      "key": "level_hidden_group_enable",
-                      "selector": {
-                        "professionMask": 0,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "key",
-                          "value": 0.0,
-                          "valueStr": "talent2"
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               },
               "badge_zone_4_3": {
                 "badgeTierId": "badge_zone_4_3",
@@ -252544,49 +252939,7 @@
                 "desc": "【搁浅零件】出现的更加频繁",
                 "buffId": "arcade_taxi_interval",
                 "unlockDesc": "障碍飞车项目内所有关卡达到SS得分评级",
-                "runeData": {
-                  "id": "arcade_taxi_interval",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "场景中的特殊buff标记出现的更加频繁",
-                  "runes": [
-                    {
-                      "key": "assign_other_rune_blackb",
-                      "selector": {
-                        "professionMask": 0,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "rune_alias",
-                          "value": 0.0,
-                          "valueStr": "gamecity"
-                        },
-                        {
-                          "key": "interval",
-                          "value": 40.0,
-                          "valueStr": null
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               }
             }
           },
@@ -252609,54 +252962,7 @@
                 "desc": "【扭蛋机】初始获得一次充能",
                 "buffId": "arcade_global_gacha_sp",
                 "unlockDesc": "累计使用扭蛋机释放技能60次",
-                "runeData": {
-                  "id": "arcade_global_gacha_sp",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "扭蛋机初始获得一次充能",
-                  "runes": [
-                    {
-                      "key": "env_gbuff_new_with_verify",
-                      "selector": {
-                        "professionMask": 256,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "key",
-                          "value": 0.0,
-                          "valueStr": "game_city_trap_modify_sp[born]"
-                        },
-                        {
-                          "key": "char",
-                          "value": 0.0,
-                          "valueStr": "trap_187_arcgacha"
-                        },
-                        {
-                          "key": "sp",
-                          "value": 30.0,
-                          "valueStr": null
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               }
             }
           },
@@ -252679,44 +252985,7 @@
                 "desc": "初始部署位增加",
                 "buffId": "arcade_placable_num_add",
                 "unlockDesc": "战斗中累计击败大富翁或宝藏神偷3次",
-                "runeData": {
-                  "id": "arcade_placable_num_add",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "初始部署位+1",
-                  "runes": [
-                    {
-                      "key": "global_placable_char_num_add",
-                      "selector": {
-                        "professionMask": 0,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "value",
-                          "value": 1.0,
-                          "valueStr": null
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               }
             }
           },
@@ -252739,44 +253008,7 @@
                 "desc": "支援道具的部署费用降低",
                 "buffId": "arcade_global_trap_cost",
                 "unlockDesc": "战斗中累计部署超时空电话亭、菜单电话机20次",
-                "runeData": {
-                  "id": "arcade_global_trap_cost",
-                  "points": 0.0,
-                  "mutexGroupKey": null,
-                  "description": "trap部署费用-5",
-                  "runes": [
-                    {
-                      "key": "char_cost_add",
-                      "selector": {
-                        "professionMask": 256,
-                        "buildableMask": 0,
-                        "playerSideMask": 0,
-                        "sideType": 7,
-                        "charIdFilter": [],
-                        "charIdExcludeFilter": [],
-                        "enemyIdFilter": [],
-                        "enemyIdExcludeFilter": [],
-                        "enemyLevelTypeFilter": [],
-                        "enemyActionHiddenGroupFilter": [],
-                        "skillIdFilter": [],
-                        "tileKeyFilter": [],
-                        "groupTagFilter": [],
-                        "filterTagFilter": [],
-                        "filterTagExcludeFilter": [],
-                        "subProfessionExcludeFilter": [],
-                        "mapTagFilter": [],
-                        "heightTypeMask": 3
-                      },
-                      "blackboard": [
-                        {
-                          "key": "value",
-                          "value": -5.0,
-                          "valueStr": null
-                        }
-                      ]
-                    }
-                  ]
-                }
+                "runeData": null
               }
             }
           }
@@ -253281,6 +253513,8 @@
           "rewardHomeThemeText": "点数等级达到{0}级领取",
           "rewardAvatarId": "avatar_activity_ARC1",
           "rewardAvatarText": "点数等级达到{0}级领取",
+          "rewardBackgroundId": null,
+          "rewardBackgroundText": null,
           "badgeCollectionName": "秘籍打印卡",
           "collectionEntryRelatedBadge": "badge_ulti_1",
           "zoneEntryUnlockToast": "项目当前暂未开放",
@@ -402026,7 +402260,7 @@
             "charName": "吉阿达",
             "descUpright": "平衡、耐心、谨慎、调和",
             "descReverse": "焦躁、极端、仓促、鲁莽",
-            "unlockStageId": "act54side_st01"
+            "unlockStageId": "act54side_01"
           },
           "tarot_2": {
             "cardId": "tarot_2",
@@ -402035,7 +402269,7 @@
             "charName": "裘里奥",
             "descUpright": "沉思、等待、牺牲、改变视角",
             "descReverse": "拖延、停滞、漠然、优柔寡断",
-            "unlockStageId": "act54side_st01"
+            "unlockStageId": "act54side_01"
           },
           "tarot_3": {
             "cardId": "tarot_3",
@@ -402044,7 +402278,7 @@
             "charName": "执行者",
             "descUpright": "审视、独处、求真、寻找自我",
             "descReverse": "逃避、孤独、被困、自命不凡",
-            "unlockStageId": "act54side_st01"
+            "unlockStageId": "act54side_02"
           },
           "tarot_4": {
             "cardId": "tarot_4",
@@ -402053,7 +402287,7 @@
             "charName": "班长",
             "descUpright": "希望、治愈、新生、信念",
             "descReverse": "绝望、挫败、自苛、妄求",
-            "unlockStageId": "act54side_01"
+            "unlockStageId": "act54side_02"
           },
           "tarot_5": {
             "cardId": "tarot_5",
@@ -402062,7 +402296,7 @@
             "charName": "班主任",
             "descUpright": "知识、信仰、道德、导师",
             "descReverse": "无知、受限、伪善、背叛",
-            "unlockStageId": "act54side_01"
+            "unlockStageId": "act54side_03"
           },
           "tarot_6": {
             "cardId": "tarot_6",
@@ -402071,7 +402305,7 @@
             "charName": "梵里妮",
             "descUpright": "勇敢、真诚、自信、毅力",
             "descReverse": "怯懦、恐惧、自卑、强硬",
-            "unlockStageId": "act54side_03"
+            "unlockStageId": "act54side_04"
           },
           "tarot_7": {
             "cardId": "tarot_7",
@@ -402080,7 +402314,7 @@
             "charName": "安德切尔",
             "descUpright": "意志、创造、智谋、资源充沛",
             "descReverse": "诡计、操纵、游移、滥用能力",
-            "unlockStageId": "act54side_03"
+            "unlockStageId": "act54side_05"
           },
           "tarot_8": {
             "cardId": "tarot_8",
@@ -402089,7 +402323,7 @@
             "charName": "伊蒂达",
             "descUpright": "胜利、专注、决心、控制力",
             "descReverse": "冲动、失控、无力、走错路",
-            "unlockStageId": "act54side_04"
+            "unlockStageId": "act54side_05"
           }
         },
         "spreads": {
@@ -403451,6 +403685,9 @@
     }
   },
   "activityItems": {
+    "act52side": [
+      "act52side_token_scope"
+    ],
     "act3break": [
       "act3break_milestone_point"
     ],
@@ -404066,6 +404303,10 @@
     "act11d7": [
       1597132800,
       1597953599
+    ],
+    "act52side": [
+      1791500400,
+      1792699199
     ],
     "act43sre": [
       1784491200,
@@ -406871,7 +407112,9 @@
           "newCol": "e2ff40",
           "mainBtnCol": "333333",
           "mainBtnLightCol": "dfff71",
-          "progressDotCol": "000000"
+          "progressDotCol": "000000",
+          "unreceivedBtnBgCol": null,
+          "unreceivedBtnTxtCol": null
         },
         "1": {
           "itemList": [
@@ -406910,7 +407153,9 @@
           "newCol": "e2ff40",
           "mainBtnCol": "333333",
           "mainBtnLightCol": "dfff71",
-          "progressDotCol": "000000"
+          "progressDotCol": "000000",
+          "unreceivedBtnBgCol": null,
+          "unreceivedBtnTxtCol": null
         },
         "2": {
           "itemList": [
@@ -406949,7 +407194,9 @@
           "newCol": "e2ff40",
           "mainBtnCol": "333333",
           "mainBtnLightCol": "dfff71",
-          "progressDotCol": "000000"
+          "progressDotCol": "000000",
+          "unreceivedBtnBgCol": null,
+          "unreceivedBtnTxtCol": null
         }
       },
       "apSupplyOutOfDateDict": {}
@@ -406998,7 +407245,9 @@
           "newCol": null,
           "mainBtnCol": null,
           "mainBtnLightCol": null,
-          "progressDotCol": null
+          "progressDotCol": null,
+          "unreceivedBtnBgCol": null,
+          "unreceivedBtnTxtCol": null
         },
         "1": {
           "itemList": [
@@ -407042,7 +407291,9 @@
           "newCol": null,
           "mainBtnCol": null,
           "mainBtnLightCol": null,
-          "progressDotCol": null
+          "progressDotCol": null,
+          "unreceivedBtnBgCol": null,
+          "unreceivedBtnTxtCol": null
         },
         "2": {
           "itemList": [
@@ -407086,7 +407337,9 @@
           "newCol": null,
           "mainBtnCol": null,
           "mainBtnLightCol": null,
-          "progressDotCol": null
+          "progressDotCol": null,
+          "unreceivedBtnBgCol": null,
+          "unreceivedBtnTxtCol": null
         }
       },
       "apSupplyOutOfDateDict": {
@@ -407137,7 +407390,9 @@
           "newCol": null,
           "mainBtnCol": null,
           "mainBtnLightCol": null,
-          "progressDotCol": null
+          "progressDotCol": null,
+          "unreceivedBtnBgCol": null,
+          "unreceivedBtnTxtCol": null
         },
         "1": {
           "itemList": [
@@ -407181,7 +407436,9 @@
           "newCol": null,
           "mainBtnCol": null,
           "mainBtnLightCol": null,
-          "progressDotCol": null
+          "progressDotCol": null,
+          "unreceivedBtnBgCol": null,
+          "unreceivedBtnTxtCol": null
         },
         "2": {
           "itemList": [
@@ -407225,7 +407482,9 @@
           "newCol": null,
           "mainBtnCol": null,
           "mainBtnLightCol": null,
-          "progressDotCol": null
+          "progressDotCol": null,
+          "unreceivedBtnBgCol": null,
+          "unreceivedBtnTxtCol": null
         }
       },
       "apSupplyOutOfDateDict": {
@@ -413010,6 +413269,26 @@
       ],
       "picGroups": [],
       "startTs": 1790668800
+    },
+    {
+      "id": "dis_side_52",
+      "type": 1,
+      "funcId": "act52side",
+      "endTs": 1792699199,
+      "sortId": 164,
+      "itemId": "act52side_token_scope",
+      "timeNodes": [
+        {
+          "title": "<昨日海>活动已开放",
+          "ts": 1791500400
+        },
+        {
+          "title": "\"我们的伊比利亚\"内关卡已开放",
+          "ts": 1792137600
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1791500400
     }
   ],
   "actFunData": {
@@ -448718,6 +448997,28 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act52side": {
+      "isMissionBgCustomType": false,
+      "bigRewardType": 1,
+      "bigRewardParamList": [
+        "char_4232_hbound",
+        "通关YW-4后可招募此干员",
+        "4baebd",
+        "-63,-171"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": 0,
+      "coinType": 0,
+      "coinBackColor": "25636c"
+    },
     "act54side": {
       "isMissionBgCustomType": true,
       "bigRewardType": 2,

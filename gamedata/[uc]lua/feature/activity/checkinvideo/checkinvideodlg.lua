@@ -5,20 +5,23 @@ local luaUtils = CS.Torappu.Lua.Util;
 
 
 
+
 CheckinVideoDlg = Class("CheckinVideoDlg", DlgBase);
 
 local CheckinVideoViewModel = require("Feature/Activity/CheckinVideo/CheckinVideoViewModel");
 local CheckinVideoInfoView = require("Feature/Activity/CheckinVideo/CheckinVideoInfoView");
 local CheckinVideoProgressGroupView = require("Feature/Activity/CheckinVideo/CheckinVideoProgressGroupView");
+local CheckinVideoDynImageView = require("Feature/Activity/CheckinVideo/CheckinVideoDynImageView");
 
 local AVATAR_COMP_NAME = "avatar";
 local SHARE_IMG_COMP_NAME = {"shareImg1","shareImg2","shareImg3","shareImg4"};
+local MAIN_BG_ICON_ID = "main_bg";
 
 function CheckinVideoDlg:OnInit()
   local actId = self.m_parent:GetData("actId");
   self.m_viewModel = self:CreateViewModel(CheckinVideoViewModel);
   self.m_viewModel:LoadData(actId);
-
+  
   local infoView = self:CreateWidgetByGO(CheckinVideoInfoView, self._infoView);
   infoView.onNextBtnClicked = Event.Create(self, self._EventOnNextBtnClicked);
   infoView.onPrevBtnClicked = Event.Create(self, self._EventOnPrevBtnClicked);
@@ -26,10 +29,13 @@ function CheckinVideoDlg:OnInit()
   infoView.onReplayBtnClicked = Event.Create(self, self._EventOnReplayBtnClicked);
   infoView.onShareBtnClicked = Event.Create(self, self._EventOnShareBtnClicked);
   infoView.onSecondBtnClicked = Event.Create(self, self._EventOnSecondBtnClicked);
-
+  
   self:CreateWidgetByGO(CheckinVideoProgressGroupView, self._progressView);
-
+  
   self.m_viewModel:NotifyUpdate();
+
+  local mainBg = self:CreateWidgetByGO(CheckinVideoDynImageView, self._mainBg);
+  mainBg:Render(MAIN_BG_ICON_ID, CS.Torappu.ResourceUrls.GetCheckinVideoImageHubPath(actId));
 end
 
 function CheckinVideoDlg:_EventOnNextBtnClicked()

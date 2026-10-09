@@ -1,0 +1,279 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="74_g14_ibchurch_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playMusic(intro="$jealous_intro",key="$jealous_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2273_1#1$1",duration=1)]
+[delay(time=2)]
+[name="哀恸的岛民"]阿奎拉离开我们了……
+[name="哀恸的岛民"]如果不是因为她，我可能到现在还每天躲在家里，只敢晚上出门……
+[name="哀恸的岛民"]是她推荐我进入打捞中心，虽然她总说这也不是什么好差事，但我知道如今已经好过之前的日子了。
+[charslot(slot = "m", name = "avg_npc_2272_1#1$1")]
+[name="愤怒的岛民"]她是为我们而死的。
+[name="愤怒的岛民"]她去执行了整个计划里最冒险的那一环，又为了不让审判庭查出我们而死在了狱中。
+[name="愤怒的岛民"]现在，我们必须把事情做完。
+[charslot(slot = "m", name = "avg_npc_2273_1#1$1")]
+[name="哀恸的岛民"]盖乌斯……
+[charslot(slot = "m", name = "avg_4232_hbound_1#3$1")]
+[name="纳乔"]……
+[charslot(slot = "m", name = "avg_npc_2272_1#1$1")]
+[name="愤怒的岛民"]如果这孩子也自认是岛民的一分子，他就不会说出去。
+[name="愤怒的岛民"]纳乔，你和阿奎拉一起长大，你也不希望她白死，不是吗？
+[charslot(slot = "m", name = "avg_npc_2273_1#1$1")]
+[name="哀恸的岛民"]盖乌斯！过分了。
+[charslot(slot = "m", name = "avg_npc_2272_1#1$1")]
+[name="愤怒的岛民"]我说的不是实话吗？
+[name="愤怒的岛民"]阿奎拉的死，换来的不该是这些优柔寡断的疑虑。服软不会让伊比利亚重视我们，流血才会。
+[charslot(slot = "m", name = "avg_npc_2273_1#1$1")]
+[name="哀恸的岛民"]流血……我们的计划里不包括直接对伊比利亚人动手！
+[charslot(slot = "m", name = "avg_npc_2272_1#1$1")]
+[name="愤怒的岛民"]可他们早就动手了。纳乔的手是怎么没的，你不清楚？被当街烧死、打死的那些人里，就没有你的家人朋友？
+[charslot(slot = "m", name = "avg_4232_hbound_1#10$1")]
+[name="纳乔"]……
+[charslot(slot = "m", name = "avg_npc_2272_1#1$1")]
+[name="愤怒的岛民"]港都是我们的祖辈一手设计建造的，可哪怕它马上就要重见天日，伊比利亚人都想不起来这个事实。
+[name="愤怒的岛民"]一面当我们是招来灾祸的罪人，一面又想要把我们祖辈留下的遗产据为己有……那我宁愿让那座中心城区沉在海底。
+[charslot(slot = "m", name = "avg_npc_2273_1#1$1")]
+[name="认同的岛民"]没错！
+[charslot(slot = "m", name = "avg_npc_2272_1#1$1")]
+[name="愤怒的岛民"]明天，我们分头行动，目标是破坏给起重机供能的灯塔矩阵。
+[name="愤怒的岛民"]所有人把潜水服都准备好，我们从水下走，这样最快也最隐蔽。阿奎拉的位置，由我来替。
+[name="愤怒的岛民"]已经搭上了人命，我们就绝不能失败。
+[charslot(slot = "m", name = "avg_npc_2273_1#1$1")]
+[name="认同的岛民"]明白。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g3_seasidest_d",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$storyendjp_intro",key="$storyendjp_loop", volume=0.6)]
+[PlaySound(key="$d_gen_walk_n", volume=0.7)]
+[charslot(slot = "m", name = "avg_4232_hbound_1#10$1",duration=1)]
+[delay(time=2)]
+[name="纳乔"]……
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]你看起来更困惑了。
+[charslot(slot = "m", name = "avg_4232_hbound_1#10$1")]
+[name="纳乔"]阿奎拉是要袭击灯塔矩阵，破坏打捞计划……
+[name="纳乔"]也是，我其实不是没有察觉到。我只是骗自己，她在打捞中心卖力工作，是因为对未来的生活还抱有期望。
+[name="纳乔"]是我一直不愿意相信，她从始至终都只是在为破坏做准备。
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]是的。
+[charslot(slot = "m", name = "avg_4232_hbound_1#10$1")]
+[name="纳乔"]鲁菲纳奶奶当年做那些事的时候，我没有参与；阿奎拉做这些准备的时候，我也没有参与。
+[name="纳乔"]我以为这样，就可以少一点人受伤。
+[name="纳乔"]但其实，我什么都不做，所有事情一样都会发生，对不对？
+[name="纳乔"]阿奎拉也好，鲁菲纳奶奶也好，她们永远不会停止挣扎。
+[name="纳乔"]所以她们也永远都不会停止受伤。奶奶病死了，阿奎拉自杀了……我甚至都不知道自己在旁边什么都不做，是要避免让谁受伤。
+[name="纳乔"]我自己吗？
+[name="纳乔"]可我不想只有自己安然无恙。
+[charslot]
+奥卢斯轻轻握住纳乔的右臂，烧伤的瘢痕狰狞地攀在苍白的肩膀上，格外扎眼。
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]你不是安然无恙，你受到过的伤害，每天都在以最直白的方式折磨你。但你还是可以决定，这些苦，你到底要为谁而受。
+[name="奥卢斯"]你可以加入那些岛民，成为反抗者的一员；你也可以抛弃他们，变成审判庭的助手。
+[name="奥卢斯"]不论你如何选择，纳乔，我向你保证，我都可以治好你的手臂。
+[charslot(slot = "m", name = "avg_4232_hbound_1#10$1")]
+[name="纳乔"]治好我的手臂……
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g10_underseacorr",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[PlaySound(key="$d_gen_walk_n", volume=0.7)]
+[charslot(slot = "l", name = "avg_4232_hbound_1#3$1",duration=1)]
+[delay(time=2)]
+[name="纳乔"]……
+[charslot(slot = "m", focus = "n")]
+[name="？？？"]纳乔？
+[dialog]
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",duration=1)]
+[delay(time=2)]
+[charslot(slot = "l", name = "avg_4232_hbound_1#4$1",focus="l")]
+[name="纳乔"]克莱门莎监事。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]你昨天没来打捞中心，我担心你的状况。
+[charslot(slot = "l", name = "avg_4232_hbound_1#10$1",focus="l")]
+[name="纳乔"]我本想找找帮得上阿奎拉的办法。但，已经不需要了。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#6$1",focus="r")]
+[name="克莱门莎"]我很遗憾。审判庭会出具详细的事件说明，如果你想了解究竟发生了什么……当然，如果你想回避，我也理解。
+[charslot(slot = "l", name = "avg_4232_hbound_1#1$1",focus="l")]
+[name="纳乔"]我会去看的。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]塔西塔告诉我，你来找我的时候，伤得非常严重，那现在——
+[charslot(slot = "l", name = "avg_4232_hbound_1#7$1",focus="l")]
+[multiline(name="纳乔")]别碰！
+[charslot(slot = "l", name = "avg_4232_hbound_1#10$1",focus="l")]
+[multiline(name="纳乔")]不……我的意思是它已经好了。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#7$1",focus="r")]
+[name="克莱门莎"]好了？
+[charslot(slot = "l", name = "avg_4232_hbound_1#3$1",focus="l")]
+[name="纳乔"]一个朋友懂些医术，帮我处理了这个问题。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]……
+[charslot(slot = "l", name = "avg_4232_hbound_1#1$1",focus="l")]
+[name="纳乔"]要是没事的话，我就先去工作了，克莱门莎监事。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]等等。
+[charslot(slot = "m", focus = "n")]
+她从口袋里掏出一枚很小的零件，放在纳乔完好无损的左手掌心上。
+纳乔一眼就认出，那是他几天前在海中丢失的螺栓。
+[charslot(slot = "l", name = "avg_4232_hbound_1#4$1",focus="l")]
+[name="纳乔"]这……
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]你丢的螺栓……是阿奎拉找到的。
+[charslot(slot = "l", name = "avg_4232_hbound_1#10$1",focus="l")]
+[name="纳乔"]阿奎拉……
+[charslot(slot = "r", name = "avg_4231_clemnt_1#6$1",focus="r")]
+[name="克莱门莎"]她被捕的时候，托人把这枚螺栓转交给你。无论她出于什么目的进行非法活动，她仍是了解你、在意你的。
+[charslot(slot = "l", name = "avg_4232_hbound_1#10$1",focus="l")]
+[name="纳乔"]了解我……是啊。
+[charslot(slot = "l", name = "avg_4232_hbound_1#1$1",focus="l")]
+[name="纳乔"]克莱门莎监事，我跟您说过我的手是怎么没的，对吗？
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]嗯，你被邻居恶意投掷的燃烧瓶所伤。
+[charslot(slot = "l", name = "avg_4232_hbound_1#9$1",focus="l")]
+[name="纳乔"]但这个故事其实还有前半段。
+[charslot(slot = "l", name = "avg_4232_hbound_1#3$1",focus="l")]
+[name="纳乔"]奶奶是建造港都的工人，伊比利亚本该给她褒奖。但大静谧之后，仅仅是不把她像其他岛民那样钉上灯柱，都成了伊比利亚的仁慈。
+[name="纳乔"]她前半生的所有心血，就那么被否认了。
+[name="纳乔"]于是她开始组织同样不满的岛民，想要证明岛民的清白、岛民的贡献、岛民的价值。
+[charslot(slot = "l", name = "avg_4232_hbound_1#7$1",focus="l")]
+[name="纳乔"]那一定不太顺利。我看到的，是他们的手段变得越来越激烈、越来越暴力。
+[name="纳乔"]到最后，似乎再也找不到别的办法了，他们开始摧毁岛民曾经亲手建设的东西——岛民亲手拉的电缆、亲手凿的水井、亲手培育的庄稼。
+[name="纳乔"]但他们只是引发了更大的恐惧，招来了更多的仇视。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#3$1",focus="r")]
+[name="克莱门莎"]那个燃烧瓶……
+[charslot(slot = "l", name = "avg_4232_hbound_1#9$1",focus="l")]
+[name="纳乔"]原本是伊比利亚人用来烧死鲁菲纳奶奶的。万幸的是，那天她正巧外出抗议，直到深夜都没回来，睡在床上的只有我。
+[charslot(slot = "l", name = "avg_4232_hbound_1#1$1",focus="l")]
+[name="纳乔"]为了给我做假肢，奶奶忙活了一个月。可家里被审判庭搜查过太多次，能用的零件都不剩多少了。
+[name="纳乔"]她捏着仅剩的那一枚螺栓，就那么怔怔地看着我。我不知道她是在愧疚，还是在难过。
+[name="纳乔"]做完假肢之后，她就一病不起。临终前，她把我叫到床头，又像那样怔怔地看着我的手。我不知道她是在后悔，还是在遗憾。
+[name="纳乔"]但有一点我很确定。
+[charslot(slot = "l", name = "avg_4232_hbound_1#7$1",focus="l")]
+[name="纳乔"]她在这枚螺栓上看到的，和阿奎拉看到的一样，是仇恨。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#6$1",focus="r")]
+[name="克莱门莎"]……
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g6_gdsquare_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2267_1#3$1",duration=1)]
+[delay(time=2)]
+[playMusic(intro="$loading_intro",key="$loading_loop", volume=0.6)]
+[name="德鲁莎"]互助会……只为疑惑、困苦、向往和平的阿戈尔人开门的教堂。
+[charslot(slot = "m", name = "avg_npc_2267_1#1$1")]
+[name="德鲁莎"]呵，这年头还有人会用这种说辞，看来他对自己的障眼法很自信啊。
+[name="德鲁莎"]小帮手，扫描附近街区是否有隐藏建筑。
+[charslot(slot = "m", name = "avg_npc_1401_1#1$1")]
+[PlaySound(key="$d_avg_microrobot", volume=1)]
+[name="小帮手"]指令无法识别。请先提供“隐藏”的定义。
+[charslot(slot = "m", name = "avg_npc_2267_1#10$1")]
+[name="德鲁莎"]啧，不能直接这样用吗……算了。
+[charslot(slot = "m", name = "avg_npc_2267_1#1$1")]
+[name="德鲁莎"]已经绕了两个街区，岛民的目击报告也汇总好了。
+[name="德鲁莎"]假设互助会是他们所有行动的起点或终点，根据阿奎拉掉落的气瓶管的位置和上次抓捕行动的逃亡路线来看……
+[name="德鲁莎"]可疑的路线一共有五条，排除会经过岗哨和审判庭临时驻扎地的，只剩三条……
+[charslot(slot = "m", name = "avg_npc_1401_1#1$1")]
+[name="小帮手"]查询中——刚才步行走过的三条路线中只有两处交会，一处是市集，而另一处是一座废弃工坊。
+[charslot(slot = "m", name = "avg_npc_2267_1#2$1")]
+[name="德鲁莎"]还行，总归比南多好用。
+[name="德鲁莎"]行了，帮我联系克莱门莎吧，我找到线索了。
+[charslot(slot = "m", name = "avg_npc_1401_1#1$1")]
+[name="小帮手"]……
+[charslot(slot = "m", name = "avg_npc_2267_1#1$1")]
+[name="德鲁莎"]联系克莱门莎。
+[charslot(slot = "m", name = "avg_npc_1401_1#1$1")]
+[name="小帮手"]……
+[charslot(slot = "m", name = "avg_npc_2267_1#9$1")]
+[name="德鲁莎"]……帮我联系打捞中心监事克莱门莎小姐。
+[charslot(slot = "m", name = "avg_npc_1401_1#1$1")]
+[PlaySound(key="$d_avg_microrobot", volume=1)]
+[name="小帮手"]收到指令。
+[charslot(slot = "m", name = "avg_npc_2267_1#10$1")]
+[name="德鲁莎"]是你本来就这么笨，还是克莱门莎给你惯的？
+[charslot]
+[dialog]
+[PlaySound(key="$d_gen_transmissionget", volume=1)]
+[charslot(slot = "l", name = "avg_npc_2267_1#1$1")]
+[delay(time=0.5)]
+[interlude(maskid = "group_interclude_vertical_common" ,size = "290,760", style=0 , offset = "200,0" ,channel = 3,tsfrom = "0,1", tsto="1,1",tsduration = 0.5)]
+[interlude(channel = 3, type = 3, slot = "r", pfrom = "220,0", pto="220,0", name = "avg_4231_clemnt_1#4$1")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true)]
+[delay(time=1)]
+[charslot(slot = "m", focus = "n")]
+[name="克莱门莎"]德鲁莎教官。
+[charslot(slot = "l", name = "avg_npc_2267_1#1$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="德鲁莎"]咳！克莱门莎监事，互助会的所在地可以锁定在两处。一处在城区东侧临海的废弃工坊，而另一处是在与广场相邻的市集之中。
+[name="德鲁莎"]但为了保证万无一失，我还需要更多线索。
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true,  pfrom = "220,0", pto="220,0", name = "avg_4231_clemnt_1#4$1")]
+[name="克莱门莎"]来不及了。我认为互助会的岛民很快就会行动。
+[charslot(slot = "l", name = "avg_npc_2267_1#1$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="德鲁莎"]你要我今晚就确认互助会所在地？不是不行。
+[charslot(slot = "l", name = "avg_npc_2267_1#9$1")]
+[name="德鲁莎"]但我怀疑他们之中有人擅长法术，哪怕我们今夜就进行搜捕，大概率也很难找到他们，不过——
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true,  pfrom = "220,0", pto="220,0", name = "avg_4231_clemnt_1#4$1")]
+[name="克莱门莎"]他们的行动会成为你进一步锁定位置的线索。
+[charslot(slot = "l", name = "avg_npc_2267_1#9$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="德鲁莎"]没错。
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true,  pfrom = "220,0", pto="220,0", name = "avg_4231_clemnt_1#2$1")]
+[name="克莱门莎"]另外，目前我们尚不清楚他们的袭击目标究竟是打捞中心还是供能灯塔矩阵，审判庭的人手不够充足，如果贸然行动，反而会出差错。
+[name="克莱门莎"]虽然有风险，但现在我们已经将互助会所在地锁定在两处，将计就计或许也会有收获。
+[charslot(slot = "l", name = "avg_npc_2267_1#5$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="德鲁莎"]你觉得互助会的背后还有其他煽动者？
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true,  pfrom = "220,0", pto="220,0", name = "avg_4231_clemnt_1#2$1")]
+[name="克莱门莎"]阿奎拉是决绝的反抗者，如果互助会由她领导，他们不会拖到现在才行动。
+[name="克莱门莎"]我猜测，互助会背后还有一个更擅长谋划和安抚人心的人，而这样的角色不会跟随反抗队伍一起行动。
+[charslot(slot = "l", name = "avg_npc_2267_1#2$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="德鲁莎"]有意思，你想让我趁袭击者倾巢而出，直接去互助会所在地会会他？
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true,  pfrom = "220,0", pto="220,0", name = "avg_4231_clemnt_1#2$1")]
+[name="克莱门莎"]很危险，请务必小心。
+[charslot(slot = "l", name = "avg_npc_2267_1#1$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="德鲁莎"]我明白，不过接下来的行动……
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true,  pfrom = "220,0", pto="220,0", name = "avg_4231_clemnt_1#2$1")]
+[name="克莱门莎"]我会向伊比利亚阁下同步我们的进展，让审判庭先保证巡逻组的正常运转，观察居住区的情况，优先保障伊比利亚民众的安全。
+[name="克莱门莎"]至于针对打捞计划的破坏行动，说实话，在阿戈尔当执政官的十五年中，我几乎每个月都会遇到类似的情况——
+[charslot(slot = "l", name = "avg_npc_2267_1#3$1")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[name="德鲁莎"]哈……我绝对不要回海里的那个“家”。
+[charslot(slot = "m", focus = "n")]
+[interlude(channel = 3, type = 3, slot = "r", switch = true,  pfrom = "220,0", pto="220,0", name = "avg_4231_clemnt_1#4$1")]
+[name="克莱门莎"]要是你不想，就不用回去。
+[name="克莱门莎"]袭击的事，我会协助审判庭处理。
+[playsound(key="$transmission")]
+[interlude(channel = 3, type = 3, slot = "m", switch = false)]
+[interlude(channel = 3, clear = true,tsfrom = "1,1", tsto="0,1",tsduration = 0.5)]
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

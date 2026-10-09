@@ -1,0 +1,393 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="74_g3_seasidest_d",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playMusic(intro="$m_dia_street_intro",key="$m_dia_street_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2275_1#1$1",duration=1)]
+[delay(time=1.5)]
+[name="洒脱的船工"]天，你不是在广场跟审判庭对着干的那个姑娘吗，怎么到船厂门口来了？埃娅，科隆·德，托多……叫什么来着？
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1",duration=0.5)]
+[delay(time=1)]
+[name="特菲"]是埃斯特菲尼娅·科隆·德·托莱多！
+[charslot(slot = "m", name = "avg_npc_2275_1#1$1")]
+[name="洒脱的船工"]这几天在哪儿都能见到你，到处宣讲黄金时代的故事，难道你真的是王室海军的后裔？
+[charslot(slot = "m", name = "avg_393_toledo_1#4$1")]
+[name="特菲"]那还有假——
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2274_1#1$1",duration=0.5)]
+[delay(time=1)]
+[name="萨尔瓦多"]伊比利亚所有的贵族和我们的黄金时代都已经死去，每一位教士、每一部经书都这么说。
+[charslot(slot = "m", name = "avg_npc_2275_1#1$1")]
+[name="洒脱的船工"]萨尔瓦多……
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1")]
+[name="特菲"]既然你认为它们已经死去，现在又为什么站在这里，参与打捞呢？
+[charslot(slot = "m", name = "avg_npc_2274_1#1$1")]
+[name="萨尔瓦多"]“圣徒在上，我愿遵循伊比利亚美德的化身的指引。”
+[name="萨尔瓦多"]“祈祷诸位能驱使审判的灯火，洗涤我们的戴罪之身，祛除因罪而滋生的孽物。”
+[name="萨尔瓦多"]我该为接触你等罪孽的化身感到羞耻，我的盐呢……我该警醒自己……
+[charslot(slot = "m", name = "avg_393_toledo_1#8$1")]
+[name="特菲"]所以你对我们充满荣光的过去，甚至对雷亚-伊比利亚长什么样子都没有期待吗？
+[charslot(slot = "m", name = "avg_393_toledo_1#13$1")]
+[name="特菲"]何其可悲，你老家的教士到底叫你抄了多少遍经？审判庭的经书本就——
+[dialog]
+[charslot]
+[stopmusic(fadetime=2)]
+[charslot(slot = "m", name = "avg_npc_2269_1#8$1",duration=0.5)]
+[delay(time=1)]
+[name="南多"]等等再跟他们攀谈吧，审判庭调查，麻烦跟我走一趟。
+[playMusic(intro="$loading_intro",key="$loading_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_393_toledo_1#15$1")]
+[name="特菲"]是你？启动仪式当天你就拦我，怎么今天又找到我头上！
+[charslot(slot = "m", name = "avg_npc_2269_1#8$1")]
+[name="南多"]满口谎言，煽动群众……我怀疑你另有所图，但这里是港都外围城区，我不会直接逮捕你，只希望你能配合接受身份调查。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1",duration=0.5)]
+[delay(time=1)]
+[name="瓦列里奥"]长官，请等一等……
+[name="瓦列里奥"]我想您看得出来，装作贵族只是因为她想谋财，那些黄金时代的故事也只是为了吸引眼球而夸大其词……
+[charslot(slot = "m", name = "avg_npc_2269_1#1$1")]
+[name="南多"]如果她真如你所说只是谋财，不曾与异端勾结，只要受讯结束就能被释放。
+[name="南多"]请谅解，一切为了伊比利亚的洁净与德行。
+[charslot(slot = "m", focus = "n")]
+[name="？？？"]可你维护它们的方式并不是审判庭所期许的，南多·加西亚·鲁比奥。
+[dialog]
+[charslot]
+[playsound(key="$d_avg_fsmummy", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=1.5)]
+[charslot(slot="m",name="avg_npc_2270_1#1$1",duration=1)]
+[delay(time=2)]
+[charslot(slot = "m", name = "avg_npc_2269_1#10$1")]
+[name="南多"]斐戴拉大审判官？
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]为什么在船厂门前生事？你的教官是谁，巡逻组的工作需要我再重复一遍吗？
+[charslot(slot = "m", name = "avg_npc_2269_1#11$1")]
+[name="南多"]与德鲁莎教官无关，是我自己发现了异常，想进一步追查。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]调查批文呢？
+[charslot(slot = "m", name = "avg_npc_2269_1#11$1")]
+[name="南多"]没有……
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]连巧立名目都不会，该说你是诚实还是愚钝。
+[name="斐戴拉"]抬起头，士兵，回到你的岗位上去。我不会捆住你的手脚，但下次行动前，你需要好好想清楚，自己究竟是为何行动。
+[charslot(slot = "m", name = "avg_npc_2269_1#7$1")]
+[name="南多"]是……
+[dialog]
+[playsound(key="$d_gen_walk_n", loop=true, channel="4")]
+[StopSound(channel="4", fadetime=1)]
+[charslot(duration=0.5)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[delay(time=0.5)]
+[playsound(key="$d_avg_fsmummy", loop=true, channel="5")]
+[StopSound(channel="5", fadetime=1.5)]
+[charslot(slot = "m",duration = 1, posfrom = "0,0", posto = "200,0",afrom=1,ato=0)]
+[delay(time=2)]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2266_1#1$1")]
+[delay(time=0.5)]
+[playsound(key="$d_gen_walk_n", loop=true, channel="r")]
+[StopSound(channel="r", fadetime=1)]
+[charslot(slot = "m",duration = 1, posfrom = "0,0", posto = "200,0",afrom=1,ato=0)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g8_shipatelier",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot = "left", name = "avg_npc_2266_1#4$1",duration = 1)]
+[charslot(slot = "right", name = "avg_npc_2270_1#1$1",duration = 1)]
+[delay(time=1.5)]
+[charslot(slot = "left", name = "avg_npc_2266_1#4$1",focus="l")]
+[name="瓦列里奥"]刚刚多谢您，大审判官阁下。
+[charslot(slot = "m", focus = "r")]
+[name="斐戴拉"]我没有为你们辩护。
+[name="斐戴拉"]她依然是个欺诈之徒，你们公然到船厂门前宣讲已经扰乱了船厂的秩序。
+[name="斐戴拉"]不把她带回去，还留在这里干什么？
+[charslot(slot = "left", name = "avg_npc_2266_1#1$1",focus="l")]
+[name="瓦列里奥"]我就是为了这件事想找您帮忙……
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g3_seasidest_d",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playMusic(intro="$warm_intro",key="$warm_loop", volume=0.6)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2275_1#1$1")]
+[name="洒脱的船工"]审判庭的人竟然真的放过你了？
+[charslot(slot = "m", name = "avg_393_toledo_1#3$1")]
+[name="特菲"]呼——我、我早就跟你们说过，我可是王室海军后裔，只要成为我的拥护者，我也能庇护你们。
+[charslot(slot = "m", name = "avg_npc_2275_1#1$1")]
+[name="洒脱的船工"]拥护……怎么拥护？
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1")]
+[name="特菲"]我一心想要重新组建王室海军舰队，现在还在漫漫征途之中。只不过，筹备舰队需要资金……
+[charslot(slot = "m", name = "avg_npc_2275_1#1$1")]
+[name="洒脱的船工"]百年以前，领民确实需要向贵族缴纳税金，可现在我们没这么多钱……
+[charslot(slot = "m", name = "avg_393_toledo_1#10$1")]
+[name="特菲"]不用非得是钱，哪怕是一餐饭、一个住所都好。
+[charslot(slot = "m", name = "avg_393_toledo_1#5$1")]
+[name="特菲"]等雷亚-伊比利亚打捞完成，我们的舰队从港口正式出航，到时候我们说不定还能骗得……咳，获得更多财富呢！
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[charslot(slot = "left", name = "avg_npc_2266_1#1$1")]
+[charslot(slot = "right", name = "avg_npc_2270_1#1$1")]
+[Background(image="74_g8_shipatelier",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot = "left", name = "avg_npc_2266_1#1$1",focus="l")]
+[name="瓦列里奥"]我跟她相识数月，她一直靠骗人、讲故事维生。我受过重伤，没有务工能力，没有她接济怕是早就饿死了。
+[charslot(slot = "left", name = "avg_npc_2266_1#2$1",focus="l")]
+[name="瓦列里奥"]话虽如此，我也不能看着一个年轻人一再犯错。
+[charslot(slot = "left", name = "avg_npc_2266_1#1$1",focus="l")]
+[name="瓦列里奥"]她的记性很好，也很乐于跟人打交道，走过的路又多，她的脑子里都快有一张自己画的伊比利亚地图了。
+[charslot(slot = "m", focus = "r")]
+[name="斐戴拉"]地图？
+[charslot(slot = "left", name = "avg_npc_2266_1#1$1",focus="l")]
+[name="瓦列里奥"]是啊，而且不仅是现在的伊比利亚的地图。
+[name="瓦列里奥"]她和那些流离失所的人交谈，记住他们的故事和他们的家乡被海水淹没前的位置。
+[name="瓦列里奥"]她所记住的东西里，有伊比利亚本应有的样子。
+[name="瓦列里奥"]等到雷亚-伊比利亚中心城区升起，我们或许需要打捞更多沉没的城镇，既然如此……
+[charslot(slot = "m", focus = "r")]
+[name="斐戴拉"]她会十分适合在船厂工作。
+[charslot(slot = "left", name = "avg_npc_2266_1#5$1",focus="l")]
+[name="瓦列里奥"]她很早就被家人抛弃，又出于一些特殊原因没办法从事体力劳动。
+[name="瓦列里奥"]如果伊比利亚的未来跟即将升起的中心城区一样光明，那她是否也不用再以欺诈为生……
+[charslot(slot = "m", focus = "r")]
+[name="斐戴拉"]你想要让她生活得更有尊严？
+[charslot(slot = "left", name = "avg_npc_2266_1#10$1",focus="l")]
+[name="瓦列里奥"]伊比利亚人本应具有崇高的德行，这一点也是您所相信的，对吗？
+[charslot(slot = "m", focus = "r")]
+[name="斐戴拉"]……我明白了。
+[name="斐戴拉"]虽然你们曾实实在在地干扰了审判庭的事务，但这个城区会再给你们一次机会。
+[name="斐戴拉"]来船厂报到吧，我们用得上她。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g3_seasidest_d",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$d_avg_crwddiscuss_outside", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.4, channel="bgs",fadetime=2)]
+[delay(time=1)]
+船厂外，人越聚越多，起初人们只是被这里发生的口角和黎博利洪亮的声音吸引，想要一探究竟——
+却没想到自己会沉迷于一个小姑娘所说的故事。
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1")]
+[name="特菲"]那边那个制帆匠，你说自己来自金浪湾的金浪城？
+[charslot(slot = "m", focus = "n")]
+[name="制帆匠"]一个终年浓雾笼罩的肮脏小城，城里的教士说城名是罪孽的由来。鳞获不丰，粮食不长，都是名字的错，现在它改名为无浪城啦。
+[charslot(slot = "m", name = "avg_393_toledo_1#12$1")]
+[name="特菲"]可惜啊，在我祖辈的描述中，那里的建筑都是白色的，因为无需染料，夕阳自会给它们镀金，居民也都是捕鳞的好手。
+[charslot(slot = "m", name = "avg_393_toledo_1#5$1")]
+[name="特菲"]不过，那不是因为他们对鳞群习性多么了解，而是因为他们捕鳞的范围比任何城镇都广。
+[name="特菲"]虽然每次捕鳞，他们的船只都离岸很远，但他们不怕。因为他们知道，只要在天黑前回望，建筑的金光总能为他们指路。
+[charslot(slot = "m", focus = "n")]
+[name="制帆匠"]还有这种说法……？
+[charslot(slot = "m", name = "avg_393_toledo_1#5$1")]
+[name="特菲"]当然！而且金浪城还诞生过不少因航海和制帆技术高超而封官加爵的能人，听说他们的子嗣依旧留在城中，只是对祖先的身份不自知……
+[charslot(slot = "m", focus = "n")]
+[name="制帆匠"]我确实比邻居更擅长针线……难道……
+[charslot(slot = "m", name = "avg_393_toledo_1#11$1")]
+[name="特菲"]正好，德·托莱多大人正在筹备海军舰队，我缺的就是制帆匠，你说巧不巧？说不定我们的祖辈还在王室海军舰队中见过呢！
+[charslot(slot = "m", focus = "n")]
+[name="制帆匠"]好，好！
+[charslot(slot = "m", name = "avg_393_toledo_1#3$1")]
+[name="特菲"]（做口型）瓦列里奥！瓦列里奥快看！我又找到一个拥护者啦，今天的晚饭有着落啦！
+[charslot(slot = "m", name = "avg_npc_2266_1#11$1")]
+[name="瓦列里奥"]……
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[SoundVolume(volume=0.2, channel="bgs",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(key="$darkness_03_loop", volume=0.6)]
+[charslot(slot = "left", name = "avg_npc_2271_1#4$1",duration = 1)]
+[charslot(slot = "right", name = "avg_npc_2273_1#1$1",duration = 1)]
+[delay(time=2)]
+[charslot(slot = "m", focus = "r")]
+[name="谨慎的岛民"]今天这条街怎么聚集了那么多人？正好，能为我们的行动打掩护。
+[name="谨慎的岛民"]阿奎拉，你来晚了。早上有你的工作安排吗？怎么看上去像刚下过水。
+[charslot(slot = "left", name = "avg_npc_2271_1#4$1",focus="l")]
+[name="阿奎拉"]没什么，去处理了一点私事。
+[name="阿奎拉"]东西送到了？它对几天后的行动很重要。
+[charslot(slot = "m", focus = "r")]
+[name="谨慎的岛民"]放心吧，惩戒军盯不过来。
+[dialog]
+[charslot]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="l",name="avg_npc_461_1#1$1",duration=0.8,posfrom = "0,0", posto = "150,0")]
+[delay(time=1)]
+[charslot(slot="l",duration=0.8,posfrom = "150,0", posto = "350,0")]
+[charslot(duration=1)]
+[delay(time=2)]
+[charslot]
+[charslot(slot = "right", name = "avg_npc_2273_1#1$1",focus="l")]
+[charslot(slot = "left", name = "avg_npc_2271_1#1$1",focus="l")]
+[name="阿奎拉"]……
+[name="阿奎拉"]换一条路。
+[charslot(slot = "m", focus = "r")]
+[name="谨慎的岛民"]运输活鳞用的旧管道？那条路只有同胞才知道。
+[charslot(slot = "m", focus = "l")]
+[name="阿奎拉"]走。
+[StopSound(channel="bgs", fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="bg_ibindoor",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$doorclosequite")]
+[delay(time=1)]
+[playsound(key="$d_avg_doorknob")]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2271_1#1$1",duration=0.5)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2271_1#11$1")]
+[name="阿奎拉"]……不好。
+[charslot]
+[name="？？？"]岛民才知道的路也不一定安全啊，毕竟不是所有岛民都是危险分子，不是吗？
+[dialog]
+[charslot(slot = "m", name = "avg_npc_2273_1#1$1")]
+[delay(time=1)]
+[charslot(slot = "l", name = "avg_npc_2267_1#1$1",duration = 0.3,bstart=0.3,bend=0.6,posfrom = "50,0", posto = "50,0")]
+[playsound(key="$d_avg_handknf")]
+[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=0.3)]
+[charslot(slot="m",name="avg_npc_2273_1#1$1",focus="m")]
+[name="谨慎的岛民"]嘶……
+[dialog]
+[charslot(slot = "m", posfrom = "0,0", posto = "0,-60",afrom=1,ato=0,duration=0.5)]
+[playsound(key="$bodyfalldown1")]
+[CameraShake(duration=0.2, xstrength=10, ystrength=10, vibrato=10, randomness=90, fadeout=true, block=false)]
+[delay(time=1)]
+[charslot(slot="r",name="avg_npc_2271_1#8$1",duration=0.5)]
+[delay(time=0.5)]
+[charslot(slot="r",name="avg_npc_2271_1#8$1",focus="r")]
+[name="阿奎拉"]又是你！
+[name="阿奎拉"]我之前真的多余把你当同胞看待。
+[dialog]
+[charslot(slot = "l", name = "avg_npc_2267_1#1$1",duration = 0.5)]
+[delay(time=1)]
+[charslot(slot = "m", focus = "l")]
+[name="德鲁莎"]你不也辜负了同胞的心意，那个叫纳乔的孩子，他根本不擅长说谎，你倒是没想过牵连他。
+[charslot(slot="r",name="avg_npc_2271_1#5$1",focus="r")]
+[name="阿奎拉"]……
+[charslot(slot="l",name="avg_npc_2267_1#9$1",focus="l")]
+[name="德鲁莎"]老实点，你想做什么？
+[charslot(slot="r",name="avg_npc_2271_1#1$1",focus="r")]
+[name="阿奎拉"]把这个带给纳乔。
+[charslot(slot="l",name="avg_npc_2267_1#10$1",focus="l")]
+[name="德鲁莎"]螺栓？
+[charslot(slot="r",name="avg_npc_2271_1#5$1",focus="r")]
+[name="阿奎拉"]他的手伤不能再拖了。呵，替伊比利亚人干活，把自己搞成现在这副样子。
+[charslot(slot="l",name="avg_npc_2267_1#1$1",focus="l")]
+[name="德鲁莎"]……
+[dialog]
+[charslot]
+[playsound(key="$d_avg_armour")]
+[charslot(slot="left",name="avg_npc_2276_1#1$1",duration=0.5)]
+[charslot(slot="right",name="avg_npc_2277_1#1$1",duration=0.5)]
+[delay(time=1)]
+[charslot(slot="right",name="avg_npc_2277_1#1$1",focus="r")]
+[name="惩戒军士官"]德鲁莎教官，我记得提醒过你，最好不要再擅自行动。
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_2267_1#1$1")]
+[name="德鲁莎"]行动组？来得真快……你们也盯上了阿奎拉？
+[dialog]
+[charslot]
+[charslot(slot="left",name="avg_npc_2276_1#1$1",focus="r")]
+[charslot(slot="right",name="avg_npc_2277_1#1$1",focus="r")]
+[name="惩戒军士官"]无可奉告。接下来会由我们负责后续的讯问，请你继续巡逻组的工作。
+[name="惩戒军士官"]把人铐上，带走。
+[dialog]
+[charslot]
+[playsound(key="$d_avg_handcuff")]
+[charslot(slot="l",name="avg_npc_2271_1#1$1")]
+[charslot(slot="right",name="avg_npc_2276_1#1$1")]
+[delay(time=1)]
+[playsound(key="$d_avg_armour")]
+[charslot(slot = "left",duration = 1, posfrom = "0,0", posto = "-150,0",afrom=1,ato=0)]
+[charslot(slot = "right",duration = 1, posfrom = "0,0", posto = "-150,0",afrom=1,ato=0)]
+[delay(time=2.5)]
+[charslot(slot="m",name="avg_npc_2267_1#9$1")]
+[name="德鲁莎"]……
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g10_underseacorr",screenadapt="coverall")]
+[CameraShake(duration=2, xstrength=5, ystrength=5, vibrato=30, randomness=90, fadeout=true, block=false)]
+[playsound(key="$rungeneral", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="l",name="avg_4232_hbound_1#7$1",duration=0.5)]
+[delay(time=1)]
+[name="纳乔"]哈……哈……
+[name="纳乔"]为什么……阿奎拉还是……
+[dialog]
+[charslot(slot = "l", duration = 0.8,posfrom = "0,0", posto = "100,0")]
+[delay(time=0.5)]
+[charslot(slot="r",name="avg_npc_2268_1#2$1",duration=0.3,posfrom = "0,0", posto = "-50,0")]
+[delay(time=0.3)]
+[CameraShake(duration=0.3, xstrength=10, ystrength=5, vibrato=15, randomness=90, fadeout=true, block=false)]
+[playsound(key="$d_avg_clothmovement_heavy2")]
+[charslot(slot = "r", duration = 0.5,posfrom = "-50,0", posto = "0,0")]
+[charslot(slot = "l", duration = 0.5,posfrom = "100,0", posto = "0,0")]
+[delay(time=1)]
+[charslot(slot="r",name="avg_npc_2268_1#5$1",focus="r")]
+[name="塔西塔"]你是技术工纳乔？
+[charslot(slot="l",name="avg_4232_hbound_1#4$1",focus="l")]
+[name="纳乔"]塔西塔小姐，克莱门莎监事在吗！我有急事要找她，阿奎拉被审判庭的人带走了！
+[charslot(slot="r",name="avg_npc_2268_1#10$1",focus="r")]
+[name="塔西塔"]阿奎拉被捕了？克莱门莎监事现在不在，你先……不要着急，我会尽快联系她。
+[name="塔西塔"]还有，你的手臂状态看上去很糟糕，我先帮你处理一下？
+[name="塔西塔"]纳乔？
+[charslot(slot="l",name="avg_4232_hbound_1#3$1",focus="l")]
+[name="纳乔"]不在？
+[Dialog]
+[playsound(key="$flashback")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]
+[charslot(slot = "m", name = "avg_npc_2271_1#1$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[name="阿奎拉"]纳乔，无论你是否认同我的想法，作为朋友我只托付你一件事。
+[name="阿奎拉"]万一之后几天我出了什么事，你可以去互助会所在的教堂找我们的导师，他会帮我。
+[charslot(slot = "m", name = "avg_npc_2271_1#5$1")]
+[name="阿奎拉"]在此之前做你最擅长的事，什么都不要问也不要说。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[charslot]
+[charslot(slot = "l", name = "avg_4232_hbound_1#3$1")]
+[charslot(slot = "r", name = "avg_npc_2268_1#10$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot(slot = "l", name = "avg_4232_hbound_1#3$1",focus="l")]
+[name="纳乔"]互助会……
+[dialog]
+[playsound(key="$rungeneral", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=1.5)]
+[charslot(slot = "l",posfrom = "0,0", posto = "-200,0",duration = 1,afrom=1,ato=0)]
+[delay(time=2)]
+[charslot(slot = "r", name = "avg_npc_2268_1#5$1")]
+[charslot(slot = "r",posfrom = "0,0", posto = "-100,0",duration = 0.5)]
+[delay(time=0.5)]
+[name="塔西塔"]欸，别走啊！
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

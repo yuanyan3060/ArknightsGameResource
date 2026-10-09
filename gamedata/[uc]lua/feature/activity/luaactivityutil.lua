@@ -11,22 +11,23 @@ function LuaActivityUtil:OnDispose()
   CS.Torappu.UI.LuaActivityUtil.BindInterface(nil)
 end
 
-local HOME_WEIGHT_TEAM_QUEST = 350;
-local HOME_WEIGHT_DAILY_PRAY = 500;
-local HOME_WEIGHT_GRID_GACHA = 510;
-local HOME_WEIGHT_GRID_GACHA_V2 = 520;
-local HOME_WEIGHT_FLOAT_PARADE = 530;
-local HOME_WEIGHT_DAILY_FLIP = 540;
-local HOME_WEIGHT_CHECKIN_ALLPLAYER = 550;
-local HOME_WEIGHT_SWITCH_ONLY = 560;
-local HOME_WEIGHT_CHECKIN_VS = 570;
-local HOME_WEIGHT_UNIQUE_ONLY = 580;
-local HOME_WEIGHT_BLESS_ONLY = 590;
-local HOME_WEIGHT_ACTACCESS = 595;
-local HOME_WEIGHT_RECRUIT_ONLY = 596;
+local HOME_WEIGHT_TEAM_QUEST = 10400;
+local HOME_WEIGHT_DAILY_PRAY = 10600;
+local HOME_WEIGHT_GRID_GACHA = 10700;
+local HOME_WEIGHT_GRID_GACHA_V2 = 10800;
+local HOME_WEIGHT_FLOAT_PARADE = 10900;
+local HOME_WEIGHT_DAILY_FLIP = 11000;
+local HOME_WEIGHT_CHECKIN_ALLPLAYER = 11100;
+local HOME_WEIGHT_SWITCH_ONLY = 11200;
+local HOME_WEIGHT_CHECKIN_VS = 11300;
+local HOME_WEIGHT_UNIQUE_ONLY = 11400;
+local HOME_WEIGHT_BLESS_ONLY = 11500;
+local HOME_WEIGHT_ACTACCESS = 11600;
+local HOME_WEIGHT_RECRUIT_ONLY = 11700;
+local HOME_WEIGHT_REWARD_ONLY = 11800;
 
-local HOME_WEIGHT_MAIN_BUFF = 600;
-local HOME_WEIGHT_MAINLINE_BP = 610;
+local HOME_WEIGHT_MAIN_BUFF = 20000;
+local HOME_WEIGHT_MAINLINE_BP = 20100;
 
 
 
@@ -373,6 +374,32 @@ end
 
 
 
+function LuaActivityUtil:_FindValidRewardOnly(validActs, uncompleteActs, unfinishedActs, finishedActs)
+  local actList = CS.Torappu.UI.ActivityUtil.FindValidActs(CS.Torappu.ActivityType.REWARD_ONLY);
+  if actList == nil then
+    return;
+  end
+
+  for i = 0, actList.Count - 1 do
+      local actId = actList[i];
+      local validAct = CS.Torappu.UI.ActivityUtil.SortableActivity(actId, HOME_WEIGHT_REWARD_ONLY);
+      validActs:Add(validAct);
+      if self:CheckIfActivityUncomplete(CS.Torappu.ActivityType.REWARD_ONLY, actId) then
+        uncompleteActs:Add(validAct);
+      end
+      if self:_CheckIfActivityFinished(CS.Torappu.ActivityType.REWARD_ONLY, validAct) then
+        finishedActs:Add(validAct)
+      else
+        unfinishedActs:Add(validAct)
+      end
+  end
+end
+
+
+
+
+
+
 function LuaActivityUtil:_FindValidMainlineBpAct(validActs, uncompleteActs, unfinishedActs, finishedActs)
   local actList = CS.Torappu.UI.ActivityUtil.FindValidActs(CS.Torappu.ActivityType.MAINLINE_BP);
   if actList == nil then
@@ -437,7 +464,8 @@ function LuaActivityUtil:FindValidHomeActs(validActs, uncompleteActs, unfinished
   self:_FindValidCheckInAccess(validActs,uncompleteActs, unfinishedActs, finishedActs);
   self:_FindValidCheckinVideoActs(validActs, uncompleteActs, unfinishedActs, finishedActs);
   self:_FindValidTeamQuestActs(validActs, uncompleteActs, unfinishedActs, finishedActs);
-  self:_FindValidRecruitOnly(validActs,uncompleteActs, unfinishedActs, finishedActs);
+  self:_FindValidRecruitOnly(validActs, uncompleteActs, unfinishedActs, finishedActs);
+  self:_FindValidRewardOnly(validActs, uncompleteActs, unfinishedActs, finishedActs);
 end
 
 
@@ -496,6 +524,9 @@ local DEFINE_CLS_FUNCS = {
   RECRUIT_ONLY = function (clsName, config)
     DlgMgr.DefineDialog(clsName, config.dlgPath, RecruitOnlyDlg)
   end,
+  REWARD_ONLY = function (clsName, config)
+    DlgMgr.DefineDialog(clsName, config.dlgPath, RewardOnlyDlg)
+  end
 }
 
 
@@ -576,6 +607,8 @@ function LuaActivityUtil:CheckIfActivityUncomplete(type, actId)
     return self:_CheckIfTeamQuestHasTrackPoint(actId);
   elseif type == CS.Torappu.ActivityType.RECRUIT_ONLY then
     return self:_CheckIfRecruitOnlyUncomplete(actId);
+  elseif type == CS.Torappu.ActivityType.REWARD_ONLY then
+    return self:_CheckIfRewardOnlyUncomplete(actId);
   else
     return false;
   end
@@ -879,6 +912,26 @@ end
 
 
 
+function LuaActivityUtil:_CheckIfRewardOnlyUncomplete(actId)
+  local playerData = RewardOnlyUtil.LoadPlayerData(actId);
+  if playerData == nil then
+    return false;
+  end
+  local gameData = RewardOnlyUtil.LoadGameData(actId);
+  if gameData == nil or gameData.constData == nil then
+    return false;
+  end
+
+  local canClaim = eutils.GetCurrentTs() >= gameData.constData.claimStartTime;
+  local beChosen = not string.isNullOrEmpty(playerData.choice);
+  local beClaimed = not string.isNullOrEmpty(playerData.hit);
+  return (not canClaim and not beChosen) or (canClaim and not beClaimed);
+end
+
+
+
+
+
 
 function LuaActivityUtil:_CheckIfActivityFinished(type, validAct)
   local actId = validAct.actId.str
@@ -912,6 +965,8 @@ function LuaActivityUtil:_CheckIfActivityFinished(type, validAct)
     return self:_CheckIfTeamQuestFinished(actId)
   elseif type == CS.Torappu.ActivityType.RECRUIT_ONLY then
     return self:_CheckIfRecruitOnlyFinished(actId);
+  elseif type == CS.Torappu.ActivityType.REWARD_ONLY then
+    return self:_CheckIfRewardOnlyFinished(actId);
   end
   return false
 end
@@ -975,4 +1030,10 @@ end
 
 function LuaActivityUtil:_CheckIfRecruitOnlyFinished(actId)
   return RecruitOnlyUtil.CheckIfRecruitOnlyConsumedByActId(actId);
+end
+
+
+
+function LuaActivityUtil:_CheckIfRewardOnlyFinished(actId)
+  return RewardOnlyUtil.CheckIfRewardOnlyConsumedByActId(actId);
 end

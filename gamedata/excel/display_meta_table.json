@@ -4412,6 +4412,30 @@
           "[采购中心]中购买幽蓝门扉组合包获得"
         ],
         "multiPicId": null
+      },
+      {
+        "bgId": "bg_redvelvet_1",
+        "bgType": "BASE",
+        "bgSortId": 34,
+        "bgStartTime": 1791500400,
+        "isSecret": true,
+        "bgName": "序幕",
+        "bgDes": "准备好面对幕布拉开时，投向舞台中央的一众目光。",
+        "bgUsage": "一张照片，一段回忆，凝聚了泰拉大地的某个瞬间。",
+        "isMultiForm": false,
+        "changeRule": 0,
+        "multiFormList": [
+          {
+            "multiFormBgId": "bg_redvelvet_1",
+            "sortId": 0,
+            "bgMusicId": "music_bg_redvelvet_1"
+          }
+        ],
+        "obtainApproach": "礼包购买",
+        "unlockDesList": [
+          "[采购中心]中购买剧场序幕组合包获得"
+        ],
+        "multiPicId": null
       }
     ],
     "backgroundGroupDatas": [
@@ -4591,6 +4615,11 @@
             "id": "bg_p3r_1",
             "groupType": "BASE",
             "sortId": 33
+          },
+          {
+            "id": "bg_redvelvet_1",
+            "groupType": "BASE",
+            "sortId": 34
           }
         ]
       }
@@ -5069,6 +5098,32 @@
         "hideWhenLimit": true,
         "rarity": 5,
         "multiPicId": null
+      },
+      {
+        "id": "tm_redvelvet_1",
+        "type": "SPECIAL",
+        "sortId": 19,
+        "startTime": 1791500400,
+        "isSecret": true,
+        "tmName": "剧目",
+        "tmDes": "台上台下，幕前幕后，所有故事，都化作聚光灯下的一场演出。",
+        "tmUsage": "在不变动功能的情况下，对PRTS界面进行了重新设计。",
+        "isMultiForm": false,
+        "changeRule": 0,
+        "multiFormList": [
+          {
+            "multiFormTmId": "tm_redvelvet_1",
+            "sortId": 0
+          }
+        ],
+        "obtainApproach": "采购中心组合包",
+        "unlockDesList": [
+          "[采购中心]中购买剧场序幕组合包获得"
+        ],
+        "isLimitObtain": true,
+        "hideWhenLimit": true,
+        "rarity": 5,
+        "multiPicId": null
       }
     ],
     "themeGroupDatas": [
@@ -5128,6 +5183,11 @@
             "id": "tm_p3r_1",
             "groupType": "SPECIAL",
             "sortId": 18
+          },
+          {
+            "id": "tm_redvelvet_1",
+            "groupType": "SPECIAL",
+            "sortId": 19
           }
         ]
       },
@@ -5330,6 +5390,18 @@
             "displayAfterEndTime": false
           }
         ]
+      },
+      "bg_redvelvet_1": {
+        "bgId": "bg_redvelvet_1",
+        "limitInfos": [
+          {
+            "limitInfoId": "bg_redvelvet_1#1",
+            "startTime": 1791500400,
+            "endTime": 1793303999,
+            "invalidObtainDesc": "暂无获取途径",
+            "displayAfterEndTime": false
+          }
+        ]
       }
     },
     "themeLimitData": {
@@ -5374,6 +5446,11 @@
           {
             "startTime": 1735459200,
             "endTime": 1737230399,
+            "invalidObtainDesc": "暂未开放获取途径"
+          },
+          {
+            "startTime": 1792137600,
+            "endTime": 1793908799,
             "invalidObtainDesc": "暂未开放获取途径"
           }
         ]
@@ -5459,6 +5536,16 @@
           {
             "startTime": 1788476400,
             "endTime": 1790279999,
+            "invalidObtainDesc": "暂未开放获取途径"
+          }
+        ]
+      },
+      "tm_redvelvet_1": {
+        "id": "tm_redvelvet_1",
+        "limitInfos": [
+          {
+            "startTime": 1791500400,
+            "endTime": 1793303999,
             "invalidObtainDesc": "暂未开放获取途径"
           }
         ]

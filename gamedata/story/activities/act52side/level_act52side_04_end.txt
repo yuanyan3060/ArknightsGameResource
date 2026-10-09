@@ -1,0 +1,310 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[bgeffect(name="$eb_sunlight_r",layer=1,y=200)]
+[playsound(key="$beach", loop=true, channel="bgs")]
+[Background(image="27_g24_cloudy_sea",screenadapt="coverall",xScale=1.1,yScale=1.1)]
+[BackgroundTween(xFrom=-65, xTo=65, duration=30,block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playMusic(intro="$tech_intro",key="$tech_loop", volume=0.6)]
+[playsound(key="$d_gen_transmissionget")]
+[Delay(time=1)]
+[name="通讯声A"]我曾经觉得大海每天都是一个样。
+[name="通讯声A"]浑浊，吝啬，没有尽头，连一条鳞都不肯施舍。
+[name="通讯声A"]现在看来是我以前站得不够高，明明每一个浪头，每一块礁石，每一阵海风的气味都不一样。
+[name="通讯声B"]……
+[name="通讯声B"]请汇报今天的海面情况和灯塔运行数据，守塔人。
+[name="通讯声A"]别那么一本正经的，艾尔玛。我知道你羡慕我的工作，从这里看到的风景简直不像我前半生认识的伊比利亚。
+[name="通讯声A"]可惜，还要等几天港都中心城区才能被打捞起来，现在除了清扫海域的船只，海面上看不到任何东西。
+[name="通讯声A"]而且刚修复完的供能灯塔闻上去有股新家的味道，不知道其余三十六座是不是也这样——
+[name="通讯声B"]拉蒙！汇报情况！
+[name="通讯声A"]知道了，知道了……
+[name="通讯声A"]三个月以来什么意外都没发生过，而且每座灯塔都有惩戒军小队驻守，你根本不用那么焦虑，凌晨出门的时候你都把我吵醒了……
+[name="通讯声A"]上午8点49分，海洋监测汇报，沿岸风力五级，阵风六级，未监测到风暴潮。
+[name="通讯声A"]今天是个好日子，长官。
+[stopmusic(fadetime=2)]
+[StopSound(channel="bgs", fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[delay(time=1)]
+[Background(image="bg_ibindoor",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$plot_intro",key="$plot_loop", volume=0.6)]
+[playsound(key="$transmission")]
+[name="无线电"]……滋……海洋监测汇报……滋……
+[name="无线电"]……沿岸风力……未监测到风暴潮……
+[dialog]
+[charslot(slot = "m", name = "avg_npc_2272_1#1$1",duration=1)]
+[delay(time=2)]
+[playsound(key="$d_avg_openfoodcan")]
+[name="岛民"]（打开罐头）
+[playsound(key="$d_avg_sheepchewpaper", loop=true, channel="jj")]
+[StopSound(channel="jj", fadetime=2)]
+[name="岛民"]（咀嚼）
+[charslot(slot = "m", focus = "n")]
+一个鳞罐头，一把贝壳叉子，一顿普通的伊比利亚早餐。
+他像一名普通的伊比利亚人一样喝完罐头里的汁水，来自大海的盐分会为他提供必要的能量。
+[charslot]
+[playsound(key="$transmission")]
+[name="无线电"]……七号灯塔……供能系统运转稳定……
+[name="无线电"]……三十一号……动态载荷监测系统已开启……
+[name="无线电"]……十四……通讯信号一切正常……
+[charslot(slot = "m", name = "avg_npc_2272_1#1$1")]
+[playsound(key="$d_avg_fauceton")]
+[name="岛民"]（清洗餐具）
+[name="岛民"]（清洗罐头）
+[charslot]
+[charslot(slot = "m", focus = "n")]
+[playsound(key="$d_avg_open_drawer")]
+他将叉子收进抽屉，又将接满净水的罐头放在房间的角落。
+一只云兽跳进破损的窗户，绕过地上的石头和碎玻璃，走向水源。
+[charslot]
+[playsound(key="$transmission")]
+[name="无线电"]……号灯塔……驻守供能灯塔的人数不变……
+[name="无线电"]……一个小时后换班……明白……
+[dialog]
+[charslot(slot = "m", name = "avg_npc_2272_1#1$1")]
+[playsound(key="$p_imp_funnel_end_h")]
+[delay(time=1)]
+[name="岛民"]……
+[charslot(slot = "m", focus = "n")]
+海藻晾晒的时日不够，他还不能收回来；窗户三天前就该修补，所幸最近没有下雨。
+他环视一周，只拿起捕鳞钩，离开了家。
+[dialog]
+[playsound(key="$d_avg_fishhook_pickup")]
+[charslot(duration=1)]
+[delay(time=1)]
+[playsound(key="$doorclosequite")]
+[delay(time=1)]
+[playsound(key="$beach", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=1, channel="bgs",fadetime=2)]
+海风吹起窗帘，斑驳的墙壁替曾经的住民言语。
+[dialog]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=3)]
+[CameraEffect(effect="Grayscale", fadetime=3, keep=true, initamount=0, amount=0.7)]
+[delay(time=1)]
+[bgeffect(name="$eb_blackmask",layer=1)]
+[delay(time=1)]
+[name="墙上的刻字"]（被划去的伊比利亚经文）<i>“用盐摩擦伤口，疼痛是德行的印证，使异种的血肉无处滋长。”</i>
+[name="墙上的刻字"]（错乱的阿戈尔语）<i>他们不会宽恕，我们不会原谅。</i>
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Dialog]
+[charslot]
+[bgeffect]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[Background(image="27_g20_lighthouse_core",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot = "left", name = "avg_npc_2275_1#1$1",duration = 1)]
+[charslot(slot = "right", name = "avg_npc_2274_1#1$1",duration = 1)]
+[delay(time=1.5)]
+[charslot(slot = "right", focus="r")]
+[name="守塔人A"]海面起浪了，明明一个小时前汇报的时候还好好的。
+[charslot(slot = "right", focus="l")]
+[name="守塔人B"]害怕了？
+[charslot(slot = "right", focus="r")]
+[name="守塔人A"]我是嫌麻烦。
+[name="守塔人A"]海况会影响供能系统运行，驻守的惩戒军正在换班，我们还得自己联络岗哨的通讯员，让他们通知打捞中心的人，调整水下作业的安排。
+[name="守塔人A"]唉，等港都中心城区重新升起，我们就能安安心心地数着海面上的帆船，不用再做这样麻烦的联络工作了。
+[charslot(slot = "right", focus="l")]
+[name="守塔人B"]得了吧，我看你倒是很享受，还能借着工作时间和艾尔玛聊天。
+[charslot(slot = "right", focus="r")]
+[name="守塔人A"]唔，不对。
+[charslot(slot = "right", focus="l")]
+[name="守塔人B"]你还想狡辩？刚刚你们的通讯我可是都在这里听到了——
+[charslot(slot = "right", focus="r")]
+[name="守塔人A"]我是说通讯声不对。我们的射频滤波器出问题了？怎么信号断断续续的？
+[charslot(slot = "right", focus="l")]
+[name="守塔人B"]哦，正常。最近两个月里时不时就这么来一次，一会儿就好。
+[charslot(slot = "right", focus="r")]
+[name="守塔人A"]看来阿戈尔技术的产物也不是那么好用啊……
+[charslot(slot = "right", focus="l")]
+[name="守塔人B"]水土不服嘛，打捞中心的新监事已经开始优化所有技术配件了，灯塔供能系统的硬件过几天也能更新。
+[name="守塔人B"]而且再不济我们这儿也有人维修啊，是从打捞中心来的，那个岛民叫什么来着？
+[charslot(slot = "right", focus="r")]
+[name="守塔人A"]不记得。
+[charslot(slot = "right", focus="l")]
+[name="守塔人B"]哦，正好，他来了。
+[stopmusic(fadetime=2)]
+[dialog]
+[charslot]
+[delay(time=0.5)]
+[playsound(key="$d_gen_walk_n")]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_2272_1#1$1",duration=1)]
+[delay(time=2)]
+[name="岛民"]……
+[dialog]
+[charslot]
+[charslot(slot = "left", name = "avg_npc_2272_1#1$1",duration = 1)]
+[charslot(slot = "right", name = "avg_npc_2273_1#1$1",duration = 1)]
+[delay(time=2)]
+[dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2275_1#1$1")]
+[name="守塔人B"]不对劲……拉蒙，快呼叫岗哨！
+[charslot(slot = "m", name = "avg_npc_2272_1#1$1")]
+[playsound(key="$d_avg_fishhook_pickup")]
+[name="岛民"]（举起捕鳞钩）
+[Dialog]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[playsound(key="$d_avg_hammer")]
+[StopSound(channel="bgs", fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot]
+[delay(time=3)]
+[Background(image="74_g9_gdsentry",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$ponder_intro",key="$ponder_loop", volume=0.6)]
+[charslot(slot = "left", name = "avg_npc_2276_1#1$1",duration = 0.5)]
+[charslot(slot = "right", name = "avg_npc_2277_1#1$1",duration = 0.5)]
+[delay(time=1)]
+[charslot(slot = "right", focus="r")]
+[name="惩戒军士官"]信号中断多久了？
+[charslot(slot = "right", focus="l")]
+[name="惩戒军士兵"]七分钟。
+[name="惩戒军士兵"]三十七座灯塔的通讯信号被一并劫持，通讯员还在排查设备故障的原因，还不确定是哪座灯塔遇袭导致的。
+[charslot(slot = "right", focus="r")]
+[name="惩戒军士官"]距离最后的打捞工作结束还有一周，这个时候袭击为起重机供能的灯塔矩阵，袭击者是想破坏打捞计划，让伊比利亚和阿戈尔生隙……
+[name="惩戒军士官"]驻守灯塔的惩戒军呢？
+[charslot(slot = "right", focus="l")]
+[name="惩戒军士兵"]除了离岗哨最近的三支队伍外，其余小队全部失联。
+[name="惩戒军士兵"]这三支小队刚刚回来，他们都说自己收到了审判庭中枢的加密通讯，要求小队马上到岗哨待命，我猜测其他小队也收到了假消息。
+[charslot(slot = "right", focus="r")]
+[name="惩戒军士官"]袭击者不可能自投罗网，这三支小队驻守的灯塔离岗哨太近，大概率不是他们的目标。
+[name="惩戒军士官"]我们必须立刻确认其余三十四座供能灯塔的情况。
+[charslot(slot = "right", focus="l")]
+[name="惩戒军士兵"]长官，供能灯塔位置太过分散，而且大多地处偏远。我们现在无法得知袭击者的人数，也不知道他们到底入侵了哪座灯塔……
+[charslot(slot = "right", focus="r")]
+[name="惩戒军士官"]让驻守岗哨的所有人员立刻出动，沿水道行军，前往其余的三十四座灯塔确认情况。
+[name="惩戒军士官"]行动组一组前往海岸，提防水中异动，别让恐鱼成为潜在威胁。
+[name="惩戒军士官"]二组负责沿街盘查，寻找可靠目击者，尽可能掌握袭击者的动向。
+[charslot(slot = "right", focus="l")]
+[name="惩戒军士兵"]明白。巡逻组怎么安排？
+[charslot(slot = "right", focus="r")]
+[name="惩戒军士官"]在原本的巡逻路线上待命，我们已经收到圣徒阁下的指示，优先排除街道上的潜在威胁，保障平民的安全。
+[charslot(slot = "right", focus="l")]
+[name="惩戒军士兵"]可这样一来支援灯塔的人手就不够了，万一供能系统被毁，那港都中心城区的打捞计划就彻底……
+[charslot(slot = "m", focus = "n")]
+[name="？？？"]伊比利亚必将迎回它原本辉煌的心脏。
+[charslot(slot = "right", focus="r")]
+[name="惩戒军士官"]圣徒阁下。
+[dialog]
+[charslot]
+[playsound(key="$d_gen_walk_n")]
+[delay(time=0.5)]
+[charslot(slot = "m", name = "avg_npc_447_1#1$1",duration=1)]
+[delay(time=2)]
+[name="圣徒卡门"]但当下哪怕打捞计划受阻，我们也要避免岛民和伊比利亚民众之间长久以来的积怨再度被挑动。
+[name="圣徒卡门"]一座在积怨与晦暗中升起的城市，对伊比利亚又有何益？
+[charslot(slot = "m", name = "avg_npc_2276_1#1$1")]
+[name="惩戒军士兵"]明白！
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="圣徒卡门"]行动吧。命令通讯队继续排查设备故障，争取尽快恢复通讯信号，以及……
+[name="圣徒卡门"]联络克莱门莎监事，我们需要援助。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g8_shipatelier",screenadapt="coverall")]
+[playsound(key="$d_avg_crwddiscuss_outside", loop=true, channel="bgs",volume=0)]
+[SoundVolume(volume=0.4, channel="bgs",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2274_1#1$1",duration=0.5)]
+[delay(time=1)]
+[name="制帆匠"]发生什么了，船厂外怎么有那么多审判庭的队伍经过？
+[name="制帆匠"]而且为什么斐戴拉大审判官说，船厂的任何相关人员不得出于任何理由离开船厂？难道外面发生了动乱……
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1")]
+[name="特菲"]好了好了，知道那些惩戒军为什么让我们待在这儿吗？
+[charslot(slot = "m", name = "avg_393_toledo_1#4$1")]
+[name="特菲"]是因为我们——堂堂王室海军舰队预备军的震慑力太强，不适合在这种场合露面。那些惩戒军肯定是完全能搞定，才不劳烦我们出去的。
+[charslot(slot = "m", name = "avg_npc_2274_1#1$1")]
+[name="制帆匠"]“……祈祷诸位能驱使审判的灯火……洗涤我们的戴罪之身……”
+[charslot(slot = "m", name = "avg_393_toledo_1#12$1")]
+[name="特菲"]唉，萨尔瓦多整天念这几句，搞得大家都学会了……不对，他人呢？
+[charslot(slot = "m", name = "avg_npc_2274_1#1$1")]
+[name="制帆匠"]我、我不知道。外面起了动静之后就没见过他了。
+[charslot(slot = "m", name = "avg_393_toledo_1#2$1")]
+[name="特菲"]……
+[charslot(slot = "m", name = "avg_npc_2274_1#1$1")]
+[name="制帆匠"]等等，德·托莱多大人，别去找他了，斐戴拉大审判官再三强调……
+[charslot(slot = "m", name = "avg_393_toledo_1#7$1")]
+[name="特菲"]我听到了，那个大审判官嗓门大得像地震。但这也代表船厂的惩戒军不会动，哪怕上报有人失踪也根本不会调派人手去找。
+[name="特菲"]他的家人都在原本的村镇，等着他在这里修船领到的薪酬，不能让他不明不白地没了音讯。虽然他还不是我德·托莱多的拥护者，但……
+[charslot(slot = "m", name = "avg_393_toledo_1#13$1")]
+[name="特菲"]保不齐之后他就成了我麾下的一员呢？
+[charslot(slot = "m", name = "avg_393_toledo_1#7$1")]
+[name="特菲"]我要去找他。
+[StopSound(channel="bgs", fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g5_gdsquare_d",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[playsound(key="$d_avg_armywalking", loop=true, channel="bgs")]
+[charslot(slot = "l", name = "avg_npc_2276_1#1$1",duration=0.5)]
+[charslot(slot = "right", name = "avg_npc_2276_1#1$1",duration=0.5)]
+[charslot(slot = "l",posfrom = "0,0", posto = "-200,0",duration = 1.5)]
+[charslot(slot = "r",posfrom = "0,0", posto = "-200,0",duration = 1.5)]
+[delay(time=1)]
+[StopSound(channel="bgs", fadetime=2)]
+[charslot(duration=0.5)]
+[delay(time=2)]
+[charslot(slot = "m", name = "avg_npc_459_1#1$1",duration=1)]
+[delay(time=1.5)]
+[name="瑟缩的平民"]好多审判庭的队伍，今天怎么这么大阵仗……
+[charslot(slot = "m", focus = "n")]
+[name="巡逻的惩戒军？"]喂，你。
+[charslot(slot = "m", name = "avg_npc_459_1#1$1")]
+[name="瑟缩的平民"]哎哟，长、长官，我刚刚已经跟一位审判官报告过了，住在这儿的岛民都很可疑，都该盘查，我——
+[charslot(slot = "m", focus = "n")]
+[name="巡逻的惩戒军？"]哦，所以你把我也报上去了？
+[charslot]
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_2267_1#1$1",duration=1)]
+[delay(time=2)]
+[charslot(slot = "m", name = "avg_npc_459_1#1$1")]
+[name="瑟缩的平民"]阿戈尔人……穿着惩戒军的制服……？
+[charslot(slot = "m", name = "avg_npc_2267_1#1$1")]
+[name="德鲁莎"]不好意思，翘班有点多，没在街道上见过我也正常。
+[name="德鲁莎"]这里是广场附近的街区，你周围住的都是打捞中心的技术工吧？昨天晚上宵禁之后，你听到外面有什么动静吗？
+[charslot(slot = "m", name = "avg_npc_459_1#1$1")]
+[name="瑟缩的平民"]没、没有，他们一般清晨才会出门，而且这几天晚上，他们家里的鳞油灯都点得很亮，没有什么异常。
+[charslot(slot = "m", name = "avg_npc_2267_1#1$1")]
+[name="德鲁莎"]你确定你的观察无误？
+[charslot(slot = "m", name = "avg_npc_459_1#1$1")]
+[name="瑟缩的平民"]我胆子小……每天都会确认的……
+[charslot(slot = "m", name = "avg_npc_2267_1#1$1")]
+[name="德鲁莎"]没有异常，很好，那这里就排除了。
+[charslot(slot = "m", name = "avg_npc_2267_1#3$1")]
+[name="德鲁莎"]剩下的只有——
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g3_seasidest_d",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot = "m", name = "avg_npc_2267_1#9$1",duration=1)]
+[delay(time=1.5)]
+[name="德鲁莎"]东侧临海的这座废弃工坊了。
+[name="德鲁莎"]只为疑惑、困苦、向往和平的阿戈尔人开门的教堂，给我解答吧。
+[name="德鲁莎"]到底是谁躲在背后，为了何种目的，煽动我的同胞？
+[Dialog]
+[playsound(key="$d_avg_gateopen")]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

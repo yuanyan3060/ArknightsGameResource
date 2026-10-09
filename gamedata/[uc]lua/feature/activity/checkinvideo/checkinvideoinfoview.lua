@@ -72,6 +72,8 @@ local UICommonItemCard = require("Feature/Supportor/UI/UICommonItemCard");
 
 
 
+
+
 local CheckinVideoInfoView = Class("CheckinVideoInfoView", UIPanel);
 
 local ALPHA_CAN_RECEIVE = 1.0;
@@ -149,11 +151,7 @@ function CheckinVideoInfoView:_InitElementsColor(data)
   end
   if data.mainBtnCol ~= nil then
     local mainBtnCol = CS.Torappu.ColorRes.TweenHtmlStringToColor(data.mainBtnCol);
-    self._mainBtnBg.color = mainBtnCol;
-    self._textMainBtnReceive.color = mainBtnCol;
     self._textMainBtnAfterClick.color = mainBtnCol;
-    self._mainBtnRecieveIcon.color = mainBtnCol;
-    self._mainBtnRecieveIconGift.color = mainBtnCol;
     self._mainBtnAfterClickIcon.color = mainBtnCol;
     self._mainBtnAfterClickIconGift.color = mainBtnCol;
     self._shareBtnBg.color = mainBtnCol;
@@ -161,7 +159,21 @@ function CheckinVideoInfoView:_InitElementsColor(data)
     self._shareBtnIcon.color = mainBtnCol;
     self._lockIcon.color = mainBtnCol;
     self._textLocked.color = mainBtnCol;
+    self._receivedBtnBg.color = mainBtnCol;
+    self._lockBtnBg.color = mainBtnCol;
   end
+  if data.unreceiveBtnBgCol ~= nil then
+    local unreceiveBtnBgCol = CS.Torappu.ColorRes.TweenHtmlStringToColor(data.unreceiveBtnBgCol);
+    self._mainBtnBg.color = unreceiveBtnBgCol;
+  end
+
+  if data.unreceiveBtnTxtCol ~= nil then
+    local unreceiveBtnTxtCol = CS.Torappu.ColorRes.TweenHtmlStringToColor(data.unreceiveBtnTxtCol);
+    self._mainBtnRecieveIcon.color = unreceiveBtnTxtCol;
+    self._mainBtnRecieveIconGift.color = unreceiveBtnTxtCol;
+    self._textMainBtnReceive.color = unreceiveBtnTxtCol;
+  end
+
   if data.blurCol ~= nil then
     local blurCol = CS.Torappu.ColorRes.TweenHtmlStringToColor(data.blurCol);
     self._gradientBottom.color = blurCol;

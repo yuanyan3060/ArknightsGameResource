@@ -1,0 +1,367 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="74_g14_ibchurch_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playMusic(intro="$drift_intro",key="$drift_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_4232_hbound_1#4$1",duration=0.5)]
+[delay(time=1)]
+[name="纳乔"]——！
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_941_1#5$1",duration=1)]
+[delay(time=1.5)]
+[name="奥卢斯"]我一度担心你醒不过来了，纳乔。
+[name="奥卢斯"]手臂和假肢的接口处缺乏医疗维护，早就发炎了，你现在还在发烧，先休息一下。
+[charslot(slot = "m", name = "avg_4232_hbound_1#8$1")]
+[name="纳乔"]这里是教堂？您就是阿奎拉的导师……？
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]叫我奥卢斯吧。
+[charslot(slot = "m", name = "avg_4232_hbound_1#10$1")]
+[name="纳乔"]奥卢斯先生，阿奎拉被审判庭逮捕了。我不知道发生了什么，但几天前她托付我，如果她出事就来找你。
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]原来她那个时候已经下定了决心。
+[charslot(slot = "m", name = "avg_4232_hbound_1#10$1")]
+[name="纳乔"]您在说什么？什么决心？您能帮帮阿奎拉吗，她的脾气太硬，要是审讯的时候惹怒了审判官，就更麻烦了……
+[charslot(slot = "m", name = "avg_npc_941_1#5$1")]
+[name="奥卢斯"]纳乔……
+[dialog]
+[charslot(slot = "m", focus = "n")]
+[playsound(key="$doorknockquite")]
+[delay(time=1.5)]
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]稍等。
+[dialog]
+[playsound(key="$doorclosequite")]
+[charslot(duration=1)]
+[delay(time=2)]
+[name="模糊的声音"]逮捕……地牢……阿奎拉……
+[name="模糊的声音"]确认了吗……接下来该怎么办……
+[name="模糊的声音"]我明白了……
+[charslot(slot = "m", name = "avg_4232_hbound_1#4$1")]
+[name="纳乔"]阿奎拉……
+[Dialog]
+[charslot]
+[playsound(key="$dooropenquite")]
+[charslot(slot = "m", name = "avg_npc_941_1#2$1",duration=0.5)]
+[delay(time=1)]
+[name="奥卢斯"]纳乔。
+[charslot(slot = "m", name = "avg_4232_hbound_1#8$1")]
+[name="纳乔"]阿奎拉……阿奎拉怎么了？
+[charslot(slot = "m", name = "avg_npc_941_1#5$1")]
+[name="奥卢斯"]……
+[charslot(slot = "m", name = "avg_4232_hbound_1#1$1")]
+[name="纳乔"]请不要露出这副表情，医生告诉我我的手保不住的时候是这副表情，奶奶得知自己病重时也是这副表情……
+[name="纳乔"]我知道她为什么很多事都瞒着我，但您能不能——
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]纳乔。
+[name="奥卢斯"]阿奎拉死了。
+[charslot(slot = "m", name = "avg_4232_hbound_1#10$1")]
+[name="纳乔"]什么……
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g2_courtprison",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[CameraEffect(effect="Grayscale", fadetime=2, amount=0, block=true)]
+[charslot(slot = "m", name = "avg_npc_2271_1#1$1",duration=1)]
+[delay(time=2)]
+[name="阿奎拉"]……
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]……
+[name="斐戴拉"]你比我想象的更有耐心，在你们的计划里，你是领导岛民的角色。
+[charslot(slot = "m", name = "avg_npc_2271_1#3$1")]
+[name="阿奎拉"]呵，分析这些会让你更有安全感吗？
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]分析这些会让我确信，你很想离开这里，带领他们去做你认为正确的事。
+[charslot(slot = "m", name = "avg_npc_2271_1#1$1")]
+[name="阿奎拉"]“正确”……那听上去我们跟审判庭也没什么区别。
+[name="阿奎拉"]为了你们口中的伊比利亚，你们将深海教会的成员和岛民混为一谈，因为这样能让你们最方便地做最正确的事。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]你无法否认，许多岛民都与深海教会有染。
+[charslot(slot = "m", name = "avg_npc_2271_1#1$1")]
+[name="阿奎拉"]我确实认识不少加入深海教会的岛民，但你知道他们为什么这么做吗？
+[name="阿奎拉"]我有个堕入深海教会的岛民朋友，他临刑前曾向我忏悔，他知道自己做错了事，也不会为此辩解。
+[name="阿奎拉"]但他说，至少和教徒们在一起的时候，他不用睡觉时还要提防有人砸碎他的窗户，至少会有人称他为同胞。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]审判庭不会蓄意伤害岛民。
+[charslot(slot = "m", name = "avg_npc_2271_1#1$1")]
+[name="阿奎拉"]但你们也不会惩罚做那种事的人。
+[name="阿奎拉"]你我都清楚，伊比利亚的“和平”是靠什么维系的，伊比利亚人无聊贫乏的生活又是靠什么“调剂”的。
+[charslot(slot = "m", name = "avg_npc_2271_1#5$1")]
+[name="阿奎拉"]我认识很多被人扔燃烧瓶的孩子，其中一个失去了一整条右手臂。
+[name="阿奎拉"]我从小就认识他，他善良到连条鳞都不敢杀，能背出经卷上的任何一段文字，时刻想向别人证明岛民也是普通的、善良的伊比利亚人。
+[charslot(slot = "m", name = "avg_npc_2271_1#1$1")]
+[name="阿奎拉"]但哪怕他如此问心无愧，他依旧提心吊胆。这就是伊比利亚。只要提到有人犯罪，连岛民自己都会相信是岛民干的。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]正是因此，审判庭尽可能保存了自建立以来的所有卷宗和档案。
+[name="斐戴拉"]我们如实记载每一句话，就是因为我们知道自己在做多么危险的工作，而每次讯问的时候我们的美德都在受到考验。
+[charslot(slot = "m", name = "avg_npc_2271_1#1$1")]
+[name="阿奎拉"]美德……好，就算我相信每一句被记录下的陈词都是真的，那你又如何保证每桩涉及岛民的调查都揭露了真相呢？
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]真相？
+[charslot(slot = "m", name = "avg_npc_2271_1#1$1")]
+[name="阿奎拉"]你不能，我也不能。我们永远不会再知道，一个被邻居举报蓄意伤害、被扣押进地牢的岛民，是否曾经遭受过同一个邻居的欺凌。
+[name="阿奎拉"]我们也永远不会知道，仇恨真正的起因是什么，公正的天平到底会向谁倾倒。在无尽的仇恨的循环里，我们永远无法原谅彼此。
+[stopmusic(fadetime=1)]
+[name="阿奎拉"]审判庭拥有选择，你们可以选择打捞港都，建立一座看上去对岛民宽松一些的城市，但我也有选择，我选择……
+[playMusic(intro="$m_bat_imprisonment_intro",key="$m_bat_imprisonment_loop", volume=0.6)]
+[charslot(slot = "m", name = "avg_npc_2271_1#8$1")]
+[name="阿奎拉"]恨下去。
+[dialog]
+[charslot(duration=2)]
+[Background(image="bg_black",screenadapt="coverall",fadetime=2,block=true)]
+[charslot(slot = "m", focus = "n")]
+[delay(time=1)]
+[interlude(maskid = "ui_cutin_mask_vertical", style = 1, size = "1280, 250",offset = "0,-100", channel = 2)]
+[interlude(channel = 2, type = 3, slot = "m", offset = "0,-50", name = "avg_npc_2271_1#1$1", aduration = 1, sfrom = "1.3,1.3", sto = "1.3,1.3")]
+[interlude(channel = 2, type = 3, slot = "m", pfrom = "0,-100", pto = "20,-100", duration = 3)]
+[delay(time=3)]
+阿奎拉看向自己的手，那副做工粗糙的手铐边缘锋利，不知不觉中已经划伤了她的手腕。它仿佛在嘲弄受刑者，它根本不在乎她的死活。
+[dialog]
+[interlude(channel = 2, type = 3, slot = "m",afrom = 1, ato =0 , aduration = 1, name = "avg_npc_2271_1#1$1", pfrom = "20,-100", pto = "20,-100")]
+[delay(time=1.1)]
+[interlude(channel = 2, clear = true)]
+[delay(time=0.3)]
+[interlude(maskid = "ui_cutin_mask_vertical", style = 1, size = "1280, 250",offset = "0,50", channel = 2)]
+[interlude(channel = 2, type = 3, slot = "m", offset = "0,-50", name = "avg_npc_2271_1#6$1", aduration = 1, sfrom = "1.3,1.3", sto = "1.3,1.3")]
+[interlude(channel = 2, type = 3, slot = "m", pfrom = "0,-140", pto = "25,-140", duration = 5)]
+[delay(time=1)]
+阿奎拉知道自己的任务已经完成了，她只需要向审判庭隐瞒。接下来她能做的最好的事，是叫醒更多的岛民，更多不愿说出冤屈的人。
+抱歉，她在心底对她的朋友们说。她知道仇恨不是一个好选择，但这是能让他们团结起来做些什么的，唯一的选择。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g2_courtprison",screenadapt="coverall")]
+[charslot(slot = "m", name = "avg_npc_2271_1#10$1")]
+[interlude(channel = 2, clear = true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="阿奎拉"]伊比利亚人应当记住，岛民曾经做过什么，又遭受过什么。哪怕不是我，也有岛民会站出来，夺回他们自己应得的东西。
+[charslot(slot = "m", name = "avg_npc_2271_1#3$1")]
+[name="阿奎拉"]你的分析大部分都对，但有一点不准确。我其实并不想离开这里，大审判官阁下。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]什么？
+[charslot(slot = "m", name = "avg_npc_2271_1#2$1")]
+[name="阿奎拉"]我在这里迎来终结，或许对于我那些举棋不定的同胞而言更有价值。
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[name="斐戴拉"]等等——！
+[dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[charslot]
+[Image(image="cg_blood",screenadapt="coverall")]
+[playsound(key="$d_avg_broadswordblood")]
+[charslot(slot = "m", name = "avg_npc_2270_1#1$1")]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="斐戴拉"]！
+[Dialog]
+[CameraEffect(effect="Grayscale", fadetime=2, keep=true, initamount=0, amount=1, block=true)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[curtain]
+[image]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_4232_hbound_1#5$1")]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[Background(image="74_g14_ibchurch_2",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$dignified_intro",key="$dignified_loop", volume=0.6)]
+[name="纳乔"]她……自杀？！
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]你看上去很悲伤，也很愤怒？
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot = "m", name = "avg_4232_hbound_1#11$1")]
+[name="纳乔"]……阿奎拉死了，奥卢斯先生！
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]当然……你当然有理由悲伤。但为什么愤怒？
+[charslot(slot = "m", name = "avg_4232_hbound_1#11$1")]
+[name="纳乔"]她总揶揄我为伊比利亚人工作得太卖力。可我们刚来这儿的时候，她工作起来比我还卖力得多。
+[name="纳乔"]我以为她才是对未来还有期望的那个人。我不明白，是什么东西让她抛下了所有这些。
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]我想，是因为她没有办法忽视同胞的境遇，纳乔。
+[charslot(slot = "m", name = "avg_4232_hbound_1#7$1")]
+[name="纳乔"]所以都是因为这个互助会，对吗？
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]我曾在伊比利亚各地游历，我知道生活在一个充斥着纷争和偏见的地方非常痛苦，我希望为我的同胞们做些什么。
+[name="奥卢斯"]我见过因堤坝崩溃消失在浪潮中的村落，也见过饿殍堆积的坟场；我救下过一些被当猎物追杀的阿戈尔人，也劝过流浪在外的岛民返乡。
+[name="奥卢斯"]然后我得出了一个结论。
+[name="奥卢斯"]如今在伊比利亚作祟的，并非突如其来的贫瘠，也非谣传之中的海中怪物，更不是被视为不祥之兆的岛民。
+[name="奥卢斯"]悲剧的发生只是因为伊比利亚是一个建立在纷争之上的国家，因为它从未真正地渴望和平。
+[charslot(slot = "m", name = "avg_4232_hbound_1#7$1")]
+[name="纳乔"]我不明白您为什么在说这些，奥卢斯先生。您难道觉得阿奎拉是因为不想要和平，才做那些事？
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]不，我只是想说，人们总在用立场来约束自己，规训自己。我们是岛民，他们是伊比利亚人，海里的是真正的阿戈尔人。
+[name="奥卢斯"]只有找准立场之后，人才会为之思考，才会为之努力，才会做出选择。
+[charslot(slot = "m", name = "avg_4232_hbound_1#10$1")]
+[name="纳乔"]……所以阿奎拉才总是跟我说，互助会里的才是“真正的同胞”？
+[name="纳乔"]可能这也是为什么，我总觉得自己适应不了互助会的氛围。就算大家再怎么强调谁是“真正的同胞”，谁是叛徒、恶人……
+[name="纳乔"]我也不会变得更安心，事情也不会变得更好。
+[charslot(slot = "m", name = "avg_npc_941_1#5$1")]
+[name="奥卢斯"]但人们诉说的遭遇是真实的。或许曾经阿奎拉想要通过打捞工作重整自己的生活，但只是听到同胞们的那些遭遇……
+[name="奥卢斯"]就足够让她萌生出为同胞们做些什么的想法了。所以她做了选择，她死在了狱中，为了保守一个秘密。
+[charslot(slot = "m", name = "avg_4232_hbound_1#3$1")]
+[name="纳乔"]秘密……
+[charslot(slot = "m", name = "avg_4232_hbound_1#7$1")]
+[name="纳乔"]奥卢斯先生，让我加入互助会吧。
+[name="纳乔"]我想知道阿奎拉到底是为了什么而死。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g8_shipatelier",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(key="$comedy_loop", volume=0.6)]
+[charslot(slot = "left", name = "avg_npc_2266_1#10$1",duration = 1)]
+[charslot(slot = "right", name = "avg_393_toledo_1#5$1",duration = 1)]
+[delay(time=1.5)]
+[charslot(slot = "right", name = "avg_393_toledo_1#5$1",focus="r")]
+[name="特菲"]（细腻的咀嚼声）
+[charslot(slot = "right", name = "avg_393_toledo_1#10$1",focus="r")]
+[name="特菲"]（优雅的啜饮声）
+[charslot(slot = "left", name = "avg_npc_2266_1#10$1",focus="l")]
+[name="瓦列里奥"]……吃饭也要顾及贵族礼仪吗，特菲？
+[charslot(slot = "right", name = "avg_393_toledo_1#5$1",focus="r")]
+[name="特菲"]嘘，有些船工才刚刚开始相信我的贵族名头，不能前功尽弃。
+[charslot(slot = "left", name = "avg_npc_2266_1#10$1",focus="l")]
+[name="瓦列里奥"]这份工作来之不易，特菲。
+[charslot(slot = "right", name = "avg_393_toledo_1#3$1",focus="r")]
+[name="特菲"]我会努力的，刚刚连工头都说我在学习船只设计图上有天分，看来我确实是伊比利亚王室海军的后裔。
+[charslot(slot = "left", name = "avg_npc_2266_1#10$1",focus="l")]
+[name="瓦列里奥"]……
+[charslot(slot = "right", name = "avg_393_toledo_1#13$1",focus="r")]
+[name="特菲"]不过，招揽拥护者就没那么顺利了……那个萨尔瓦多真是油盐不进！
+[charslot(slot = "right", name = "avg_393_toledo_1#1$1",focus="r")]
+[name="特菲"]我决定换个说法，让他相信我是身为贵族末裔又加入审判庭最终光荣殉道的传奇圣徒的遗孤，你看如何？
+[charslot(slot = "left", name = "avg_npc_2266_1#5$1",focus="l")]
+[name="瓦列里奥"]唉。
+[charslot(slot = "right", name = "avg_393_toledo_1#1$1",focus="r")]
+[name="特菲"]行啦，我知道你不乐意听这些，说说你自己吧，瓦列里奥。
+[charslot(slot = "left", name = "avg_npc_2266_1#6$1",focus="l")]
+[name="瓦列里奥"]我？
+[charslot(slot = "right", name = "avg_393_toledo_1#1$1",focus="r")]
+[name="特菲"]对啊，我们刚搭伙的时候是你说的想来港都。现在在船厂老是找不到你人，是不是去寻亲了？
+[charslot(slot = "left", name = "avg_npc_2266_1#13$1",focus="l")]
+[name="瓦列里奥"]过了那么多年，哪还找得到亲人呢？我受伤之后他们就跟我断绝关系了。
+[charslot(slot = "right", name = "avg_393_toledo_1#8$1",focus="r")]
+[name="特菲"]太过分了，就算烧伤在这里很难治，也不能就这么丢下你啊。而且我记得你的伤是为了救一个朋友才受的吧，他也不管你？
+[charslot(slot = "left", name = "avg_npc_2266_1#11$1",focus="l")]
+[name="瓦列里奥"]都过去了。
+[charslot(slot = "right", name = "avg_393_toledo_1#7$1",focus="r")]
+[name="特菲"]不能就这么过去！你自己或许忘了，我可记得我第一次见到你的样子。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]
+[Background(image="bg_ibbar",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[charslot(slot = "m", name = "avg_393_toledo_1#5$1")]
+[name="特菲"]今天有一艘船出航♪
+[name="特菲"]羽兽在船舷上踱步——♪
+[charslot(slot = "m", focus = "n")]
+[name="疲惫的酒客"]老板，结账。
+[charslot(slot = "m", name = "avg_393_toledo_1#13$1")]
+[name="特菲"]咳咳……吹响号角……
+[charslot]
+[name="酒馆老板"]别唱了，小姑娘。人早就走光了。
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1")]
+[name="特菲"]两个铜币，也就一顿饭钱。
+[charslot]
+[name="酒馆老板"]那边还有他们喝剩的半杯酒，想喝就喝吧，你这嗓子都唱哑了。
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1")]
+[name="特菲"]可以吗？谢谢，德·托莱多家族会记得你的恩典的！
+[charslot(slot = "m", name = "avg_393_toledo_1#15$1")]
+[name="特菲"]欸，那边还有一个人啊？
+[Dialog]
+[charslot]
+[name="瓦列里奥"]……
+[charslot]
+[name="酒馆老板"]你从他身上赚不到住宿钱。那家伙一身烧伤，半死不活的，进来不说话也不买东西，就倚在墙角。
+[name="酒馆老板"]听说他一直在往海边走，像个朝圣者。咱也不知道海边有什么圣可朝，那边分明只有罪孽。最好离他远点。
+[charslot(slot = "m", name = "avg_393_toledo_1#12$1")]
+[name="特菲"]再离他远点，他可就连饭都要不到了……
+[charslot(slot = "m", name = "avg_393_toledo_1#1$1")]
+[name="特菲"]算了，我饿一顿也不打紧。老板，两个铜币，给他上点吃的。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, amount=0, block=true)]
+[charslot(slot = "left", name = "avg_npc_2266_1#10$1")]
+[charslot(slot = "right", name = "avg_393_toledo_1#1$1")]
+[Background(image="74_g8_shipatelier",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot = "right", name = "avg_393_toledo_1#1$1",focus="r")]
+[name="特菲"]老板给的不多，一块面包，一片比纸都薄的火腿。你吃了整整一个下午，每啃两口就要听我讲半个小时。
+[name="特菲"]伊比利亚人很多，伊比利亚人也都差不多。但为了忽悠人和听人忽悠，一顿饭能吃一个下午的，可就咱俩。
+[charslot(slot = "left", name = "avg_npc_2266_1#10$1",focus="l")]
+[name="瓦列里奥"]是啊。
+[dialog]
+[charslot]
+[stopmusic(fadetime=2)]
+[playsound(key="$d_avg_armour", loop=true, channel="bgs")]
+[StopSound(channel="bgs", fadetime=3)]
+[charslot(slot = "m", name = "avg_npc_2276_1#1$1",duration=0.5)]
+[charslot(slot = "right", name = "avg_npc_2276_1#1$1",duration=0.5)]
+[charslot(slot = "m",posfrom = "0,0", posto = "-200,0",duration = 1.5)]
+[charslot(slot = "r",posfrom = "0,0", posto = "-200,0",duration = 1.5)]
+[delay(time=1)]
+[charslot(duration=0.5)]
+[delay(time=1.5)]
+[charslot(slot = "left", name = "avg_npc_2266_1#10$1",focus="r")]
+[charslot(slot = "right", name = "avg_393_toledo_1#2$1",focus="r")]
+[name="特菲"]这么多惩戒军，发生什么了？
+[charslot(slot = "left", name = "avg_npc_2266_1#1$1",focus="l")]
+[name="瓦列里奥"]……
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[delay(time=1)]
+[Background(image="74_g4_seasidest_n",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[playMusic(intro="$mist_intro",key="$mist_loop", volume=0.6)]
+[charslot(slot="l",name="avg_npc_2270_1#1$1",duration=1)]
+[charslot(slot="r",name="avg_4009_irene_1#7$1",duration=1)]
+[delay(time=2)]
+[charslot(slot="r",name="avg_4009_irene_1#7$1",focus="r")]
+[name="艾丽妮"]斐戴拉大审判官。
+[charslot(slot="l",name="avg_npc_2270_1#1$1",focus="l")]
+[name="斐戴拉"]嗯。
+[charslot(slot="r",name="avg_4009_irene_1#10$1",focus="r")]
+[name="艾丽妮"]您……看上去很疲惫，甚至您的衣角还有血迹……伤势又严重了吗？
+[charslot(slot="l",name="avg_npc_2270_1#1$1",focus="l")]
+[name="斐戴拉"]它只是没有变好。
+[charslot(slot="r",name="avg_4009_irene_1#10$1",focus="r")]
+[name="艾丽妮"]要不要再找医生评估一下您的身体状况，或许您需要用药而非静养。
+[charslot(slot="l",name="avg_npc_2270_1#1$1",focus="l")]
+[name="斐戴拉"]放心，它总会好起来的。而且，能让我消除疲惫的东西，你已经带来了不是吗？
+[name="斐戴拉"]这个铁匣子里面的，就是圣徒阁下想让船厂接手的东西——
+[name="斐戴拉"]那把能解除港都所有系统的权限封锁、维系港都所有城市功能正常运作的“钥匙”？
+[charslot(slot="r",name="avg_4009_irene_1#8$1",focus="r")]
+[name="艾丽妮"]是的。其实……其实圣徒阁下还说——
+[charslot(slot="l",name="avg_npc_2270_1#1$1",focus="l")]
+[name="斐戴拉"]好，好……等中心城区重新升上海面，雷亚-伊比利亚重新出现在伊比利亚的版图之上，过去的伤痛都会烟消云散的。
+[name="斐戴拉"]我们是不是也该重新学起过去被封禁的歌谣，或者跳支舞了呢……嗯？你刚刚想说什么？
+[charslot(slot="r",name="avg_4009_irene_1#13$1",focus="r")]
+[name="艾丽妮"]不，没什么。
+[charslot(slot="l",name="avg_npc_2270_1#1$1",focus="l")]
+[name="斐戴拉"]让圣徒阁下安心吧，我会保护船厂和铁匣中的希望。
+[name="斐戴拉"]以我对审判庭和伊比利亚的信念起誓。
+[Dialog]
+[delay(time=2)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[stopmusic(fadetime=2)]
+[hidecgitem]
+[Image]
+[charslot] 

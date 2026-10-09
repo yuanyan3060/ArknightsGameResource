@@ -628,6 +628,16 @@
           "type": "TRAINING",
           "level": 1,
           "count": 1
+        },
+        "7": {
+          "type": "RECYCLE",
+          "level": 1,
+          "count": 1
+        },
+        "8": {
+          "type": "RECYCLE",
+          "level": 1,
+          "count": 1
         }
       }
     },
@@ -663,6 +673,16 @@
           "type": "CONTROL",
           "level": 3,
           "count": 1
+        },
+        "7": {
+          "type": "CONTROL",
+          "level": 5,
+          "count": 1
+        },
+        "8": {
+          "type": "CONTROL",
+          "level": 5,
+          "count": 1
         }
       }
     },
@@ -697,6 +717,46 @@
         "6": {
           "type": "CONTROL",
           "level": 4,
+          "count": 1
+        },
+        "7": {
+          "type": "CONTROL",
+          "level": 5,
+          "count": 1
+        },
+        "8": {
+          "type": "CONTROL",
+          "level": 5,
+          "count": 1
+        }
+      }
+    },
+    "RECYCLE#1": {
+      "id": "RECYCLE#1",
+      "number": {
+        "1": {
+          "type": "TRAINING",
+          "level": 1,
+          "count": 1
+        }
+      }
+    },
+    "RECYCLE#2": {
+      "id": "RECYCLE#2",
+      "number": {
+        "1": {
+          "type": "CONTROL",
+          "level": 5,
+          "count": 1
+        }
+      }
+    },
+    "RECYCLE#3": {
+      "id": "RECYCLE#3",
+      "number": {
+        "1": {
+          "type": "CONTROL",
+          "level": 5,
           "count": 1
         }
       }
@@ -1159,7 +1219,7 @@
       "description": "罗德岛的个人休整设施，为干员们提供了独立的娱乐与活动空间。",
       "defaultPrefabId": "room_private_6x2",
       "canLevelDown": true,
-      "maxCount": 6,
+      "maxCount": 8,
       "category": "CUSTOM_P",
       "size": {
         "row": 2,
@@ -1441,6 +1501,78 @@
         }
       ]
     },
+    "RECYCLE": {
+      "id": "RECYCLE",
+      "name": "回收站",
+      "description": "罗德岛的材料转化设施，通过研究已知材料的结构和特性，回收材料，可以产出全新的材料。",
+      "defaultPrefabId": "room_recycle_4x2",
+      "canLevelDown": false,
+      "maxCount": 1,
+      "category": "FUNCTION",
+      "size": {
+        "row": 2,
+        "col": 4
+      },
+      "phases": [
+        {
+          "overrideName": null,
+          "overridePrefabId": null,
+          "unlockCondId": "RECYCLE#1",
+          "buildCost": {
+            "items": [
+              {
+                "id": "3131",
+                "count": 1,
+                "type": "MATERIAL"
+              }
+            ],
+            "time": 0,
+            "labor": 10
+          },
+          "electricity": 0,
+          "maxStationedNum": 1,
+          "manpowerCost": 100
+        },
+        {
+          "overrideName": null,
+          "overridePrefabId": null,
+          "unlockCondId": "RECYCLE#2",
+          "buildCost": {
+            "items": [
+              {
+                "id": "3132",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ],
+            "time": 0,
+            "labor": 60
+          },
+          "electricity": 0,
+          "maxStationedNum": 2,
+          "manpowerCost": 100
+        },
+        {
+          "overrideName": null,
+          "overridePrefabId": null,
+          "unlockCondId": "RECYCLE#3",
+          "buildCost": {
+            "items": [
+              {
+                "id": "3133",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ],
+            "time": 0,
+            "labor": 120
+          },
+          "electricity": 0,
+          "maxStationedNum": 2,
+          "manpowerCost": 100
+        }
+      ]
+    },
     "MEETING": {
       "id": "MEETING",
       "name": "会客室",
@@ -1636,6 +1768,102 @@
             "col": 23
           },
           "category": "ELEVATOR",
+          "storeyId": "B4"
+        },
+        "slot_52": {
+          "id": "slot_52",
+          "cleanCostId": "CORRIDOR_P",
+          "costLabor": 0,
+          "provideLabor": 2,
+          "size": {
+            "row": 2,
+            "col": 2
+          },
+          "offset": {
+            "row": 0,
+            "col": 24
+          },
+          "category": "CORRIDOR",
+          "storeyId": "B4"
+        },
+        "slot_53": {
+          "id": "slot_53",
+          "cleanCostId": "FUNCTION",
+          "costLabor": 0,
+          "provideLabor": 3,
+          "size": {
+            "row": 2,
+            "col": 4
+          },
+          "offset": {
+            "row": 0,
+            "col": 26
+          },
+          "category": "FUNCTION",
+          "storeyId": "B4"
+        },
+        "slot_54": {
+          "id": "slot_54",
+          "cleanCostId": "CORRIDOR_P",
+          "costLabor": 0,
+          "provideLabor": 2,
+          "size": {
+            "row": 2,
+            "col": 2
+          },
+          "offset": {
+            "row": 0,
+            "col": 30
+          },
+          "category": "CORRIDOR",
+          "storeyId": "B4"
+        },
+        "slot_55": {
+          "id": "slot_55",
+          "cleanCostId": "ELEVATOR_P",
+          "costLabor": 0,
+          "provideLabor": 2,
+          "size": {
+            "row": 2,
+            "col": 1
+          },
+          "offset": {
+            "row": 0,
+            "col": 32
+          },
+          "category": "ELEVATOR",
+          "storeyId": "B4"
+        },
+        "slot_56": {
+          "id": "slot_56",
+          "cleanCostId": "CUSTOM_P",
+          "costLabor": 0,
+          "provideLabor": 3,
+          "size": {
+            "row": 2,
+            "col": 6
+          },
+          "offset": {
+            "row": 0,
+            "col": 33
+          },
+          "category": "CUSTOM_P",
+          "storeyId": "B4"
+        },
+        "slot_57": {
+          "id": "slot_57",
+          "cleanCostId": "CUSTOM_P",
+          "costLabor": 0,
+          "provideLabor": 3,
+          "size": {
+            "row": 2,
+            "col": 6
+          },
+          "offset": {
+            "row": 0,
+            "col": 39
+          },
+          "category": "CUSTOM_P",
           "storeyId": "B4"
         },
         "slot_5": {
@@ -2511,6 +2739,24 @@
                   "type": "MATERIAL"
                 }
               ]
+            },
+            "6": {
+              "items": [
+                {
+                  "id": "3133",
+                  "count": 1,
+                  "type": "MATERIAL"
+                }
+              ]
+            },
+            "7": {
+              "items": [
+                {
+                  "id": "3133",
+                  "count": 1,
+                  "type": "MATERIAL"
+                }
+              ]
             }
           }
         },
@@ -2629,6 +2875,15 @@
                   "type": "MATERIAL"
                 }
               ]
+            },
+            "3": {
+              "items": [
+                {
+                  "id": "3133",
+                  "count": 1,
+                  "type": "MATERIAL"
+                }
+              ]
             }
           }
         },
@@ -2731,6 +2986,24 @@
               ]
             },
             "2": {
+              "items": [
+                {
+                  "id": "3132",
+                  "count": 1,
+                  "type": "MATERIAL"
+                }
+              ]
+            },
+            "3": {
+              "items": [
+                {
+                  "id": "3132",
+                  "count": 1,
+                  "type": "MATERIAL"
+                }
+              ]
+            },
+            "4": {
               "items": [
                 {
                   "id": "3132",
@@ -2873,6 +3146,15 @@
               ]
             },
             "3": {
+              "items": [
+                {
+                  "id": "3132",
+                  "count": 1,
+                  "type": "MATERIAL"
+                }
+              ]
+            },
+            "4": {
               "items": [
                 {
                   "id": "3132",
@@ -3057,6 +3339,23 @@
     },
     "room_training_4x2": {
       "id": "room_training_4x2",
+      "blueprintRoomOverrideId": null,
+      "size": {
+        "row": 2,
+        "col": 4
+      },
+      "floorGridSize": {
+        "row": 0,
+        "col": 0
+      },
+      "backWallGridSize": {
+        "row": 0,
+        "col": 0
+      },
+      "obstacleId": null
+    },
+    "room_recycle_4x2": {
+      "id": "room_recycle_4x2",
       "blueprintRoomOverrideId": null,
       "size": {
         "row": 2,
@@ -3275,6 +3574,23 @@
   "powerData": {
     "basicSpeedBuff": 0.05,
     "phases": []
+  },
+  "recycleData": {
+    "basicSpeedBuff": 0.01,
+    "phases": [
+      {
+        "recycleCapacity": 0,
+        "recycleSpeed": 1.0
+      },
+      {
+        "recycleCapacity": 5,
+        "recycleSpeed": 1.0
+      },
+      {
+        "recycleCapacity": 5,
+        "recycleSpeed": 1.2
+      }
+    ]
   },
   "chars": {
     "char_285_medic2": {
@@ -15625,6 +15941,104 @@
           ]
         }
       ]
+    },
+    "char_4231_clemnt": {
+      "charId": "char_4231_clemnt",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "meet_spd&cost[110]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "meet_spd&cost_char[000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_393_toledo": {
+      "charId": "char_393_toledo",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "hire_spd_cost[113]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "hire_spd_cost[122]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_hireToRecAll[002]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4232_hbound": {
+      "charId": "char_4232_hbound",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "recycle_spd&cost[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "recycle_spd&cost[010]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_device[080]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -22850,6 +23264,23 @@
         "F_EVOLVE"
       ]
     },
+    "workshop_formula_device[080]": {
+      "buffId": "workshop_formula_device[080]",
+      "buffName": "指尖的光",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_Refractor",
+      "sortId": 7550,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "进驻加工站加工<@cc.kw>手性屈光体</>或<@cc.kw>重相位对映体</>时，副产物的产出概率提升<@cc.vup>90%</>",
+      "efficiency": 0,
+      "targetGroupSortId": 2,
+      "targets": [
+        "F_EVOLVE"
+      ]
+    },
     "workshop_formula_rub[000]": {
       "buffId": "workshop_formula_rub[000]",
       "buffName": "省省能更多",
@@ -25570,6 +26001,21 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "dorm_hireToRecAll[002]": {
+      "buffId": "dorm_hireToRecAll[002]",
+      "buffName": "忠实拥趸",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_hireToRecAll2",
+      "sortId": 5413,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复<@cc.vup>+0.1</>，同时每个招募位（不包含初始招募位）额外<@cc.vup>+0.05</>恢复效果（叠加后的最终值同种效果取最高）",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "dorm_rec_all&lv[000]": {
       "buffId": "dorm_rec_all&lv[000]",
       "buffName": "睡前必听故事",
@@ -26395,6 +26841,21 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "hire_spd_cost[113]": {
+      "buffId": "hire_spd_cost[113]",
+      "buffName": "拉拢听众",
+      "buffIcon": "hire",
+      "skillIcon": "bskill_hire_spd&cost4",
+      "sortId": 8104,
+      "buffColor": "#565656",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "HIRE",
+      "description": "进驻人力办公室时，人脉资源的联络速度<@cc.vup>+20%</>，心情每小时消耗<@cc.vup>-0.25</>",
+      "efficiency": 20,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "hire_spd_cost[101]": {
       "buffId": "hire_spd_cost[101]",
       "buffName": "宫廷礼仪",
@@ -26416,6 +26877,21 @@
       "buffIcon": "hire",
       "skillIcon": "bskill_hire_spd&cost6",
       "sortId": 8101,
+      "buffColor": "#565657",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "HIRE",
+      "description": "进驻人力办公室时，人脉资源的联络速度<@cc.vup>+30%</>，心情每小时消耗<@cc.vup>-0.25</>",
+      "efficiency": 30,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "hire_spd_cost[122]": {
+      "buffId": "hire_spd_cost[122]",
+      "buffName": "聚众宣讲",
+      "buffIcon": "hire",
+      "skillIcon": "bskill_hire_spd&cost6",
+      "sortId": 8105,
       "buffColor": "#565657",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -27175,6 +27651,36 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "meet_spd&cost[110]": {
+      "buffId": "meet_spd&cost[110]",
+      "buffName": "谈判技巧",
+      "buffIcon": "meeting",
+      "skillIcon": "bskill_meet_spd&cost_clms",
+      "sortId": 6006,
+      "buffColor": "#dd653f",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "MEETING",
+      "description": "进驻会客室时，线索搜集速度提升<@cc.vup>20%</>，心情每小时消耗<@cc.vdown>+1</>",
+      "efficiency": 20,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "meet_spd&cost_char[000]": {
+      "buffId": "meet_spd&cost_char[000]",
+      "buffName": "合作原则",
+      "buffIcon": "meeting",
+      "skillIcon": "bskill_meet_spd&cost_char",
+      "sortId": 6080,
+      "buffColor": "#dd653f",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "MEETING",
+      "description": "与其他干员进驻会客室一起工作时，线索搜集速度提升<@cc.vup>15%</>，心情每小时消耗<@cc.vdown>+1</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "meet_spd&cost_condChar[000]": {
       "buffId": "meet_spd&cost_condChar[000]",
       "buffName": "双面间谍",
@@ -27892,6 +28398,36 @@
       "roomType": "MEETING",
       "description": "进驻会客室时，处于线索交流时更容易获得线索板上尚未拥有的线索",
       "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "recycle_spd&cost[000]": {
+      "buffId": "recycle_spd&cost[000]",
+      "buffName": "拾荒者",
+      "buffIcon": "recycle",
+      "skillIcon": "bskill_recycle_spd&cost1",
+      "sortId": 10001,
+      "buffColor": "#6ccbcb",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "RECYCLE",
+      "description": "进驻回收站时，材料转化效率<@cc.vup>+20%</>",
+      "efficiency": 20,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "recycle_spd&cost[010]": {
+      "buffId": "recycle_spd&cost[010]",
+      "buffName": "捡海人",
+      "buffIcon": "recycle",
+      "skillIcon": "bskill_recycle_spd&cost2",
+      "sortId": 10002,
+      "buffColor": "#6ccbcb",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "RECYCLE",
+      "description": "进驻回收站时，材料转化效率<@cc.vup>+30%</>",
+      "efficiency": 30,
       "targetGroupSortId": 0,
       "targets": []
     }
@@ -45384,7 +45920,7 @@
         "interactType": "NONE",
         "musicId": "",
         "type": 8,
-        "subType": 19,
+        "subType": 10,
         "location": "WALL",
         "category": "FURNITURE",
         "validOnRotate": false,
@@ -104608,6 +105144,646 @@
         "enableRoomType": 4112,
         "quantity": 1
       },
+      "furni_clmsRoom_lamp_01": {
+        "id": "furni_clmsRoom_lamp_01",
+        "sortId": 2398,
+        "name": "绞盘杆式装饰灯",
+        "iconId": "furni_clmsRoom_lamp_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 6,
+        "subType": 17,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_1",
+        "width": 2,
+        "depth": 4,
+        "height": 10,
+        "comfort": 270,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "立式装饰灯，由一根绞盘杆控制。\n似乎是为了模仿船只上收放缆绳用的绞盘杆而做出的设计，但不论是设计者还是使用者，显然都没有见过实物。哪怕在伊比利亚，也多的是只有靠幻想和替代品才能接触大海的人。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_floorlamp_01": {
+        "id": "furni_clmsRoom_floorlamp_01",
+        "sortId": 2399,
+        "name": "一体式鞋架",
+        "iconId": "furni_clmsRoom_floorlamp_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 6,
+        "subType": 27,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_1",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 145,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "与地灯相结合的一体式鞋架。\n从在军团服役时起，克莱门莎就穿惯了声响很重的鞋，但每次来到这里，她都会换上静音的鞋子。至少在这里，她无需用脚步声强调自己的存在。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_pool_01": {
+        "id": "furni_clmsRoom_pool_01",
+        "sortId": 2400,
+        "name": "全覆盖式加湿器",
+        "iconId": "furni_clmsRoom_pool_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 6,
+        "subType": 22,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_1",
+        "width": 6,
+        "depth": 5,
+        "height": 8,
+        "comfort": 520,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "巨大的立式加湿器，能将整个房间加湿到让人几乎有些窒息的程度。\n在黄金时代，偶尔能在大宅邸的会客室见到这样的设施。它是否启动，取决于是否有岛民客人来访，以及岛民客人的地位如何。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_stonedesk_01": {
+        "id": "furni_clmsRoom_stonedesk_01",
+        "sortId": 2401,
+        "name": "立式经书台",
+        "iconId": "furni_clmsRoom_stonedesk_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 4,
+        "subType": 0,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_1",
+        "width": 2,
+        "depth": 2,
+        "height": 8,
+        "comfort": 175,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "立式的经书台，只适合站着阅读。\n过去，虔诚的伊比利亚信徒为表尊敬，通常会站着诵读经文。而现在，这座立式经书台最忠实的使用者则是终于愿意听从小帮手建议，尝试改善办公习惯的克莱门莎。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_biglamp_01": {
+        "id": "furni_clmsRoom_biglamp_01",
+        "sortId": 2402,
+        "name": "辉煌吊灯",
+        "iconId": "furni_clmsRoom_biglamp_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 11,
+        "subType": 0,
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_2",
+        "width": 14,
+        "depth": 2,
+        "height": 3,
+        "comfort": 190,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "一盏辉煌的大吊灯。\n艾丽妮对着这盏灯看了很久。伊比利亚人对灯火的热忱是一以贯之的，他们从黄金时代起就惯于在房间里装满各种各样的灯，只是为了证明他们能把这片海雾朦胧的土地照得多么明亮。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_stonelamp_01": {
+        "id": "furni_clmsRoom_stonelamp_01",
+        "sortId": 2403,
+        "name": "海晶装饰墙",
+        "iconId": "furni_clmsRoom_stonelamp_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 6,
+        "subType": 19,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_3",
+        "width": 4,
+        "depth": 2,
+        "height": 6,
+        "comfort": 200,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "以岛民带来的晶石制成的隔断墙。\n岛民已经遗忘了这类晶石过去的意义。经过精加工，它能在被敲击时发出清脆的响声，阿戈尔人常用它来制作可“演奏”的家具。但在这里，它只是“好看的石头”。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_chair_01": {
+        "id": "furni_clmsRoom_chair_01",
+        "sortId": 2404,
+        "name": "“左满舵”",
+        "iconId": "furni_clmsRoom_chair_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 2,
+        "subType": 4,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_2",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 130,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "雕有黄金舰队纹样的旋转坐凳，只能向左旋转。\n伊比利亚掌控了整个大陆南端的贸易，但从伊比利亚人手里赚钱却再简单不过。不论什么商品，只要被赋予了有关航海的意象，就必定会有人视若珍宝。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_chair_02": {
+        "id": "furni_clmsRoom_chair_02",
+        "sortId": 2405,
+        "name": "“右满舵”",
+        "iconId": "furni_clmsRoom_chair_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 2,
+        "subType": 4,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_2",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 130,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "雕有黄金舰队纹样的旋转坐凳，只能向右旋转。\n完全同款设计的坐凳在各自被赋予“左满舵”与“右满舵”之名，并分别由不同的商队带入伊比利亚后，迅速成了贵族们不惜花重金也要买齐一对的珍品。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_longchair_01": {
+        "id": "furni_clmsRoom_longchair_01",
+        "sortId": 2406,
+        "name": "过时长椅",
+        "iconId": "furni_clmsRoom_longchair_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 2,
+        "subType": 5,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_2",
+        "width": 11,
+        "depth": 3,
+        "height": 3,
+        "comfort": 385,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "大静谧之后，伊比利亚人便几乎不再生产这种长椅。\n大多时候它就只容纳一人，哪怕再长，也充其量只容纳两人，一头一个，越远越好。好在，在罗德岛宿舍，它又一次坐满了人。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_roundtable_01": {
+        "id": "furni_clmsRoom_roundtable_01",
+        "sortId": 2407,
+        "name": "置香台",
+        "iconId": "furni_clmsRoom_roundtable_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 4,
+        "subType": 0,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_2",
+        "width": 4,
+        "depth": 4,
+        "height": 4,
+        "comfort": 240,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "放置了香水与全套香薰器械的桌台。\n置香台投入使用后，后勤部很快收到了诸多患有鼻炎的干员的投诉，他们诚挚希望有人能告诉德·托莱多小姐，香水和功勋不一样，不是加的种类越多就越管用。",
+        "obtainApproach": "家具商店限时购买",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_stoneclock_01": {
+        "id": "furni_clmsRoom_stoneclock_01",
+        "sortId": 2408,
+        "name": "喷泉钟",
+        "iconId": "furni_clmsRoom_stoneclock_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 6,
+        "subType": 22,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_3",
+        "width": 5,
+        "depth": 2,
+        "height": 10,
+        "comfort": 310,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "会在报时的同时喷出对应数目水柱的喷泉钟。\n当国王下令全国的钟表都统一使用二十四小时制，他想的是航运领域的便利，和伊比利亚包容性的彰显。一位钟表设计师的绝望，显然不是他需要考虑的。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_carpet_01": {
+        "id": "furni_clmsRoom_carpet_01",
+        "sortId": 2409,
+        "name": "配套吸水毯",
+        "iconId": "furni_clmsRoom_carpet_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 1,
+        "subType": 0,
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_3",
+        "width": 6,
+        "depth": 4,
+        "height": 1,
+        "comfort": 65,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "设计师终归没能让喷泉钟在喷出二十四道水柱的同时还不会溅出水来。\n后来，他被迫为其配套设计的地毯凭极佳的吸水性能得到广泛应用，但在当时，骄傲的伊比利亚人只会将这种设计上的妥协视作无能。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_chandelier_01": {
+        "id": "furni_clmsRoom_chandelier_01",
+        "sortId": 2410,
+        "name": "伪装吊灯",
+        "iconId": "furni_clmsRoom_chandelier_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 10,
+        "subType": 33,
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_4",
+        "width": 5,
+        "depth": 1,
+        "height": 3,
+        "comfort": 90,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "一盏其实没装灯泡的吊灯。\n伊比利亚人从黄金时代起就惯于在房间里装满各种各样的灯，但一间屋子实在不需要那么多光亮。不会发光的纯粹装饰性灯具便应运而生。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_lighthouse_01": {
+        "id": "furni_clmsRoom_lighthouse_01",
+        "sortId": 2411,
+        "name": "阿戈尔风格演讲台",
+        "iconId": "furni_clmsRoom_lighthouse_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 6,
+        "subType": 24,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_3",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 125,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "演讲台支柱的蓝色螺旋式结构会随着演讲者说话的节奏而律动。\n德·托莱多很喜欢这个演讲台，声称它能大大提升听众的专注度。当然，听众是真的爱听她讲，还是在盯着演讲台解闷，她自有分辨。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_sidetable_01": {
+        "id": "furni_clmsRoom_sidetable_01",
+        "sortId": 2412,
+        "name": "经文抄写台",
+        "iconId": "furni_clmsRoom_sidetable_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 4,
+        "subType": 0,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_4",
+        "width": 2,
+        "depth": 4,
+        "height": 6,
+        "comfort": 200,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "配有纸笔的经文抄写台，与国教会曾经使用过的样式并无二致。\n偶尔，旅骨还是会在这里抄写经文。但这一次，不是为了博得谁的认可。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_plantplatform_01": {
+        "id": "furni_clmsRoom_plantplatform_01",
+        "sortId": 2413,
+        "name": "藻类培养池",
+        "iconId": "furni_clmsRoom_plantplatform_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 6,
+        "subType": 18,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_4",
+        "width": 3,
+        "depth": 2,
+        "height": 4,
+        "comfort": 150,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "被用作培养池的水池，其中的珍稀藻类大多是直接从弥利亚留姆运来的。\n克莱门莎会定期来给它们换水、施营养液。这件事，她一直不愿让小帮手代劳。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_broadcast_01": {
+        "id": "furni_clmsRoom_broadcast_01",
+        "sortId": 2414,
+        "name": "全域广播扬声器",
+        "iconId": "furni_clmsRoom_broadcast_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 10,
+        "subType": 35,
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_4",
+        "width": 2,
+        "depth": 2,
+        "height": 5,
+        "comfort": 105,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "岛民带来的全域广播技术，让扬声器成了黄金时代伊比利亚每家每户的标配。\n费尔南多·亚历杭德罗一世国王太热衷于他的晨间演讲，以至于每次都会挤占大主教卡门的讲经时间。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_equiplight_01": {
+        "id": "furni_clmsRoom_equiplight_01",
+        "sortId": 2415,
+        "name": "感应式夜灯",
+        "iconId": "furni_clmsRoom_equiplight_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 6,
+        "subType": 17,
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_4",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 145,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "一盏感应式夜灯。\n不同于赫库兰尼姆，弥利亚留姆不是一座会用人造太阳统一作息的城市，只要有人醒着，它就永恒明亮。于是，来到陆地上的克莱门莎，总是觉得白天太短，光亮消失得太快。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_wallpaper_01": {
+        "id": "furni_clmsRoom_wallpaper_01",
+        "sortId": 2416,
+        "name": "港都盛景壁纸",
+        "iconId": "furni_clmsRoom_wallpaper_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 7,
+        "subType": 0,
+        "location": "NONE",
+        "category": "WALL",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_3",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "描绘了港都雷亚-伊比利亚城市景观的壁纸。\n旗语从来不是一种高效的语言，宏伟的旗语塔能传递的信息其实相当有限。但它在发出讯息的那一刻，能让所有人都驻足瞻仰，这就够了。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_clmsRoom_floor_01": {
+        "id": "furni_clmsRoom_floor_01",
+        "sortId": 2417,
+        "name": "半透明海景地板",
+        "iconId": "furni_clmsRoom_floor_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 0,
+        "subType": 0,
+        "location": "NONE",
+        "category": "FLOOR",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_clmsRoom",
+        "groupId": "furni_set_clmsRoom_2",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+        "description": "部分由玻璃铺就的地板，过去，玻璃之下直接就是海面。为了在罗德岛宿舍也还原这样的效果，旅骨特地调配了与大海同色的溶液。\n他忘不掉第一次看见浪沫没过脚背的景象，也忘不掉当时在他身边的人。",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
       "furni_oct1st_deckChair_01": {
         "id": "furni_oct1st_deckChair_01",
         "sortId": 9998,
@@ -107836,7 +109012,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -108380,7 +109556,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -112918,6 +114094,38 @@
         "comfort": 75,
         "usage": "能够用来装扮宿舍、活动室与会客室，可提高前两者的氛围",
         "description": "最微小的希望也能再次苏生。\n",
+        "obtainApproach": "活动获得",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4144,
+        "quantity": 0
+      },
+      "furni_terracommericials_rawPulp_01": {
+        "id": "furni_terracommericials_rawPulp_01",
+        "sortId": 11119,
+        "name": "饰牌《活力》",
+        "iconId": "furni_terracommericials_rawPulp_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": 8,
+        "subType": 13,
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "能够用来装扮宿舍、活动室与会客室，可提高前两者的氛围",
+        "description": "为致力打造极致躯体的求索者们献上喝彩。",
         "obtainApproach": "活动获得",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -139615,6 +140823,164 @@
           "furni_dessertShop_floor_01"
         ]
       },
+      "furni_set_clmsRoom": {
+        "id": "furni_set_clmsRoom",
+        "enableRoomType": 4112,
+        "sortId": 135,
+        "name": "港都会客室",
+        "themeType": "EVENT",
+        "desc": "依照黄金时代港都的会客室复原出的房间。这些奢华的陈设沉默地见证了一个时代最后的辉煌。",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_clmsRoom_lamp_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_floorlamp_01",
+            "pos0": 0,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_pool_01",
+            "pos0": 2,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_stonedesk_01",
+            "pos0": 8,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_biglamp_01",
+            "pos0": 10,
+            "pos1": 5,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_stonelamp_01",
+            "pos0": 11,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_chair_01",
+            "pos0": 12,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_chair_02",
+            "pos0": 20,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_longchair_01",
+            "pos0": 12,
+            "pos1": 2,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_roundtable_01",
+            "pos0": 15,
+            "pos1": 6,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_stoneclock_01",
+            "pos0": 24,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_carpet_01",
+            "pos0": 23,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_chandelier_01",
+            "pos0": 25,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_lighthouse_01",
+            "pos0": 24,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_sidetable_01",
+            "pos0": 32,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_plantplatform_01",
+            "pos0": 29,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_broadcast_01",
+            "pos0": 32,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_equiplight_01",
+            "pos0": 32,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_clmsRoom_floor_01",
+            "pos0": 0,
+            "pos1": 10,
+            "dir": 0
+          }
+        ],
+        "groups": [
+          "furni_set_clmsRoom_1",
+          "furni_set_clmsRoom_2",
+          "furni_set_clmsRoom_3",
+          "furni_set_clmsRoom_4"
+        ],
+        "furnitures": [
+          "furni_clmsRoom_lamp_01",
+          "furni_clmsRoom_floorlamp_01",
+          "furni_clmsRoom_pool_01",
+          "furni_clmsRoom_stonedesk_01",
+          "furni_clmsRoom_biglamp_01",
+          "furni_clmsRoom_stonelamp_01",
+          "furni_clmsRoom_chair_01",
+          "furni_clmsRoom_chair_02",
+          "furni_clmsRoom_longchair_01",
+          "furni_clmsRoom_roundtable_01",
+          "furni_clmsRoom_stoneclock_01",
+          "furni_clmsRoom_carpet_01",
+          "furni_clmsRoom_chandelier_01",
+          "furni_clmsRoom_lighthouse_01",
+          "furni_clmsRoom_sidetable_01",
+          "furni_clmsRoom_plantplatform_01",
+          "furni_clmsRoom_broadcast_01",
+          "furni_clmsRoom_equiplight_01",
+          "furni_clmsRoom_wallpaper_01",
+          "furni_clmsRoom_floor_01"
+        ]
+      },
       "furniM_set_basicRoom": {
         "id": "furniM_set_basicRoom",
         "enableRoomType": 32,
@@ -148219,6 +149585,66 @@
           "furniM_velvet_wallpaper_01",
           "furniM_velvet_floor_01"
         ]
+      },
+      "furni_set_clmsRoom_1": {
+        "id": "furni_set_clmsRoom_1",
+        "sortId": 1,
+        "name": "信徒的宽怀",
+        "themeId": "furni_set_clmsRoom",
+        "comfort": 270,
+        "count": 4,
+        "furniture": [
+          "furni_clmsRoom_lamp_01",
+          "furni_clmsRoom_floorlamp_01",
+          "furni_clmsRoom_pool_01",
+          "furni_clmsRoom_stonedesk_01"
+        ]
+      },
+      "furni_set_clmsRoom_2": {
+        "id": "furni_set_clmsRoom_2",
+        "sortId": 2,
+        "name": "权贵的骄傲",
+        "themeId": "furni_set_clmsRoom",
+        "comfort": 305,
+        "count": 6,
+        "furniture": [
+          "furni_clmsRoom_biglamp_01",
+          "furni_clmsRoom_chair_01",
+          "furni_clmsRoom_chair_02",
+          "furni_clmsRoom_longchair_01",
+          "furni_clmsRoom_roundtable_01",
+          "furni_clmsRoom_floor_01"
+        ]
+      },
+      "furni_set_clmsRoom_3": {
+        "id": "furni_set_clmsRoom_3",
+        "sortId": 3,
+        "name": "远海的回响",
+        "themeId": "furni_set_clmsRoom",
+        "comfort": 220,
+        "count": 5,
+        "furniture": [
+          "furni_clmsRoom_stonelamp_01",
+          "furni_clmsRoom_stoneclock_01",
+          "furni_clmsRoom_carpet_01",
+          "furni_clmsRoom_lighthouse_01",
+          "furni_clmsRoom_wallpaper_01"
+        ]
+      },
+      "furni_set_clmsRoom_4": {
+        "id": "furni_set_clmsRoom_4",
+        "sortId": 4,
+        "name": "国王的威权",
+        "themeId": "furni_set_clmsRoom",
+        "comfort": 150,
+        "count": 5,
+        "furniture": [
+          "furni_clmsRoom_chandelier_01",
+          "furni_clmsRoom_sidetable_01",
+          "furni_clmsRoom_plantplatform_01",
+          "furni_clmsRoom_broadcast_01",
+          "furni_clmsRoom_equiplight_01"
+        ]
       }
     },
     "types": {
@@ -156436,19 +157862,21 @@
     "NONE": 0,
     "MANUF_STOP": 1,
     "TRADE_STOP": 2,
-    "HIRE_EMPTY": 3,
-    "MEETING_EMPTY": 4,
-    "NEW_PRODUCTS": 5,
-    "HAS_ORDERS": 6,
-    "NEW_FAVOR": 7,
-    "NEW_FAVOR_MAX": 8,
-    "BATCH_WORK": 9,
-    "BATCH_REST": 10,
-    "CHAR_TIRED": 11,
-    "TRAIN_FINISH": 12,
-    "HIRE_REFRESHED": 13,
-    "NEW_CLUES": 14,
-    "MESSAGE_BOARD": 15
+    "RECYCLE_STOP": 3,
+    "HIRE_EMPTY": 4,
+    "MEETING_EMPTY": 5,
+    "NEW_PRODUCTS": 6,
+    "HAS_ORDERS": 7,
+    "NEW_FAVOR": 8,
+    "NEW_FAVOR_MAX": 9,
+    "RECYCLE_NEW_ITEM": 10,
+    "BATCH_WORK": 11,
+    "BATCH_REST": 12,
+    "CHAR_TIRED": 13,
+    "TRAIN_FINISH": 14,
+    "HIRE_REFRESHED": 15,
+    "NEW_CLUES": 16,
+    "MESSAGE_BOARD": 17
   },
   "slotPrequeDatas": {
     "CONTROL": {
@@ -156493,17 +157921,24 @@
       "isPreque": true,
       "prequeNum": 3
     },
+    "RECYCLE": {
+      "roomType": 8192,
+      "name": "回收站",
+      "typeSortId": 6,
+      "isPreque": true,
+      "prequeNum": 3
+    },
     "TRAINING": {
       "roomType": 2048,
       "name": "训练室",
-      "typeSortId": 6,
+      "typeSortId": 7,
       "isPreque": false,
       "prequeNum": 0
     },
     "WORKSHOP": {
       "roomType": 1024,
       "name": "加工站",
-      "typeSortId": 7,
+      "typeSortId": 8,
       "isPreque": false,
       "prequeNum": 0
     }
@@ -157008,6 +158443,19 @@
         "unlockParams": [
           "bg_p3r_1"
         ]
+      },
+      "music_bg_redvelvet_1": {
+        "bgmId": "music_bg_redvelvet_1",
+        "bgmSortId": 36,
+        "bgmStartTime": 1791500400,
+        "bgmName": "序幕-猩红孤钻",
+        "gameMusicId": "music_bg_redvelvet_1",
+        "obtainApproach": "[采购中心]中购买剧场序幕组合包获得",
+        "bgmDescUnlocked": "背景附赠音乐",
+        "unlockType": "MainBG",
+        "unlockParams": [
+          "bg_redvelvet_1"
+        ]
       }
     }
   },
@@ -157184,6 +158632,11 @@
       "defaultGroupSortId": 0,
       "efficiencyTargetDict": {}
     },
+    "RECYCLE": {
+      "hasEfficiencySort": true,
+      "defaultGroupSortId": 0,
+      "efficiencyTargetDict": {}
+    },
     "CONTROL": {
       "hasEfficiencySort": false,
       "defaultGroupSortId": 0,
@@ -157223,5 +158676,817 @@
         "title": "特别订单"
       }
     }
+  },
+  "recycleRoomOutputPoolDatas": {
+    "itemPool1": {
+      "itemPoolId": "itemPool1",
+      "itemPoolStartTime": 1791489600,
+      "itemPoolEndTime": 4101681599,
+      "extraPoolId": "itemPool1_extra",
+      "extraPoolRequirement": 10000
+    }
+  },
+  "recycleRoomOutputPoolContentDatas": {
+    "itemPool1": {
+      "items": [
+        {
+          "itemId": "31034",
+          "targetTags": [
+            "31033"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30044",
+          "targetTags": [
+            "30041"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30054",
+          "targetTags": [
+            "30051"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31084",
+          "targetTags": [
+            "31083"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31074",
+          "targetTags": [
+            "31073"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31024",
+          "targetTags": [
+            "31023"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31044",
+          "targetTags": [
+            "31043"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31054",
+          "targetTags": [
+            "31053"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31094",
+          "targetTags": [
+            "31093"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31064",
+          "targetTags": [
+            "31063"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31104",
+          "targetTags": [
+            "31103"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31114",
+          "targetTags": [
+            "31113"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30064",
+          "targetTags": [
+            "30061"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30104",
+          "targetTags": [
+            "30103"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30084",
+          "targetTags": [
+            "30083"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30034",
+          "targetTags": [
+            "30031"
+          ],
+          "weight": 4,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30094",
+          "targetTags": [
+            "30093"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30024",
+          "targetTags": [
+            "30021"
+          ],
+          "weight": 4,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30074",
+          "targetTags": [
+            "30073"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31014",
+          "targetTags": [
+            "31013"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30014",
+          "targetTags": [
+            "30011"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30063",
+          "targetTags": [
+            "30061"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "31083",
+          "targetTags": [
+            "31083"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "31103",
+          "targetTags": [
+            "31103"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "31113",
+          "targetTags": [
+            "31113"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "31063",
+          "targetTags": [
+            "31063"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "31073",
+          "targetTags": [
+            "31073"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "31013",
+          "targetTags": [
+            "31013"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "31043",
+          "targetTags": [
+            "31043"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "31053",
+          "targetTags": [
+            "31053"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "31093",
+          "targetTags": [
+            "31093"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "30043",
+          "targetTags": [
+            "30041"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "30053",
+          "targetTags": [
+            "30051"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "31023",
+          "targetTags": [
+            "31023"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "31033",
+          "targetTags": [
+            "31033"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "30023",
+          "targetTags": [
+            "30021"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "30033",
+          "targetTags": [
+            "30031"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "30013",
+          "targetTags": [
+            "30011"
+          ],
+          "weight": 290,
+          "count": 1,
+          "extraPoolValueChange": 500,
+          "isNew": false
+        },
+        {
+          "itemId": "30062",
+          "targetTags": [
+            "30061"
+          ],
+          "weight": 717,
+          "count": 1,
+          "extraPoolValueChange": 650,
+          "isNew": false
+        },
+        {
+          "itemId": "30042",
+          "targetTags": [
+            "30041"
+          ],
+          "weight": 717,
+          "count": 1,
+          "extraPoolValueChange": 650,
+          "isNew": false
+        },
+        {
+          "itemId": "30052",
+          "targetTags": [
+            "30051"
+          ],
+          "weight": 717,
+          "count": 1,
+          "extraPoolValueChange": 650,
+          "isNew": false
+        },
+        {
+          "itemId": "30022",
+          "targetTags": [
+            "30021"
+          ],
+          "weight": 717,
+          "count": 1,
+          "extraPoolValueChange": 650,
+          "isNew": false
+        },
+        {
+          "itemId": "30032",
+          "targetTags": [
+            "30031"
+          ],
+          "weight": 717,
+          "count": 1,
+          "extraPoolValueChange": 650,
+          "isNew": false
+        },
+        {
+          "itemId": "30012",
+          "targetTags": [
+            "30011"
+          ],
+          "weight": 717,
+          "count": 1,
+          "extraPoolValueChange": 650,
+          "isNew": false
+        }
+      ]
+    },
+    "itemPool1_extra": {
+      "items": [
+        {
+          "itemId": "30165",
+          "targetTags": [],
+          "weight": 168,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30145",
+          "targetTags": [],
+          "weight": 168,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30155",
+          "targetTags": [],
+          "weight": 168,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30115",
+          "targetTags": [],
+          "weight": 168,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30125",
+          "targetTags": [],
+          "weight": 168,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30135",
+          "targetTags": [],
+          "weight": 168,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31034",
+          "targetTags": [
+            "31033"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30044",
+          "targetTags": [
+            "30041"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30054",
+          "targetTags": [
+            "30051"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31084",
+          "targetTags": [
+            "31083"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31074",
+          "targetTags": [
+            "31073"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31024",
+          "targetTags": [
+            "31023"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31044",
+          "targetTags": [
+            "31043"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30064",
+          "targetTags": [
+            "30061"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30104",
+          "targetTags": [
+            "30103"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30084",
+          "targetTags": [
+            "30083"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30034",
+          "targetTags": [
+            "30031"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30094",
+          "targetTags": [
+            "30093"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30024",
+          "targetTags": [
+            "30021"
+          ],
+          "weight": 40,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30074",
+          "targetTags": [
+            "30073"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31054",
+          "targetTags": [
+            "31053"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31094",
+          "targetTags": [
+            "31093"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31064",
+          "targetTags": [
+            "31063"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31104",
+          "targetTags": [
+            "31103"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31114",
+          "targetTags": [
+            "31113"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "31014",
+          "targetTags": [
+            "31013"
+          ],
+          "weight": 468,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        },
+        {
+          "itemId": "30014",
+          "targetTags": [
+            "30011"
+          ],
+          "weight": 488,
+          "count": 1,
+          "extraPoolValueChange": 0,
+          "isNew": false
+        }
+      ]
+    }
+  },
+  "recycleRoomInputItemDatas": {
+    "30063": {
+      "itemId": "30063",
+      "addedTime": 16200
+    },
+    "30103": {
+      "itemId": "30103",
+      "addedTime": 16200
+    },
+    "31083": {
+      "itemId": "31083",
+      "addedTime": 16200
+    },
+    "31103": {
+      "itemId": "31103",
+      "addedTime": 16200
+    },
+    "31113": {
+      "itemId": "31113",
+      "addedTime": 16200
+    },
+    "31063": {
+      "itemId": "31063",
+      "addedTime": 14400
+    },
+    "31073": {
+      "itemId": "31073",
+      "addedTime": 14400
+    },
+    "30093": {
+      "itemId": "30093",
+      "addedTime": 12600
+    },
+    "31013": {
+      "itemId": "31013",
+      "addedTime": 12600
+    },
+    "31043": {
+      "itemId": "31043",
+      "addedTime": 12600
+    },
+    "31053": {
+      "itemId": "31053",
+      "addedTime": 12600
+    },
+    "31093": {
+      "itemId": "31093",
+      "addedTime": 12600
+    },
+    "30083": {
+      "itemId": "30083",
+      "addedTime": 10800
+    },
+    "30043": {
+      "itemId": "30043",
+      "addedTime": 10800
+    },
+    "30053": {
+      "itemId": "30053",
+      "addedTime": 10800
+    },
+    "31023": {
+      "itemId": "31023",
+      "addedTime": 10800
+    },
+    "31033": {
+      "itemId": "31033",
+      "addedTime": 10800
+    },
+    "30073": {
+      "itemId": "30073",
+      "addedTime": 9000
+    },
+    "30023": {
+      "itemId": "30023",
+      "addedTime": 9000
+    },
+    "30033": {
+      "itemId": "30033",
+      "addedTime": 9000
+    },
+    "30013": {
+      "itemId": "30013",
+      "addedTime": 7200
+    }
+  },
+  "recycleRoomConsts": {
+    "recycleTimeRequirement": 172800,
+    "recycleBaseCapacity": 5,
+    "recycleBoostSpeed": 0.5,
+    "recycleBoostLimit": 345600,
+    "recycleBoostLimitProtect": 691200,
+    "recycleSpeedUpUnlockLevel": 3,
+    "recycleTwoPersonUnlockLevel": 2
   }
 }

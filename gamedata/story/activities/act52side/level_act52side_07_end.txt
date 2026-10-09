@@ -1,0 +1,780 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect(name="$eb_sunlight_r",layer=1,y=200)]
+[Background(image="27_g24_cloudy_sea",screenadapt="coverall",xScale=1.1,yScale=1.1)]
+[BackgroundTween(xFrom=-65, xTo=65, duration=30,block=false)]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=1, block=true)]
+[PlaySound(key="$d_avg_sea",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[CameraEffect(effect="Grayscale", fadetime=4, keep=true, initamount=1, amount=0, block=false)]
+[Delay(time=1)]
+[name="悦耳的男声"]今天有一艘船出航♪
+[name="悦耳的男声"]越过灯塔，越过教堂♪
+[name="悦耳的男声"]潮湿的水汽吹向海岸——♪
+[StopSound(channel="f", fadetime=2)]
+[playMusic(key="$tara_loop", volume=0.6)]
+[name="悦耳的男声"]别在背后盯着我了，卡门，我知道你不喜欢这首船歌。
+[name="悦耳的男声"]不过就算你能叫停我，也叫不停码头上的几百号人。
+[name="卡门"]今天来教堂的人又变少了，瓦列里奥。
+[PlaySound(key="$d_avg_sea",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=1)]
+[name="瓦列里奥"]他们都听那个岛民演讲去了，他叫什么来着……布雷奥甘？
+[name="瓦列里奥"]把我们脚下光荣的雷亚-伊比利亚变成水陆两栖的移动城市，倒是很有意思的想法。
+[name="卡门"]我在意的只有他口中的威胁，如果那些被我们做成风干标本的东西，真是给深海国度带来灾祸的根源……
+[name="瓦列里奥"]那我们也会用德行净化它们，不是吗？
+[name="瓦列里奥"]不必忧虑伊比利亚遗失美德，无需担心舶来的信仰坠落。潮声在，伊比利亚仍在。
+[StopSound(channel="f", fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[bgeffect]
+[Background(image="bg_ibcave",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot(slot = "l", name = "avg_npc_179#1", duration=1.5)]
+[Delay(time=1.5)]
+[name="难民"]仁慈又易怒的大海，我们无意惊扰您的安宁……
+[name="难民"]请宽恕我们……请宽恕我们……请宽恕……呃——
+[Dialog]
+[charslot(slot = "l", action="shake", power=5, times=60,isblock=true,duration=0.2)]
+[charslot(slot = "l", posfrom="0,0",posto="0,-30",afrom=1,ato=1,duration=0.5)]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[charslot(slot = "r", name = "avg_npc_2279_1#1$1", posfrom="0,0",posto="-50,-30",duration=0.4)]
+[Delay(time=0.6)]
+[charslot(slot = "r", posfrom="-50,-30",posto="-50,0",duration=1)]
+[charslot(slot = "l", posfrom="0,-30",posto="0,0",duration=1)]
+[Delay(time=1.5)]
+[charslot(slot = "r", name = "avg_npc_2279_1#5$1",focus="r")]
+[name="瓦列里奥"]您跪在地上太久了，去找教士们拿些鳞干和淡水吧。
+[charslot(slot = "l",focus="l")]
+[name="难民"]让我祈祷吧，瓦列里奥大主教。只要潮水能退去，只要我还能重新看见我的小屋和在里面玩耍的孩子……让我祈祷吧。
+[Dialog]
+[PlaySound(key="$d_avg_oldman_walk", volume=1)]
+[charslot(slot = "l", name = "avg_npc_179#1",afrom=1,ato=0,duration=1.5)]
+[Delay(time=1.8)]
+[charslot(slot = "r", name = "avg_npc_2279_1#9$1",focus="r")]
+[name="瓦列里奥"]……
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="卡门"]现在就灰心了？外面的情况比庇护所内的糟得多。恐鱼在啃咬岸边淹死的尸体，甚至同化还没断气的人。
+[charslot(slot = "m", name = "avg_npc_447_1#5$1")]
+[name="卡门"]雷亚-伊比利亚已然沉没，我们从那里带回的除了典籍，就只有那件可笑的“展览品”了。
+[charslot(slot = "m", name = "avg_npc_2279_1#1$1")]
+[name="瓦列里奥"]我们需要死守这条一退再退的海岸线，但我们也需要照亮漫长的黑夜，哪怕只有一盏提灯……
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="卡门"]没有了国王也没有了贵族，单凭国教会的权威，庇护不了伊比利亚太久。信仰于我们只是秩序与谎言。
+[charslot(slot = "m", name = "avg_npc_2279_1#4$1")]
+[name="瓦列里奥"]难得，我最虔诚的同僚能如此果决地说出这句话。
+[name="瓦列里奥"]灾祸之后的伊比利亚需要一套新的准则，需要有人为民众指引方向，而你——
+[charslot(slot = "m", name = "avg_npc_2279_1#1$1")]
+[name="瓦列里奥"]你是最合适的那个人。
+[charslot(slot = "m", name = "avg_npc_2279_1#2$1")]
+[name="瓦列里奥"]灾变之前你就拒绝过一次加封教宗的提议，但现在，你不该再拒绝了。
+[charslot(slot = "m", name = "avg_npc_2279_1#1$1")]
+[name="瓦列里奥"]为所有伊比利亚人指引方向吧，成为伊比利亚的象征。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g1_cmoffice",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.6)]
+[PlaySound(key="$d_avg_bookdrop")]
+[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]
+[Delay(time=1.2)]
+[charslot(slot = "m", name = "avg_npc_447_1#4$1")]
+[name="卡门"]出了什么问题？
+[charslot(slot = "m", name = "avg_npc_2279_1#7$1")]
+[name="瓦列里奥"]卡门阁下，审判庭最近的行动方案都是你审核的？为什么伤亡数如此之高？
+[charslot(slot = "m", name = "avg_npc_447_1#7$1")]
+[name="卡门"]早在大静谧之前，深海教会就已经在伊比利亚扎根，他们的触肢无处不及。
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="卡门"]这几个月来，他们几乎在以城镇为单位，大批大批地腐化我们本就脆弱的民众。
+[charslot(slot = "m", name = "avg_npc_2279_1#1$1")]
+[name="瓦列里奥"]这些你不用再跟我解释。
+[name="瓦列里奥"]我只想知道，包含我在内，与你齐肩的八位圣徒皆能祛除邪祟，稳定民心，但为什么我们的行动申请都被驳回了？
+[charslot(slot = "m", name = "avg_npc_447_1#2$1")]
+[name="卡门"]……
+[charslot(slot = "m", name = "avg_npc_2279_1#2$1")]
+[name="瓦列里奥"]我和其他几位圣徒向你提议过多少次，要你成为伊比利亚的教宗？你却只愿称圣徒，不愿称教宗。
+[name="瓦列里奥"]一人独掌大权难免犯错，你要我们八人与你同担责、共进退，也好。
+[charslot(slot = "m", name = "avg_npc_2279_1#1$1")]
+[name="瓦列里奥"]可为什么又要把我们按在这里，不允许我们任何一个人行动？
+[name="瓦列里奥"]卡门，你在疑虑什么，忌惮什么？
+[Dialog]
+[Delay(time=1)]
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g14_ibchurch_2",screenadapt="coverall")]
+[Delay(time=2)]
+[bgeffect(name="$eb_scorchedearth",layer=1)] 
+[bgeffect(name="$eb_smoke_01",layer=2)] 
+[PlaySound(key="$burningloop1",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$m_bat_abyssalhunters_intro", key="$m_bat_abyssalhunters_loop", volume=0.6)]
+[PlaySound(key="$d_avg_seabornbacklair", volume=1)]
+[charslot(slot = "l", name = "avg_npc_1388_1#1$1",posfrom="-80,-10",posto="20,0", duration=1.5)]
+[Delay(time=1)]
+[charslot(slot = "r", name = "avg_npc_1388_1#1$1",posfrom="80,-10",posto="-20,0", duration=1.5)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_1389_1#1$1",posfrom="-15,80",posto="0,-10", duration=1.5)]
+[Delay(time=1.5)]
+[charslot]
+[PlaySound(key="$d_avg_ftrub", volume=0.8)]
+[charslot(slot = "m", name = "avg_npc_2280_1#3$1",posfrom="-30,0",posto="30,-15",duration=0.5)]
+[Delay(time=0.5)]
+[name="瓦列里奥"]咳……这群孽物，速度倒是快。
+[Dialog]
+[charslot(slot = "m", name = "avg_npc_2280_1#3$1",posfrom="30,-15",posto="0,0",afrom=1,ato=1,duration=0.8)]
+[Delay(time=0.8)]
+[charslot(slot = "m", name = "avg_npc_2280_1#7$1")]
+[name="瓦列里奥"]伊格纳西奥，我只能顾及你的身后，脚下你得自己注意。
+[name="瓦列里奥"]周边民众都已经在惩戒军的带领下撤离，我们只需死守，等待卡门阁下的支援。
+[StopSound(channel="f", fadetime=2)]
+[charslot]
+[name="伊格纳西奥"]哈……哈……你还没明白？我们回不去了，我们都会死在这里。
+[charslot(slot = "m", name = "avg_npc_2280_1#7$1")]
+[name="瓦列里奥"]清醒点，别在这种时候犯傻！
+[charslot]
+[name="伊格纳西奥"]不，我很清醒，我知道这次行动，这次调令，这场火，代表了什么。
+[name="伊格纳西奥"]愿深海宽恕，我无法为祂带回更多陆地的讯息，但我的身躯将哺育大群……
+[charslot(slot = "m", name = "avg_npc_2280_1#6$1")]
+[name="瓦列里奥"]你——！
+[charslot]
+[name="伊格纳西奥"]不会有支援了。卡门阁下从没想过要让我们活着离开，这是他对我的审判，也是对你的。
+[name="伊格纳西奥"]他早就怀疑审判庭高层已遭深海教会渗透，才禁止所有圣徒外出行动。他要把所有怀疑对象，都牢牢扣在身边——
+[name="伊格纳西奥"]直到这次行动。我本该料到这是陷阱，但因为他派来与我同行的是你，我才放下了戒备。
+[name="伊格纳西奥"]背叛者自会选择投入同胞的怀抱，而在火中活下去的那个才是圣洁者。不过，依我对卡门阁下的了解——
+[PlaySound(key="$burningloop1",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=1)]
+[charslot(slot = "m", name = "avg_npc_2280_1#13$1")]
+[name="瓦列里奥"]同归于尽才是他最想看到的结果。
+[charslot]
+[name="伊格纳西奥"]我确实没有想到殉葬的会是你。你与卡门阁下情同手足，我以为他无论如何都不可能怀疑你。
+[charslot(slot = "m", name = "avg_npc_2280_1#10$1")]
+[name="瓦列里奥"]原来如此……
+[charslot(slot = "m", name = "avg_npc_2280_1#11$1")]
+[name="瓦列里奥"]他怕自己的判断受到情分左右，他想要审判庭和伊比利亚万无一失。他不认为我会背叛信仰，却又害怕倒戈者真的是我……
+[charslot]
+[name="伊格纳西奥"]何其可悲。
+[name="伊格纳西奥"]与我同行吧，瓦列里奥。深海从不怀疑，祂只会分享。
+[charslot(slot = "m", name = "avg_npc_2280_1#1$1")]
+[name="瓦列里奥"]……
+[Dialog]
+[charslot(slot = "l", name = "avg_npc_457_1#1$1",posfrom="-200,-10",posto="20,10", duration=0.3)]
+[charslot(slot = "m", action="jump", posto="-200,0", power=0, times=1, duration=0.5)]
+[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[PlaySound(key="$e_skill_skulsrsword",volume=1)] 
+[charslot(slot = "l", name = "avg_npc_457_1#1$1",posto="-200,-50",afrom=1,ato=0, duration=0.3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]
+[charslot(slot = "m", action="jump", posto="100,0", power=5, times=1, duration=1)]
+[dialog]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_2280_1#7$1")]
+[name="瓦列里奥"]不。
+[stopmusic(fadetime=1)]
+[Dialog]
+[bgeffect(name="$eb_blackfire_around",layer=3)] 
+[PlaySound(key="$firestorm")]
+[Blocker(a=0.2, r=0.92, g=0.4, b=0.3, fadetime=0.6, block=true)]
+[Blocker(a=0, r=0.92, g=0.4, b=0.3, fadetime=0.4, block=true)]
+[Delay(time=1)]
+[Blocker(a=0, r=0.92, g=0.4, b=0.3, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[bgeffect]
+[charslot]
+[charslot(slot = "r", name = "avg_npc_2280_1#1$1",bstart=0.2,bend=0.7,posfrom="-200,0",posto="-200,0",duration=3,block=false)]
+[bgeffect(name="$eb_wlfmster_02",layer=3)] 
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[StopSound(channel="f", fadetime=2)]
+[Delay(time=4)]
+[playMusic(key="$wasteland_loop", volume=0)]
+[MusicVolume(volume=0.6, fadetime=2)]
+[name="瓦列里奥"]……今天……有一艘船出航……♪
+[name="瓦列里奥"]……爱人……不为分别……流泪……♪
+[name="瓦列里奥"]我会……我会带回……带回……♪
+[name="瓦列里奥"]……
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_941_1#2$1", duration=1.5, block=true)]
+[Delay(time=2)]
+[name="奥卢斯"]灼尽的灵魂……可怜。
+[charslot(slot = "m", name = "avg_npc_2280_1#1$1",bstart=0.2,bend=0.7)]
+[name="瓦列里奥"]……呵……信奉罪孽的异教徒，也会怜悯？
+[charslot(slot = "m", name = "avg_npc_941_1#6$1")]
+[name="奥卢斯"]我会为有价值的个体感到悲伤，也会为无意义的纷争感到可惜。
+[charslot(slot = "m", name = "avg_npc_941_1#2$1")]
+[name="奥卢斯"]哦，那位倒戈者在同胞接触他之前，就被燃成了灰烬……
+[charslot(slot = "m", name = "avg_npc_2280_1#1$1",bstart=0.2,bend=0.7)]
+[name="瓦列里奥"]他……不能得逞……
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]可敬。
+[name="奥卢斯"]我可以带你走，伊比利亚的“英雄”。
+[name="奥卢斯"]你已向那位圣徒证明，哪怕是焚毁信仰的大火，也烧不尽你的洁净与德行。
+[charslot(slot = "m", name = "avg_npc_2280_1#1$1",bstart=0.2,bend=0.7)]
+[name="瓦列里奥"]那我更应该死在这里……
+[charslot(slot = "m", name = "avg_npc_941_1#7$1")]
+[name="奥卢斯"]我尊重你的意愿。不过，你不想看看身下的土地会变成什么样子？
+[charslot(slot = "m", name = "avg_npc_941_1#7$1")]
+[name="奥卢斯"]你不想知道，你的同僚用你的牺牲换来了伊比利亚怎样的未来吗？
+[charslot(slot = "m", name = "avg_npc_2280_1#1$1",bstart=0.2,bend=0.7)]
+[name="瓦列里奥"]……
+[name="瓦列里奥"]花言巧语……为伊比利亚人指引方向的，永远不会是你们……异教徒。
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]我们不是同行者，我清楚这一点，曾经的圣徒。
+[name="奥卢斯"]我只是恰好有能力，也有兴趣带别人看看未来是否有更多的可能。
+[charslot(slot = "m", name = "avg_npc_2280_1#1$1",bstart=0.2,bend=0.7)]
+[name="瓦列里奥"]你……终会索要报酬……
+[charslot(slot = "m", name = "avg_npc_941_1#1$1")]
+[name="奥卢斯"]那就是另一回事了。现在，我只想结交一位朋友。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2280_1#2$1",bstart=0.2,bend=0.7)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_spelldfns_2")]
+[Blocker(a=0.3, r=0.1, g=0.1, b=0.4, fadetime=0.6, block=true)]
+[charslot(slot = "l", name = "avg_npc_2280_1#2$1",posfrom = "0,0", posto = "200,0",focus="n")]
+[charslot(slot = "m", name = "avg_npc_2266_1#2$2",bstart=0,bend=0,duration=4,focus="m")]
+[delay(time=0.3)]
+[Blocker(a=0, r=0.1, g=0.1, b=0.5, fadetime=0.2, block=false)]
+[delay(time=3)]
+[charslot(slot = "l", afrom = 1, ato =0,duration=4,focus="m")]
+[charslot(slot="m",name="avg_npc_2266_1#1$2",focus="m")]
+[name="瓦列里奥"]……
+[Dialog]
+[CameraEffect(effect="Grayscale", fadetime=2, keep=true, initamount=0, amount=1, block=true)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[bgeffect]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=1, amount=0, block=false)]
+[Background(image="74_g2_courtprison",screenadapt="coverall")]
+[Delay(time=2)]
+[PlaySound(key="$blooddrop",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=1, channel="f",fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="沉稳的男声"]今天有一艘船出航♪
+[name="沉稳的男声"]羽兽在船舷上踱步——♪
+[name="沉稳的男声"]空等一场吧。吹响号角，收紧鳞网♪
+[name="沉稳的男声"]我们——♪
+[Dialog]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[charslot(slot = "m", name = "avg_npc_447_1#1$1", duration=1.5, block=true)]
+[Delay(time=2)]
+[name="圣徒卡门"]……
+[name="圣徒卡门"]好久不见，瓦列里奥。
+[Dialog]
+[charslot]
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2", duration=2, block=true)]
+[Delay(time=2)]
+[name="瓦列里奥"]好久不见，卡门。
+[StopSound(channel="f", fadetime=2)]
+[stopmusic(fadetime=2)]
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="74_g13_underseahall_n",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$chenandwei_intro", key="$chenandwei_loop", volume=0.6)]
+[charslot(slot = "l", name = "avg_npc_941_1#1$1",posfrom="-70,0",posto="-70,0",focus="r")]
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",posfrom="70,0",posto="70,0",focus="r")]
+[name="克莱门莎"]所以，我再问一遍。我刚刚踏进这座观测厅的时候，你在试验的那些幻景，是为谁准备的？
+[charslot(slot = "l", name = "avg_npc_941_1#1$1",focus="l")]
+[name="奥卢斯"]重要吗？
+[charslot(slot = "r", name = "avg_4231_clemnt_1#11$1",focus="r")]
+[name="克莱门莎"]既然是因为惜命才放下了剑，那你就没有挑拣问题的余地。
+[charslot(slot = "l", name = "avg_npc_941_1#2$1",focus="l")]
+[name="奥卢斯"]“惜命”……呵。我确实不指望你会理解。
+[name="奥卢斯"]选择自我牺牲再简单不过，只需要有一点爱、一点恨，或者哪怕只是一点愧疚，就够了。
+[name="奥卢斯"]但有些更伟大的事物，不该被拿来给这些情绪陪葬。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#5$1",focus="r")]
+[name="克莱门莎"]“有些更伟大的事物”，意思是你自己的理想？
+[charslot(slot = "l", name = "avg_npc_941_1#1$1",focus="l")]
+[name="奥卢斯"]谦虚无益。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#2$1",focus="r")]
+[name="克莱门莎"]但你还是冒险留在了这里。深海主教从来不是什么安全的身份，这里每个拿得起武器的人都有理由杀了你。
+[name="克莱门莎"]你已经得到了港都中心城区，还有什么值得你拿性命来冒险？
+[name="克莱门莎"]那只可能是一位继承者，一个真正理解你、认同你的人。哪怕你遭遇意外，他也能延续你的理想。
+[name="克莱门莎"]你是有多么看重这个人，以至于就连见面的场景也要精挑细选？
+[charslot(slot = "l", name = "avg_npc_941_1#6$1",focus="l")]
+[name="奥卢斯"]良药总是难以下咽，在糖衣上下点功夫无可厚非。
+[name="奥卢斯"]我不想他也像上一个我自以为合适的继承者一样，最后只想杀了我。
+[name="奥卢斯"]很久之前的事了，那孩子给我的脸留下了一道伤痕，我给他留下了一次选择的机会。然后我们再也没有相见。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#5$1",focus="r")]
+[name="克莱门莎"]所以这一次，你才谨慎到这个地步？
+[name="克莱门莎"]直到你确信一切都不会再有变故，中心城区被藏到了无人知晓的地方，你才终于打算开口向他坦白你的理念？
+[charslot(slot = "l", name = "avg_npc_941_1#7$1",focus="l")]
+[name="奥卢斯"]不还是没逃过变故吗？我没料到他迟迟未到，出现的却是你。
+[charslot(slot = "l", name = "avg_npc_941_1#6$1",focus="l")]
+[name="奥卢斯"]是你把他藏了起来？你已经知道是谁了，不是吗？
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]纳乔。如果他选择再回来找你，我不会拦他。如果他没有，你也该接受那是他的意愿，而不是我动了手脚。
+[charslot(slot = "l", name = "avg_npc_941_1#1$1",focus="l")]
+[name="奥卢斯"]他当然会来。港都中心城区消失，谈判破裂，岛民的处境想必不会太好。其他人或许会逃跑、会反抗，但纳乔……
+[name="奥卢斯"]他太在乎所有岛民了。他一定会尝试用最直接的方式解决问题。他会出于和你一样的原因，来这里，来找我。
+[name="奥卢斯"]毕竟，要找回港都中心城区，还有什么更好的地方可去呢？
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]所以中心城区从来不是岛民和审判庭谈判用的筹码，而是你换取纳乔用的筹码。
+[charslot(slot = "l", name = "avg_npc_941_1#7$1",focus="l")]
+[name="奥卢斯"]如果能带走他，我不介意归还。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#11$1",focus="r")]
+[name="克莱门莎"]这是你的条件？
+[charslot(slot = "l", name = "avg_npc_941_1#1$1",focus="l")]
+[name="奥卢斯"]虽然不幸地多出了你这个“中间人”……
+[charslot(slot = "l", name = "avg_npc_941_1#6$1",focus="l")]
+[name="奥卢斯"]把纳乔带来，然后我会告诉你中心城区的停泊处。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#5$1",focus="r")]
+[name="克莱门莎"]既然纳乔自己没来，那我也看不出他有什么理由要像货物一样被交给你。
+[name="克莱门莎"]如果你的诉求是有人倾听你的理念，那么我会听。
+[charslot(slot = "l", name = "avg_npc_941_1#2$1",focus="l")]
+[name="奥卢斯"]我百年前就已经在阿戈尔执政官身上费够了口舌。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#10$1",focus="r")]
+[name="克莱门莎"]所以？
+[charslot(slot = "l", name = "avg_npc_941_1#1$1",focus="l")]
+[name="奥卢斯"]……啧。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[curtain(direction = 0,fillfrom = 0.5,fillto = 0.2, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.5,fillto = 0.2, fadetime=0.1)]
+[delay(time=1)]
+[image(image="51_i09_1",screenadapt="coverall", xScale=1.05, yScale=1.05,x=0,y=0)]
+[ImageTween(xScaleTo=1, yScaleTo=1, duration=15, block=false)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_warfireamb_loop",volume=0, channel="p", loop=true)]
+[SoundVolume(volume=0.8, channel="p",fadetime=2)]
+[Delay(time=1)]
+[name="奥卢斯"]听听远处防线上的炮声吧，这些天来我们甚至都习惯了听着它入睡，几乎忘了它来自一场荒谬的战争。
+[name="奥卢斯"]玛利图斯向你们宣战的时候，你就在现场，克莱门莎执政官。不如由你来告诉我，他是为什么做出了那样的选择？
+[StopSound(channel="p", fadetime=1)]
+[name="克莱门莎"]他的选择早在那之前就做完了，在他第一次见到“初生”的时候就已经做完了。
+[name="克莱门莎"]他有多相信海嗣是唯一的可能性，就有多怀疑阿戈尔人能否认同他。
+[name="克莱门莎"]他害怕自己的主张被扔进无穷无尽的研讨和评议会里，每一个人在他眼里都是不能容忍的变数。
+[name="克莱门莎"]所以他擅自做了决定。
+[name="奥卢斯"]只不过……这个决定有点太大了。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[curtain]
+[delay(time=1)]
+[image]
+[Background(image="74_g13_underseahall_n",screenadapt="coverall")]
+[bgeffect]
+[charslot(slot = "r", name = "avg_4231_clemnt_1#11$1",posfrom="70,0",posto="70,0")]
+[charslot(slot = "l", name = "avg_npc_941_1#6$1",posfrom="-70,0",posto="-70,0")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]整个泰拉——我们为之赋予了名字的每一样事物，在他眼里都只是海嗣的养料。
+[name="克莱门莎"]我憎恶他的所作所为，但那都不是什么不可理喻的狂人之举。阿戈尔人确实容易产生一种特有的恐惧。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#11$1",focus="r")]
+[name="克莱门莎"]我们会想象后来者失望地回看我们，恨我们优柔寡断，没有把一切都献给某位超前的先驱。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#10$1",focus="r")]
+[name="克莱门莎"]玛利图斯以为自己是那个先驱，他唯恐时代不允许他付出必要的代价。
+[charslot(slot = "l", name = "avg_npc_941_1#2$1",focus="l")]
+[name="奥卢斯"]但恐怕，就是因为太急于付出代价，他才亲手摧毁了自己设想的那个未来吧？
+[name="奥卢斯"]玛利图斯一定也给你讲过他在Ishar-mla身旁遇到的那只海嗣幼体。所以相应地，我该给你讲讲我遇到的另一只海嗣。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[delay(time=1)]
+[curtain(direction = 0,fillfrom = 0.5,fillto = 0.2, fadetime=0)]
+[curtain(direction = 4,fillfrom = 0.5,fillto = 0.2, fadetime=0)]
+[charslot]
+[bgeffect(name="$eb_sunlight_r",layer=1,x=500,y=100,yto=-100,movetime=40)]
+[bgeffect(name="$eb_tyndall",layer=2,x=500)]
+[Background(image="51_g2_beaconsquare_nest",screenadapt="coverall")]
+[BackgroundTween(image="51_g2_beaconsquare_nest",duration=40,xScaleFrom=1,yScaleFrom=1,xScaleTo=1.2, yScaleTo=1.2, xFrom=0, xTo=-70,yFrom=70, yTo=-80,block=false)]
+[PlaySound(key="$d_avg_swiminwater",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.8, channel="f",fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[name="奥卢斯"]那是个短命的个体，它在海中会呛水，在陆上又会窒息。它的鳃已经变形，颌又还没有成形。
+[name="奥卢斯"]它挣扎着试图对我说人类的语言，但只能发出一点似是而非的怪声。
+[name="克莱门莎"]那些总缠着深海猎人，拙劣地试图用人类语言蛊惑他们的海嗣？
+[name="奥卢斯"]它们的“雏形”。
+[StopSound(channel="f", fadetime=2)]
+[name="奥卢斯"]进化是不会凭空发生的。哪怕海嗣，也没法为了言语就立刻凭空长出口舌。
+[name="奥卢斯"]它们必须得让自身已有的结构——口腔前端的几对鳃弓和对应的肌肉——慢慢转变成类似于人的口舌。
+[name="奥卢斯"]海嗣也许可以主动选择进化，也许能以个体为单位高速迭代……但它们颠覆不了进化的基本规则。
+[name="奥卢斯"]在现有形态的基础上进行改变，进化从来都是如此，也只能是如此。
+[name="奥卢斯"]所以，如果玛利图斯真想要让海嗣仅凭本能就穷举出克服毁灭的答案……那他肯定没想过一个至关重要的问题——
+[PlaySound(key="$d_avg_swiminwater",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.8, channel="f",fadetime=2)]
+[name="奥卢斯"]海嗣现有的基础形态太少了。泰拉现有的生命形态……都太少了。
+[name="克莱门莎"]恐怕还在不断减少吧？
+[name="克莱门莎"]因为海嗣活动而灭绝的物种已经无法计数，就连海嗣的进化幅度也在急剧地下降。
+[name="克莱门莎"]我这几个月来遭遇的所有海嗣，都在朝着同一个方向进化。它们需要能完全抵御第Ⅲ级武器攻击的生理结构，但也就仅此而已。
+[name="奥卢斯"]所以，就算海嗣真能在这场战争中取胜，又怎么样呢？
+[Dialog]
+[StopSound(channel="f", fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[curtain]
+[delay(time=1)]
+[Background(image="74_g13_underseahall_n",screenadapt="coverall")]
+[bgeffect]
+[charslot(slot = "r", name = "avg_4231_clemnt_1#11$1",posfrom="70,0",posto="70,0")]
+[charslot(slot = "l", name = "avg_npc_941_1#6$1",posfrom="-70,0",posto="-70,0")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot = "l", name = "avg_npc_941_1#2$1",focus="l")]
+[name="奥卢斯"]仅凭剩下来的那寥寥几种为阿戈尔武器量身定制的形态作为进化的基底，就妄想克服毁灭了先史文明的灾祸？
+[charslot(slot = "l", name = "avg_npc_941_1#7$1",focus="l")]
+[name="奥卢斯"]除非那灾祸其实是另一批手持重力武器的星际阿戈尔人。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#5$1",focus="r")]
+[name="克莱门莎"]一个深海主教，刚刚在我面前否定了海嗣的未来。
+[charslot(slot = "l", name = "avg_npc_941_1#6$1",focus="l")]
+[name="奥卢斯"]说了这么多，你还是一样把我称作“深海主教”，倒显得我像是来抱怨同僚的了。
+[charslot(slot = "l", name = "avg_npc_941_1#2$1",focus="l")]
+[name="奥卢斯"]是我先从玛利图斯说起，让你有了阿戈尔就纯洁无瑕的错觉？在盲目和自毁这方面，阿戈尔也不遑……
+[charslot(slot = "r", name = "avg_4231_clemnt_1#5$1",focus="r")]
+[name="克莱门莎"]怎么不说了？
+[name="克莱门莎"]你是怕我像其他任何一个执政官那样，在你否定阿戈尔的那一刻，就对你拔剑？
+[charslot(slot = "l", name = "avg_npc_941_1#1$1",focus="l")]
+[name="奥卢斯"]……
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]果然。
+[name="克莱门莎"]哪怕离开阿戈尔已经百年有余，你还是会本能地把否定阿戈尔的话咽回肚子里去。
+[charslot(slot = "l", name = "avg_npc_941_1#7$1",focus="l")]
+[name="奥卢斯"]毕竟“阿戈尔”这个词本身就代表着绝对的肯定。可不是每一种语言里都能见到这种“奇观”。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[curtain(direction = 0,fillfrom = 0.5,fillto = 0.2, fadetime=0.1)]
+[curtain(direction = 4,fillfrom = 0.5,fillto = 0.2, fadetime=0.1)]
+[delay(time=1)]
+[bgeffect]
+[image(image="51_i02",screenadapt="coverall", xScale=1.05, yScale=1.05,x=0,y=20)]
+[ImageTween(yTo=-95,xTo=20,xScaleTo=1.2, yScaleTo=1.2, duration=20, block=false)]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_sea",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.8, channel="f",fadetime=2)]
+[name="克莱门莎"]那我知道你对阿戈尔会是怎样的论调了。
+[name="克莱门莎"]但我确实厌倦了你无穷无尽的冷嘲热讽，如果对阿戈尔的否定也是你理念的一环，由我来说还更省事些。
+[name="克莱门莎"]阿戈尔自认是“文明的代行者”，它相信自己才是唯一的答案，也唯恐自己的国民不敢付出必要的代价。
+[name="克莱门莎"]所以它要让所有人相信它必然胜利。
+[StopSound(channel="f", fadetime=2)]
+[name="克莱门莎"]伊莎玛拉庞大的身躯向内坍缩，所有深海猎人都杳无音讯的时候，阿戈尔是胜利的。
+[name="克莱门莎"]弥利亚留姆仓皇撤离，火山能源站的灯光阵列一排排熄灭的时候，阿戈尔是胜利的。
+[name="克莱门莎"]海嗣侵入城市，航道信标都陷入沉寂，信标塔也沉入海底的时候，阿戈尔是胜利的。
+[name="克莱门莎"]有时候，我需要在给垂死的士兵做临终对谈的间隙，去接受属于军团长的荣誉。
+[name="克莱门莎"]赫拉提娅会亲手把勋章别在我衣襟上，因为我手上还沾着血和黏液。
+[name="克莱门莎"]我多希望阿戈尔确实是胜利的。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[image]
+[curtain]
+[delay(time=1)]
+[name="克莱门莎"]如果那样，事情就简单太多了。我只需要砍下你的头颅，哪怕港都中心城区找不回来也无妨。
+[name="克莱门莎"]阿戈尔会宣称斩杀了一位作乱几十年的深海主教，这远比打捞起一座沉寂几十年的旧都城更有价值。
+[Dialog]
+[Background(image="74_g13_underseahall_n",screenadapt="coverall")]
+[charslot(slot = "l", name = "avg_npc_941_1#1$1",posfrom="-70,0",posto="-70,0")]
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",posfrom="70,0",posto="70,0")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[stopmusic(fadetime=2)]
+[charslot(slot = "r", name = "avg_4231_clemnt_1#10$1",focus="r")]
+[name="克莱门莎"]至于港都中心城区的消失会在伊比利亚造成多大的混乱，有多少岛民、多少惩戒军会死在动乱当中……无关紧要。
+[name="克莱门莎"]那个数字是大是小，不会影响追悼会上任何一位执政官的表情。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#2$1",focus="r")]
+[name="克莱门莎"]但阿戈尔不会胜利。
+[name="克莱门莎"]它也因为迷茫和恐惧，而急切地付出了太多代价。
+[charslot(slot = "l", name = "avg_npc_941_1#6$1",focus="l")]
+[name="奥卢斯"]你看，阿戈尔人总在做同样的事，你们和玛利图斯到底还是同类。
+[name="奥卢斯"]海嗣和阿戈尔之间哪有什么存续和文明之争？不过就是一场绝望的牺牲大比拼。
+[charslot(slot = "l", name = "avg_npc_941_1#2$1",focus="l")]
+[name="奥卢斯"]至少你我之间，没必要再拙劣地重演这种比拼。
+[name="奥卢斯"]既然如此，容我失陪。
+[playMusic(key="$darkness_03_loop", volume=0.6)]
+[charslot(slot = "r", name = "avg_4231_clemnt_1#11$1",focus="r")]
+[name="克莱门莎"]你是批判得太忘情，以至于把自己的处境都抛到了脑后？谈判还没有结束，你哪儿也去不了。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]如果我没记错，你留在这里，是为了述说自己的理念。为什么我听到的只有对现状的批判？
+[name="克莱门莎"]如果你所谓的“理想国”，就只是另一种用来倾吐离经叛道之言的“互助会”，那你就没有机会活着离开。
+[charslot(slot = "l", name = "avg_npc_941_1#7$1",focus="l")]
+[name="奥卢斯"]……我的“理想国”会是一座保藏库，生命形态的保藏库。
+[name="奥卢斯"]同化其他物种是海嗣的本能，但这种本能并非无法抑制。至少，我已经实现了短时间的稳定抑制。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#10$1",focus="r")]
+[name="克莱门莎"]所以纳乔才没有被同化……至少暂时没有。
+[charslot(slot = "l", name = "avg_npc_941_1#2$1",focus="l")]
+[name="奥卢斯"]这样，海嗣就有可能和其他任何物种共存。那些已经消失的物种我无能为力，但还有不计其数的生命形态可以被保存下来。
+[name="奥卢斯"]它们会成为海嗣进化的原本。
+[name="奥卢斯"]我阻止不了大群向战争中倾注血肉的愚行，但我可以让一部分海嗣率先开始真正有价值的进化。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#7$1",focus="r")]
+[name="克莱门莎"]不只是抑制同化的本能……你还可以让海嗣脱离大群的意志行动？
+[charslot(slot = "l", name = "avg_npc_941_1#6$1",focus="l")]
+[name="奥卢斯"]程度有限，但至少我站在这里谈论海嗣的另一种未来时，大群没有堵住我的口舌，夺走我的话语。
+[name="奥卢斯"]呵。我倒宁愿大群真的那么做了，免得我需要对一个注定不会理解我的人浪费口舌。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]不。我能理解。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#10$1",focus="r")]
+[name="克莱门莎"]剥掉所有冗长的批判之后，你的理念……简单得好像一份学生论文。
+[name="克莱门莎"]保藏物种资源的尝试，两百多年来在阿戈尔从来没有停止过。阿戈尔人只是不会把那些珍贵的样本用作海嗣进化的原本而已。
+[name="克莱门莎"]但越是能理解，我越感到怪异。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]如果你的理念就只是这样，你怎么会几十年来都找不到一个能理解你的继承者？
+[name="克莱门莎"]我不相信自己有多么特殊，奥卢斯。
+[name="克莱门莎"]我不相信在你百余年的人生当中，我是唯一能理解你的人。
+[name="克莱门莎"]所以我要问你，你上一次对谁完整地述说这套理念，是什么时候？
+[charslot(slot = "l", name = "avg_npc_941_1#1$1",focus="l")]
+[name="奥卢斯"]……六十八年前。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#11$1",focus="r")]
+[name="克莱门莎"]难怪你讲起自己的理念都如此生涩。
+[name="克莱门莎"]但你分明是个擅长演说的人。在这六十八年间，有多少人尊敬地称你为“导师”？
+[charslot(slot = "r", name = "avg_4231_clemnt_1#2$1",focus="r")]
+[name="克莱门莎"]如果你一直都对自己真正的理念避而不谈，那你对那些追随者，讲的都是什么？
+[name="克莱门莎"]啊，我从纳乔那里都听过了。
+[name="克莱门莎"]你渲染他们的苦难，煽动他们的仇恨。你让他们相信自己是不幸的、凄惨的、可悲的。
+[charslot(slot = "l", name = "avg_npc_941_1#2$1",focus="l")]
+[name="奥卢斯"]难道我要一上来就呼吁他们抛下自己的生计，忘掉自己的苦难，来听我讲某种遥远的理想？
+[name="奥卢斯"]那才是对他们的不尊重。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]你难道不清楚，自己为什么从来只接触那些在夹缝里挣扎求生的人？
+[name="克莱门莎"]纳乔、阿奎拉和那些岛民，之前被你当作继承者的那个孩子，还有安布罗修修道院的信徒们——无一例外。
+[charslot(slot = "l", name = "avg_npc_941_1#7$1",focus="l")]
+[name="奥卢斯"]如果不是我，他们——
+[charslot(slot = "r", name = "avg_4231_clemnt_1#2$1",focus="r")]
+[name="克莱门莎"]也不会落得白白死去，或是堕为海嗣的结局。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]像玛利图斯一样，你也不相信自己的理念能被认同，不敢把它呈现在所有人面前，尤其是那些有能力否定你的人。
+[name="克莱门莎"]但你发现，你不用这么做就能博得一些人的信赖、认同，甚至无条件的付出。那些比你弱小得多的人，那些无处可去的人。
+[name="克莱门莎"]你是为了这种唾手可得的认同，才选择了单单成为那些人的“导师”。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#2$1",focus="r")]
+[name="克莱门莎"]可你偏偏又不满足于此，你还是希望自己的理念能被实现。
+[name="克莱门莎"]所以你很快就发现那些人的“实际利用价值”其实极其有限。
+[name="克莱门莎"]毕竟，他们连你真正的理念都没听过，又怎么可能成为你的同行者？到最后，你只能失望地处理掉他们。
+[name="克莱门莎"]而你处理的方式总是一样——把他们变成一种意见更少、麻烦更少的形态，好蠕动着继续服从你。
+[charslot(slot = "l", name = "avg_npc_941_1#1$1",focus="l")]
+[name="奥卢斯"]“处理”？你在侮辱他们的自由意志。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#14$1",focus="r")]
+[name="克莱门莎"]自由意志？同样接受了你的手术，为什么纳乔完好无损，而盖乌斯成了行尸走肉？
+[charslot(slot = "r", name = "avg_4231_clemnt_1#2$1",focus="r")]
+[name="克莱门莎"]他不是渴望变成海嗣，他只是想克服那双不争气的伤腿，想站起来继续为死去的孩子报仇。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#14$1",focus="r")]
+[name="克莱门莎"]你甚至没告诉他，你能做到让海嗣只是疗伤而不同化。你声称那是他出于自由意志做出的选择，可你给他选项了吗？
+[charslot(slot = "l", name = "avg_npc_941_1#6$1",focus="l")]
+[name="奥卢斯"]……
+[charslot(slot = "r", name = "avg_4231_clemnt_1#14$1",focus="r")]
+[name="克莱门莎"]阿奎拉的死，盖乌斯的死，每一个在你的煽动下参与袭击的岛民的死，对你窃取港都中心城区甚至有任何实质性的帮助吗？
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]还是说，你也只是需要不断地制造牺牲，好给自己营造一种胜利的错觉？
+[charslot(slot = "l", name = "avg_npc_941_1#2$1",focus="l")]
+[name="奥卢斯"]不……不。他们每一个人的牺牲都是必要的，绝对必要。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#10$1",focus="r")]
+[name="克莱门莎"]“一场绝望的牺牲大比拼”，不是吗？从我走进观测厅开始，你我就已经在这场比拼当中了。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#2$1",focus="r")]
+[name="克莱门莎"]你无比急切地牺牲掉了随你来到港都的所有岛民，就像我无比急切地表现出一副自我牺牲的姿态。
+[name="克莱门莎"]这场荒唐的比拼到此为止，奥卢斯。
+[name="克莱门莎"]你的理念再怎么有价值，现在的你也实现不了。你自我欺骗了几十年，连地基都没建起来。
+[name="克莱门莎"]如果我只是简单地放你走，那么再过几十年，你也不会有任何进展。你只会制造更多的牺牲来满足自己。
+[charslot(slot = "l", name = "avg_npc_941_1#6$1",focus="l")]
+[name="奥卢斯"]……你没有资格这么说。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]你大可以当我没说过，但事实仍然是事实。
+[name="克莱门莎"]不过，如果你确实还在乎自己的理想，我可以提出另一种可能性。
+[name="克莱门莎"]既然你能让海嗣脱离大群的意志行动，那就回到深海教会去。
+[name="克莱门莎"]在必要的时候，我会让你知道哪里该出现海嗣，而哪里不该。
+[name="克莱门莎"]如果你能忠实地履行，我会给你提供一个不被任何人打扰的场地，以及充足的设施和人手。
+[charslot(slot = "l", name = "avg_npc_941_1#7$1",focus="l")]
+[name="奥卢斯"]连一座城市都没有的执政官，怎么能拿得出这样一个场地？
+[charslot(slot = "r", name = "avg_4231_clemnt_1#11$1",focus="r")]
+[name="克莱门莎"]阿戈尔没有拾荒的概念，但这样的事，我确实做了十几年之久。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]我没有城市也没有军团，但我掌握着阿戈尔当作代价抛下的许许多多的资源、技术和土地。
+[name="克莱门莎"]弥利亚留姆曾经驻守的那座火山能源站，会成为保藏库的地基。
+[charslot(slot = "l", name = "avg_npc_941_1#5$1",focus="l")]
+[name="奥卢斯"]……我有得选吗？
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]选什么？
+[charslot(slot = "r", name = "avg_4231_clemnt_1#2$1",focus="r")]
+[name="克莱门莎"]阿奎拉、盖乌斯、布雷奥甘。达里奥、阿方索。图利娅、乌尔比安。被这场战争抛弃的每个人，都本该成为一种未来的可能性。
+[name="克莱门莎"]那些已经死去，或是不知所终的人，我无能为力。但还有很多被抛弃的人仍在挣扎。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#4$1",focus="r")]
+[name="克莱门莎"]安赫拉、索莱达、德鲁莎、纳乔，还有你，奥卢斯。你们每个人都还有机会成为一种未来的可能性。
+[name="克莱门莎"]但你们谁都不比谁更重要、更值得活着。
+[charslot(slot = "r", name = "avg_4231_clemnt_1#14$1",focus="r")]
+[name="克莱门莎"]你已经自私地牺牲掉了多少人，抹杀了多少珍贵的可能性？你还能有机会实现自己的理想，已经是这世上最大的不公。
+[name="克莱门莎"]所以，你还想选什么？
+[charslot(slot = "l", name = "avg_npc_941_1#1$1",focus="l")]
+[name="奥卢斯"]……
+[charslot(slot = "r", name = "avg_4231_clemnt_1#2$1",focus="r")]
+[name="克莱门莎"]现在，作为“定金”——
+[name="克莱门莎"]港都中心城区的去向，你也该开口了。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[Background(image="74_g2_courtprison",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="圣徒卡门"]我找到你，你并不惊讶。
+[charslot(slot = "m", name = "avg_npc_2266_1#10$2")]
+[name="瓦列里奥"]你也没有因我的死而复生惊讶，圣徒阁下。
+[name="瓦列里奥"]雷亚-伊比利亚的坐标从海图上永久消失，惩戒军和审判官会优先提防海嗣上岸，新任监事一定会去确认打捞中心的情况。
+[charslot(slot = "m", name = "avg_npc_2266_1#11$2")]
+[name="瓦列里奥"]而你的自尊和傲慢会驱使你优先找出抹去坐标的真凶——他看破了你精心的布置，动摇了你忠诚的学生，他对审判庭、对你都很了解。
+[charslot(slot = "m", name = "avg_npc_2266_1#6$2")]
+[name="瓦列里奥"]不过，我与特菲进入中控室一事除了斐戴拉之外应当无人知晓，你是怎么将嫌疑锁定到我们身上的？
+[charslot(slot = "m", name = "avg_npc_447_1#2$1")]
+[name="圣徒卡门"]我在岗哨的记录里发现，一名正直的惩戒军新兵曾在打捞启动仪式开始之前，拦下过一名身份不明的乐手。
+[name="圣徒卡门"]之后他又在船厂见过她聚众演讲，而那天正巧是岛民阿奎拉借机行动被捕的日子。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2")]
+[name="瓦列里奥"]看来我少了一些运气。
+[charslot(slot = "m", name = "avg_npc_447_1#1$1")]
+[name="圣徒卡门"]你协助深海主教，先以袭击灯塔来转移审判庭的注意，又在庆典当天抹去雷亚-伊比利亚的坐标，让审判庭无法侦测到中心城区的去向。
+[charslot(slot = "m", name = "avg_npc_447_1#5$1")]
+[name="圣徒卡门"]你想向我，向审判庭复仇？因为五十三年前的那场大火？
+[charslot(slot = "m", name = "avg_npc_2266_1#4$2")]
+[name="瓦列里奥"]复仇……不。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2")]
+[name="瓦列里奥"]我与奥卢斯从来就不是同路人，他给了我第二次生命，我不想亏欠他，但我另有目的。
+[stopmusic(fadetime=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[curtain(direction =0,fillfrom = 0.01,fillto = 0.4,grad=true, fadetime=0.1)]
+[curtain(direction =4,fillfrom = 0.01,fillto = 0.25,grad=true, fadetime=0.1)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_churchfire",volume=0, channel="f", loop=true)]
+[SoundVolume(volume=0.3, channel="f",fadetime=1)]
+[Image(image="74_i08", screenadapt="coverall", xScale=1.05, yScale=1.05,x=-40,fadetime=0)]
+[ImageTween(xTo=40,duration=15, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$ghosthunter_intro", key="$ghosthunter_loop", volume=0.6)]
+曾经的圣徒背对他的同僚，这是他们阔别五十余年后尚存的信任。
+他拿起武器架上的刺剑，它上面没有刻字，它不属于任何人。附属于伊比利亚的生命总是如此短暂，他们留不下一个名字。
+他低垂双眸，悉心擦拭着手中的武器，胸腔中冰冷的火焰熊熊烧着，熔去剑身上的锈迹和灰尘。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[curtain]
+[delay(time=1)]
+[charslot]
+[Image(image="74_i08", screenadapt="coverall", xScale=1.5, yScale=1.5,x=80,y=-80,fadetime=0)]
+[ImageTween(xTo=-30,duration=30, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=1)]
+[name="瓦列里奥"]这五十余年间我走过了伊比利亚的很多地方——饥荒、疫病、动乱、罪行……我因自己过去的骄傲感到惭愧。
+[name="瓦列里奥"]而你，在伊比利亚仍在苟延残喘之际，还想往前更进一步？
+[name="圣徒卡门"]雷亚-伊比利亚本就是这片国土的一部分，它迟早要回归我们的海岸线。
+[name="瓦列里奥"]但为什么是现在？
+[name="瓦列里奥"]在盐风城，麻木之人将深海主教当作他们唯一的救赎，即便有审判庭介入，他们现在的状态依旧不堪。
+[name="瓦列里奥"]在格兰法洛，象征辉煌的斯图提斐拉号在海上沉没，黄金时代的方舟尸骨无存。
+[name="瓦列里奥"]特菲，那个天真的诈骗犯。她用一支曲子、一个故事就能收获信徒。愚钝的平民互相欺骗，不用付出任何努力就能收获幻想中的未来。
+[name="瓦列里奥"]千万伊比利亚人需要圣徒的指引，无数堕落的德行需要被纠正，而我在替你做你本应亲自做的事。
+[name="瓦列里奥"]这一切难道不正说明了伊比利亚仍处在困境之中？不正说明了我们应当维持原本的方针让濒临崩溃的伊比利亚存续？
+[Dialog]
+[StopSound(channel="f", fadetime=2)]
+[Image(image="74_i08", screenadapt="coverall", xScale=1.05, yScale=1.05,x=0,y=0,fadetime=2)]
+[ImageTween(xScaleFrom=1.05,yScaleFrom=1.05,xScaleTo=1,yScaleTo=1,duration=15, block=false)]
+[delay(time=1.5)]
+[name="圣徒卡门"]瓦列里奥，你可曾考虑过，在脆弱的国土上继续实施原有的治理方式，会付出什么样的代价？
+[name="瓦列里奥"]为了维持伊比利亚的秩序，我们已然付出了极大的代价。
+[name="瓦列里奥"]我们利用孽物构建审判官法术的基础，我们献出无数同僚的生命换得平民在海边生活的权利，我们将来自海洋的一切视作敌人。
+[name="瓦列里奥"]牺牲的一切都不会回来了。
+[name="瓦列里奥"]而我也曾是其中的一部分。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[Image]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[charslot(slot = "m", name = "avg_npc_447_1#4$1")]
+[name="圣徒卡门"]瓦列里奥……
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2")]
+[name="瓦列里奥"]我不会对你说谎，卡门，我曾想过向你复仇。
+[charslot(slot = "m", name = "avg_npc_2266_1#7$2")]
+[name="瓦列里奥"]那名背叛者在燃烧的海嗣群中唾弃审判庭付出的一切，朝拜异端的海神时，我恨你怎敢认为我会与此等人为伍。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2")]
+[name="瓦列里奥"]但我也很欣喜，如果你愿意承担抛弃同行者的代价，那你一定能带领伊比利亚走得更远。
+[charslot(slot = "m", name = "avg_npc_2266_1#10$2")]
+[name="瓦列里奥"]我记恨的从不是那场大火，卡门。
+[charslot(slot = "m", name = "avg_npc_2266_1#10$2")]
+[name="瓦列里奥"]我记恨的是在这五十余年中，我拖着这副不死的身躯，看着伊比利亚每况愈下，看着罪孽和恶行从受潮的道德中滋长，而我却无能为力。
+[charslot(slot = "m", name = "avg_npc_447_1#5$1")]
+[name="圣徒卡门"]这副半死的身躯令你太过急躁，你并非无能为力。
+[charslot(slot = "m", name = "avg_npc_2266_1#12$2")]
+[name="瓦列里奥"]没错。当你宣布打捞计划时，我想明白了，我并非无能为力，如果我认为伊比利亚的代行者是错误的，我就应当纠正。
+[stopmusic(fadetime=2)]
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2")]
+[name="瓦列里奥"]卡门，如果你懦弱到不愿再指引伊比利亚的方向，我会代替你。
+[charslot(slot = "m", name = "avg_npc_2266_1#1$2")]
+[name="瓦列里奥"]我会成为伊比利亚的新教宗。
+[Dialog]
+[PlaySound(key="$firestorm")]
+[dialog]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=0.47, g=0.54, b=0.65, fadetime=0.1, block=true)]
+[PlaySound(key="$firestorm")]
+[Blocker(a=0, r=0.47, g=0.54, b=0.65,  fadetime=0.5, block=true)]
+[playMusic(intro="$m_bat_act17side_01_intro", key="$m_bat_act17side_01_loop", volume=0.6)]
+炼金符号在瓦列里奥身上闪烁，蓝色的光点爆发出灼人的热度。
+这副身躯中的炼金术式，似乎在与另一处，另一副身躯上刻印的炼金术式遥相感应。
+一副人的身躯、一副海嗣的身躯，在此刻共同燃烧，一如五十余年之前。
+[bgeffect]
+[charslot(slot = "m", name = "avg_npc_447_1#4$1")]
+[name="圣徒卡门"]瓦列里奥，你要做什么！
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=0.47, g=0.54, b=0.65, fadetime=0.1, block=true)]
+[PlaySound(key="$firestorm")]
+[Blocker(a=0, r=0.47, g=0.54, b=0.65,  fadetime=0.5, block=true)]
+[charslot(slot = "m", name = "avg_npc_2266_1#10$2")]
+[name="瓦列里奥"]奥卢斯和岛民想用港都中心城区做什么，与我的伊比利亚无关，我只知道一座镶满金粉的旧都，是如今的伊比利亚最不需要的东西。
+[charslot(slot = "m", name = "avg_npc_2266_1#11$2")]
+[name="瓦列里奥"]那就让黄金时代的都城，永远沉没在海底吧。
+[dialog]
+[bgeffect]
+[charslot]
+[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_gen_explo_n")]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]
+[delay(time=2)]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[bgeffect]
+[charslot]
+[Background]
+[Image]

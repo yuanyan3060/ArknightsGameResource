@@ -109,6 +109,8 @@ end
 
 
 
+
+
 local CheckinVideoViewModel = Class("CheckinVideoViewModel", UIViewModel);
 
 
@@ -145,6 +147,8 @@ function CheckinVideoViewModel:LoadData(actId)
         self.newCol = dailyInfo.newCol;
         self.mainBtnLightCol = dailyInfo.mainBtnLightCol;
         self.progressDotCol = dailyInfo.progressDotCol;
+        self.unreceiveBtnBgCol = dailyInfo.unreceivedBtnBgCol;
+        self.unreceiveBtnTxtCol = dailyInfo.unreceivedBtnTxtCol;
         self.isCommonElementColSet = true;
       end
     end
@@ -160,8 +164,18 @@ function CheckinVideoViewModel:LoadData(actId)
       break;
     end
   end
+
   if self.currFocusItem <= 0 or self.currFocusItem > #self.itemList then
-    self.currFocusItem = 1;
+    for index, dailyInfo in pairs(self.itemList) do
+      if dailyInfo ~= nil and dailyInfo.status == CheckinVideoItemStatus.LOCKED then
+        self.currFocusItem = index;
+        break;
+      end
+    end
+  end
+
+  if self.currFocusItem <= 0 or self.currFocusItem > #self.itemList then
+    self.currFocusItem = #self.itemList;
   end
   self.isEnter = true;
 end

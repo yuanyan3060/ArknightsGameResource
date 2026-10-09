@@ -1,0 +1,608 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[Background(image="bg_deluxeroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$mist_n_intro", key="$mist_n_loop", volume=0.6)]
+[charslot(slot="m",name="avg_141_nights_1#8$1",bstart=0.1,bend=0.5,duration=1)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_141_nights_1#8$1",bstart=0.1,bend=0.5,focus="m")]
+[name="夜烟"]哼哼，不堪一击的防护……
+[name="夜烟"]当年做下了那种事，只凭区区两三把重锁，可没有办法拦住一个想要进入你家的女巫哦。
+[Dialog]
+[charslot(slot="m",bstart=0.1,bend=0.5,posfrom="0,0",posto="-80,0",duration=0.8)]
+[Delay(time=2)]
+[charslot(slot="m",bstart=0.1,bend=0.5,posfrom="-80,0",posto="80,0",duration=1.2)]
+[Delay(time=2)]
+[charslot(slot="m",bstart=0.1,bend=0.5,posfrom="80,0",posto="0,0",duration=0.8)]
+[Delay(time=1)]
+[charslot(slot="m",bstart=0.1,bend=0.5,focus="m")]
+[name="夜烟"]让我看看，荣誉奖章，各种书、书、书……唔，家庭合照在这里。“议员班杰明”……没错没错，找的就是你。
+[name="夜烟"]那就没有问题了，卧室在二楼——
+[Dialog]
+[charslot(slot="m",name="avg_141_nights_1#1$1",bstart=0.1,bend=0.5,posfrom="0,0",posto="200,0",afrom=1,ato=0,duration=1)]
+[Delay(time=1.2)]
+[charslot]
+[stopmusic(fadetime=2)]
+[name="？？？"]女巫？
+[charslot(slot="m",name="avg_141_nights_1#5$1",bstart=0.1,bend=0.5,focus="m")]
+[name="夜烟"]——
+[Dialog]
+[charslot(slot="m",name="avg_141_nights_1#5$1",duration=0.5)]
+[Delay(time=0.5)]
+[charslot(slot="m",name="avg_141_nights_1#5$1",focus="m")]
+[name="夜烟"]谁？！
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_141_nights_1#5$1",posfrom="0,0",posto="0,0",duration=0)]
+[charslot(slot="r",name="avg_npc_661_1#1$1",afrom=0,ato=1,duration=1)]
+[Delay(time=1.2)]
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="？？？"]哇，我没在做梦，你真的是女巫姐姐呀！
+[name="？？？"]女巫姐姐，是因为我每天都在许愿，所以你今晚来到我家了吗？
+[charslot(slot="l",name="avg_141_nights_1#9$1",focus="l")]
+[name="夜烟"]……
+[PlayMusic(key="$calm_loop", volume=0.6)]
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]我叫柏莎，我的梦想就是当一个女巫！
+[charslot(slot="l",name="avg_141_nights_1#9$1",focus="l")]
+[name="夜烟"]（棘手的小孩。）
+[name="夜烟"]（不想引更多人注意的话，要不要先……）
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]女巫姐姐你看你看！这是我给自己准备的女巫帽，还有魔法扫帚！我还养了两只黑色的云兽在那……
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]好好好，柏莎是吗？你声音小一点，不要吵醒了别人。
+[name="夜烟"]打扰别人晚上睡觉可不是女巫应该做的事哦。
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]（小声）哦哦，我明白了女巫姐姐！
+[name="小柏莎"]（小声）女巫姐姐，你是来带我去当女巫的吗？那我要准备点什么呢？
+[charslot(slot="l",name="avg_141_nights_1#9$1",focus="l")]
+[name="夜烟"]（算了，先把她哄睡着吧。）
+[charslot(slot="l",name="avg_141_nights_1#8$1",focus="l")]
+[name="夜烟"]柏莎，我是要来带你去当女巫的，但不是今天。
+[name="夜烟"]今天你要做的就是乖乖回到房间里睡觉，明白吗？
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]（小声）明白！
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]……
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]……
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]你怎么还不去睡觉？
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]（小声）睡觉前要听睡前故事……女巫姐姐，你能给我讲睡前故事吗？
+[charslot(slot="l",name="avg_141_nights_1#5$1",focus="l")]
+[name="夜烟"]……我？
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]（小声）嗯！我每天睡觉前爸爸都会给我讲睡前故事，但最近他一直在忙，已经好久没讲了……所以我今天晚上也没有睡着……
+[charslot(slot="l",name="avg_141_nights_1#4$1",focus="l")]
+[name="夜烟"]（真是麻烦。）
+[name="夜烟"]好吧。
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]（小声）好耶！女巫姐姐，我想听你给我讲女巫的故事！
+[charslot(slot="l",name="avg_141_nights_1#8$1",focus="l")]
+[name="夜烟"]呵……
+[name="夜烟"]那我就来给你讲一个有关女巫，有关巫女林的故事吧。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_fogwoods",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.8, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+从前有一个倒霉的家伙，她只是偷了几块面包果腹，但因为被发现是感染者，就被打了一顿，关进感染者监狱里。
+好在她会一点源石技艺，靠着它，她从监狱里逃了出来。
+但是呢，这个倒霉的家伙又饿又累，逃出来之后没有多久，她就晕倒在了一片树林里。
+不知道过了多久，她觉得有人在摇晃她的肩膀。
+[Dialog]
+[charslot(slot="m",name="avg_141_nights_1#5$1",duration=1)]
+[Delay(time=1.2)]
+[name="夜烟"]——！
+[Dialog]
+[charslot(slot="m",focus="none")]
+[name="和善的女性"]嘘，嘘，别紧张。可怜的小家伙，你在这里很安全，不会有人再来追你了。
+[name="大女巫格兰特"]这里是巫女林，我们称自己是“女巫”。我是这里的首领，我叫格兰特。
+[name="温柔的女性"]来，先吃点东西吧，你看上去饿坏了。
+[charslot(slot="m",name="avg_141_nights_1#4$1",focus="m")]
+[name="夜烟"]……
+[Dialog]
+[charslot(slot="m",focus="none")]
+[name="大女巫格兰特"]没事，食物就放在这里，你可以听完我说的话再选择吃或不吃。
+[Dialog]
+[charslot]
+一份食物被递到了那个倒霉的人面前。她看到那双拿着碗的手上，长着几颗突兀的源石结晶。
+[Dialog]
+[charslot(slot="m",name="avg_141_nights_1#5$1",focus="m")]
+[name="夜烟"]你的手……！还有你的胳膊……？
+[name="夜烟"]你们……
+[Dialog]
+[charslot(slot="m",focus="none")]
+[name="大女巫格兰特"]我们在外出搜寻物资的路上发现了你，把你带了回来。
+[name="大女巫格兰特"]我们大概知道你在城里的事，刚从监狱里逃出来，你一定很累吧？这个帐篷你先住着，我来给你介绍一下大家。
+[name="大女巫格兰特"]这是艾琳，她之前是一名厨房女工。如果你愿意，可以和她学怎么在这里做出一顿不至于太差的饭。
+[Dialog]
+[charslot]
+刚刚将饭递过来的温柔女性冲她微笑了一下。
+[Dialog]
+[charslot(slot="m",name="avg_141_nights_1#5$1",focus="n")]
+[name="大女巫格兰特"]还有苏菲，她之前是一名医生，她可以教你受伤时如何救治自己。
+[charslot]
+一旁即使面容已经十分憔悴，也仍旧保持头发一丝不乱的女性从简陋的药箱里翻找出一些绷带，示意她可以过去包扎。
+[charslot(slot="m",name="avg_141_nights_1#5$1",focus="n")]
+[name="大女巫格兰特"]还有康妮，她之前是个老师，你要是想学些什么东西都可以问她。米拉，之前是个信使，现在也在帮我们传递各种消息……
+[charslot(slot="m",name="avg_141_nights_1#1$1",focus="m")]
+[name="夜烟"]……我们才第一次见面，你就告诉我这么多你们的信息？
+[Dialog]
+[charslot(slot="m",focus="none")]
+[name="大女巫格兰特"]那又怎么样呢？我们都是一样的人。
+[name="大女巫格兰特"]越狱的窃贼、被赶出家门的感染者、丢了工作的工人……
+[name="大女巫格兰特"]不过在这里，我们就是巫女林的女巫，我们都是彼此的同伴。
+[name="大女巫格兰特"]小家伙，你愿意加入我们吗？
+[Dialog]
+[charslot]
+倒霉的人点了点头。她接受了大女巫的提议，接过了女巫们递来的食物。
+虽然看上去只是干硬的面包碎泡在由土豆和肥腻的肉渣做成的浓汤里，但对于已经饿了很多很多天的她来说，这实在是太香了。
+更何况，这里给了她一种……被接纳的感觉。
+[Dialog]
+[charslot]
+[name="奇异的生物"]喵？
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_141_nights_1#5$1",focus="m")]
+[name="夜烟"]欸？这是什么？
+[name="夜烟"]欸？它用鼻子碰我干什么？
+[Dialog]
+[charslot(slot="m",focus="none")]
+[name="大女巫格兰特"]啊，这是“猫猫”，我们都这样叫它们。不知道为什么，它们总是在我们身边转悠。
+[name="大女巫格兰特"]唔，用鼻子轻轻地碰一碰你，它这是欢迎你呢。
+[charslot(slot="m",name="avg_141_nights_1#1$1",focus="m")]
+[name="夜烟"]猫猫……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0.8, amount=0, block=true)]
+[Background(image="bg_deluxeroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=0.5)]
+就这样，那个倒霉的人选择成为一名女巫。
+为什么要叫“女巫”呢？为什么要新起一个名字呢？她想了很久。
+后来她觉得，或许因为这样，她们就不再是被抛弃的感染者，而是自由的女巫，她们就可以自己接纳自己。
+接下来……
+[Dialog]
+[charslot(slot="l",name="avg_141_nights_1#8$1",duration=0.5)]
+[charslot(slot="r",name="avg_npc_661_1#1$1",duration=0.5)]
+[Delay(time=0.8)]
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]——接下来，是不是就是小女巫跟着大女巫学习各种魔法，然后外出冒险的奇遇记？
+[charslot(slot="l",name="avg_141_nights_1#8$1",focus="l")]
+[name="夜烟"]“奇遇记”？唔，天真的小家伙，“黑色奇遇记”会更贴切哦。
+[name="夜烟"]接下来的故事会很恐怖哦，你不害怕吗？
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]不怕！
+[charslot(slot="l",name="avg_141_nights_1#8$1",focus="l")]
+[name="夜烟"]嗯嗯，那我就继续了。
+[name="夜烟"]在巫女林，每一个女巫都将自己会的东西毫无保留地教给其他人。
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]那女巫们是不是会很多东西？
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]是的。但你知道这是为什么吗？
+[charslot(slot="l",name="avg_141_nights_1#1$1")]
+[charslot(slot="r",name="avg_npc_661_1#1$1")]
+[name="夜烟/小柏莎"]因为这样她们才能在野外，在军队的追捕之下活下来。/因为姐姐们有魔法呀！
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]嗯？姐姐，你刚才说什么？
+[charslot(slot="l",name="avg_141_nights_1#9$1",focus="l")]
+[name="夜烟"]……算了，没什么。
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]我看书里说，女巫都会很多魔法！比如让讨厌的人变成癞皮鳞，还会熬魔法药剂，或者是可以骑着扫帚在天上飞！
+[name="小柏莎"]女巫姐姐，你们也会这些吗？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_campsite_d",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.8, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+魔法……
+是的，女巫们拥有令人羡慕，也令人畏惧的魔法。
+时间一天天过去，女巫的数量越来越多，她们会的也越来越多。
+外面那些想要找到女巫的人已经很难再找到她们的踪迹，甚至时常被她们捉弄——
+[Dialog]
+[charslot(slot="m",name="avg_141_nights_1#1$1",duration=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_141_nights_1#1$1",focus="m")]
+[name="夜烟"]噗，你看那些人又在树林里迷路了。
+[name="夜烟"]只是施加了一个简单的黑雾法术，他们居然能困在这里这么久都走不出去啊。
+[Dialog]
+[charslot(slot="m",focus="none")]
+[name="艾琳"]不知道他们这次来又是为了什么，居然没有带武器。
+[charslot(slot="m",name="avg_141_nights_1#1$1",focus="m")]
+[name="夜烟"]简单~我把领头那个的包偷来就知道了。
+[Dialog]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[PlaySound(key="$d_avg_paper2", volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_141_nights_1#5$1",focus="m")]
+[name="夜烟"]一封信……？
+[Dialog]
+[charslot(slot="m",focus="none")]
+[name="康妮"]“大公爵的邀请”“合作收编”……真的吗？
+[name="康妮"]“提供岗位和安全保障”……我们能回家了？
+[name="苏菲"]怎么可能？骗人的幌子。要是他们的态度真的是这样，我们现在怎么会在这里？
+[charslot(slot="m",name="avg_141_nights_1#9$1",focus="m")]
+[multiline(name="夜烟")]唔……
+[charslot(slot="m",name="avg_141_nights_1#5$1",focus="m")]
+[multiline(name="夜烟")]欸？那边怎么了，怎么吵吵嚷嚷的？
+[Dialog]
+[PlaySound(key="$rungeneral", volume=1)]
+[Delay(time=1)]
+[stopmusic(fadetime=2)]
+[charslot(slot="m",focus="none")]
+[name="大女巫格兰特"]苏菲，让大家收拾东西，赶紧离开这里，米拉传来消息……
+[name="大女巫格兰特"]我们在东边林地的几个小聚居点被军队突袭，情况不明……！
+[charslot(slot="m",name="avg_141_nights_1#5$1",focus="m")]
+[name="夜烟"]——什么？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0.8, amount=0, block=true)]
+[Background(image="bg_deluxeroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=0.5)]
+[playMusic(intro="$drift_intro", key="$drift_loop", volume=0.4)]
+[charslot(slot="l",name="avg_141_nights_1#1$1",duration=0.5)]
+[charslot(slot="r",name="avg_npc_661_1#1$1",duration=0.5)]
+[Delay(time=0.8)]
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]——坏人！
+[name="小柏莎"]打女巫的都是坏人！女巫姐姐，故事接下来一定会是女巫们狠狠地揍这群坏人吧！
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]坏人？你真的这样认为吗？
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]当然！
+[name="小柏莎"]女巫们什么坏事都没有做呀，没做坏事还要打她们，那些人当然就是坏人了！
+[name="小柏莎"]快快快，女巫快点把他们都变成癞皮鳞！变成大臭虫！
+[charslot(slot="l",name="avg_141_nights_1#6$1",focus="l")]
+[name="夜烟"]……噗……
+[name="夜烟"]没错，那些人都是坏人。
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]那女巫们肯定教训了那些坏人吧？
+[charslot(slot="l",name="avg_141_nights_1#9$1",focus="l")]
+[name="夜烟"]嗯……
+[Dialog]
+[charslot]
+“并没有。女巫们被那些人追杀，不得已开始逃亡。”
+“不过女巫们也报复了回去，她们抓住了那些伤害女巫的人。他们对女巫们做过什么，女巫们就对他们做了什么。”
+夜烟本来想这样说。
+但看着小柏莎的眼睛，不知道为什么，话说出口之后变了一个样子。
+[Dialog]
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="none")]
+[name="夜烟"]是的，女巫们教训了那些坏人。
+[name="夜烟"]女巫们抓住了他们，惩罚那些人过来帮她们照看魔法草药。
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]没错，要让他们每天都去松土、浇水、除虫才行！
+[Dialog]
+[charslot]
+“女巫们设立了数道防线，每个人轮流驻守和威慑，甚至有时搭上生命去阻拦敌人的入侵，直到没有人再敢踏足我们所在的地方。”
+[Dialog]
+[charslot(slot="l",name="avg_141_nights_1#8$1",focus="l")]
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="none")]
+[name="夜烟"]之后女巫们给那些坏人绑上会飞的扫帚，把他们远远地丢了出去，让他们再也不敢过来。
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]哈哈哈，他们肯定吓到尿裤子啦！
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]当然，女巫们有时候也会被坏人抓住。
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]啊……怎么会这样……那她们该怎么办？
+[Dialog]
+[charslot]
+“那些被抓走的女巫有的被我们救了回来，有的受了伤，更多的是因为过度使用源石技艺导致矿石病急性发作，永远地离开了我们。”
+“即使这样，那些人仍旧高高在上，不断地传信来劝说我们‘合作收编’。”
+[Dialog]
+[charslot(slot="l",name="avg_141_nights_1#9$1",focus="l")]
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="none")]
+[name="夜烟"]被抓到的女巫们……会短暂地失去她们的魔法。
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]不过不用担心，奇妙的“猫猫”会保护她们。它们会用尾巴轻轻拂过伤口，女巫们的魔法就会恢复了。
+[name="夜烟"]她们会再次回到巫女林，回到同伴们的身边。
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]嘿嘿，真好！
+[name="小柏莎"]那，最后呢？最后女巫们怎么样了？
+[charslot(slot="l",name="avg_141_nights_1#3$1",focus="l")]
+[name="夜烟"]最后啊……
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]嗯嗯！
+[name="小柏莎"]女巫姐姐，故事的结局是什么？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_ltruins",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.8, block=true)]
+[PlaySound(key="$burningloop1", volume=0.8, loop=true, channel="fire")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="大女巫格兰特"]——快走！
+[name="苏菲"]夜烟，走，不要浪费时间！
+[Dialog]
+[charslot(slot="m",name="avg_141_nights_1#2$1",duration=0.5)]
+[Delay(time=0.5)]
+[charslot(slot="m",name="avg_141_nights_1#2$1",focus="m")]
+[name="夜烟"]不行！我的源石技艺可以隐匿身形，我可以留下来帮你！
+[Dialog]
+[charslot(slot="m",focus="none")]
+[name="大女巫格兰特"]没事，相信我。
+[name="大女巫格兰特"]我的源石技艺是我们当中最厉害的，我来殿后，我会去找你们。
+[charslot(slot="m",name="avg_141_nights_1#2$1",focus="m")]
+[name="夜烟"]——格兰特！
+[Dialog]
+[charslot]
+没有人回答女巫的呼喊。她被拽着死命奔跑，在视野被充血的红色淹没之前，她冲着大女巫所在的位置拼尽全力施放了自己的源石技艺。
+她希望那片黑雾能够遮挡住格兰特的身形，让炮火没那么容易找到目标。
+她在心里想，格兰特那么厉害，几乎什么都会，承诺的一切事情都做到了，那这次也一定能够做到，她们一定会再次相见。
+[Dialog]
+[CameraShake(duration=0.3, xstrength=60, ystrength=60, vibrato=80, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_explosion")]
+[delay(time=1.5)]
+但很快，爆炸带来的剧烈气浪掀翻了已经跑出数百米的她们，刚刚安慰好自己的女巫甚至忘记了应该如何呼吸。
+[Dialog]
+[charslot(slot="m",name="avg_141_nights_1#2$1",focus="m")]
+[name="夜烟"]……格、格兰特……？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[stopsound(channel="fire")]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0.8, amount=0, block=true)]
+[Background(image="bg_deluxeroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=0.5)]
+夜烟张了张嘴，这个故事的结局在她的心里出现过千百遍，那天炮火的呛味仿佛还藏在她帽子层层叠叠的布缝中。
+但她看着抱着布娃娃，等待她继续讲睡前故事结局的小柏莎——
+夜烟沉默了。
+[Dialog]
+[charslot(slot="m",name="avg_141_nights_1#3$1",duration=0.5)]
+[Delay(time=0.5)]
+[PlaySound(key="$d_avg_magic_1", volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_141_nights_1#1$1",focus="m")]
+[name="夜烟"]……睡吧。
+[charslot(slot="m",name="avg_141_nights_1#1$1",focus="n")]
+[name="小柏莎"]唔……
+[charslot(slot="m",name="avg_141_nights_1#4$1",focus="m")]
+[name="夜烟"]我还有事情要做。
+[Dialog]
+[stopmusic(fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[Background(image="bg_ltroom",screenadapt="coverall")]
+[playMusic(key="$darkness_03_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_141_nights_1#1$1",duration=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_141_nights_1#1$1",focus="m")]
+[name="夜烟"]（就是这里。）
+[Dialog]
+[charslot]
+平静均匀的呼吸声从床上传来，房间的主人完全没有注意到这里已经闯入了一个不速之客。
+[Dialog]
+[charslot(slot="m",name="avg_141_nights_1#1$1",focus="m")]
+[name="夜烟"]（已经睡了？）
+[name="夜烟"]（嗯？这是什么……？）
+[Dialog]
+[PlaySound(key="$d_avg_paper1", volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_141_nights_1#9$1",focus="m")]
+[name="夜烟"]《感染者最低生活保障条例》《感染者社区治安维护法则》……
+[name="夜烟"]……提案人，班杰明议员……？
+[charslot(slot="m",name="avg_141_nights_1#3$1",focus="m")]
+[name="夜烟"]……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="l",name="avg_141_nights_1#1$1",duration=0.8)]
+[charslot(slot="r",name="avg_npc_1257_1#1$1",duration=0.8)]
+[Delay(time=1)]
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]不用尝试挣扎，你已经被我用锁链锁在椅子上了。
+[name="夜烟"]真是不好意思~打扰了你的美梦。
+[charslot(slot="r",name="avg_npc_1257_1#1$1",focus="r")]
+[name="班杰明议员"]你是……
+[charslot(slot="l",name="avg_141_nights_1#4$1",focus="l")]
+[name="夜烟"]认不出来了吗？当年带领军队去轰击我们的时候，你可不是这样健忘啊。
+[charslot(slot="r",name="avg_npc_1257_1#1$1",focus="r")]
+[name="班杰明议员"]……女巫。
+[name="班杰明议员"]哈……你要带我去巫女林接受你们的审判，还是打算在这里直接杀了我？
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]你怎么比我还要着急？我还有话想和你说呢。
+[charslot(slot="r",name="avg_npc_1257_1#1$1",focus="r")]
+[name="班杰明议员"]不……我知道这一天一定会到来的，我也已经做好了准备……
+[name="班杰明议员"]当年……当年是大公爵下的命令没有错。一群突然出现的感染者术师，我们和威灵顿那边互相怀疑巫女林是对方搞的把戏。
+[name="班杰明议员"]我也认同一个不受控制的感染者术师团体会对城市，甚至是对国家产生极大的隐患。
+[name="班杰明议员"]我们也想过收编巫女林。当然，我们会囚禁你们，而不是像许诺的那样给予你们诸多保障，因为这才是最能确保普通人安全的做法。
+[name="班杰明议员"]但你们开始反抗，甚至十分激烈，这是大公爵最不愿意看到的局面——军队会遭受损失，要是消息走漏，与感染者的矛盾还会急剧恶化。
+[charslot(slot="l",name="avg_141_nights_1#4$1",focus="l")]
+[name="夜烟"]你——
+[charslot(slot="r",name="avg_npc_1257_1#1$1",focus="r")]
+[name="班杰明议员"]我并不是要说你们就不应该反抗，但是站在当时我们的角度，你们的反抗带来了一个最坏的结果，一个对大家都没有好处的结果。
+[name="班杰明议员"]当年是我支持大公爵的决定，也是我带领着军队去清除的巫女林，我全都承认。
+[charslot(slot="l",name="avg_141_nights_1#10$1",focus="l")]
+[name="夜烟"]你倒是很坦诚。
+[charslot(slot="r",name="avg_npc_1257_1#1$1",focus="r")]
+[name="班杰明议员"]……
+[Dialog]
+[charslot]
+夜烟的目光划过通往楼下的走廊，还有放在桌上的几本议案。
+[Dialog]
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_1257_1#1$1",focus="none")]
+[name="夜烟"]……你没有什么别的话想说吗？
+[charslot(slot="r",name="avg_npc_1257_1#1$1",focus="r")]
+[name="班杰明议员"]没有了。当年我做了那些事，现在你来找我，我没有什么要说的。
+[name="班杰明议员"]……不过，我确实还有一个请求……
+[name="班杰明议员"]你离开的时候，能否帮我锁上卧室门？我的女儿还在楼下，我不想……
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n", volume=1)]
+[Delay(time=1.2)]
+[charslot(slot="m",name="avg_npc_1257_1#1$1",focus="m")]
+[name="班杰明议员"]……？
+[Dialog]
+[PlaySound(key="$d_avg_key")]
+[Delay(time=1.2)]
+[charslot(slot="m",name="avg_npc_1257_1#1$1",focus="n")]
+叮铃！
+清脆的金属声在屋子中响起，一枚小巧的钥匙从夜烟的袖口掉落，落在一旁的书桌上。
+议员觉察出，这应该是捆住自己手脚的锁链的钥匙。
+[Dialog]
+[charslot(slot="m",name="avg_npc_1257_1#1$1",focus="m")]
+[name="班杰明议员"]这……
+[Dialog]
+[charslot]
+夜烟将它放在了那几本维护感染者利益的议案旁边。
+随后她沉默地转身下楼。
+[Dialog]
+[stopmusic(fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[charslot(slot="l",name="avg_141_nights_1#1$1")]
+[Background(image="bg_deluxeroom",screenadapt="coverall")]
+[playMusic(intro="$warm_intro", key="$warm_loop", volume=0.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=1)]
+[charslot(slot="r",name="avg_npc_661_1#1$1",duration=0.8)]
+[Delay(time=1)]
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]唔，女巫姐姐……？
+[name="小柏莎"]我刚才好像不小心睡着了，一醒来就发现女巫姐姐不见了……
+[name="小柏莎"]我应该要和女巫姐姐说再见和谢谢才行的，爸爸说这样才是有礼貌的孩子该做的事情……
+[Dialog]
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]……
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]欸，女巫姐姐，你怎么不说话呀？
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]没什么。小柏莎，刚才的故事我还没有讲完。
+[name="夜烟"]你还想继续听吗？
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]嗯嗯，当然想啦！
+[charslot(slot="l",name="avg_141_nights_1#9$1",focus="l")]
+[name="夜烟"]好。
+[name="夜烟"]这个故事的结局是这样的——
+[name="夜烟"]当年的女巫没能打过那群坏人，不过，巫女林还剩下最后一个女巫。
+[name="夜烟"]那个女巫一直在漫无目的地四处流浪，有时她会用魔法变出食物果腹，有时她会教那些有女巫梦想的女孩如何成为新的小女巫。
+[name="夜烟"]在度过了一段最艰难的日子之后，那个女巫已经不用再为了各种琐事而发愁，她现在也有了新的事情可以做。
+[name="夜烟"]比如……
+[Dialog]
+[charslot]
+夜烟抬起手，一团团黑雾在小柏莎的眼前凝聚。
+随后，黑雾变幻着形状，变成了一只黑色的猫猫，一把乱飞的扫帚，还有一动一动似乎在咕咕叫的癞皮鳞。
+[Dialog]
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[charslot(slot="l",name="avg_141_nights_1#9$1",focus="none")]
+[name="小柏莎"]哇……！
+[charslot(slot="l",name="avg_141_nights_1#8$1",focus="l")]
+[name="夜烟"]……比如在晚上给没有睡着的小朋友变一个女巫的魔法。
+[Dialog]
+[charslot]
+小柏莎欢呼了一声，跑向屋子的角落，从窝里抱来两只毛茸茸的小家伙。
+[Dialog]
+[charslot(slot="m",name="avg_npc_661_1#1$1",focus="m")]
+[name="小柏莎"]小黑黑，小煤球，快过来……
+[Dialog]
+[charslot]
+[name="小黑黑&小煤球"]咕？
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_661_1#1$1",focus="m")]
+[name="小柏莎"]女巫姐姐，这是我的“黑猫”！来，碰碰鼻子！
+[Dialog]
+[charslot]
+[name="小黑黑＆小煤球"]（碰碰鼻子）
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_141_nights_1#5$1",focus="m")]
+[name="夜烟"]欸？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[Background(image="bg_fogwoods",screenadapt="coverall")]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.8, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=0.5)]
+[name="奇异的生物"]喵？
+[Dialog]
+[charslot(slot="m",name="avg_141_nights_1#5$1",focus="m")]
+[name="夜烟"]欸？这是什么？
+[name="夜烟"]欸？它用鼻子碰我干什么？
+[Dialog]
+[charslot(slot="m",focus="none")]
+[name="大女巫格兰特"]啊，这是“猫猫”，我们都这样叫它们。不知道为什么，它们总是在我们身边转悠。
+[name="大女巫格兰特"]唔，用鼻子轻轻地碰一碰你，它这是欢迎你呢。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0.8, amount=0, block=true)]
+[Background(image="bg_deluxeroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[Delay(time=0.5)]
+[charslot(slot="l",name="avg_141_nights_1#1$1",duration=0.5)]
+[charslot(slot="r",name="avg_npc_661_1#1$1",duration=0.5)]
+[Delay(time=0.8)]
+[charslot(slot="l",name="avg_141_nights_1#9$1",focus="l")]
+[name="夜烟"]……
+[name="夜烟"]小柏莎，你想成为一名女巫吗？
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]想啊，当然想啦！
+[name="小柏莎"]这是我给自己准备的女巫帽、魔法扫帚，还有小黑黑和小煤球两只“猫猫”！
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[delay(time=2)]
+夜烟将那顶帽子戴在了小柏莎的头上。
+[Dialog]
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="none")]
+[name="夜烟"]灰山地的先贤见证一切。见证一位新人的加入，见证一个新的灵魂……
+[name="夜烟"]小柏莎，你现在是一名女巫了。
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]那，女巫姐姐，我应该做什么呢？
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]像你之前自己在故事书里看的那样，学一些有趣的魔法，去外面认识其他小女巫……都可以。
+[charslot(slot="r",name="avg_npc_661_1#1$1",focus="r")]
+[name="小柏莎"]咦，不用像你讲的故事里那样去打坏人吗？
+[charslot(slot="l",name="avg_141_nights_1#9$1",focus="l")]
+[name="夜烟"]嗯，不用了。
+[name="夜烟"]在我加入巫女林的那一天，大女巫就告诉我，不论之前是什么身份，你都可以成为一个女巫。
+[name="夜烟"]女巫都是自由的，小柏莎。
+[name="夜烟"]不用为了活下去而奔波，只需要做一些能够让自己开心的事，你做你想成为的那个女巫就好，我也是。
+[charslot(slot="l",name="avg_141_nights_1#1$1",focus="l")]
+[name="夜烟"]我想，格兰特一定会很开心看到现在的女巫吧？
+[Dialog]
+[charslot]
+小柏莎露出了似懂非懂的表情，但仍旧用力地点了点头。
+夜烟轻盈地跃上窗台，黑雾弥漫而后又散去，她也消失在了夜色中。风吹拂着窗帘，仿佛什么都没有发生过。
+今晚，女巫故事又翻开了新的一页。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=1)]
