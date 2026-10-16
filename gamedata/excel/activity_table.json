@@ -1,5 +1,27 @@
 {
   "basicInfo": {
+    "act4video": {
+      "id": "act4video",
+      "type": "CHECKIN_VIDEO",
+      "displayType": "NONE",
+      "name": "恒远津梁限时登录",
+      "startTime": 1792137600,
+      "endTime": 1793303999,
+      "rewardEndTime": 1793303999,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": [],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 1,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act52side": {
       "id": "act52side",
       "type": "TYPE_ACT9D0",
@@ -7338,6 +7360,13 @@
     }
   },
   "homeActConfig": {
+    "act4video": {
+      "actId": "act4video",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "1e59db",
+      "actTopBarText": "恒远津梁限时登录"
+    },
     "act63sign": {
       "actId": "act63sign",
       "isPopupAfterCheckin": false,
@@ -407073,6 +407102,119 @@
         "dayCount": 30
       }
     },
+    "act4video": {
+      "checkInList": {
+        "0": {
+          "itemList": [
+            {
+              "id": "furni_guotu_wallset_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          ],
+          "order": 1,
+          "introImgList": [
+            "act4video_bg_1",
+            "act4video_title_1",
+            "act4video_name",
+            "act4video_logo"
+          ],
+          "shareImgList": [],
+          "videoId": null,
+          "picId": null,
+          "mainBtnTxt": "点击领取",
+          "mainBtnAfterClickTxt": "已领取",
+          "hasSecondBtn": false,
+          "secondBtnCol": "303030",
+          "secondBtnTxtCol": "303030",
+          "secondBtnTxt": "查看书单",
+          "secondBtnLink": null,
+          "signLockedTxt": "登录{0}天解锁",
+          "hasShareBtn": false,
+          "mainBgCol": "ffffff",
+          "blurCol": "ffffff",
+          "newCol": "00ddff",
+          "mainBtnCol": "838383",
+          "mainBtnLightCol": "ffffff",
+          "progressDotCol": "202020",
+          "unreceivedBtnBgCol": "0050fd",
+          "unreceivedBtnTxtCol": "ffffff"
+        },
+        "1": {
+          "itemList": [
+            {
+              "id": "furni_guotu_sofa_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          ],
+          "order": 2,
+          "introImgList": [
+            "act4video_bg_2",
+            "act4video_title_2",
+            "act4video_name",
+            "act4video_logo"
+          ],
+          "shareImgList": [],
+          "videoId": null,
+          "picId": null,
+          "mainBtnTxt": "点击领取",
+          "mainBtnAfterClickTxt": "已领取",
+          "hasSecondBtn": false,
+          "secondBtnCol": "303030",
+          "secondBtnTxtCol": "303030",
+          "secondBtnTxt": "查看书单",
+          "secondBtnLink": null,
+          "signLockedTxt": "登录{0}天解锁",
+          "hasShareBtn": false,
+          "mainBgCol": "ffffff",
+          "blurCol": "ffffff",
+          "newCol": "00ddff",
+          "mainBtnCol": "838383",
+          "mainBtnLightCol": "ffffff",
+          "progressDotCol": "202020",
+          "unreceivedBtnBgCol": "0050fd",
+          "unreceivedBtnTxtCol": "ffffff"
+        },
+        "2": {
+          "itemList": [
+            {
+              "id": "furni_guotu_shelf_01",
+              "count": 1,
+              "type": "FURN"
+            }
+          ],
+          "order": 3,
+          "introImgList": [
+            "act4video_bg_3",
+            "act4video_title_3",
+            "act4video_name",
+            "act4video_logo"
+          ],
+          "shareImgList": [],
+          "videoId": null,
+          "picId": null,
+          "mainBtnTxt": "点击领取",
+          "mainBtnAfterClickTxt": "已领取",
+          "hasSecondBtn": false,
+          "secondBtnCol": "303030",
+          "secondBtnTxtCol": "303030",
+          "secondBtnTxt": "查看书单",
+          "secondBtnLink": null,
+          "signLockedTxt": "登录{0}天解锁",
+          "hasShareBtn": false,
+          "mainBgCol": "ffffff",
+          "blurCol": "ffffff",
+          "newCol": "00ddff",
+          "mainBtnCol": "838383",
+          "mainBtnLightCol": "ffffff",
+          "progressDotCol": "202020",
+          "unreceivedBtnBgCol": "0050fd",
+          "unreceivedBtnTxtCol": "ffffff"
+        }
+      },
+      "apSupplyOutOfDateDict": {}
+    },
     "act3video": {
       "checkInList": {
         "0": {
@@ -413289,6 +413431,22 @@
       ],
       "picGroups": [],
       "startTs": 1791500400
+    },
+    {
+      "id": "dis_rogue_6_enroll_1",
+      "type": 4,
+      "funcId": "rogue_6_entry_display_2",
+      "endTs": 1792699199,
+      "sortId": 165,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "集成战略<沉沦者的黑流树海>旧日重燃已开启",
+          "ts": 1792137600
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1792137600
     }
   ],
   "actFunData": {
