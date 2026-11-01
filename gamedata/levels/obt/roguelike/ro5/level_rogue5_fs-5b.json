@@ -514,7 +514,7 @@
         "effects": []
       },
       {
-        "tileKey": "tile_end_dqq",
+        "tileKey": "tile_end",
         "heightType": 0,
         "buildableType": 0,
         "passableMask": 3,
@@ -1835,6 +1835,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "blockVolume": {
+            "m_defined": false,
+            "m_value": -1
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -2022,6 +2026,10 @@
           "epBreakRecoverSpeed": {
             "m_defined": false,
             "m_value": 0.0
+          },
+          "blockVolume": {
+            "m_defined": false,
+            "m_value": -1
           },
           "stunImmune": {
             "m_defined": false,
@@ -2211,6 +2219,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "blockVolume": {
+            "m_defined": false,
+            "m_value": -1
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -2398,6 +2410,10 @@
           "epBreakRecoverSpeed": {
             "m_defined": false,
             "m_value": 0.0
+          },
+          "blockVolume": {
+            "m_defined": false,
+            "m_value": -1
           },
           "stunImmune": {
             "m_defined": false,
@@ -2587,6 +2603,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "blockVolume": {
+            "m_defined": false,
+            "m_value": -1
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -2774,6 +2794,10 @@
           "epBreakRecoverSpeed": {
             "m_defined": false,
             "m_value": 0.0
+          },
+          "blockVolume": {
+            "m_defined": false,
+            "m_value": -1
           },
           "stunImmune": {
             "m_defined": false,
@@ -3093,7 +3117,7 @@
               "randomSpawnGroupPackKey": "a1",
               "randomType": 0,
               "refreshType": 0,
-              "weight": 100,
+              "weight": 0,
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
@@ -3118,7 +3142,7 @@
               "randomSpawnGroupPackKey": "a1",
               "randomType": 0,
               "refreshType": 0,
-              "weight": 100,
+              "weight": 0,
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,

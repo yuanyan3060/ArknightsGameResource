@@ -2677,7 +2677,56 @@
       "visitEveryCheckPoint": false
     }
   ],
-  "extraRoutes": [],
+  "extraRoutes": [
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    }
+  ],
   "enemies": [],
   "enemyDbRefs": [
     {
@@ -3491,14 +3540,159 @@
       "advancedWaveTag": null
     }
   ],
-  "branches": {},
+  "branches": {
+    "predefined_character": {
+      "phases": [
+        {
+          "preDelay": 0.0,
+          "actions": [
+            {
+              "actionType": 6,
+              "managedByScheduler": true,
+              "key": "char_4193_lemuen#1",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 0,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 6,
+              "managedByScheduler": true,
+              "key": "char_4138_narant#1",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 1,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            }
+          ],
+          "m_randomActionGroups": {},
+          "m_actionWithRandomSpawn": [],
+          "m_validActionPackKeys": []
+        }
+      ]
+    }
+  },
   "predefines": {
+    "characterInsts": [
+      {
+        "position": {
+          "row": 2,
+          "col": 7
+        },
+        "direction": 1,
+        "hidden": true,
+        "alias": "char_4193_lemuen#1",
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "char_4193_lemuen",
+          "level": 90,
+          "phase": 2,
+          "favorPoint": 50,
+          "potentialRank": 0
+        },
+        "skillIndex": 0,
+        "mainSkillLvl": 10,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      },
+      {
+        "position": {
+          "row": 4,
+          "col": 3
+        },
+        "direction": 3,
+        "hidden": true,
+        "alias": "char_4138_narant#1",
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "char_4138_narant",
+          "level": 90,
+          "phase": 2,
+          "favorPoint": 50,
+          "potentialRank": 0
+        },
+        "skillIndex": 0,
+        "mainSkillLvl": 10,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      }
+    ],
+    "tokenInsts": [
+      {
+        "position": {
+          "row": 3,
+          "col": 4
+        },
+        "direction": 0,
+        "hidden": false,
+        "alias": "trap_346_msos#1",
+        "uniEquipIds": [],
+        "showSpIllust": false,
+        "masterInfos": [],
+        "inst": {
+          "characterKey": "trap_346_msos",
+          "level": 1,
+          "phase": 0,
+          "favorPoint": 0,
+          "potentialRank": 0
+        },
+        "skillIndex": 0,
+        "mainSkillLvl": 1,
+        "skinId": "",
+        "tmplId": null,
+        "overrideSkillBlackboard": [],
+        "overrideTalents": []
+      }
+    ],
+    "characterCards": [],
+    "tokenCards": []
+  },
+  "hardPredefines": {
     "characterInsts": [],
     "tokenInsts": [],
     "characterCards": [],
     "tokenCards": []
   },
-  "hardPredefines": null,
   "excludeCharIdList": [],
   "randomSeed": 875354927,
   "operaConfig": null,
