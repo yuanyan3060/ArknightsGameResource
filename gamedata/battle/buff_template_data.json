@@ -572867,6 +572867,16 @@
               "_abnormalCombo": "ISOLATE",
               "_targetType": "BUFF_OWNER",
               "_isUnset": false
+            },
+            {
+              "$type": "Torappu.Battle.Action.Nodes+IsTargetGiantBoss, Assembly-CSharp",
+              "_target": "BUFF_OWNER"
+            },
+            {
+              "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalImmune, Assembly-CSharp",
+              "_abnormalFlag": "TELEPORTED",
+              "_targetType": "BUFF_OWNER",
+              "_isUnset": false
             }
           ],
           "_succeedNodes": null,

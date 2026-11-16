@@ -15,6 +15,8 @@ local AutoChessObModel = CS.Torappu.Battle.AutoChess.AutoChessObModel
 local AutoChessGameStatus = CS.Torappu.Battle.AutoChess.AutoChessGameStatus
 
 local AutoChessDataCenter = CS.Torappu.Battle.DataCenter.AutoChessDataCenter
+local AutoChessGameStateType = CS.Torappu.AutoChessGameStateType
+local AutoChessBattleConst = CS.Torappu.Battle.AutoChessBattleConst
 
 
 local BATTLE_WAIT_UI_TIME = 0.3
@@ -69,6 +71,26 @@ end
 
 
 
+local function _StartBattle(self)
+  return util.cs_generator(function()
+    self:DoLoadGameInternal()
+    self:_ResetBattleInfo()
+
+    coroutine.yield(Yields.sharedWaitForFixedUpdate)
+
+    if self.gameStatus.inBossBattleState and not self.isTrainingMode then
+      self.inStepMode = true
+      BattleController.ReqChangeDeltaTimeFPInStepMode(AutoChessBattleConst.DELTA_TIME_FP_IN_STEPMODE)
+      self.stepModeManager:Start()
+    end
+    coroutine.yield(self.battleEntityManager:DoBattlePreSpawn())
+    BattleController.instance.speedLevel = self.hookSpeedLevel
+  end)
+end
+
+
+
+
 
 local s_cachedRealIndex = 0
 
@@ -112,7 +134,7 @@ local function _RefreshSpEnemyPreviewIfLoading(dataCenter, playerIndex)
     return
   end
   local enemyPreviewer = gameManager.enemyPreviewer
-  if playerIndex == dataCenter.playerViewIndex and gameStatus.inMainPrepareState and enemyPreviewer.inLoading then
+  if playerIndex == dataCenter.playerViewIndex and gameStatus.inPreloadSubState and enemyPreviewer.inLoading then
     enemyPreviewer:RefreshSpEnemy()
   end
 end
@@ -165,6 +187,48 @@ function AutoChessGameManagerHotfixer:OnInit()
   self:Fix_ex(AutoChessDataCenter, "UpdatePlayerBattleData", function(self, playerIndex)
     self:UpdatePlayerBattleData(playerIndex)
     _RefreshSpEnemyPreviewIfLoading(self, playerIndex)
+  end)
+
+  
+  
+  
+  
+  self:Fix(AutoChessGameManager, "UpdateGameState", function(self, newState, roundChanged)
+    local nextState = self:_GetNextState(newState, roundChanged)
+    self.serverState = newState
+    local gameStatus = self.gameStatus
+    gameStatus:UpdateState(nextState)
+    if self.inStepMode then
+      if nextState == AutoChessGameStateType.BOSS_BATTLE and gameStatus.inBossBattleState then
+        
+        return
+      end
+      self.inStepMode = false
+      self.stepModeManager:Reset()
+      BattleController.RestoreDeltaTimeScale()
+    end
+  end)
+
+  
+  
+  
+  self:Fix_ex(AutoChessObModel, "SetCurrentPlayerView", function(self, index)
+    if self.m_playerViewIndex == index and index > 0 and not (self.hasDeadObIndex and index == self.m_selfPlayerIndex) then
+      return true
+    end
+    return self:SetCurrentPlayerView(index)
+  end)
+  self:Fix_ex(AutoChessObModel, "SetDeadObIndex", function(self, obIndex)
+    if self.m_deadObIndex == obIndex then
+      return
+    end
+    self:SetDeadObIndex(obIndex)
+  end)
+
+  
+  
+  self:Fix(AutoChessGameManager, "StartBattle", function(self)
+    return _StartBattle(self)
   end)
 end
 

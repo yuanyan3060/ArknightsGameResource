@@ -45,6 +45,16 @@ function AutoChessStepModeManagerHotfixer:OnInit()
 
   
   
+  self:Fix_ex(AutoChessStepModeManager, "_ReqCharBattleStatusChanged", function(self, character, state)
+    local gameManager = self.gameManager
+    if gameManager ~= nil and gameManager.battleEntityManager.inBattlePrespawn then
+      return
+    end
+    self:_ReqCharBattleStatusChanged(character, state)
+  end)
+
+  
+  
   self:Fix_ex(AutoChessStepModeManager, "_OnNewSummonedEnemyReachExit", function(self, enemy)
     local actions = self.m_cachedActions
     local countBefore = actions.Count

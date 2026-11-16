@@ -22,6 +22,8 @@ local list =
   "Hotfixes/AutoChessStepModeManagerHotfixer",
   "Hotfixes/AutoChessHelpBattleCntHotfixer",
   "Hotfixes/AutoChessMainGameInHelpBattleHotfixer",
+  "Hotfixes/UIControllerHotfixer",
+  "Hotfixes/AutoChessEmotionalManagerHotfixer",
 };
 
 return list;
