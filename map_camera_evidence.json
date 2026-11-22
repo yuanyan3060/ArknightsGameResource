@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "decoderFingerprint": "33bf2f9283260d608f6f4e6334d1d557d022d61de0e67dd52fc77cc1119868fd",
+  "decoderFingerprint": "d5d0ecfc051a34430bbf5ac7c797965bd06714c9033fd6e642f0dd64c32c3ba3",
   "commonManifestEntry": {
     "hash": "86629c3388e731e4253ef496adb73934",
     "md5": "8da3a641a53f8f3105884dd8a22aa0db"
@@ -615,7 +615,7 @@
       "md5": "1cc3"
     }
   },
-  "complete": false,
+  "complete": true,
   "bundles": {
     "scenes/activities/a001/level_a001_ex01/level_a001_ex01.ab": {
       "manifestEntry": {
@@ -15874,6 +15874,12 @@
         "hash": "480d0d91a2c2ab7d85661558f56ca962",
         "md5": "2b307e7dd6f1775d55031bbefc608b80"
       }
+    },
+    "scenes/activities/act18d0/level_act18d0_06/level_act18d0_06.ab": {
+      "manifestEntry": {
+        "hash": "b2689655c3fe40096b6cb6b2fc571e4b",
+        "md5": "2d63fa4ee20457f6966b7b76c85170ea"
+      }
     }
   },
   "levels": {
@@ -24978,7 +24984,7 @@
       "gamedataInputs": {}
     },
     "obt/legion/lt18/level_lt18_01_ex": {
-      "bundle": "scenes/obt/legion/lt18/level_lt18_01_ex/level_lt18_01_exsettings.ab",
+      "bundle": "scenes/obt/legion/lt18/level_lt18_01_ex/level_lt18_01_ex.ab",
       "autochessFirstSubmap": false,
       "gamedataInputs": {}
     },
@@ -24998,7 +25004,7 @@
       "gamedataInputs": {}
     },
     "obt/legion/lt18/level_lt18_02_ex": {
-      "bundle": "scenes/obt/legion/lt18/level_lt18_02_ex/level_lt18_02_ex.ab",
+      "bundle": "scenes/obt/legion/lt18/level_lt18_02_ex/level_lt18_02_exsettings.ab",
       "autochessFirstSubmap": false,
       "gamedataInputs": {}
     },
@@ -25018,7 +25024,7 @@
       "gamedataInputs": {}
     },
     "obt/legion/lt18/level_lt18_03_ex": {
-      "bundle": "scenes/obt/legion/lt18/level_lt18_03_ex/level_lt18_03_ex.ab",
+      "bundle": "scenes/obt/legion/lt18/level_lt18_03_ex/level_lt18_03_exsettings.ab",
       "autochessFirstSubmap": false,
       "gamedataInputs": {}
     },
@@ -25033,7 +25039,7 @@
       "gamedataInputs": {}
     },
     "obt/legion/lt18/level_lt18_06_ex": {
-      "bundle": "scenes/obt/legion/lt18/level_lt18_06_ex/level_lt18_06_exsettings.ab",
+      "bundle": "scenes/obt/legion/lt18/level_lt18_06_ex/level_lt18_06_ex.ab",
       "autochessFirstSubmap": false,
       "gamedataInputs": {}
     },
@@ -27863,7 +27869,7 @@
       "gamedataInputs": {}
     },
     "obt/sandbox/sandbox_2/level_sandbox2_empty": {
-      "bundle": "scenes/obt/sandbox/sandbox_2/level_sandbox2_empty/level_sandbox2_empty.ab",
+      "bundle": "scenes/obt/sandbox/sandbox_2/level_sandbox2_empty/level_sandbox2_emptysettings.ab",
       "autochessFirstSubmap": false,
       "gamedataInputs": {}
     },
@@ -28444,6 +28450,11 @@
     },
     "obt/sandbox/sandbox_2/level_sandbox2_75": {
       "bundle": "battle/prefabs/levelprefabs/obt/sandbox/sandbox_2/level_sandbox2_75/level_sandbox2_75.ab",
+      "autochessFirstSubmap": false,
+      "gamedataInputs": {}
+    },
+    "activities/act18d0/level_act18d0_06": {
+      "bundle": "scenes/activities/act18d0/level_act18d0_06/level_act18d0_06.ab",
       "autochessFirstSubmap": false,
       "gamedataInputs": {}
     }
